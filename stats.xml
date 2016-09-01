@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>18</sentences><tokens>309</tokens><words>309</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="79" /><!-- ،, ., -, بىر, ئازادە, باقايلى, قانداق, مۇھىتنى, ئارزۇيىمىز, ئارقىلىق, ئاسماننى, ئاقىۋىتىنىڭ, ئالدىدا, ئورتاق, ئورنىتىلغان -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="11">
+    <tag name="ADJ">30</tag><!-- _ -->
+    <tag name="ADP">9</tag><!-- _ -->
+    <tag name="ADV">6</tag><!-- _ -->
+    <tag name="AUX">9</tag><!-- _ -->
+    <tag name="CONJ">3</tag><!-- _ -->
+    <tag name="NOUN">105</tag><!-- _ -->
+    <tag name="NUM">12</tag><!-- _ -->
+    <tag name="PRON">18</tag><!-- _ -->
+    <tag name="PUNCT">63</tag><!-- _ -->
+    <tag name="SCONJ">3</tag><!-- _ -->
+    <tag name="VERB">51</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="1">
+    <feat name="NumType" value="Card" upos="NUM">12</feat><!-- بىر, بىرىدە -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="23">
+    <dep name="advcl">18</dep>
+    <dep name="advmod">6</dep>
+    <dep name="amod">12</dep>
+    <dep name="appos">3</dep>
+    <dep name="aux">12</dep>
+    <dep name="case">3</dep>
+    <dep name="cc">9</dep>
+    <dep name="compound">12</dep>
+    <dep name="conj">15</dep>
+    <dep name="cop">9</dep>
+    <dep name="dep">3</dep>
+    <dep name="dobj">27</dep>
+    <dep name="iobj">6</dep>
+    <dep name="mark">12</dep>
+    <dep name="nmod">24</dep>
+    <dep name="nmod:clas">9</dep>
+    <dep name="nmod:loc">6</dep>
+    <dep name="nmod:poss">18</dep>
+    <dep name="nsubj">9</dep>
+    <dep name="nummod">9</dep>
+    <dep name="parataxis">6</dep>
+    <dep name="punct">63</dep>
+    <dep name="root">18</dep>
+  </deps>
+</treebank>
