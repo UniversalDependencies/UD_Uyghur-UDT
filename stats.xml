@@ -5,27 +5,27 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>3468</sentences><tokens>40442</tokens><words>40442</words><fused>0</fused></total>
+    <total><sentences>3474</sentences><tokens>40545</tokens><words>40545</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="12064" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئىدى -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
-    <tag name="ADJ">2803</tag><!-- _ -->
-    <tag name="ADP">515</tag><!-- _ -->
-    <tag name="ADV">1044</tag><!-- _ -->
-    <tag name="AUX">929</tag><!-- _ -->
-    <tag name="CONJ">756</tag><!-- _ -->
+    <tag name="ADJ">2813</tag><!-- _ -->
+    <tag name="ADP">518</tag><!-- _ -->
+    <tag name="ADV">1046</tag><!-- _ -->
+    <tag name="AUX">986</tag><!-- _ -->
+    <tag name="CONJ">755</tag><!-- _ -->
     <tag name="DET">151</tag><!-- _ -->
     <tag name="INTJ">121</tag><!-- _ -->
-    <tag name="NOUN">13167</tag><!-- _ -->
-    <tag name="NUM">1125</tag><!-- _ -->
+    <tag name="NOUN">13202</tag><!-- _ -->
+    <tag name="NUM">1129</tag><!-- _ -->
     <tag name="PART">271</tag><!-- _ -->
-    <tag name="PRON">3185</tag><!-- _ -->
-    <tag name="PUNCT">7811</tag><!-- _ -->
-    <tag name="SCONJ">43</tag><!-- _ -->
-    <tag name="VERB">8451</tag><!-- _ -->
+    <tag name="PRON">3191</tag><!-- _ -->
+    <tag name="PUNCT">7832</tag><!-- _ -->
+    <tag name="SCONJ">46</tag><!-- _ -->
+    <tag name="VERB">8414</tag><!-- _ -->
     <tag name="X">70</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -33,40 +33,58 @@
     <feat name="NumType" value="Card" upos="NUM">1125</feat><!-- بىر, ئىككى, تۆت, ئون, بىرى, بەش, ئۈچ, يۈز, ئالتە, مىڭ -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="34">
-    <dep name="acl">830</dep>
-    <dep name="advcl">1870</dep>
-    <dep name="advmod">1156</dep>
-    <dep name="advmod:emph">75</dep>
-    <dep name="amod">1477</dep>
+  <deps unique="52">
+    <dep name="ADV">11</dep>
+    <dep name="APPOS">1</dep>
+    <dep name="ATT">11</dep>
+    <dep name="AUX">4</dep>
+    <dep name="CL">1</dep>
+    <dep name="CLAS">3</dep>
+    <dep name="COLL">4</dep>
+    <dep name="CONJ">3</dep>
+    <dep name="COORD">6</dep>
+    <dep name="COP">3</dep>
+    <dep name="DAT">2</dep>
+    <dep name="LOC">3</dep>
+    <dep name="OBJ">9</dep>
+    <dep name="POSS">6</dep>
+    <dep name="POST">6</dep>
+    <dep name="PRED">2</dep>
+    <dep name="ROOT">6</dep>
+    <dep name="SUBJ">3</dep>
+    <dep name="acl">853</dep>
+    <dep name="advcl">1963</dep>
+    <dep name="advmod">1270</dep>
+    <dep name="advmod:emph">81</dep>
+    <dep name="amod">1473</dep>
     <dep name="appos">98</dep>
-    <dep name="aux">1256</dep>
-    <dep name="case">418</dep>
-    <dep name="cc">782</dep>
-    <dep name="ccomp">16</dep>
-    <dep name="compound">1004</dep>
-    <dep name="conj">1303</dep>
-    <dep name="cop">687</dep>
-    <dep name="csubj">251</dep>
-    <dep name="dep">1739</dep>
-    <dep name="det">181</dep>
-    <dep name="discourse">146</dep>
-    <dep name="dobj">2133</dep>
-    <dep name="iobj">1595</dep>
-    <dep name="mark">126</dep>
-    <dep name="nmod">3332</dep>
-    <dep name="nmod:abl">494</dep>
-    <dep name="nmod:clas">987</dep>
+    <dep name="aux">1190</dep>
+    <dep name="case">415</dep>
+    <dep name="cc">793</dep>
+    <dep name="ccomp">6</dep>
+    <dep name="compound">1138</dep>
+    <dep name="conj">1340</dep>
+    <dep name="cop">953</dep>
+    <dep name="csubj">152</dep>
+    <dep name="dep">1166</dep>
+    <dep name="discourse">179</dep>
+    <dep name="dobj">2220</dep>
+    <dep name="iobj">1623</dep>
+    <dep name="mark">137</dep>
+    <dep name="nmod">3324</dep>
+    <dep name="nmod:abl">485</dep>
+    <dep name="nmod:clas">1075</dep>
     <dep name="nmod:cmp">49</dep>
-    <dep name="nmod:ins">26</dep>
-    <dep name="nmod:loc">657</dep>
-    <dep name="nmod:poss">1349</dep>
-    <dep name="nsubj">2921</dep>
-    <dep name="nsubj:cop">862</dep>
-    <dep name="nummod">830</dep>
-    <dep name="parataxis">390</dep>
+    <dep name="nmod:ins">33</dep>
+    <dep name="nmod:loc">702</dep>
+    <dep name="nmod:poss">1359</dep>
+    <dep name="nsubj">2859</dep>
+    <dep name="nsubj:cop">838</dep>
+    <dep name="nummod">821</dep>
+    <dep name="parataxis">437</dep>
     <dep name="punct">7811</dep>
     <dep name="root">3468</dep>
-    <dep name="vocative">123</dep>
+    <dep name="vocative">130</dep>
+    <dep name="void">20</dep>
   </deps>
 </treebank>
