@@ -120,7 +120,7 @@
 
 # sent_id s8/ug
 1	qarlighach	_	NOUN	N	_	4	nsubj	_	Translit=qarlighach|Arabic=قارلىغاچ
-2	dëgen	_	VERB	V	_	4	adv:emp	_	Translit=dëgen|Arabic=دېگەن
+2	dëgen	_	VERB	V	_	4	adv:emph	_	Translit=dëgen|Arabic=دېگەن
 3	pesil	_	NOUN	N	_	4	nmod:poss	_	Translit=pesil|Arabic=پەسىل
 4	qushi	_	NOUN	N	_	19	parataxis	_	Translit=qushi|Arabic=قۇشى
 5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
@@ -277,9 +277,9 @@
 12	qarimay	_	VERB	V	_	11	case	_	Translit=qarimay|Arabic=قارىماي
 13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
 14	muzlap	_	NOUN	N	_	15	advcl	_	Translit=muzlap|Arabic=مۇزلاپ
-15	qëtip	_	VERB	V	_	18	acl	_	Translit=qëtip|Arabic=قېتىپ
+15	qëtip	_	VERB	V	_	18	advcl	_	Translit=qëtip|Arabic=قېتىپ
 16	qalay	_	VERB	V	_	15	ccomp	_	Translit=qalay|Arabic=قالاي
-17	dëgen	_	VERB	V	_	16	xxxxxxx	_	Translit=dëgen|Arabic=دېگەن
+17	dëgen	_	VERB	V	_	16	aux	_	Translit=dëgen|Arabic=دېگەن
 18	qarlighachlarni	_	NOUN	N	_	22	dobj	_	Translit=qarlighachlarni|Arabic=قارلىغاچلارنى
 19	terep	_	NOUN	N	_	21	compound:redup	_	Translit=terep|Arabic=تەرەپ
 20	-	_	PUNCT	Y	_	19	punct	_	Translit=-|Arabic=-
@@ -338,12 +338,12 @@
 8	qolliri	_	NOUN	N	_	10	nsubj	_	Translit=qolliri|Arabic=قوللىرى
 9	soghuqta	_	ADJ	A	_	10	advmod	_	Translit=soghuqta|Arabic=سوغۇقتا
 10	qëtip	_	VERB	V	_	12	csubj	_	Translit=qëtip|Arabic=قېتىپ
-11	qalayla	_	VERB	V	_	10	root	_	Translit=qalayla|Arabic=قالايلا
+11	qalayla	_	VERB	V	_	10	aux	_	Translit=qalayla|Arabic=قالايلا
 12	dëgenidi	_	VERB	V	_	0	root	_	Translit=dëgenidi|Arabic=دېگەنىدى
 13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
 
 # sent_id s22/ug
-1	lëkin	_	CONJ	C	_	6	coord	_	Translit=lëkin|Arabic=لېكىن
+1	lëkin	_	CONJ	C	_	6	cc	_	Translit=lëkin|Arabic=لېكىن
 2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
 3	u	_	PRON	P	_	6	nsubj	_	Translit=u|Arabic=ئۇ
 4	bulargha	_	PRON	P	_	6	nmod	_	Translit=bulargha|Arabic=بۇلارغا
@@ -981,7 +981,7 @@
 2	bölektiki	_	NOUN	N	_	3	amod	_	Translit=bölektiki|Arabic=بۆلەكتىكى
 3	tëkistler	_	NOUN	N	_	9	nsubj	_	Translit=tëkistler|Arabic=تېكىستلەر
 4	bu	_	PRON	P	_	5	det	_	Translit=bu|Arabic=بۇ
-5	maqallar	_	NOUN	N	_	9	nobj	_	Translit=maqallar|Arabic=ماقاللار
+5	maqallar	_	NOUN	N	_	9	nsubj	_	Translit=maqallar|Arabic=ماقاللار
 6	toghrisida	_	ADP	R	_	5	case	_	Translit=toghrisida|Arabic=توغرىسىدا
 7	qiziqarliq	_	ADJ	A	_	8	amod	_	Translit=qiziqarliq|Arabic=قىزىقارلىق
 8	hëkayilerni	_	NOUN	N	_	9	dobj	_	Translit=hëkayilerni|Arabic=ھېكايىلەرنى
@@ -1053,7 +1053,7 @@
 16	bolghan	_	VERB	V	_	15	cop	_	Translit=bolghan|Arabic=بولغان
 17	öyge	_	NOUN	N	_	19	nmod	_	Translit=öyge|Arabic=ئۆيگە
 18	tüwrük	_	NOUN	N	_	19	nsubj	_	Translit=tüwrük|Arabic=تۈۋرۈك
-19	qilmaqchi	_	VERB	V	_	20	ccop	_	Translit=qilmaqchi|Arabic=قىلماقچى
+19	qilmaqchi	_	VERB	V	_	20	advcl	_	Translit=qilmaqchi|Arabic=قىلماقچى
 20	boptu	_	VERB	V	_	0	root	_	Translit=boptu|Arabic=بوپتۇ
 21	.	_	PUNCT	Y	_	20	punct	_	Translit=.|Arabic=.
 
@@ -1282,7 +1282,7 @@
 11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
 12	kündüzni	_	NOUN	N	_	14	dobj	_	Translit=kündüzni|Arabic=كۈندۈزنى
 13	kündüz	_	NOUN	N	_	14	nsubj	_	Translit=kündüz|Arabic=كۈندۈز
-14	dëmey	_	VERB	V	_	16	ccop	_	Translit=dëmey|Arabic=دېمەي
+14	dëmey	_	VERB	V	_	16	advcl	_	Translit=dëmey|Arabic=دېمەي
 15	yol	_	NOUN	N	_	16	dobj	_	Translit=yol|Arabic=يول
 16	yürüp	_	VERB	V	_	20	advcl	_	Translit=yürüp|Arabic=يۈرۈپ
 17	,	_	PUNCT	Y	_	16	punct	_	Translit=,|Arabic=،
