@@ -120,7 +120,7 @@
 
 # sent_id s8/ug
 1	qarlighach	_	NOUN	N	_	4	nsubj	_	Translit=qarlighach|Arabic=قارلىغاچ
-2	dëgen	_	VERB	V	_	4	adv:emph	_	Translit=dëgen|Arabic=دېگەن
+2	dëgen	_	VERB	V	_	4	advmod:emp	_	Translit=dëgen|Arabic=دېگەن
 3	pesil	_	NOUN	N	_	4	nmod:poss	_	Translit=pesil|Arabic=پەسىل
 4	qushi	_	NOUN	N	_	19	parataxis	_	Translit=qushi|Arabic=قۇشى
 5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
@@ -130,7 +130,7 @@
 9	baralaydighan	_	VERB	V	_	10	advcl	_	Translit=baralaydighan|Arabic=بارالايدىغان
 10	tursa	_	VERB	V	_	19	advcl:cond	_	Translit=tursa|Arabic=تۇرسا
 11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
-12	nëmishqa	_	PRON	P	_	19	cc	_	Translit=nëmishqa|Arabic=adv
+12	nëmishqa	_	PRON	P	_	19	advmod	_	Translit=nëmishqa|Arabic=نىمىشقا
 13	bu	_	PRON	P	_	14	det	_	Translit=bu|Arabic=بۇ
 14	qarlighachlarni	_	NOUN	N	_	17	dobj	_	Translit=qarlighachlarni|Arabic=قارلىغاچلارنى
 15	poyiz	_	NOUN	N	_	17	nmod	_	Translit=poyiz|Arabic=پويىز
@@ -197,9 +197,9 @@
 2	yol	_	NOUN	N	_	3	dobj	_	Translit=yol|Arabic=يول
 3	bësish	_	VERB	V	_	5	csubj	_	Translit=bësish|Arabic=بېسىش
 4	jeryanida	_	NOUN	N	_	3	case	_	Translit=jeryanida|Arabic=جەريانىدا
-5	hërip	_	VERB	V	_	8	acl	_	Translit=hërip|Arabic=ھېرىپ
+5	hërip	_	VERB	V	_	7	acl	_	Translit=hërip|Arabic=ھېرىپ
 6	halidin	_	NOUN	N	_	7	compound	_	Translit=halidin|Arabic=ھالىدىن
-7	ketken	_	VERB	V	_	5	aux	_	Translit=ketken|Arabic=كەتكەن
+7	ketken	_	VERB	V	_	8	acl	_	Translit=ketken|Arabic=كەتكەن
 8	qarlighachlar	_	NOUN	N	_	12	nsubj	_	Translit=qarlighachlar|Arabic=قارلىغاچلار
 9	bu	_	PRON	P	_	10	det	_	Translit=bu|Arabic=بۇ
 10	yerde	_	NOUN	N	_	12	nmod	_	Translit=yerde|Arabic=يەردە
@@ -277,9 +277,9 @@
 12	qarimay	_	VERB	V	_	11	case	_	Translit=qarimay|Arabic=قارىماي
 13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
 14	muzlap	_	NOUN	N	_	15	advcl	_	Translit=muzlap|Arabic=مۇزلاپ
-15	qëtip	_	VERB	V	_	18	advcl	_	Translit=qëtip|Arabic=قېتىپ
+15	qëtip	_	VERB	V	_	18	acl	_	Translit=qëtip|Arabic=قېتىپ
 16	qalay	_	VERB	V	_	15	ccomp	_	Translit=qalay|Arabic=قالاي
-17	dëgen	_	VERB	V	_	16	aux	_	Translit=dëgen|Arabic=دېگەن
+17	dëgen	_	VERB	V	_	16	dep	_	Translit=dëgen|Arabic=دېگەن
 18	qarlighachlarni	_	NOUN	N	_	22	dobj	_	Translit=qarlighachlarni|Arabic=قارلىغاچلارنى
 19	terep	_	NOUN	N	_	21	compound:redup	_	Translit=terep|Arabic=تەرەپ
 20	-	_	PUNCT	Y	_	19	punct	_	Translit=-|Arabic=-
@@ -337,9 +337,9 @@
 7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
 8	qolliri	_	NOUN	N	_	10	nsubj	_	Translit=qolliri|Arabic=قوللىرى
 9	soghuqta	_	ADJ	A	_	10	advmod	_	Translit=soghuqta|Arabic=سوغۇقتا
-10	qëtip	_	VERB	V	_	12	csubj	_	Translit=qëtip|Arabic=قېتىپ
+10	qëtip	_	VERB	V	_	0	csubj	_	Translit=qëtip|Arabic=قېتىپ
 11	qalayla	_	VERB	V	_	10	aux	_	Translit=qalayla|Arabic=قالايلا
-12	dëgenidi	_	VERB	V	_	0	root	_	Translit=dëgenidi|Arabic=دېگەنىدى
+12	dëgenidi	_	VERB	V	_	10	cop	_	Translit=dëgenidi|Arabic=دېگەنىدى
 13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
 
 # sent_id s22/ug
@@ -470,7 +470,7 @@
 20	.	_	PUNCT	Y	_	19	punct	_	Translit=.|Arabic=.
 
 # sent_id s33/ug
-1	mana	_	PRON	P	_	3	advmod:emph	_	Translit=mana|Arabic=مانا
+1	mana	_	PRON	P	_	3	mark	_	Translit=mana|Arabic=مانا
 2	shundaq	_	PRON	P	_	3	compound	_	Translit=shundaq|Arabic=شۇنداق
 3	qilip	_	VERB	V	_	10	advmod	_	Translit=qilip|Arabic=قىلىپ
 4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
@@ -517,7 +517,7 @@
 6	qatar	_	NOUN	N	_	7	amod	_	Translit=qatar|Arabic=قاتار
 7	öylerge	_	VERB	V	_	16	conj	_	Translit=öylerge|Arabic=ئۆيلەرگە
 8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
-9	xilmu	_	NOUN	N	_	11	compound:nmod	_	Translit=xilmu|Arabic=خىلمۇ
+9	xilmu	_	NOUN	N	_	11	compound:redup	_	Translit=xilmu|Arabic=خىلمۇ
 10	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
 11	xil	_	NOUN	N	_	12	amod	_	Translit=xil|Arabic=خىل
 12	saymanlargha	_	NOUN	N	_	16	conj	_	Translit=saymanlargha|Arabic=سايمانلارغا
@@ -558,7 +558,7 @@
 13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
 
 # sent_id s40/ug
-1	lëkin	_	CONJ	C	_	8	advmod	_	Translit=lëkin|Arabic=لېكىن
+1	lëkin	_	CONJ	C	_	8	cc	_	Translit=lëkin|Arabic=لېكىن
 2	qanche	_	PRON	P	_	3	amod	_	Translit=qanche|Arabic=قانچە
 3	yil	_	NOUN	N	_	7	conj	_	Translit=yil|Arabic=يىل
 4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
@@ -981,7 +981,7 @@
 2	bölektiki	_	NOUN	N	_	3	amod	_	Translit=bölektiki|Arabic=بۆلەكتىكى
 3	tëkistler	_	NOUN	N	_	9	nsubj	_	Translit=tëkistler|Arabic=تېكىستلەر
 4	bu	_	PRON	P	_	5	det	_	Translit=bu|Arabic=بۇ
-5	maqallar	_	NOUN	N	_	9	nsubj	_	Translit=maqallar|Arabic=ماقاللار
+5	maqallar	_	NOUN	N	_	8	nmod	_	Translit=maqallar|Arabic=ماقاللار
 6	toghrisida	_	ADP	R	_	5	case	_	Translit=toghrisida|Arabic=توغرىسىدا
 7	qiziqarliq	_	ADJ	A	_	8	amod	_	Translit=qiziqarliq|Arabic=قىزىقارلىق
 8	hëkayilerni	_	NOUN	N	_	9	dobj	_	Translit=hëkayilerni|Arabic=ھېكايىلەرنى
@@ -1068,7 +1068,7 @@
 
 # sent_id s84/ug
 1	heridep	_	NOUN	N	_	3	advcl	_	Translit=heridep|Arabic=ھەرىدەپ
-2	bolup	_	VERB	V	_	1	mark	_	Translit=bolup|Arabic=بولۇپ
+2	bolup	_	VERB	V	_	1	aux	_	Translit=bolup|Arabic=بولۇپ
 3	qarisa	_	VERB	V	_	6	advmod	_	Translit=qarisa|Arabic=قارىسا
 4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
 5	yaghach	_	NOUN	N	_	6	nsubj	_	Translit=yaghach|Arabic=ياغاچ
@@ -1110,7 +1110,7 @@
 2	emdi	_	ADV	D	_	6	advmod	_	Translit=emdi|Arabic=ئەمدى
 3	uni	_	PRON	P	_	6	dobj	_	Translit=uni|Arabic=ئۇنى
 4	ketmenge	_	NOUN	N	_	6	nmod	_	Translit=ketmenge|Arabic=كەتمەنگە
-5	deste	_	NOUN	N	_	6	nsubj	_	Translit=deste|Arabic=دەستە
+5	deste	_	NOUN	N	_	6	nmod	_	Translit=deste|Arabic=دەستە
 6	qilmaqchi	_	VERB	V	_	0	root	_	Translit=qilmaqchi|Arabic=قىلماقچى
 7	boptu	_	VERB	V	_	6	cop	_	Translit=boptu|Arabic=بوپتۇ
 8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
@@ -2603,4 +2603,2265 @@
 4	yoshurup	_	VERB	V	_	0	root	_	Translit=yoshurup|Arabic=يوشۇرۇپ
 5	qoyupsen	_	VERB	V	_	4	aux	_	Translit=qoyupsen|Arabic=قويۇپسەن
 6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s201/ug
+1	uni	_	PRON	P	_	5	dobj	_	Translit=uni|Arabic=ئۇنى
+2	kim	_	PRON	P	_	5	nsubj	_	Translit=kim|Arabic=كىم
+3	u	_	PRON	P	_	4	det	_	Translit=u|Arabic=ئۇ
+4	yerge	_	NOUN	N	_	5	nmod	_	Translit=yerge|Arabic=يەرگە
+5	qoyup	_	VERB	V	_	0	root	_	Translit=qoyup|Arabic=قويۇپ
+6	qoyghandu	_	VERB	V	_	5	aux	_	Translit=qoyghandu|Arabic=قويغاندۇ
+7	?	_	PUNCT	Y	_	6	punct	_	Translit=?|Arabic=؟
+
+# sent_id s202/ug
+1	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+2	anglishimche	_	VERB	V	_	9	advcl	_	Translit=anglishimche|Arabic=ئاڭلىشىمچە
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	asmandin	_	NOUN	N	_	9	nmod:abl	_	Translit=asmandin|Arabic=ئاسماندىن
+5	pat	_	VERB	V	_	7	compound:redup	_	Translit=pat|Arabic=پات
+6	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+7	pat	_	ADV	D	_	9	advmod	_	Translit=pat|Arabic=پات
+8	mëtëoritlar	_	NOUN	N	_	9	nsubj	_	Translit=mëtëoritlar|Arabic=مېتېئورىتلار
+9	chüshüp	_	VERB	V	_	0	root	_	Translit=chüshüp|Arabic=چۈشۈپ
+10	turidiken	_	VERB	V	_	9	aux	_	Translit=turidiken|Arabic=تۇرىدىكەن
+11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
+
+# sent_id s203/ug
+1	belkim	_	PART	T	_	4	mark	_	Translit=belkim|Arabic=بەلكىم
+2	u	_	PRON	P	_	4	nsubj	_	Translit=u|Arabic=ئۇ
+3	asmandin	_	NOUN	N	_	4	nmod	_	Translit=asmandin|Arabic=ئاسماندىن
+4	chüshken	_	VERB	V	_	6	nsubj	_	Translit=chüshken|Arabic=چۈشكەن
+5	bolushi	_	VERB	V	_	4	cop	_	Translit=bolushi|Arabic=بولۇشى
+6	mumkin	_	ADJ	A	_	0	root	_	Translit=mumkin|Arabic=مۇمكىن
+7	!	_	PUNCT	Y	_	6	punct	_	Translit=!|Arabic=!
+
+# sent_id s204/ug
+1	bunche	_	PRON	P	_	2	advmod	_	Translit=bunche|Arabic=بۇنچە
+2	ëghir	_	ADJ	A	_	3	amod	_	Translit=ëghir|Arabic=ئېغىر
+3	tash	_	NOUN	N	_	13	nsubj	_	Translit=tash|Arabic=تاش
+4	asmandin	_	NOUN	N	_	5	nmod	_	Translit=asmandin|Arabic=ئاسماندىن
+5	chüshidighan	_	VERB	V	_	6	acl	_	Translit=chüshidighan|Arabic=چۈشىدىغان
+6	bolsa	_	VERB	V	_	13	advcl:cond	_	Translit=bolsa|Arabic=بولسا
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	choqum	_	ADV	D	_	13	advmod	_	Translit=choqum|Arabic=چوقۇم
+9	intayin	_	ADV	D	_	10	advmod:emph	_	Translit=intayin|Arabic=ئىنتايىن
+10	zor	_	ADJ	A	_	11	amod	_	Translit=zor|Arabic=زور
+11	küch	_	NOUN	N	_	13	nmod	_	Translit=küch|Arabic=كۈچ
+12	bilen	_	ADP	R	_	11	case	_	Translit=bilen|Arabic=بىلەن
+13	chüshidu	_	VERB	V	_	0	root	_	Translit=chüshidu|Arabic=چۈشىدۇ
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s205/ug
+1	u	_	PRON	P	_	7	nsubj	_	Translit=u|Arabic=ئۇ
+2	otlaqta	_	NOUN	N	_	7	nmod	_	Translit=otlaqta|Arabic=ئوتلاقتا
+3	nahayiti	_	ADV	D	_	4	advmod:emph	_	Translit=nahayiti|Arabic=ناھايىتى
+4	chongqur	_	ADJ	A	_	5	amod	_	Translit=chongqur|Arabic=چوڭقۇر
+5	orek	_	NOUN	N	_	7	dobj	_	Translit=orek|Arabic=ئورەك
+6	peyda	_	NOUN	N	_	7	compound:lvc	_	Translit=peyda|Arabic=پەيدا
+7	qilalaydu	_	VERB	V	_	0	root	_	Translit=qilalaydu|Arabic=قىلالايدۇ
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+
+# sent_id s206/ug
+1	lëkin	_	CONJ	C	_	4	cc	_	Translit=lëkin|Arabic=لېكىن
+2	nëmishqa	_	PRON	P	_	4	advmod	_	Translit=nëmishqa|Arabic=نېمىشقا
+3	yerge	_	NOUN	N	_	4	nmod	_	Translit=yerge|Arabic=يەرگە
+4	pëtip	_	VERB	V	_	0	root	_	Translit=pëtip|Arabic=پېتىپ
+5	ketmigendu	_	VERB	V	_	4	aux	_	Translit=ketmigendu|Arabic=كەتمىگەندۇ
+6	?	_	PUNCT	Y	_	5	punct	_	Translit=?|Arabic=؟
+
+# sent_id s207/ug
+1	-	_	PUNCT	Y	_	6	punct	_	Translit=-|Arabic=-
+2	men	_	PRON	P	_	6	nsubj	_	Translit=men|Arabic=مەن
+3	buninggha	_	PRON	P	_	6	nmod	_	Translit=buninggha|Arabic=بۇنىڭغا
+4	bir	_	NUM	M	NumType=Card	5	compound	_	Translit=bir|Arabic=بىر
+5	nëme	_	PRON	P	_	6	dobj	_	Translit=nëme|Arabic=نېمە
+6	dëyelmigüdekmen	_	VERB	V	_	0	root	_	Translit=dëyelmigüdekmen|Arabic=دېيەلمىگۈدەكمەن
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s208/ug
+1	li	_	NOUN	N	_	2	name	_	Translit=li|Arabic=لى
+2	siguang	_	NOUN	N	_	4	nsubj	_	Translit=siguang|Arabic=سىگۇاڭ
+3	dadisidin	_	NOUN	N	_	4	nmod	_	Translit=dadisidin|Arabic=دادىسىدىن
+4	soriwidi	_	VERB	V	_	10	advcl	_	Translit=soriwidi|Arabic=سورىۋىدى
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	umu	_	PRON	P	_	10	nsubj	_	Translit=umu|Arabic=ئۇمۇ
+7	ëniq	_	ADJ	A	_	10	amod	_	Translit=ëniq|Arabic=ئېنىق
+8	bir	_	NUM	M	NumType=Card	9	compound	_	Translit=bir|Arabic=بىر
+9	nëme	_	PRON	P	_	10	ccomp	_	Translit=nëme|Arabic=نېمە
+10	dep	_	VERB	V	_	0	advmod	_	Translit=dep|Arabic=دەپ
+11	bërelmidi	_	VERB	V	_	10	aux:	_	Translit=bërelmidi|Arabic=بېرەلمىدى
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s209/ug
+1	choqchiyip	_	VERB	V	_	2	advcl	_	Translit=choqchiyip|Arabic=چوقچىيىپ
+2	turghan	_	VERB	V	_	5	acl	_	Translit=turghan|Arabic=تۇرغان
+3	bu	_	PRON	P	_	5	det	_	Translit=bu|Arabic=بۇ
+4	chong	_	ADJ	A	_	5	amod	_	Translit=chong|Arabic=چوڭ
+5	tash	_	NOUN	N	_	10	nsubj	_	Translit=tash|Arabic=تاش
+6	bu	_	PRON	P	_	7	det	_	Translit=bu|Arabic=بۇ
+7	yerge	_	NOUN	N	_	10	nmod:cau	_	Translit=yerge|Arabic=يەرگە
+8	zadi	_	PART	T	_	9	advmod:emph	_	Translit=zadi|Arabic=زادى
+9	qandaq	_	PRON	P	_	10	advmod	_	Translit=qandaq|Arabic=قانداق
+10	këlip	_	VERB	V	_	0	root	_	Translit=këlip|Arabic=كېلىپ
+11	qalghandu	_	VERB	V	_	10	aux	_	Translit=qalghandu|Arabic=قالغاندۇ
+12	?	_	PUNCT	Y	_	11	punct	_	Translit=?|Arabic=؟
+
+# sent_id s210/ug
+1	nëme	_	PRON	P	_	2	compound	_	Translit=nëme|Arabic=نېمە
+2	üchün	_	CONJ	C	_	6	advmod	_	Translit=üchün|Arabic=ئۈچۈن
+3	uning	_	PRON	P	_	4	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+4	etrapidiki	_	NOUN	N	_	5	amod	_	Translit=etrapidiki|Arabic=ئەتراپىدىكى
+5	yerler	_	NOUN	N	_	6	nsubj	_	Translit=yerler|Arabic=يەرلەر
+6	tüptüz	_	ADJ	A	_	13	conj	_	Translit=tüptüz|Arabic=تۈپتۈز
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	u	_	PRON	P	_	9	det	_	Translit=u|Arabic=ئۇ
+9	yerlerde	_	NOUN	N	_	13	nmod	_	Translit=yerlerde|Arabic=يەرلەردە
+10	birer	_	NUM	M	NumType=Card	11	nummod	_	Translit=birer|Arabic=بىرەر
+11	parche	_	DET	Q	_	12	amod	_	Translit=parche|Arabic=پارچە
+12	tashmu	_	NOUN	N	_	13	nsubj	_	Translit=tashmu|Arabic=تاشمۇ
+13	yoq	_	ADJ	A	_	0	root	_	Translit=yoq|Arabic=يوق
+14	?	_	PUNCT	Y	_	13	punct	_	Translit=?|Arabic=؟
+
+# sent_id s211/ug
+1	li	_	NOUN	N	_	2	name	_	Translit=li|Arabic=لى
+2	siguang	_	NOUN	N	_	7	nsubj	_	Translit=siguang|Arabic=سىگۇاڭ
+3	bu	_	PRON	P	_	4	det	_	Translit=bu|Arabic=بۇ
+4	mesilini	_	NOUN	N	_	7	dobj	_	Translit=mesilini|Arabic=مەسىلىنى
+5	nurghun	_	ADJ	A	_	6	amod	_	Translit=nurghun|Arabic=نۇرغۇن
+6	yillar	_	NOUN	N	_	7	nmod:tmod	_	Translit=yillar|Arabic=يىللار
+7	oylidi	_	VERB	V	_	0	root	_	Translit=oylidi|Arabic=ئويلىدى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s212/ug
+1	u	_	PRON	P	_	9	nsubj	_	Translit=u|Arabic=ئۇ
+2	chong	_	ADJ	A	_	3	nsubj	_	Translit=chong|Arabic=چوڭ
+3	bolghandin	_	VERB	V	_	4	advcl	_	Translit=bolghandin|Arabic=بولغاندىن
+4	këyin	_	ADV	D	_	9	advmod	_	Translit=këyin|Arabic=كېيىن
+5	engilyige	_	NOUN	N	_	6	nmod	_	Translit=engilyige|Arabic=ئەنگىليىگە
+6	bërip	_	VERB	V	_	9	advcl	_	Translit=bërip|Arabic=بېرىپ
+7	gëologiye	_	NOUN	N	_	8	nmod:poss	_	Translit=gëologiye|Arabic=گېئولوگىيە
+8	ilmini	_	NOUN	N	_	9	dobj	_	Translit=ilmini|Arabic=ئىلمىنى
+9	ögendi	_	VERB	V	_	0	root	_	Translit=ögendi|Arabic=ئۆگەندى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s213/ug
+1	shuningdin	_	PRON	P	_	2	compound	_	Translit=shuningdin|Arabic=شۇنىڭدىن
+2	këyinla	_	ADV	D	_	20	advmod	_	Translit=këyinla|Arabic=كېيىنلا
+3	u	_	PRON	P	_	20	nsubj	_	Translit=u|Arabic=ئۇ
+4	muzluqlarning	_	NOUN	N	_	19	nmod	_	Translit=muzluqlarning|Arabic=مۇزلۇقلارنىڭ
+5	ghayet	_	ADJ	A	_	6	advmod	_	Translit=ghayet|Arabic=غايەت
+6	zor	_	ADJ	A	_	7	amod	_	Translit=zor|Arabic=زور
+7	tashlarni	_	NOUN	N	_	8	dobj	_	Translit=tashlarni|Arabic=تاشلارنى
+8	ittirip	_	VERB	V	_	19	advcl	_	Translit=ittirip|Arabic=ئىتتىرىپ
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+10	nechche	_	PRON	P	_	11	det	_	Translit=nechche|Arabic=نەچچە
+11	yüz	_	NUM	M	NumType=Card	15	conj	_	Translit=yüz|Arabic=يۈز
+12	,	_	PUNCT	Y	_	11	punct	_	Translit=,|Arabic=،
+13	hetta	_	CONJ	C	_	15	advmod:emph	_	Translit=hetta|Arabic=ھەتتا
+14	nechche	_	PRON	P	_	15	det	_	Translit=nechche|Arabic=نەچچە
+15	ming	_	NUM	M	NumType=Card	16	nummod	_	Translit=ming|Arabic=مىڭ
+16	chaqirim	_	DET	Q	_	19	advmod	_	Translit=chaqirim|Arabic=چاقىرىم
+17	yiraq	_	ADJ	A	_	18	amod	_	Translit=yiraq|Arabic=يىراق
+18	yerlerge	_	NOUN	N	_	19	nmod	_	Translit=yerlerge|Arabic=يەرلەرگە
+19	apiriwëtidighanliqini	_	VERB	V	_	20	dobj	_	Translit=apiriwëtidighanliqini|Arabic=ئاپىرىۋېتىدىغانلىقىنى
+20	uqti	_	VERB	V	_	0	root	_	Translit=uqti|Arabic=ئۇقتى
+21	.	_	PUNCT	Y	_	20	punct	_	Translit=.|Arabic=.
+
+# sent_id s214/ug
+1	këyin	_	ADV	D	_	12	advmod	_	Translit=këyin|Arabic=كېيىن
+2	li	_	NOUN	N	_	3	name	_	Translit=li|Arabic=لى
+3	siguang	_	NOUN	N	_	12	nsubj	_	Translit=siguang|Arabic=سىگۇاڭ
+4	yurtigha	_	NOUN	N	_	5	nmod	_	Translit=yurtigha|Arabic=يۇرتىغا
+5	qaytip	_	VERB	V	_	12	advcl	_	Translit=qaytip|Arabic=قايتىپ
+6	këlip	_	VERB	V	_	5	aux	_	Translit=këlip|Arabic=كېلىپ
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	bu	_	PRON	P	_	9	det	_	Translit=bu|Arabic=بۇ
+9	tashni	_	NOUN	N	_	12	dobj	_	Translit=tashni|Arabic=تاشنى
+10	mexsus	_	ADJ	A	_	12	advmod:emph	_	Translit=mexsus|Arabic=مەخسۇس
+11	tetqiq	_	NOUN	N	_	12	compound:lvc	_	Translit=tetqiq|Arabic=تەتقىق
+12	qildi	_	VERB	V	_	0	root	_	Translit=qildi|Arabic=قىلدى
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s215/ug
+1	u	_	PRON	P	_	3	nsubj	_	Translit=u|Arabic=ئۇ
+2	axir	_	ADV	D	_	3	advmod	_	Translit=axir|Arabic=ئاخىر
+3	chüshendiki	_	NOUN	N	_	0	root	_	Translit=chüshendiki|Arabic=چۈشەندىكى
+4	:	_	PUNCT	Y	_	3	punct	_	Translit=:|Arabic=:
+5	bu	_	PRON	P	_	6	det	_	Translit=bu|Arabic=بۇ
+6	tashni	_	NOUN	N	_	13	dobj	_	Translit=tashni|Arabic=تاشنى
+7	yiraqtiki	_	ADJ	A	_	9	amod	_	Translit=yiraqtiki|Arabic=يىراقتىكى
+8	chinling	_	NOUN	N	_	9	compound	_	Translit=chinling|Arabic=چىنلىڭ
+9	choqqisidin	_	NOUN	N	_	13	nmod	_	Translit=choqqisidin|Arabic=چوققىسىدىن
+10	muzlar	_	NOUN	N	_	13	nsubj	_	Translit=muzlar|Arabic=مۇزلار
+11	bu	_	PRON	P	_	12	det	_	Translit=bu|Arabic=بۇ
+12	yerge	_	NOUN	N	_	13	nmod	_	Translit=yerge|Arabic=يەرگە
+13	ëlip	_	VERB	V	_	3	ccomp	_	Translit=ëlip|Arabic=ئېلىپ
+14	kelgeniken	_	VERB	V	_	13	aux	_	Translit=kelgeniken|Arabic=كەلگەنىكەن
+15	.	_	PUNCT	Y	_	14	punct	_	Translit=.|Arabic=.
+
+# sent_id s216/ug
+1	yenimu	_	ADV	D	_	2	advmod	_	Translit=yenimu|Arabic=يەنىمۇ
+2	ilgirilep	_	VERB	V	_	3	advcl	_	Translit=ilgirilep|Arabic=ئىلگىرىلەپ
+3	tekshürüsh	_	VERB	V	_	16	advcl	_	Translit=tekshürüsh|Arabic=تەكشۈرۈش
+4	arqiliq	_	ADP	R	_	3	case	_	Translit=arqiliq|Arabic=ئارقىلىق
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	u	_	PRON	P	_	16	nsubj	_	Translit=u|Arabic=ئۇ
+7	changjyang	_	NOUN	N	_	8	nmod:clas	_	Translit=changjyang|Arabic=چاڭجياڭ
+8	wadisida	_	NOUN	N	_	16	nmod	_	Translit=wadisida|Arabic=ۋادىسىدا
+9	tötinchi	_	NUM	M	NumType=Card	11	nummod	_	Translit=tötinchi|Arabic=تۆتىنچى
+10	muz	_	NOUN	N	_	11	compound	_	Translit=muz|Arabic=مۇز
+11	dewridiki	_	NOUN	N	_	15	nmod	_	Translit=dewridiki|Arabic=دەۋرىدىكى
+12	muz	_	NOUN	N	_	13	nsubj	_	Translit=muz|Arabic=مۇز
+13	köchüsh	_	NOUN	N	_	14	nmod:poss	_	Translit=köchüsh|Arabic=كۆچۈش
+14	herikitining	_	NOUN	N	_	15	nmod:poss	_	Translit=herikitining|Arabic=ھەرىكىتىنىڭ
+15	iznalirini	_	NOUN	N	_	16	dobj	_	Translit=iznalirini|Arabic=ئىزنالىرىنى
+16	bayqidi	_	VERB	V	_	0	root	_	Translit=bayqidi|Arabic=بايقىدى
+17	.	_	PUNCT	Y	_	16	punct	_	Translit=.|Arabic=.
+
+# sent_id s217/ug
+1	uning	_	PRON	P	_	4	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+2	bu	_	PRON	P	_	4	det	_	Translit=bu|Arabic=بۇ
+3	tetqiqat	_	NOUN	N	_	4	nmod:poss	_	Translit=tetqiqat|Arabic=تەتقىقات
+4	netijisi	_	NOUN	N	_	8	nsubj	_	Translit=netijisi|Arabic=نەتىجىسى
+5	pütün	_	ADJ	A	_	6	amod	_	Translit=pütün|Arabic=پۈتۈن
+6	dunyani	_	NOUN	N	_	8	dobj	_	Translit=dunyani|Arabic=دۇنيانى
+7	zilzilige	_	NOUN	N	_	8	nmod	_	Translit=zilzilige|Arabic=زىلزىلىگە
+8	saldi	_	VERB	V	_	0	root	_	Translit=saldi|Arabic=سالدى
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s218/ug
+1	bir	_	NUM	M	NumType=Card	2	det	_	Translit=bir|Arabic=بىر
+2	yili	_	NOUN	N	_	3	nmod:tmod	_	Translit=yili|Arabic=يىلى
+3	qishta	_	NOUN	N	_	10	nmod	_	Translit=qishta|Arabic=قىشتا
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	lënin	_	NOUN	N	_	10	nsubj	_	Translit=lënin|Arabic=لېنىن
+6	sheher	_	NOUN	N	_	7	nmod:poss	_	Translit=sheher|Arabic=شەھەر
+7	sirtida	_	NOUN	N	_	10	nmod	_	Translit=sirtida|Arabic=سىرتىدا
+8	dem	_	NOUN	N	_	9	compound	_	Translit=dem|Arabic=دەم
+9	ëlip	_	VERB	V	_	10	advcl	_	Translit=ëlip|Arabic=ئېلىپ
+10	dawalandi	_	VERB	V	_	0	root	_	Translit=dawalandi|Arabic=داۋالاندى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s219/ug
+1	u	_	PRON	P	_	7	nsubj	_	Translit=u|Arabic=ئۇ
+2	her	_	PRON	P	_	3	det	_	Translit=her|Arabic=ھەر
+3	küni	_	NOUN	N	_	7	advmod	_	Translit=küni|Arabic=كۈنى
+4	baghchigha	_	NOUN	N	_	5	nmod	_	Translit=baghchigha|Arabic=باغچىغا
+5	bërip	_	VERB	V	_	7	advcl	_	Translit=bërip|Arabic=بېرىپ
+6	seyle	_	NOUN	N	_	7	compound	_	Translit=seyle|Arabic=سەيلە
+7	qilatti	_	VERB	V	_	0	root	_	Translit=qilatti|Arabic=قىلاتتى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s220/ug
+1	baghchida	_	NOUN	N	_	8	nmod	_	Translit=baghchida|Arabic=باغچىدا
+2	bir	_	NUM	M	NumType=Card	3	det	_	Translit=bir|Arabic=بىر
+3	tüp	_	DET	Q	_	7	amod	_	Translit=tüp|Arabic=تۈپ
+4	ëgiz	_	ADJ	A	_	7	amod	_	Translit=ëgiz|Arabic=ئېگىز
+5	aq	_	ADJ	A	_	6	compound	_	Translit=aq|Arabic=ئاق
+6	qëyin	_	NOUN	N	_	7	compound	_	Translit=qëyin|Arabic=قېيىن
+7	derixi	_	NOUN	N	_	8	nsubj	_	Translit=derixi|Arabic=دەرىخى
+8	bar	_	ADJ	A	_	0	root	_	Translit=bar|Arabic=بار
+9	idi	_	VERB	V	_	8	cop	_	Translit=idi|Arabic=ئىدى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s221/ug
+1	üch	_	NUM	M	NumType=Card	3	nummod	_	Translit=üch|Arabic=ئۈچ
+2	boz	_	ADJ	A	_	3	compound	_	Translit=boz|Arabic=بوز
+3	torghay	_	NOUN	N	_	7	nsubj	_	Translit=torghay|Arabic=تورغاي
+4	her	_	PRON	P	_	5	det	_	Translit=her|Arabic=ھەر
+5	küni	_	NOUN	N	_	7	nmod:tmod	_	Translit=küni|Arabic=كۈنى
+6	uninggha	_	PRON	P	_	7	nmod	_	Translit=uninggha|Arabic=ئۇنىڭغا
+7	qonuwalatti	_	VERB	V	_	0	root	_	Translit=qonuwalatti|Arabic=قونۇۋالاتتى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s222/ug
+1	torghaylarning	_	NOUN	N	_	2	nmod:poss	_	Translit=torghaylarning|Arabic=تورغايلارنىڭ
+2	ikkisining	_	NUM	M	NumType=Card	3	nmod:poss	_	Translit=ikkisining|Arabic=ئىككىسىنىڭ
+3	töshi	_	NOUN	N	_	5	nsubj	_	Translit=töshi|Arabic=تۆشى
+4	hal	_	ADJ	A	_	5	amod	_	Translit=hal|Arabic=ھال
+5	reng	_	NOUN	N	_	9	conj	_	Translit=reng|Arabic=رەڭ
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	biriningki	_	NOUN	N	_	9	nsubj	_	Translit=biriningki|Arabic=بىرىنىڭكى
+8	toq	_	ADJ	A	_	9	amod	_	Translit=toq|Arabic=توق
+9	qizil	_	ADJ	A	_	0	root	_	Translit=qizil|Arabic=قىزىل
+10	idi	_	VERB	V	_	9	cop	_	Translit=idi|Arabic=ئىدى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s223/ug
+1	ular	_	PRON	P	_	5	nsubj	_	Translit=ular|Arabic=ئۇلار
+2	derex	_	NOUN	N	_	3	nmod:poss	_	Translit=derex|Arabic=دەرەخ
+3	shaxlirida	_	NOUN	N	_	5	nmod	_	Translit=shaxlirida|Arabic=شاخلىرىدا
+4	sekrep	_	VERB	V	_	5	advcl	_	Translit=sekrep|Arabic=سەكرەپ
+5	oynishatti	_	VERB	V	_	0	root	_	Translit=oynishatti|Arabic=ئوينىشاتتى
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s224/ug
+1	tolimu	_	ADV	D	_	2	advmod	_	Translit=tolimu|Arabic=تولىمۇ
+2	yëqimliq	_	ADJ	A	_	3	advmod	_	Translit=yëqimliq|Arabic=يېقىملىق
+3	sayrishatti	_	NOUN	N	_	0	root	_	Translit=sayrishatti|Arabic=سايرىشاتتى
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s225/ug
+1	lënin	_	NOUN	N	_	16	nsubj	_	Translit=lënin|Arabic=لېنىن
+2	her	_	PRON	P	_	3	det	_	Translit=her|Arabic=ھەر
+3	qitim	_	DET	Q	_	7	advmod	_	Translit=qitim|Arabic=قىتىم
+4	qëyin	_	NOUN	N	_	5	compound	_	Translit=qëyin|Arabic=قېيىن
+5	derixining	_	NOUN	N	_	6	nmod:poss	_	Translit=derixining|Arabic=دەرىخىنىڭ
+6	tüwige	_	NOUN	N	_	7	nmod	_	Translit=tüwige|Arabic=تۈۋىگە
+7	kelgende	_	VERB	V	_	9	nmod	_	Translit=kelgende|Arabic=كەلگەندە
+8	mëngishtin	_	NOUN	N	_	9	nmod	_	Translit=mëngishtin|Arabic=مېڭىشتىن
+9	toxtaytti	_	VERB	V	_	16	conj	_	Translit=toxtaytti|Arabic=توختايتتى
+10	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+11	de	_	PART	T	_	9	mark	_	Translit=de|Arabic=دە
+12	bu	_	PRON	P	_	14	det	_	Translit=bu|Arabic=بۇ
+13	shadiman	_	NOUN	N	_	14	amod	_	Translit=shadiman|Arabic=شادىمان
+14	torghaylarni	_	NOUN	N	_	16	dobj	_	Translit=torghaylarni|Arabic=تورغايلارنى
+15	tamasha	_	NOUN	N	_	16	compound	_	Translit=tamasha|Arabic=تاماشا
+16	qilatti	_	VERB	V	_	0	root	_	Translit=qilatti|Arabic=قىلاتتى
+17	,	_	PUNCT	Y	_	16	punct	_	Translit=,|Arabic=،
+
+# sent_id s226/ug
+1	yene	_	CONJ	C	_	10	cc	_	Translit=yene|Arabic=يەنە
+2	tëxi	_	PART	T	_	10	advmod:emph	_	Translit=tëxi|Arabic=تېخى
+3	daim	_	ADV	D	_	10	advmod	_	Translit=daim|Arabic=دائىم
+4	ulargha	_	PRON	P	_	9	nmod	_	Translit=ulargha|Arabic=ئۇلارغا
+5	bolka	_	NOUN	N	_	6	nmod	_	Translit=bolka|Arabic=بولكا
+6	uwiqi	_	NOUN	N	_	8	conj	_	Translit=uwiqi|Arabic=ئۇۋىقى
+7	we	_	CONJ	C	_	8	cc	_	Translit=we|Arabic=ۋە
+8	tëriq	_	NOUN	N	_	9	dobj	_	Translit=tëriq|Arabic=تېرىق
+9	alghach	_	VERB	V	_	10	advcl	_	Translit=alghach|Arabic=ئالغاچ
+10	këletti	_	VERB	V	_	0	root	_	Translit=këletti|Arabic=كېلەتتى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s227/ug
+1	bir	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir|Arabic=بىر
+2	küni	_	NOUN	N	_	16	nmod:tmod	_	Translit=küni|Arabic=كۈنى
+3	lënin	_	NOUN	N	_	16	nsubj	_	Translit=lënin|Arabic=لېنىن
+4	baghchidiki	_	NOUN	N	_	6	amod	_	Translit=baghchidiki|Arabic=باغچىدىكى
+5	hëliqi	_	PRON	P	_	6	dep	_	Translit=hëliqi|Arabic=ھېلىقى
+6	qëyinning	_	NOUN	N	_	7	nmod:poss	_	Translit=qëyinning|Arabic=قېيىننىڭ
+7	yënigha	_	NOUN	N	_	8	nmod	_	Translit=yënigha|Arabic=يېنىغا
+8	kelgende	_	VERB	V	_	16	advcl	_	Translit=kelgende|Arabic=كەلگەندە
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+10	toq	_	ADJ	A	_	11	amod	_	Translit=toq|Arabic=توق
+11	qizil	_	ADJ	A	_	12	amod	_	Translit=qizil|Arabic=قىزىل
+12	töshlük	_	NOUN	N	_	14	amod	_	Translit=töshlük|Arabic=تۆشلۈك
+13	boz	_	ADJ	A	_	14	compound	_	Translit=boz|Arabic=بوز
+14	torghayning	_	NOUN	N	_	15	nsubj	_	Translit=torghayning|Arabic=تورغاينىڭ
+15	yoqluqini	_	NOUN	N	_	16	dobj	_	Translit=yoqluqini|Arabic=يوقلۇقىنى
+16	bayqap	_	VERB	V	_	0	root	_	Translit=bayqap|Arabic=بايقاپ
+17	qaldi	_	VERB	V	_	16	aux	_	Translit=qaldi|Arabic=قالدى
+18	.	_	PUNCT	Y	_	17	punct	_	Translit=.|Arabic=.
+
+# sent_id s228/ug
+1	u	_	PRON	P	_	11	nsubj	_	Translit=u|Arabic=ئۇ
+2	derexlikni	_	NOUN	N	_	6	dobj	_	Translit=derexlikni|Arabic=دەرەخلىكنى
+3	arlap	_	VERB	V	_	6	advmod	_	Translit=arlap|Arabic=ئارلاپ
+4	xëli	_	ADV	D	_	6	advmod	_	Translit=xëli|Arabic=خېلى
+5	uzaq	_	ADJ	A	_	6	advmod	_	Translit=uzaq|Arabic=ئۇزاق
+6	izdigen	_	VERB	V	_	11	advcl	_	Translit=izdigen|Arabic=ئىزدىگەن
+7	bolsimu	_	VERB	V	_	6	cop	_	Translit=bolsimu|Arabic=بولسىمۇ
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	yenila	_	ADV	D	_	11	advmod	_	Translit=yenila|Arabic=يەنىلا
+10	uni	_	PRON	P	_	11	dobj	_	Translit=uni|Arabic=ئۇنى
+11	tapalmidi	_	VERB	V	_	0	root	_	Translit=tapalmidi|Arabic=تاپالمىدى
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s229/ug
+1	bir	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir|Arabic=بىر
+2	chaghda	_	NOUN	N	_	13	nmod	_	Translit=chaghda|Arabic=چاغدا
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	lënin	_	NOUN	N	_	13	nsubj	_	Translit=lënin|Arabic=لېنىن
+5	bir	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir|Arabic=بىر
+6	oghul	_	NOUN	N	_	7	amod	_	Translit=oghul|Arabic=ئوغۇل
+7	balini	_	NOUN	N	_	8	dobj	_	Translit=balini|Arabic=بالىنى
+8	körüp	_	VERB	V	_	13	conj	_	Translit=körüp|Arabic=كۆرۈپ
+9	qaldi	_	VERB	V	_	8	aux	_	Translit=qaldi|Arabic=قالدى
+10	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+11	de	_	PART	T	_	9	mark	_	Translit=de|Arabic=دە
+12	uningdin	_	PRON	P	_	13	nmod	_	Translit=uningdin|Arabic=ئۇنىڭدىن
+13	soridi	_	VERB	V	_	0	root	_	Translit=soridi|Arabic=سورىدى
+14	:	_	PUNCT	Y	_	13	punct	_	Translit=:|Arabic=:
+
+# sent_id s230/ug
+1	-	_	PUNCT	Y	_	8	punct	_	Translit=-|Arabic=-
+2	balam	_	NOUN	N	_	8	vocative	_	Translit=balam|Arabic=بالام
+3	sen	_	PRON	P	_	8	nsubj	_	Translit=sen|Arabic=سەن
+4	qizil	_	ADJ	A	_	5	amod	_	Translit=qizil|Arabic=قىزىل
+5	töshlük	_	NOUN	N	_	7	amod	_	Translit=töshlük|Arabic=تۆشلۈك
+6	boz	_	ADJ	A	_	7	compound	_	Translit=boz|Arabic=بوز
+7	torghayni	_	NOUN	N	_	8	dobj	_	Translit=torghayni|Arabic=تورغاينى
+8	kördüngmu	_	VERB	V	_	0	root	_	Translit=kördüngmu|Arabic=كۆردۈڭمۇ
+9	?	_	PUNCT	Y	_	8	punct	_	Translit=?|Arabic=؟
+
+# sent_id s231/ug
+1	kör	_	VERB	V	_	5	raparandum	_	Translit=kör|Arabic=كۆر
+2	.	_	PUNCT	V	_	1	punct	_	Translit=.|Arabic=.
+3	.	_	PUNCT	V	_	1	punct	_	Translit=.|Arabic=.
+4	.	_	PUNCT	Y	_	1	punct	_	Translit=.|Arabic=.
+5	körmidim	_	VERB	V	_	8	ccomp	_	Translit=körmidim|Arabic=كۆرمىدىم
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+8	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+9	oghul	_	NOUN	N	_	10	amod	_	Translit=oghul|Arabic=ئوغۇل
+10	bala	_	NOUN	N	_	8	nsubj	_	Translit=bala|Arabic=بالا
+11	duduqlap	_	VERB	V	_	8	advcl	_	Translit=duduqlap|Arabic=دۇدۇقلاپ
+12	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s232/ug
+1	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+2	qarighanda	_	ADP	R	_	13	discourse	_	Translit=qarighanda|Arabic=قارىغاندا
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	u	_	PRON	P	_	13	nsubj	_	Translit=u|Arabic=ئۇ
+5	yaki	_	CONJ	C	_	13	cc	_	Translit=yaki|Arabic=ياكى
+6	bu	_	PRON	P	_	7	det	_	Translit=bu|Arabic=بۇ
+7	yerdin	_	NOUN	N	_	8	nmod	_	Translit=yerdin|Arabic=يەردىن
+8	këtip	_	VERB	V	_	13	conj	_	Translit=këtip|Arabic=كېتىپ
+9	qalghan	_	VERB	V	_	8	aux	_	Translit=qalghan|Arabic=قالغان
+10	,	_	PUNCT	Y	_	9	punct	_	Translit=,|Arabic=،
+11	ya	_	CONJ	C	_	13	cc	_	Translit=ya|Arabic=يا
+12	tonglap	_	VERB	V	_	13	advcl	_	Translit=tonglap|Arabic=توڭلاپ
+13	ölüp	_	VERB	V	_	0	root	_	Translit=ölüp|Arabic=ئۆلۈپ
+14	qalghan	_	VERB	V	_	13	aux	_	Translit=qalghan|Arabic=قالغان
+15	oxshaydu	_	VERB	V	_	14	cop	_	Translit=oxshaydu|Arabic=ئوخشايدۇ
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.|Arabic=.
+
+# sent_id s233/ug
+1	hawa	_	NOUN	N	_	3	nsubj	_	Translit=hawa|Arabic=ھاۋا
+2	bek	_	ADV	D	_	3	advmod	_	Translit=bek|Arabic=بەك
+3	soghuq	_	ADJ	A	_	0	root	_	Translit=soghuq|Arabic=سوغۇق
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s234/ug
+1	u	_	PRON	P	_	3	nsubj	_	Translit=u|Arabic=ئۇ
+2	soghuqtin	_	ADJ	A	_	3	nmod	_	Translit=soghuqtin|Arabic=سوغۇقتىن
+3	qorqidu	_	VERB	V	_	0	root	_	Translit=qorqidu|Arabic=قورقىدۇ
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s235/ug
+1	oghul	_	NOUN	N	_	2	amod	_	Translit=oghul|Arabic=ئوغۇل
+2	bala	_	NOUN	N	_	8	nsubj	_	Translit=bala|Arabic=بالا
+3	eslide	_	ADV	D	_	8	advmod	_	Translit=eslide|Arabic=ئەسلىدە
+4	lëningha	_	NOUN	N	_	8	nmod	_	Translit=lëningha|Arabic=لېنىنغا
+5	boz	_	ADJ	A	_	6	compound	_	Translit=boz|Arabic=بوز
+6	torghayning	_	NOUN	N	_	7	nsubj	_	Translit=torghayning|Arabic=تورغاينىڭ
+7	ölmigenlikini	_	NOUN	N	_	8	dobj	_	Translit=ölmigenlikini|Arabic=ئۆلمىگەنلىكىنى
+8	ëytmaqchi	_	VERB	V	_	0	root	_	Translit=ëytmaqchi|Arabic=ئېيتماقچى
+9	idi	_	VERB	V	_	8	cop	_	Translit=idi|Arabic=ئىدى
+10	,	_	PUNCT	Y	_	9	punct	_	Translit=,|Arabic=،
+
+# sent_id s236/ug
+1	biraq	_	CONJ	C	_	3	cc	_	Translit=biraq|Arabic=بىراق
+2	jüret	_	NOUN	N	_	3	nsubj	_	Translit=jüret|Arabic=جۈرئەت
+3	qilalmidi	_	VERB	V	_	0	root	_	Translit=qilalmidi|Arabic=قىلالمىدى
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s237/ug
+1	lënin	_	NOUN	N	_	5	nsubj	_	Translit=lënin|Arabic=لېنىن
+2	öz	_	PRON	P	_	4	compound:redup	_	Translit=öz|Arabic=ئۆز
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	özige	_	PRON	P	_	5	nmod:cau	_	Translit=özige|Arabic=ئۆزىگە
+5	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+6	:	_	PUNCT	Y	_	5	punct	_	Translit=:|Arabic=:
+
+# sent_id s238/ug
+1	«	_	PUNCT	Y	_	5	punct	_	Translit=«|Arabic=«
+2	bek	_	ADV	D	_	3	advmod	_	Translit=bek|Arabic=بەك
+3	chirayliq	_	ADJ	A	_	4	amod	_	Translit=chirayliq|Arabic=چىرايلىق
+4	torghay	_	NOUN	N	_	5	cop	_	Translit=torghay|Arabic=تورغاي
+5	idi	_	VERB	V	_	0	root	_	Translit=idi|Arabic=ئىدى
+6	-	_	PUNCT	Y	_	7	punct	_	Translit=-|Arabic=-
+7	he	_	PART	T	_	5	discourse	_	Translit=he|Arabic=ھە
+8	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s239/ug
+1	epsus	_	PART	T	_	5	discourse	_	Translit=epsus|Arabic=ئەپسۇس
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	emdi	_	ADV	D	_	5	advmod	_	Translit=emdi|Arabic=ئەمدى
+4	qaytip	_	VERB	V	_	5	advcl	_	Translit=qaytip|Arabic=قايتىپ
+5	këlelmeydighan	_	VERB	V	_	0	root	_	Translit=këlelmeydighan|Arabic=كېلەلمەيدىغان
+6	boldi	_	VERB	V	_	5	cop	_	Translit=boldi|Arabic=بولدى
+7	»	_	PUNCT	Y	_	6	punct	_	Translit=»|Arabic=»
+8	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s240/ug
+1	oghul	_	NOUN	N	_	2	amod	_	Translit=oghul|Arabic=ئوغۇل
+2	bala	_	NOUN	N	_	6	nsubj	_	Translit=bala|Arabic=بالا
+3	lëningha	_	NOUN	N	_	5	nmod	_	Translit=lëningha|Arabic=لېنىنغا
+4	birdem	_	ADV	D	_	5	advmod	_	Translit=birdem|Arabic=بىردەم
+5	qarap	_	VERB	V	_	6	advcl	_	Translit=qarap|Arabic=قاراپ
+6	turup	_	VERB	V	_	0	root	_	Translit=turup|Arabic=تۇرۇپ
+7	ketti	_	VERB	V	_	6	aux	_	Translit=ketti|Arabic=كەتتى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+
+# sent_id s241/ug
+1	andin	_	CONJ	C	_	2	advmod	_	Translit=andin|Arabic=ئاندىن
+2	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+3	:	_	PUNCT	Y	_	2	punct	_	Translit=:|Arabic=:
+
+# sent_id s242/ug
+1	qaytip	_	VERB	V	_	2	advcl	_	Translit=qaytip|Arabic=قايتىپ
+2	këlidu	_	VERB	V	_	0	root	_	Translit=këlidu|Arabic=كېلىدۇ
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+
+# sent_id s243/ug
+1	choqum	_	ADV	D	_	3	advmod	_	Translit=choqum|Arabic=چوقۇم
+2	qaytip	_	VERB	V	_	3	advcl	_	Translit=qaytip|Arabic=قايتىپ
+3	këlidu	_	VERB	V	_	0	root	_	Translit=këlidu|Arabic=كېلىدۇ
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s244/ug
+1	u	_	PRON	P	_	2	nsubj	_	Translit=u|Arabic=ئۇ
+2	tirik	_	ADJ	A	_	0	root	_	Translit=tirik|Arabic=تىرىك
+3	.	_	PUNCT	Y	_	2	punct	_	Translit=.|Arabic=.
+
+# sent_id s245/ug
+1	qaytip	_	VERB	V	_	2	advcl	_	Translit=qaytip|Arabic=قايتىپ
+2	këlemdu	_	VERB	V	_	5	ccomp	_	Translit=këlemdu|Arabic=كېلەمدۇ
+3	?	_	PUNCT	Y	_	2	punct	_	Translit=?|Arabic=؟
+4	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+5	dep	_	VERB	V	_	6	advcl	_	Translit=dep|Arabic=دەپ
+6	soridi	_	VERB	V	_	0	root	_	Translit=soridi|Arabic=سورىدى
+7	lënin	_	NOUN	N	_	6	nsubj	_	Translit=lënin|Arabic=لېنىن
+8	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s246/ug
+1	choqum	_	ADV	D	_	3	advmod	_	Translit=choqum|Arabic=چوقۇم
+2	qaytip	_	VERB	V	_	3	advcl	_	Translit=qaytip|Arabic=قايتىپ
+3	këlidu	_	VERB	V	_	6	ccomp	_	Translit=këlidu|Arabic=كېلىدۇ
+4	!	_	PUNCT	M	_	3	punct	_	Translit=!|Arabic=!
+5	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+6	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+7	oghul	_	NOUN	N	_	6	nsubj	_	Translit=oghul|Arabic=ئوغۇل
+8	jezimleshtürüp	_	VERB	V	_	6	advcl	_	Translit=jezimleshtürüp|Arabic=جەزىملەشتۈرۈپ
+9	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s247/ug
+1	etisi	_	NOUN	N	_	19	advmod	_	Translit=etisi|Arabic=ئەتىسى
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	lënin	_	NOUN	N	_	19	nsubj	_	Translit=lënin|Arabic=لېنىن
+4	aq	_	ADJ	A	_	5	compound	_	Translit=aq|Arabic=ئاق
+5	qëyinning	_	NOUN	N	_	6	nmod:poss	_	Translit=qëyinning|Arabic=قېيىننىڭ
+6	tüwige	_	NOUN	N	_	7	nmod	_	Translit=tüwige|Arabic=تۈۋىگە
+7	këlip	_	VERB	V	_	19	advcl	_	Translit=këlip|Arabic=كېلىپ
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	hëliqi	_	PRON	P	_	11	det	_	Translit=hëliqi|Arabic=ھېلىقى
+10	boz	_	ADJ	A	_	11	compound	_	Translit=boz|Arabic=بوز
+11	torghayning	_	NOUN	N	_	18	nsubj	_	Translit=torghayning|Arabic=تورغاينىڭ
+12	shax	_	NOUN	N	_	13	nmod:poss	_	Translit=shax|Arabic=شاخ
+13	üstide	_	NOUN	N	_	18	nmod	_	Translit=üstide|Arabic=ئۈستىدە
+14	sekrep	_	VERB	V	_	16	conj	_	Translit=sekrep|Arabic=سەكرەپ
+15	-	_	PUNCT	Y	_	14	punct	_	Translit=-|Arabic=-
+16	taqlap	_	NOUN	N	_	17	advcl	_	Translit=taqlap|Arabic=تاقلاپ
+17	oynap	_	VERB	V	_	18	advcl	_	Translit=oynap|Arabic=ئويناپ
+18	sayrawatqanliqini	_	VERB	V	_	19	dobj	_	Translit=sayrawatqanliqini|Arabic=سايراۋاتقانلىقىنى
+19	kördi	_	VERB	V	_	0	root	_	Translit=kördi|Arabic=كۆردى
+20	.	_	PUNCT	Y	_	19	punct	_	Translit=.|Arabic=.
+
+# sent_id s248/ug
+1	hëliqi	_	PRON	P	_	3	det	_	Translit=hëliqi|Arabic=ھېلىقى
+2	oghul	_	NOUN	N	_	3	amod	_	Translit=oghul|Arabic=ئوغۇل
+3	bala	_	NOUN	N	_	9	nsubj	_	Translit=bala|Arabic=بالا
+4	bëshini	_	NOUN	N	_	5	dobj	_	Translit=bëshini|Arabic=بېشىنى
+5	sanggilatqiniche	_	VERB	V	_	9	advcl	_	Translit=sanggilatqiniche|Arabic=ساڭگىلاتقىنىچە
+6	aq	_	ADJ	A	_	7	compound	_	Translit=aq|Arabic=ئاق
+7	qëyinning	_	NOUN	N	_	8	nmod:poss	_	Translit=qëyinning|Arabic=قېيىننىڭ
+8	yënida	_	NOUN	N	_	9	nmod	_	Translit=yënida|Arabic=يېنىدا
+9	turatti	_	VERB	V	_	0	root	_	Translit=turatti|Arabic=تۇراتتى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s249/ug
+1	lënin	_	NOUN	N	_	3	nsubj	_	Translit=lënin|Arabic=لېنىن
+2	baligha	_	NOUN	N	_	3	nmod	_	Translit=baligha|Arabic=بالىغا
+3	qarap	_	VERB	V	_	0	root	_	Translit=qarap|Arabic=قاراپ
+4	qoydi	_	VERB	V	_	3	aux	_	Translit=qoydi|Arabic=قويدى
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s250/ug
+1	andin	_	CONJ	C	_	8	advmod	_	Translit=andin|Arabic=ئاندىن
+2	boz	_	ADJ	A	_	3	compound	_	Translit=boz|Arabic=بوز
+3	torgharygha	_	NOUN	N	_	4	nmod	_	Translit=torgharygha|Arabic=تورغاريغا
+4	qarap	_	VERB	V	_	8	advcl	_	Translit=qarap|Arabic=قاراپ
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	külümsirigen	_	VERB	V	_	8	advcl	_	Translit=külümsirigen|Arabic=كۈلۈمسىرىگەن
+7	halda	_	NOUN	N	_	6	case	_	Translit=halda|Arabic=ھالدا
+8	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+9	:	_	PUNCT	Y	_	8	punct	_	Translit=:|Arabic=:
+
+# sent_id s251/ug
+1	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+2	yaxshimusen	_	NOUN	N	_	5	discourse	_	Translit=yaxshimusen|Arabic=ياخشىمۇسەن
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	boz	_	ADJ	A	_	5	compound	_	Translit=boz|Arabic=بوز
+5	torghay	_	NOUN	N	_	0	root	_	Translit=torghay|Arabic=تورغاي
+6	!	_	PUNCT	Y	_	5	punct	_	Translit=!|Arabic=!
+
+# sent_id s252/ug
+1	tünügün	_	NOUN	N	_	3	advmod	_	Translit=tünügün|Arabic=تۈنۈگۈن
+2	nege	_	PRON	P	_	3	advmod	_	Translit=nege|Arabic=نەگە
+3	ketkeniding	_	VERB	V	_	0	root	_	Translit=ketkeniding|Arabic=كەتكەنىدىڭ
+4	?	_	PUNCT	Y	_	3	punct	_	Translit=?|Arabic=؟
+5	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+6	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s253/ug
+1	elwette	_	PART	T	_	10	discourse	_	Translit=elwette|Arabic=ئەلۋەتتە
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	boz	_	ADJ	A	_	4	compound	_	Translit=boz|Arabic=بوز
+4	torghay	_	NOUN	N	_	10	nsubj	_	Translit=torghay|Arabic=تورغاي
+5	lëningha	_	NOUN	N	_	10	nmod	_	Translit=lëningha|Arabic=لېنىنغا
+6	tünügün	_	NOUN	N	_	9	advmod	_	Translit=tünügün|Arabic=تۈنۈگۈن
+7	özining	_	PRON	P	_	9	nsubj	_	Translit=özining|Arabic=ئۆزىنىڭ
+8	nege	_	PRON	P	_	9	advmod	_	Translit=nege|Arabic=نەگە
+9	ketkenlikini	_	VERB	V	_	10	dobj	_	Translit=ketkenlikini|Arabic=كەتكەنلىكىنى
+10	ëytip	_	VERB	V	_	0	root	_	Translit=ëytip|Arabic=ئېيتىپ
+11	bërelmeytti	_	VERB	V	_	10	aux	_	Translit=bërelmeytti|Arabic=بېرەلمەيتتى
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s254/ug
+1	lëninmu	_	NOUN	N	_	5	nsubj	_	Translit=lëninmu|Arabic=لېنىنمۇ
+2	buni	_	PRON	P	_	5	dobj	_	Translit=buni|Arabic=بۇنى
+3	oghul	_	NOUN	N	_	4	amod	_	Translit=oghul|Arabic=ئوغۇل
+4	balidin	_	NOUN	N	_	5	nmod:abl	_	Translit=balidin|Arabic=بالىدىن
+5	sorimidi	_	VERB	V	_	0	root	_	Translit=sorimidi|Arabic=سورىمىدى
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s255/ug
+1	chünki	_	CONJ	C	_	8	dep	_	Translit=chünki|Arabic=چۈنكى
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	u	_	PRON	P	_	8	nsubj	_	Translit=u|Arabic=ئۇ
+4	oghul	_	NOUN	N	_	5	amod	_	Translit=oghul|Arabic=ئوغۇل
+5	balining	_	NOUN	N	_	6	nsubj	_	Translit=balining|Arabic=بالىنىڭ
+6	semimiy	_	ADJ	A	_	8	dobj	_	Translit=semimiy|Arabic=سەمىمىي
+7	ikenlikini	_	VERB	V	_	6	cop	_	Translit=ikenlikini|Arabic=ئىكەنلىكىنى
+8	bilip	_	VERB	V	_	0	aux	_	Translit=bilip|Arabic=بىلىپ
+9	bolghanidi	_	VERB	V	_	8	aux	_	Translit=bolghanidi|Arabic=بولغانىدى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s256/ug
+1	tursun	_	NOUN	N	_	4	nsubj	_	Translit=tursun|Arabic=تۇرسۇن
+2	bilen	_	CONJ	C	_	1	case	_	Translit=bilen|Arabic=بىلەن
+3	qol	_	NOUN	N	_	4	compound	_	Translit=qol|Arabic=قول
+4	qayrishishta	_	VERB	V	_	5	advmod	_	Translit=qayrishishta|Arabic=قايرىشىشتا
+5	yëngilip	_	VERB	V	_	7	acl	_	Translit=yëngilip|Arabic=يېڭىلىپ
+6	qalghan	_	VERB	V	_	5	aux	_	Translit=qalghan|Arabic=قالغان
+7	eli	_	NOUN	N	_	12	nsubj	_	Translit=eli|Arabic=ئەلى
+8	sawaqdashliri	_	NOUN	N	_	9	nmod:poss	_	Translit=sawaqdashliri|Arabic=ساۋاقداشلىرى
+9	aldida	_	NOUN	N	_	12	advmod	_	Translit=aldida|Arabic=ئالدىدا
+10	bek	_	ADV	D	_	12	advmod	_	Translit=bek|Arabic=بەك
+11	xijil	_	NOUN	N	_	12	compound:lvc	_	Translit=xijil|Arabic=خىجىل
+12	bolup	_	VERB	V	_	0	root	_	Translit=bolup|Arabic=بولۇپ
+13	ketti	_	VERB	V	_	12	aux	_	Translit=ketti|Arabic=كەتتى
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s257/ug
+1	yene	_	CONJ	C	_	2	compound	_	Translit=yene|Arabic=يەنە
+2	këlip	_	CONJ	C	_	12	advmod:emph	_	Translit=këlip|Arabic=كېلىپ
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	tursunning	_	NOUN	N	_	8	nmod:poss	_	Translit=tursunning|Arabic=تۇرسۇننىڭ
+5	körenglik	_	NOUN	N	_	7	advmod	_	Translit=körenglik|Arabic=كۆرەڭلىك
+6	bilen	_	ADP	R	_	5	case	_	Translit=bilen|Arabic=بىلەن
+7	dëgen	_	VERB	V	_	8	acl	_	Translit=dëgen|Arabic=دېگەن
+8	gëpi	_	NOUN	N	_	12	nsubj	_	Translit=gëpi|Arabic=گېپى
+9	uninggha	_	PRON	P	_	12	nmod	_	Translit=uninggha|Arabic=ئۇنىڭغا
+10	tëximu	_	ADV	D	_	12	advmod:emph	_	Translit=tëximu|Arabic=تېخىمۇ
+11	har	_	NOUN	N	_	12	compound	_	Translit=har|Arabic=ھار
+12	keldi	_	VERB	V	_	0	root	_	Translit=keldi|Arabic=كەلدى
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s258/ug
+1	«	_	PUNCT	Y	_	12	punct	_	Translit=«|Arabic=«
+2	eli	_	NOUN	N	_	3	appos	_	Translit=eli|Arabic=ئەلى
+3	uka	_	NOUN	N	_	12	discourse	_	Translit=uka|Arabic=ئۇكا
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	ghojakang	_	NOUN	N	_	8	nmod	_	Translit=ghojakang|Arabic=غوجاكاڭ
+6	bilen	_	ADP	R	_	5	case	_	Translit=bilen|Arabic=بىلەن
+7	qol	_	NOUN	N	_	8	compound	_	Translit=qol|Arabic=قول
+8	qayrishishinggha	_	VERB	V	_	12	mmod	_	Translit=qayrishishinggha|Arabic=قايرىشىشىڭغا
+9	tëxi	_	ADV	D	_	12	advmod	_	Translit=tëxi|Arabic=تېخى
+10	xëli	_	ADV	D	_	12	advmod	_	Translit=xëli|Arabic=خېلى
+11	waqit	_	NOUN	N	_	12	nsubj	_	Translit=waqit|Arabic=ۋاقىت
+12	bar	_	ADJ	A	_	0	root	_	Translit=bar|Arabic=بار
+13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
+
+# sent_id s259/ug
+1	awwal	_	ADV	D	_	8	advmod	_	Translit=awwal|Arabic=ئاۋۋال
+2	üch	_	NUM	M	NumType=Card	3	nummod	_	Translit=üch|Arabic=ئۈچ
+3	yashliq	_	ADJ	A	_	4	amod	_	Translit=yashliq|Arabic=ياشلىق
+4	ukang	_	NOUN	N	_	7	nsubj	_	Translit=ukang|Arabic=ئۇكاڭ
+5	bilen	_	ADP	R	_	4	case	_	Translit=bilen|Arabic=بىلەن
+6	qol	_	NOUN	N	_	7	compound	_	Translit=qol|Arabic=قول
+7	qayriship	_	VERB	V	_	8	advmod	_	Translit=qayriship|Arabic=قايرىشىپ
+8	kële	_	VERB	V	_	0	root	_	Translit=kële|Arabic=كېلە
+9	»	_	PUNCT	Y	_	8	punct	_	Translit=»|Arabic=»
+10	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s260/ug
+1	sen	_	PRON	P	_	3	nsubj	_	Translit=sen|Arabic=سەن
+2	tola	_	ADJ	A	_	3	advmod	_	Translit=tola|Arabic=تولا
+3	körenglep	_	VERB	V	_	0	root	_	Translit=körenglep|Arabic=كۆرەڭلەپ
+4	ketme	_	VERB	V	_	3	aux	_	Translit=ketme|Arabic=كەتمە
+5	!	_	PUNCT	Y	_	4	punct	_	Translit=!|Arabic=!
+
+# sent_id s261/ug
+1	qarap	_	VERB	V	_	0	root	_	Translit=qarap|Arabic=قاراپ
+2	tur	_	VERB	V	_	1	aux	_	Translit=tur|Arabic=تۇر
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+
+# sent_id s262/ug
+1	bir	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir|Arabic=بىر
+2	küni	_	NOUN	N	_	4	advmod	_	Translit=küni|Arabic=كۈنى
+3	sëni	_	PRON	P	_	4	dobj	_	Translit=sëni|Arabic=سېنى
+4	yëngiwalmisam	_	NOUN	N	_	10	advcl	_	Translit=yëngiwalmisam|Arabic=يېڭىۋالمىسام
+5	«	_	PUNCT	Y	_	4	punct	_	Translit=«|Arabic=«
+6	eli	_	NOUN	N	_	8	ccomp	_	Translit=eli|Arabic=ئەلى
+7	»	_	PUNCT	Y	_	6	punct	_	Translit=»|Arabic=»
+8	dëgen	_	VERB	V	_	9	acl	_	Translit=dëgen|Arabic=دېگەن
+9	ismimni	_	NOUN	N	_	10	dobj	_	Translit=ismimni|Arabic=ئىسمىمنى
+10	yötkiwëtimen	_	VERB	V	_	0	root	_	Translit=yötkiwëtimen|Arabic=يۆتكىۋېتىمەن
+11	!	_	PUNCT	Y	_	10	punct	_	Translit=!|Arabic=!
+
+# sent_id s263/ug
+1	eli	_	NOUN	N	_	6	nsubj	_	Translit=eli|Arabic=ئەلى
+2	shundaq	_	PRON	P	_	3	advmod	_	Translit=shundaq|Arabic=شۇنداق
+3	dëginiche	_	VERB	V	_	6	advcl	_	Translit=dëginiche|Arabic=دېگىنىچە
+4	keynige	_	NOUN	N	_	5	nmod	_	Translit=keynige|Arabic=كەينىگە
+5	örülüp	_	VERB	V	_	6	advcl	_	Translit=örülüp|Arabic=ئۆرۈلۈپ
+6	këtip	_	VERB	V	_	0	root	_	Translit=këtip|Arabic=كېتىپ
+7	qaldi	_	VERB	V	_	6	aux	_	Translit=qaldi|Arabic=قالدى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s264/ug
+1	shuningdin	_	PRON	P	_	2	compound	_	Translit=shuningdin|Arabic=شۇنىڭدىن
+2	tartip	_	ADP	R	_	9	advmod	_	Translit=tartip|Arabic=تارتىپ
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	u	_	PRON	P	_	9	nsubj	_	Translit=u|Arabic=ئۇ
+5	her	_	PRON	P	_	6	det	_	Translit=her|Arabic=ھەر
+6	küni	_	NOUN	N	_	9	advmod	_	Translit=küni|Arabic=كۈنى
+7	seher	_	NOUN	N	_	8	advmod	_	Translit=seher|Arabic=سەھەر
+8	turup	_	VERB	V	_	9	advcl	_	Translit=turup|Arabic=تۇرۇپ
+9	chëniqishqa	_	VERB	V	_	0	root	_	Translit=chëniqishqa|Arabic=چېنىقىشقا
+10	bashlidi	_	VERB	V	_	9	aux	_	Translit=bashlidi|Arabic=باشلىدى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s265/ug
+1	tatliq	_	ADJ	A	_	2	amod	_	Translit=tatliq|Arabic=تاتلىق
+2	uyqudin	_	VERB	V	_	3	nmod	_	Translit=uyqudin|Arabic=ئۇيقۇدىن
+3	këchish	_	VERB	V	_	4	nsubj	_	Translit=këchish|Arabic=كېچىش
+4	tes	_	ADJ	A	_	15	parataxis	_	Translit=tes|Arabic=تەس
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	chëniqish	_	VERB	V	_	8	nsubj	_	Translit=chëniqish|Arabic=چېنىقىش
+7	ademni	_	NOUN	N	_	8	dobj	_	Translit=ademni|Arabic=ئادەمنى
+8	harduruwëtidighan	_	VERB	V	_	15	parataxis	_	Translit=harduruwëtidighan|Arabic=ھاردۇرۇۋېتىدىغان
+9	bolsimu	_	VERB	V	_	8	cop	_	Translit=bolsimu|Arabic=بولسىمۇ
+10	,	_	PUNCT	Y	_	9	punct	_	Translit=,|Arabic=،
+11	u	_	PRON	P	_	15	nsubj	_	Translit=u|Arabic=ئۇ
+12	chishini	_	NOUN	N	_	13	dobj	_	Translit=chishini|Arabic=چىشىنى
+13	chishlep	_	VERB	V	_	15	advcl	_	Translit=chishlep|Arabic=چىشلەپ
+14	meshiq	_	NOUN	N	_	15	dobj	_	Translit=meshiq|Arabic=مەشىق
+15	qiliwerdi	_	VERB	V	_	0	root	_	Translit=qiliwerdi|Arabic=قىلىۋەردى
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.|Arabic=.
+
+# sent_id s266/ug
+1	shu	_	PRON	P	_	2	compound	_	Translit=shu|Arabic=شۇ
+2	teriqide	_	NOUN	N	_	5	advmod	_	Translit=teriqide|Arabic=تەرىقىدە
+3	bir	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir|Arabic=بىر
+4	ay	_	NOUN	N	_	5	nsubj	_	Translit=ay|Arabic=ئاي
+5	ötti	_	VERB	V	_	0	root	_	Translit=ötti|Arabic=ئۆتتى
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s267/ug
+1	emdi	_	ADV	D	_	6	discourse	_	Translit=emdi|Arabic=ئەمدى
+2	uning	_	PRON	P	_	3	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+3	bileklirige	_	NOUN	N	_	6	nmod	_	Translit=bileklirige|Arabic=بىلەكلىرىگە
+4	xëli	_	ADV	D	_	6	advmod	_	Translit=xëli|Arabic=خېلى
+5	küch	_	NOUN	N	_	6	nsubj	_	Translit=küch|Arabic=كۈچ
+6	kirip	_	VERB	V	_	0	root	_	Translit=kirip|Arabic=كىرىپ
+7	qalghandek	_	VERB	V	_	6	aux	_	Translit=qalghandek|Arabic=قالغاندەك
+8	qilatti	_	VERB	V	_	6	aux	_	Translit=qilatti|Arabic=قىلاتتى
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s268/ug
+1	bir	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir|Arabic=بىر
+2	küni	_	NOUN	N	_	13	advmod	_	Translit=küni|Arabic=كۈنى
+3	eli	_	NOUN	N	_	13	nsubj	_	Translit=eli|Arabic=ئەلى
+4	sinipta	_	NOUN	N	_	7	nmod	_	Translit=sinipta|Arabic=سىنىپتا
+5	ders	_	NOUN	N	_	6	dobj	_	Translit=ders|Arabic=دەرس
+6	tekrarlap	_	VERB	V	_	7	advcl	_	Translit=tekrarlap|Arabic=تەكرارلاپ
+7	olturghan	_	VERB	V	_	8	acl	_	Translit=olturghan|Arabic=ئولتۇرغان
+8	tursunning	_	NOUN	N	_	9	nmod:poss	_	Translit=tursunning|Arabic=تۇرسۇننىڭ
+9	aldigha	_	NOUN	N	_	10	nmod	_	Translit=aldigha|Arabic=ئالدىغا
+10	keldi	_	VERB	V	_	13	conj	_	Translit=keldi|Arabic=كەلدى
+11	-	_	PUNCT	Y	_	10	punct	_	Translit=-|Arabic=-
+12	de	_	PART	T	_	13	mark	_	Translit=de|Arabic=دە
+13	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+14	:	_	PUNCT	Y	_	13	punct	_	Translit=:|Arabic=:
+
+# sent_id s269/ug
+1	-	_	PUNCT	Y	_	12	punct	_	Translit=-|Arabic=-
+2	aghine	_	NOUN	N	_	12	discourse	_	Translit=aghine|Arabic=ئاغىنە
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	bir	_	NUM	M	NumType=Card	5	nummod	_	Translit=bir|Arabic=بىر
+5	ayning	_	NOUN	N	_	6	nmod:poss	_	Translit=ayning|Arabic=ئاينىڭ
+6	aldida	_	NOUN	N	_	8	advmod	_	Translit=aldida|Arabic=ئالدىدا
+7	sanga	_	PRON	P	_	8	nmod:cau	_	Translit=sanga|Arabic=ساڭا
+8	dëgen	_	VERB	V	_	10	acl	_	Translit=dëgen|Arabic=دېگەن
+9	hëliqi	_	PRON	P	_	10	det	_	Translit=hëliqi|Arabic=ھېلىقى
+10	gëpim	_	NOUN	N	_	12	nsubj	_	Translit=gëpim|Arabic=گېپىم
+11	ësingde	_	NOUN	N	_	12	nmod	_	Translit=ësingde|Arabic=ئېسىڭدە
+12	bardu	_	ADJ	A	_	0	root	_	Translit=bardu|Arabic=باردۇ
+13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
+
+# sent_id s270/ug
+1	qëni	_	PART	T	_	5	discourse	_	Translit=qëni|Arabic=قېنى
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	bir	_	NUM	M	NumType=Card	5	advmod	_	Translit=bir|Arabic=بىر
+4	qol	_	NOUN	N	_	5	nsubj	_	Translit=qol|Arabic=قول
+5	qayriship	_	VERB	V	_	0	root	_	Translit=qayriship|Arabic=قايرىشىپ
+6	baqmaymizmu	_	VERB	V	_	5	aux	_	Translit=baqmaymizmu|Arabic=باقمايمىزمۇ
+7	?	_	PUNCT	Y	_	6	punct	_	Translit=?|Arabic=؟
+
+# sent_id s271/ug
+1	tursun	_	NOUN	N	_	7	nsubj	_	Translit=tursun|Arabic=تۇرسۇن
+2	tuyuqsiz	_	ADV	D	_	3	advmod	_	Translit=tuyuqsiz|Arabic=تۇيۇقسىز
+3	ëytilghan	_	VERB	V	_	5	acl	_	Translit=ëytilghan|Arabic=ئېيتىلغان
+4	bu	_	PRON	P	_	5	det	_	Translit=bu|Arabic=بۇ
+5	geptin	_	NOUN	N	_	7	nmod	_	Translit=geptin|Arabic=گەپتىن
+6	sel	_	ADV	D	_	7	advmod	_	Translit=sel|Arabic=سەل
+7	mengdep	_	VERB	V	_	0	root	_	Translit=mengdep|Arabic=مەڭدەپ
+8	qaldi	_	VERB	V	_	7	aux	_	Translit=qaldi|Arabic=قالدى
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+
+# sent_id s272/ug
+1	emma	_	CONJ	C	_	10	cc	_	Translit=emma|Arabic=ئەمما
+2	özini	_	PRON	P	_	4	dobj	_	Translit=özini|Arabic=ئۆزىنى
+3	tëzla	_	ADJ	A	_	4	advmod	_	Translit=tëzla|Arabic=تېزلا
+4	ongshiwëlip	_	VERB	V	_	7	advcl	_	Translit=ongshiwëlip|Arabic=ئوڭشىۋېلىپ
+5	ornidin	_	NOUN	N	_	7	nmod	_	Translit=ornidin|Arabic=ئورنىدىن
+6	likkide	_	VERB	V	_	7	advmod	_	Translit=likkide|Arabic=لىككىدە
+7	turdi	_	VERB	V	_	10	conj	_	Translit=turdi|Arabic=تۇردى
+8	we	_	CONJ	C	_	10	cc	_	Translit=we|Arabic=ۋە
+9	sawaqdashlargha	_	VERB	V	_	10	nmod	_	Translit=sawaqdashlargha|Arabic=ساۋاقداشلارغا
+10	warqiridi	_	VERB	V	_	0	root	_	Translit=warqiridi|Arabic=ۋارقىرىدى
+11	:	_	PUNCT	Y	_	10	punct	_	Translit=:|Arabic=:
+
+# sent_id s273/ug
+1	mawu	_	PRON	P	_	3	det	_	Translit=mawu|Arabic=ماۋۇ
+2	«	_	PUNCT	Y	_	1	punct	_	Translit=«|Arabic=«
+3	shakichik	_	ADJ	A	_	13	nsubj	_	Translit=shakichik|Arabic=شاكىچىك
+4	»	_	PUNCT	Y	_	3	punct	_	Translit=»|Arabic=»
+5	yëngilginige	_	NOUN	N	_	7	nmod	_	Translit=yëngilginige|Arabic=يېڭىلگىنىگە
+6	ten	_	NOUN	N	_	7	compound	_	Translit=ten|Arabic=تەن
+7	bermey	_	VERB	V	_	13	advcl	_	Translit=bermey|Arabic=بەرمەي
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	ghojakisidin	_	NOUN	N	_	12	nmod	_	Translit=ghojakisidin|Arabic=غوجاكىسىدىن
+10	yene	_	ADV	D	_	12	advmod	_	Translit=yene|Arabic=يەنە
+11	edipini	_	NOUN	N	_	12	dobj	_	Translit=edipini|Arabic=ئەدىپىنى
+12	yëgili	_	VERB	V	_	13	advcl	_	Translit=yëgili|Arabic=يېگىلى
+13	keptu	_	VERB	V	_	0	root	_	Translit=keptu|Arabic=كەپتۇ
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s274/ug
+1	özümni	_	PRON	P	_	4	dobj	_	Translit=özümni|Arabic=ئۆزۈمنى
+2	yene	_	ADV	D	_	3	compound	_	Translit=yene|Arabic=يەنە
+3	bir	_	NUM	M	NumType=Card	4	advmod	_	Translit=bir|Arabic=بىر
+4	körsitip	_	VERB	V	_	0	root	_	Translit=körsitip|Arabic=كۆرسىتىپ
+5	qoyay	_	VERB	V	_	4	aux	_	Translit=qoyay|Arabic=قوياي
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s275/ug
+1	qëni	_	PART	T	_	4	discourse	_	Translit=qëni|Arabic=قېنى
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	këlip	_	VERB	V	_	4	advcl	_	Translit=këlip|Arabic=كېلىپ
+4	körünglar	_	VERB	V	_	0	root	_	Translit=körünglar|Arabic=كۆرۈڭلار
+5	!	_	PUNCT	Y	_	4	punct	_	Translit=!|Arabic=!
+
+# sent_id s276/ug
+1	eli	_	NOUN	N	_	5	nsubj	_	Translit=eli|Arabic=ئەلى
+2	bu	_	PRON	P	_	3	det	_	Translit=bu|Arabic=بۇ
+3	geplerge	_	NOUN	N	_	5	nmod	_	Translit=geplerge|Arabic=گەپلەرگە
+4	pisent	_	NOUN	N	_	5	compound	_	Translit=pisent|Arabic=پىسەنت
+5	qilmidi	_	VERB	V	_	0	root	_	Translit=qilmidi|Arabic=قىلمىدى
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s277/ug
+1	uning	_	PRON	P	_	2	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+2	könglide	_	NOUN	N	_	7	nmod	_	Translit=könglide|Arabic=كۆڭلىدە
+3	peqet	_	ADV	D	_	7	advmod	_	Translit=peqet|Arabic=پەقەت
+4	yëngish	_	NOUN	N	_	5	nmod:poss	_	Translit=yëngish|Arabic=يېڭىش
+5	ishenchi	_	NOUN	N	_	7	nsubj	_	Translit=ishenchi|Arabic=ئىشەنچى
+6	lawuldap	_	VERB	V	_	7	advmod	_	Translit=lawuldap|Arabic=لاۋۇلداپ
+7	turatti	_	VERB	V	_	0	root	_	Translit=turatti|Arabic=تۇراتتى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s278/ug
+1	balilar	_	NOUN	N	_	3	nsubj	_	Translit=balilar|Arabic=بالىلار
+2	ikkisini	_	NUM	M	NumType=Card	3	dobj	_	Translit=ikkisini|Arabic=ئىككىسىنى
+3	oriwëlishti	_	VERB	V	_	0	root	_	Translit=oriwëlishti|Arabic=ئورىۋېلىشتى
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s279/ug
+1	eli	_	NOUN	N	_	18	nsubj	_	Translit=eli|Arabic=ئەلى
+2	tursunning	_	NOUN	N	_	3	nmod:poss	_	Translit=tursunning|Arabic=تۇرسۇننىڭ
+3	qolini	_	NOUN	N	_	5	dobj	_	Translit=qolini|Arabic=قولىنى
+4	ching	_	ADJ	A	_	5	advmod	_	Translit=ching|Arabic=چىڭ
+5	tutup	_	VERB	V	_	10	advmod	_	Translit=tutup|Arabic=تۇتۇپ
+6	közining	_	NOUN	N	_	7	nmod:poss	_	Translit=közining|Arabic=كۆزىنىڭ
+7	quyruqida	_	NOUN	N	_	10	nmod	_	Translit=quyruqida|Arabic=قۇيرۇقىدا
+8	uninggha	_	PRON	P	_	10	nmod	_	Translit=uninggha|Arabic=ئۇنىڭغا
+9	bir	_	NUM	M	NumType=Card	10	advmod	_	Translit=bir|Arabic=بىر
+10	qariwetti	_	VERB	V	_	18	conj	_	Translit=qariwetti|Arabic=قارىۋەتتى
+11	-	_	PUNCT	Y	_	10	punct	_	Translit=-|Arabic=-
+12	de	_	PART	T	_	10	mark	_	Translit=de|Arabic=دە
+13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
+14	anche	_	ADV	D	_	15	advmod	_	Translit=anche|Arabic=ئانچە
+15	küchimeyla	_	VERB	V	_	18	advcl	_	Translit=küchimeyla|Arabic=كۈچىمەيلا
+16	uning	_	PRON	P	_	17	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+17	qolini	_	NOUN	N	_	18	dobj	_	Translit=qolini|Arabic=قولىنى
+18	qayriwetti	_	VERB	V	_	0	root	_	Translit=qayriwetti|Arabic=قايرىۋەتتى
+19	.	_	PUNCT	Y	_	18	punct	_	Translit=.|Arabic=.
+
+# sent_id s280/ug
+1	sinipta	_	NOUN	N	_	4	nmod	_	Translit=sinipta|Arabic=سىنىپتا
+2	chawak	_	NOUN	N	_	3	nmod:poss	_	Translit=chawak|Arabic=چاۋاك
+3	sadasi	_	NOUN	N	_	4	nsubj	_	Translit=sadasi|Arabic=ساداسى
+4	kötürüldi	_	VERB	V	_	0	root	_	Translit=kötürüldi|Arabic=كۆتۈرۈلدى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s281/ug
+1	lëkin	_	CONJ	C	_	10	cc	_	Translit=lëkin|Arabic=لېكىن
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	tursun	_	NOUN	N	_	10	nsubj	_	Translit=tursun|Arabic=تۇرسۇن
+4	yëngilgenlikige	_	NOUN	N	_	6	nmod	_	Translit=yëngilgenlikige|Arabic=يېڭىلگەنلىكىگە
+5	ten	_	NOUN	N	_	6	compound	_	Translit=ten|Arabic=تەن
+6	bermey	_	VERB	V	_	10	advcl	_	Translit=bermey|Arabic=بەرمەي
+7	bir	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir|Arabic=بىر
+8	qanche	_	PRON	P	_	9	det	_	Translit=qanche|Arabic=قانچە
+9	qëtim	_	DET	Q	_	10	advmod	_	Translit=qëtim|Arabic=قېتىم
+10	tutushti	_	VERB	V	_	0	root	_	Translit=tutushti|Arabic=تۇتۇشتى
+11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
+
+# sent_id s282/ug
+1	emma	_	CONJ	C	_	3	cc	_	Translit=emma|Arabic=ئەمما
+2	yenila	_	ADV	D	_	3	advmod	_	Translit=yenila|Arabic=يەنىلا
+3	yëngilip	_	VERB	V	_	0	root	_	Translit=yëngilip|Arabic=يېڭىلىپ
+4	qaldi	_	VERB	V	_	3	aux	_	Translit=qaldi|Arabic=قالدى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s283/ug
+1	u	_	PRON	P	_	8	nsubj	_	Translit=u|Arabic=ئۇ
+2	ongaysizlanghan	_	VERB	V	_	8	advcl	_	Translit=ongaysizlanghan|Arabic=ئوڭايسىزلانغان
+3	halda	_	NOUN	N	_	2	case	_	Translit=halda|Arabic=ھالدا
+4	birdem	_	ADV	D	_	8	advmod	_	Translit=birdem|Arabic=بىردەم
+5	ün	_	NOUN	N	_	7	compound:redup	_	Translit=ün|Arabic=ئۈن
+6	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+7	tinsiz	_	ADJ	A	_	8	advmod	_	Translit=tinsiz|Arabic=تىنسىز
+8	olturup	_	VERB	V	_	0	root	_	Translit=olturup|Arabic=ئولتۇرۇپ
+9	ketti	_	VERB	V	_	8	aux	_	Translit=ketti|Arabic=كەتتى
+10	,	_	PUNCT	Y	_	9	punct	_	Translit=,|Arabic=،
+
+# sent_id s284/ug
+1	këyin	_	ADV	D	_	8	advmod	_	Translit=këyin|Arabic=كېيىن
+2	qayilliq	_	NOUN	N	_	6	advmod	_	Translit=qayilliq|Arabic=قايىللىق
+3	bilen	_	ADP	R	_	2	case	_	Translit=bilen|Arabic=بىلەن
+4	elining	_	NOUN	N	_	5	nmod:poss	_	Translit=elining|Arabic=ئەلىنىڭ
+5	mürisige	_	NOUN	N	_	6	nmod	_	Translit=mürisige|Arabic=مۈرىسىگە
+6	urup	_	VERB	V	_	8	advcl	_	Translit=urup|Arabic=ئۇرۇپ
+7	qoyup	_	VERB	V	_	6	advmod	_	Translit=qoyup|Arabic=قويۇپ
+8	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+9	:	_	PUNCT	Y	_	8	punct	_	Translit=:|Arabic=:
+
+# sent_id s285/ug
+1	boldikensen	_	NOUN	N	_	0	root	_	Translit=boldikensen|Arabic=بولدىكەنسەن
+2	jumu	_	PART	T	_	1	discourse	_	Translit=jumu|Arabic=جۇمۇ
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+
+# sent_id s286/ug
+1	dëginingni	_	PRON	P	_	2	dobj	_	Translit=dëginingni|Arabic=دېگىنىڭنى
+2	qilding	_	VERB	V	_	0	root	_	Translit=qilding|Arabic=قىلدىڭ
+3	!	_	PUNCT	Y	_	2	punct	_	Translit=!|Arabic=!
+
+# sent_id s287/ug
+1	biz	_	PRON	P	_	3	nsubj	_	Translit=biz|Arabic=بىز
+2	sehrada	_	NOUN	N	_	3	nmod	_	Translit=sehrada|Arabic=سەھرادا
+3	turimiz	_	VERB	V	_	0	root	_	Translit=turimiz|Arabic=تۇرىمىز
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s288/ug
+1	dërimizning	_	NOUN	N	_	2	nmod:poss	_	Translit=dërimizning|Arabic=دېرىمىزنىڭ
+2	aldida	_	NOUN	N	_	5	nmod	_	Translit=aldida|Arabic=ئالدىدا
+3	payansiz	_	ADJ	A	_	4	amod	_	Translit=payansiz|Arabic=پايانسىز
+4	yaylaq	_	NOUN	N	_	5	nsubj	_	Translit=yaylaq|Arabic=يايلاق
+5	bar	_	ADJ	A	_	0	root	_	Translit=bar|Arabic=بار
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s289/ug
+1	yaylaq	_	NOUN	N	_	3	nsubj	_	Translit=yaylaq|Arabic=يايلاق
+2	mamkaplargha	_	NOUN	N	_	3	nmod	_	Translit=mamkaplargha|Arabic=مامكاپلارغا
+3	tolup	_	VERB	V	_	0	root	_	Translit=tolup|Arabic=تولۇپ
+4	ketken	_	VERB	V	_	3	aux	_	Translit=ketken|Arabic=كەتكەن
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s290/ug
+1	mamkap	_	NOUN	N	_	2	nsubj	_	Translit=mamkap|Arabic=مامكاپ
+2	ëchilghan	_	VERB	V	_	3	acl	_	Translit=ëchilghan|Arabic=ئېچىلغان
+3	chaghda	_	NOUN	N	_	10	nmod	_	Translit=chaghda|Arabic=چاغدا
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	bu	_	PRON	P	_	6	det	_	Translit=bu|Arabic=بۇ
+6	yaylaq	_	NOUN	N	_	10	nsubj	_	Translit=yaylaq|Arabic=يايلاق
+7	altun	_	NOUN	N	_	8	compund	_	Translit=altun|Arabic=ئالتۇن
+8	reng	_	NOUN	N	_	9	nmod	_	Translit=reng|Arabic=رەڭ
+9	tüske	_	NOUN	N	_	10	nmod	_	Translit=tüske|Arabic=تۈسكە
+10	kiridu	_	VERB	V	_	0	root	_	Translit=kiridu|Arabic=كىرىدۇ
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s291/ug
+1	ukam	_	NOUN	N	_	2	appos	_	Translit=ukam|Arabic=ئۇكام
+2	ikkimiz	_	NUM	M	NumType=Card	5	nsubj	_	Translit=ikkimiz|Arabic=ئىككىمىز
+3	daim	_	ADV	D	_	5	advmod	_	Translit=daim|Arabic=دائىم
+4	yaylaqta	_	NOUN	N	_	5	nmod	_	Translit=yaylaqta|Arabic=يايلاقتا
+5	oynaymiz	_	VERB	V	_	0	root	_	Translit=oynaymiz|Arabic=ئوينايمىز
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s292/ug
+1	bir	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir|Arabic=بىر
+2	qëtim	_	DET	Q	_	19	advmod	_	Translit=qëtim|Arabic=قېتىم
+3	ukam	_	NOUN	N	_	6	nsubj	_	Translit=ukam|Arabic=ئۇكام
+4	aldimda	_	NOUN	N	_	6	nmod	_	Translit=aldimda|Arabic=ئالدىمدا
+5	yügürüp	_	VERB	V	_	6	advcl	_	Translit=yügürüp|Arabic=يۈگۈرۈپ
+6	këtiwatqanda	_	VERB	V	_	19	advcl	_	Translit=këtiwatqanda|Arabic=كېتىۋاتقاندا
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	men	_	PRON	P	_	19	nsubj	_	Translit=men|Arabic=مەن
+9	hëch	_	PRON	P	_	10	compound	_	Translit=hëch|Arabic=ھېچ
+10	ish	_	NOUN	N	_	11	nsubj	_	Translit=ish|Arabic=ئىش
+11	bolmighandek	_	VERB	V	_	12	acl	_	Translit=bolmighandek|Arabic=بولمىغاندەك
+12	qiyapette	_	NOUN	N	_	19	advmod	_	Translit=qiyapette|Arabic=قىياپەتتە
+13	:	_	PUNCT	Y	_	12	punct	_	Translit=:|Arabic=:
+14	«	_	PUNCT	Y	_	12	punct	_	Translit=«|Arabic=«
+15	sëryosha	_	NOUN	N	_	18	ccomp	_	Translit=sëryosha|Arabic=سېريوشا
+16	!	_	PUNCT	V	_	15	punct	_	Translit=!|Arabic=!
+17	»	_	PUNCT	Y	_	15	punct	_	Translit=»|Arabic=»
+18	dep	_	VERB	V	_	19	advcl	_	Translit=dep|Arabic=دەپ
+19	towlidim	_	VERB	V	_	0	root	_	Translit=towlidim|Arabic=توۋلىدىم
+20	.	_	PUNCT	Y	_	19	punct	_	Translit=.|Arabic=.
+
+# sent_id s293/ug
+1	u	_	PRON	P	_	2	nsubj	_	Translit=u|Arabic=ئۇ
+2	buruluwidi	_	VERB	V	_	12	conj	_	Translit=buruluwidi|Arabic=بۇرۇلۇۋىدى
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	men	_	PRON	P	_	12	nsubj	_	Translit=men|Arabic=مەن
+5	küchep	_	VERB	V	_	6	advcl	_	Translit=küchep|Arabic=كۈچەپ
+6	püwlep	_	VERB	V	_	12	advmod	_	Translit=püwlep|Arabic=پۈۋلەپ
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	mamkap	_	NOUN	N	_	9	nmod:poss	_	Translit=mamkap|Arabic=مامكاپ
+9	tozghaqlirini	_	NOUN	N	_	12	dobj	_	Translit=tozghaqlirini|Arabic=توزغاقلىرىنى
+10	uning	_	PRON	P	_	11	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+11	yüzige	_	NOUN	N	_	12	nmod	_	Translit=yüzige|Arabic=يۈزىگە
+12	yëpishturuwettim	_	VERB	V	_	0	root	_	Translit=yëpishturuwettim|Arabic=يېپىشتۇرۇۋەتتىم
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s294/ug
+1	ukammu	_	NOUN	N	_	10	nsubj	_	Translit=ukammu|Arabic=ئۇكاممۇ
+2	yalghandin	_	ADJ	A	_	3	amod	_	Translit=yalghandin|Arabic=يالغاندىن
+3	chüshkürgen	_	NOUN	N	_	10	advcl	_	Translit=chüshkürgen|Arabic=چۈشكۈرگەن
+4	bolup	_	VERB	V	_	3	cop	_	Translit=bolup|Arabic=بولۇپ
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	mamkapni	_	NOUN	N	_	10	dobj	_	Translit=mamkapni|Arabic=مامكاپنى
+7	mëning	_	PRON	P	_	8	nmod:poss	_	Translit=mëning|Arabic=مېنىڭ
+8	yüzümge	_	NOUN	N	_	10	nmod	_	Translit=yüzümge|Arabic=يۈزۈمگە
+9	qaritip	_	VERB	V	_	10	advmod	_	Translit=qaritip|Arabic=قارىتىپ
+10	püwlidi	_	VERB	V	_	0	root	_	Translit=püwlidi|Arabic=پۈۋلىدى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s295/ug
+1	bir	_	NUM	M	NumType=Card	2	det	_	Translit=bir|Arabic=بىر
+2	küni	_	NOUN	N	_	9	advmod	_	Translit=küni|Arabic=كۈنى
+3	tang	_	NOUN	N	_	4	compound	_	Translit=tang|Arabic=تاڭ
+4	seherde	_	NOUN	N	_	9	nmod	_	Translit=seherde|Arabic=سەھەردە
+5	ornumdin	_	NOUN	N	_	6	nmod	_	Translit=ornumdin|Arabic=ئورنۇمدىن
+6	turup	_	VERB	V	_	9	advcl	_	Translit=turup|Arabic=تۇرۇپ
+7	bëliq	_	NOUN	N	_	8	dobj	_	Translit=bëliq|Arabic=بېلىق
+8	tutqili	_	VERB	V	_	9	advcl	_	Translit=tutqili|Arabic=تۇتقىلى
+9	mangdim	_	VERB	V	_	0	root	_	Translit=mangdim|Arabic=ماڭدىم
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s296/ug
+1	këtiwëtip	_	VERB	V	_	11	advcl	_	Translit=këtiwëtip|Arabic=كېتىۋېتىپ
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	yaylaqning	_	NOUN	N	_	5	nsubj	_	Translit=yaylaqning|Arabic=يايلاقنىڭ
+4	altun	_	NOUN	N	_	5	compound	_	Translit=altun|Arabic=ئالتۇن
+5	reng	_	NOUN	N	_	9	conj	_	Translit=reng|Arabic=رەڭ
+6	emes	_	VERB	V	_	5	neg	_	Translit=emes|Arabic=ئەمەس
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	yëshil	_	ADJ	A	_	9	amod	_	Translit=yëshil|Arabic=يېشىل
+9	rengde	_	NOUN	N	_	11	advmod	_	Translit=rengde|Arabic=رەڭدە
+10	ikenlkini	_	NOUN	N	_	9	cop	_	Translit=ikenlkini|Arabic=ئىكەنلكىنى
+11	bayqidim	_	VERB	V	_	0	root	_	Translit=bayqidim|Arabic=بايقىدىم
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s297/ug
+1	chüshte	_	NOUN	N	_	12	nmod	_	Translit=chüshte|Arabic=چۈشتە
+2	öyge	_	NOUN	N	_	3	nmod	_	Translit=öyge|Arabic=ئۆيگە
+3	qaytqan	_	VERB	V	_	4	acl	_	Translit=qaytqan|Arabic=قايتقان
+4	chëghimda	_	NOUN	N	_	12	nmod:tmod	_	Translit=chëghimda|Arabic=چېغىمدا
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	yaylaqning	_	NOUN	N	_	10	nsubj	_	Translit=yaylaqning|Arabic=يايلاقنىڭ
+7	yene	_	ADV	D	_	10	advmod	_	Translit=yene|Arabic=يەنە
+8	altun	_	NOUN	N	_	9	compound	_	Translit=altun|Arabic=ئالتۇن
+9	rengge	_	NOUN	N	_	10	nmod	_	Translit=rengge|Arabic=رەڭگە
+10	kirip	_	VERB	V	_	12	advcl	_	Translit=kirip|Arabic=كىرىپ
+11	qalghanliqini	_	VERB	V	_	10	aux	_	Translit=qalghanliqini|Arabic=قالغانلىقىنى
+12	kördüm	_	VERB	V	_	0	root	_	Translit=kördüm|Arabic=كۆردۈم
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s298/ug
+1	kechqurun	_	NOUN	N	_	6	advmod	_	Translit=kechqurun|Arabic=كەچقۇرۇن
+2	yaylaq	_	NOUN	N	_	6	nsubj	_	Translit=yaylaq|Arabic=يايلاق
+3	yene	_	ADV	D	_	6	advmod	_	Translit=yene|Arabic=يەنە
+4	yëshil	_	ADJ	A	_	5	amod	_	Translit=yëshil|Arabic=يېشىل
+5	rengge	_	NOUN	N	_	6	nmod	_	Translit=rengge|Arabic=رەڭگە
+6	özgirip	_	VERB	V	_	0	root	_	Translit=özgirip|Arabic=ئۆزگىرىپ
+7	qaldi	_	VERB	V	_	6	aux	_	Translit=qaldi|Arabic=قالدى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s299/ug
+1	bu	_	PRON	P	_	3	nsubj	_	Translit=bu|Arabic=بۇ
+2	nëme	_	PRON	P	_	3	compound	_	Translit=nëme|Arabic=نېمە
+3	üchün	_	CONJ	C	_	0	root	_	Translit=üchün|Arabic=ئۈچۈن
+4	?	_	PUNCT	Y	_	3	punct	_	Translit=?|Arabic=؟
+
+# sent_id s300/ug
+1	ders	_	NOUN	N	_	2	nsubj	_	Translit=ders|Arabic=دەرس
+2	bashlandi	_	VERB	V	_	0	root	_	Translit=bashlandi|Arabic=باشلاندى
+3	.	_	PUNCT	Y	_	2	punct	_	Translit=.|Arabic=.
+
+# sent_id s301/ug
+1	men	_	PRON	P	_	3	nsubj	_	Translit=men|Arabic=مەن
+2	sawaqdashlardin	_	NOUN	N	_	3	nmod	_	Translit=sawaqdashlardin|Arabic=ساۋاقداشلاردىن
+3	soridim	_	VERB	V	_	0	root	_	Translit=soridim|Arabic=سورىدىم
+4	:	_	PUNCT	Y	_	3	punct	_	Translit=:|Arabic=:
+
+# sent_id s302/ug
+1	-	_	PUNCT	Y	_	7	punct	_	Translit=-|Arabic=-
+2	ata	_	NOUN	N	_	4	compound:redup	_	Translit=ata|Arabic=ئاتا
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	ananglar	_	NOUN	N	_	7	nsubj	_	Translit=ananglar|Arabic=ئاناڭلار
+5	tughulghan	_	VERB	V	_	6	acl	_	Translit=tughulghan|Arabic=تۇغۇلغان
+6	kününglarni	_	NOUN	N	_	7	dobj	_	Translit=kününglarni|Arabic=كۈنۈڭلارنى
+7	bilemdu	_	VERB	V	_	0	root	_	Translit=bilemdu|Arabic=بىلەمدۇ
+8	?	_	PUNCT	Y	_	7	punct	_	Translit=?|Arabic=؟
+
+# sent_id s303/ug
+1	balilar	_	NOUN	N	_	4	nsubj	_	Translit=balilar|Arabic=بالىلار
+2	birdek	_	NUM	M	NumType=Card	4	advmod	_	Translit=birdek|Arabic=بىردەك
+3	jawab	_	NOUN	N	_	4	compound	_	Translit=jawab|Arabic=جاۋاب
+4	bërishti	_	VERB	V	_	0	root	_	Translit=bërishti|Arabic=بېرىشتى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s304/ug
+1	-	_	PUNCT	Y	_	10	punct	_	Translit=-|Arabic=-
+2	tughulghan	_	VERB	V	_	3	acl	_	Translit=tughulghan|Arabic=تۇغۇلغان
+3	kününglar	_	NOUN	N	_	10	nmod	_	Translit=kününglar|Arabic=كۈنۈڭلار
+4	bolghanda	_	VERB	V	_	3	cop	_	Translit=bolghanda|Arabic=بولغاندا
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	ata	_	NOUN	N	_	8	compound:redup	_	Translit=ata|Arabic=ئاتا
+7	-	_	PUNCT	Y	_	6	punct	_	Translit=-|Arabic=-
+8	ananglar	_	NOUN	N	_	10	nsubj	_	Translit=ananglar|Arabic=ئاناڭلار
+9	silerni	_	PRON	P	_	10	dobj	_	Translit=silerni|Arabic=سىلەرنى
+10	tebriklemdu	_	VERB	V	_	0	root	_	Translit=tebriklemdu|Arabic=تەبرىكلەمدۇ
+11	?	_	PUNCT	Y	_	10	punct	_	Translit=?|Arabic=؟
+
+# sent_id s305/ug
+1	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+2	elwette	_	PART	T	_	3	advmod	_	Translit=elwette|Arabic=ئەلۋەتتە
+3	tebrikleydu	_	VERB	V	_	0	root	_	Translit=tebrikleydu|Arabic=تەبرىكلەيدۇ
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+5	de	_	PART	T	_	3	mark	_	Translit=de|Arabic=دە
+6	!	_	PUNCT	Y	_	5	punct	_	Translit=!|Arabic=!
+
+# sent_id s306/ug
+1	-	_	PUNCT	Y	_	14	punct	_	Translit=-|Arabic=-
+2	tughulghan	_	VERB	V	_	3	acl	_	Translit=tughulghan|Arabic=تۇغۇلغان
+3	künini	_	NOUN	N	_	7	dobj	_	Translit=künini|Arabic=كۈنىنى
+4	ata	_	NOUN	N	_	6	compound:redup	_	Translit=ata|Arabic=ئاتا
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	anisi	_	NOUN	N	_	7	nsubj	_	Translit=anisi|Arabic=ئانىسى
+7	bilidighanlar	_	VERB	V	_	12	conj	_	Translit=bilidighanlar|Arabic=بىلىدىغانلار
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	ata	_	NOUN	N	_	11	compound:redup	_	Translit=ata|Arabic=ئاتا
+10	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+11	anisi	_	NOUN	N	_	12	nsubj	_	Translit=anisi|Arabic=ئانىسى
+12	tebrikleydighanlar	_	NOUN	N	_	14	nsubj	_	Translit=tebrikleydighanlar|Arabic=تەبرىكلەيدىغانلار
+13	qolunglarni	_	NOUN	N	_	14	dobj	_	Translit=qolunglarni|Arabic=قولۇڭلارنى
+14	kötürünglar	_	VERB	V	_	0	root	_	Translit=kötürünglar|Arabic=كۆتۈرۈڭلار
+15	!	_	PUNCT	Y	_	14	punct	_	Translit=!|Arabic=!
+
+# sent_id s307/ug
+1	ular	_	PRON	P	_	5	nsubj	_	Translit=ular|Arabic=ئۇلار
+2	meghrur	_	ADJ	A	_	5	advmod	_	Translit=meghrur|Arabic=مەغرۇر
+3	halda	_	NOUN	N	_	2	case	_	Translit=halda|Arabic=ھالدا
+4	qol	_	NOUN	N	_	5	dobj	_	Translit=qol|Arabic=قول
+5	kötürüshti	_	VERB	V	_	0	root	_	Translit=kötürüshti|Arabic=كۆتۈرۈشتى
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s308/ug
+1	beziliri	_	PRON	P	_	8	nsubj	_	Translit=beziliri|Arabic=بەزىلىرى
+2	tëxi	_	ADV	D	_	8	advmod	_	Translit=tëxi|Arabic=تېخى
+3	gideygen	_	VERB	V	_	8	advcl	_	Translit=gideygen|Arabic=گىدەيگەن
+4	halda	_	NOUN	N	_	3	case	_	Translit=halda|Arabic=ھالدا
+5	uyaq	_	VERB	V	_	7	compound:redup	_	Translit=uyaq|Arabic=ئۇياق
+6	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+7	buyaqqa	_	PRON	P	_	8	nmod	_	Translit=buyaqqa|Arabic=بۇياققا
+8	qarap	_	VERB	V	_	0	root	_	Translit=qarap|Arabic=قاراپ
+9	qoyushti	_	VERB	V	_	8	aux	_	Translit=qoyushti|Arabic=قويۇشتى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s309/ug
+1	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+2	qolunglarni	_	NOUN	N	_	4	dobj	_	Translit=qolunglarni|Arabic=قولۇڭلارنى
+3	ëgiz	_	ADJ	A	_	4	advmod	_	Translit=ëgiz|Arabic=ئېگىز
+4	kötürünglar	_	VERB	V	_	0	root	_	Translit=kötürünglar|Arabic=كۆتۈرۈڭلار
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s310/ug
+1	sanap	_	VERB	V	_	5	ccomp	_	Translit=sanap|Arabic=ساناپ
+2	baqay	_	VERB	V	_	1	aux	_	Translit=baqay|Arabic=باقاي
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+5	dëdim	_	VERB	V	_	0	root	_	Translit=dëdim|Arabic=دېدىم
+6	men	_	PRON	P	_	5	nsubj	_	Translit=men|Arabic=مەن
+7	yuqiri	_	ADJ	A	_	8	amod	_	Translit=yuqiri|Arabic=يۇقىرى
+8	awaz	_	NOUN	N	_	5	advmod	_	Translit=awaz|Arabic=ئاۋاز
+9	bilen	_	ADP	R	_	8	case	_	Translit=bilen|Arabic=بىلەن
+10	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s311/ug
+1	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+2	pah	_	INTJ	E	_	4	discourse	_	Translit=pah|Arabic=پاھ
+3	nëmanche	_	PRON	P	_	4	advmod	_	Translit=nëmanche|Arabic=نېمانچە
+4	köp	_	ADJ	A	_	0	root	_	Translit=köp|Arabic=كۆپ
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	！	_	PUNCT	Y	_	4	punct	_	Translit=！|Arabic=！
+
+# sent_id s312/ug
+1	mëning	_	PRON	P	_	2	nmod:poss	_	Translit=mëning|Arabic=مېنىڭ
+2	keypiyatim	_	NOUN	N	_	7	nsubj	_	Translit=keypiyatim|Arabic=كەيپىياتىم
+3	sawaqdashlargha	_	NOUN	N	_	7	nmod	_	Translit=sawaqdashlargha|Arabic=ساۋاقداشلارغا
+4	shu	_	PRON	P	_	5	compound	_	Translit=shu|Arabic=شۇ
+5	haman	_	ADV	D	_	7	advmod	_	Translit=haman|Arabic=ھامان
+6	tesir	_	NOUN	N	_	7	compound	_	Translit=tesir|Arabic=تەسىر
+7	qildi	_	VERB	V	_	12	discourse	_	Translit=qildi|Arabic=قىلدى
+8	bolghay	_	PART	T	_	7	case	_	Translit=bolghay|Arabic=بولغاي
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+10	ular	_	PRON	P	_	12	nsubj	_	Translit=ular|Arabic=ئۇلار
+11	egiship	_	VERB	V	_	12	advcl	_	Translit=egiship|Arabic=ئەگىشىپ
+12	sanashqa	_	VERB	V	_	0	root	_	Translit=sanashqa|Arabic=ساناشقا
+13	bashlidi	_	VERB	V	_	12	aux	_	Translit=bashlidi|Arabic=باشلىدى
+14	:	_	PUNCT	Y	_	13	punct	_	Translit=:|Arabic=:
+
+# sent_id s313/ug
+1	san	_	NOUN	N	_	2	nsubj	_	Translit=san|Arabic=سان
+2	köpeygensiri	_	VERB	V	_	6	advcl	_	Translit=köpeygensiri|Arabic=كۆپەيگەنسىرى
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	ular	_	PRON	P	_	6	nsubj	_	Translit=ular|Arabic=ئۇلار
+5	shunche	_	PRON	P	_	6	advmod	_	Translit=shunche|Arabic=شۇنچە
+6	hayajanlinishti	_	VERB	V	_	0	root	_	Translit=hayajanlinishti|Arabic=ھاياجانلىنىشتى
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+
+# sent_id s314/ug
+1	aldinqi	_	ADJ	A	_	2	amod	_	Translit=aldinqi|Arabic=ئالدىنقى
+2	rettiki	_	NOUN	N	_	3	amod	_	Translit=rettiki|Arabic=رەتتىكى
+3	balilar	_	NOUN	N	_	7	nsubj	_	Translit=balilar|Arabic=بالىلار
+4	ornidin	_	NOUN	N	_	5	nmod	_	Translit=ornidin|Arabic=ئورنىدىن
+5	turuwëlip	_	VERB	V	_	7	advcl	_	Translit=turuwëlip|Arabic=تۇرۇۋېلىپ
+6	arqigha	_	NOUN	N	_	7	nmod	_	Translit=arqigha|Arabic=ئارقىغا
+7	qarashti	_	VERB	V	_	0	root	_	Translit=qarashti|Arabic=قاراشتى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+
+# sent_id s315/ug
+1	menmu	_	PRON	P	_	3	nsubj	_	Translit=menmu|Arabic=مەنمۇ
+2	ularni	_	PRON	P	_	3	dobj	_	Translit=ularni|Arabic=ئۇلارنى
+3	tosimidim	_	VERB	V	_	0	root	_	Translit=tosimidim|Arabic=توسىمىدىم
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s316/ug
+1	hemmeylen	_	NUM	M	NumType=Card	5	nsubj	_	Translit=hemmeylen|Arabic=ھەممەيلەن
+2	xoshal	_	ADJ	A	_	4	compound:redup	_	Translit=xoshal|Arabic=خوشال
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	xoram	_	NOUN	N	_	5	advmod	_	Translit=xoram|Arabic=خورام
+5	paranglashmaqta	_	VERB	V	_	0	root	_	Translit=paranglashmaqta|Arabic=پاراڭلاشماقتا
+6	idi	_	VERB	V	_	5	cop	_	Translit=idi|Arabic=ئىدى
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+
+# sent_id s317/ug
+1	tughulghan	_	VERB	V	_	2	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+2	kün	_	NOUN	N	_	3	nmod:poss	_	Translit=kün|Arabic=كۈن
+3	ziyapiti	_	NOUN	N	_	7	conj	_	Translit=ziyapiti|Arabic=زىياپىتى
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	tughulghan	_	VERB	V	_	6	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+6	kün	_	NOUN	N	_	7	nmod	_	Translit=kün|Arabic=كۈن
+7	sowghiti	_	VERB	V	_	12	conj	_	Translit=sowghiti|Arabic=سوۋغىتى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	ata	_	NOUN	N	_	11	compound:redup	_	Translit=ata|Arabic=ئاتا
+10	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+11	anilarning	_	NOUN	N	_	12	nmod:poss	_	Translit=anilarning|Arabic=ئانىلارنىڭ
+12	tebrikleshliri	_	NOUN	N	_	17	nsubj	_	Translit=tebrikleshliri|Arabic=تەبرىكلەشلىرى
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+14	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+15	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+16	parangning	_	NOUN	N	_	17	nmod:poss	_	Translit=parangning|Arabic=پاراڭنىڭ
+17	mezmuni	_	NOUN	N	_	0	root	_	Translit=mezmuni|Arabic=مەزمۇنى
+18	idi	_	VERB	V	_	17	cop	_	Translit=idi|Arabic=ئىدى
+19	.	_	PUNCT	Y	_	18	punct	_	Translit=.|Arabic=.
+
+# sent_id s318/ug
+1	balilar	_	NOUN	N	_	6	nsubj	_	Translit=balilar|Arabic=بالىلار
+2	mëhir	_	NOUN	N	_	4	compound:redup	_	Translit=mëhir|Arabic=مېھىر
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	muhebbetni	_	NOUN	N	_	6	dobj	_	Translit=muhebbetni|Arabic=مۇھەببەتنى
+5	hës	_	NOUN	N	_	6	compound	_	Translit=hës|Arabic=ھېس
+6	qilghan	_	VERB	V	_	11	conj	_	Translit=qilghan|Arabic=قىلغان
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	emma	_	CONJ	C	_	11	cc	_	Translit=emma|Arabic=ئەمما
+9	bu	_	PRON	P	_	11	nsubj	_	Translit=bu|Arabic=بۇ
+10	tëxi	_	ADV	D	_	11	advmod	_	Translit=tëxi|Arabic=تېخى
+11	yiterlik	_	ADJ	A	_	0	root	_	Translit=yiterlik|Arabic=يىتەرلىك
+12	emes	_	VERB	V	_	11	neg	_	Translit=emes|Arabic=ئەمەس
+13	idi	_	VERB	V	_	11	cop	_	Translit=idi|Arabic=ئىدى
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s319/ug
+1	men	_	PRON	P	_	15	nsubj	_	Translit=men|Arabic=مەن
+2	ularning	_	PRON	P	_	3	nmod:poss	_	Translit=ularning|Arabic=ئۇلارنىڭ
+3	qelbining	_	NOUN	N	_	5	nmod:poss	_	Translit=qelbining|Arabic=قەلبىنىڭ
+4	chongqur	_	ADJ	A	_	5	amod	_	Translit=chongqur|Arabic=چوڭقۇر
+5	yërige	_	NOUN	N	_	6	nmod	_	Translit=yërige|Arabic=يېرىگە
+6	yoshurunghan	_	VERB	V	_	14	conj	_	Translit=yoshurunghan|Arabic=يوشۇرۇنغان
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	özliri	_	PRON	P	_	10	nsubj	_	Translit=özliri|Arabic=ئۆزلىرى
+9	tëxi	_	ADV	D	_	10	advmod	_	Translit=tëxi|Arabic=تېخى
+10	tonup	_	VERB	V	_	14	acl	_	Translit=tonup|Arabic=تونۇپ
+11	yetmigen	_	VERB	V	_	10	aux	_	Translit=yetmigen|Arabic=يەتمىگەن
+12	intayin	_	ADV	D	_	13	advmod	_	Translit=intayin|Arabic=ئىنتايىن
+13	qimmetlik	_	ADJ	A	_	14	amod	_	Translit=qimmetlik|Arabic=قىممەتلىك
+14	nersini	_	NOUN	N	_	15	dobj	_	Translit=nersini|Arabic=نەرسىنى
+15	tapmaqchi	_	VERB	V	_	0	root	_	Translit=tapmaqchi|Arabic=تاپماقچى
+16	boldum	_	VERB	V	_	15	aux	_	Translit=boldum|Arabic=بولدۇم
+17	.	_	PUNCT	Y	_	16	punct	_	Translit=.|Arabic=.
+
+# sent_id s320/ug
+1	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+2	aranglarda	_	NOUN	N	_	9	advmod	_	Translit=aranglarda|Arabic=ئاراڭلاردا
+3	kim	_	PRON	P	_	9	nsubj	_	Translit=kim|Arabic=كىم
+4	ata	_	NOUN	N	_	6	compound:redup	_	Translit=ata|Arabic=ئاتا
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	anisining	_	NOUN	N	_	8	nmod:poss	_	Translit=anisining|Arabic=ئانىسىنىڭ
+7	tughulghan	_	VERB	V	_	8	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+8	künini	_	NOUN	N	_	9	dobj	_	Translit=künini|Arabic=كۈنىنى
+9	bilidu	_	VERB	V	_	0	root	_	Translit=bilidu|Arabic=بىلىدۇ
+10	?	_	PUNCT	Y	_	9	punct	_	Translit=?|Arabic=؟
+
+# sent_id s321/ug
+1	bilidighanlar	_	NOUN	N	_	3	nsubj	_	Translit=bilidighanlar|Arabic=بىلىدىغانلار
+2	qolunglarni	_	NOUN	N	_	3	dobj	_	Translit=qolunglarni|Arabic=قولۇڭلارنى
+3	kötürünglar	_	VERB	V	_	0	root	_	Translit=kötürünglar|Arabic=كۆتۈرۈڭلار
+4	!	_	PUNCT	Y	_	3	punct	_	Translit=!|Arabic=!
+
+# sent_id s322/ug
+1	shu	_	PRON	P	_	2	compound	_	Translit=shu|Arabic=شۇ
+2	haman	_	ADV	D	_	4	advmod	_	Translit=haman|Arabic=ھامان
+3	sinip	_	NOUN	N	_	4	nsubj	_	Translit=sinip|Arabic=سىنىپ
+4	timtas	_	ADJ	A	_	0	root	_	Translit=timtas|Arabic=تىمتاس
+5	bolup	_	VERB	V	_	4	cop	_	Translit=bolup|Arabic=بولۇپ
+6	ketti	_	VERB	V	_	5	aux	_	Translit=ketti|Arabic=كەتتى
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s323/ug
+1	men	_	PRON	P	_	3	nsubj	_	Translit=men|Arabic=مەن
+2	sualni	_	NOUN	N	_	3	dobj	_	Translit=sualni|Arabic=سۇئالنى
+3	tekrarlidim	_	VERB	V	_	0	root	_	Translit=tekrarlidim|Arabic=تەكرارلىدىم
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s324/ug
+1	sinip	_	NOUN	N	_	3	nsubj	_	Translit=sinip|Arabic=سىنىپ
+2	yenila	_	ADV	D	_	3	advmod	_	Translit=yenila|Arabic=يەنىلا
+3	jimjit	_	ADJ	A	_	0	root	_	Translit=jimjit|Arabic=جىمجىت
+4	idi	_	VERB	V	_	3	cop	_	Translit=idi|Arabic=ئىدى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s325/ug
+1	birdemdin	_	ADV	D	_	2	compound	_	Translit=birdemdin|Arabic=بىردەمدىن
+2	këyin	_	ADV	D	_	10	advmod	_	Translit=këyin|Arabic=كېيىن
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	bir	_	NUM	M	NumType=Card	5	compound	_	Translit=bir|Arabic=بىر
+5	nechche	_	PRON	P	_	7	det	_	Translit=nechche|Arabic=نەچچە
+6	qiz	_	NOUN	N	_	7	amod	_	Translit=qiz|Arabic=قىز
+7	oqughuchi	_	VERB	V	_	10	nsubj	_	Translit=oqughuchi|Arabic=ئوقۇغۇچى
+8	qolini	_	NOUN	N	_	10	dobj	_	Translit=qolini|Arabic=قولىنى
+9	asta	_	ADJ	A	_	10	advmod	_	Translit=asta|Arabic=ئاستا
+10	kötürüshti	_	VERB	V	_	0	root	_	Translit=kötürüshti|Arabic=كۆتۈرۈشتى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s326/ug
+1	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+2	ata	_	NOUN	N	_	4	compound:redup	_	Translit=ata|Arabic=ئاتا
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	anisining	_	NOUN	N	_	6	nmod:poss	_	Translit=anisining|Arabic=ئانىسىنىڭ
+5	tughulghan	_	VERB	V	_	6	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+6	künini	_	NOUN	N	_	7	dobj	_	Translit=künini|Arabic=كۈنىنى
+7	tebrikligenler	_	NOUN	N	_	9	csubj	_	Translit=tebrikligenler|Arabic=تەبرىكلىگەنلەر
+8	qolunglarni	_	NOUN	N	_	9	dobj	_	Translit=qolunglarni|Arabic=قولۇڭلارنى
+9	kötürünglar	_	VERB	V	_	0	root	_	Translit=kötürünglar|Arabic=كۆتۈرۈڭلار
+10	!	_	PUNCT	Y	_	9	punct	_	Translit=!|Arabic=!
+
+# sent_id s327/ug
+1	sinip	_	NOUN	N	_	2	nsubj	_	Translit=sinip|Arabic=سىنىپ
+2	timtas	_	ADJ	A	_	0	root	_	Translit=timtas|Arabic=تىمتاس
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+
+# sent_id s328/ug
+1	hëchkim	_	PRON	P	_	3	nsubj	_	Translit=hëchkim|Arabic=ھېچكىم
+2	qol	_	NOUN	N	_	3	dobj	_	Translit=qol|Arabic=قول
+3	kötürmidi	_	VERB	V	_	0	root	_	Translit=kötürmidi|Arabic=كۆتۈرمىدى
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s329/ug
+1	hëchkim	_	PRON	P	_	3	nsubj	_	Translit=hëchkim|Arabic=ھېچكىم
+2	zuwan	_	NOUN	N	_	3	compound:lvc	_	Translit=zuwan|Arabic=زۇۋان
+3	sürmidi	_	VERB	V	_	0	root	_	Translit=sürmidi|Arabic=سۈرمىدى
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s330/ug
+1	balilar	_	NOUN	N	_	3	nsubj	_	Translit=balilar|Arabic=بالىلار
+2	sükütke	_	NOUN	N	_	3	nmod	_	Translit=sükütke|Arabic=سۈكۈتكە
+3	chömdi	_	VERB	V	_	0	root	_	Translit=chömdi|Arabic=چۆمدى
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s331/ug
+1	menmu	_	PRON	P	_	6	nsubj	_	Translit=menmu|Arabic=مەنمۇ
+2	balilar	_	NOUN	N	_	6	advmod	_	Translit=balilar|Arabic=بالىلار
+3	bilen	_	ADP	R	_	2	case	_	Translit=bilen|Arabic=بىلەن
+4	bille	_	ADV	D	_	6	advmod	_	Translit=bille|Arabic=بىللە
+5	sükütke	_	NOUN	N	_	6	nmod	_	Translit=sükütke|Arabic=سۈكۈتكە
+6	chömdüm	_	VERB	V	_	0	root	_	Translit=chömdüm|Arabic=چۆمدۈم
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+8	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+9	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s332/ug
+1	süküt	_	NOUN	N	_	5	nsubj	_	Translit=süküt|Arabic=سۈكۈت
+2	toptoghra	_	ADJ	A	_	4	advmod	_	Translit=toptoghra|Arabic=توپتوغرا
+3	bir	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir|Arabic=بىر
+4	minut	_	NOUN	N	_	5	advmod	_	Translit=minut|Arabic=مىنۇت
+5	dawamlashti	_	VERB	V	_	0	root	_	Translit=dawamlashti|Arabic=داۋاملاشتى
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s333/ug
+1	men	_	PRON	P	_	6	nsubj	_	Translit=men|Arabic=مەن
+2	bu	_	PRON	P	_	4	det	_	Translit=bu|Arabic=بۇ
+3	omaq	_	ADJ	A	_	4	amod	_	Translit=omaq|Arabic=ئوماق
+4	balilargha	_	NOUN	N	_	6	nmod:cau	_	Translit=balilargha|Arabic=بالىلارغا
+5	yushurunche	_	NOUN	N	_	6	advmod	_	Translit=yushurunche|Arabic=يۇشۇرۇنچە
+6	sepsaldim	_	VERB	V	_	0	root	_	Translit=sepsaldim|Arabic=سەپسالدىم
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+
+# sent_id s334/ug
+1	ularning	_	PRON	P	_	2	nmod:poss	_	Translit=ularning|Arabic=ئۇلارنىڭ
+2	omaqliqi	_	NOUN	N	_	10	nsubj	_	Translit=omaqliqi|Arabic=ئوماقلىقى
+3	del	_	ADV	D	_	7	advmod	_	Translit=del|Arabic=دەل
+4	xataliq	_	NOUN	N	_	5	dobj	_	Translit=xataliq|Arabic=خاتالىق
+5	ötküzüp	_	VERB	V	_	7	acl	_	Translit=ötküzüp|Arabic=ئۆتكۈزۈپ
+6	qoyghan	_	VERB	V	_	5	aux	_	Translit=qoyghan|Arabic=قويغان
+7	chaghdikidek	_	NOUN	N	_	10	nmod:comp	_	Translit=chaghdikidek|Arabic=چاغدىكىدەك
+8	chiray	_	NOUN	N	_	9	nmod:poss	_	Translit=chiray|Arabic=چىراي
+9	ipadiside	_	VERB	N	_	10	nmod	_	Translit=ipadiside|Arabic=ئىپادىسىدە
+10	bilinip	_	VERB	V	_	0	root	_	Translit=bilinip|Arabic=بىلىنىپ
+11	turatti	_	VERB	V	_	10	aux	_	Translit=turatti|Arabic=تۇراتتى
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s335/ug
+1	men	_	PRON	P	_	4	nsubj	_	Translit=men|Arabic=مەن
+2	mulayimliq	_	NOUN	N	_	4	advmod	_	Translit=mulayimliq|Arabic=مۇلايىملىق
+3	bilen	_	ADP	R	_	2	case	_	Translit=bilen|Arabic=بىلەن
+4	soridim	_	VERB	V	_	0	root	_	Translit=soridim|Arabic=سورىدىم
+5	:	_	PUNCT	Y	_	4	punct	_	Translit=:|Arabic=:
+
+# sent_id s336/ug
+1	-	_	PUNCT	Y	_	9	punct	_	Translit=-|Arabic=-
+2	qandaq	_	PRON	P	_	3	advmod	_	Translit=qandaq|Arabic=قانداق
+3	qilghanda	_	VERB	V	_	9	advcl	_	Translit=qilghanda|Arabic=قىلغاندا
+4	ata	_	NOUN	N	_	6	compound:redup	_	Translit=ata|Arabic=ئاتا
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	animizning	_	NOUN	N	_	8	nmod:poss	_	Translit=animizning|Arabic=ئانىمىزنىڭ
+7	tughulghan	_	VERB	V	_	8	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+8	künini	_	NOUN	N	_	9	dobj	_	Translit=künini|Arabic=كۈنىنى
+9	bileleymiz	_	VERB	V	_	0	root	_	Translit=bileleymiz|Arabic=بىلەلەيمىز
+10	?	_	PUNCT	Y	_	9	punct	_	Translit=?|Arabic=؟
+
+# sent_id s337/ug
+1	özini	_	PRON	P	_	2	dobj	_	Translit=özini|Arabic=ئۆزىنى
+2	qachurghan	_	VERB	V	_	6	acl	_	Translit=qachurghan|Arabic=قاچۇرغان
+3	jüp	_	INTJ	I	_	5	compound:redup	_	Translit=jüp|Arabic=جۈپ
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+5	jüp	_	NUM	M	NumType=Card	6	nummod	_	Translit=jüp|Arabic=جۈپ
+6	közler	_	NOUN	N	_	14	nsubj	_	Translit=közler|Arabic=كۆزلەر
+7	xuddi	_	PART	T	_	9	mark	_	Translit=xuddi|Arabic=خۇددى
+8	kechürümge	_	NOUN	N	_	9	nmod	_	Translit=kechürümge|Arabic=كەچۈرۈمگە
+9	ërishkendek	_	NOUN	N	_	14	advmod	_	Translit=ërishkendek|Arabic=ئېرىشكەندەك
+10	yene	_	ADV	D	_	14	advmod	_	Translit=yene|Arabic=يەنە
+11	terep	_	NOUN	N	_	13	compound:redup	_	Translit=terep|Arabic=تەرەپ
+12	-	_	PUNCT	Y	_	11	punct	_	Translit=-|Arabic=-
+13	tereptin	_	NOUN	N	_	14	nmod	_	Translit=tereptin|Arabic=تەرەپتىن
+14	qaytip	_	VERB	V	_	0	root	_	Translit=qaytip|Arabic=قايتىپ
+15	këlishti	_	VERB	V	_	14	aux	_	Translit=këlishti|Arabic=كېلىشتى
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.|Arabic=.
+
+# sent_id s338/ug
+1	aldi	_	NOUN	N	_	7	advmod	_	Translit=aldi|Arabic=ئالدى
+2	bilen	_	ADP	R	_	1	case	_	Translit=bilen|Arabic=بىلەن
+3	bir	_	NUM	M	NumType=Card	5	compound	_	Translit=bir|Arabic=بىر
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+5	ikki	_	NUM	M	NumType=Card	6	nummod	_	Translit=ikki|Arabic=ئىككى
+6	awaz	_	NOUN	N	_	7	nsubj	_	Translit=awaz|Arabic=ئاۋاز
+7	anglandi	_	VERB	V	_	0	root	_	Translit=anglandi|Arabic=ئاڭلاندى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+
+# sent_id s339/ug
+1	andin	_	CONJ	C	_	2	compound	_	Translit=andin|Arabic=ئاندىن
+2	këyin	_	ADV	D	_	5	advmod	_	Translit=këyin|Arabic=كېيىن
+3	hemmeylen	_	PRON	P	_	5	nsubj	_	Translit=hemmeylen|Arabic=ھەممەيلەن
+4	dëgüdek	_	VERB	V	_	5	advmod	_	Translit=dëgüdek|Arabic=دېگۈدەك
+5	chuwurliship	_	VERB	V	_	0	root	_	Translit=chuwurliship|Arabic=چۇۋۇرلىشىپ
+6	ketti	_	VERB	V	_	5	aux	_	Translit=ketti|Arabic=كەتتى
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:|Arabic=:
+
+# sent_id s340/ug
+1	sinip	_	NOUN	N	_	2	nmod:poss	_	Translit=sinip|Arabic=سىنىپ
+2	ichi	_	NOUN	N	_	7	nsubj	_	Translit=ichi|Arabic=ئىچى
+3	yene	_	ADV	D	_	7	advmod	_	Translit=yene|Arabic=يەنە
+4	qaynam	_	NUM	M	NumType=Card	6	compound:redup	_	Translit=qaynam|Arabic=قاينام
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	tashqinliqqa	_	NOUN	N	_	7	nmod	_	Translit=tashqinliqqa|Arabic=تاشقىنلىققا
+7	chömdi	_	VERB	V	_	0	root	_	Translit=chömdi|Arabic=چۆمدى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+
+# sent_id s341/ug
+1	biraq	_	CONJ	C	_	9	cc	_	Translit=biraq|Arabic=بىراق
+2	bu	_	PRON	P	_	9	nsubj	_	Translit=bu|Arabic=بۇ
+3	bayiqi	_	ADJ	A	_	4	amod	_	Translit=bayiqi|Arabic=بايىقى
+4	sükütning	_	NOUN	N	_	5	nmod:poss	_	Translit=sükütning|Arabic=سۈكۈتنىڭ
+5	aldidiki	_	NOUN	N	_	8	amod	_	Translit=aldidiki|Arabic=ئالدىدىكى
+6	qaynam	_	NOUN	N	_	8	compound:redup	_	Translit=qaynam|Arabic=قاينام
+7	-	_	PUNCT	Y	_	6	punct	_	Translit=-|Arabic=-
+8	tashqinliqqa	_	NOUN	N	_	9	nmod	_	Translit=tashqinliqqa|Arabic=تاشقىنلىققا
+9	oxshimaytti	_	VERB	V	_	0	root	_	Translit=oxshimaytti|Arabic=ئوخشىمايتتى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s342/ug
+1	bu	_	PRON	P	_	3	det	_	Translit=bu|Arabic=بۇ
+2	saetlik	_	NOUN	N	_	3	amod	_	Translit=saetlik|Arabic=سائەتلىك
+3	ders	_	NOUN	N	_	4	nsubj	_	Translit=ders|Arabic=دەرس
+4	axirlashqan	_	VERB	V	_	5	acl	_	Translit=axirlashqan|Arabic=ئاخىرلاشقان
+5	chaghda	_	NOUN	N	_	11	nmod	_	Translit=chaghda|Arabic=چاغدا
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	men	_	PRON	P	_	11	nsubj	_	Translit=men|Arabic=مەن
+8	balilargha	_	NOUN	N	_	11	nmod	_	Translit=balilargha|Arabic=بالىلارغا
+9	bir	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir|Arabic=بىر
+10	teklip	_	NOUN	N	_	11	dobj	_	Translit=teklip|Arabic=تەكلىپ
+11	berdim	_	VERB	V	_	0	root	_	Translit=berdim|Arabic=بەردىم
+12	:	_	PUNCT	Y	_	11	punct	_	Translit=:|Arabic=:
+
+# sent_id s343/ug
+1	-	_	PUNCT	Y	_	23	punct	_	Translit=-|Arabic=-
+2	ata	_	NOUN	N	_	4	compound:redup	_	Translit=ata|Arabic=ئاتا
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	ananglarni	_	NOUN	N	_	7	dobj	_	Translit=ananglarni|Arabic=ئاناڭلارنى
+5	alahide	_	ADV	D	_	7	advmod	_	Translit=alahide|Arabic=ئالاھىدە
+6	xush	_	ADJ	A	_	7	compound	_	Translit=xush|Arabic=خۇش
+7	qiliwëtish	_	VERB	V	_	23	advcl	_	Translit=qiliwëtish|Arabic=قىلىۋېتىش
+8	üchün	_	CONJ	C	_	7	case	_	Translit=üchün|Arabic=ئۈچۈن
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+10	eng	_	ADV	D	_	11	advmod	_	Translit=eng|Arabic=ئەڭ
+11	yaxshisi	_	ADJ	A	_	23	advmod	_	Translit=yaxshisi|Arabic=ياخشىسى
+12	siler	_	PRON	P	_	23	nsubj	_	Translit=siler|Arabic=سىلەر
+13	ata	_	NOUN	N	_	15	compound:redup	_	Translit=ata|Arabic=ئاتا
+14	-	_	PUNCT	Y	_	13	punct	_	Translit=-|Arabic=-
+15	ananglar	_	NOUN	N	_	16	nsubj	_	Translit=ananglar|Arabic=ئاناڭلار
+16	sizelmeydighan	_	VERB	V	_	19	acl	_	Translit=sizelmeydighan|Arabic=سىزەلمەيدىغان
+17	bir	_	NUM	M	NumType=Card	18	det	_	Translit=bir|Arabic=بىر
+18	xil	_	NOUN	N	_	19	amod	_	Translit=xil|Arabic=خىل
+19	usul	_	NOUN	N	_	23	advmod	_	Translit=usul|Arabic=ئۇسۇل
+20	bilen	_	ADP	R	_	19	case	_	Translit=bilen|Arabic=بىلەن
+21	tughulghan	_	VERB	V	_	22	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+22	künini	_	NOUN	N	_	23	dobj	_	Translit=künini|Arabic=كۈنىنى
+23	biliwëlinglar	_	VERB	V	_	0	root	_	Translit=biliwëlinglar|Arabic=بىلىۋېلىڭلار
+24	,	_	PUNCT	Y	_	23	punct	_	Translit=,|Arabic=،
+
+# sent_id s344/ug
+1	tebriklesh	_	VERB	V	_	2	acl	_	Translit=tebriklesh|Arabic=تەبرىكلەش
+2	usulunglar	_	NOUN	N	_	5	nsubj	_	Translit=usulunglar|Arabic=ئۇسۇلۇڭلار
+3	xilmu	_	NOUN	N	_	5	compound:redup	_	Translit=xilmu|Arabic=خىلمۇ
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+5	xil	_	NOUN	N	_	0	root	_	Translit=xil|Arabic=خىل
+6	bolsun	_	VERB	V	_	5	cop	_	Translit=bolsun|Arabic=بولسۇن
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s345/ug
+1	biraq	_	CONJ	C	_	4	cc	_	Translit=biraq|Arabic=بىراق
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	ësinglarda	_	NOUN	N	_	4	nmod	_	Translit=ësinglarda|Arabic=ئېسىڭلاردا
+4	bolsun	_	VERB	V	_	0	root	_	Translit=bolsun|Arabic=بولسۇن
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s346/ug
+1	siler	_	PRON	P	_	4	nsubj	_	Translit=siler|Arabic=سىلەر
+2	öz	_	PRON	P	_	3	det	_	Translit=öz|Arabic=ئۆز
+3	mëhringlarni	_	NOUN	N	_	4	dobj	_	Translit=mëhringlarni|Arabic=مېھرىڭلارنى
+4	ipadiyelisenglarla	_	VERB	V	_	11	advcl:cond	_	Translit=ipadiyelisenglarla|Arabic=ئىپادىيەلىسەڭلارلا
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	her	_	PRON	P	_	7	compound	_	Translit=her|Arabic=ھەر
+7	qanche	_	PRON	P	_	8	advmod	_	Translit=qanche|Arabic=قانچە
+8	addi	_	NOUN	N	_	9	amod	_	Translit=addi|Arabic=ئاددى
+9	sowghatmu	_	NOUN	N	_	11	nsubj	_	Translit=sowghatmu|Arabic=سوۋغاتمۇ
+10	ulargha	_	PRON	P	_	11	nmod	_	Translit=ulargha|Arabic=ئۇلارغا
+11	bibaha	_	VERB	V	_	0	root	_	Translit=bibaha|Arabic=بىباھا
+12	bilinidu	_	VERB	V	_	11	cop	_	Translit=bilinidu|Arabic=بىلىنىدۇ
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s347/ug
+1	uzaq	_	ADJ	A	_	2	advmod	_	Translit=uzaq|Arabic=ئۇزاق
+2	ötmey	_	VERB	V	_	9	advmod	_	Translit=ötmey|Arabic=ئۆتمەي
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	mektepte	_	NOUN	N	_	9	nmod	_	Translit=mektepte|Arabic=مەكتەپتە
+5	ata	_	NOUN	N	_	7	compound:redup	_	Translit=ata|Arabic=ئاتا
+6	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+7	anilar	_	NOUN	N	_	8	nmod:poss	_	Translit=anilar|Arabic=ئانىلار
+8	yighini	_	NOUN	N	_	9	nsubj	_	Translit=yighini|Arabic=يىغىنى
+9	ëchildi	_	VERB	V	_	0	root	_	Translit=ëchildi|Arabic=ئېچىلدى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s348/ug
+1	ata	_	NOUN	N	_	3	compound:redup	_	Translit=ata|Arabic=ئاتا
+2	-	_	PUNCT	Y	_	1	punct	_	Translit=-|Arabic=-
+3	anilar	_	NOUN	N	_	6	nsubj	_	Translit=anilar|Arabic=ئانىلار
+4	meslihetlishiwalghandek	_	NOUN	N	_	6	advmod	_	Translit=meslihetlishiwalghandek|Arabic=مەسلىھەتلىشىۋالغاندەك
+5	parang	_	NOUN	N	_	6	compound	_	Translit=parang|Arabic=پاراڭ
+6	qilishti	_	VERB	V	_	0	root	_	Translit=qilishti|Arabic=قىلىشتى
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:|Arabic=:
+
+# sent_id s349/ug
+1	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+2	mëning	_	PRON	P	_	3	nmod:poss	_	Translit=mëning|Arabic=مېنىڭ
+3	balam	_	NOUN	N	_	7	nsubj	_	Translit=balam|Arabic=بالام
+4	heqiqeten	_	ADV	D	_	7	advmod	_	Translit=heqiqeten|Arabic=ھەقىقەتەن
+5	ish	_	NOUN	N	_	6	dobj	_	Translit=ish|Arabic=ئىش
+6	bilidighan	_	VERB	V	_	7	acl	_	Translit=bilidighan|Arabic=بىلىدىغان
+7	bolup	_	VERB	V	_	0	root	_	Translit=bolup|Arabic=بولۇپ
+8	qaptu	_	VERB	V	_	7	aux	_	Translit=qaptu|Arabic=قاپتۇ
+9	!	_	PUNCT	Y	_	8	punct	_	Translit=!|Arabic=!
+
+# sent_id s350/ug
+1	-	_	PUNCT	Y	_	6	punct	_	Translit=-|Arabic=-
+2	u	_	PRON	P	_	6	nsubj	_	Translit=u|Arabic=ئۇ
+3	mëning	_	PRON	P	_	5	nmod:poss	_	Translit=mëning|Arabic=مېنىڭ
+4	tughulghan	_	VERB	V	_	5	compound	_	Translit=tughulghan|Arabic=تۇغۇلغان
+5	künümni	_	NOUN	N	_	6	dobj	_	Translit=künümni|Arabic=كۈنۈمنى
+6	tebriklidi	_	VERB	V	_	0	root	_	Translit=tebriklidi|Arabic=تەبرىكلىدى
+7	!	_	PUNCT	Y	_	6	punct	_	Translit=!|Arabic=!
+
+# sent_id s351/ug
+1	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+2	u	_	PRON	P	_	5	nsubj	_	Translit=u|Arabic=ئۇ
+3	manga	_	PRON	P	_	5	nmod:cau	_	Translit=manga|Arabic=ماڭا
+4	sowghat	_	NOUN	N	_	5	dobj	_	Translit=sowghat|Arabic=سوۋغات
+5	berdi	_	VERB	V	_	0	root	_	Translit=berdi|Arabic=بەردى
+6	!	_	PUNCT	Y	_	5	punct	_	Translit=!|Arabic=!
+
+# sent_id s352/ug
+1	-	_	PUNCT	Y	_	10	punct	_	Translit=-|Arabic=-
+2	u	_	PRON	P	_	10	nsubj	_	Translit=u|Arabic=ئۇ
+3	manga	_	PRON	P	_	10	nmod	_	Translit=manga|Arabic=ماڭا
+4	xet	_	NOUN	N	_	5	dobj	_	Translit=xet|Arabic=خەت
+5	yëzip	_	VERB	V	_	10	advcl	_	Translit=yëzip|Arabic=يېزىپ
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	ghem	_	NOUN	N	_	8	compound:lvc	_	Translit=ghem|Arabic=غەم
+8	yëmigin	_	VERB	V	_	10	ccomp	_	Translit=yëmigin|Arabic=يېمىگىن
+9	,	_	PUNCT	Y	_	8	punct	_	Translit=,|Arabic=،
+10	deptu	_	VERB	V	_	0	root	_	Translit=deptu|Arabic=دەپتۇ
+11	!	_	PUNCT	Y	_	10	punct	_	Translit=!|Arabic=!
+
+# sent_id s353/ug
+1	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+2	u	_	PRON	P	_	5	nsubj	_	Translit=u|Arabic=ئۇ
+3	ademning	_	NOUN	N	_	4	nmod:poss	_	Translit=ademning|Arabic=ئادەمنىڭ
+4	haligha	_	NOUN	N	_	5	compound	_	Translit=haligha|Arabic=ھالىغا
+5	yëtidighan	_	VERB	V	_	0	root	_	Translit=yëtidighan|Arabic=يېتىدىغان
+6	boptu	_	VERB	V	_	5	cop	_	Translit=boptu|Arabic=بوپتۇ
+7	!	_	PUNCT	Y	_	6	punct	_	Translit=!|Arabic=!
+
+# sent_id s354/ug
+1	men	_	PRON	P	_	3	nsubj	_	Translit=men|Arabic=مەن
+2	rastinla	_	NOUN	N	_	3	advmod	_	Translit=rastinla|Arabic=راستىنلا
+3	xush	_	ADJ	A	_	0	root	_	Translit=xush|Arabic=خۇش
+4	bolup	_	VERB	V	_	3	cop	_	Translit=bolup|Arabic=بولۇپ
+5	kettim	_	VERB	V	_	4	aux	_	Translit=kettim|Arabic=كەتتىم
+6	!	_	PUNCT	Y	_	5	punct	_	Translit=!|Arabic=!
+
+# sent_id s355/ug
+1	dersxanidiki	_	NOUN	N	_	3	amod	_	Translit=dersxanidiki|Arabic=دەرسخانىدىكى
+2	hëliqi	_	PRON	P	_	3	det	_	Translit=hëliqi|Arabic=ھېلىقى
+3	süküt	_	NOUN	N	_	8	nsubj	_	Translit=süküt|Arabic=سۈكۈت
+4	manga	_	PRON	P	_	8	nmod	_	Translit=manga|Arabic=ماڭا
+5	ajayip	_	ADJ	A	_	7	amod	_	Translit=ajayip|Arabic=ئاجايىپ
+6	zor	_	ADJ	A	_	7	amod	_	Translit=zor|Arabic=زور
+7	lezzet	_	NOUN	N	_	8	dobj	_	Translit=lezzet|Arabic=لەززەت
+8	bëghishlidi	_	VERB	V	_	0	root	_	Translit=bëghishlidi|Arabic=بېغىشلىدى
+9	!	_	PUNCT	Y	_	8	punct	_	Translit=!|Arabic=!
+
+# sent_id s356/ug
+1	biz	_	PRON	P	_	2	nsubj	_	Translit=biz|Arabic=بىز
+2	epliship	_	VERB	V	_	0	root	_	Translit=epliship|Arabic=ئەپلىشىپ
+3	qalduq	_	VERB	V	_	2	aux	_	Translit=qalduq|Arabic=قالدۇق
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s357/ug
+1	tünügünki	_	ADJ	A	_	3	amod	_	Translit=tünügünki|Arabic=تۈنۈگۈنكى
+2	ëkiskursiye	_	NOUN	N	_	3	nmod	_	Translit=ëkiskursiye|Arabic=ئېكىسكۇرسىيە
+3	paaliyitimizdin	_	NOUN	N	_	4	nmod	_	Translit=paaliyitimizdin|Arabic=پائالىيىتىمىزدىن
+4	alghan	_	VERB	V	_	5	acl	_	Translit=alghan|Arabic=ئالغان
+5	tesiratimizni	_	NOUN	N	_	6	dobj	_	Translit=tesiratimizni|Arabic=تەسىراتىمىزنى
+6	yëzip	_	VERB	V	_	7	advcl	_	Translit=yëzip|Arabic=يېزىپ
+7	olturattim	_	VERB	V	_	0	root	_	Translit=olturattim|Arabic=ئولتۇراتتىم
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s358/ug
+1	tuyuqsiz	_	ADV	D	_	6	advmod	_	Translit=tuyuqsiz|Arabic=تۇيۇقسىز
+2	partidishim	_	NOUN	N	_	3	appos	_	Translit=partidishim|Arabic=پارتىدىشىم
+3	krayning	_	NOUN	N	_	4	nmod:poss	_	Translit=krayning|Arabic=كراينىڭ
+4	jeyniki	_	NOUN	N	_	6	nsubj	_	Translit=jeyniki|Arabic=جەينىكى
+5	jeynikimge	_	NOUN	N	_	6	nmod	_	Translit=jeynikimge|Arabic=جەينىكىمگە
+6	tëgip	_	VERB	V	_	12	advcl	_	Translit=tëgip|Arabic=تېگىپ
+7	këtip	_	VERB	V	_	6	aux	_	Translit=këtip|Arabic=كېتىپ
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	qelimim	_	NOUN	N	_	12	nsubj	_	Translit=qelimim|Arabic=قەلىمىم
+10	qeghezni	_	NOUN	N	_	12	dobj	_	Translit=qeghezni|Arabic=قەغەزنى
+11	birla	_	NUM	M	NumType=Card	12	advmod	_	Translit=birla|Arabic=بىرلا
+12	jijap	_	VERB	V	_	15	advcl	_	Translit=jijap|Arabic=جىجاپ
+13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
+14	betni	_	NOUN	N	_	15	dobj	_	Translit=betni|Arabic=بەتنى
+15	setleshtürüwetti	_	VERB	V	_	0	root	_	Translit=setleshtürüwetti|Arabic=سەتلەشتۈرۈۋەتتى
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.|Arabic=.
+
+# sent_id s359/ug
+1	ghuzhzhide	_	NOUN	N	_	3	advmod	_	Translit=ghuzhzhide|Arabic=غۇژژىدە
+2	achchiqim	_	NOUN	N	_	3	nsubj	_	Translit=achchiqim|Arabic=ئاچچىقىم
+3	keldi	_	VERB	V	_	8	conj	_	Translit=keldi|Arabic=كەلدى
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+5	de	_	PART	T	_	3	mark	_	Translit=de|Arabic=دە
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	krayni	_	NOUN	N	_	8	dobj	_	Translit=krayni|Arabic=كراينى
+8	tilliwettim	_	VERB	V	_	0	root	_	Translit=tilliwettim|Arabic=تىللىۋەتتىم
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s360/ug
+1	kray	_	NOUN	N	_	13	nsubj	_	Translit=kray|Arabic=كراي
+2	külümsirep	_	VERB	V	_	13	advcl	_	Translit=külümsirep|Arabic=كۈلۈمسىرەپ
+3	turup	_	VERB	V	_	2	aux	_	Translit=turup|Arabic=تۇرۇپ
+4	:	_	PUNCT	Y	_	3	punct	_	Translit=:|Arabic=:
+5	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+6	adash	_	NOUN	N	_	10	discourse	_	Translit=adash|Arabic=ئاداش
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	men	_	PRON	P	_	10	nsubj	_	Translit=men|Arabic=مەن
+9	qesten	_	ADV	D	_	10	advmod	_	Translit=qesten|Arabic=قەستەن
+10	qilmidim	_	VERB	V	_	13	ccomp	_	Translit=qilmidim|Arabic=قىلمىدىم
+11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
+12	-	_	PUNCT	Y	_	10	punct	_	Translit=-|Arabic=-
+13	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s361/ug
+1	men	_	PRON	P	_	4	nsubj	_	Translit=men|Arabic=مەن
+2	uning	_	PRON	P	_	3	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+3	gëpige	_	NOUN	N	_	4	nmod	_	Translit=gëpige|Arabic=گېپىگە
+4	ishensem	_	VERB	V	_	0	root	_	Translit=ishensem|Arabic=ئىشەنسەم
+5	bolatti	_	VERB	V	_	4	aux	_	Translit=bolatti|Arabic=بولاتتى
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.|Arabic=.
+
+# sent_id s362/ug
+1	lëkin	_	CONJ	C	_	6	cc	_	Translit=lëkin|Arabic=لېكىن
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	uning	_	PRON	P	_	4	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+4	külümsirishi	_	NOUN	N	_	6	nsubj	_	Translit=külümsirishi|Arabic=كۈلۈمسىرىشى
+5	oghamni	_	NOUN	N	_	6	dobj	_	Translit=oghamni|Arabic=ئوغامنى
+6	qaynatti	_	VERB	V	_	0	root	_	Translit=qaynatti|Arabic=قايناتتى
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s363/ug
+1	men	_	PRON	P	_	19	nsubj	_	Translit=men|Arabic=مەن
+2	:	_	PUNCT	Y	_	1	punct	_	Translit=:|Arabic=:
+3	«	_	PUNCT	Y	_	1	punct	_	Translit=«|Arabic=«
+4	qilidighanni	_	NOUN	N	_	5	dobj	_	Translit=qilidighanni|Arabic=قىلىدىغاننى
+5	qilip	_	VERB	V	_	11	advcl	_	Translit=qilip|Arabic=قىلىپ
+6	bolup	_	VERB	V	_	5	aux	_	Translit=bolup|Arabic=بولۇپ
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	hëch	_	PRON	P	_	9	compound	_	Translit=hëch|Arabic=ھېچ
+9	ish	_	NOUN	N	_	10	nsubj	_	Translit=ish|Arabic=ئىش
+10	bolmighandek	_	VERB	V	_	11	advcl	_	Translit=bolmighandek|Arabic=بولمىغاندەك
+11	külüwatqinini	_	VERB	V	_	14	ccomp	_	Translit=külüwatqinini|Arabic=كۈلۈۋاتقىنىنى
+12	!	_	PUNCT	V	_	11	punct	_	Translit=!|Arabic=!
+13	»	_	PUNCT	Y	_	11	punct	_	Translit=»|Arabic=»
+14	dep	_	VERB	V	_	15	advcl	_	Translit=dep|Arabic=دەپ
+15	oylidim	_	VERB	V	_	19	conj	_	Translit=oylidim|Arabic=ئويلىدىم
+16	we	_	CONJ	C	_	19	cc	_	Translit=we|Arabic=ۋە
+17	uningdin	_	PRON	P	_	19	nmod	_	Translit=uningdin|Arabic=ئۇنىڭدىن
+18	öch	_	ADJ	A	_	19	compound	_	Translit=öch|Arabic=ئۆچ
+19	almaqchi	_	VERB	V	_	0	root	_	Translit=almaqchi|Arabic=ئالماقچى
+20	boldum	_	VERB	V	_	19	cop	_	Translit=boldum|Arabic=بولدۇم
+21	.	_	PUNCT	Y	_	20	punct	_	Translit=.|Arabic=.
+
+# sent_id s364/ug
+1	birdemdin	_	ADV	D	_	2	advmod	_	Translit=birdemdin|Arabic=بىردەمدىن
+2	këyin	_	ADV	D	_	14	advmod	_	Translit=këyin|Arabic=كېيىن
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	u	_	PRON	P	_	6	nsubj	_	Translit=u|Arabic=ئۇ
+5	xet	_	NOUN	N	_	6	dobj	_	Translit=xet|Arabic=خەت
+6	yëziwatqanda	_	VERB	V	_	10	nmod	_	Translit=yëziwatqanda|Arabic=يېزىۋاتقاندا
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	jeynikige	_	NOUN	N	_	10	nmod	_	Translit=jeynikige|Arabic=جەينىكىگە
+9	birla	_	NUM	M	NumType=Card	10	advmod	_	Translit=birla|Arabic=بىرلا
+10	soqulup	_	VERB	V	_	14	advcl	_	Translit=soqulup|Arabic=سوقۇلۇپ
+11	,	_	PUNCT	Y	_	10	punct	_	Translit=,|Arabic=،
+12	uning	_	PRON	P	_	13	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+13	deptirinimu	_	NOUN	N	_	14	dobj	_	Translit=deptirinimu|Arabic=دەپتىرىنىمۇ
+14	setleshtürüwettim	_	VERB	V	_	0	root	_	Translit=setleshtürüwettim|Arabic=سەتلەشتۈرۈۋەتتىم
+15	.	_	PUNCT	Y	_	14	punct	_	Translit=.|Arabic=.
+
+# sent_id s365/ug
+1	qattiq	_	ADJ	A	_	2	advmod	_	Translit=qattiq|Arabic=قاتتىق
+2	tërikkinidin	_	NOUN	N	_	8	nmod	_	Translit=tërikkinidin|Arabic=تېرىككىنىدىن
+3	krayning	_	NOUN	N	_	4	nmod:poss	_	Translit=krayning|Arabic=كراينىڭ
+4	chirayi	_	NOUN	N	_	8	nsubj	_	Translit=chirayi|Arabic=چىرايى
+5	pokandek	_	NOUN	N	_	6	nmod	_	Translit=pokandek|Arabic=پوكاندەك
+6	qizirip	_	VERB	V	_	8	advcl	_	Translit=qizirip|Arabic=قىزىرىپ
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	köpjüp	_	VERB	V	_	0	root	_	Translit=köpjüp|Arabic=كۆپجۈپ
+9	ketti	_	VERB	V	_	8	aux	_	Translit=ketti|Arabic=كەتتى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s366/ug
+1	-	_	PUNCT	Y	_	5	punct	_	Translit=-|Arabic=-
+2	sen	_	PRON	P	_	5	nsubj	_	Translit=sen|Arabic=سەن
+3	buni	_	PRON	P	_	5	dobj	_	Translit=buni|Arabic=بۇنى
+4	qesten	_	ADV	D	_	5	advmod	_	Translit=qesten|Arabic=قەستەن
+5	qilding	_	VERB	V	_	0	root	_	Translit=qilding|Arabic=قىلدىڭ
+6	!	_	PUNCT	Y	_	5	punct	_	Translit=!|Arabic=!
+
+# sent_id s367/ug
+1	bu	_	PRON	P	_	2	det	_	Translit=bu|Arabic=بۇ
+2	ishing	_	NOUN	N	_	3	nsubj	_	Translit=ishing|Arabic=ئىشىڭ
+3	qamlashmidi	_	VERB	V	_	0	root	_	Translit=qamlashmidi|Arabic=قاملاشمىدى
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s368/ug
+1	mëni	_	PRON	P	_	2	dobj	_	Translit=mëni|Arabic=مېنى
+2	urmaqchi	_	VERB	V	_	5	advcl	_	Translit=urmaqchi|Arabic=ئۇرماقچى
+3	bolup	_	VERB	V	_	2	aux	_	Translit=bolup|Arabic=بولۇپ
+4	qolini	_	NOUN	N	_	5	dobj	_	Translit=qolini|Arabic=قولىنى
+5	kötürdi	_	VERB	V	_	0	root	_	Translit=kötürdi|Arabic=كۆتۈردى
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+
+# sent_id s369/ug
+1	emma	_	CONJ	C	_	7	cc	_	Translit=emma|Arabic=ئەمما
+2	del	_	ADV	D	_	3	nmod	_	Translit=del|Arabic=دەل
+3	shu	_	PRON	P	_	4	det	_	Translit=shu|Arabic=شۇ
+4	chaghda	_	NOUN	N	_	7	nmod	_	Translit=chaghda|Arabic=چاغدا
+5	muellim	_	NOUN	N	_	7	nsubj	_	Translit=muellim|Arabic=مۇئەللىم
+6	bizge	_	PRON	P	_	7	nmod	_	Translit=bizge|Arabic=بىزگە
+7	buruldi	_	VERB	V	_	0	root	_	Translit=buruldi|Arabic=بۇرۇلدى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s370/ug
+1	kray	_	NOUN	N	_	14	nsubj	_	Translit=kray|Arabic=كراي
+2	qolini	_	NOUN	N	_	4	dobj	_	Translit=qolini|Arabic=قولىنى
+3	shappide	_	NOUN	N	_	4	advmod	_	Translit=shappide|Arabic=شاپپىدە
+4	yëghiwaldi	_	VERB	V	_	14	conj	_	Translit=yëghiwaldi|Arabic=يېغىۋالدى
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	de	_	PART	T	_	4	mark	_	Translit=de|Arabic=دە
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:|Arabic=:
+8	-	_	PUNCT	Y	_	6	punct	_	Translit=-|Arabic=-
+9	sëni	_	PRON	P	_	11	dobj	_	Translit=sëni|Arabic=سېنى
+10	sirtta	_	NOUN	N	_	11	nmod	_	Translit=sirtta|Arabic=سىرتتا
+11	saqlaymen	_	VERB	V	_	14	ccomp	_	Translit=saqlaymen|Arabic=ساقلايمەن
+12	!	_	PUNCT	V	_	11	punct	_	Translit=!|Arabic=!
+13	-	_	PUNCT	Y	_	11	punct	_	Translit=-|Arabic=-
+14	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+15	.	_	PUNCT	Y	_	14	punct	_	Translit=.|Arabic=.
+
+# sent_id s371/ug
+1	men	_	PRON	P	_	3	nsubj	_	Translit=men|Arabic=مەن
+2	bek	_	ADV	D	_	3	advmod	_	Translit=bek|Arabic=بەك
+3	biaram	_	ADJ	A	_	0	root	_	Translit=biaram|Arabic=بىئارام
+4	boldum	_	VERB	V	_	3	cop	_	Translit=boldum|Arabic=بولدۇم
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s372/ug
+1	achchiqimmu	_	NOUN	N	_	4	nsubj	_	Translit=achchiqimmu|Arabic=ئاچچىقىممۇ
+2	qeyelergidur	_	NOUN	N	_	4	nmod	_	Translit=qeyelergidur|Arabic=قەيەلەرگىدۇر
+3	ghayip	_	NOUN	N	_	4	compound	_	Translit=ghayip|Arabic=غايىپ
+4	boldi	_	VERB	V	_	0	root	_	Translit=boldi|Arabic=بولدى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s373/ug
+1	undaq	_	PRON	P	_	2	advmod	_	Translit=undaq|Arabic=ئۇنداق
+2	qilmisam	_	VERB	V	_	5	ccomp	_	Translit=qilmisam|Arabic=قىلمىسام
+3	boptiken	_	VERB	V	_	2	cop	_	Translit=boptiken|Arabic=بوپتىكەن
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	dep	_	VERB	V	_	7	advcl	_	Translit=dep|Arabic=دەپ
+6	pushayman	_	NOUN	N	_	7	compound	_	Translit=pushayman|Arabic=پۇشايمان
+7	qilip	_	VERB	V	_	0	root	_	Translit=qilip|Arabic=قىلىپ
+8	qaldim	_	VERB	V	_	7	aux	_	Translit=qaldim|Arabic=قالدىم
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s374/ug
+1	chünki	_	CONJ	C	_	12	cc	_	Translit=chünki|Arabic=چۈنكى
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	kray	_	NOUN	N	_	12	nsubj	_	Translit=kray|Arabic=كراي
+4	yaxshi	_	ADJ	A	_	5	amod	_	Translit=yaxshi|Arabic=ياخشى
+5	bala	_	NOUN	N	_	12	conj	_	Translit=bala|Arabic=بالا
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	u	_	PRON	P	_	12	nsubj	_	Translit=u|Arabic=ئۇ
+8	bayqi	_	VERB	V	_	9	advmod	_	Translit=bayqi|Arabic=بايقى
+9	ishni	_	NOUN	N	_	12	dobj	_	Translit=ishni|Arabic=ئىشنى
+10	hergizmu	_	ADV	D	_	12	advmod	_	Translit=hergizmu|Arabic=ھەرگىزمۇ
+11	qesten	_	ADV	D	_	12	advmod	_	Translit=qesten|Arabic=قەستەن
+12	qilmighanidi	_	VERB	V	_	0	root	_	Translit=qilmighanidi|Arabic=قىلمىغانىدى
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.|Arabic=.
+
+# sent_id s375/ug
+1	ötkende	_	VERB	V	_	5	advmod	_	Translit=ötkende|Arabic=ئۆتكەندە
+2	uning	_	PRON	P	_	3	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+3	öyige	_	NOUN	N	_	5	nmod	_	Translit=öyige|Arabic=ئۆيىگە
+4	oynighili	_	VERB	V	_	5	advmod	_	Translit=oynighili|Arabic=ئوينىغىلى
+5	barghinimni	_	NOUN	N	_	6	dobj	_	Translit=barghinimni|Arabic=بارغىنىمنى
+6	eslidim	_	VERB	V	_	0	root	_	Translit=eslidim|Arabic=ئەسلىدىم
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s376/ug
+1	shu	_	PRON	P	_	2	compound	_	Translit=shu|Arabic=شۇ
+2	chaghda	_	NOUN	N	_	13	nmod:tmod	_	Translit=chaghda|Arabic=چاغدا
+3	uning	_	PRON	P	_	6	nsubj	_	Translit=uning|Arabic=ئۇنىڭ
+4	öy	_	NOUN	N	_	5	nmod:poss	_	Translit=öy|Arabic=ئۆي
+5	ishlirini	_	NOUN	N	_	6	dobj	_	Translit=ishlirini|Arabic=ئىشلىرىنى
+6	qiliwatqanliqini	_	VERB	V	_	12	conj	_	Translit=qiliwatqanliqini|Arabic=قىلىۋاتقانلىقىنى
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	aghriqchan	_	ADJ	A	_	9	amod	_	Translit=aghriqchan|Arabic=ئاغرىقچان
+9	anisining	_	NOUN	N	_	10	nmod:poss	_	Translit=anisining|Arabic=ئانىسىنىڭ
+10	halidin	_	NOUN	N	_	12	nmod	_	Translit=halidin|Arabic=ھالىدىن
+11	xewer	_	NOUN	N	_	12	compound	_	Translit=xewer|Arabic=خەۋەر
+12	ëliwatqanliqini	_	VERB	V	_	13	dobj	_	Translit=ëliwatqanliqini|Arabic=ئېلىۋاتقانلىقىنى
+13	körgenidim	_	VERB	V	_	0	root	_	Translit=körgenidim|Arabic=كۆرگەنىدىم
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.|Arabic=.
+
+# sent_id s377/ug
+1	u	_	PRON	P	_	3	nsubj	_	Translit=u|Arabic=ئۇ
+2	bizningkige	_	NOUN	N	_	3	nmod	_	Translit=bizningkige|Arabic=بىزنىڭكىگە
+3	kelgende	_	VERB	V	_	10	advmod	_	Translit=kelgende|Arabic=كەلگەندە
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	ailemdikilerning	_	NOUN	N	_	6	nmod:part	_	Translit=ailemdikilerning|Arabic=ئائىلەمدىكىلەرنىڭ
+6	hemmisi	_	PRON	P	_	10	nsubj	_	Translit=hemmisi|Arabic=ھەممىسى
+7	uni	_	PRON	P	_	10	dobj	_	Translit=uni|Arabic=ئۇنى
+8	qizghin	_	ADJ	A	_	10	advmod	_	Translit=qizghin|Arabic=قىزغىن
+9	qarshi	_	ADJ	A	_	10	compound	_	Translit=qarshi|Arabic=قارشى
+10	alghanidi	_	VERB	V	_	0	root	_	Translit=alghanidi|Arabic=ئالغانىدى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s378/ug
+1	hey	_	INTJ	E	_	15	discourse	_	Translit=hey|Arabic=ھەي
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	eger	_	CONJ	C	_	5	cc	_	Translit=eger|Arabic=ئەگەر
+4	uni	_	PRON	P	_	5	dobj	_	Translit=uni|Arabic=ئۇنى
+5	tillimighan	_	VERB	V	_	12	conj	_	Translit=tillimighan|Arabic=تىللىمىغان
+6	bolsam	_	VERB	V	_	5	cop	_	Translit=bolsam|Arabic=بولسام
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	uninggha	_	PRON	P	_	10	nmod	_	Translit=uninggha|Arabic=ئۇنىڭغا
+9	yüz	_	NUM	M	NumType=Card	10	compound	_	Translit=yüz|Arabic=يۈز
+10	kilelmeydighan	_	VERB	V	_	11	acl	_	Translit=kilelmeydighan|Arabic=كىلەلمەيدىغان
+11	ishni	_	NOUN	N	_	12	dobj	_	Translit=ishni|Arabic=ئىشنى
+12	qilmighan	_	VERB	V	_	15	advcl	_	Translit=qilmighan|Arabic=قىلمىغان
+13	bolsam	_	VERB	V	_	12	advmod	_	Translit=bolsam|Arabic=بولسام
+14	nëmidëgen	_	INTJ	E	_	15	advmod	_	Translit=nëmidëgen|Arabic=نېمىدېگەن
+15	yaxshi	_	ADJ	A	_	0	cop	_	Translit=yaxshi|Arabic=ياخشى
+16	bolatti	_	VERB	V	_	15	cop	_	Translit=bolatti|Arabic=بولاتتى
+17	-	_	PUNCT	Y	_	16	punct	_	Translit=-|Arabic=-
+18	he	_	INTJ	E	_	15	discourse	_	Translit=he|Arabic=ھە
+19	!	_	PUNCT	V	_	18	punct	_	Translit=!|Arabic=!
+20	?	_	PUNCT	Y	_	18	punct	_	Translit=?|Arabic=؟
+
+# sent_id s379/ug
+1	men	_	PRON	P	_	15	nsubj	_	Translit=men|Arabic=مەن
+2	dadamning	_	NOUN	N	_	14	nmod:poss	_	Translit=dadamning|Arabic=دادامنىڭ
+3	«	_	PUNCT	Y	_	2	punct	_	Translit=«|Arabic=«
+4	adem	_	NOUN	N	_	6	nsubj	_	Translit=adem|Arabic=ئادەم
+5	xatalashqinini	_	NOUN	N	_	6	dobj	_	Translit=xatalashqinini|Arabic=خاتالاشقىنىنى
+6	bilgeniken	_	VERB	V	_	10	advcl:cond	_	Translit=bilgeniken|Arabic=بىلگەنىكەن
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	ëtirap	_	NOUN	N	_	9	compound	_	Translit=ëtirap|Arabic=ئېتىراپ
+9	qilishni	_	VERB	V	_	10	dobj	_	Translit=qilishni|Arabic=قىلىشنى
+10	bilishi	_	VERB	V	_	13	ccomp	_	Translit=bilishi|Arabic=بىلىشى
+11	kirek	_	VERB	V	_	10	cop	_	Translit=kirek|Arabic=كىرەك
+12	»	_	PUNCT	Y	_	11	punct	_	Translit=»|Arabic=»
+13	dëgen	_	VERB	V	_	14	acl	_	Translit=dëgen|Arabic=دېگەن
+14	sözini	_	NOUN	N	_	15	dobj	_	Translit=sözini|Arabic=سۆزىنى
+15	eslidim	_	VERB	V	_	0	root	_	Translit=eslidim|Arabic=ئەسلىدىم
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.|Arabic=.
+
+# sent_id s380/ug
+1	lëkin	_	CONJ	C	_	10	cc	_	Translit=lëkin|Arabic=لېكىن
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	krayning	_	NOUN	N	_	4	nmod:poss	_	Translit=krayning|Arabic=كراينىڭ
+4	aldida	_	NOUN	N	_	7	nmod	_	Translit=aldida|Arabic=ئالدىدا
+5	xataliqimni	_	NOUN	N	_	7	dobj	_	Translit=xataliqimni|Arabic=خاتالىقىمنى
+6	ëtirap	_	NOUN	N	_	7	compound	_	Translit=ëtirap|Arabic=ئېتىراپ
+7	qilsam	_	VERB	V	_	10	advcl:cond	_	Translit=qilsam|Arabic=قىلسام
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	yüzüm	_	NOUN	N	_	10	compound	_	Translit=yüzüm|Arabic=يۈزۈم
+10	chüshüp	_	VERB	V	_	0	root	_	Translit=chüshüp|Arabic=چۈشۈپ
+11	ketmemdu	_	VERB	V	_	10	aux	_	Translit=ketmemdu|Arabic=كەتمەمدۇ
+12	!	_	PUNCT	Y	_	11	punct	_	Translit=!|Arabic=!
+
+# sent_id s381/ug
+1	men	_	PRON	P	_	14	nsubj	_	Translit=men|Arabic=مەن
+2	köz	_	NOUN	N	_	3	nmod:poss	_	Translit=köz|Arabic=كۆز
+3	qirim	_	NOUN	N	_	6	nmod	_	Translit=qirim|Arabic=قىرىم
+4	bilen	_	ADP	R	_	3	case	_	Translit=bilen|Arabic=بىلەن
+5	uninggha	_	PRON	P	_	6	nmod	_	Translit=uninggha|Arabic=ئۇنىڭغا
+6	qarighinimda	_	VERB	V	_	14	advcl	_	Translit=qarighinimda|Arabic=قارىغىنىمدا
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	chapinining	_	NOUN	N	_	9	nmod:poss	_	Translit=chapinining|Arabic=چاپىنىنىڭ
+9	mürisining	_	NOUN	N	_	10	nmod:poss	_	Translit=mürisining|Arabic=مۈرىسىنىڭ
+10	tikichi	_	NOUN	N	_	11	nsubj	_	Translit=tikichi|Arabic=تىكىچى
+11	sökülüp	_	NOUN	N	_	12	advcl	_	Translit=sökülüp|Arabic=سۆكۈلۈپ
+12	ëchilip	_	VERB	V	_	14	advcl	_	Translit=ëchilip|Arabic=ئېچىلىپ
+13	qalghanliqini	_	VERB	V	_	12	aux	_	Translit=qalghanliqini|Arabic=قالغانلىقىنى
+14	kördüm	_	VERB	V	_	0	root	_	Translit=kördüm|Arabic=كۆردۈم
+15	.	_	PUNCT	Y	_	14	punct	_	Translit=.|Arabic=.
+
+# sent_id s382/ug
+1	bu	_	PRON	P	_	7	nsubj	_	Translit=bu|Arabic=بۇ
+2	heqichan	_	NOUN	N	_	7	advmod	_	Translit=heqichan|Arabic=ھەقىچان
+3	uning	_	PRON	P	_	7	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+4	daim	_	ADV	D	_	7	advmod	_	Translit=daim|Arabic=دائىم
+5	otun	_	NOUN	N	_	6	dobj	_	Translit=otun|Arabic=ئوتۇن
+6	tergili	_	VERB	V	_	7	advcl	_	Translit=tergili|Arabic=تەرگىلى
+7	baridighanliqidinghu	_	VERB	V	_	8	ccomp	_	Translit=baridighanliqidinghu|Arabic=بارىدىغانلىقىدىنغۇ
+8	deymen	_	PART	T	_	0	root	_	Translit=deymen|Arabic=دەيمەن
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s383/ug
+1	shularni	_	PRON	P	_	2	dobj	_	Translit=shularni|Arabic=شۇلارنى
+2	oylighinimda	_	VERB	V	_	14	advcl	_	Translit=oylighinimda|Arabic=ئويلىغىنىمدا
+3	:	_	PUNCT	Y	_	2	punct	_	Translit=:|Arabic=:
+4	«	_	PUNCT	Y	_	2	punct	_	Translit=«|Arabic=«
+5	boldi	_	VERB	V	_	11	discourse	_	Translit=boldi|Arabic=بولدى
+6	,	_	PUNCT	Y	_	5	punct	_	Translit=,|Arabic=،
+7	uning	_	PRON	P	_	8	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+8	aldida	_	NOUN	N	_	11	nmod	_	Translit=aldida|Arabic=ئالدىدا
+9	xataliqimni	_	NOUN	N	_	11	dobj	_	Translit=xataliqimni|Arabic=خاتالىقىمنى
+10	ëtirap	_	NOUN	N	_	11	compound	_	Translit=ëtirap|Arabic=ئېتىراپ
+11	qilay	_	VERB	V	_	13	ccomp	_	Translit=qilay|Arabic=قىلاي
+12	»	_	PUNCT	Y	_	11	punct	_	Translit=»|Arabic=»
+13	dep	_	VERB	V	_	14	advcl	_	Translit=dep|Arabic=دەپ
+14	oylidim	_	VERB	V	_	0	root	_	Translit=oylidim|Arabic=ئويلىدىم
+15	,	_	PUNCT	Y	_	14	punct	_	Translit=,|Arabic=،
+
+# sent_id s384/ug
+1	biraq	_	CONJ	C	_	10	cc	_	Translit=biraq|Arabic=بىراق
+2	«	_	PUNCT	Y	_	1	punct	_	Translit=«|Arabic=«
+3	mëni	_	PRON	P	_	4	dobj	_	Translit=mëni|Arabic=مېنى
+4	kechür	_	VERB	V	_	6	ccomp	_	Translit=kechür|Arabic=كەچۈر
+5	»	_	PUNCT	Y	_	4	punct	_	Translit=»|Arabic=»
+6	dëgen	_	VERB	V	_	7	acl	_	Translit=dëgen|Arabic=دېگەن
+7	sözni	_	NOUN	N	_	10	dobj	_	Translit=sözni|Arabic=سۆزنى
+8	zadila	_	ADV	D	_	10	advmod	_	Translit=zadila|Arabic=زادىلا
+9	aghzimdin	_	VERB	V	_	10	advcl	_	Translit=aghzimdin|Arabic=ئاغزىمدىن
+10	chiqiralmidim	_	VERB	V	_	0	root	_	Translit=chiqiralmidim|Arabic=چىقىرالمىدىم
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s385/ug
+1	kray	_	NOUN	N	_	6	nsubj	_	Translit=kray|Arabic=كراي
+2	birdem	_	ADV	D	_	4	compound:redup	_	Translit=birdem|Arabic=بىردەم
+3	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+4	birdem	_	ADV	D	_	6	dep	_	Translit=birdem|Arabic=بىردەم
+5	manga	_	PRON	P	_	6	nmod	_	Translit=manga|Arabic=ماڭا
+6	qarap	_	VERB	V	_	0	root	_	Translit=qarap|Arabic=قاراپ
+7	qoyatti	_	VERB	V	_	6	aux	_	Translit=qoyatti|Arabic=قوياتتى
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.|Arabic=.
+
+# sent_id s386/ug
+1	uning	_	PRON	P	_	2	nmod:poss	_	Translit=uning|Arabic=ئۇنىڭ
+2	közliridin	_	NOUN	N	_	8	nmod	_	Translit=közliridin|Arabic=كۆزلىرىدىن
+3	ghezep	_	NOUN	N	_	6	conj	_	Translit=ghezep|Arabic=غەزەپ
+4	emes	_	VERB	V	_	3	neg	_	Translit=emes|Arabic=ئەمەس
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+6	qayghu	_	NOUN	N	_	7	nmod	_	Translit=qayghu|Arabic=قايغۇ
+7	alamiti	_	NOUN	N	_	8	nsubj	_	Translit=alamiti|Arabic=ئالامىتى
+8	chiqip	_	VERB	V	_	0	root	_	Translit=chiqip|Arabic=چىقىپ
+9	turatti	_	VERB	V	_	8	aux	_	Translit=turatti|Arabic=تۇراتتى
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.|Arabic=.
+
+# sent_id s387/ug
+1	sëni	_	PRON	P	_	3	dobj	_	Translit=sëni|Arabic=سېنى
+2	siritta	_	VERB	V	_	3	nmod	_	Translit=siritta|Arabic=سىرىتتا
+3	saqlaymen	_	VERB	V	_	6	ccomp	_	Translit=saqlaymen|Arabic=ساقلايمەن
+4	!	_	PUNCT	V	_	3	punct	_	Translit=!|Arabic=!
+5	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+6	dëdi	_	VERB	V	_	0	root	_	Translit=dëdi|Arabic=دېدى
+7	u	_	PRON	P	_	6	nsubj	_	Translit=u|Arabic=ئۇ
+8	yene	_	PART	T	_	6	advmod	_	Translit=yene|Arabic=يەنە
+9	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s388/ug
+1	-	_	PUNCT	Y	_	8	punct	_	Translit=-|Arabic=-
+2	menmu	_	PRON	P	_	3	nsubj	_	Translit=menmu|Arabic=مەنمۇ
+3	saqlaymen	_	NOUN	N	_	6	ccomp	_	Translit=saqlaymen|Arabic=ساقلايمەن
+4	!	_	PUNCT	V	_	3	punct	_	Translit=!|Arabic=!
+5	-	_	PUNCT	Y	_	3	punct	_	Translit=-|Arabic=-
+6	dep	_	VERB	V	_	8	advcl	_	Translit=dep|Arabic=دەپ
+7	jawap	_	NOUN	N	_	8	compound	_	Translit=jawap|Arabic=جاۋاپ
+8	berdim	_	VERB	V	_	0	root	_	Translit=berdim|Arabic=بەردىم
+9	men	_	PRON	P	_	8	nsubj	_	Translit=men|Arabic=مەن
+10	.	_	PUNCT	Y	_	8	punct	_	Translit=.|Arabic=.
+
+# sent_id s389/ug
+1	lëkin	_	CONJ	C	_	6	cc	_	Translit=lëkin|Arabic=لېكىن
+2	,	_	PUNCT	Y	_	1	punct	_	Translit=,|Arabic=،
+3	dadamning	_	NOUN	N	_	5	nmod:poss	_	Translit=dadamning|Arabic=دادامنىڭ
+4	munu	_	PRON	P	_	5	det	_	Translit=munu|Arabic=مۇنۇ
+5	sözlirini	_	NOUN	N	_	6	dobj	_	Translit=sözlirini|Arabic=سۆزلىرىنى
+6	eslidim	_	VERB	V	_	0	root	_	Translit=eslidim|Arabic=ئەسلىدىم
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:|Arabic=:
+8	«	_	PUNCT	Y	_	6	punct	_	Translit=«|Arabic=«
+9	eger	_	CONJ	C	_	11	cc	_	Translit=eger|Arabic=ئەگەر
+10	sen	_	PRON	P	_	11	nsubj	_	Translit=sen|Arabic=سەن
+11	xatalashqan	_	VERB	V	_	20	advcl:cond	_	Translit=xatalashqan|Arabic=خاتالاشقان
+12	bolsang	_	VERB	V	_	11	cop	_	Translit=bolsang|Arabic=بولساڭ
+13	,	_	PUNCT	Y	_	12	punct	_	Translit=,|Arabic=،
+14	birkim	_	NOUN	N	_	16	nsubj	_	Translit=birkim|Arabic=بىركىم
+15	sëni	_	PRON	P	_	16	dobj	_	Translit=sëni|Arabic=سېنى
+16	ursa	_	VERB	V	_	20	advcl	_	Translit=ursa|Arabic=ئۇرسا
+17	,	_	PUNCT	Y	_	16	punct	_	Translit=,|Arabic=،
+18	hergiz	_	ADV	D	_	20	advmod	_	Translit=hergiz|Arabic=ھەرگىز
+19	qol	_	NOUN	N	_	20	nsubj	_	Translit=qol|Arabic=قول
+20	yandurma	_	VERB	V	_	22	parataxis	_	Translit=yandurma|Arabic=ياندۇرما
+21	,	_	PUNCT	Y	_	20	punct	_	Translit=,|Arabic=،
+22	mudapiilenseng	_	VERB	V	_	6	ccomp	_	Translit=mudapiilenseng|Arabic=مۇداپىئىلەنسەڭ
+23	boldi	_	VERB	V	_	22	aux	_	Translit=boldi|Arabic=بولدى
+24	.	_	PUNCT	Y	_	23	punct	_	Translit=.|Arabic=.
+25	»	_	PUNCT	Y	_	23	punct	_	Translit=»|Arabic=»
+
+# sent_id s390/ug
+1	«	_	PUNCT	Y	_	4	punct	_	Translit=«|Arabic=«
+2	men	_	PRON	P	_	4	nsubj	_	Translit=men|Arabic=مەن
+3	peqet	_	ADV	D	_	4	advmod	_	Translit=peqet|Arabic=پەقەت
+4	mudapiilinimen	_	VERB	V	_	0	root	_	Translit=mudapiilinimen|Arabic=مۇداپىئىلىنىمەن
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s391/ug
+1	hergiz	_	ADV	D	_	3	advmod	_	Translit=hergiz|Arabic=ھەرگىز
+2	qol	_	NOUN	N	_	3	nsubj	_	Translit=qol|Arabic=قول
+3	yandurmaymen	_	VERB	V	_	5	ccomp	_	Translit=yandurmaymen|Arabic=ياندۇرمايمەن
+4	»	_	PUNCT	Y	_	3	punct	_	Translit=»|Arabic=»
+5	dep	_	VERB	V	_	6	advcl	_	Translit=dep|Arabic=دەپ
+6	oylidim	_	VERB	V	_	0	root	_	Translit=oylidim|Arabic=ئويلىدىم
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.|Arabic=.
+
+# sent_id s392/ug
+1	könglüm	_	NOUN	N	_	2	nsubj	_	Translit=könglüm|Arabic=كۆڭلۈم
+2	jayida	_	NOUN	N	_	10	advcl	_	Translit=jayida|Arabic=جايىدا
+3	bolmighachqa	_	VERB	V	_	2	cop	_	Translit=bolmighachqa|Arabic=بولمىغاچقا
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+5	muellimning	_	NOUN	N	_	8	nmod:poss	_	Translit=muellimning|Arabic=مۇئەللىمنىڭ
+6	birer	_	NUM	M	NumType=Card	7	nmod	_	Translit=birer|Arabic=بىرەر
+7	jümle	_	NOUN	N	_	8	amod	_	Translit=jümle|Arabic=جۈملە
+8	sözimu	_	NOUN	N	_	10	nsubj	_	Translit=sözimu|Arabic=سۆزىمۇ
+9	quliqimgha	_	NOUN	N	_	10	nmod	_	Translit=quliqimgha|Arabic=قۇلىقىمغا
+10	kirmidi	_	VERB	V	_	0	root	_	Translit=kirmidi|Arabic=كىرمىدى
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.|Arabic=.
+
+# sent_id s393/ug
+1	mekteptin	_	NOUN	N	_	2	nmod	_	Translit=mekteptin|Arabic=مەكتەپتىن
+2	qaytidighan	_	VERB	V	_	3	acl	_	Translit=qaytidighan|Arabic=قايتىدىغان
+3	waqit	_	NOUN	N	_	0	root	_	Translit=waqit|Arabic=ۋاقىت
+4	boldi	_	VERB	V	_	3	cop	_	Translit=boldi|Arabic=بولدى
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s394/ug
+1	men	_	PRON	P	_	4	nsubj	_	Translit=men|Arabic=مەن
+2	kochida	_	NOUN	N	_	4	nmod	_	Translit=kochida|Arabic=كوچىدا
+3	yalghuz	_	ADJ	A	_	4	advmod	_	Translit=yalghuz|Arabic=يالغۇز
+4	këtiwatimen	_	VERB	V	_	0	root	_	Translit=këtiwatimen|Arabic=كېتىۋاتىمەن
+5	,	_	PUNCT	Y	_	4	punct	_	Translit=,|Arabic=،
+
+# sent_id s395/ug
+1	kray	_	NOUN	N	_	4	nsubj	_	Translit=kray|Arabic=كراي
+2	arqamdin	_	NOUN	N	_	3	nmod	_	Translit=arqamdin|Arabic=ئارقامدىن
+3	egiship	_	VERB	V	_	4	advcl	_	Translit=egiship|Arabic=ئەگىشىپ
+4	kelmekte	_	VERB	V	_	0	root	_	Translit=kelmekte|Arabic=كەلمەكتە
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.|Arabic=.
+
+# sent_id s396/ug
+1	men	_	PRON	P	_	11	nsubj	_	Translit=men|Arabic=مەن
+2	qolumgha	_	NOUN	N	_	4	nmod	_	Translit=qolumgha|Arabic=قولۇمغا
+3	sizghuchni	_	NOUN	N	_	4	dobj	_	Translit=sizghuchni|Arabic=سىزغۇچنى
+4	aldim	_	VERB	V	_	11	conj	_	Translit=aldim|Arabic=ئالدىم
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+6	de	_	PART	T	_	4	mark	_	Translit=de|Arabic=دە
+7	,	_	PUNCT	Y	_	6	punct	_	Translit=,|Arabic=،
+8	qedimimni	_	NOUN	N	_	9	dobj	_	Translit=qedimimni|Arabic=قەدىمىمنى
+9	toxtitip	_	VERB	V	_	11	advcl	_	Translit=toxtitip|Arabic=توختىتىپ
+10	uni	_	PRON	P	_	11	dobj	_	Translit=uni|Arabic=ئۇنى
+11	küttüm	_	VERB	V	_	0	root	_	Translit=küttüm|Arabic=كۈتتۈم
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.|Arabic=.
+
+# sent_id s397/ug
+1	u	_	PRON	P	_	3	nsubj	_	Translit=u|Arabic=ئۇ
+2	manga	_	PRON	P	_	3	nmod	_	Translit=manga|Arabic=ماڭا
+3	yëqinlashti	_	VERB	V	_	0	root	_	Translit=yëqinlashti|Arabic=يېقىنلاشتى
+4	,	_	PUNCT	Y	_	3	punct	_	Translit=,|Arabic=،
+
+# sent_id s398/ug
+1	men	_	PRON	P	_	3	nsubj	_	Translit=men|Arabic=مەن
+2	sizghuchni	_	NOUN	N	_	3	dobj	_	Translit=sizghuchni|Arabic=سىزغۇچنى
+3	tenglidim	_	VERB	V	_	0	root	_	Translit=tenglidim|Arabic=تەڭلىدىم
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.|Arabic=.
+
+# sent_id s399/ug
+1	-	_	PUNCT	Y	_	15	punct	_	Translit=-|Arabic=-
+2	yaq	_	INTJ	E	_	15	discourse	_	Translit=yaq|Arabic=ياق
+3	,	_	PUNCT	Y	_	2	punct	_	Translit=,|Arabic=،
+4	anrk	_	NOUN	N	_	15	discourse	_	Translit=anrk|Arabic=ئانرك
+5	!	_	PUNCT	M	_	4	punct	_	Translit=!|Arabic=!
+6	-	_	PUNCT	Y	_	4	punct	_	Translit=-|Arabic=-
+7	kray	_	NOUN	N	_	15	nsubj	_	Translit=kray|Arabic=كراي
+8	külümsirigen	_	VERB	V	_	15	advcl	_	Translit=külümsirigen|Arabic=كۈلۈمسىرىگەن
+9	halda	_	NOUN	N	_	8	case	_	Translit=halda|Arabic=ھالدا
+10	sizghuchni	_	NOUN	N	_	11	dobj	_	Translit=sizghuchni|Arabic=سىزغۇچنى
+11	ittiriwëtip	_	VERB	V	_	15	advcl	_	Translit=ittiriwëtip|Arabic=ئىتتىرىۋېتىپ
+12	,	_	PUNCT	Y	_	11	punct	_	Translit=,|Arabic=،
+13	mulayimliq	_	NOUN	N	_	15	advmod	_	Translit=mulayimliq|Arabic=مۇلايىملىق
+14	bilen	_	ADP	R	_	13	case	_	Translit=bilen|Arabic=بىلەن
+15	sözlidi	_	VERB	V	_	0	root	_	Translit=sözlidi|Arabic=سۆزلىدى
+16	,	_	PUNCT	Y	_	15	punct	_	Translit=,|Arabic=،
+
+# sent_id s400/ug
+1	-	_	PUNCT	Y	_	2	punct	_	Translit=-|Arabic=-
+2	biz	_	PRON	P	_	5	nsubj	_	Translit=biz|Arabic=بىز
+3	burunqidek	_	ADJ	A	_	5	amod	_	Translit=burunqidek|Arabic=بۇرۇنقىدەك
+4	yaxshi	_	ADJ	A	_	5	amod	_	Translit=yaxshi|Arabic=ياخشى
+5	dost	_	NOUN	N	_	0	root	_	Translit=dost|Arabic=دوست
+6	bolup	_	VERB	V	_	5	cop	_	Translit=bolup|Arabic=بولۇپ
+7	qalayli	_	VERB	V	_	6	aux	_	Translit=qalayli|Arabic=قالايلى
+8	,	_	PUNCT	Y	_	7	punct	_	Translit=,|Arabic=،
+9	bolamdu	_	VERB	V	_	5	parataxis	_	Translit=bolamdu|Arabic=بولامدۇ
+10	?	_	PUNCT	Y	_	9	punct	_	Translit=?|Arabic=؟
 
