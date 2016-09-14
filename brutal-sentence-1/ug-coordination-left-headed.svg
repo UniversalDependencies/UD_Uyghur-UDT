@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" onload="init(evt)" onmousemove="mouse_move(evt)" onmouseout="mouse_out(evt)" height="526" width="2939">
+ <script type="text/ecmascript">
+      var doc = null;
+      var root = null;
+      var css = null;
+      var last_target = null;
+      var svgNs = "http://www.w3.org/2000/svg";
+
+      function init(event) {
+         doc = event.target.ownerDocument;
+         root = doc.documentElement;
+         if (root.styleSheets != null &amp;&amp; root.styleSheets[0] != null) css = root.styleSheets[0]
+         else if (doc.styleSheets != null &amp;&amp; doc.styleSheets[0] != null) css = doc.styleSheets[0];
+	 top.zoomSVG = zoom;
+         if (top.svg_loaded) top.svg_loaded(doc);
+         if (top.setSVGTitle) top.setSVGTitle(get_title());
+         if (top.setSVGDesc) top.setSVGDesc(get_desc());
+         if (top.highlightSVGNodes) top.highlightSVGNodes(css);
+      }
+      function mouse_out (event) {
+        hide_tooltip(event);
+      }
+      function mouse_move (event) {
+         show_tooltip(event);
+      }
+      function get_title () {
+        var title = root.getElementsByTagName('title').item(0);
+        if (title &amp;&amp; title.parentNode == root) {
+           return title.firstChild.nodeValue;
+        } else {
+           return '';
+        }
+      }
+      function get_desc () {
+        var desc = root.getElementsByTagName('desc').item(0);
+        if (desc &amp;&amp; desc.parentNode == root) {
+           var n = desc.firstChild;
+           while (n &amp;&amp; n.nodeType != 1) n=n.nextSibling;
+           if (!n) n=desc.firstChild;
+           return n; // desc.firstChild.nodeValue;
+        } else {
+           return '';
+        }
+      }
+      function zoom (amount) {
+        var old_scale = root.currentScale;
+        var new_scale = old_scale + amount;
+        var rescale = new_scale/old_scale;
+        root.currentScale = new_scale;
+	root.setAttribute('width',Number(root.getAttribute('width'))*rescale);
+	root.setAttribute('height',Number(root.getAttribute('height'))*rescale);
+      }
+      function hide_tooltip(event) {
+	 if (event.target == last_target &amp;&amp; top.changeToolTip) {
+	    top.changeToolTip("");
+	 }
+      }
+      function show_tooltip(event) {
+         var target = event.target;
+	 if (!top.placeTip) return;
+	 var x = event.clientX;
+	 var y = event.clientY;
+  	 top.placeTip(x,y,root,event);
+         if ( last_target != target ) {
+	    last_target = target;
+            if (top.onSVGMouseOver) top.onSVGMouseOver(target);
+            if (target==root) return;
+            var desc;
+            for (var i=0; i&lt;target.childNodes.length; i++) {
+              var n = target.childNodes[i];
+              if (n.nodeName == 'desc') {
+                desc = n;
+                break;
+              }
+            }
+            if ( desc ) {
+               tooltip_text = desc.firstChild.nodeValue;
+	       if (tooltip_text == null) {
+	         top.changeToolTip('');
+	       } else {
+	         top.changeToolTip(tooltip_text.split(/\n/).join("&lt;br /&gt;"));
+               }
+            }
+         }
+      }
+
+</script>
+ <defs>
+  <style type="text/css"></style>
+ </defs>
+ <g transform="translate(5 5)">
+  <path id="i6" d="M38,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i15" d="M189,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i24" d="M370,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i33" d="M380,237 L491,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i42" d="M390,386 L400,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i51" d="M400,311 L380,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i60" d="M491,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i69" d="M501,237 L662,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i78" d="M662,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i87" d="M672,237 L662,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i96" d="M725,237 L836,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i105" d="M735,311 L725,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i114" d="M836,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i123" d="M846,237 L1026,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i132" d="M856,311 L846,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i141" d="M1026,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i150" d="M1036,237 L1026,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i159" d="M1123,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i168" d="M1176,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i177" d="M1186,386 L1196,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i186" d="M1196,311 L1307,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i195" d="M1307,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i204" d="M1317,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i213" d="M1423,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i222" d="M1488,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i231" d="M1541,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i240" d="M1594,237 L1317,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i249" d="M1604,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i258" d="M1723,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i267" d="M1733,89 L28,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i276" d="M1798,163 L1733,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i290" d="M1868,311 L2136,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i299" d="M1956,311 L2136,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i308" d="M1966,237 L2260,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i317" d="M1976,460 L2051,386" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i326" d="M1986,386 L2126,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i335" d="M2051,386 L2126,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i344" d="M2116,386 L2126,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i353" d="M2126,311 L2136,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i362" d="M2136,237 L2355,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i371" d="M2146,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i380" d="M2230,311 L2250,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i389" d="M2240,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i398" d="M2250,237 L2355,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i407" d="M2260,163 L2293,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i416" d="M2293,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i425" d="M2345,237 L2355,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i434" d="M2355,163 L2365,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i443" d="M2365,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i452" d="M2375,386 L2492,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i461" d="M2385,460 L2482,386" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i470" d="M2482,386 L2492,311" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i479" d="M2492,311 L2604,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i488" d="M2594,311 L2604,237" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i497" d="M2604,237 L2832,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i506" d="M2614,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i515" d="M2667,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i524" d="M2720,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i533" d="M2730,237 L2832,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i542" d="M2822,237 L2832,163" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i551" d="M2832,163 L2842,89" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <path id="i560" d="M2842,89 L1858,15" fill="none" stroke-dasharray="none" stroke="#555555" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" class="line scale_width scale_arrow seg:0.0"></path>
+  <ellipse id="i1" cx="28.5" cy="15" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #s1.ug seg:0.0">
+   <desc>sentence: ئاسماننى كۆپكۈك ، دەريا ، كۆل سۇلىرىنى سۈپسۈزۈك تۇرۇشقا ، دەل - دەرەخلەرنى بۈك - باراقسان بولۇشقا ، ھايۋانلارنى ئەركىن ئازادە ياشاشقا ئىگە قىلىش . . . بىزنىڭ ئورتاق ئارزۇيىمىز .
+</desc>
+  </ellipse>
+  <ellipse id="i7" cx="38.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n1 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i16" cx="189.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n2 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i25" cx="370.5" cy="163.4" rx="3.49999999999997" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n3 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i34" cx="380.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n4 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i43" cx="390.5" cy="386" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n5 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i52" cx="400.5" cy="311.8" rx="3.50000000000003" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n6 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i61" cx="491.5" cy="163.4" rx="3.50000000000003" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n7 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i70" cx="501.5" cy="237.6" rx="3.50000000000003" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n8 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i79" cx="662.5" cy="163.4" rx="3.49999999999994" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n9 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i88" cx="672.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n10 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i97" cx="725.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n11 seg:0.0">
+   <desc>pos: adv
+</desc>
+  </ellipse>
+  <ellipse id="i106" cx="735.5" cy="311.8" rx="3.5" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n12 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i115" cx="836.5" cy="163.4" rx="3.49999999999994" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n13 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i124" cx="846.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n14 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i133" cx="856.5" cy="311.8" rx="3.50000000000006" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n15 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i142" cx="1026.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n16 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i151" cx="1036.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n17 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i160" cx="1123.5" cy="237.6" rx="3.49999999999989" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n18 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i169" cx="1176.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n19 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i178" cx="1186.5" cy="386" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n20 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i187" cx="1196.5" cy="311.8" rx="3.49999999999989" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n21 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i196" cx="1307.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n22 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i205" cx="1317.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n23 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i214" cx="1423.5" cy="237.6" rx="3.49999999999989" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n24 seg:0.0">
+   <desc>pos: verb
+verbtype: aux
+</desc>
+  </ellipse>
+  <ellipse id="i223" cx="1488.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n25 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i232" cx="1541.5" cy="237.6" rx="3.50000000000011" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n26 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i241" cx="1594.5" cy="237.6" rx="3.49999999999989" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n27 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i250" cx="1604.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n28 seg:0.0">
+   <desc>pos: noun
+prontype: prn
+</desc>
+  </ellipse>
+  <ellipse id="i259" cx="1723.5" cy="163.4" rx="3.49999999999989" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n29 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i268" cx="1733.5" cy="89.2" rx="3.5" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n30 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i277" cx="1798.5" cy="163.4" rx="3.49999999999989" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #n31 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i285" cx="1858.5" cy="15" rx="3.50000000000011" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-root seg:0.0"></ellipse>
+  <ellipse id="i291" cx="1868.5" cy="311.8" rx="3.50000000000011" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n9 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i300" cx="1956.5" cy="311.8" rx="3.49999999999989" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n10 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i309" cx="1966.5" cy="237.6" rx="3.50000000000011" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n5 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i318" cx="1976.5" cy="460.2" rx="3.49999999999989" ry="3.50000000000003" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n14 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i327" cx="1986.5" cy="386" rx="3.50000000000011" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n12 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i336" cx="2051.5" cy="386" rx="3.49999999999977" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n13 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i345" cx="2116.5" cy="386" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n15 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i354" cx="2126.5" cy="311.8" rx="3.49999999999977" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n11 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i363" cx="2136.5" cy="237.6" rx="3.50000000000023" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n8 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i372" cx="2146.5" cy="89.2" rx="3.5" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n1 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i381" cx="2230.5" cy="311.8" rx="3.5" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n17 seg:0.0">
+   <desc>pos: adv
+</desc>
+  </ellipse>
+  <ellipse id="i390" cx="2240.5" cy="89.2" rx="3.50000000000023" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n2 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i399" cx="2250.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n16 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i408" cx="2260.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n4 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i417" cx="2293.5" cy="89.2" rx="3.49999999999977" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n3 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i426" cx="2345.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n18 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i435" cx="2355.5" cy="163.4" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n7 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i444" cx="2365.5" cy="89.2" rx="3.50000000000023" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n6 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i453" cx="2375.5" cy="386" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n26 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i462" cx="2385.5" cy="460.2" rx="3.5" ry="3.50000000000003" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n28 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i471" cx="2482.5" cy="386" rx="3.50000000000023" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n27 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i480" cx="2492.5" cy="311.8" rx="3.5" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n25 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i489" cx="2594.5" cy="311.8" rx="3.50000000000023" ry="3.49999999999997" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n29 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i498" cx="2604.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n24 seg:0.0">
+   <desc>pos: verb
+</desc>
+  </ellipse>
+  <ellipse id="i507" cx="2614.5" cy="89.2" rx="3.49999999999977" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n19 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i516" cx="2667.5" cy="89.2" rx="3.5" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n20 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i525" cx="2720.5" cy="89.2" rx="3.5" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n21 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <ellipse id="i534" cx="2730.5" cy="237.6" rx="3.5" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n30 seg:0.0">
+   <desc>pos: noun
+prontype: prn
+</desc>
+  </ellipse>
+  <ellipse id="i543" cx="2822.5" cy="237.6" rx="3.49999999999977" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n31 seg:0.0">
+   <desc>pos: adj
+</desc>
+  </ellipse>
+  <ellipse id="i552" cx="2832.5" cy="163.4" rx="3.50000000000023" ry="3.5" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n23 seg:0.0">
+   <desc>pos: noun
+nountype: com
+</desc>
+  </ellipse>
+  <ellipse id="i561" cx="2842.5" cy="89.2" rx="3.5" ry="3.50000000000001" stroke-width="1" stroke-dasharray="none" stroke="#000000" fill="#ff6666" class="point node #a_tree-ug_orig-s1-n22 seg:0.0">
+   <desc>pos: punc
+</desc>
+  </ellipse>
+  <rect id="i3" x="24" y="24" width="35" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i5" x="24" y="38" width="52" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i9" x="34" y="172" width="37" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i12" x="34" y="186" width="143" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i14" x="34" y="200" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i18" x="185" y="172" width="35" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i21" x="185" y="186" width="173" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i23" x="185" y="200" width="38" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i27" x="366" y="172" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i30" x="366" y="186" width="113" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i32" x="366" y="200" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i36" x="376" y="247" width="22" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i39" x="376" y="261" width="102" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i41" x="376" y="275" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i45" x="386" y="395" width="6.00000000000006" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i48" x="386" y="409" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i50" x="386" y="423" width="45.0000000000001" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i54" x="396" y="321" width="20.0000000000001" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i57" x="396" y="335" width="47.0000000000001" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i59" x="396" y="349" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i63" x="487" y="172" width="40.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i66" x="487" y="186" width="163" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i68" x="487" y="200" width="38.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i72" x="497" y="247" width="51" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i75" x="497" y="261" width="101" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i77" x="497" y="275" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i81" x="658" y="172" width="35.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i84" x="658" y="186" width="166" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i86" x="658" y="200" width="37.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i90" x="668" y="247" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i93" x="668" y="261" width="42.0000000000001" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i95" x="668" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i99" x="721" y="247" width="17" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i102" x="721" y="261" width="83" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i104" x="721" y="275" width="29" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i108" x="731" y="321" width="6.00000000000011" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i111" x="731" y="335" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i113" x="731" y="349" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i117" x="832" y="172" width="52" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i120" x="832" y="186" width="182" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i122" x="832" y="200" width="38.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i126" x="842" y="247" width="19.0000000000001" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i129" x="842" y="261" width="87" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i131" x="842" y="275" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i135" x="852" y="321" width="6.00000000000011" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i138" x="852" y="335" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i140" x="852" y="349" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i144" x="1022" y="172" width="36.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i147" x="1022" y="186" width="169" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i149" x="1022" y="200" width="25.9999999999999" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i153" x="1032" y="247" width="33" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i156" x="1032" y="261" width="79" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i158" x="1032" y="275" width="38.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i162" x="1119" y="247" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i165" x="1119" y="261" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i167" x="1119" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i171" x="1172" y="247" width="50.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i174" x="1172" y="261" width="123" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i176" x="1172" y="275" width="38.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i180" x="1182" y="395" width="31" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i183" x="1182" y="409" width="94" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i185" x="1182" y="423" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i189" x="1192" y="321" width="25" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i192" x="1192" y="335" width="80.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i194" x="1192" y="349" width="26.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i198" x="1303" y="247" width="31" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i201" x="1303" y="261" width="108" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i203" x="1303" y="275" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i207" x="1313" y="172" width="20" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i210" x="1313" y="186" width="86.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i212" x="1313" y="200" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i216" x="1419" y="247" width="25" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i219" x="1419" y="261" width="57" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i221" x="1419" y="275" width="27" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i225" x="1484" y="247" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i228" x="1484" y="261" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i230" x="1484" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i234" x="1537" y="247" width="6.00000000000023" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i237" x="1537" y="261" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i239" x="1537" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i243" x="1590" y="247" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i246" x="1590" y="261" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i248" x="1590" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i252" x="1600" y="172" width="28" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i255" x="1600" y="186" width="111" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i257" x="1600" y="200" width="39.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i261" x="1719" y="172" width="31" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i264" x="1719" y="186" width="67" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i266" x="1719" y="200" width="26.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i270" x="1729" y="98" width="46" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i273" x="1729" y="112" width="84" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i275" x="1729" y="126" width="39.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i279" x="1794" y="172" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i282" x="1794" y="186" width="42" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i284" x="1794" y="200" width="45.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i287" x="1854" y="24" width="35.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i289" x="1854" y="38" width="80" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i293" x="1864" y="321" width="36.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i296" x="1864" y="335" width="80" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i298" x="1864" y="349" width="38.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i302" x="1952" y="321" width="35.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i305" x="1952" y="335" width="75" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i307" x="1952" y="349" width="38.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i311" x="1962" y="247" width="5.99999999999977" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i314" x="1962" y="261" width="25.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i316" x="1962" y="275" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i320" x="1972" y="469" width="22.0000000000002" height="16.0000000000001" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i323" x="1972" y="483" width="85" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i325" x="1972" y="497" width="39.0000000000002" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i329" x="1982" y="395" width="5.99999999999977" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i332" x="1982" y="409" width="56.9999999999998" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i334" x="1982" y="423" width="44.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i338" x="2047" y="395" width="20" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i341" x="2047" y="409" width="57" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i343" x="2047" y="423" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i347" x="2112" y="395" width="41" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i350" x="2112" y="409" width="66" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i352" x="2112" y="423" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i356" x="2122" y="321" width="51.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i359" x="2122" y="335" width="96" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i361" x="2122" y="349" width="26.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i365" x="2132" y="247" width="36" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i368" x="2132" y="261" width="103" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i370" x="2132" y="275" width="38" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i374" x="2142" y="98" width="6.00000000000045" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i377" x="2142" y="112" width="32" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i379" x="2142" y="126" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i383" x="2226" y="321" width="17" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i386" x="2226" y="335" width="56" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i388" x="2226" y="349" width="29" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i392" x="2236" y="98" width="5.99999999999955" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i395" x="2236" y="112" width="31.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i397" x="2236" y="126" width="44.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i401" x="2246" y="247" width="52.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i404" x="2246" y="261" width="87" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i406" x="2246" y="275" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i410" x="2256" y="172" width="19" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i413" x="2256" y="186" width="52" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i415" x="2256" y="200" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i419" x="2289" y="98" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i422" x="2289" y="112" width="32" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i424" x="2289" y="126" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i428" x="2341" y="247" width="37" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i431" x="2341" y="261" width="86" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i433" x="2341" y="275" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i437" x="2351" y="172" width="33" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i440" x="2351" y="186" width="86" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i442" x="2351" y="200" width="38" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i446" x="2361" y="98" width="5.99999999999955" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i449" x="2361" y="112" width="31.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i451" x="2361" y="126" width="44.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i455" x="2371" y="395" width="51" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i458" x="2371" y="409" width="99" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i460" x="2371" y="423" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i464" x="2381" y="469" width="31" height="16.0000000000001" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i467" x="2381" y="483" width="67.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i469" x="2381" y="497" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i473" x="2478" y="395" width="25" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i476" x="2478" y="409" width="68" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i478" x="2478" y="423" width="26" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i482" x="2488" y="321" width="31.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i485" x="2488" y="335" width="94" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i487" x="2488" y="349" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i491" x="2590" y="321" width="19.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i494" x="2590" y="335" width="55.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i496" x="2590" y="349" width="38.9999999999995" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i500" x="2600" y="247" width="25" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i503" x="2600" y="261" width="72" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i505" x="2600" y="275" width="38" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i509" x="2610" y="98" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i512" x="2610" y="112" width="32" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i514" x="2610" y="126" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i518" x="2663" y="98" width="6.00000000000045" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i521" x="2663" y="112" width="32" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i523" x="2663" y="126" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i527" x="2716" y="98" width="6" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i530" x="2716" y="112" width="32.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i532" x="2716" y="126" width="45.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i536" x="2726" y="247" width="28" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i539" x="2726" y="261" width="84" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i541" x="2726" y="275" width="39.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i545" x="2818" y="247" width="31" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i548" x="2818" y="261" width="58" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i550" x="2818" y="275" width="26.0000000000005" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i554" x="2828" y="172" width="46" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i557" x="2828" y="186" width="98" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i559" x="2828" y="200" width="39" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i563" x="2838" y="98" width="6.00000000000045" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i566" x="2838" y="112" width="32" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <rect id="i568" x="2838" y="126" width="45" height="16" stroke-width="0" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" fill-opacity="0.9" stroke-opacity="0.9" class="textbg seg:0.0"></rect>
+  <text x="25" y="37" id="i2" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">a-tree</text>
+  <text x="25" y="51" id="i4" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">zone=ug</text>
+  <text x="35" y="185" id="i8" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئاسماننى</text>
+  <text x="35" y="199" id="i10" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;dobj:cau </text>
+  <text x="127" y="199" id="i11" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">asmanni</text>
+  <text x="35" y="213" id="i13" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="186" y="185" id="i17" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">كۆپكۈك</text>
+  <text x="186" y="199" id="i19" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;xcomp&gt;xcomp </text>
+  <text x="315" y="199" id="i20" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">köpkük</text>
+  <text x="186" y="213" id="i22" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="367" y="185" id="i26" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="367" y="199" id="i28" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj&gt;punct </text>
+  <text x="474" y="199" id="i29" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="367" y="213" id="i31" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="377" y="260" id="i35" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەريا</text>
+  <text x="377" y="274" id="i37" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">nmod:poss </text>
+  <text x="445" y="274" id="i38" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">derya</text>
+  <text x="377" y="288" id="i40" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="387" y="408" id="i44" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="387" y="422" id="i46" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="423" y="422" id="i47" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="387" y="436" id="i49" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="397" y="334" id="i53" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">كۆل</text>
+  <text x="397" y="348" id="i55" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">conj </text>
+  <text x="425" y="348" id="i56" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">köl</text>
+  <text x="397" y="362" id="i58" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="488" y="185" id="i62" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">سۇلىرىنى</text>
+  <text x="488" y="199" id="i64" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj&gt;dobj:cau </text>
+  <text x="612" y="199" id="i65" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">sulirini</text>
+  <text x="488" y="213" id="i67" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="498" y="260" id="i71" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">سۈپسۈزۈك</text>
+  <text x="498" y="274" id="i73" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">xcomp </text>
+  <text x="541" y="274" id="i74" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">süpsüzük</text>
+  <text x="498" y="288" id="i76" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="659" y="185" id="i80" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">تۇرۇشقا</text>
+  <text x="659" y="199" id="i82" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj&gt;xcomp </text>
+  <text x="773" y="199" id="i83" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">turushqa</text>
+  <text x="659" y="213" id="i85" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="669" y="260" id="i89" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="669" y="274" id="i91" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="705" y="274" id="i92" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="669" y="288" id="i94" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="722" y="260" id="i98" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەل</text>
+  <text x="722" y="274" id="i100" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">compound </text>
+  <text x="786" y="274" id="i101" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">del</text>
+  <text x="722" y="288" id="i103" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADV</text>
+  <text x="732" y="334" id="i107" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="732" y="348" id="i109" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="768" y="348" id="i110" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="732" y="362" id="i112" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="833" y="185" id="i116" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەرەخلەرنى</text>
+  <text x="833" y="199" id="i118" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj&gt;dobj:cau </text>
+  <text x="957" y="199" id="i119" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">derexlerni</text>
+  <text x="833" y="213" id="i121" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="843" y="260" id="i125" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بۈك</text>
+  <text x="843" y="274" id="i127" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">compound </text>
+  <text x="907" y="274" id="i128" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bük</text>
+  <text x="843" y="288" id="i130" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="853" y="334" id="i134" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="853" y="348" id="i136" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="889" y="348" id="i137" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="853" y="362" id="i139" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1023" y="185" id="i143" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">باراقسان</text>
+  <text x="1023" y="199" id="i145" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj&gt;xcomp </text>
+  <text x="1137" y="199" id="i146" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">baraqsan</text>
+  <text x="1023" y="213" id="i148" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="1033" y="260" id="i152" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بولۇشقا</text>
+  <text x="1033" y="274" id="i154" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">cop </text>
+  <text x="1058" y="274" id="i155" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bolushqa</text>
+  <text x="1033" y="288" id="i157" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="1120" y="260" id="i161" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="1120" y="274" id="i163" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="1156" y="274" id="i164" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="1120" y="288" id="i166" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1173" y="260" id="i170" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ھايۋانلارنى</text>
+  <text x="1173" y="274" id="i172" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">dobj:cau </text>
+  <text x="1226" y="274" id="i173" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">haywanlarni</text>
+  <text x="1173" y="288" id="i175" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1183" y="408" id="i179" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئەركىن</text>
+  <text x="1183" y="422" id="i181" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">compound </text>
+  <text x="1247" y="422" id="i182" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">erkin</text>
+  <text x="1183" y="436" id="i184" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="1193" y="334" id="i188" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئازادە</text>
+  <text x="1193" y="348" id="i190" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">xcomp </text>
+  <text x="1236" y="348" id="i191" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">azade</text>
+  <text x="1193" y="362" id="i193" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="1304" y="260" id="i197" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ياشاشقا</text>
+  <text x="1304" y="274" id="i199" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">xcomp </text>
+  <text x="1347" y="274" id="i200" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">yashashqa</text>
+  <text x="1304" y="288" id="i202" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1314" y="185" id="i206" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئىگە</text>
+  <text x="1314" y="199" id="i208" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">csubj&gt;conj </text>
+  <text x="1381" y="199" id="i209" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">ige</text>
+  <text x="1314" y="213" id="i211" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1420" y="260" id="i215" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">قىلىش</text>
+  <text x="1420" y="274" id="i217" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">aux </text>
+  <text x="1445" y="274" id="i218" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">qilish</text>
+  <text x="1420" y="288" id="i220" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">AUX</text>
+  <text x="1485" y="260" id="i224" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1485" y="274" id="i226" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="1521" y="274" id="i227" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1485" y="288" id="i229" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1538" y="260" id="i233" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1538" y="274" id="i235" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="1574" y="274" id="i236" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1538" y="288" id="i238" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1591" y="260" id="i242" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1591" y="274" id="i244" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="1627" y="274" id="i245" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1591" y="288" id="i247" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1601" y="185" id="i251" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بىزنىڭ</text>
+  <text x="1601" y="199" id="i253" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">nmod:poss </text>
+  <text x="1669" y="199" id="i254" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bizning</text>
+  <text x="1601" y="213" id="i256" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PRON</text>
+  <text x="1720" y="185" id="i260" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئورتاق</text>
+  <text x="1720" y="199" id="i262" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">amod </text>
+  <text x="1756" y="199" id="i263" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">ortaq</text>
+  <text x="1720" y="213" id="i265" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="1730" y="111" id="i269" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئارزۇيىمىز</text>
+  <text x="1730" y="125" id="i271" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">root </text>
+  <text x="1756" y="125" id="i272" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">arzuyimiz</text>
+  <text x="1730" y="139" id="i274" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1795" y="185" id="i278" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1795" y="199" id="i280" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">punct </text>
+  <text x="1831" y="199" id="i281" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="1795" y="213" id="i283" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1855" y="37" id="i286" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">a-tree</text>
+  <text x="1855" y="51" id="i288" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">zone=ug_orig</text>
+  <text x="1865" y="334" id="i292" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئاسماننى</text>
+  <text x="1865" y="348" id="i294" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">OBJ </text>
+  <text x="1894" y="348" id="i295" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">asmanni</text>
+  <text x="1865" y="362" id="i297" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1953" y="334" id="i301" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">كۆپكۈك</text>
+  <text x="1953" y="348" id="i303" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ADV </text>
+  <text x="1984" y="348" id="i304" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">köpkük</text>
+  <text x="1953" y="362" id="i306" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="1963" y="260" id="i310" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="1963" y="274" id="i312" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">CL </text>
+  <text x="1983" y="274" id="i313" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="1963" y="288" id="i315" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="1973" y="482" id="i319" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەريا</text>
+  <text x="1973" y="496" id="i321" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COORD </text>
+  <text x="2024" y="496" id="i322" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">derya</text>
+  <text x="1973" y="510" id="i324" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="1983" y="408" id="i328" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="1983" y="422" id="i330" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COORD </text>
+  <text x="2034" y="422" id="i331" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="1983" y="436" id="i333" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2048" y="408" id="i337" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">كۆل</text>
+  <text x="2048" y="422" id="i339" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">CONJ </text>
+  <text x="2086" y="422" id="i340" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">köl</text>
+  <text x="2048" y="436" id="i342" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2113" y="408" id="i346" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">سۇلىرىنى</text>
+  <text x="2113" y="422" id="i348" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ATT </text>
+  <text x="2140" y="422" id="i349" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">sulirini</text>
+  <text x="2113" y="436" id="i351" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2123" y="334" id="i355" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">سۈپسۈزۈك</text>
+  <text x="2123" y="348" id="i357" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">CLAS </text>
+  <text x="2161" y="348" id="i358" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">süpsüzük</text>
+  <text x="2123" y="362" id="i360" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2133" y="260" id="i364" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">تۇرۇشقا</text>
+  <text x="2133" y="274" id="i366" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COORD </text>
+  <text x="2184" y="274" id="i367" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">turushqa</text>
+  <text x="2133" y="288" id="i369" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="2143" y="111" id="i373" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="2143" y="125" id="i375" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2169" y="125" id="i376" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="2143" y="139" id="i378" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2227" y="334" id="i382" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەل</text>
+  <text x="2227" y="348" id="i384" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COLL </text>
+  <text x="2264" y="348" id="i385" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">del</text>
+  <text x="2227" y="362" id="i387" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADV</text>
+  <text x="2237" y="111" id="i391" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="2237" y="125" id="i393" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2263" y="125" id="i394" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="2237" y="139" id="i396" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2247" y="260" id="i400" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">دەرەخلەرنى</text>
+  <text x="2247" y="274" id="i402" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">OBJ </text>
+  <text x="2276" y="274" id="i403" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">derexlerni</text>
+  <text x="2247" y="288" id="i405" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2257" y="185" id="i409" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بۈك</text>
+  <text x="2257" y="199" id="i411" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">AUX </text>
+  <text x="2286" y="199" id="i412" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bük</text>
+  <text x="2257" y="213" id="i414" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2290" y="111" id="i418" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="2290" y="125" id="i420" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2316" y="125" id="i421" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">-</text>
+  <text x="2290" y="139" id="i423" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2342" y="260" id="i427" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">باراقسان</text>
+  <text x="2342" y="274" id="i429" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ADV </text>
+  <text x="2373" y="274" id="i430" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">baraqsan</text>
+  <text x="2342" y="288" id="i432" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2352" y="185" id="i436" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بولۇشقا</text>
+  <text x="2352" y="199" id="i438" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COP </text>
+  <text x="2384" y="199" id="i439" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bolushqa</text>
+  <text x="2352" y="213" id="i441" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="2362" y="111" id="i445" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">،</text>
+  <text x="2362" y="125" id="i447" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2388" y="125" id="i448" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">,</text>
+  <text x="2362" y="139" id="i450" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2372" y="408" id="i454" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ھايۋانلارنى</text>
+  <text x="2372" y="422" id="i456" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">OBJ </text>
+  <text x="2401" y="422" id="i457" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">haywanlarni</text>
+  <text x="2372" y="436" id="i459" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2382" y="482" id="i463" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئەركىن</text>
+  <text x="2382" y="496" id="i465" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COLL </text>
+  <text x="2419" y="496" id="i466" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">erkin</text>
+  <text x="2382" y="510" id="i468" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2479" y="408" id="i472" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئازادە</text>
+  <text x="2479" y="422" id="i474" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ADV </text>
+  <text x="2510" y="422" id="i475" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">azade</text>
+  <text x="2479" y="436" id="i477" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2489" y="334" id="i481" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ياشاشقا</text>
+  <text x="2489" y="348" id="i483" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">DAT </text>
+  <text x="2518" y="348" id="i484" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">yashashqa</text>
+  <text x="2489" y="362" id="i486" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2591" y="334" id="i490" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئىگە</text>
+  <text x="2591" y="348" id="i492" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">COLL </text>
+  <text x="2628" y="348" id="i493" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">ige</text>
+  <text x="2591" y="362" id="i495" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2601" y="260" id="i499" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">قىلىش</text>
+  <text x="2601" y="274" id="i501" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">PRED </text>
+  <text x="2641" y="274" id="i502" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">qilish</text>
+  <text x="2601" y="288" id="i504" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">VERB</text>
+  <text x="2611" y="111" id="i508" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2611" y="125" id="i510" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2637" y="125" id="i511" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2611" y="139" id="i513" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2664" y="111" id="i517" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2664" y="125" id="i519" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2690" y="125" id="i520" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2664" y="139" id="i522" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2717" y="111" id="i526" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2717" y="125" id="i528" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2743" y="125" id="i529" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2717" y="139" id="i531" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+  <text x="2727" y="260" id="i535" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">بىزنىڭ</text>
+  <text x="2727" y="274" id="i537" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">POSS </text>
+  <text x="2768" y="274" id="i538" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">bizning</text>
+  <text x="2727" y="288" id="i540" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PRON</text>
+  <text x="2819" y="260" id="i544" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئورتاق</text>
+  <text x="2819" y="274" id="i546" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ATT </text>
+  <text x="2846" y="274" id="i547" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">ortaq</text>
+  <text x="2819" y="288" id="i549" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">ADJ</text>
+  <text x="2829" y="185" id="i553" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">ئارزۇيىمىز</text>
+  <text x="2829" y="199" id="i555" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">ROOT </text>
+  <text x="2869" y="199" id="i556" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">arzuyimiz</text>
+  <text x="2829" y="213" id="i558" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">NOUN</text>
+  <text x="2839" y="111" id="i562" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#000000" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2839" y="125" id="i564" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#00008b" width="0" class="plaintext text_item seg:0.0">void </text>
+  <text x="2865" y="125" id="i565" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#444400" width="0" class="plaintext text_item seg:0.0">.</text>
+  <text x="2839" y="139" id="i567" text-anchor="start" font-family="Arial" font-weight="normal" font-size="13" font-slant="roman" fill="#004048" width="0" class="plaintext text_item seg:0.0">PUNCT</text>
+ </g>
+</svg>
