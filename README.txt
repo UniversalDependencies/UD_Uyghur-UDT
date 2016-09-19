@@ -6,6 +6,6 @@ Data source: automatic
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Genre: unknown
-Contributors: Eli, Marhaba
+Contributors: Eli, Marhaba; Zeman, Daniel
 Contact: marhaba@xju.edu.cn
 ---------------------------------
