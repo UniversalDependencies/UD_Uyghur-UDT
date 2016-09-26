@@ -18,12 +18,12 @@
     <tag name="CONJ">96</tag><!-- _ -->
     <tag name="DET">17</tag><!-- _ -->
     <tag name="INTJ">23</tag><!-- _ -->
-    <tag name="NOUN">1616</tag><!-- _ -->
+    <tag name="NOUN">1617</tag><!-- _ -->
     <tag name="NUM">146</tag><!-- _ -->
     <tag name="PART">54</tag><!-- _ -->
     <tag name="PRON">447</tag><!-- _ -->
     <tag name="PUNCT">1194</tag><!-- _ -->
-    <tag name="VERB">1232</tag><!-- _ -->
+    <tag name="VERB">1231</tag><!-- _ -->
     <tag name="X">2</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -31,35 +31,51 @@
     <feat name="NumType" value="Card" upos="NUM">146</feat><!-- bir, ikki, yette, besh, birer, biride, birige, birla, hemmeylen, ming -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="29">
-    <dep name="acl">91</dep>
-    <dep name="advcl">10</dep>
-    <dep name="advmod">613</dep>
-    <dep name="amod">247</dep>
-    <dep name="appos">13</dep>
-    <dep name="aux">161</dep>
-    <dep name="case">62</dep>
-    <dep name="cc">111</dep>
-    <dep name="ccomp">66</dep>
-    <dep name="compound">235</dep>
-    <dep name="conj">111</dep>
-    <dep name="cop">118</dep>
-    <dep name="dep">51</dep>
-    <dep name="det">105</dep>
-    <dep name="discourse">72</dep>
-    <dep name="dobj">304</dep>
-    <dep name="neg">3</dep>
-    <dep name="nmod">101</dep>
-    <dep name="nmod:abl">63</dep>
-    <dep name="nmod:cau">190</dep>
-    <dep name="nmod:clas">123</dep>
+  <deps unique="45">
+    <dep name="acl">75</dep>
+    <dep name="advcl">257</dep>
+    <dep name="advcl:cond">12</dep>
+    <dep name="advmod">341</dep>
+    <dep name="advmod:emph">19</dep>
+    <dep name="amod">233</dep>
+    <dep name="appos">11</dep>
+    <dep name="aux">138</dep>
+    <dep name="aux:q">3</dep>
+    <dep name="case">57</dep>
+    <dep name="cc">75</dep>
+    <dep name="ccomp">70</dep>
+    <dep name="compound">213</dep>
+    <dep name="compound:lvc">4</dep>
+    <dep name="compound:redup">57</dep>
+    <dep name="conj">120</dep>
+    <dep name="cop">74</dep>
+    <dep name="csubj">12</dep>
+    <dep name="dep">4</dep>
+    <dep name="det">119</dep>
+    <dep name="discourse">56</dep>
+    <dep name="dobj">307</dep>
+    <dep name="dobj:cau">4</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="mark">49</dep>
+    <dep name="mwe">32</dep>
+    <dep name="name">5</dep>
+    <dep name="neg">7</dep>
+    <dep name="nmod">417</dep>
+    <dep name="nmod:abl">3</dep>
+    <dep name="nmod:cau">11</dep>
+    <dep name="nmod:clas">4</dep>
     <dep name="nmod:cmp">4</dep>
-    <dep name="nmod:ins">13</dep>
-    <dep name="nmod:poss">160</dep>
-    <dep name="nsubj">513</dep>
-    <dep name="nummod">103</dep>
-    <dep name="parataxis">44</dep>
-    <dep name="punct">1208</dep>
+    <dep name="nmod:part">6</dep>
+    <dep name="nmod:poss">213</dep>
+    <dep name="nmod:ref">1</dep>
+    <dep name="nmod:tmod">29</dep>
+    <dep name="nsubj">545</dep>
+    <dep name="nummod">60</dep>
+    <dep name="parataxis">36</dep>
+    <dep name="punct">1194</dep>
+    <dep name="reparandum">1</dep>
     <dep name="root">500</dep>
+    <dep name="vocative">14</dep>
+    <dep name="xcomp">2</dep>
   </deps>
 </treebank>
