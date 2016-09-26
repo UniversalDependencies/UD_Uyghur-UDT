@@ -8,7 +8,7 @@
     <total><sentences>500</sentences><tokens>5395</tokens><words>5395</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="2268" /><!-- ,, ., -, bir, bu, u, !, bilen, :, ?, men, «, », uning, we -->
+  <forms unique="2271" /><!-- ،, ., -, بىر, بۇ, ئۇ, !, بىلەن, :, ؟, مەن, «, », ئۇنىڭ, ۋە -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="13">
@@ -27,8 +27,7 @@
     <tag name="X">2</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="1">
-    <feat name="NumType" value="Card" upos="NUM">146</feat><!-- bir, ikki, yette, besh, birer, biride, birige, birla, hemmeylen, ming -->
+  <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
