@@ -5,25 +5,26 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>500</sentences><tokens>5395</tokens><words>5395</words><fused>0</fused></total>
+    <total><sentences>600</sentences><tokens>6442</tokens><words>6442</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="2271" /><!-- ،, ., -, بىر, بۇ, ئۇ, !, بىلەن, :, ؟, مەن, «, », ئۇنىڭ, ۋە -->
+  <forms unique="2646" /><!-- ،, ., -, بىر, ئۇ, بۇ, !, بىلەن, :, ؟, مەن, «, », ئۇنىڭ, ۋە -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="13">
-    <tag name="ADJ">347</tag><!-- _ -->
-    <tag name="ADP">56</tag><!-- _ -->
-    <tag name="ADV">165</tag><!-- _ -->
-    <tag name="CONJ">96</tag><!-- _ -->
-    <tag name="DET">17</tag><!-- _ -->
-    <tag name="INTJ">23</tag><!-- _ -->
-    <tag name="NOUN">1617</tag><!-- _ -->
-    <tag name="NUM">146</tag><!-- _ -->
-    <tag name="PART">54</tag><!-- _ -->
-    <tag name="PRON">447</tag><!-- _ -->
-    <tag name="PUNCT">1194</tag><!-- _ -->
-    <tag name="VERB">1231</tag><!-- _ -->
+  <tags unique="14">
+    <tag name="ADJ">416</tag><!-- _ -->
+    <tag name="ADP">69</tag><!-- _ -->
+    <tag name="ADV">184</tag><!-- _ -->
+    <tag name="AUX">32</tag><!-- _ -->
+    <tag name="CONJ">114</tag><!-- _ -->
+    <tag name="DET">18</tag><!-- _ -->
+    <tag name="INTJ">27</tag><!-- _ -->
+    <tag name="NOUN">1936</tag><!-- _ -->
+    <tag name="NUM">175</tag><!-- _ -->
+    <tag name="PART">56</tag><!-- _ -->
+    <tag name="PRON">513</tag><!-- _ -->
+    <tag name="PUNCT">1401</tag><!-- _ -->
+    <tag name="VERB">1499</tag><!-- _ -->
     <tag name="X">2</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -31,49 +32,49 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
-    <dep name="acl">75</dep>
-    <dep name="advcl">257</dep>
-    <dep name="advcl:cond">12</dep>
-    <dep name="advmod">343</dep>
-    <dep name="advmod:emph">20</dep>
-    <dep name="amod">233</dep>
-    <dep name="appos">11</dep>
-    <dep name="aux">138</dep>
+    <dep name="acl">98</dep>
+    <dep name="advcl">296</dep>
+    <dep name="advcl:cond">14</dep>
+    <dep name="advmod">416</dep>
+    <dep name="advmod:emph">21</dep>
+    <dep name="amod">286</dep>
+    <dep name="appos">16</dep>
+    <dep name="aux">173</dep>
     <dep name="aux:q">3</dep>
-    <dep name="case">57</dep>
-    <dep name="cc">75</dep>
-    <dep name="ccomp">61</dep>
-    <dep name="compound">213</dep>
-    <dep name="compound:lvc">4</dep>
-    <dep name="compound:redup">57</dep>
-    <dep name="conj">128</dep>
-    <dep name="cop">74</dep>
-    <dep name="csubj">12</dep>
-    <dep name="dep">4</dep>
-    <dep name="det">119</dep>
-    <dep name="discourse">56</dep>
-    <dep name="dobj">307</dep>
+    <dep name="case">66</dep>
+    <dep name="cc">87</dep>
+    <dep name="ccomp">67</dep>
+    <dep name="compound">264</dep>
+    <dep name="compound:lvc">9</dep>
+    <dep name="compound:redup">73</dep>
+    <dep name="conj">152</dep>
+    <dep name="cop">98</dep>
+    <dep name="csubj">13</dep>
+    <dep name="dep">5</dep>
+    <dep name="det">135</dep>
+    <dep name="discourse">67</dep>
+    <dep name="dobj">359</dep>
     <dep name="dobj:cau">4</dep>
     <dep name="goeswith">1</dep>
-    <dep name="mark">49</dep>
-    <dep name="mwe">34</dep>
-    <dep name="name">5</dep>
+    <dep name="mark">62</dep>
+    <dep name="mwe">39</dep>
+    <dep name="name">7</dep>
     <dep name="neg">7</dep>
-    <dep name="nmod">417</dep>
+    <dep name="nmod">502</dep>
     <dep name="nmod:abl">3</dep>
-    <dep name="nmod:cau">11</dep>
+    <dep name="nmod:cau">19</dep>
     <dep name="nmod:clas">4</dep>
-    <dep name="nmod:cmp">4</dep>
+    <dep name="nmod:cmp">5</dep>
     <dep name="nmod:part">6</dep>
-    <dep name="nmod:poss">213</dep>
+    <dep name="nmod:poss">252</dep>
     <dep name="nmod:ref">1</dep>
-    <dep name="nmod:tmod">29</dep>
-    <dep name="nsubj">540</dep>
-    <dep name="nummod">60</dep>
-    <dep name="parataxis">37</dep>
-    <dep name="punct">1194</dep>
+    <dep name="nmod:tmod">33</dep>
+    <dep name="nsubj">635</dep>
+    <dep name="nummod">73</dep>
+    <dep name="parataxis">51</dep>
+    <dep name="punct">1403</dep>
     <dep name="reparandum">1</dep>
-    <dep name="root">500</dep>
+    <dep name="root">600</dep>
     <dep name="vocative">14</dep>
     <dep name="xcomp">2</dep>
   </deps>
