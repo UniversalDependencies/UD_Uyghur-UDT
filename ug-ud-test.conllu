@@ -1,32 +1,32 @@
 # sent_id = s1
 # text = ئاسماننى كۆپكۈك، دەريا، كۆل سۇلىرىنى سۈپسۈزۈك تۇرۇشقا، دەل - دەرەخلەرنى بۈك - باراقسان بولۇشقا، ھايۋانلارنى ئەركىن ئازادە ياشاشقا ئىگە قىلىش... بىزنىڭ ئورتاق ئارزۇيىمىز.
-1	ئاسماننى	_	NOUN	N	_	9	conj	_	Translit=asmanni
-2	كۆپكۈك	_	VERB	V	_	9	conj	_	SpaceAfter=No|Translit=köpkük
+1	ئاسماننى	_	NOUN	N	_	30	csubj	_	Translit=asmanni
+2	كۆپكۈك	_	VERB	V	_	1	orphan	_	SpaceAfter=No|Translit=köpkük
 3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
 4	دەريا	_	NOUN	N	_	7	nmod:poss	_	SpaceAfter=No|Translit=derya
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	كۆل	_	NOUN	N	_	4	conj	_	Translit=köl
 7	سۇلىرىنى	_	NOUN	N	_	9	obj	_	Translit=sulirini
 8	سۈپسۈزۈك	_	ADJ	A	_	9	advmod	_	Translit=süpsüzük
-9	تۇرۇشقا	_	VERB	V	_	24	conj	_	SpaceAfter=No|Translit=turushqa
-10	،	_	PUNCT	Y	_	9	punct	_	Translit=,
+9	تۇرۇشقا	_	VERB	V	_	1	conj	_	SpaceAfter=No|Translit=turushqa
+10	،	_	PUNCT	Y	_	1	punct	_	Translit=,
 11	دەل	_	ADV	D	_	13	compound:redup	_	Translit=del
 12	-	_	PUNCT	Y	_	11	punct	_	Translit=-
 13	دەرەخلەرنى	_	NOUN	N	_	17	obj	_	Translit=derexlerni
 14	بۈك	_	ADJ	A	_	16	compound	_	Translit=bük
 15	-	_	PUNCT	Y	_	14	punct	_	Translit=-
 16	باراقسان	_	ADJ	A	_	17	advmod	_	Translit=baraqsan
-17	بولۇشقا	_	VERB	V	_	24	conj	_	SpaceAfter=No|Translit=bolushqa
+17	بولۇشقا	_	VERB	V	_	9	orphan	_	SpaceAfter=No|Translit=bolushqa
 18	،	_	PUNCT	Y	_	17	punct	_	Translit=,
 19	ھايۋانلارنى	_	NOUN	N	_	24	obj	_	Translit=haywanlarni
 20	ئەركىن	_	ADJ	A	_	21	compound:redup	_	Translit=erkin
 21	ئازادە	_	ADJ	A	_	22	advmod	_	Translit=azade
 22	ياشاشقا	_	NOUN	N	_	24	advcl	_	Translit=yashashqa
 23	ئىگە	_	NOUN	N	_	24	compound	_	Translit=ige
-24	قىلىش	_	VERB	V	_	30	csubj	_	SpaceAfter=No|Translit=qilish
-25	.	_	PUNCT	Y	_	24	punct	_	SpaceAfter=No|Translit=.
-26	.	_	PUNCT	Y	_	24	punct	_	SpaceAfter=No|Translit=.
-27	.	_	PUNCT	Y	_	24	punct	_	Translit=.
+24	قىلىش	_	VERB	V	_	1	conj	_	SpaceAfter=No|Translit=qilish
+25	.	_	PUNCT	Y	_	1	punct	_	SpaceAfter=No|Translit=.
+26	.	_	PUNCT	Y	_	1	punct	_	SpaceAfter=No|Translit=.
+27	.	_	PUNCT	Y	_	1	punct	_	Translit=.
 28	بىزنىڭ	_	PRON	P	_	30	nmod:poss	_	Translit=bizning
 29	ئورتاق	_	ADJ	A	_	30	amod	_	Translit=ortaq
 30	ئارزۇيىمىز	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=arzuyimiz
@@ -552,17 +552,17 @@
 4	قاتار	_	NOUN	N	_	6	compound:redup	_	Translit=qatar
 5	–	_	PUNCT	V	_	4	punct	_	Translit=–
 6	قاتار	_	NOUN	N	_	7	amod	_	Translit=qatar
-7	ئۆيلەرگە	_	VERB	V	_	16	conj	_	SpaceAfter=No|Translit=öylerge
+7	ئۆيلەرگە	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=öylerge
 8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
 9	خىلمۇ	_	NOUN	N	_	11	compound:redup	_	Translit=xilmu
 10	-	_	PUNCT	Y	_	9	punct	_	Translit=-
 11	خىل	_	NOUN	N	_	12	amod	_	Translit=xil
-12	سايمانلارغا	_	NOUN	N	_	16	conj	_	SpaceAfter=No|Translit=saymanlargha
+12	سايمانلارغا	_	NOUN	N	_	7	orphan	_	SpaceAfter=No|Translit=saymanlargha
 13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
 14	ئۆي	_	NOUN	N	_	15	nmod:poss	_	Translit=öy
 15	جاھازىلىرىغا	_	NOUN	N	_	16	nmod:cau	_	Translit=jahazilirigha
-16	ئايلىنىپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ayliniptu
-17	.	_	PUNCT	Y	_	16	punct	_	Translit=.
+16	ئايلىنىپتۇ	_	VERB	V	_	7	conj	_	SpaceAfter=No|Translit=ayliniptu
+17	.	_	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s38
 # text = نۇرغۇن دەل - دەرەخلەر مورىلاردىن كۆتۈرۈلۈۋاتقان ئىس تۈتەكلەر case نەلەرگىدۇر غايىپ بوپتۇ.
@@ -1372,22 +1372,22 @@
 # sent_id = s102
 # text = كۇڭزى ئاسماننى يېپىنچا، يەرنى سېلىنچا قىلىپ، كېچىنى كېچە، كۈندۈزنى كۈندۈز دېمەي يول يۈرۈپ، ئاخىر لوياڭغا يېتىپ بارىدۇ.
 1	كۇڭزى	_	NOUN	N	_	20	nsubj	_	Translit=kungzi
-2	ئاسماننى	_	NOUN	N	_	7	conj	_	Translit=asmanni
-3	يېپىنچا	_	NOUN	N	_	7	conj	_	SpaceAfter=No|Translit=yëpincha
+2	ئاسماننى	_	NOUN	N	_	3	orphan	_	Translit=asmanni
+3	يېپىنچا	_	NOUN	N	_	20	advcl	_	SpaceAfter=No|Translit=yëpincha
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	يەرنى	_	NOUN	N	_	7	obj	_	Translit=yerni
 6	سېلىنچا	_	NOUN	N	_	7	nsubj	_	Translit=sëlincha
-7	قىلىپ	_	VERB	V	_	20	advcl	_	SpaceAfter=No|Translit=qilip
-8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
-9	كېچىنى	_	NOUN	N	_	14	conj	_	Translit=këchini
-10	كېچە	_	NOUN	N	_	14	conj	_	SpaceAfter=No|Translit=këche
+7	قىلىپ	_	VERB	V	_	3	conj	_	SpaceAfter=No|Translit=qilip
+8	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+9	كېچىنى	_	NOUN	N	_	10	orphan	_	Translit=këchini
+10	كېچە	_	NOUN	N	_	16	advcl	_	SpaceAfter=No|Translit=këche
 11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
 12	كۈندۈزنى	_	NOUN	N	_	14	obj	_	Translit=kündüzni
 13	كۈندۈز	_	NOUN	N	_	14	nsubj	_	Translit=kündüz
-14	دېمەي	_	VERB	V	_	16	advcl	_	Translit=dëmey
+14	دېمەي	_	VERB	V	_	10	conj	_	Translit=dëmey
 15	يول	_	NOUN	N	_	16	obj	_	Translit=yol
-16	يۈرۈپ	_	VERB	V	_	7	conj	_	SpaceAfter=No|Translit=yürüp
-17	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+16	يۈرۈپ	_	VERB	V	_	3	conj	_	SpaceAfter=No|Translit=yürüp
+17	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 18	ئاخىر	_	ADV	D	_	20	advmod	_	Translit=axir
 19	لوياڭغا	_	NOUN	N	_	20	obl	_	Translit=loyanggha
 20	يېتىپ	_	VERB	V	_	0	root	_	Translit=yëtip
@@ -8052,14 +8052,14 @@
 5	ئۇچىسىدا	_	NOUN	N	_	8	obl	_	Translit=uchisida
 6	چوڭ	_	ADJ	A	_	7	amod	_	Translit=chong
 7	ئوغۇلنىڭ	_	NOUN	N	_	8	nmod:poss	_	Translit=oghulning
-8	كىيمىنى	_	VERB	V	_	27	conj	_	SpaceAfter=No|Translit=kiymini
+8	كىيمىنى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kiymini
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
 10	چوڭ	_	ADJ	A	_	11	amod	_	Translit=chong
 11	ئوغۇلنىڭ	_	NOUN	N	_	12	nmod:poss	_	Translit=oghulning
 12	ئۇچىسىدا	_	NOUN	N	_	15	nmod	_	Translit=uchisida
 13	كىچىك	_	ADJ	A	_	14	amod	_	Translit=kichik
 14	ئوغۇلنىڭ	_	NOUN	N	_	15	nmod:poss	_	Translit=oghulning
-15	كىيمىنى	_	NOUN	N	_	27	conj	_	SpaceAfter=No|Translit=kiymini
+15	كىيمىنى	_	NOUN	N	_	8	orphan	_	SpaceAfter=No|Translit=kiymini
 16	،	_	PUNCT	Y	_	15	punct	_	Translit=,
 17	كىچىك	_	ADJ	A	_	18	amod	_	Translit=kichik
 18	ئوغۇلنىڭ	_	NOUN	N	_	26	nsubj	_	Translit=oghulning
@@ -8071,8 +8071,8 @@
 24	كىيىم	_	NOUN	N	_	26	case	_	Translit=kiyim
 25	بىلەن	_	ADP	R	_	24	mark	_	Translit=bilen
 26	قالغانلىقىنى	_	VERB	V	_	27	obj	_	Translit=qalghanliqini
-27	كۆرۈپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=körüptu
-28	.	_	PUNCT	Y	_	27	punct	_	Translit=.
+27	كۆرۈپتۇ	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=körüptu
+28	.	_	PUNCT	Y	_	8	punct	_	Translit=.
 
 # sent_id = s589
 # text = ئۇلار بىر قاراپلا قانداق ئىش يۈز بەرگەنلىكىنى چۈشىنىپ يېتىپتۇ.
@@ -10456,7 +10456,7 @@
 # text = بېشىدا قارا كەپكە، ئۇچىسىدا بەستىگە ماس كەلمەيدىغان كەڭ بوغما چاپان، قېلىن رەختتىن قىلىنغان تار پادىچى ئىشتىنى كىيىۋالغان بۇ دوغچى بايا ساتىراشخانىدا پۇل ئىتتىرىشكەن يىگىتنىڭ دەل ئۆزى ئىدى.
 1	بېشىدا	_	NOUN	N	_	3	nmod	_	Translit=bëshida
 2	قارا	_	ADJ	A	_	3	amod	_	Translit=qara
-3	كەپكە	_	NOUN	N	_	19	conj	_	SpaceAfter=No|Translit=kepke
+3	كەپكە	_	NOUN	N	_	21	acl	_	SpaceAfter=No|Translit=kepke
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	ئۇچىسىدا	_	NOUN	N	_	11	nmod	_	Translit=uchisida
 6	بەستىگە	_	NOUN	N	_	8	obl	_	Translit=bestige
@@ -10464,7 +10464,7 @@
 8	كەلمەيدىغان	_	VERB	V	_	11	acl	_	Translit=kelmeydighan
 9	كەڭ	_	ADJ	A	_	11	amod	_	Translit=keng
 10	بوغما	_	NOUN	N	_	11	amod	_	Translit=boghma
-11	چاپان	_	NOUN	N	_	19	conj	_	SpaceAfter=No|Translit=chapan
+11	چاپان	_	NOUN	N	_	3	orphan	_	SpaceAfter=No|Translit=chapan
 12	،	_	PUNCT	Y	_	11	punct	_	Translit=,
 13	قېلىن	_	ADJ	A	_	14	amod	_	Translit=qëlin
 14	رەختتىن	_	NOUN	N	_	15	obl	_	Translit=rexttin
@@ -10472,7 +10472,7 @@
 16	تار	_	ADJ	A	_	18	amod	_	Translit=tar
 17	پادىچى	_	NOUN	N	_	18	nmod	_	Translit=padichi
 18	ئىشتىنى	_	NOUN	N	_	19	obj	_	Translit=ishtini
-19	كىيىۋالغان	_	VERB	V	_	21	acl	_	Translit=kiyiwalghan
+19	كىيىۋالغان	_	VERB	V	_	3	conj	_	Translit=kiyiwalghan
 20	بۇ	_	PRON	P	_	21	det	_	Translit=bu
 21	دوغچى	_	NOUN	N	_	28	nsubj	_	Translit=doghchi
 22	بايا	_	ADV	D	_	25	advmod	_	Translit=baya
