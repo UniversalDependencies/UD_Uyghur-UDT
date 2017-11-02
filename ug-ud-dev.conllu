@@ -3041,7 +3041,7 @@
 1	ئۆزۈڭمۇ	_	NOUN	N	_	2	nsubj	_	Translit=özüngmu
 2	تۇيمىغان	_	VERB	V	_	8	advcl	_	Translit=tuymighan
 3	ھالدا	_	NOUN	N	_	2	case	_	Translit=halda
-4	ئۇزاقتىن	_	ADJ	A	_	5	compound:reduo	_	Translit=uzaqtin
+4	ئۇزاقتىن	_	ADJ	A	_	5	compound:redup	_	Translit=uzaqtin
 5	ئۇزاق	_	ADJ	A	_	8	advmod	_	Translit=uzaq
 6	خىياللارغا	_	VERB	V	_	8	obl	_	Translit=xiyallargha
 7	غەرق	_	ADJ	A	_	8	compound	_	Translit=gherq
@@ -4403,7 +4403,7 @@
 10	يەنى	_	CCONJ	C	_	13	mark	_	Translit=yeni
 11	چوڭ	_	ADJ	A	_	12	amod	_	Translit=chong
 12	دەرەخ	_	NOUN	N	_	13	nmod	_	Translit=derex
-13	ئاچىمىقىنى	_	NOUN	N	_	8	conj-	_	SpaceAfter=No|Translit=achimiqini
+13	ئاچىمىقىنى	_	NOUN	N	_	8	conj	_	SpaceAfter=No|Translit=achimiqini
 14	.	_	PUNCT	Y	_	13	punct	_	SpaceAfter=No|Translit=.
 15	.	_	PUNCT	Y	_	13	punct	_	SpaceAfter=No|Translit=.
 16	.	_	PUNCT	Y	_	13	punct	_	Translit=.
@@ -5785,7 +5785,7 @@
 4	«	_	PUNCT	Y	_	3	punct	_	SpaceAfter=No|Translit=«
 5	ۋاقىت	_	NOUN	N	_	8	nsubj	_	Translit=waqit
 6	-	_	PUNCT	Y	_	5	punct	_	Translit=-
-7	ئالتۇندىنمۇ	_	NOUN	N	_	8	nmod:cmp	_	Translit=altundinmu
+7	ئالتۇندىنمۇ	_	NOUN	N	_	8	nmod:comp	_	Translit=altundinmu
 8	قىممەت	_	ADJ	A	_	12	parataxis	_	SpaceAfter=No|Translit=qimmet
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
 10	ۋاقىتنى	_	NOUN	N	_	12	nsubj	_	Translit=waqitni
@@ -6240,7 +6240,7 @@
 1	قاملاشتۇرالمىساڭ	_	NOUN	N	_	3	csubj	_	Translit=qamlashturalmisang
 2	ئەدىپىڭنى	_	NOUN	N	_	3	obj	_	Translit=edipingni
 3	بېرىمەن	_	VERB	V	_	0	root	_	Translit=bërimen
-4	جۇمۇ	_	PART	T	_	3	disclose	_	SpaceAfter=No|Translit=jumu
+4	جۇمۇ	_	PART	T	_	3	discourse	_	SpaceAfter=No|Translit=jumu
 5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
 
 # sent_id = s1290
