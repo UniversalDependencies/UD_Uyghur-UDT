@@ -5,66 +5,78 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>100</sentences><tokens>1662</tokens><words>1662</words><fused>0</fused></total>
+    <total><sentences>1300</sentences><tokens>15509</tokens><words>15509</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="971" /><!-- ., ،, بىر, -, بىلەن, بۇ, مەن, سەن, سېنىڭ, ئىدى, تۇرغان, بولۇپ, ئۇ, بولسا, خۇددى -->
+  <forms unique="5782" /><!-- ., ،, -, بىر, بىلەن, بۇ, ئۇ, مەن, !, ؟, :, ۋە, ئىدى, «, » -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="12">
-    <tag name="ADJ">181</tag><!-- _ -->
-    <tag name="ADP">31</tag><!-- _ -->
-    <tag name="ADV">31</tag><!-- _ -->
-    <tag name="AUX">65</tag><!-- _ -->
-    <tag name="CCONJ">35</tag><!-- _ -->
-    <tag name="DET">8</tag><!-- _ -->
-    <tag name="NOUN">584</tag><!-- _ -->
-    <tag name="NUM">60</tag><!-- _ -->
-    <tag name="PART">13</tag><!-- _ -->
-    <tag name="PRON">143</tag><!-- _ -->
-    <tag name="PUNCT">188</tag><!-- _ -->
-    <tag name="VERB">323</tag><!-- _ -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">1123</tag><!-- _ -->
+    <tag name="ADP">200</tag><!-- _ -->
+    <tag name="ADV">405</tag><!-- _ -->
+    <tag name="AUX">481</tag><!-- _ -->
+    <tag name="CCONJ">305</tag><!-- _ -->
+    <tag name="DET">54</tag><!-- _ -->
+    <tag name="INTJ">41</tag><!-- _ -->
+    <tag name="NOUN">4872</tag><!-- _ -->
+    <tag name="NUM">449</tag><!-- _ -->
+    <tag name="PART">123</tag><!-- _ -->
+    <tag name="PRON">1262</tag><!-- _ -->
+    <tag name="PUNCT">2934</tag><!-- _ -->
+    <tag name="VERB">3255</tag><!-- _ -->
+    <tag name="X">5</tag><!-- _ -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
-    <dep name="acl">65</dep>
-    <dep name="advcl">66</dep>
-    <dep name="advmod">114</dep>
-    <dep name="advmod:emph">2</dep>
-    <dep name="amod">163</dep>
-    <dep name="appos">5</dep>
-    <dep name="aux">34</dep>
-    <dep name="case">33</dep>
-    <dep name="cc">27</dep>
-    <dep name="ccomp">6</dep>
-    <dep name="compound">66</dep>
-    <dep name="compound:lvc">34</dep>
-    <dep name="compound:redup">16</dep>
-    <dep name="conj">43</dep>
-    <dep name="cop">38</dep>
-    <dep name="csubj">5</dep>
-    <dep name="dep">5</dep>
-    <dep name="det">44</dep>
-    <dep name="discourse">5</dep>
-    <dep name="fixed">2</dep>
-    <dep name="flat">1</dep>
-    <dep name="mark">7</dep>
-    <dep name="nmod">70</dep>
-    <dep name="nmod:abl">2</dep>
-    <dep name="nmod:cau">4</dep>
-    <dep name="nmod:clas">3</dep>
-    <dep name="nmod:comp">4</dep>
-    <dep name="nmod:poss">104</dep>
-    <dep name="nmod:tmod">6</dep>
-    <dep name="nsubj">129</dep>
-    <dep name="nummod">47</dep>
-    <dep name="obj">76</dep>
-    <dep name="obl">139</dep>
-    <dep name="parataxis">9</dep>
-    <dep name="punct">188</dep>
-    <dep name="root">100</dep>
+  <deps unique="46">
+    <dep name="acl">325</dep>
+    <dep name="advcl">736</dep>
+    <dep name="advcl:cond">20</dep>
+    <dep name="advmod">963</dep>
+    <dep name="advmod:emph">30</dep>
+    <dep name="amod">922</dep>
+    <dep name="appos">41</dep>
+    <dep name="aux">390</dep>
+    <dep name="aux:q">3</dep>
+    <dep name="case">215</dep>
+    <dep name="cc">255</dep>
+    <dep name="ccomp">165</dep>
+    <dep name="compound">571</dep>
+    <dep name="compound:lvc">98</dep>
+    <dep name="compound:redup">146</dep>
+    <dep name="conj">351</dep>
+    <dep name="cop">266</dep>
+    <dep name="csubj">61</dep>
+    <dep name="dep">39</dep>
+    <dep name="det">369</dep>
+    <dep name="discourse">108</dep>
+    <dep name="fixed">77</dep>
+    <dep name="flat">13</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="mark">118</dep>
+    <dep name="nmod">346</dep>
+    <dep name="nmod:abl">13</dep>
+    <dep name="nmod:cau">35</dep>
+    <dep name="nmod:clas">19</dep>
+    <dep name="nmod:comp">17</dep>
+    <dep name="nmod:part">6</dep>
+    <dep name="nmod:poss">651</dep>
+    <dep name="nmod:ref">1</dep>
+    <dep name="nmod:tmod">67</dep>
+    <dep name="nsubj">1454</dep>
+    <dep name="nummod">259</dep>
+    <dep name="obj">851</dep>
+    <dep name="obj:cau">4</dep>
+    <dep name="obl">1120</dep>
+    <dep name="orphan">8</dep>
+    <dep name="parataxis">120</dep>
+    <dep name="punct">2938</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">1300</dep>
+    <dep name="vocative">14</dep>
+    <dep name="xcomp">2</dep>
   </deps>
 </treebank>
