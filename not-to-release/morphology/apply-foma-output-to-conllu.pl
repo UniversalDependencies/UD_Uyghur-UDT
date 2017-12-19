@@ -79,7 +79,10 @@ while(<>)
         elsif(exists($cache{$f[1]}))
         {
             # If there is more than one analysis, select those that match our part-of-speech tag.
-            my @a = grep {m/\+$f[3]/} (keys(%{$cache{$f[1]}}));
+            # But note that Foma says only "VERB" for words that can be both VERB and AUX.
+            my $lookfortag = $f[3];
+            $lookfortag = '(VERB|AUX)' if($lookfortag =~ m/^(VERB|AUX)$/);
+            my @a = grep {m/\+$lookfortag/} (keys(%{$cache{$f[1]}}));
             if(scalar(@a)>0)
             {
                 my $aa = $a[0];
