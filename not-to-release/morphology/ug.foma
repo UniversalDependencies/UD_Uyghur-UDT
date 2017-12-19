@@ -8,6 +8,15 @@ define Cleanup "^" -> 0 ;
 read lexc ug.lexc
 define Lexicon ;
 
-# If we want to test analysis of romanized Uyghur, simply call "pop" after "source ug.foma".
-regex Lexicon .o. Cleanup ;
+# Uncomment one of the blocks below and comment the others.
+
+# Uncomment this if you want to romanize Uyghur words even if they are not in the lexicon; then type "down".
+#regex TranslitU2L ;
+
+# Uncomment this if you want to test the analyzer on romanized words from the keyboard; then type "up".
+#regex Lexicon .o. Cleanup ;
+
+# Uncomment this if you want to prepare the binary file for fslookup (and then analyze real-world text).
 regex Lexicon .o. Cleanup .o. TranslitL2U ;
+save stack ug.bin
+exit
