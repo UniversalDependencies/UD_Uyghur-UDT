@@ -1,0 +1,585 @@
+Multichar_Symbols
++NOUN +ADJ +PRON +DET +NUM +VERB +AUX +ADV +ADP +CCONJ +SCONJ +PART +INTJ
++Prs +Dem +Sing +Plur +1 +2 +3 +Infm +Form
++Nom +Gen +Dat +Acc +Loc +Abl
++Card
++Inf +Fin +Part +Conv +Ind +Pres +Past +Fut +Nfh +Hab +Prog +Prosp +Perf
++Pos +Neg +Int
+
+LEXICON Root
+
+Pron;
+Num;
+Noun;
+Aux;
+Verb;
+Adp;
+Cconj;
+Part;
+Intj;
+
+
+
+LEXICON Pron
+
+men+PRON+Prs+1+Sing+Nom:men        #;
+men+PRON+Prs+1+Sing+Gen:mëniŋ      #;
+men+PRON+Prs+1+Sing+Dat:maŋa       #;
+men+PRON+Prs+1+Sing+Acc:mëni       #;
+men+PRON+Prs+1+Sing+Loc:mende      #;
+men+PRON+Prs+1+Sing+Abl:mendin     #;
+men+PRON+Prs+1+Plur+Nom:biz        #;
+men+PRON+Prs+1+Plur+Gen:bizniŋ     #;
+men+PRON+Prs+1+Plur+Dat:bizge      #;
+men+PRON+Prs+1+Plur+Acc:bizni      #;
+men+PRON+Prs+1+Plur+Loc:bizde      #;
+men+PRON+Prs+1+Plur+Abl:bizdin     #;
+sen+PRON+Prs+2+Infm+Sing:sen    CaseE;
+sen+PRON+Prs+2+Infm+Plur:siler  CaseE;
+sen+PRON+Prs+2+Infm+Plur:senler CaseE;
+siz+PRON+Prs+2+Form+Sing:siz    CaseE;
+siz+PRON+Prs+2+Form+Plur:sizler CaseE;
+her+PRON+Prs+2+Form+Plur:her       #;
+'u+PRON+Prs+3+Sing+Nom:'u          #;
+'u+PRON+Prs+3+Sing+Gen:'uniŋ       #;
+'u+PRON+Prs+3+Sing+Dat:'uniŋğa     #;
+'u+PRON+Prs+3+Sing+Acc:'uni        #;
+'u+PRON+Prs+3+Sing+Loc:'uniŋda     #;
+'u+PRON+Prs+3+Sing+Abl:'uniŋdin    #;
+'u+PRON+Prs+3+Plur:'ular        CaseA;
+
+! بۇ bu = this (demonstrative)
+! شۇ šu = that (demonstrative)
+bu+PRON+Dem:bu #;
+šu+PRON+Dem:šu #;
+
+! قانداق qandaq = how (often mistakenly considered an adverb but it is a pronoun)
+
+
+
+LEXICON NumberA
+
++Sing:0    CaseA;
++Plur:^lar CaseA;
+
+
+
+LEXICON NumberE
+
++Sing:0    CaseE;
++Plur:^ler CaseE;
+
+
+
+LEXICON CaseA
+
++Nom:^0   #;
++Gen:^niŋ #;
++Dat:^ğa  #;
++Acc:^ni  #;
++Loc:^da  #;
++Abl:^din #;
+
+
+
+LEXICON CaseE
+
++Nom:^0   #;
++Gen:^niŋ #;
++Dat:^ge  #;
++Acc:^ni  #;
++Loc:^de  #;
++Abl:^din #;
+
+
+
+LEXICON Num
+
+nöl+NUM+Card:nöl         #; ! zero
+bir+NUM+Card:bir         #; ! one
+'ikki+NUM+Card:'ikki     #; ! two
+'üč+NUM+Card:'üč         #; ! three
+töt+NUM+Card:töt         #; ! four
+beš+NUM+Card:beš         #; ! five
+'alte+NUM+Card:'alte     #; ! six
+yette+NUM+Card:yette     #; ! seven
+sekkiz+NUM+Card:sekkiz   #; ! eight
+toqquz+NUM+Card:toqquz   #; ! nine
+'on+NUM+Card:'on         #; ! ten
+yigirme+NUM+Card:yigirme #; ! twenty
+'ottuz+NUM+Card:'ottuz   #; ! thirty
+qiriq+NUM+Card:qiriq     #; ! forty
+'ellik+NUM+Card:'ellik   #; ! fifty
+'atmiš+NUM+Card:'atmiš   #; ! sixty
+yetmiš+NUM+Card:yetmiš   #; ! seventy
+seksen+NUM+Card:seksen   #; ! eighty
+toqsan+NUM+Card:toqsan   #; ! ninety
+yüz+NUM+Card:yüz         #; ! hundred
+miŋ+NUM+Card:miŋ         #; ! thousand
+milyon+NUM+Card:milyon   #; ! million
+milyard+NUM+Card:milyard #; ! billion
+
+
+
+LEXICON Noun
+
+'adem+NOUN:'adem NumberE; ! man
+'ana+NOUN:'ana NumberA; ! mother
+'ata+NOUN:'ata NumberA; ! father
+'ige+NOUN:'ige NumberE; ! subject
+'iš+NOUN:'iš NumberE; ! matter
+'oğul+NOUN:'oğul NumberA; ! son
+'öy+NOUN:'öy NumberE; ! house, home
+bala+NOUN+Sing+Nom:bala #; ! child
+bala+NOUN:bali NumberA; ! child
+bilim+NOUN:bilim NumberE; ! knowledge
+böre+NOUN:böre NumberE; ! wolf
+čağ+NOUN:čağ NumberA; ! time
+derex+NOUN:derex NumberE; ! tree
+hal+NOUN:hal NumberA; ! state
+hës+NOUN:hës NumberE; ! sense
+jawab+NOUN:jawab NumberA; ! answer
+kiši+NOUN:kiši NumberE; ! person
+köz+NOUN:köz NumberE; ! eye
+küni+NOUN:küni NumberE; ! day
+pey+NOUN:pey NumberE; ! feather
+qiz+NOUN:qiz NumberE; ! girl
+qol+NOUN:qol NumberA; ! hand
+su+NOUN:su NumberA; ! water
+tağ+NOUN:tağ NumberA; ! mountain
+toxu+NOUN:toxu NumberA; ! chicken
+waqit+NOUN:waqit NumberE; ! time
+xil+NOUN:xil NumberE; ! sort
+yer+NOUN:yer NumberE; ! earth, ground, land
+yol+NOUN:yol NumberA; ! way, road
+
+
+
+LEXICON Aux
+
+'i+AUX+Fin+Ind+Past+Sing+1+Pos:'idim        IntVerb;
+'i+AUX+Fin+Ind+Past+Sing+2+Pos:'idiŋ        IntVerb;
+'i+AUX+Fin+Ind+Past+Plur+1+Pos:'iduq        IntVerb;
+'i+AUX+Fin+Ind+Past+Plur+2+Pos:'idiŋiz      IntVerb;
+'i+AUX+Fin+Ind+Past+3+Pos:'idi              IntVerb;
+'i+AUX+Fin+Ind+Past+X:'idikin               #;
+'i+AUX+Fin+Ind+Past+Nfh+Sing+1+Pos:'ikenmen #;
+'i+AUX+Fin+Ind+Past+Nfh+Sing+2+Pos:'ikensen #;
+'i+AUX+Fin+Ind+Past+Nfh+Plur+1+Pos:'ikenmiz #;
+'i+AUX+Fin+Ind+Past+Nfh+Plur+2+Pos:'ikensiz #;
+'i+AUX+Fin+Ind+Past+Nfh+3+Pos:'iken         #;
+'i+AUX+Fin+Ind+Past+Nfh+X:'ikenliki         #;
+bolmaq+AUX:bol             VFormA; ! https://en.wiktionary.org/wiki/%D8%A8%D9%88%D9%84%D9%85%D8%A7%D9%82
+boptu+AUX:boptu #;
+ketti+AUX:ketti #;
+këtiptu+AUX:këtiptu #;
+
+
+
+LEXICON Verb
+
+# Conjugation table (generic, no particular verb):
+# http://wiki.verbix.com/Languages/Uyghur
+
+'aŋlimaq+VERB:'aŋli      VFormA;
+'almaq+VERB:'al          VFormA;
+'azmaq+VERB:'az          VFormA;
+'esqatmaq+VERB:'esqat    VFormA; ! to be useful
+'ëčilmek+VERB:'ëčil      #;
+'išlitmek+VERB:'išlit    #;
+'izdimek+VERB:'izdi      #; ! to search
+'olturmaq+VERB:'oltur    VFormA;
+'oqumaq+VERB:'oqu        VFormA; ! to read
+'oynimaq+VERB:'oyni      VFormA;
+'ögenmek+VERB:'ögenmek   #; ! to study
+'ölmek+VERB:'ölmek       #; ! to die
+barmaq+VERB:bar          VFormA; ! to go to / reach
+bilmek+VERB:bilmek       #; ! to know
+bolmaq+VERB:bol          VFormA; ! to be / to happen / to have
+čüšenmek+VERB:čüšenmek   #; ! to understand
+čüšürmek+VERB:čüšürmek   #; ! to download
+demek+VERB:de            #;
+këlmek+VERB:kël          #;
+këtmek+VERB:kët          #;
+kiyiwalmek+VERB:kiyiwal  #;
+körmek+VERB:kör          #;
+maŋmaq+VERB:maŋ          VFormA;
+qalmaq+VERB:qal          VFormA;
+qaplimaq+VERB:qapli      VFormA;
+qarimaq+VERB:qari        VFormA;
+qilmek+VERB:qil          #;
+qilinmek+VERB:qilin      #;
+qoymaq+VERB:qoy          VFormA;
+salmaq+VERB:sal          VFormA;
+sözlemek+VERB:sözle      #;
+tašmaq+VERB:taš          VFormA; ! to overflow
+tuğulmaq+VERB:tuğul      VFormA;
+turmaq+VERB:tur          VFormA;
+yasimaq+VERB:yasi        VFormA; ! to build
+yašimaq+VERB:yaši        VFormA; ! to live
+yazmaq+VERB:yaz          VFormA; ! to write
+yëzilmek+VERB:yëzil      #;
+
+
+
+LEXICON VFormA
+
+! http://wiki.verbix.com/Languages/Uyghur
+
+! infinitive
++Inf:^maq #;
+
+! present future, habitual ("he will do, he usually does")
++Fin+Ind+Pres+Sing+1+Pos:^imen #;
++Fin+Ind+Pres+Sing+2+Pos:^isen #;
++Fin+Ind+Pres+Plur+1+Pos:^imiz #;
++Fin+Ind+Pres+Plur+2+Pos:^isiz #;
++Fin+Ind+Pres+3+Pos:^idu       #;
++Fin+Ind+Pres+Sing+1+Pos+Int:^imenmu #;
++Fin+Ind+Pres+Sing+2+Pos+Int:^amsen  #;
++Fin+Ind+Pres+Plur+1+Pos+Int:^ammiz  #;
++Fin+Ind+Pres+Plur+2+Pos+Int:^amsiz  #;
++Fin+Ind+Pres+3+Pos+Int:^amdu        #;
++Fin+Ind+Pres+Sing+1+Neg:^maymen #;
++Fin+Ind+Pres+Sing+2+Neg:^maysen #;
++Fin+Ind+Pres+Plur+1+Neg:^maymiz #;
++Fin+Ind+Pres+Plur+2+Neg:^maysiz #;
++Fin+Ind+Pres+3+Neg:^maydu       #;
++Fin+Ind+Pres+Sing+1+Neg+Int:^maymenmu #;
++Fin+Ind+Pres+Sing+2+Neg+Int:^mamsen   #;
++Fin+Ind+Pres+Plur+1+Neg+Int:^maymizmu #;
++Fin+Ind+Pres+Plur+2+Neg+Int:^mamsiz   #;
++Fin+Ind+Pres+3+Neg+Int:^maymudi       #;
+
+! simple past ("he did")
++Fin+Ind+Past+Sing+1+Pos:^dum         #;
++Fin+Ind+Past+Sing+2+Pos:^diŋ         #;
++Fin+Ind+Past+Plur+1+Pos:^duq         #;
++Fin+Ind+Past+Plur+2+Pos:^diŋiz       #;
++Fin+Ind+Past+3+Pos:^di               #;
++Fin+Ind+Past+Sing+1+Pos+Int:^dimmu   #;
++Fin+Ind+Past+Sing+2+Pos+Int:^diŋmu   #;
++Fin+Ind+Past+Plur+1+Pos+Int:^emduq   #;
++Fin+Ind+Past+Plur+2+Pos+Int:^diŋizmu #;
++Fin+Ind+Past+3+Pos+Int:^dimu         #;
++Fin+Ind+Past+3+Pos+Int:^emdi         #;
++Fin+Ind+Past+Sing+1+Neg:^midim       IntVerb;
++Fin+Ind+Past+Sing+2+Neg:^midiŋ       IntVerb;
++Fin+Ind+Past+Plur+1+Neg:^miduq       IntVerb;
++Fin+Ind+Past+Plur+2+Neg:^midiŋiz     IntVerb;
++Fin+Ind+Past+3+Neg:^midi             IntVerb;
+
+! present perfect ("he has done")
++Fin+Ind+Pres+Perf+Sing+1+Pos:^ğanmen   #;
++Fin+Ind+Pres+Perf+Sing+2+Pos:^ğansen   #;
++Fin+Ind+Pres+Perf+Plur+1+Pos:^ğanmiz   #;
++Fin+Ind+Pres+Perf+Plur+2+Pos:^ğansiz   #;
++Fin+Ind+Pres+Perf+3+Pos:^ğan           #;
++Fin+Ind+Pres+Perf+Sing+1+Pos+Int:^ğanmanmu   #;
++Fin+Ind+Pres+Perf+Sing+2+Pos+Int:^ğanmusan   #;
++Fin+Ind+Pres+Perf+Plur+1+Pos+Int:^ğanmizmu   #;
++Fin+Ind+Pres+Perf+Plur+2+Pos+Int:^ğanmusiz   #;
++Fin+Ind+Pres+Perf+3+Pos+Int:^ğanmu           #;
++Fin+Ind+Pres+Perf+Sing+1+Neg:^miğanmen #;
++Fin+Ind+Pres+Perf+Sing+2+Neg:^miğansen #;
++Fin+Ind+Pres+Perf+Plur+1+Neg:^miğanmiz #;
++Fin+Ind+Pres+Perf+Plur+2+Neg:^miğansiz #;
++Fin+Ind+Pres+Perf+3+Neg:^miğan         #;
++Fin+Ind+Pres+Perf+Sing+1+Neg+Int:^miğanmenmu #;
++Fin+Ind+Pres+Perf+Sing+2+Neg+Int:^miğanmusen #;
++Fin+Ind+Pres+Perf+Plur+1+Neg+Int:^miğanmizmu #;
++Fin+Ind+Pres+Perf+Plur+2+Neg+Int:^miğanmusiz #;
++Fin+Ind+Pres+Perf+3+Neg+Int:^miğanmu         #;
+
+! past perfect ("he had done")
++Fin+Ind+Past+Perf+Sing+1+Pos:^ğanidim   #;
++Fin+Ind+Past+Perf+Sing+2+Pos:^ğanidiŋ   #;
++Fin+Ind+Past+Perf+Plur+1+Pos:^ğaniduq   #;
++Fin+Ind+Past+Perf+Plur+2+Pos:^ğanidiŋiz #;
++Fin+Ind+Past+Perf+3+Pos:^ğanidi         #;
++Fin+Ind+Past+Perf+Sing+1+Pos+Int:^ğanmidim   #;
++Fin+Ind+Past+Perf+Sing+2+Pos+Int:^ğanmidiŋ   #;
++Fin+Ind+Past+Perf+Plur+1+Pos+Int:^ğanmiduq   #;
++Fin+Ind+Past+Perf+Plur+2+Pos+Int:^ğanmidiŋiz #;
++Fin+Ind+Past+Perf+3+Pos+Int:^ğanmidi         #;
++Fin+Ind+Past+Perf+Sing+1+Neg:^miğanidim   IntVerb;
++Fin+Ind+Past+Perf+Sing+2+Neg:^miğanidiŋ   IntVerb;
++Fin+Ind+Past+Perf+Plur+1+Neg:^miğaniduq   IntVerb;
++Fin+Ind+Past+Perf+Plur+2+Neg:^miğanidiŋiz IntVerb;
++Fin+Ind+Past+Perf+3+Neg:^miğanidi         IntVerb;
+
+! habitual future ("he will be doing")
++Fin+Ind+Fut+Hab+Sing+1+Pos:^idiğanmen   #;
++Fin+Ind+Fut+Hab+Sing+2+Pos:^idiğansen   #;
++Fin+Ind+Fut+Hab+Plur+1+Pos:^idiğanmiz   #;
++Fin+Ind+Fut+Hab+Plur+2+Pos:^idiğansiz   #;
++Fin+Ind+Fut+Hab+3+Pos:^idiğan           #;
++Fin+Ind+Fut+Hab+Sing+1+Pos+Int:^idiğanmenmu #;
++Fin+Ind+Fut+Hab+Sing+2+Pos+Int:^idiğanmusen #;
++Fin+Ind+Fut+Hab+Plur+1+Pos+Int:^idiğanmizmu #;
++Fin+Ind+Fut+Hab+Plur+2+Pos+Int:^idiğanmusiz #;
++Fin+Ind+Fut+Hab+3+Pos+Int:^idiğanmu         #;
++Fin+Ind+Fut+Hab+Sing+1+Neg:^maydiğanmen IntVerb;
++Fin+Ind+Fut+Hab+Sing+2+Neg:^maydiğansen IntVerb;
++Fin+Ind+Fut+Hab+Plur+1+Neg:^maydiğanmiz IntVerb;
++Fin+Ind+Fut+Hab+Plur+2+Neg:^maydiğansiz IntVerb;
++Fin+Ind+Fut+Hab+3+Neg:^maydiğan         IntVerb;
+
+! present aorist habitual (poetic) ("he usually does")
++Fin+Ind+Pres+Hab+Sing+1+Pos:^arman #;
++Fin+Ind+Pres+Hab+Sing+2+Pos:^arsan #;
++Fin+Ind+Pres+Hab+Plur+1+Pos:^armiz #;
++Fin+Ind+Pres+Hab+Plur+2+Pos:^arsiz #;
++Fin+Ind+Pres+Hab+3+Pos:^ar         #;
++Fin+Ind+Pres+Hab+Sing+1+Pos+Int:^armanmu #;
++Fin+Ind+Pres+Hab+Sing+2+Pos+Int:^armusan #;
++Fin+Ind+Pres+Hab+Plur+1+Pos+Int:^armizmu #;
++Fin+Ind+Pres+Hab+Plur+2+Pos+Int:^armusiz #;
++Fin+Ind+Pres+Hab+3+Pos+Int:^armu         #;
++Fin+Ind+Pres+Hab+Sing+1+Neg:^masmen IntVerb;
++Fin+Ind+Pres+Hab+Sing+2+Neg:^massen IntVerb;
++Fin+Ind+Pres+Hab+Plur+1+Neg:^masmiz IntVerb;
++Fin+Ind+Pres+Hab+Plur+2+Neg:^massiz IntVerb;
++Fin+Ind+Pres+Hab+3+Neg:^mas         IntVerb;
+
+! past aorist habitual ("he used to do")
++Fin+Ind+Past+Hab+Sing+1+Pos:^attim     IntVerb;
++Fin+Ind+Past+Hab+Sing+2+Pos:^attiŋ     IntVerb;
++Fin+Ind+Past+Hab+Plur+1+Pos:^attuq     IntVerb;
++Fin+Ind+Past+Hab+Plur+2+Pos:^attiŋiz   IntVerb;
++Fin+Ind+Past+Hab+3+Pos:^atti           IntVerb;
++Fin+Ind+Past+Hab+Sing+1+Neg:^mayttim   IntVerb;
++Fin+Ind+Past+Hab+Sing+2+Neg:^mayttiŋ   IntVerb;
++Fin+Ind+Past+Hab+Plur+1+Neg:^mayttuq   IntVerb;
++Fin+Ind+Past+Hab+Plur+2+Neg:^mayttiŋiz IntVerb;
++Fin+Ind+Past+Hab+3+Neg:^maytti         IntVerb;
+
+! present continuous ("he is doing")
++Fin+Ind+Pres+Prog+Sing+1+Pos:^iwatimen   IntVerb;
++Fin+Ind+Pres+Prog+Sing+2+Pos:^iwatisen   IntVerb;
++Fin+Ind+Pres+Prog+Plur+1+Pos:^iwatimiz   IntVerb;
++Fin+Ind+Pres+Prog+Plur+2+Pos:^iwatisiz   IntVerb;
++Fin+Ind+Pres+Prog+3+Pos:^iwatidu         IntVerb;
++Fin+Ind+Pres+Prog+Sing+1+Neg:^maywatimen IntVerb;
++Fin+Ind+Pres+Prog+Sing+2+Neg:^maywatisen IntVerb;
++Fin+Ind+Pres+Prog+Plur+1+Neg:^maywatimiz IntVerb;
++Fin+Ind+Pres+Prog+Plur+2+Neg:^maywatisiz IntVerb;
++Fin+Ind+Pres+Prog+3+Neg:^maywatidu       IntVerb;
+
+! past continuous ("he was doing")
++Fin+Ind+Past+Prog+Sing+1+Pos:^iwatqanidim     IntVerb;
++Fin+Ind+Past+Prog+Sing+2+Pos:^iwatqanidiŋ     IntVerb;
++Fin+Ind+Past+Prog+Plur+1+Pos:^iwatqaniduq     IntVerb;
++Fin+Ind+Past+Prog+Plur+2+Pos:^iwatqanidiŋiz   IntVerb;
++Fin+Ind+Past+Prog+3+Pos:^iwatqanidi           IntVerb;
++Fin+Ind+Past+Prog+3+Pos:^iwatqan              IntVerb;
++Fin+Ind+Past+Prog+Sing+1+Neg:^maywatqanidim   IntVerb;
++Fin+Ind+Past+Prog+Sing+2+Neg:^maywatqanidiŋ   IntVerb;
++Fin+Ind+Past+Prog+Plur+1+Neg:^maywatqaniduq   IntVerb;
++Fin+Ind+Past+Prog+Plur+2+Neg:^maywatqanidiŋiz IntVerb;
++Fin+Ind+Past+Prog+3+Neg:^maywatqanidi         IntVerb;
++Fin+Ind+Past+Prog+3+Neg:^maywatqan            IntVerb;
+
+! past continuous habitual ("he used to be doing")
++Fin+Ind+Past+Prog+Hab+Sing+1+Pos:^iwatattim        #;
++Fin+Ind+Past+Prog+Hab+Sing+2+Pos:^iwatattiŋ        #;
++Fin+Ind+Past+Prog+Hab+Plur+1+Pos:^iwatattuq        #;
++Fin+Ind+Past+Prog+Hab+Plur+2+Pos:^iwatattiŋiz      #;
++Fin+Ind+Past+Prog+Hab+3+Pos:^iwatatti              #;
++Fin+Ind+Past+Prog+Hab+Sing+1+Pos+Int:^iwatamtim    #;
++Fin+Ind+Past+Prog+Hab+Sing+2+Pos+Int:^iwatamtiŋ    #;
++Fin+Ind+Past+Prog+Hab+Plur+1+Pos+Int:^iwatamtuq    #;
++Fin+Ind+Past+Prog+Hab+Plur+2+Pos+Int:^iwatamtiŋiz  #;
++Fin+Ind+Past+Prog+Hab+3+Pos+Int:^iwatamti          #;
++Fin+Ind+Past+Prog+Hab+Sing+1+Neg:^maywatattim      #;
++Fin+Ind+Past+Prog+Hab+Sing+2+Neg:^maywatattiŋ      #;
++Fin+Ind+Past+Prog+Hab+Plur+1+Neg:^maywatattuq      #;
++Fin+Ind+Past+Prog+Hab+Plur+2+Neg:^maywatattiŋiz    #;
++Fin+Ind+Past+Prog+Hab+3+Neg:^maywatatti            #;
++Fin+Ind+Past+Prog+Hab+Sing+1+Neg:^iwatmayttim      #;
++Fin+Ind+Past+Prog+Hab+Sing+2+Neg:^iwatmayttiŋ      #;
++Fin+Ind+Past+Prog+Hab+Plur+1+Neg:^iwatmayttuq      #;
++Fin+Ind+Past+Prog+Hab+Plur+2+Neg:^iwatmayttiŋiz    #;
++Fin+Ind+Past+Prog+Hab+3+Neg:^iwatmaytti            #;
++Fin+Ind+Past+Prog+Hab+Sing+1+Neg+Int:^iwatmamtim   #;
++Fin+Ind+Past+Prog+Hab+Sing+2+Neg+Int:^iwatmamtiŋ   #;
++Fin+Ind+Past+Prog+Hab+Plur+1+Neg+Int:^iwatmamtuq   #;
++Fin+Ind+Past+Prog+Hab+Plur+2+Neg+Int:^iwatmamtiŋiz #;
++Fin+Ind+Past+Prog+Hab+3+Neg+Int:^iwatmamti         #;
+
+! prospective future/intention ("he is going to do")
++Fin+Ind+Prosp+Sing+1+Pos:^maqčimen #;
++Fin+Ind+Prosp+Sing+2+Pos:^maqčisen #;
++Fin+Ind+Prosp+Plur+1+Pos:^maqčimiz #;
++Fin+Ind+Prosp+Plur+2+Pos:^maqčisiz #;
++Fin+Ind+Prosp+3+Pos:^maqči         #;
++Fin+Ind+Prosp+Sing+1+Pos+Int:^maqčimenmu #;
++Fin+Ind+Prosp+Sing+2+Pos+Int:^maqčimusen #;
++Fin+Ind+Prosp+Plur+1+Pos+Int:^maqčimizmu #;
++Fin+Ind+Prosp+Plur+2+Pos+Int:^maqčimusiz #;
++Fin+Ind+Prosp+3+Pos+Int:^maqčimu         #;
+
+! present continuous II ("he is gradually doing")
++Fin+Ind+Pres+Prog+Sing+1+Pos:^maqtimen #;
++Fin+Ind+Pres+Prog+Sing+2+Pos:^maqtisen #;
++Fin+Ind+Pres+Prog+Plur+1+Pos:^maqtimiz #;
++Fin+Ind+Pres+Prog+Plur+2+Pos:^maqtisiz #;
++Fin+Ind+Pres+Prog+3+Pos:^maqta         #;
++Fin+Ind+Pres+Prog+Sing+1+Pos+Int:^maqtimenmu #;
++Fin+Ind+Pres+Prog+Sing+2+Pos+Int:^maqtimusen #;
++Fin+Ind+Pres+Prog+Plur+1+Pos+Int:^maqtimizmu #;
++Fin+Ind+Pres+Prog+Plur+2+Pos+Int:^maqtimusiz #;
++Fin+Ind+Pres+Prog+3+Pos+Int:^maqtamu         #;
+
+! non-firsthand present ("he is said to do")
++Fin+Ind+Pres+Nfh+Sing+1+Pos:^iptimen  IntVerb;
++Fin+Ind+Pres+Nfh+Sing+2+Pos:^ipsen    IntVerb;
++Fin+Ind+Pres+Nfh+Plur+1+Pos:^iptimiz  IntVerb;
++Fin+Ind+Pres+Nfh+Plur+2+Pos:^ipsiz    IntVerb;
++Fin+Ind+Pres+Nfh+3+Pos:^iptu          IntVerb;
++Fin+Ind+Pres+Nfh+Sing+1+Neg:^maptimen IntVerb;
++Fin+Ind+Pres+Nfh+Sing+2+Neg:^mapsen   IntVerb;
++Fin+Ind+Pres+Nfh+Plur+1+Neg:^maptimiz IntVerb;
++Fin+Ind+Pres+Nfh+Plur+2+Neg:^mapsiz   IntVerb;
++Fin+Ind+Pres+Nfh+3+Neg:^maptu         IntVerb;
+
+! non-firsthand present continuous ("he is said to be doing")
++Fin+Ind+Pres+Prog+Nfh+Sing+1+Pos:^watiptimen    IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Sing+2+Pos:^watipsen      IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Plur+1+Pos:^watiptimiz    IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Plur+2+Pos:^watipsiz      IntVerb;
++Fin+Ind+Pres+Prog+Nfh+3+Pos:^watiptu            IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Sing+1+Neg:^maywatiptimen IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Sing+2+Neg:^maywatipsen   IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Plur+1+Neg:^maywatiptimiz IntVerb;
++Fin+Ind+Pres+Prog+Nfh+Plur+2+Neg:^maywatipsiz   IntVerb;
++Fin+Ind+Pres+Prog+Nfh+3+Neg:^maywatiptu         IntVerb;
+
+! non-firsthand past ("he is said to have done / have been doing")
++Fin+Ind+Past+Nfh+Sing+1+Pos:^iptikenmen #;
++Fin+Ind+Past+Nfh+Sing+2+Pos:^iptikensen #;
++Fin+Ind+Past+Nfh+Plur+1+Pos:^iptikenmiz #;
++Fin+Ind+Past+Nfh+Plur+2+Pos:^iptikensiz #;
++Fin+Ind+Past+Nfh+3+Pos:^iptiken         #;
+
+! present conditional ("if he does")
++Fin+Cnd+Pres+Sing+1+Pos:^sam     #;
++Fin+Cnd+Pres+Sing+2+Pos:^saŋ     #;
++Fin+Cnd+Pres+Plur+1+Pos:^saq     #;
++Fin+Cnd+Pres+Plur+2+Pos:^siŋiz   #;
++Fin+Cnd+Pres+3+Pos:^sa           #;
++Fin+Cnd+Pres+Sing+1+Neg:^misam   #;
++Fin+Cnd+Pres+Sing+2+Neg:^misaŋ   #;
++Fin+Cnd+Pres+Plur+1+Neg:^misaq   #;
++Fin+Cnd+Pres+Plur+2+Neg:^misiŋiz #;
++Fin+Cnd+Pres+3+Neg:^misa         #;
++Fin+Cnd+Pres+3+Pos+Int:^simu     #; !!!###???
+
+! present continuous conditional ("if he is doing")
++Fin+Cnd+Pres+Prog+Sing+1+Pos:^iwatsam     #;
++Fin+Cnd+Pres+Prog+Sing+2+Pos:^iwatsaŋ     #;
++Fin+Cnd+Pres+Prog+Plur+1+Pos:^iwatsaq     #;
++Fin+Cnd+Pres+Prog+Plur+2+Pos:^iwatsiŋiz   #;
++Fin+Cnd+Pres+Prog+3+Pos:^iwatsa           #;
++Fin+Cnd+Pres+Prog+Sing+1+Pos:^maywatsam   #;
++Fin+Cnd+Pres+Prog+Sing+2+Pos:^maywatsaŋ   #;
++Fin+Cnd+Pres+Prog+Plur+1+Pos:^maywatsaq   #;
++Fin+Cnd+Pres+Prog+Plur+2+Pos:^maywatsiŋiz #;
++Fin+Cnd+Pres+Prog+3+Pos:^maywatsa         #;
+
+! potential ("he can do")
++Fin+Pot+Sing+1+Pos:^alaymen  #;
++Fin+Pot+Sing+2+Pos:^alaysen  #;
++Fin+Pot+Plur+1+Pos:^alaymiz  #;
++Fin+Pot+Plur+2+Pos:^alaysiz  #;
++Fin+Pot+3+Pos:^alaydu        #;
++Fin+Pot+Sing+1+Pos+Int:^alaymenmu  #;
++Fin+Pot+Sing+2+Pos+Int:^aliyamsen  #;
++Fin+Pot+Plur+1+Pos+Int:^alaymizmu  #;
++Fin+Pot+Plur+2+Pos+Int:^aliyamsiz  #;
++Fin+Pot+3+Pos+Int:^aliyamdu        #;
++Fin+Pot+Sing+1+Neg:^almaymen IntVerb;
++Fin+Pot+Sing+2+Neg:^almaysen IntVerb;
++Fin+Pot+Plur+1+Neg:^almaymiz IntVerb;
++Fin+Pot+Plur+2+Neg:^almaysiz IntVerb;
++Fin+Pot+3+Neg:^almaydu       IntVerb;
+
+! imperative ("do!")
++Fin+Imp+Sing+1+Pos:^ay    #;
++Fin+Imp+Sing+2+Pos:^qin   #;
++Fin+Imp+Plur+1+Pos:^ayli  #;
++Fin+Imp+Plur+2+Pos:^iŋ    #;
++Fin+Imp+3+Pos:^sun        #;
++Fin+Imp+Sing+1+Neg:^may   #;
++Fin+Imp+Sing+2+Neg:^ma    #;
++Fin+Imp+Plur+1+Neg:^mayli #;
++Fin+Imp+Plur+2+Neg:^maŋ   #;
++Fin+Imp+3+Neg:^misun      #;
+
+! present participle ("doing")
++Part+Pres:^up             #;
+
+! causative converb ("because of doing X")
+! (what should be the UD feature??? Conv is probably not the best analysis)
++Conv+Pos:^ğačqa           #;
++Conv+Neg:^miğačqa         #;
+
+
+
+LEXICON IntVerb
+
+0        #;
++Int:^mu #;
+
+
+
+LEXICON Adp
+
+'arqiliq+ADP:'arqiliq   #;
+'ibaret+ADP:'ibaret     #;
+'üstide+ADP:'üstide     #;
+bilen+ADP:bilen         #; ! and, with
+boyi+ADP:boyi           #;
+qariğanda+ADP:qariğanda #;
+qeder+ADP:qeder         #;
+süpitide+ADP:süpitide   #;
+tartip+ADP:tartip       #;
+
+
+
+LEXICON Cconj
+
+'andin+CCONJ:'andin     #;
+'eger+CCONJ:'eger       #; ! if
+'eksiče+CCONJ:'eksiče   #;
+'emma+CCONJ:'emma       #; ! but
+'üčün+CCONJ:'üčün       #; ! for
+belki+CCONJ:belki       #;
+biraq+CCONJ:biraq       #; ! however
+čünki+CCONJ:čünki       #; ! because
+hem+CCONJ:hem           #; ! and
+hemde+CCONJ:hemde       #; ! also
+hetta+CCONJ:hetta       #;
+lëkin+CCONJ:lëkin       #; ! but
+nawada+CCONJ:nawada     #;
+šuniŋ+CCONJ:šuniŋ       #;
+šuŋa+CCONJ:šuŋa         #; ! therefore
+we+CCONJ:we             #; ! and
+yaki+CCONJ:yaki         #;
+yene+CCONJ:yene         #; ! also
+
+
+
+LEXICON Part
+
+de+PART:de              #;
+xuddi+PART:xuddi        #;
+
+
+
+LEXICON Intj
+
+maqul+INTJ:maqul         #; ! agreed
+nëmidëgen+INTJ:nëmidëgen #;
+pah+INTJ:pah             #; ! wow
+yaq+INTJ:yaq             #; ! no
