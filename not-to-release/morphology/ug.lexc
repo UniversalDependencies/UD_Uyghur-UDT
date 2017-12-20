@@ -1,3 +1,5 @@
+! perl -pe "if(m/^\d+\t/) {@f=split(/\t/); if($f[3] eq 'ADJ') {$_=qq($f[1]\n)} else {$_=qq()}} else {$_=qq()}" < ..\..\ug-ud-test.conllu | flookup -i romanize.bin | perl -CDS -e "while(<>){s/\r?\n$//; ($ar,$la)=split(/\t/); if($la){$h{$la}++}} @k=sort(keys(%h)); foreach my $k (@k) {print qq($k\n)}" > adjlist.txt
+
 Multichar_Symbols
 +NOUN +ADJ +PRON +DET +NUM +VERB +AUX +ADV +ADP +CCONJ +SCONJ +PART +INTJ
 +Prs +Dem +Ind
@@ -59,61 +61,348 @@ yol+NOUN:yol NumberA; ! way, road
 
 LEXICON Adj
 
+'ačimaq+ADJ:'ačimaq #;
+'aččiq+ADJ:'aččiq #;
+'addiyla+ADJ:'addiyla #;
+'ağriqčan+ADJ:'ağriqčan #;
 'ajayip+ADJ:'ajayip #; ! abnormal
+'ajiz+ADJ:'ajiz #;
+'ajizmu+ADJ:'ajizmu #;
+'aldinqi+ADJ:'aldinqi #;
+'aliy+ADJ:'aliy #;
+'aman+ADJ:'aman #;
+'amraq+ADJ:'amraq #;
+'ap'aq+ADJ:'ap'aq #;
 'aq+ADJ:'aq #; ! white
+'aqsaqal+ADJ:'aqsaqal #;
+'artuq+ADJ:'artuq #;
+'asanmu+ADJ:'asanmu #;
+'asma+ADJ:'asma #;
 'asta+ADJ:'asta #; ! slow
+'awam+ADJ:'awam #;
+'axirqi+ADJ:'axirqi #;
+'az+ADJ:'az #;
+'azade+ADJ:'azade #;
+'azraqla+ADJ:'azraqla #;
+'en'eniwi+ADJ:'en'eniwi #;
+'eqilliq+ADJ:'eqilliq #;
+'erkek+ADJ:'erkek #;
+'erkin+ADJ:'erkin #;
+'erzan+ADJ:'erzan #;
+'estayidil+ADJ:'estayidil #;
+'etiwarliq+ADJ:'etiwarliq #;
+'exmeq+ADJ:'exmeq #;
+'exmeqmu+ADJ:'exmeqmu #;
+'eyni+ADJ:'eyni #;
+'ëgiz+ADJ:'ëgiz #;
 'ëğir+ADJ:'ëğir #;
+'ëhtiyajliq+ADJ:'ëhtiyajliq #;
+'ëniq+ADJ:'ëniq #;
 'ësil+ADJ:'ësil #;
+'ički+ADJ:'ički #;
 'ijadiy+ADJ:'ijadiy #;
+'ijtima'iy+ADJ:'ijtima'iy #;
+'illiq+ADJ:'illiq #;
+'inaq+ADJ:'inaq #;
+'inčike+ADJ:'inčike #;
+'insaniy+ADJ:'insaniy #;
+'iqtisadiy+ADJ:'iqtisadiy #;
 'isimlik+ADJ:'isimlik #;
 'issiq+ADJ:'issiq #; ! hot, warm
+'išenčlik+ADJ:'išenčlik #;
+'ittik+ADJ:'ittik #;
+'obdan+ADJ:'obdan #;
+'očuq+ADJ:'očuq #;
+'omaq+ADJ:'omaq #;
+'ortaq+ADJ:'ortaq #;
+'otturisidiki+ADJ:'otturisidiki #;
 'oxšaš+ADJ:'oxšaš #;
+'oxšašla+ADJ:'oxšašla #;
+'oyunniŋ+ADJ:'oyunniŋ #;
+'öč+ADJ:'öč #;
+'ötkür+ADJ:'ötkür #;
+'özgiče+ADJ:'özgiče #;
+'uluğ+ADJ:'uluğ #;
 'uzaq+ADJ:'uzaq #;
+'uzaqqa+ADJ:'uzaqqa #;
+'uzun+ADJ:'uzun #;
+'uššaq+ADJ:'uššaq #;
+'üzlüksiz+ADJ:'üzlüksiz #;
 baliliq+ADJ:baliliq #;
 bar+ADJ:bar #;
+baraqsan+ADJ:baraqsan #;
+bardu+ADJ:bardu #;
 bašqa+ADJ:bašqa #; ! other
+bašqa+ADJ+Plur:bašqi^lar CaseA; ! others, used as a noun
+batur+ADJ:batur #;
+bayiqi+ADJ:bayiqi #;
+baylarğa+ADJ:baylarğa #;
+berdašliq+ADJ:berdašliq #;
+bi'aram+ADJ:bi'aram #;
+bičare+ADJ:bičare #;
+bihude+ADJ:bihude #;
+bilimlik+ADJ:bilimlik #;
+bom+ADJ:bom #;
+boš+ADJ:boš #;
+boyluq+ADJ:boyluq #;
 boz+ADJ:boz #;
+bölektiki+ADJ:bölektiki #;
+burunqi+ADJ:burunqi #;
+burunqidek+ADJ:burunqidek #;
+bügünki+ADJ:bügünki #;
+bük+ADJ:bük #;
 büyük+ADJ:büyük #; ! big
+čala+ADJ:čala #;
+čaqliq+ADJ:čaqliq #;
+čaqqan+ADJ:čaqqan #;
+čeksiz+ADJ:čeksiz #;
+četke+ADJ:četke #;
+čëčen+ADJ:čëčen #;
+čidamliq+ADJ:čidamliq #;
 čirayliq+ADJ:čirayliq #; ! lovely
+čiğir+ADJ:čiğir #;
+čiŋ+ADJ:čiŋ #;
+čiši+ADJ:čiši #;
 čoŋ+ADJ:čoŋ #; ! great
+čoŋqur+ADJ:čoŋqur #;
+čüšiniksiz+ADJ:čüšiniksiz #;
+dawamliq+ADJ:dawamliq #;
+derijilik+ADJ:derijilik #;
+deslepki+ADJ:deslepki #;
+durus+ADJ:durus #;
+döwisiniŋ+ADJ:döwisiniŋ #;
 güzel+ADJ:güzel #; ! beautiful
+güzelken+ADJ:güzelken #;
+ğayet+ADJ:ğayet #;
+ğelbilik+ADJ:ğelbilik #;
+ğelite+ADJ:ğelite #;
+ğerbiy+ADJ:ğerbiy #;
+hal+ADJ:hal #;
+hawareŋ+ADJ:hawareŋ #;
+hayajanliq+ADJ:hayajanliq #;
+hayaliq+ADJ:hayaliq #;
+hazirqi+ADJ:hazirqi #;
+heqiqiy+ADJ:heqiqiy #;
+heqliq+ADJ:heqliq #;
+heriketčan+ADJ:heriketčan #;
+hiyliger+ADJ:hiyliger #;
+hošyar+ADJ:hošyar #;
+hösin+ADJ:hösin #;
+jiddiy+ADJ:jiddiy #;
 jimjit+ADJ:jimjit #;
+kanwa+ADJ:kanwa #;
+karamiti+ADJ:karamiti #;
+katta+ADJ:katta #;
+kes+ADJ:kes #;
+keŋ+ADJ:keŋ #;
 kërek+ADJ:kërek #; ! necessary
 kičik+ADJ:kičik #; ! small
+kičikkine+ADJ:kičikkine #;
+kir+ADJ:kir #;
+kërek+ADJ:kërek #;
+këreklikini+ADJ:këreklikini #;
+këyinki+ADJ:këyinki #;
+këčilik+ADJ:këčilik #;
+kök+ADJ:kök #;
+kömüš+ADJ:kömüš #;
+köŋüllük+ADJ:köŋüllük #;
 köp+ADJ:köp #; ! many, much
+köpkük+ADJ:köpkük #;
+körkem+ADJ:körkem #;
+künki+ADJ:künki #;
+layiq+ADJ:layiq #;
+lazim+ADJ:lazim #;
+mahir+ADJ:mahir #;
+mas+ADJ:mas #;
+medeniy+ADJ:medeniy #;
+mejbur+ADJ:mejbur #;
 melum+ADJ:melum #;
 mewjut+ADJ:mewjut #;
+mexsus+ADJ:mexsus #;
+meyin+ADJ:meyin #;
+meğrur+ADJ:meğrur #;
+mešhur+ADJ:mešhur #;
+moysipit+ADJ:moysipit #;
+muhim+ADJ:muhim #;
+mukemmel+ADJ:mukemmel #;
 mumkin+ADJ:mumkin #; ! likely, possible
+murekkep+ADJ:murekkep #;
+mëwilik+ADJ:mëwilik #;
+müŋgüzlük+ADJ:müŋgüzlük #;
+namelum+ADJ:namelum #;
+namrat+ADJ:namrat #;
+nepis+ADJ:nepis #;
+neq+ADJ:neq #;
+normal+ADJ:normal #;
 nurğun+ADJ:nurğun #;
+nëriqi+ADJ:nëriqi #;
+pakar+ADJ:pakar #;
+parasetlik+ADJ:parasetlik #;
+parlaq+ADJ:parlaq #;
+parqiraq+ADJ:parqiraq #;
+payansiz+ADJ:payansiz #;
+penniy+ADJ:penniy #;
+peske+ADJ:peske #;
+peziletlik+ADJ:peziletlik #;
+pišmaq+ADJ:pišmaq #;
 pütün+ADJ:pütün #; ! whole
+qabiliyetlik+ADJ:qabiliyetlik #;
+qalaymiqan+ADJ:qalaymiqan #;
+qaŋšarliq+ADJ:qaŋšarliq #;
 qapqara+ADJ:qapqara #;
 qara+ADJ:qara #; ! black
+qaramtul+ADJ:qaramtul #;
+qarašliq+ADJ:qarašliq #;
+qarši+ADJ:qarši #;
+qataŋğur+ADJ:qataŋğur #;
 qattiq+ADJ:qattiq #; ! firm, hard
+qayil+ADJ:qayil #;
+qaynaq+ADJ:qaynaq #;
+qayrima+ADJ:qayrima #;
+qedimiy+ADJ:qedimiy #;
+qedimki+ADJ:qedimki #;
+qimmetlik+ADJ:qimmetlik #;
+qipqizil+ADJ:qipqizil #;
+qisqa+ADJ:qisqa #;
+qišliq+ADJ:qišliq #;
+qiyin+ADJ:qiyin #;
+qizğin+ADJ:qizğin #;
+qizğuč+ADJ:qizğuč #;
 qizil+ADJ:qizil #; ! red
+qiziq+ADJ:qiziq #;
+qiziqarliq+ADJ:qiziqarliq #;
+qoralliq+ADJ:qoralliq #;
 qorqunčluq+ADJ:qorqunčluq #;
 qoyuq+ADJ:qoyuq #;
+qoŋur+ADJ:qoŋur #;
 quruq+ADJ:quruq #;
+qëlin+ADJ:qëlin #;
+qëlinraq+ADJ:qëlinraq #;
+qëri+ADJ:qëri #;
 rast+ADJ:rast #; ! right, true
+rastinla+ADJ:rastinla #;
+rastma+ADJ:rastma #;
+razi+ADJ:razi #;
+reŋdar+ADJ:reŋdar #;
+reŋgareŋ+ADJ:reŋgareŋ #;
 reŋlik+ADJ:reŋlik #;
+riyasetči+ADJ:riyasetči #;
+rošen+ADJ:rošen #;
+sadiq+ADJ:sadiq #;
+sap+ADJ:sap #;
+sapsëriq+ADJ:sapsëriq #;
+saq+ADJ:saq #;
+saraŋ+ADJ:saraŋ #;
+sawabliq+ADJ:sawabliq #;
+sawatliq+ADJ:sawatliq #;
 saxta+ADJ:saxta #; ! bogus
+sazawer+ADJ:sazawer #;
+sağlam+ADJ:sağlam #;
+semimiy+ADJ:semimiy #;
+sëhriy+ADJ:sëhriy #;
 sëriq+ADJ:sëriq #; ! yellow
+siliq+ADJ:siliq #;
+sipaye+ADJ:sipaye #;
+soqma+ADJ:soqma #;
+soğuq+ADJ:soğuq #;
+soğuqqa+ADJ:soğuqqa #;
+soğuqta+ADJ:soğuqta #;
+soğuqtin+ADJ:soğuqtin #;
+söletlik+ADJ:söletlik #;
+sösün+ADJ:sösün #;
+söyümlük+ADJ:söyümlük #;
 sus+ADJ:sus #;
+süpsüzük+ADJ:süpsüzük #;
 süzük+ADJ:süzük #;
+šakičik+ADJ:šakičik #;
+šertlik+ADJ:šertlik #;
+šimaliy+ADJ:šimaliy #;
+šox+ADJ:šox #;
+tamliq+ADJ:tamliq #;
+taqir+ADJ:taqir #;
+tar+ADJ:tar #;
+tatliq+ADJ:tatliq #;
+tašqi+ADJ:tašqi #;
+tekši+ADJ:tekši #;
+tereqqi_tapqan+ADJ:tereqqi_tapqan #;
+tes+ADJ:tes #;
+teste+ADJ:teste #;
+teŋla+ADJ:teŋla #;
+tëgišlik+ADJ:tëgišlik #;
+tëmen+ADJ:tëmen #;
 tëz+ADJ:tëz #; ! fast, quick
+tëzla+ADJ:tëzla #;
+tigide+ADJ:tigide #;
+timtas+ADJ:timtas #;
+tinsiz+ADJ:tinsiz #;
+tinč+ADJ:tinč #;
+tirik+ADJ:tirik #;
 toğra+ADJ:toğra #; ! correct
+tola+ADJ:tola #;
+toluq+ADJ:toluq #;
+tom+ADJ:tom #;
+toptoğra+ADJ:toptoğra #;
 toq+ADJ:toq #;
+töwen+ADJ:töwen #;
+tušluq+ADJ:tušluq #;
+tünügünki+ADJ:tünügünki #;
+tüptüz+ADJ:tüptüz #;
+wehimilik+ADJ:wehimilik #;
 wehšiy+ADJ:wehšiy #;
+xam+ADJ:xam #;
+xas+ADJ:xas #;
+xata+ADJ:xata #;
+xatirjem+ADJ:xatirjem #;
+xirelešken+ADJ:xirelešken #;
 xošal+ADJ:xošal #;
 xuš+ADJ:xuš #;
+xušal+ADJ:xušal #;
+xuštar+ADJ:xuštar #;
+yalaŋ+ADJ:yalaŋ #;
+yalğandin+ADJ:yalğandin #;
+yalğuz+ADJ:yalğuz #;
+yaman+ADJ:yaman #;
+yaminiğa+ADJ:yaminiğa #;
+yamğurluq+ADJ:yamğurluq #;
+yapyëšil+ADJ:yapyëšil #;
+yaqturup+ADJ:yaqturup #;
+yaramliq+ADJ:yaramliq #;
+yawa+ADJ:yawa #;
 yaxši+ADJ:yaxši #; ! good
+yaxšiken+ADJ:yaxšiken #;
+yaxšisi+ADJ:yaxšisi #;
+yašliq+ADJ:yašliq #;
+yënik+ADJ:yënik #;
 yëŋi+ADJ:yëŋi #; ! new
+yëŋidin+ADJ:yëŋidin #;
 yëqimliq+ADJ:yëqimliq #; ! attractive
+yëqin+ADJ:yëqin #;
 yërim+ADJ:yërim #; ! half, partial
+yërimi+ADJ:yërimi #;
 yëšil+ADJ:yëšil #; ! green
+yigitlik+ADJ:yigitlik #;
 yiraq+ADJ:yiraq #; ! distant
+yiraqlarğa+ADJ:yiraqlarğa #;
+yiraqtiki+ADJ:yiraqtiki #;
+yiraqtin+ADJ:yiraqtin #;
+yiterlik+ADJ:yiterlik #;
 yoq+ADJ:yoq #; ! absent
+yoqmidi+ADJ:yoqmidi #;
+yoqtek+ADJ:yoqtek #;
+yoruqida+ADJ:yoruqida #;
+yumran+ADJ:yumran #;
 yuqiri+ADJ:yuqiri #;
+yuqiriqilar+ADJ:yuqiriqilar #;
+yüenlik+ADJ:yüenlik #;
+yüksek+ADJ:yüksek #;
+zeherlik+ADJ:zeherlik #;
+zërek+ADJ:zërek #;
+zič+ADJ:zič #;
+zil+ADJ:zil #;
+zilwa+ADJ:zilwa #;
+ziyanliq+ADJ:ziyanliq #;
 zor+ADJ:zor #;
+zörür+ADJ:zörür #;
 
 
 
