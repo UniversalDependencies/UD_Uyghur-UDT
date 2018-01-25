@@ -1,0 +1,8 @@
+# Transliteration from romanized lexical symbols to the Perso-Arabic Uyghur script.
+# Arrows do not guarantee 1-1 mapping. The up transition will assume that Arabic letters can also occur in the lexicon. It will thus produce all possible partial transliterations, i.e. combinations of Latin and Arabic letters. Therefore we also define the opposite transliteration in a separate expression.
+define TranslitL2U '->ئ, a->ا, b->ب, č->چ, d->د, e->ە, ë->ې, f->ف, g->گ, ğ->غ, h->ھ, i->ى, j->ج, k->ك, l->ل, m->م, n->ن, ŋ->ڭ, o->و, ö->ۆ, p->پ, q->ق, r->ر, s->س, š->ش, t->ت, u->ۇ, ü->ۈ, w->ۋ, x->خ, y->ي, z->ز ;
+define TranslitU2L ئ->', ا->a, ب->b, چ->č, د->d, ە->e, ې->ë, ف->f, گ->g, غ->ğ, ھ->h, ى->i, ج->j, ك->k, ل->l, م->m, ن->n, ڭ->ŋ, و->o, ۆ->ö, پ->p, ق->q, ر->r, س->s, ش->š, ت->t, ۇ->u, ۈ->ü, ۋ->w, خ->x, ي->y, ز->z ;
+
+# Uncomment this if you want to romanize Uyghur words even if they are not in the lexicon; then type "down".
+# (Or save the stack, then run "flookup -i".)
+regex TranslitU2L ;
