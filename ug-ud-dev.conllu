@@ -2,7 +2,8 @@
 # text = مەن بولسام شەكىل ئۆزگەرتىپ ئۆزۈم قەدىرلەپ سۆيگەن بىر قىزنىڭ تومۇرىدىكى ئىسسىق، قىزىل قېنىنى شوراۋاتقان يەتتە باشلىق يالماۋۇزغا ئايلىنىپ، كىمدۇر بىرىنىڭ ئاتلىق كېلىپ مېنى ئۆلتۈرۈۋېتىشىنى كۈتەتتىم.
 1	مەن	_	PRON	P	_	27	nsubj	_	Translit=men
 2	بولسام	_	AUX	V	_	1	cop	_	Translit=bolsam
-3	شەكىل	_	NOUN	N	_	4	obj	_	Translit=shekil
+3	شەكىل	_	NOUN
+	N	_	4	obj	_	Translit=shekil
 4	ئۆزگەرتىپ	_	VERB	V	_	19	advcl	_	Translit=özgertip
 5	ئۆزۈم	_	PRON	P	_	7	nsubj	_	Translit=özüm
 6	قەدىرلەپ	_	NOUN	N	_	7	advmod	_	Translit=qedirlep
