@@ -16,3 +16,16 @@ conllu:
 
 coverage:
 	perl -e 'while(<>) { if (m/^\d+\t[^\t]+\t([^\t]+)\t/) { $$n++ ; $$l++ if($$1 ne "_"); } } printf("%d/%d=%f\n", $$l, $$n, $$l/$$n);' < ug-ud.m.conllu
+
+# Fran: I've made a change to the morph script to calculate a score based on the
+# times that each feature is seen with each relation. This should give better
+# results than just picking one at random. It's not perfect, but it is an
+# improvement.
+#
+# cd /home/zeman/nastroje/hfst
+# svn up in apertium-uig and then git pull in ud-scripts.
+#
+# You can run it now like: [command modified by Dan]
+
+hfst:
+	cat UD_Uyghur/not-to-release/morphology/ug-ud.conllu | python3 ud-scripts/conllu-morph.py apertium-uig-incubator/uig.automorf.hfst apertium-uig/texts/uig-feats.tsv apertium-uig/texts/uig-feat-rel.tsv > UD_Uyghur/not-to-release/morphology/ug-ud.m-fran.conllu
