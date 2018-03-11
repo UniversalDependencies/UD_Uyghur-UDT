@@ -14,3 +14,5 @@ foma:
 conllu:
 	perl apply-foma-output-to-conllu.pl ug-ud.m.txt < ug-ud.conllu > ug-ud.m.conllu
 
+coverage:
+	perl -e 'while(<>) { if (m/^\d+\t[^\t]+\t([^\t]+)\t/) { $$n++ ; $$l++ if($$1 ne "_"); } } printf("%d/%d=%f\n", $$l, $$n, $$l/$$n);' < ug-ud.m.conllu
