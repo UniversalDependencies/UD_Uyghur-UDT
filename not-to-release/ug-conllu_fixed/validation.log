@@ -1,0 +1,211 @@
+001.conllu
+[Line                   49]: Invalid DEPREL value conj>dobj
+[Line                   49]: Violation of guidelines: relation conj>dobj must go left-to-right
+[Line                   49]: Unknown UD DEPREL: conj>dobj
+[Line                   665]: Invalid DEPREL value conj>nsubj
+[Line                   665]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   665]: Unknown UD DEPREL: conj>nsubj
+*** FAILED *** with 6 errors
+Syntax errors: 6
+002.conllu
+[Line                   1216]: Unknown UD DEPREL: name
+[Line                   1217]: Unknown UD DEPREL: name
+*** FAILED *** with 2 errors
+Syntax errors: 2
+003.conllu
+[Line                   85]: Unknown UD DEPREL: name
+[Line                   132]: Unknown UD DEPREL: name
+[Line                   181]: Unknown UD DEPREL: name
+*** FAILED *** with 3 errors
+Syntax errors: 3
+004.conllu
+*** PASSED ***
+005.conllu
+*** PASSED ***
+006.conllu
+*** PASSED ***
+007.conllu
+[Line                   129]: Invalid DEPREL value conj>nmod
+[Line                   129]: Violation of guidelines: relation conj>nmod must go left-to-right
+[Line                   129]: Unknown UD DEPREL: conj>nmod
+*** FAILED *** with 3 errors
+Syntax errors: 3
+008.conllu
+[Line                   80]: Unknown UD DEPREL: dobj
+[Line                   1046]: Unknown UD DEPREL: dobj
+*** FAILED *** with 2 errors
+Syntax errors: 2
+009.conllu
+[Line                   1212]: Invalid DEPREL value conj>nsubj
+[Line                   1212]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   1212]: Unknown UD DEPREL: conj>nsubj
+*** FAILED *** with 3 errors
+Syntax errors: 3
+010.conllu
+[Tree number 4 on line 81]: Non-tree structure. Words 1,2,3,4,5,6 are not reachable from the root 0.
+*** FAILED *** with 1 errors
+Syntax errors: 1
+011.conllu
+[Line                   297]: Invalid DEPREL value conj>csubj
+[Line                   297]: Violation of guidelines: relation conj>csubj must go left-to-right
+[Line                   297]: Unknown UD DEPREL: conj>csubj
+*** FAILED *** with 3 errors
+Syntax errors: 3
+012.conllu
+[Line                   913]: Invalid DEPREL value conj>dobj
+[Line                   913]: Unknown UD DEPREL: conj>dobj
+*** FAILED *** with 2 errors
+Syntax errors: 2
+013.conllu
+[Line                   342]: Unknown UD DEPREL: name
+*** FAILED *** with 1 errors
+Syntax errors: 1
+014.conllu
+[Line                   1154]: Unknown UD DEPREL: name
+[Line                   1155]: Unknown UD DEPREL: name
+[Line                   1158]: Unknown UD DEPREL: name
+[Line                   1169]: Unknown UD DEPREL: name
+*** FAILED *** with 4 errors
+Syntax errors: 4
+015.conllu
+*** PASSED ***
+016.conllu
+[Line                   858]: Invalid DEPREL value conj>subj
+[Line                   858]: Violation of guidelines: relation conj>subj must go left-to-right
+[Line                   858]: Unknown UD DEPREL: conj>subj
+[Line                   869]: Invalid DEPREL value conj>dobj
+[Line                   869]: Violation of guidelines: relation conj>dobj must go left-to-right
+[Line                   869]: Unknown UD DEPREL: conj>dobj
+*** FAILED *** with 6 errors
+Syntax errors: 6
+017.conllu
+[Line                   931]: Unknown UD DEPREL: nmod:cmp
+*** FAILED *** with 1 errors
+Syntax errors: 1
+018.conllu
+[Tree number 100 on line 1419]: HEAD == ID for 8
+[Tree number 100 on line 1419]: Non-tree structure. Words 8 are not reachable from the root 0.
+*** FAILED *** with 2 errors
+Format errors: 1
+Syntax errors: 1
+019.conllu
+[Line                   3]: Invalid DEPREL value conj>nsubj
+[Line                   3]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   3]: Unknown UD DEPREL: conj>nsubj
+[Line                   5]: Invalid DEPREL value conj>nmod
+[Line                   5]: Violation of guidelines: relation conj>nmod must go left-to-right
+[Line                   5]: Unknown UD DEPREL: conj>nmod
+[Line                   97]: Invalid DEPREL value conj>nsubj
+[Line                   97]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   97]: Unknown UD DEPREL: conj>nsubj
+[Line                   99]: The line has 9 columns, but 10 are expected.
+[Line                   99]: White space not allowed in the DEPREL column: 'conj>nmod _'
+[Line                   99]: Invalid DEPREL value conj>nmod _
+[Line                   99]: Failed for parse DEPS: SpaceAfter=No|Translit=yilda
+[Line                   99]: Violation of guidelines: relation conj>nmod _ must go left-to-right
+[Line                   99]: Unknown UD DEPREL: conj>nmod _
+[Line                   99]: Malformed head:deprel pair 'SpaceAfter=No'
+[Line                   99]: Malformed head:deprel pair 'Translit=yilda'
+[Line                   101]: Invalid DEPREL value conj>nsubj
+[Line                   101]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   101]: Unknown UD DEPREL: conj>nsubj
+[Line                   110]: Failed for parse DEPS: SpaceAfter=No|Translit=yilda
+[Line                   110]: Failed to parse DEPS: SpaceAfter=No|Translit=yilda
+[Line                   110]: Exception caught!
+*** FAILED *** with 23 errors
+Format errors: 5
+Syntax errors: 18
+Traceback (most recent call last):
+  File "/net/work/people/zeman/unidep/tools/validate.py", line 788, in &lt;module&gt;
+    validate(inp,out,args,tagsets,known_sent_ids)
+  File "/net/work/people/zeman/unidep/tools/validate.py", line 663, in validate
+    validate_text_meta(comments,tree)
+  File "/net/work/people/zeman/unidep/tools/validate.py", line 169, in validate_text_meta
+    if u"NoSpaceAfter=Yes" in cols[MISC]: #I leave this without the split("|") to catch all
+IndexError: list index out of range
+
+020.conllu
+*** PASSED ***
+021.conllu
+*** PASSED ***
+022.conllu
+*** PASSED ***
+023.conllu
+[Line                   9]: Unknown UD DEPREL: name
+[Line                   137]: Unknown UD DEPREL: name
+[Line                   573]: Invalid DEPREL value conj>subj
+[Line                   573]: Violation of guidelines: relation conj>subj must go left-to-right
+[Line                   573]: Unknown UD DEPREL: conj>subj
+*** FAILED *** with 5 errors
+Syntax errors: 5
+024.conllu
+*** PASSED ***
+025.conllu
+[Line                   253]: Violation of guidelines: relation conj must go left-to-right
+[Line                   255]: Violation of guidelines: relation conj must go left-to-right
+[Line                   264]: Unknown UD DEPREL: name
+[Line                   265]: Unknown UD DEPREL: name
+[Line                   276]: Violation of guidelines: relation conj must go left-to-right
+[Line                   279]: Violation of guidelines: relation conj must go left-to-right
+[Line                   282]: Violation of guidelines: relation conj must go left-to-right
+*** FAILED *** with 7 errors
+Syntax errors: 7
+026.conllu
+*** PASSED ***
+027.conllu
+[Line                   1009]: Invalid DEPREL value conj>nsubj
+[Line                   1009]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   1009]: Unknown UD DEPREL: conj>nsubj
+[Line                   1102]: Unknown UD DEPREL: name
+[Line                   1309]: Unknown UD DEPREL: name
+*** FAILED *** with 5 errors
+Syntax errors: 5
+028.conllu
+[Line                   333]: Invalid DEPREL value conj>nsubj
+[Line                   333]: Violation of guidelines: relation conj>nsubj must go left-to-right
+[Line                   333]: Unknown UD DEPREL: conj>nsubj
+[Line                   697]: Unknown UD DEPREL: name
+*** FAILED *** with 4 errors
+Syntax errors: 4
+029.conllu
+[Line                   746]: Unknown UD DEPREL: name
+[Line                   767]: Unknown UD DEPREL: name
+[Line                   846]: Unknown UD DEPREL: name
+[Line                   895]: Unknown UD DEPREL: name
+[Line                   957]: Unknown UD DEPREL: name
+[Line                   1040]: Unknown UD DEPREL: name
+*** FAILED *** with 6 errors
+Syntax errors: 6
+030.conllu
+[Line                   63]: Unknown UD DEPREL: name
+[Line                   145]: Unknown UD DEPREL: name
+[Line                   439]: Unknown UD DEPREL: mwe
+[Line                   1029]: DEPREL can only be "root" if HEAD is 0
+*** FAILED *** with 4 errors
+Syntax errors: 4
+031.conllu
+*** PASSED ***
+032.conllu
+*** PASSED ***
+033.conllu
+[Line                   738]: Invalid DEPREL value conj>dobj
+[Line                   738]: Violation of guidelines: relation conj>dobj must go left-to-right
+[Line                   738]: Unknown UD DEPREL: conj>dobj
+[Line                   739]: Invalid DEPREL value conj>nmod
+[Line                   739]: Violation of guidelines: relation conj>nmod must go left-to-right
+[Line                   739]: Unknown UD DEPREL: conj>nmod
+[Line                   1011]: Unknown UD DEPREL: name
+*** FAILED *** with 7 errors
+Syntax errors: 7
+034.conllu
+*** PASSED ***
+035.conllu
+[Line                   93]: Unknown UD DEPREL: name
+[Line                   122]: Unknown UD DEPREL: name
+[Line                   168]: Unknown UD DEPREL: name
+[Line                   179]: Unknown UD DEPREL: name
+[Line                   251]: Unknown UD DEPREL: name
+[Line                   324]: Unknown UD DEPREL: name
+[Line                   333]: Unknown UD DEPREL: name
+*** FAILED *** with 7 errors
+Syntax errors: 7
