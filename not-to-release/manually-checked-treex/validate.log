@@ -1,0 +1,127 @@
+001.conllu
+*** PASSED ***
+002.conllu
+*** PASSED ***
+003.conllu
+*** PASSED ***
+004.conllu
+*** PASSED ***
+005.conllu
+*** PASSED ***
+006.conllu
+*** PASSED ***
+007.conllu
+*** PASSED ***
+008.conllu
+*** PASSED ***
+009.conllu
+*** PASSED ***
+010.conllu
+*** PASSED ***
+011.conllu
+*** PASSED ***
+012.conllu
+[Line                   913]: Unknown UD DEPREL: conj-
+*** FAILED *** with 1 errors
+Syntax errors: 1
+013.conllu
+*** PASSED ***
+014.conllu
+[Line                   1020]: Unknown UD DEPREL: nmod:cmp
+*** FAILED *** with 1 errors
+Syntax errors: 1
+015.conllu
+*** PASSED ***
+016.conllu
+[Line                   134]: Unknown UD DEPREL: nmod:cmp
+[Line                   858]: Unknown UD DEPREL: conj--
+[Line                   869]: Unknown UD DEPREL: conj--
+*** FAILED *** with 3 errors
+Syntax errors: 3
+017.conllu
+[Line                   155]: Unknown UD DEPREL: compound:poss
+[Line                   171]: Unknown UD DEPREL: compound:poss
+[Line                   498]: Unknown UD DEPREL: compound:poss
+[Line                   931]: Unknown UD DEPREL: nmod:cmp
+[Line                   940]: DEPREL can only be "root" if HEAD is 0
+*** FAILED *** with 5 errors
+Syntax errors: 5
+018.conllu
+[Line                   1004]: DEPREL can only be "root" if HEAD is 0
+*** FAILED *** with 1 errors
+Syntax errors: 1
+019.conllu
+[Line                   3]: Unknown UD DEPREL: nsubj--
+[Line                   5]: Unknown UD DEPREL: nmod--
+[Line                   97]: Unknown UD DEPREL: nsubj--
+[Line                   99]: Unknown UD DEPREL: nmod--
+[Line                   101]: Unknown UD DEPREL: nsubj--
+[Line                   194]: Unknown UD DEPREL: nsubj--
+[Line                   196]: Unknown UD DEPREL: nmod--
+[Line                   292]: Unknown UD DEPREL: advmod:tmod
+[Line                   533]: DEPREL can only be "root" if HEAD is 0
+[Line                   757]: Unknown UD DEPREL: nummod:redup
+*** FAILED *** with 10 errors
+Syntax errors: 10
+020.conllu
+*** PASSED ***
+021.conllu
+*** PASSED ***
+022.conllu
+[Line                   946]: Unknown UD DEPREL: dislocative
+*** FAILED *** with 1 errors
+Syntax errors: 1
+023.conllu
+[Line                   505]: Unknown UD DEPREL: compound:re
+[Line                   573]: Unknown UD DEPREL: conj--
+*** FAILED *** with 2 errors
+Syntax errors: 2
+024.conllu
+[Line                   1544]: DEPREL can only be "root" if HEAD is 0
+*** FAILED *** with 1 errors
+Syntax errors: 1
+025.conllu
+*** PASSED ***
+026.conllu
+*** PASSED ***
+027.conllu
+[Line                   1009]: Unknown UD DEPREL: conj-
+*** FAILED *** with 1 errors
+Syntax errors: 1
+028.conllu
+[Line                   333]: Unknown UD DEPREL: conj-
+[Line                   663]: DEPREL can only be "root" if HEAD is 0
+[Line                   926]: Unknown UD DEPREL: dislocate
+[Line                   1347]: Unknown UD DEPREL: dislocate
+[Line                   1494]: Unknown UD DEPREL: dislocate
+*** FAILED *** with 5 errors
+Syntax errors: 5
+029.conllu
+[Line                   51]: Unknown UD DEPREL: advmod:tmod
+[Line                   654]: Unknown UD DEPREL: name:tmod
+[Line                   1066]: Unknown UD DEPREL: advmod:tmod
+*** FAILED *** with 3 errors
+Syntax errors: 3
+030.conllu
+[Line                   26]: Unknown UD DEPREL: disclose
+[Line                   1029]: DEPREL can only be "root" if HEAD is 0
+*** FAILED *** with 2 errors
+Syntax errors: 2
+031.conllu
+[Line                   127]: Unknown UD DEPREL: dislocate
+[Line                   138]: Unknown UD DEPREL: dislocate
+*** FAILED *** with 2 errors
+Syntax errors: 2
+032.conllu
+*** PASSED ***
+033.conllu
+[Line                   738]: Unknown UD DEPREL: conj-
+[Line                   739]: Unknown UD DEPREL: conj-
+*** FAILED *** with 2 errors
+Syntax errors: 2
+034.conllu
+[Line                   1360]: Unknown UD DEPREL: advmod:tmod
+*** FAILED *** with 1 errors
+Syntax errors: 1
+035.conllu
+*** PASSED ***
