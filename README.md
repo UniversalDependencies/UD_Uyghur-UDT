@@ -12,6 +12,8 @@ middle school, including stories, records and reports.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Uyghur to UD_Uyghur-UDT.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman).
   * Added new manually checked data (Marhaba Eli).
