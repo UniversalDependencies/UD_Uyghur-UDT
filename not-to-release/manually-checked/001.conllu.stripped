@@ -46,7 +46,7 @@
 10	ئۆسۈملۈكلەرگە	_	NOUN	N	_	8	conj	_	Translit=ösümlüklerge
 11	قانداق	_	PRON	P	_	13	advmod	_	Translit=qandaq
 12	مۇئامىلە	_	NOUN	N	_	13	compound	_	Translit=muamile
-13	قىلغانلىقى	_	VERB	V	_	18	conj	_	SpaceAfter=No|Translit=qilghanliqi
+13	قىلغانلىقى	_	VERB	V	_	18	conj	_	SpaceAfter=No|Translit=qilghanliqi|Edep=18:conj>obj
 14	،	_	PUNCT	Y	_	13	punct	_	Translit=,
 15	ئاقىۋىتىنىڭ	_	NOUN	N	_	17	nsubj	_	Translit=aqiwitining
 16	قانداق	_	PRON	P	_	17	advmod	_	Translit=qandaq
@@ -662,7 +662,7 @@
 2	بىلەن	_	CCONJ	C	_	1	case	_	Translit=bilen
 3	بەرپا	_	NOUN	N	_	4	compound	_	Translit=berpa
 4	قىلىنغان	_	VERB	V	_	5	acl	_	Translit=qilinghan
-5	نەرسىلەر	_	NOUN	N	_	12	conj	_	SpaceAfter=No|Translit=nersiler
+5	نەرسىلەر	_	NOUN	N	_	12	conj	_	SpaceAfter=No|Translit=nersiler|Edep=12:conj>nsubj
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	ھەتتا	_	CCONJ	C	_	12	nsubj	_	Translit=hetta
 8	ئاشۇ	_	PRON	P	_	10	det	_	Translit=ashu

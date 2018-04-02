@@ -126,7 +126,7 @@
 1	ساشا	_	NOUN	N	_	13	nsubj	_	Translit=sasha
 2	ئاۋۋال	_	ADV	D	_	4	advmod	_	Translit=awwal
 3	يامغۇرلۇق	_	NOUN	N	_	4	amod	_	Translit=yamghurluq
-4	چاپانغا	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=chapangha
+4	چاپانغا	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=chapangha|Edep=8:conj>nmod
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	ئاندىن	_	CCONJ	C	_	8	advmod	_	Translit=andin
 7	ئانىسىغا	_	NOUN	N	_	8	obl	_	Translit=anisigha

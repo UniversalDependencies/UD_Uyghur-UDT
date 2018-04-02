@@ -294,7 +294,7 @@
 3	جاۋاب	_	NOUN	N	_	6	obl	_	Translit=jawab
 4	بىلەن	_	ADP	R	_	3	case	_	Translit=bilen
 5	قانائەتلىنىپ	_	VERB	V	_	6	compound:lvc	_	Translit=qanaetlinip
-6	قالماسلىق	_	VERB	V	_	11	conj	_	SpaceAfter=No|Translit=qalmasliq
+6	قالماسلىق	_	VERB	V	_	11	conj	_	SpaceAfter=No|Translit=qalmasliq|Edep=11:conj>csubj
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئىزدىنىشتىن	_	NOUN	N	_	10	obl	_	Translit=izdinishtin
 9	ۋاز	_	NOUN	N	_	10	compound	_	Translit=waz

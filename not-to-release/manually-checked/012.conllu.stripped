@@ -910,7 +910,7 @@
 10	يەنى	_	CCONJ	C	_	13	mark	_	Translit=yeni
 11	چوڭ	_	ADJ	A	_	12	amod	_	Translit=chong
 12	دەرەخ	_	NOUN	N	_	13	nmod	_	Translit=derex
-13	ئاچىمىقىنى	_	NOUN	N	_	8	conj	_	SpaceAfter=No|Translit=achimiqini
+13	ئاچىمىقىنى	_	NOUN	N	_	8	conj	_	SpaceAfter=No|Translit=achimiqini|Edep=8:conj>obj
 14	.	_	PUNCT	Y	_	13	punct	_	SpaceAfter=No|Translit=.
 15	.	_	PUNCT	Y	_	13	punct	_	SpaceAfter=No|Translit=.
 16	.	_	PUNCT	Y	_	13	punct	_	Translit=.
