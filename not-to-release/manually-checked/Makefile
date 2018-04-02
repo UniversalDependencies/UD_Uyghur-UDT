@@ -13,9 +13,13 @@ package:
 #treex_to_conllu:
 #	treex -Lug Read::Treex from='!*.treex.gz' W2W::EstimateNoSpaceAfter HamleDT::UD1To2 Write::CoNLLU print_zone_id=0 path=.
 
+# Strip tails of chained relations that are not allowed in UD. Keep them in MISC. Do that in-place, i.e. rewrite the original files!
+strip:
+	for i in [0-9]*.conllu ; do echo $$i ; ( cat $$i | strip-chained-deprels.pl > x ) ; mv x $$i ; done
+
 # Separate validation of partial files will facilitate locating errors in the source files.
 validate:
 	rm -f *.log
-	for i in [0-9]*.conllu ; do echo $$i ; ( cat $$i | strip-chained-deprels.pl > $$i.stripped ) ; ( ( echo $$i ; ../../../tools/validate.py --lang ug $$i.stripped ) >> validate.log 2>&1 ) ; done
+	for i in [0-9]*.conllu ; do echo $$i ; ( ( echo $$i ; ../../../tools/validate.py --lang ug $$i ) >> validate.log 2>&1 ) ; done
 	cat validate.log
 
