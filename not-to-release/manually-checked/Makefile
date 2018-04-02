@@ -4,7 +4,11 @@ package:
 	cat [0-9]*.conllu > ug-ud.conllu
 	../../../tools/validate.py --lang ug ug-ud.conllu
 	cat ug-ud.conllu | ../../../tools/conllu-stats.pl > ../../stats.xml
-	split_conll.pl < ug-ud.conllu -head 900 ../../ug_udt-ud-test.conllu ../../ug_udt-ud-dev.conllu
+	split_conll.pl < ug-ud.conllu -head 900 ../../ug_udt-ud-test.conllu devtrain.conllu
+	split_conll.pl < devtrain.conllu -head 900 ../../ug_udt-ud-dev.conllu ../../ug_udt-ud-train.conllu
+	wc_conll.pl ../../ug_udt-ud-train.conllu
+	wc_conll.pl ../../ug_udt-ud-dev.conllu
+	wc_conll.pl ../../ug_udt-ud-test.conllu
 
 # We started to edit the CoNLL-U files directly. They are now the master
 # copy. They contain changes that were not done in the Treex files.
