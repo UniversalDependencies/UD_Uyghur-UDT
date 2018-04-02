@@ -28,4 +28,4 @@ coverage:
 # You can run it now like: [command modified by Dan]
 
 hfst:
-	cd /home/zeman/nastroje/hfst ; cat UD_Uyghur/not-to-release/manually-checked/ug-ud.conllu | python3 ud-scripts/conllu-morph.py apertium-uig-incubator/uig.automorf.hfst apertium-uig/texts/uig-feats.tsv apertium-uig/texts/uig-feat-rel.tsv > UD_Uyghur/not-to-release/morphology/ug-ud.m-fran.conllu ; cd /net/work/people/zeman/unidep/UD_Uyghur/not-to-release/morphology
+	cd /home/zeman/nastroje/hfst ; cat UD_Uyghur/not-to-release/manually-checked/ug-ud.conllu | python3 ud-scripts/conllu-morph.py apertium-uig-incubator/uig.automorf.hfst apertium-uig/texts/uig-feats.tsv apertium-uig/texts/uig-feat-rel.tsv > UD_Uyghur/not-to-release/morphology/ug-ud.m-fran.conllu ; cd /net/work/people/zeman/unidep/UD_Uyghur-UDT/not-to-release/morphology
