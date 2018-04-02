@@ -1,8 +1,8 @@
 # sent_id = s1801
 # text = نەشپۈت بەش يىلدا، ئۆرۈك تۆت يىلدا مېۋە بېرىدۇ دېگەننى ئاڭلىمىغانمىدىڭ؟
-1	نەشپۈت	_	NOUN	N	_	9	nsubj--	_	Translit=neshpüt
+1	نەشپۈت	_	NOUN	N	_	9	nsubj	_	Translit=neshpüt
 2	بەش	_	NUM	M	_	3	nummod	_	Translit=besh
-3	يىلدا	_	NOUN	N	_	9	nmod--	_	SpaceAfter=No|Translit=yilda
+3	يىلدا	_	NOUN	N	_	9	nmod	_	SpaceAfter=No|Translit=yilda
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	ئۆرۈك	_	NOUN	N	_	9	nsubj	_	Translit=örük
 6	تۆت	_	NUM	M	_	7	nummod	_	Translit=töt
@@ -94,11 +94,11 @@
 
 # sent_id = s1808
 # text = ئۆرۈك تۆت يىلدا، شاپتۇل ئۈچ يىللدا مېۋىگە كىرىدۇ دېگەن گەپ بار.
-1	ئۆرۈك	_	NOUN	N	_	9	nsubj--	_	Translit=örük
+1	ئۆرۈك	_	NOUN	N	_	9	nsubj	_	Translit=örük
 2	تۆت	_	NUM	M	_	3	nummod	_	Translit=töt
-3	يىلدا	_	NOUN	N	_	9	nmod--	_	SpaceAfter=No|Translit=yilda
+3	يىلدا	_	NOUN	N	_	9	nmod	_	SpaceAfter=No|Translit=yilda
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
-5	شاپتۇل	_	NOUN	N	_	9	nsubj--	_	Translit=shaptul
+5	شاپتۇل	_	NOUN	N	_	9	nsubj	_	Translit=shaptul
 6	ئۈچ	_	NUM	M	_	7	nummod	_	Translit=üch
 7	يىللدا	_	NOUN	N	_	9	obl	_	Translit=yillda
 8	مېۋىگە	_	NOUN	N	_	9	obl	_	Translit=mëwige
@@ -191,9 +191,9 @@
 
 # sent_id = s1815
 # text = شاپتۇل تۆت يىلدا، گىلاس ئۈچ يىلدا مېۋىگە كىرىدۇ دېگەن گەپ بار.
-1	شاپتۇل	_	NOUN	N	_	9	nsubj--	_	Translit=shaptul
+1	شاپتۇل	_	NOUN	N	_	9	nsubj	_	Translit=shaptul
 2	تۆت	_	NUM	M	_	3	nummod	_	Translit=töt
-3	يىلدا	_	NOUN	N	_	9	nmod--	_	SpaceAfter=No|Translit=yilda
+3	يىلدا	_	NOUN	N	_	9	nmod	_	SpaceAfter=No|Translit=yilda
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	گىلاس	_	NOUN	N	_	9	nsubj	_	Translit=gilas
 6	ئۈچ	_	NUM	M	_	7	nummod	_	Translit=üch

@@ -58,25 +58,11 @@ Syntax errors: 5
 *** FAILED *** with 1 errors
 Syntax errors: 1
 019.conllu
-[Line                   3]: Invalid DEPREL value nsubj--
-[Line                   3]: Unknown UD DEPREL: nsubj--
-[Line                   5]: Invalid DEPREL value nmod--
-[Line                   5]: Unknown UD DEPREL: nmod--
-[Line                   97]: Invalid DEPREL value nsubj--
-[Line                   97]: Unknown UD DEPREL: nsubj--
-[Line                   99]: Invalid DEPREL value nmod--
-[Line                   99]: Unknown UD DEPREL: nmod--
-[Line                   101]: Invalid DEPREL value nsubj--
-[Line                   101]: Unknown UD DEPREL: nsubj--
-[Line                   194]: Invalid DEPREL value nsubj--
-[Line                   194]: Unknown UD DEPREL: nsubj--
-[Line                   196]: Invalid DEPREL value nmod--
-[Line                   196]: Unknown UD DEPREL: nmod--
 [Line                   292]: Unknown UD DEPREL: advmod:tmod
 [Line                   533]: DEPREL can only be "root" if HEAD is 0
 [Line                   757]: Unknown UD DEPREL: nummod:redup
-*** FAILED *** with 17 errors
-Syntax errors: 17
+*** FAILED *** with 3 errors
+Syntax errors: 3
 020.conllu
 *** PASSED ***
 021.conllu
