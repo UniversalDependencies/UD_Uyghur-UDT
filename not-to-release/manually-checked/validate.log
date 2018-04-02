@@ -58,11 +58,10 @@ Syntax errors: 5
 *** FAILED *** with 1 errors
 Syntax errors: 1
 019.conllu
-[Line                   292]: Unknown UD DEPREL: advmod:tmod
 [Line                   533]: DEPREL can only be "root" if HEAD is 0
 [Line                   757]: Unknown UD DEPREL: nummod:redup
-*** FAILED *** with 3 errors
-Syntax errors: 3
+*** FAILED *** with 2 errors
+Syntax errors: 2
 020.conllu
 *** PASSED ***
 021.conllu
@@ -92,11 +91,9 @@ Syntax errors: 1
 *** FAILED *** with 2 errors
 Syntax errors: 2
 029.conllu
-[Line                   51]: Unknown UD DEPREL: advmod:tmod
 [Line                   654]: Unknown UD DEPREL: name:tmod
-[Line                   1066]: Unknown UD DEPREL: advmod:tmod
-*** FAILED *** with 3 errors
-Syntax errors: 3
+*** FAILED *** with 1 errors
+Syntax errors: 1
 030.conllu
 [Line                   1029]: DEPREL can only be "root" if HEAD is 0
 *** FAILED *** with 1 errors
@@ -111,8 +108,6 @@ Syntax errors: 1
 *** FAILED *** with 2 errors
 Syntax errors: 2
 034.conllu
-[Line                   1360]: Unknown UD DEPREL: advmod:tmod
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 035.conllu
 *** PASSED ***
