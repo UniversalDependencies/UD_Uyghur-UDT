@@ -52,9 +52,8 @@ Syntax errors: 1
 Syntax errors: 1
 019.conllu
 [Line                   533]: DEPREL can only be "root" if HEAD is 0
-[Line                   757]: Unknown UD DEPREL: nummod:redup
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** FAILED *** with 1 errors
+Syntax errors: 1
 020.conllu
 *** PASSED ***
 021.conllu
@@ -62,10 +61,9 @@ Syntax errors: 2
 022.conllu
 *** PASSED ***
 023.conllu
-[Line                   505]: Unknown UD DEPREL: compound:re
 [Line                   573]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** FAILED *** with 1 errors
+Syntax errors: 1
 024.conllu
 [Line                   1544]: DEPREL can only be "root" if HEAD is 0
 *** FAILED *** with 1 errors
@@ -84,9 +82,7 @@ Syntax errors: 1
 *** FAILED *** with 2 errors
 Syntax errors: 2
 029.conllu
-[Line                   654]: Unknown UD DEPREL: name:tmod
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 030.conllu
 [Line                   1029]: DEPREL can only be "root" if HEAD is 0
 *** FAILED *** with 1 errors

@@ -651,7 +651,7 @@
 # text = 1947 - يىلى ئۆكتەبىر ئېيىنىڭ ئاخىرلىرى ئىدى.
 1	1947	_	NUM	M	NumType=Card	3	nummod	_	Translit=1947
 2	-	_	PUNCT	Y	_	1	punct	_	Translit=-
-3	يىلى	_	NOUN	N	_	6	name:tmod	_	Translit=yili
+3	يىلى	_	NOUN	N	_	6	nmod:tmod	_	Translit=yili
 4	ئۆكتەبىر	_	NOUN	N	_	5	compound	_	Translit=öktebir
 5	ئېيىنىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=ëyining
 6	ئاخىرلىرى	_	ADV	D	_	0	root	_	Translit=axirliri

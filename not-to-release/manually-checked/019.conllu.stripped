@@ -754,7 +754,7 @@
 1	شۇنداقلا	_	CCONJ	C	_	9	cc	_	SpaceAfter=No|Translit=shundaqla
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئۇ	_	PRON	P	_	9	nsubj	_	Translit=u
-4	ئوقۇسا	_	NUM	M	_	6	nummod:redup	_	Translit=oqusa
+4	ئوقۇسا	_	NUM	M	_	6	compound:redup	_	Translit=oqusa
 5	-	_	PUNCT	Y	_	4	punct	_	Translit=-
 6	ئوقۇسا	_	NOUN	N	_	7	advcl	_	Translit=oqusa
 7	تۈگىمەيدىغان	_	VERB	V	_	9	acl	_	Translit=tügimeydighan

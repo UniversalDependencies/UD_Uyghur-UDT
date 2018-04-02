@@ -502,7 +502,7 @@
 # text = ئۈرۈمچى خەلقى ئەقىل - پاراسەتلىك، ئىشچان، مېھماندوست.
 1	ئۈرۈمچى	_	NOUN	N	_	2	nmod:clas	_	Translit=ürümchi
 2	خەلقى	_	NOUN	N	_	9	nsubj	_	Translit=xelqi
-3	ئەقىل	_	NOUN	N	_	5	compound:re	_	Translit=eqil
+3	ئەقىل	_	NOUN	N	_	5	compound:redup	_	Translit=eqil
 4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
 5	پاراسەتلىك	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=parasetlik
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
