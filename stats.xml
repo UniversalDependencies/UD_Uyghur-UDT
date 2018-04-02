@@ -5,112 +5,81 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1300</sentences><tokens>15509</tokens><words>15509</words><fused>0</fused></total>
+    <total><sentences>3456</sentences><tokens>40236</tokens><words>40236</words><fused>0</fused></total>
   </size>
-  <lemmas unique="214" /><!-- ., ،, -, 'u, bir, bolmaq, men, bu, bilen, 'i, turmaq, sen, !, ؟, bala -->
-  <forms unique="5782" /><!-- ., ،, -, بىر, بىلەن, بۇ, ئۇ, مەن, !, ؟, :, ۋە, ئىدى, «, » -->
+  <lemmas unique="0" /><!--  -->
+  <forms unique="12067" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
-    <tag name="ADJ">1123</tag><!-- _, čoŋ, kičik, kërek, mumkin, 'ijadiy, toğra, bar, yoq, 'uzaq -->
-    <tag name="ADP">200</tag><!-- bilen, _, 'arqiliq, 'ibaret, 'üstide, qeder, tartip, boyi, qariğanda, süpitide -->
-    <tag name="ADV">405</tag><!-- _, yene, këyin, bek, 'emdi, del, čoqum, 'eŋ, bille, tolimu -->
-    <tag name="AUX">481</tag><!-- _, 'i, bolmaq, qalmaq, turmaq, këtmek, qoymaq, qilmek, 'olturmaq, barmaq -->
-    <tag name="CCONJ">305</tag><!-- we, lëkin, _, 'üčün, 'andin, čünki, 'emma, biraq, yaki, šuŋa -->
-    <tag name="DET">54</tag><!-- _, qëtim, parče, tüp, jüp, tal, top -->
-    <tag name="INTJ">41</tag><!-- _, pah, yaq, maqul, nëmidëgen -->
-    <tag name="NOUN">4872</tag><!-- _, bala, yer, 'adem, 'iš, küni, čağ, su, 'öy, 'ata -->
-    <tag name="NUM">449</tag><!-- bir, _, 'ikki, töt, 'on, yette, miŋ, 'üč, yüz, 'alte -->
-    <tag name="PART">123</tag><!-- _, de, xuddi -->
-    <tag name="PRON">1262</tag><!-- _, 'u, men, bu, sen, šu, her, siz -->
-    <tag name="PUNCT">2934</tag><!-- ., ،, -, _, !, ؟, :, «, », " -->
-    <tag name="VERB">3255</tag><!-- _, bolmaq, turmaq, qilmek, qalmaq, qoymaq, qarimaq, këtmek, 'olturmaq, këlmek -->
-    <tag name="X">5</tag><!-- _ -->
+    <tag name="ADJ">2783</tag><!-- _ -->
+    <tag name="ADP">509</tag><!-- _ -->
+    <tag name="ADV">1040</tag><!-- _ -->
+    <tag name="AUX">1243</tag><!-- _ -->
+    <tag name="CCONJ">795</tag><!-- _ -->
+    <tag name="DET">151</tag><!-- _ -->
+    <tag name="INTJ">121</tag><!-- _ -->
+    <tag name="NOUN">13098</tag><!-- _ -->
+    <tag name="NUM">1117</tag><!-- _ -->
+    <tag name="PART">271</tag><!-- _ -->
+    <tag name="PRON">3173</tag><!-- _ -->
+    <tag name="PUNCT">7769</tag><!-- _ -->
+    <tag name="VERB">8096</tag><!-- _ -->
+    <tag name="X">70</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="34">
-    <feat name="Aspect" value="Hab" upos="AUX,VERB">89</feat><!-- تۇراتتى, قىلاتتى, بولاتتى, تۇرىدىغان, قالاتتىم, كېتىدىغان, قالاتتى, قىلىدىغان, ئولتۇراتتىڭ, ئىشلىتىدىغان -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">149</feat><!-- تۇرغان, بولغان, قالغان, تۇغۇلغان, بولمىغان, ئاڭلىغان, قىلغان, ئازغان, ئالغان, ئولتۇرغان -->
-    <feat name="Aspect" value="Prog" upos="AUX,VERB">16</feat><!-- كېتىۋاتقان, قىلىۋاتقان, كېتىۋاتىدۇ, كېلىۋاتقان, بولىۋاتىدۇ, تۇرماقتا, قارىماقتا, قىلىۋاتاتتى, كېتىۋاتاتتى, كېتىۋاتىمەن -->
-    <feat name="Aspect" value="Prosp" upos="AUX,VERB">11</feat><!-- قىلماقچى, سالماقچى, قويماقچى, ئالماقچى, قالماقچى, قويماقچىمەن, ياسىماقچى -->
-    <feat name="Case" value="Abl" upos="NOUN,PRON">29</feat><!-- ئۇنىڭدىن, سەندىن, يەردىن, ئادەمدىن, مەندىن, ئۆيدىن, ئۇلاردىن, بالىدىن, بىزدىن, تاغدىن -->
-    <feat name="Case" value="Acc" upos="NOUN,PRON">108</feat><!-- ئۇنى, سېنى, مېنى, ئىشنى, ئۇلارنى, كۈنىنى, قىزنى, ئادەملەرنى, بالىنى, بىلىمنى -->
-    <feat name="Case" value="Dat" upos="NOUN,PRON">99</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, يەرگە, بىزگە, ئۇلارغا, سۇغا, بالىغا, بالىلارغا, سىزگە -->
-    <feat name="Case" value="Gen" upos="NOUN,PRON">152</feat><!-- ئۇنىڭ, سېنىڭ, مېنىڭ, ئۇلارنىڭ, بالىنىڭ, بالىلارنىڭ, بىزنىڭ, ئادەمنىڭ, ئوغۇلنىڭ, ئىشنىڭ -->
-    <feat name="Case" value="Loc" upos="NOUN,PRON">58</feat><!-- چاغدا, ھالدا, يەردە, چاغلاردا, مەندە, ھاللاردا, ئادەملەردە, بىلىمدە, دەرەخلەردە, يەرلەردە -->
-    <feat name="Case" value="Nom" upos="NOUN,PRON">734</feat><!-- ئۇ, مەن, سەن, بالا, ئۇلار, كۈنى, ئاتا, ئىش, ئادەم, جاۋاب -->
-    <feat name="Evident" value="Nfh" upos="AUX,VERB">55</feat><!-- ئىكەن, كېتىپتۇ, قالماپتۇ, قىلىپتۇ, ئىكەنسىز, ئىكەنلىكى, قىلىپتىمەن, كېتىپتىمەن -->
-    <feat name="Interrog" value="Yes" upos="AUX,VERB">16</feat><!-- بولسىمۇ, بولامدۇ, كۆردىڭىزمۇ, بولدىڭىزمۇ, بولماسمۇ -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">81</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, قالسا, بولساڭ, تۇرسا, قارىسام, قارىسىڭىز, قويساق -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">23</feat><!-- بولسۇن, قالماي, قىلايلى, قالاي, ئولتۇراي, بولماي, تۇراي, قارىماي, قالايلى, قالماڭ -->
-    <feat name="Mood" value="Ind" upos="AUX,DET,VERB">603</feat><!-- ئىدى, تۇرغان, ئىكەن, تۇراتتى, بولغان, كېتىپتۇ, بولدى, قالدى, قېتىم, قالغان -->
-    <feat name="Mood" value="Pot" upos="AUX,VERB">6</feat><!-- بولالايسىز, بولالمايدۇ, بولالايدۇ, قىلالايدۇ -->
-    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">217</feat><!-- ھەر, ئۇلار, بالىلار, ئۇلارنىڭ, بىز, كىشىلەر, بىزگە, چاغلاردا, ئۇلارغا, ئۇلارنى -->
-    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">1116</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, بالا, ئۇنى, سېنىڭ, كۈنى, ئاتا, مېنىڭ -->
-    <feat name="NumType" value="Card" upos="NUM">344</feat><!-- بىر, ئىككى, تۆت, ئون, يەتتە, مىڭ, ئۈچ, يۈز, ئالتە, بەش -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">265</feat><!-- مەن, مېنىڭ, ماڭا, بولدۇم, بىز, مېنى, بولسام, بىزگە, ئىدىم, بىزنىڭ -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">175</feat><!-- سەن, ھەر, سېنىڭ, سېنى, سىز, بولىسەن, بولساڭ, سىلەر, سەندىن, قارىسىڭىز -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">838</feat><!-- ئۇ, ئىدى, ئۇنىڭ, ئۇنى, تۇرغان, بولسا, ئىكەن, ئۇلار, تۇراتتى, بولغان -->
-    <feat name="Polarity" value="Neg" upos="AUX,VERB">56</feat><!-- بولمايدۇ, بولمىغان, قالماپتۇ, بولمىغاچقا, قالماي, بولالمايدۇ, بولمايدىغان, قارىمايدۇ, قىلمىدى, كۆرمىدىم -->
-    <feat name="Polarity" value="Pos" upos="AUX,VERB">625</feat><!-- ئىدى, تۇرغان, بولسا, ئىكەن, تۇراتتى, بولغان, كېتىپتۇ, بولدى, قالدى, قالغان -->
-    <feat name="Polite" value="Form" upos="PRON">43</feat><!-- ھەر, سىز, سىزگە, سىزنى -->
-    <feat name="Polite" value="Infm" upos="PRON">92</feat><!-- سەن, سېنىڭ, سېنى, سىلەر, سەندىن, سىلەرنى, سىلەرگە -->
-    <feat name="PronType" value="Dem" upos="PRON">191</feat><!-- بۇ, شۇ -->
-    <feat name="PronType" value="Prs" upos="PRON">602</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, ھەر, ئۇنى, ئۇلار, سېنىڭ, مېنىڭ, ئۇنىڭغا -->
-    <feat name="Tense" value="Fut" upos="VERB">26</feat><!-- تۇرىدىغان, كېتىدىغان, قىلىدىغان, ئىشلىتىدىغان, بولمايدىغان, كۆرىدىغان, كېلىدىغان, ماڭىدىغان, ئولتۇرىدىغان, بىلىدىغان -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">282</feat><!-- ئىدى, ئىكەن, تۇراتتى, بولدى, قالدى, بولدۇم, قويدى, قىلاتتى, قىلدى, ئىدىم -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">427</feat><!-- بولۇپ, تۇرغان, بولسا, بولغان, تۇرۇپ, كېتىپتۇ, قالغان, بولىدۇ, قويۇپ, بولسىمۇ -->
-    <feat name="VerbForm" value="Conv" upos="AUX,VERB">5</feat><!-- بولمىغاچقا, بولغاچقا -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">678</feat><!-- ئىدى, تۇرغان, بولسا, ئىكەن, تۇراتتى, بولغان, كېتىپتۇ, بولدى, قالدى, قالغان -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">97</feat><!-- بولۇپ, تۇرۇپ, قويۇپ, ئولتۇرۇپ -->
+  <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
-    <dep name="acl">325</dep>
-    <dep name="advcl">736</dep>
+  <deps unique="49">
+    <dep name="acl">742</dep>
+    <dep name="advcl">1521</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">963</dep>
+    <dep name="advmod">2711</dep>
     <dep name="advmod:emph">30</dep>
-    <dep name="amod">922</dep>
-    <dep name="appos">41</dep>
-    <dep name="aux">390</dep>
+    <dep name="advmod:tmod">4</dep>
+    <dep name="amod">2390</dep>
+    <dep name="appos">125</dep>
+    <dep name="aux">815</dep>
     <dep name="aux:q">3</dep>
-    <dep name="case">215</dep>
-    <dep name="cc">255</dep>
-    <dep name="ccomp">165</dep>
-    <dep name="compound">571</dep>
-    <dep name="compound:lvc">98</dep>
-    <dep name="compound:redup">146</dep>
-    <dep name="conj">351</dep>
-    <dep name="cop">266</dep>
-    <dep name="csubj">61</dep>
-    <dep name="dep">39</dep>
-    <dep name="det">369</dep>
-    <dep name="discourse">108</dep>
-    <dep name="fixed">77</dep>
-    <dep name="flat">13</dep>
+    <dep name="case">586</dep>
+    <dep name="cc">675</dep>
+    <dep name="ccomp">432</dep>
+    <dep name="compound">1545</dep>
+    <dep name="compound:lvc">268</dep>
+    <dep name="compound:redup">254</dep>
+    <dep name="conj">994</dep>
+    <dep name="cop">639</dep>
+    <dep name="csubj">90</dep>
+    <dep name="dep">89</dep>
+    <dep name="det">919</dep>
+    <dep name="discourse">251</dep>
+    <dep name="dislocated">13</dep>
+    <dep name="fixed">117</dep>
+    <dep name="flat">54</dep>
     <dep name="goeswith">1</dep>
-    <dep name="mark">118</dep>
-    <dep name="nmod">346</dep>
-    <dep name="nmod:abl">13</dep>
-    <dep name="nmod:cau">35</dep>
-    <dep name="nmod:clas">19</dep>
-    <dep name="nmod:comp">17</dep>
+    <dep name="mark">206</dep>
+    <dep name="nmod">1313</dep>
+    <dep name="nmod:abl">25</dep>
+    <dep name="nmod:cau">68</dep>
+    <dep name="nmod:clas">55</dep>
+    <dep name="nmod:comp">20</dep>
+    <dep name="nmod:ins">2</dep>
     <dep name="nmod:part">6</dep>
-    <dep name="nmod:poss">651</dep>
+    <dep name="nmod:poss">1475</dep>
     <dep name="nmod:ref">1</dep>
-    <dep name="nmod:tmod">67</dep>
-    <dep name="nsubj">1454</dep>
-    <dep name="nummod">259</dep>
-    <dep name="obj">851</dep>
+    <dep name="nmod:tmod">83</dep>
+    <dep name="nsubj">3817</dep>
+    <dep name="nummod">755</dep>
+    <dep name="obj">2301</dep>
     <dep name="obj:cau">4</dep>
-    <dep name="obl">1120</dep>
+    <dep name="obl">3079</dep>
     <dep name="orphan">8</dep>
-    <dep name="parataxis">120</dep>
-    <dep name="punct">2938</dep>
+    <dep name="parataxis">405</dep>
+    <dep name="punct">7811</dep>
     <dep name="reparandum">1</dep>
-    <dep name="root">1300</dep>
-    <dep name="vocative">14</dep>
-    <dep name="xcomp">2</dep>
+    <dep name="root">3456</dep>
+    <dep name="vocative">53</dep>
+    <dep name="xcomp">4</dep>
   </deps>
 </treebank>

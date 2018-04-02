@@ -46,14 +46,14 @@
 10	ئۆسۈملۈكلەرگە	_	NOUN	N	_	8	conj	_	Translit=ösümlüklerge
 11	قانداق	_	PRON	P	_	13	advmod	_	Translit=qandaq
 12	مۇئامىلە	_	NOUN	N	_	13	compound	_	Translit=muamile
-13	قىلغانلىقى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qilghanliqi
-14	،	_	PUNCT	Y	_	18	punct	_	Translit=,
+13	قىلغانلىقى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qilghanliqi|Edep=18:conj>obj
+14	،	_	PUNCT	Y	_	13	punct	_	Translit=,
 15	ئاقىۋىتىنىڭ	_	NOUN	N	_	17	nsubj	_	Translit=aqiwitining
 16	قانداق	_	PRON	P	_	17	advmod	_	Translit=qandaq
 17	بولغانلىقىنى	_	VERB	V	_	18	obj	_	Translit=bolghanliqini
 18	كۆرۈپ	_	VERB	V	_	13	conj	_	Translit=körüp
 19	باقايلى	_	VERB	V	_	18	aux	_	SpaceAfter=No|Translit=baqayli
-20	،	_	PUNCT	Y	_	13	punct	_	Translit=,
+20	،	_	PUNCT	Y	_	19	punct	_	Translit=,
 
 # sent_id = s3
 # text = يەنە ئەتراپىمىزدىكى مۇھىتنى ياخشى كۆزىتىپ، مۇھىتنى قوغداش ئۈچۈن نېمىلەرنى قىلالايدىغانلىقىمىز توغرۇلۇق ئويلىنىپ باقايلى.
@@ -662,15 +662,15 @@
 2	بىلەن	_	CCONJ	C	_	1	case	_	Translit=bilen
 3	بەرپا	_	NOUN	N	_	4	compound	_	Translit=berpa
 4	قىلىنغان	_	VERB	V	_	5	acl	_	Translit=qilinghan
-5	نەرسىلەر	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=nersiler
-6	،	_	PUNCT	Y	_	12	punct	_	Translit=,
+5	نەرسىلەر	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=nersiler|Edep=12:conj>nsubj
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	ھەتتا	_	CCONJ	C	_	12	nsubj	_	Translit=hetta
 8	ئاشۇ	_	PRON	P	_	10	det	_	Translit=ashu
 9	ئۆتكۈر	_	ADJ	A	_	10	amod	_	Translit=ötkür
 10	پالتىلارمۇ	_	NOUN	N	_	7	conj	_	Translit=paltilarmu
 11	غايىپ	_	NOUN	N	_	12	compound	_	Translit=ghayip
 12	بوپتۇ	_	VERB	V	_	5	conj	_	SpaceAfter=No|Translit=boptu
-13	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s45
 # text = سوپىسوپىياڭنىڭ ئۇۋىسى دەرەخ ئاچىمىقىدا ئىكەن.
@@ -8368,7 +8368,7 @@
 1	ساشا	_	NOUN	N	_	13	nsubj	_	Translit=sasha
 2	ئاۋۋال	_	ADV	D	_	4	advmod	_	Translit=awwal
 3	يامغۇرلۇق	_	NOUN	N	_	4	amod	_	Translit=yamghurluq
-4	چاپانغا	_	VERB	V	_	13	advcl	_	SpaceAfter=No|Translit=chapangha
+4	چاپانغا	_	VERB	V	_	13	advcl	_	SpaceAfter=No|Translit=chapangha|Edep=8:conj>nmod
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	ئاندىن	_	CCONJ	C	_	8	advmod	_	Translit=andin
 7	ئانىسىغا	_	NOUN	N	_	8	obl	_	Translit=anisigha
@@ -12520,7 +12520,7 @@
 1	شۇنىڭ	_	PRON	P	_	37	advmod	_	Translit=shuning
 2	بىلەن	_	ADP	R	_	1	fixed	_	Translit=bilen
 3	ئۇ	_	PRON	P	_	4	det	_	Translit=u
-4	ئەر	_	NOUN	N	_	35	advcl	_	Translit=er
+4	ئەر	_	NOUN	N	_	35	advcl	_	Translit=er|Edep=22:conj>nsubj
 5	ئۇ	_	PRON	P	_	6	det	_	Translit=u
 6	قىزغا	_	NOUN	N	_	7	obl	_	Translit=qizgha
 7	سالغان	_	VERB	V	_	10	acl	_	Translit=salghan
