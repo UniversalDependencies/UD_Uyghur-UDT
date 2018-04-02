@@ -1,8 +1,5 @@
 001.conllu
-[Line                   49]: Violation of guidelines: relation conj must go left-to-right
-[Line                   665]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** PASSED ***
 002.conllu
 *** PASSED ***
 003.conllu
@@ -14,21 +11,15 @@ Syntax errors: 2
 006.conllu
 *** PASSED ***
 007.conllu
-[Line                   129]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 008.conllu
 *** PASSED ***
 009.conllu
-[Line                   1212]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 010.conllu
 *** PASSED ***
 011.conllu
-[Line                   297]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 012.conllu
 *** PASSED ***
 013.conllu
@@ -38,22 +29,13 @@ Syntax errors: 1
 015.conllu
 *** PASSED ***
 016.conllu
-[Line                   858]: Violation of guidelines: relation conj must go left-to-right
-[Line                   869]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** PASSED ***
 017.conllu
-[Line                   940]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 018.conllu
-[Line                   1004]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 019.conllu
-[Line                   533]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 020.conllu
 *** PASSED ***
 021.conllu
@@ -61,41 +43,27 @@ Syntax errors: 1
 022.conllu
 *** PASSED ***
 023.conllu
-[Line                   573]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 024.conllu
-[Line                   1544]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 025.conllu
 *** PASSED ***
 026.conllu
 *** PASSED ***
 027.conllu
-[Line                   1009]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 028.conllu
-[Line                   333]: Violation of guidelines: relation conj must go left-to-right
-[Line                   663]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** PASSED ***
 029.conllu
 *** PASSED ***
 030.conllu
-[Line                   1029]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 031.conllu
 *** PASSED ***
 032.conllu
 *** PASSED ***
 033.conllu
-[Line                   738]: Violation of guidelines: relation conj must go left-to-right
-[Line                   739]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** PASSED ***
 034.conllu
 *** PASSED ***
 035.conllu
