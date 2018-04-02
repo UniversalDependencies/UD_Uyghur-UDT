@@ -46,7 +46,7 @@
 10	ئۆسۈملۈكلەرگە	_	NOUN	N	_	8	conj	_	Translit=ösümlüklerge
 11	قانداق	_	PRON	P	_	13	advmod	_	Translit=qandaq
 12	مۇئامىلە	_	NOUN	N	_	13	compound	_	Translit=muamile
-13	قىلغانلىقى	_	VERB	V	_	18	conj>dobj	_	SpaceAfter=No|Translit=qilghanliqi
+13	قىلغانلىقى	_	VERB	V	_	18	conj>obj	_	SpaceAfter=No|Translit=qilghanliqi
 14	،	_	PUNCT	Y	_	13	punct	_	Translit=,
 15	ئاقىۋىتىنىڭ	_	NOUN	N	_	17	nsubj	_	Translit=aqiwitining
 16	قانداق	_	PRON	P	_	17	advmod	_	Translit=qandaq
