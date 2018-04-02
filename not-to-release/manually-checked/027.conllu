@@ -1006,7 +1006,7 @@
 7	10	_	NUM	M	NumType=Card	8	nummod	_	Translit=10
 8	كۈندىن	_	NOUN	N	_	9	nmod	_	Translit=kündin
 9	كېيىن	_	ADV	D	_	20	advmod	_	Translit=këyin
-10	ئامېرىكا	_	NOUN	N	_	20	conj->nsubj	_	SpaceAfter=No|Translit=amërika
+10	ئامېرىكا	_	NOUN	N	_	20	conj>nsubj	_	SpaceAfter=No|Translit=amërika
 11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
 12	15	_	NUM	M	NumType=Card	13	nummod	_	Translit=15
 13	كۈندىن	_	NOUN	N	_	14	nmod	_	Translit=kündin

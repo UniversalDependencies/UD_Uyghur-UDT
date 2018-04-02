@@ -1,5 +1,8 @@
 001.conllu
-*** PASSED ***
+[Line                   49]: Violation of guidelines: relation conj must go left-to-right
+[Line                   665]: Violation of guidelines: relation conj must go left-to-right
+*** FAILED *** with 2 errors
+Syntax errors: 2
 002.conllu
 *** PASSED ***
 003.conllu
@@ -11,19 +14,23 @@
 006.conllu
 *** PASSED ***
 007.conllu
-*** PASSED ***
+[Line                   129]: Violation of guidelines: relation conj must go left-to-right
+*** FAILED *** with 1 errors
+Syntax errors: 1
 008.conllu
 *** PASSED ***
 009.conllu
-*** PASSED ***
+[Line                   1212]: Violation of guidelines: relation conj must go left-to-right
+*** FAILED *** with 1 errors
+Syntax errors: 1
 010.conllu
 *** PASSED ***
 011.conllu
-*** PASSED ***
-012.conllu
-[Line                   913]: Unknown UD DEPREL: conj-
+[Line                   297]: Violation of guidelines: relation conj must go left-to-right
 *** FAILED *** with 1 errors
 Syntax errors: 1
+012.conllu
+*** PASSED ***
 013.conllu
 *** PASSED ***
 014.conllu
@@ -34,8 +41,8 @@ Syntax errors: 1
 *** PASSED ***
 016.conllu
 [Line                   134]: Unknown UD DEPREL: nmod:cmp
-[Line                   858]: Unknown UD DEPREL: conj--
-[Line                   869]: Unknown UD DEPREL: conj--
+[Line                   858]: Violation of guidelines: relation conj must go left-to-right
+[Line                   869]: Violation of guidelines: relation conj must go left-to-right
 *** FAILED *** with 3 errors
 Syntax errors: 3
 017.conllu
@@ -51,18 +58,25 @@ Syntax errors: 5
 *** FAILED *** with 1 errors
 Syntax errors: 1
 019.conllu
+[Line                   3]: Invalid DEPREL value nsubj--
 [Line                   3]: Unknown UD DEPREL: nsubj--
+[Line                   5]: Invalid DEPREL value nmod--
 [Line                   5]: Unknown UD DEPREL: nmod--
+[Line                   97]: Invalid DEPREL value nsubj--
 [Line                   97]: Unknown UD DEPREL: nsubj--
+[Line                   99]: Invalid DEPREL value nmod--
 [Line                   99]: Unknown UD DEPREL: nmod--
+[Line                   101]: Invalid DEPREL value nsubj--
 [Line                   101]: Unknown UD DEPREL: nsubj--
+[Line                   194]: Invalid DEPREL value nsubj--
 [Line                   194]: Unknown UD DEPREL: nsubj--
+[Line                   196]: Invalid DEPREL value nmod--
 [Line                   196]: Unknown UD DEPREL: nmod--
 [Line                   292]: Unknown UD DEPREL: advmod:tmod
 [Line                   533]: DEPREL can only be "root" if HEAD is 0
 [Line                   757]: Unknown UD DEPREL: nummod:redup
-*** FAILED *** with 10 errors
-Syntax errors: 10
+*** FAILED *** with 17 errors
+Syntax errors: 17
 020.conllu
 *** PASSED ***
 021.conllu
@@ -73,7 +87,7 @@ Syntax errors: 10
 Syntax errors: 1
 023.conllu
 [Line                   505]: Unknown UD DEPREL: compound:re
-[Line                   573]: Unknown UD DEPREL: conj--
+[Line                   573]: Violation of guidelines: relation conj must go left-to-right
 *** FAILED *** with 2 errors
 Syntax errors: 2
 024.conllu
@@ -85,11 +99,11 @@ Syntax errors: 1
 026.conllu
 *** PASSED ***
 027.conllu
-[Line                   1009]: Unknown UD DEPREL: conj-
+[Line                   1009]: Violation of guidelines: relation conj must go left-to-right
 *** FAILED *** with 1 errors
 Syntax errors: 1
 028.conllu
-[Line                   333]: Unknown UD DEPREL: conj-
+[Line                   333]: Violation of guidelines: relation conj must go left-to-right
 [Line                   663]: DEPREL can only be "root" if HEAD is 0
 [Line                   926]: Unknown UD DEPREL: dislocate
 [Line                   1347]: Unknown UD DEPREL: dislocate
@@ -115,8 +129,8 @@ Syntax errors: 2
 032.conllu
 *** PASSED ***
 033.conllu
-[Line                   738]: Unknown UD DEPREL: conj-
-[Line                   739]: Unknown UD DEPREL: conj-
+[Line                   738]: Violation of guidelines: relation conj must go left-to-right
+[Line                   739]: Violation of guidelines: relation conj must go left-to-right
 *** FAILED *** with 2 errors
 Syntax errors: 2
 034.conllu

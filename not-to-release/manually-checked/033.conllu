@@ -735,8 +735,8 @@
 8	قاچىلاپ	_	VERB	V	_	9	compound:lvc	_	Translit=qachilap
 9	قويسا	_	VERB	V	_	16	advcl	_	Translit=qoysa
 10	يېگەن	_	VERB	V	_	11	acl	_	Translit=yëgen
-11	مېۋىلىرىنى	_	NOUN	N	_	16	conj->dobj	_	Translit=mëwilirini
-12	قەنتكە	_	VERB	V	_	16	conj->nmod	_	SpaceAfter=No|Translit=qentke
+11	مېۋىلىرىنى	_	NOUN	N	_	16	conj>dobj	_	Translit=mëwilirini
+12	قەنتكە	_	VERB	V	_	16	conj>nmod	_	SpaceAfter=No|Translit=qentke
 13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
 14	قەنتنى	_	NOUN	N	_	16	obj	_	Translit=qentni
 15	توكقا	_	NOUN	N	_	16	obl	_	Translit=tokqa

@@ -570,7 +570,7 @@
 2	سول	_	NOUN	N	_	3	amod	_	Translit=sol
 3	تەرىپىدە	_	NOUN	N	_	5	nmod	_	Translit=teripide
 4	سالقىن	_	ADJ	A	_	5	amod	_	Translit=salqin
-5	ئۆستەڭ	_	NOUN	N	_	12	conj-->subj	_	SpaceAfter=No|Translit=östeng
+5	ئۆستەڭ	_	NOUN	N	_	12	conj>subj	_	SpaceAfter=No|Translit=östeng
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۆستەڭ	_	NOUN	N	_	8	nmod	_	Translit=östeng
 8	قىرىدا	_	NOUN	N	_	11	nmod	_	Translit=qirida

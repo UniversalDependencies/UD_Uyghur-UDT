@@ -855,7 +855,7 @@
 14	ئوخشىسا	_	VERB	V	_	37	parataxis	_	SpaceAfter=No|Translit=oxshisa
 15	،	_	PUNCT	Y	_	14	punct	_	Translit=,
 16	گاھى	_	NOUN	N	_	17	det	_	Translit=gahi
-17	بىرلىرى	_	NUM	M	NumType=Card	37	conj-->subj	_	Translit=birliri
+17	بىرلىرى	_	NUM	M	NumType=Card	37	conj>subj	_	Translit=birliri
 18	بېشىغا	_	NOUN	N	_	20	obl	_	Translit=bëshigha
 19	ئوتۇغان	_	NOUN	N	_	20	obj	_	Translit=otughan
 20	تاقىغان	_	VERB	V	_	28	acl	_	SpaceAfter=No|Translit=taqighan
@@ -866,7 +866,7 @@
 25	ئۇزۇن	_	ADJ	A	_	26	amod	_	Translit=uzun
 26	كۆڭلەك	_	NOUN	N	_	27	obj	_	Translit=könglek
 27	كىيگەن	_	VERB	V	_	20	conj	_	Translit=kiygen
-28	خانىشقا	_	NOUN	N	_	37	conj-->dobj	_	SpaceAfter=No|Translit=xanishqa
+28	خانىشقا	_	NOUN	N	_	37	conj>dobj	_	SpaceAfter=No|Translit=xanishqa
 29	،	_	PUNCT	Y	_	28	punct	_	Translit=,
 30	يەنە	_	ADV	D	_	31	advmod	_	Translit=yene
 31	بىرلىرى	_	NUM	M	NumType=Card	37	nsubj	_	Translit=birliri
