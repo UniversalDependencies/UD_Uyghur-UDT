@@ -23,7 +23,7 @@
 3	پىداكارلار	_	NOUN	N	_	4	nsubj	_	Translit=pidakarlar
 4	كۆپەيسە	_	NOUN	N	_	14	advcl	_	SpaceAfter=No|Translit=köpeyse
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
-6	ئىشىنىمەنكى	_	NOUN	N	_	14	disclose	_	Translit=ishinimenki
+6	ئىشىنىمەنكى	_	NOUN	N	_	14	dislocated	_	Translit=ishinimenki
 7	ئۇزاققا	_	ADJ	A	_	8	obl	_	Translit=uzaqqa
 8	قالماي	_	VERB	V	_	14	advmod	_	Translit=qalmay
 9	ئوقۇش	_	VERB	V	_	10	nmod	_	Translit=oqush

@@ -923,7 +923,7 @@
 9	بوشلۇقتىكى	_	NOUN	N	_	10	amod	_	Translit=boshluqtiki
 10	مۇزىكا	_	NOUN	N	_	13	obl	_	SpaceAfter=No|Translit=muzika
 11	»	_	PUNCT	Y	_	10	punct	_	Translit=»
-12	غا	_	X	X	_	10	dislocate	_	Translit=gha
+12	غا	_	X	X	_	10	dislocated	_	Translit=gha
 13	قىزىقاتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qiziqatti
 14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -1344,7 +1344,7 @@
 17	روھىي	_	ADJ	A	_	18	amod	_	Translit=rohiy
 18	كېسەل	_	NOUN	N	_	21	obl	_	SpaceAfter=No|Translit=kësel
 19	»	_	PUNCT	Y	_	18	punct	_	Translit=»
-20	گە	_	X	X	_	18	dislocate	_	Translit=ge
+20	گە	_	X	X	_	18	dislocated	_	Translit=ge
 21	ئايلاندى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=aylandi
 22	.	_	PUNCT	Y	_	21	punct	_	Translit=.
 
@@ -1491,7 +1491,7 @@
 16	گۆھەر	_	NOUN	N	_	17	amod	_	Translit=göher
 17	كىتاب	_	NOUN	N	_	20	obj	_	SpaceAfter=No|Translit=kitab
 18	»	_	PUNCT	Y	_	17	punct	_	Translit=»
-19	نى	_	X	X	_	17	dislocate	_	Translit=ni
+19	نى	_	X	X	_	17	dislocated	_	Translit=ni
 20	ئۆگىنىشتە	_	NOUN	N	_	7	conj	_	Translit=öginishte
 21	ئىكەنلىكىنى	_	AUX	V	_	20	cop	_	Translit=ikenlikini
 22	بايقىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bayqidi

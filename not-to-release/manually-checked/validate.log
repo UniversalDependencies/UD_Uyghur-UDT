@@ -105,11 +105,8 @@ Syntax errors: 1
 028.conllu
 [Line                   333]: Violation of guidelines: relation conj must go left-to-right
 [Line                   663]: DEPREL can only be "root" if HEAD is 0
-[Line                   926]: Unknown UD DEPREL: dislocate
-[Line                   1347]: Unknown UD DEPREL: dislocate
-[Line                   1494]: Unknown UD DEPREL: dislocate
-*** FAILED *** with 5 errors
-Syntax errors: 5
+*** FAILED *** with 2 errors
+Syntax errors: 2
 029.conllu
 [Line                   51]: Unknown UD DEPREL: advmod:tmod
 [Line                   654]: Unknown UD DEPREL: name:tmod
@@ -117,15 +114,11 @@ Syntax errors: 5
 *** FAILED *** with 3 errors
 Syntax errors: 3
 030.conllu
-[Line                   26]: Unknown UD DEPREL: disclose
 [Line                   1029]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** FAILED *** with 1 errors
+Syntax errors: 1
 031.conllu
-[Line                   127]: Unknown UD DEPREL: dislocate
-[Line                   138]: Unknown UD DEPREL: dislocate
-*** FAILED *** with 2 errors
-Syntax errors: 2
+*** PASSED ***
 032.conllu
 *** PASSED ***
 033.conllu

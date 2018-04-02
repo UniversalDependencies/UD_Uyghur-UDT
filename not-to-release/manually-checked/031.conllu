@@ -124,7 +124,7 @@
 5	نېمە	_	PRON	P	_	6	compound	_	Translit=nëme
 6	ئۈچۈن	_	CCONJ	C	_	9	nsubj	_	SpaceAfter=No|Translit=üchün
 7	"	_	PUNCT	Y	_	6	punct	_	Translit="
-8	لىرىمىز	_	NOUN	N	_	6	dislocate	_	Translit=lirimiz
+8	لىرىمىز	_	NOUN	N	_	6	dislocated	_	Translit=lirimiz
 9	بار	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=bar
 10	،	_	PUNCT	Y	_	9	punct	_	Translit=,
 
@@ -135,7 +135,7 @@
 3	نېمە	_	PRON	P	_	4	compound	_	Translit=nëme
 4	ئۈچۈن	_	CCONJ	C	_	7	obj	_	SpaceAfter=No|Translit=üchün
 5	"	_	PUNCT	Y	_	4	punct	_	Translit="
-6	لەرنى	_	NOUN	N	_	4	dislocate	_	Translit=lerni
+6	لەرنى	_	NOUN	N	_	4	dislocated	_	Translit=lerni
 7	بىلىۋېلىش	_	VERB	V	_	16	obl	_	Translit=biliwëlish
 8	ئۈچۈن	_	CCONJ	C	_	7	case	_	SpaceAfter=No|Translit=üchün
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
