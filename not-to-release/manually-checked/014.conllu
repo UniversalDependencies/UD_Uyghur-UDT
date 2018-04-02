@@ -1017,7 +1017,7 @@
 10	ئومۇمىي	_	ADJ	A	_	11	amod	_	Translit=omumiy
 11	نوپۇسى	_	NOUN	N	_	14	nsubj	_	Translit=nopusi
 12	3مىليون	_	NUM	M	NumType=Card	13	compound	_	Translit=3milyon
-13	500مىڭدىن	_	NOUN	N	_	14	nmod:cmp	_	Translit=500mingdin
+13	500مىڭدىن	_	NOUN	N	_	14	nmod:comp	_	Translit=500mingdin
 14	ئاشىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ashidu
 15	.	_	PUNCT	Y	_	14	punct	_	Translit=.
 

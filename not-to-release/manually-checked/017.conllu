@@ -928,7 +928,7 @@
 4	بويىغا	_	NOUN	N	_	7	obl	_	Translit=boyigha
 5	ئاتلىق	_	ADJ	A	_	6	amod	_	Translit=atliq
 6	ساياھەتكە	_	NOUN	N	_	7	obl	_	Translit=sayahetke
-7	كېلىشتىن	_	VERB	V	_	8	nmod:cmp	_	Translit=këlishtin
+7	كېلىشتىن	_	VERB	V	_	8	nmod:comp	_	Translit=këlishtin
 8	ئارتۇق	_	ADJ	A	_	9	amod	_	Translit=artuq
 9	ھاماقەتلىك	_	NOUN	N	_	10	nsubj	_	Translit=hamaqetlik
 10	يوق	_	ADJ	A	_	13	ccomp	_	SpaceAfter=No|Translit=yoq

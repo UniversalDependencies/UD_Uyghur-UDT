@@ -131,7 +131,7 @@
 15	›	_	PUNCT	N	_	14	punct	_	Translit=›
 16	›	_	PUNCT	N	_	14	punct	_	Translit=›
 17	ياكى	_	CCONJ	C	_	21	cc	_	Translit=yaki
-18	ئۇنىڭدىنمۇ	_	PRON	P	_	19	nmod:cmp	_	Translit=uningdinmu
+18	ئۇنىڭدىنمۇ	_	PRON	P	_	19	nmod:comp	_	Translit=uningdinmu
 19	يۇقىرى	_	ADJ	A	_	20	advmod	_	Translit=yuqiri
 20	ئونىۋاندىكى	_	NOUN	N	_	21	amod	_	Translit=oniwandiki
 21	ئادەم	_	NOUN	N	_	8	conj	_	Translit=adem

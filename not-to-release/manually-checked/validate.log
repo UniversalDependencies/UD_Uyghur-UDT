@@ -34,25 +34,21 @@ Syntax errors: 1
 013.conllu
 *** PASSED ***
 014.conllu
-[Line                   1020]: Unknown UD DEPREL: nmod:cmp
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 015.conllu
 *** PASSED ***
 016.conllu
-[Line                   134]: Unknown UD DEPREL: nmod:cmp
 [Line                   858]: Violation of guidelines: relation conj must go left-to-right
 [Line                   869]: Violation of guidelines: relation conj must go left-to-right
-*** FAILED *** with 3 errors
-Syntax errors: 3
+*** FAILED *** with 2 errors
+Syntax errors: 2
 017.conllu
 [Line                   155]: Unknown UD DEPREL: compound:poss
 [Line                   171]: Unknown UD DEPREL: compound:poss
 [Line                   498]: Unknown UD DEPREL: compound:poss
-[Line                   931]: Unknown UD DEPREL: nmod:cmp
 [Line                   940]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 5 errors
-Syntax errors: 5
+*** FAILED *** with 4 errors
+Syntax errors: 4
 018.conllu
 [Line                   1004]: DEPREL can only be "root" if HEAD is 0
 *** FAILED *** with 1 errors
