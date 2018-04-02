@@ -7,28 +7,68 @@
   <size>
     <total><sentences>3456</sentences><tokens>40236</tokens><words>40236</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="2887" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12067" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="14">
-    <tag name="ADJ">2783</tag><!-- _ -->
-    <tag name="ADP">509</tag><!-- _ -->
-    <tag name="ADV">1040</tag><!-- _ -->
-    <tag name="AUX">1243</tag><!-- _ -->
-    <tag name="CCONJ">795</tag><!-- _ -->
-    <tag name="DET">151</tag><!-- _ -->
-    <tag name="INTJ">121</tag><!-- _ -->
-    <tag name="NOUN">13098</tag><!-- _ -->
-    <tag name="NUM">1117</tag><!-- _ -->
-    <tag name="PART">271</tag><!-- _ -->
-    <tag name="PRON">3173</tag><!-- _ -->
-    <tag name="PUNCT">7769</tag><!-- _ -->
-    <tag name="VERB">8096</tag><!-- _ -->
-    <tag name="X">70</tag><!-- _ -->
+  <tags unique="16">
+    <tag name="ADJ">2342</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, خۇددى, ئوخشاش, سادىق -->
+    <tag name="ADP">626</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
+    <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
+    <tag name="AUX">1112</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
+    <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
+    <tag name="INTJ">116</tag><!-- _, بولسۇن, پاھ, ھەي, ياق, ۋاي, رەھمەت, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
+    <tag name="NOUN">14252</tag><!-- _, بالا, يەر, كۈن, ئادەم, ئىش, يىل, ئانا, سۇ, قول -->
+    <tag name="NUM">996</tag><!-- بىر, ئىككى, _, تۆت, ئون, بەش, ئۈچ, ئالتە, مىڭ, يەتتە -->
+    <tag name="PART">121</tag><!-- _, ئوخشى -->
+    <tag name="PRON">2692</tag><!-- ئۇ, _, بۇ, مەن, ئۇلار, ئۆز, سەن, بىز, شۇ, ئەڭ -->
+    <tag name="PROPN">66</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, نەزىرە -->
+    <tag name="PUNCT">7769</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
+    <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
+    <tag name="VERB">8121</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="X">66</tag><!-- _, advcl, case -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="38">
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">1540</feat><!-- دەپ, بولۇپ, قىلىپ, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, كۆرۈپ, بېرىپ, قايتىپ -->
+    <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">524</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
+    <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
+    <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">995</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
+    <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">792</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10021</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
+    <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- نەزىرىدە -->
+    <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">259</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, بولمىسا, بولسىڭىز, تۇرسا, قالسا, قارىسام, بولساڭ -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">134</feat><!-- بار, ئىش, مارى, قارا, كەل, ئاس, ئاچ, ئېغىر, بەر, تارتىش -->
+    <feat name="Mood" value="Ind" upos="AUX,PART,VERB">1522</feat><!-- ئىدى, دېدى, كەتتى, بولدى, قالدى, كەلدى, بولىدۇ, باشلىدى, بولغان, قىلدى -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,VERB">1662</feat><!-- ئۇلار, بىز, ئۇلارنىڭ, بالىلار, بىزنىڭ, ئۇلارغا, ئۇلارنى, بولسا, ئادەملەر, چاغلاردا -->
+    <feat name="Number" value="Sing" upos="AUX,PART,PRON,VERB">2673</feat><!-- ئۇ, مەن, ئۇنىڭ, ئىدى, سەن, دېدى, كەتتى, ئۇنى, بولدى, قالدى -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN,NUM">26</feat><!-- ئىككىمىز, قولۇڭلارنى, ئاناڭلار, ئاراڭلاردا, ئاراڭلاردىن, ئاناڭلارنى, ئىككىمىزنىڭ, ئىككىڭلارنىڭ, ئۇسۇلۇڭلار, كەشپىياتچىمىزنىڭ -->
+    <feat name="Number[psor]" value="Plur,Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2397</feat><!-- كۈنى, ئىچىدە, ئۆزىنى, يىلى, ئۆزىنىڭ, ئالدىدا, يېڭى, ئۆزى, ئالدىغا, بىرى -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN,PRON,VERB">274</feat><!-- دادام, بالام, ئەپەندىم, ئۆزۈم, ئۇكام, دادامنىڭ, ئانام, ئاپام, ئۆزۈمنى, ئۆزۈمنىڭ -->
+    <feat name="NumType" value="Ord" upos="DET,NUM">385</feat><!-- بىر, بىرى, ئىككىمىز, يېرىم, 10, 20, يۈز, ئون, 4, بىرىنى -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">720</feat><!-- مەن, بىز, ماڭا, مېنىڭ, بىزنىڭ, قالدىم, بولدۇم, دېدىم, بىزنى, بولسام -->
+    <feat name="Person" value="2" upos="AUX,PART,PRON,VERB">293</feat><!-- سەن, ساڭا, سىز, ئىدىڭ, بولسىڭىز, دەمسىز, بولىسەن, سىلەر, سىلەرگە, بولساڭ -->
+    <feat name="Person" value="3" upos="AUX,PART,PRON,VERB">2162</feat><!-- ئۇ, ئۇنىڭ, ئىدى, دېدى, ئۇلار, كەتتى, ئۇنى, بولدى, بولسا, قالدى -->
+    <feat name="Person[psor]" value="1" upos="ADJ,NOUN,NUM,PRON,VERB">213</feat><!-- دادام, بالام, ئىككىمىز, ئەپەندىم, ئۆزۈم, ئۇكام, دادامنىڭ, ئانام, ئاپام, ئۆزۈمنى -->
+    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,NUM,PRON">87</feat><!-- ئۆزۈڭ, كۆزۈڭنى, بېرىڭ, قولۇڭلارنى, پاراڭ, ئاكاڭ, ئاناڭلار, ئۆزۈڭنى, بوشلۇقۇڭغا, داداڭنى -->
+    <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2397</feat><!-- كۈنى, ئىچىدە, ئۆزىنى, يىلى, ئۆزىنىڭ, ئالدىدا, يېڭى, ئۆزى, ئالدىغا, بىرى -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">193</feat><!-- ئەمەس, بولمايدۇ, بولمىغان, باقمىغان, بولمىسا, ئەمەسمۇ, قىلمىدى, ئوخشىمىغان, ئويلىمىغان, دېمىسىمۇ -->
+    <feat name="Polite" value="Form" upos="AUX,PRON,VERB">86</feat><!-- سىز, دەمسىز, سىلەر, سىلەرگە, سىزنىڭ, سىلى, كىردىڭىز, سىزمۇ, سىزنى, بولدىڭىز -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">588</feat><!-- بۇ, شۇ, ئاشۇ, مۇشۇ, شۇنىڭ, بۇنىڭ, ماۋۇ, ئاۋۇ, بۇلارنىڭ, بۇلار -->
+    <feat name="PronType" value="Int" upos="ADV,DET">82</feat><!-- قانداق, قايسى, نېمىشقا, نەدە -->
+    <feat name="PronType" value="Prs" upos="PRON">1358</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, ئۇلار, ئۇنى, بىز, ئۇنىڭغا, ئۇلارنىڭ, ماڭا -->
+    <feat name="Reflex" value="Yes" upos="PRON">147</feat><!-- ئۆز, ئۆزىنى, ئۆزىنىڭ, ئۆزى, ئۆزۈم, ئۆزۈمنى, ئۆزۈمنىڭ, ئۆزۈڭ, ئۆزىمۇ, ئۆزۈمدىن -->
+    <feat name="Tense" value="Aor" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">1737</feat><!-- ئىدى, دېدى, كەتتى, بولغان, بولدى, دېگەن, تۇرغان, قالدى, كەلدى, كەتكەن -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">1456</feat><!-- دەپ, بولۇپ, قىلىپ, بولسا, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, بېرىپ, قايتىپ -->
+    <feat name="VerbForm" value="Cov" upos="VERB">343</feat><!-- بولۇپ, قاراپ, قىلىپ, كۆرۈپ, كىرىپ, چىقىپ, كېلىپ, ئۆتۈپ, دەپ, ئۇچۇپ -->
+    <feat name="VerbForm" value="Fin" upos="AUX,PART,VERB">1656</feat><!-- ئىدى, دېدى, كەتتى, بار, بولدى, قالدى, كەلدى, بولىدۇ, باشلىدى, بولغان -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">668</feat><!-- قىلىش, كەلگەندە, بولۇشى, بولغان, ياشقا, بارغاندا, بولغاندا, قىلىشنى, ياش, ئېلىش -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">309</feat><!-- تۇرغان, دېگەن, كەتكەن, بولغان, قالغان, كەلگەن, كۆرگەن, چىققان, ئاڭلىغان, ياتقان -->
+    <feat name="Voice" value="Pass" upos="VERB">60</feat><!-- بىلىنىپ, قىلىنغان, ھېسابلىنىدۇ, ئاڭلىنىپ, تىكىلىپ, بىلىنىدۇ, چايقىلىپ, بىلىندى, تاشلىنىپ, قىلىندى -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="49">
