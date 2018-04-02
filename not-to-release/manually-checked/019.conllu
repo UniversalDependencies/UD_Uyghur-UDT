@@ -528,7 +528,7 @@
 11	بېلىقنىڭ	_	NOUN	N	_	4	conj	_	Translit=bëliqning
 12	رەسىمىمۇ	_	NOUN	N	_	13	nsubj	_	Translit=resimimu
 13	بار	_	ADJ	A	_	0	root	_	Translit=bar
-14	ئىكەن	_	VERB	V	_	13	root	_	SpaceAfter=No|Translit=iken
+14	ئىكەن	_	VERB	V	_	13	cop	_	SpaceAfter=No|Translit=iken
 15	!	_	PUNCT	Y	_	14	punct	_	Translit=!
 
 # sent_id = s1844

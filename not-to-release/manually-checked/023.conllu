@@ -570,14 +570,14 @@
 2	سول	_	NOUN	N	_	3	amod	_	Translit=sol
 3	تەرىپىدە	_	NOUN	N	_	5	nmod	_	Translit=teripide
 4	سالقىن	_	ADJ	A	_	5	amod	_	Translit=salqin
-5	ئۆستەڭ	_	NOUN	N	_	12	conj	_	SpaceAfter=No|Translit=östeng|Edep=12:conj>subj
+5	ئۆستەڭ	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=östeng|Edep=12:conj>subj
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۆستەڭ	_	NOUN	N	_	8	nmod	_	Translit=östeng
 8	قىرىدا	_	NOUN	N	_	11	nmod	_	Translit=qirida
 9	قاتار	_	NOUN	N	_	11	amod	_	Translit=qatar
 10	ئاق	_	ADJ	A	_	11	compound	_	Translit=aq
 11	تېرەكلەر	_	NOUN	N	_	12	nsubj	_	Translit=tërekler
-12	بار	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=bar
+12	بار	_	ADJ	A	_	5	conj	_	SpaceAfter=No|Translit=bar
 13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s2237

@@ -1209,7 +1209,7 @@
 1	شۇنىڭ	_	PRON	P	_	37	advmod	_	Translit=shuning
 2	بىلەن	_	ADP	R	_	1	fixed	_	Translit=bilen
 3	ئۇ	_	PRON	P	_	4	det	_	Translit=u
-4	ئەر	_	NOUN	N	_	22	conj	_	Translit=er|Edep=22:conj>nsubj
+4	ئەر	_	NOUN	N	_	35	advcl	_	Translit=er|Edep=22:conj>nsubj
 5	ئۇ	_	PRON	P	_	6	det	_	Translit=u
 6	قىزغا	_	NOUN	N	_	7	obl	_	Translit=qizgha
 7	سالغان	_	VERB	V	_	10	acl	_	Translit=salghan
@@ -1227,7 +1227,7 @@
 19	باشلىق	_	NOUN	N	_	20	amod	_	Translit=bashliq
 20	يالماۋۇزغا	_	NOUN	N	_	22	nmod:cau	_	Translit=yalmawuzgha
 21	تىمسال	_	NOUN	N	_	22	compound	_	Translit=timsal
-22	قىلىنىپ	_	VERB	V	_	35	advcl	_	SpaceAfter=No|Translit=qilinip
+22	قىلىنىپ	_	VERB	V	_	4	conj	_	SpaceAfter=No|Translit=qilinip
 23	،	_	PUNCT	Y	_	22	punct	_	Translit=,
 24	بىزگە	_	PRON	P	_	25	obl	_	Translit=bizge
 25	كەلگەندە	_	VERB	V	_	35	advcl	_	Translit=kelgende

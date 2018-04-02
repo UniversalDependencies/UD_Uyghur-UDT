@@ -935,7 +935,7 @@
 11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
 12	-	_	PUNCT	Y	_	10	punct	_	Translit=-
 13	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
-14	ئۈچىنچىسى	_	NOUN	N	_	13	root	_	SpaceAfter=No|Translit=üchinchisi
+14	ئۈچىنچىسى	_	NOUN	N	_	13	nsubj	_	SpaceAfter=No|Translit=üchinchisi
 15	.	_	PUNCT	Y	_	14	punct	_	Translit=.
 
 # sent_id = s1672

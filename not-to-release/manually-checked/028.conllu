@@ -330,7 +330,7 @@
 2	ئىچىدىن	_	NOUN	N	_	4	obl	_	Translit=ichidin
 3	ئېقىپ	_	VERB	V	_	4	advmod	_	Translit=ëqip
 4	ئۆتكەن	_	VERB	V	_	5	acl	_	Translit=ötken
-5	سۇ	_	NOUN	N	_	16	conj	_	Translit=su|Edep=16:conj>nsubj
+5	سۇ	_	NOUN	N	_	0	root	_	Translit=su|Edep=16:conj>nsubj
 6	ئېچىشكە	_	VERB	V	_	16	obl	_	SpaceAfter=No|Translit=ëchishke
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	كۆلدىكى	_	NOUN	N	_	9	amod	_	Translit=köldiki
@@ -341,7 +341,7 @@
 13	ۋە	_	CCONJ	C	_	14	cc	_	Translit=we
 14	ئېتىزلارنى	_	NOUN	N	_	12	conj	_	Translit=ëtizlarni
 15	سۇغىرىشقا	_	VERB	V	_	16	obl	_	Translit=sughirishqa
-16	ئىشلىتىلىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ishlitilidu
+16	ئىشلىتىلىدۇ	_	VERB	V	_	5	conj	_	SpaceAfter=No|Translit=ishlitilidu
 17	.	_	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s2717
@@ -658,7 +658,7 @@
 15	بايقىغانلىقىنى	_	NOUN	N	_	9	conj	_	Translit=bayqighanliqini
 16	دەرھال	_	ADV	D	_	17	advmod	_	Translit=derhal
 17	ئايدىڭلاشتۇرماقچى	_	VERB	V	_	0	root	_	Translit=aydinglashturmaqchi
-18	بولدى	_	VERB	V	_	17	root	_	SpaceAfter=No|Translit=boldi
+18	بولدى	_	VERB	V	_	17	aux	_	SpaceAfter=No|Translit=boldi
 19	.	_	PUNCT	Y	_	18	punct	_	Translit=.
 
 # sent_id = s2735

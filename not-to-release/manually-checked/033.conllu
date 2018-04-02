@@ -735,12 +735,12 @@
 8	قاچىلاپ	_	VERB	V	_	9	compound:lvc	_	Translit=qachilap
 9	قويسا	_	VERB	V	_	16	advcl	_	Translit=qoysa
 10	يېگەن	_	VERB	V	_	11	acl	_	Translit=yëgen
-11	مېۋىلىرىنى	_	NOUN	N	_	16	conj	_	Translit=mëwilirini|Edep=16:conj>obj
-12	قەنتكە	_	VERB	V	_	16	conj	_	SpaceAfter=No|Translit=qentke|Edep=16:conj>nmod
+11	مېۋىلىرىنى	_	NOUN	N	_	0	root	_	Translit=mëwilirini|Edep=16:conj>obj
+12	قەنتكە	_	VERB	V	_	11	conj	_	SpaceAfter=No|Translit=qentke|Edep=16:conj>nmod
 13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
 14	قەنتنى	_	NOUN	N	_	16	obj	_	Translit=qentni
 15	توكقا	_	NOUN	N	_	16	obl	_	Translit=tokqa
-16	ئايلاندۇرالايدىكەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=aylanduralaydiken
+16	ئايلاندۇرالايدىكەن	_	VERB	V	_	11	conj	_	SpaceAfter=No|Translit=aylanduralaydiken
 17	.	_	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s3260

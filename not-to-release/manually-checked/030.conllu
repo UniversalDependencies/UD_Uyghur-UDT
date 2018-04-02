@@ -1024,7 +1024,7 @@
 11	رەڭلىك	_	ADJ	A	_	12	amod	_	Translit=renglik
 12	رەخت	_	NOUN	N	_	13	obj	_	Translit=rext
 13	توقۇپ	_	NOUN	N	_	0	root	_	Translit=toqup
-14	چىقىرىدىكەن	_	VERB	V	_	13	root	_	SpaceAfter=No|Translit=chiqiridiken
+14	چىقىرىدىكەن	_	VERB	V	_	13	cop	_	SpaceAfter=No|Translit=chiqiridiken
 15	.	_	PUNCT	Y	_	14	punct	_	Translit=.
 
 # sent_id = s2989

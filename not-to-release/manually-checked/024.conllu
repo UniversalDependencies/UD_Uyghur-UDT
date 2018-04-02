@@ -1539,6 +1539,6 @@
 6	ئورمانغا	_	NOUN	N	_	8	obl	_	Translit=ormangha
 7	ئىچكىرىلەپ	_	VERB	V	_	8	advmod	_	Translit=ichkirilep
 8	كىرمەكتە	_	VERB	V	_	0	root	_	Translit=kirmekte
-9	ئىدى	_	VERB	V	_	8	root	_	SpaceAfter=No|Translit=idi
+9	ئىدى	_	VERB	V	_	8	xcomp	_	SpaceAfter=No|Translit=idi
 10	.	_	PUNCT	Y	_	9	punct	_	Translit=.
 

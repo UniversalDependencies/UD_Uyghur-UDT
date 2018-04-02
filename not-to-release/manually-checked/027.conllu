@@ -1006,7 +1006,7 @@
 7	10	_	NUM	M	_	8	nummod	_	Translit=10
 8	كۈندىن	_	NOUN	N	_	9	nmod	_	Translit=kündin
 9	كېيىن	_	ADV	D	_	20	advmod	_	Translit=këyin
-10	ئامېرىكا	_	NOUN	N	_	20	conj	_	SpaceAfter=No|Translit=amërika|Edep=20:conj>nsubj
+10	ئامېرىكا	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=amërika|Edep=20:conj>nsubj
 11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
 12	15	_	NUM	M	_	13	nummod	_	Translit=15
 13	كۈندىن	_	NOUN	N	_	14	nmod	_	Translit=kündin
@@ -1016,7 +1016,7 @@
 17	خىل	_	NOUN	N	_	18	amod	_	Translit=xil
 18	پاتنېنتنى	_	NOUN	N	_	20	obj	_	Translit=patnëntni
 19	ئىلتىماس	_	NOUN	N	_	20	compound	_	Translit=iltimas
-20	قىلغان	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qilghan
+20	قىلغان	_	VERB	V	_	10	conj	_	SpaceAfter=No|Translit=qilghan
 21	.	_	PUNCT	Y	_	20	punct	_	Translit=.
 
 # sent_id = s2661

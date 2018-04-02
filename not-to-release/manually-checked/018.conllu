@@ -999,7 +999,7 @@
 14	ئولتۇرۇپ	_	VERB	V	_	16	advmod	_	Translit=olturup
 15	يولغا	_	NOUN	N	_	16	obl	_	Translit=yolgha
 16	چىقماقچى	_	AUX	V	_	0	root	_	Translit=chiqmaqchi
-17	ئىدى	_	VERB	V	_	16	root	_	SpaceAfter=No|Translit=idi
+17	ئىدى	_	VERB	V	_	16	xcomp	_	SpaceAfter=No|Translit=idi
 18	.	_	PUNCT	Y	_	17	punct	_	Translit=.
 
 # sent_id = s1768
