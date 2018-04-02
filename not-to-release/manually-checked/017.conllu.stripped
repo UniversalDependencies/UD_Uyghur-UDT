@@ -152,7 +152,7 @@
 8	تۇرسا	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=tursa
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
 10	ئۇلار	_	PRON	P	_	14	nsubj	_	Translit=ular
-11	ئەقلى	_	NOUN	N	_	13	compound:poss	_	Translit=eqli
+11	ئەقلى	_	NOUN	N	_	13	nmod:poss	_	Translit=eqli
 12	-	_	PUNCT	Y	_	11	punct	_	Translit=-
 13	ھوشىنى	_	NOUN	N	_	14	obj	_	Translit=hoshini
 14	يوقاتماي	_	VERB	V	_	0	root	_	Translit=yoqatmay
@@ -168,7 +168,7 @@
 5	كاپىتاننىڭ	_	NOUN	N	_	7	nmod:poss	_	Translit=kapitanning
 6	كۈچلۈك	_	ADJ	A	_	7	advmod	_	Translit=küchlük
 7	ئاۋازى	_	NOUN	N	_	12	nsubj	_	Translit=awazi
-8	داد	_	NOUN	N	_	10	compound:poss	_	Translit=dad
+8	داد	_	NOUN	N	_	10	nmod:poss	_	Translit=dad
 9	–	_	PUNCT	N	_	8	punct	_	Translit=–
 10	پەرياد	_	NOUN	N	_	11	amod	_	Translit=peryad
 11	ئاۋازلىرىنى	_	NOUN	N	_	12	obj	_	Translit=awazlirini
@@ -495,7 +495,7 @@
 32	ھالاكەتكە	_	NOUN	N	_	33	obl	_	Translit=halaketke
 33	ئۇچرىغان	_	VERB	V	_	34	acl	_	Translit=uchrighan
 34	پاراخوتمۇ	_	NOUN	N	_	37	nsubj	_	Translit=paraxotmu
-35	ئۇنىڭ	_	PRON	P	_	36	compound:poss	_	Translit=uning
+35	ئۇنىڭ	_	PRON	P	_	36	nmod:poss	_	Translit=uning
 36	ئورۇنلاشتۇرۇشىغا	_	VERB	V	_	37	nmod	_	Translit=orunlashturushigha
 37	بويسۇنۇۋاتقاندەك	_	NOUN	N	_	29	conj	_	Translit=boysunuwatqandek
 38	قىلاتتى	_	AUX	V	_	37	aux	_	SpaceAfter=No|Translit=qilatti

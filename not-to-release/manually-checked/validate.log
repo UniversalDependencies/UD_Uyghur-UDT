@@ -43,12 +43,9 @@ Syntax errors: 1
 *** FAILED *** with 2 errors
 Syntax errors: 2
 017.conllu
-[Line                   155]: Unknown UD DEPREL: compound:poss
-[Line                   171]: Unknown UD DEPREL: compound:poss
-[Line                   498]: Unknown UD DEPREL: compound:poss
 [Line                   940]: DEPREL can only be "root" if HEAD is 0
-*** FAILED *** with 4 errors
-Syntax errors: 4
+*** FAILED *** with 1 errors
+Syntax errors: 1
 018.conllu
 [Line                   1004]: DEPREL can only be "root" if HEAD is 0
 *** FAILED *** with 1 errors
