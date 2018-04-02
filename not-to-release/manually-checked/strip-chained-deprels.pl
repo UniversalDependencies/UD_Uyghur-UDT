@@ -9,7 +9,14 @@ while(<>)
     {
         s/\r?\n$//;
         my @fields = split(/\t/);
+        my $edeprel = $fields[7];
         $fields[7] =~ s/>.*//;
+        if($edeprel ne $fields[7])
+        {
+            # Remember the original "enhanced" relation in the MISC column.
+            # We will convert it to real enhanced dependencies by UD guidelines for some future release.
+            $fields[9] .= "|Edep=$fields[6]:$edeprel";
+        }
         # For debugging purposes swap the Arabic and Latin scripts.
         if($debug && $fields[9] =~ m/Translit=(.*?)(\||$)/)
         {
