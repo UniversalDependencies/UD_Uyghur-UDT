@@ -58,7 +58,7 @@
 2	بولۇپ	_	VERB	V	_	3	compound:lvc	_	Translit=bolup
 3	كەتكەن	_	VERB	V	_	4	acl	_	Translit=ketken
 4	ئۆگزىسىنىڭ	_	NOUN	N	_	7	nmod:poss	_	Translit=ögzisining
-5	بىر	_	NUM	M	NumType=Card	6	nummod	_	Translit=bir
+5	بىر	_	NUM	M	_	6	nummod	_	Translit=bir
 6	مۇنچە	_	PRON	P	_	7	det	_	Translit=munche
 7	يېرىدىن	_	NOUN	N	_	9	obl	_	Translit=yëridin
 8	بادىرىلار	_	VERB	V	_	9	nsubj	_	Translit=badirilar
@@ -69,7 +69,7 @@
 # sent_id = s2406
 # text = پەقەت تۆت ئېغىز ئۆينىڭ سېمونتلانغان تېگىلا ساق قالغانىدى.
 1	پەقەت	_	ADV	D	_	8	dep	_	Translit=peqet
-2	تۆت	_	NUM	M	NumType=Card	3	nummod	_	Translit=töt
+2	تۆت	_	NUM	M	_	3	nummod	_	Translit=töt
 3	ئېغىز	_	NOUN	N	_	4	amod	_	Translit=ëghiz
 4	ئۆينىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=öyning
 5	سېمونتلانغان	_	NOUN	N	_	6	amod	_	Translit=sëmontlanghan
@@ -83,8 +83,8 @@
 1	ھەر	_	PRON	P	_	2	det	_	Translit=her
 2	كۈنى	_	NOUN	N	_	19	advmod	_	Translit=küni
 3	كېچىسى	_	NOUN	N	_	19	advmod	_	Translit=këchisi
-4	تۆت	_	NUM	M	NumType=Card	5	nummod	_	Translit=töt
-5	يۈز	_	NUM	M	NumType=Card	6	nummod	_	Translit=yüz
+4	تۆت	_	NUM	M	_	5	nummod	_	Translit=töt
+5	يۈز	_	NUM	M	_	6	nummod	_	Translit=yüz
 6	ئادەم	_	NOUN	N	_	19	nsubj	_	Translit=adem
 7	چىلىق–چىلىق	_	VERB	V	_	8	advmod	_	Translit=chiliq–chiliq
 8	ھۆل	_	ADJ	A	_	10	cop	_	Translit=höl
@@ -103,7 +103,7 @@
 
 # sent_id = s2408
 # text = ھەممەيلەن ئىشىك ئالدىدا كىيىملىرىنى سىقىشقىندا، شۇرقىراپ لاي سۇ ئاقاتتى.
-1	ھەممەيلەن	_	NUM	M	NumType=Card	5	nsubj	_	Translit=hemmeylen
+1	ھەممەيلەن	_	NUM	M	_	5	nsubj	_	Translit=hemmeylen
 2	ئىشىك	_	NOUN	N	_	3	nmod	_	Translit=ishik
 3	ئالدىدا	_	NOUN	N	_	5	obl	_	Translit=aldida
 4	كىيىملىرىنى	_	NOUN	N	_	5	obj	_	Translit=kiyimlirini
@@ -228,7 +228,7 @@
 4	پىشۇرۇلغان	_	VERB	V	_	5	acl	_	Translit=pishurulghan
 5	پۇرچاق	_	NOUN	N	_	0	root	_	Translit=purchaq
 6	بىلەن	_	CCONJ	C	_	12	cc	_	Translit=bilen
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	يېرىم	_	ADJ	A	_	9	amod	_	Translit=yërim
 9	قاداق	_	NOUN	N	_	12	amod	_	Translit=qadaq
 10	كۆمۈردەك	_	NOUN	N	_	11	advmod	_	Translit=kömürdek
@@ -290,7 +290,7 @@
 # sent_id = s2422
 # text = ھەر ئىككىسى ۋوگزال باشلىقىنىڭ ئۆيىدە تۇراتتى.
 1	ھەر	_	PRON	P	_	2	det	_	Translit=her
-2	ئىككىسى	_	NUM	M	NumType=Card	6	nsubj	_	Translit=ikkisi
+2	ئىككىسى	_	NUM	M	_	6	nsubj	_	Translit=ikkisi
 3	ۋوگزال	_	ADJ	A	_	4	nmod:clas	_	Translit=wogzal
 4	باشلىقىنىڭ	_	NOUN	N	_	5	nmod:poss	_	Translit=bashliqining
 5	ئۆيىدە	_	NOUN	N	_	6	obl	_	Translit=öyide
@@ -348,7 +348,7 @@
 # text = قۇرۇلۇش ئەترىتىدىكىلەردىن توققۇز كىشى قېچىپ كەتكەنىدى،
 1	قۇرۇلۇش	_	VERB	V	_	2	nmod	_	Translit=qurulush
 2	ئەترىتىدىكىلەردىن	_	NOUN	N	_	4	nmod	_	Translit=etritidikilerdin
-3	توققۇز	_	NUM	M	NumType=Card	4	nummod	_	Translit=toqquz
+3	توققۇز	_	NUM	M	_	4	nummod	_	Translit=toqquz
 4	كىشى	_	NOUN	N	_	5	nsubj	_	Translit=kishi
 5	قېچىپ	_	VERB	V	_	0	root	_	Translit=qëchip
 6	كەتكەنىدى	_	AUX	V	_	5	aux	_	SpaceAfter=No|Translit=ketkenidi
@@ -356,11 +356,11 @@
 
 # sent_id = s2427
 # text = بىرنەچچە كۈندىن كېيىن يەنە بەش كىشى قىچىپ كەتتى.
-1	بىرنەچچە	_	NUM	M	NumType=Card	2	nummod	_	Translit=birnechche
+1	بىرنەچچە	_	NUM	M	_	2	nummod	_	Translit=birnechche
 2	كۈندىن	_	NOUN	N	_	7	obl	_	Translit=kündin
 3	كېيىن	_	ADV	D	_	2	case	_	Translit=këyin
 4	يەنە	_	ADV	D	_	7	advmod	_	Translit=yene
-5	بەش	_	NUM	M	NumType=Card	6	nummod	_	Translit=besh
+5	بەش	_	NUM	M	_	6	nummod	_	Translit=besh
 6	كىشى	_	NOUN	N	_	7	nsubj	_	Translit=kishi
 7	قىچىپ	_	VERB	V	_	0	root	_	Translit=qichip
 8	كەتتى	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=ketti
@@ -371,17 +371,17 @@
 1	يول	_	NOUN	N	_	2	obl	_	Translit=yol
 2	قۇرۇلۇشى	_	VERB	V	_	3	nsubj	_	Translit=qurulushi
 3	باشلىنىپ	_	VERB	V	_	6	advcl	_	Translit=bashlinip
-4	بىر	_	NUM	M	NumType=Card	5	nummod	_	Translit=bir
+4	بىر	_	NUM	M	_	5	nummod	_	Translit=bir
 5	ھەپتىدىن	_	NOUN	N	_	6	obl	_	Translit=heptidin
 6	ئاشقاندا	_	VERB	V	_	9	obl	_	Translit=ashqanda
-7	تۇنجى	_	NUM	M	NumType=Card	8	nummod	_	Translit=tunji
+7	تۇنجى	_	NUM	M	_	8	nummod	_	Translit=tunji
 8	زەربىگە	_	NOUN	N	_	9	obl	_	Translit=zerbige
 9	ئۇچرىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=uchridi
 10	.	_	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s2429
 # text = بىر كۈنى كەچقۇرۇنلۇقى پويىز شەھەردىن بولكا ئېلىپ كەلمىدى.
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	8	advmod	_	Translit=küni
 3	كەچقۇرۇنلۇقى	_	ADV	D	_	8	advmod	_	Translit=kechqurunluqi
 4	پويىز	_	NOUN	N	_	8	nsubj	_	Translit=poyiz
@@ -740,7 +740,7 @@
 
 # sent_id = s2459
 # text = بىرىنچى تۈركۈمدىكى تۆمۈر يول ياسىغۇچىلارنىڭ مۇددىتى توشۇش ئالدىدا تۇراتتى،
-1	بىرىنچى	_	NUM	M	NumType=Card	2	nummod	_	Translit=birinchi
+1	بىرىنچى	_	NUM	M	_	2	nummod	_	Translit=birinchi
 2	تۈركۈمدىكى	_	DET	Q	_	5	amod	_	Translit=türkümdiki
 3	تۆمۈر	_	NOUN	N	_	4	amod	_	Translit=tömür
 4	يول	_	NOUN	N	_	5	obj	_	Translit=yol
@@ -805,7 +805,7 @@
 7	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 8	كىلاۋچىكلار	_	NOUN	N	_	4	conj	_	Translit=kilawchiklar
 9	يەنە	_	ADV	D	_	12	advmod	_	Translit=yene
-10	ئالتە	_	NUM	M	NumType=Card	11	nummod	_	Translit=alte
+10	ئالتە	_	NUM	M	_	11	nummod	_	Translit=alte
 11	ئادەمنى	_	NOUN	N	_	12	obj	_	Translit=ademni
 12	ئېلىپ	_	VERB	V	_	22	advcl	_	Translit=ëlip
 13	پاراۋۇزلارنى	_	NOUN	N	_	15	obj	_	Translit=parawuzlarni
@@ -860,7 +860,7 @@
 7	ئىگە	_	NOUN	N	_	9	amod	_	Translit=ige
 8	ئەنئەنىۋى	_	ADJ	A	_	9	amod	_	Translit=eneniwi
 9	ئۆرپ–ئادەتلىرىنىڭ	_	NOUN	N	_	10	nmod:poss	_	Translit=örp–adetlirining
-10	بىرى	_	NUM	M	NumType=Card	23	parataxis	_	Translit=biri
+10	بىرى	_	NUM	M	_	23	parataxis	_	Translit=biri
 11	بولۇپ	_	AUX	V	_	10	cop	_	SpaceAfter=No|Translit=bolup
 12	،	_	PUNCT	Y	_	11	punct	_	Translit=,
 13	كۆڭۈل	_	NOUN	N	_	14	compound	_	Translit=köngül
@@ -993,7 +993,7 @@
 # text = مەسلەن، ئوتتۇز ئوغۇل مەشرىپى، دولان مەشرىپى، كۆك (مايسا) مەشرىپى، قېيىت مەشرىپى.
 1	مەسلەن	_	NOUN	N	_	17	mark	_	SpaceAfter=No|Translit=meslen
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
-3	ئوتتۇز	_	NUM	M	NumType=Card	4	nummod	_	Translit=ottuz
+3	ئوتتۇز	_	NUM	M	_	4	nummod	_	Translit=ottuz
 4	ئوغۇل	_	NOUN	N	_	5	nmod	_	Translit=oghul
 5	مەشرىپى	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=meshripi
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
@@ -1034,7 +1034,7 @@
 20	ئۇيغۇرلىرىنىڭ	_	NOUN	N	_	25	nmod:poss	_	Translit=uyghurlirining
 21	‹	_	PUNCT	N	_	20	punct	_	Translit=‹
 22	‹	_	PUNCT	N	_	20	punct	_	Translit=‹
-23	ئوتتۇز	_	NUM	M	NumType=Card	24	nummod	_	Translit=ottuz
+23	ئوتتۇز	_	NUM	M	_	24	nummod	_	Translit=ottuz
 24	ئوغۇل	_	NOUN	N	_	25	nmod	_	Translit=oghul
 25	مەشرىپى	_	NOUN	N	_	0	root	_	Translit=meshripi
 26	›	_	PUNCT	Y	_	25	punct	_	Translit=›
@@ -1056,7 +1056,7 @@
 # text = ‹ ‹ ئوتتۇز ئوغۇل مەشىرىپى › › ئىلى رايونىدىكى ئۇيغۇرلارنىڭ يەلىك مەشرىپى بولۇپ، ئۇ قاتنىشىش دائىرسى پەقەت ئەرلەر بىلەنلا چەكلىنىدىغان مەشرەپ.
 1	‹	_	PUNCT	N	_	22	punct	_	Translit=‹
 2	‹	_	PUNCT	N	_	22	punct	_	Translit=‹
-3	ئوتتۇز	_	NUM	M	NumType=Card	4	nummod	_	Translit=ottuz
+3	ئوتتۇز	_	NUM	M	_	4	nummod	_	Translit=ottuz
 4	ئوغۇل	_	NOUN	N	_	5	nmod	_	Translit=oghul
 5	مەشىرىپى	_	NOUN	N	_	12	nsubj	_	Translit=meshiripi
 6	›	_	PUNCT	Y	_	5	punct	_	Translit=›
@@ -1082,7 +1082,7 @@
 # text = ‹ ‹ ئوتتۇز ئوغۇل مەشرىپى › › ئاساسەن كۈزلۈك ھوسۇل يېغىلىپ بولغاندىن كېيىن باشلىنىپ، كېلەر يىلى ئەتىيازلىق تېرىلغۇ باشلانغىچە داۋاملىشىدۇ.
 1	‹	_	PUNCT	N	_	21	punct	_	Translit=‹
 2	‹	_	PUNCT	N	_	21	punct	_	Translit=‹
-3	ئوتتۇز	_	NUM	M	NumType=Card	4	nummod	_	Translit=ottuz
+3	ئوتتۇز	_	NUM	M	_	4	nummod	_	Translit=ottuz
 4	ئوغۇل	_	NOUN	N	_	5	nmod	_	Translit=oghul
 5	مەشرىپى	_	NOUN	N	_	21	nsubj	_	Translit=meshripi
 6	›	_	PUNCT	Y	_	5	punct	_	Translit=›
@@ -1167,7 +1167,7 @@
 24	مەشرەپتىكى	_	NOUN	N	_	26	amod	_	Translit=meshreptiki
 25	دەۋا–دەستۇر	_	NOUN	N	_	26	nmod	_	Translit=dewa–destur
 26	ئىشلىرىنى	_	NOUN	N	_	29	obj	_	Translit=ishlirini
-27	بىر	_	NUM	M	NumType=Card	28	compound	_	Translit=bir
+27	بىر	_	NUM	M	_	28	compound	_	Translit=bir
 28	تەرەپ	_	NOUN	N	_	29	compound	_	Translit=terep
 29	قىلغۇچىدۇر	_	VERB	V	_	22	conj	_	SpaceAfter=No|Translit=qilghuchidur
 30	.	_	PUNCT	Y	_	22	punct	_	Translit=.
@@ -1310,9 +1310,9 @@
 1	ئەمما	_	CCONJ	C	_	8	cc	_	Translit=emma
 2	مەشرەپ	_	NOUN	N	_	3	nmod	_	Translit=meshrep
 3	ئەھلى	_	NOUN	N	_	8	nsubj	_	Translit=ehli
-4	ئوتتۇز	_	NUM	M	NumType=Card	7	nummod	_	Translit=ottuz
+4	ئوتتۇز	_	NUM	M	_	7	nummod	_	Translit=ottuz
 5	–	_	PUNCT	N	_	4	punct	_	Translit=–
-6	قىرىق	_	NUM	M	NumType=Card	4	conj	_	Translit=qiriq
+6	قىرىق	_	NUM	M	_	4	conj	_	Translit=qiriq
 7	كىشىدىن	_	NOUN	N	_	8	obl	_	Translit=kishidin
 8	ئېشىپ	_	VERB	V	_	0	root	_	Translit=ëship
 9	كەتمەيدۇ	_	AUX	V	_	8	aux	_	SpaceAfter=No|Translit=ketmeydu

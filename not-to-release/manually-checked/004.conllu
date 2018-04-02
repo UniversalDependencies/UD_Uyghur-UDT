@@ -19,7 +19,7 @@
 # sent_id = s303
 # text = بالىلار بىردەك جاۋاب بېرىشتى.
 1	بالىلار	_	NOUN	N	_	4	nsubj	_	Translit=balilar
-2	بىردەك	_	NUM	M	NumType=Card	4	advmod	_	Translit=birdek
+2	بىردەك	_	NUM	M	_	4	advmod	_	Translit=birdek
 3	جاۋاب	_	NOUN	N	_	4	compound	_	Translit=jawab
 4	بېرىشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bërishti
 5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
@@ -164,7 +164,7 @@
 
 # sent_id = s316
 # text = ھەممەيلەن خوشال - خورام پاراڭلاشماقتا ئىدى،
-1	ھەممەيلەن	_	NUM	M	NumType=Card	5	nsubj	_	Translit=hemmeylen
+1	ھەممەيلەن	_	NUM	M	_	5	nsubj	_	Translit=hemmeylen
 2	خوشال	_	ADJ	A	_	4	compound:redup	_	Translit=xoshal
 3	-	_	PUNCT	Y	_	2	punct	_	Translit=-
 4	خورام	_	NOUN	N	_	5	advmod	_	Translit=xoram
@@ -207,7 +207,7 @@
 9	بۇ	_	PRON	P	_	11	nsubj	_	Translit=bu
 10	تېخى	_	ADV	D	_	11	advmod	_	Translit=tëxi
 11	يىتەرلىك	_	ADJ	A	_	6	conj	_	Translit=yiterlik
-12	ئەمەس	_	VERB	V	Polarity=Neg	11	cop	_	Translit=emes
+12	ئەمەس	_	VERB	V	_	11	cop	_	Translit=emes
 13	ئىدى	_	AUX	V	_	11	cop	_	SpaceAfter=No|Translit=idi
 14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -281,7 +281,7 @@
 1	بىردەمدىن	_	ADV	D	_	2	compound	_	Translit=birdemdin
 2	كېيىن	_	ADV	D	_	10	advmod	_	SpaceAfter=No|Translit=këyin
 3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
-4	بىر	_	NUM	M	NumType=Card	5	compound	_	Translit=bir
+4	بىر	_	NUM	M	_	5	compound	_	Translit=bir
 5	نەچچە	_	PRON	P	_	7	det	_	Translit=nechche
 6	قىز	_	NOUN	N	_	7	amod	_	Translit=qiz
 7	ئوقۇغۇچى	_	VERB	V	_	10	nsubj	_	Translit=oqughuchi
@@ -346,7 +346,7 @@
 # text = سۈكۈت توپتوغرا بىر مىنۇت داۋاملاشتى،
 1	سۈكۈت	_	NOUN	N	_	5	nsubj	_	Translit=süküt
 2	توپتوغرا	_	ADJ	A	_	4	advmod	_	Translit=toptoghra
-3	بىر	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir
+3	بىر	_	NUM	M	_	4	nummod	_	Translit=bir
 4	مىنۇت	_	NOUN	N	_	5	nmod:tmod	_	Translit=minut
 5	داۋاملاشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=dawamlashti
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
@@ -403,7 +403,7 @@
 2	قاچۇرغان	_	VERB	V	_	6	acl	_	Translit=qachurghan
 3	جۈپ	_	INTJ	I	_	5	compound:redup	_	Translit=jüp
 4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
-5	جۈپ	_	NUM	M	NumType=Card	6	nummod	_	Translit=jüp
+5	جۈپ	_	NUM	M	_	6	nummod	_	Translit=jüp
 6	كۆزلەر	_	NOUN	N	_	14	nsubj	_	Translit=közler
 7	خۇددى	_	PART	T	_	9	mark	_	Translit=xuddi
 8	كەچۈرۈمگە	_	NOUN	N	_	9	nmod	_	Translit=kechürümge
@@ -420,9 +420,9 @@
 # text = ئالدى بىلەن بىر - ئىككى ئاۋاز ئاڭلاندى،
 1	ئالدى	_	NOUN	N	_	7	advmod	_	Translit=aldi
 2	بىلەن	_	ADP	R	_	1	fixed	_	Translit=bilen
-3	بىر	_	NUM	M	NumType=Card	5	compound	_	Translit=bir
+3	بىر	_	NUM	M	_	5	compound	_	Translit=bir
 4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
-5	ئىككى	_	NUM	M	NumType=Card	6	nummod	_	Translit=ikki
+5	ئىككى	_	NUM	M	_	6	nummod	_	Translit=ikki
 6	ئاۋاز	_	NOUN	N	_	7	nsubj	_	Translit=awaz
 7	ئاڭلاندى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=anglandi
 8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
@@ -442,7 +442,7 @@
 1	سىنىپ	_	NOUN	N	_	2	nmod:poss	_	Translit=sinip
 2	ئىچى	_	NOUN	N	_	7	nsubj	_	Translit=ichi
 3	يەنە	_	ADV	D	_	7	advmod	_	Translit=yene
-4	قاينام	_	NUM	M	NumType=Card	6	compound:redup	_	Translit=qaynam
+4	قاينام	_	NUM	M	_	6	compound:redup	_	Translit=qaynam
 5	-	_	PUNCT	Y	_	4	punct	_	Translit=-
 6	تاشقىنلىققا	_	NOUN	N	_	7	obl	_	Translit=tashqinliqqa
 7	چۆمدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chömdi
@@ -471,7 +471,7 @@
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	مەن	_	PRON	P	_	11	nsubj	_	Translit=men
 8	بالىلارغا	_	NOUN	N	_	11	obl	_	Translit=balilargha
-9	بىر	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
 10	تەكلىپ	_	NOUN	N	_	11	obj	_	Translit=teklip
 11	بەردىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=berdim
 12	:	_	PUNCT	Y	_	11	punct	_	Translit=:
@@ -494,7 +494,7 @@
 14	-	_	PUNCT	Y	_	13	punct	_	Translit=-
 15	ئاناڭلار	_	NOUN	N	_	16	nsubj	_	Translit=ananglar
 16	سىزەلمەيدىغان	_	VERB	V	_	19	acl	_	Translit=sizelmeydighan
-17	بىر	_	NUM	M	NumType=Card	18	det	_	Translit=bir
+17	بىر	_	NUM	M	_	18	det	_	Translit=bir
 18	خىل	_	NOUN	N	_	19	amod	_	Translit=xil
 19	ئۇسۇل	_	NOUN	N	_	23	obl	_	Translit=usul
 20	بىلەن	_	ADP	R	_	19	case	_	Translit=bilen
@@ -666,7 +666,7 @@
 8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
 9	قەلىمىم	_	NOUN	N	_	12	nsubj	_	Translit=qelimim
 10	قەغەزنى	_	NOUN	N	_	12	obj	_	Translit=qeghezni
-11	بىرلا	_	NUM	M	NumType=Card	12	advmod	_	Translit=birla
+11	بىرلا	_	NUM	M	_	12	advmod	_	Translit=birla
 12	جىجاپ	_	VERB	V	_	6	conj	_	SpaceAfter=No|Translit=jijap
 13	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 14	بەتنى	_	NOUN	N	_	15	obj	_	Translit=betni
@@ -755,7 +755,7 @@
 6	يېزىۋاتقاندا	_	VERB	V	_	10	advcl	_	SpaceAfter=No|Translit=yëziwatqanda
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	جەينىكىگە	_	NOUN	N	_	10	obl	_	Translit=jeynikige
-9	بىرلا	_	NUM	M	NumType=Card	10	advmod	_	Translit=birla
+9	بىرلا	_	NUM	M	_	10	advmod	_	Translit=birla
 10	سوقۇلۇپ	_	VERB	V	_	14	advcl	_	SpaceAfter=No|Translit=soqulup
 11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
 12	ئۇنىڭ	_	PRON	P	_	13	nmod:poss	_	Translit=uning
@@ -925,7 +925,7 @@
 6	بولسام	_	AUX	V	_	5	cop	_	SpaceAfter=No|Translit=bolsam
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئۇنىڭغا	_	PRON	P	_	10	obl	_	Translit=uninggha
-9	يۈز	_	NUM	M	NumType=Card	10	compound	_	Translit=yüz
+9	يۈز	_	NUM	M	_	10	compound	_	Translit=yüz
 10	كىلەلمەيدىغان	_	VERB	V	_	11	acl	_	Translit=kilelmeydighan
 11	ئىشنى	_	NOUN	N	_	12	obj	_	Translit=ishni
 12	قىلمىغان	_	VERB	V	_	15	advcl	_	Translit=qilmighan
@@ -1050,7 +1050,7 @@
 1	ئۇنىڭ	_	PRON	P	_	2	nmod:poss	_	Translit=uning
 2	كۆزلىرىدىن	_	NOUN	N	_	8	obl	_	Translit=közliridin
 3	غەزەپ	_	NOUN	N	_	7	nmod:poss	_	Translit=ghezep
-4	ئەمەس	_	VERB	V	Polarity=Neg	3	cop	_	SpaceAfter=No|Translit=emes
+4	ئەمەس	_	VERB	V	_	3	cop	_	SpaceAfter=No|Translit=emes
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	قايغۇ	_	NOUN	N	_	3	conj	_	Translit=qayghu
 7	ئالامىتى	_	NOUN	N	_	8	nsubj	_	Translit=alamiti
@@ -1136,7 +1136,7 @@
 3	بولمىغاچقا	_	AUX	V	_	2	cop	_	SpaceAfter=No|Translit=bolmighachqa
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	مۇئەللىمنىڭ	_	NOUN	N	_	8	nmod:poss	_	Translit=muellimning
-6	بىرەر	_	NUM	M	NumType=Card	7	nmod	_	Translit=birer
+6	بىرەر	_	NUM	M	_	7	nmod	_	Translit=birer
 7	جۈملە	_	NOUN	N	_	8	amod	_	Translit=jümle
 8	سۆزىمۇ	_	NOUN	N	_	10	nsubj	_	Translit=sözimu
 9	قۇلىقىمغا	_	NOUN	N	_	10	obl	_	Translit=quliqimgha

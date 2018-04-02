@@ -76,7 +76,7 @@
 1	ئوغۇل	_	NOUN	N	_	2	amod	_	Translit=oghul
 2	بالا	_	NOUN	N	_	7	nsubj	_	Translit=bala
 3	يىغلىغىنىچە	_	NOUN	N	_	7	advmod	_	Translit=yighlighiniche
-4	بىر	_	NUM	M	NumType=Card	5	nummod	_	Translit=bir
+4	بىر	_	NUM	M	_	5	nummod	_	Translit=bir
 5	تىرامۋايغا	_	NOUN	N	_	7	obl	_	Translit=tiramwaygha
 6	سەكرەپ	_	VERB	V	_	7	advmod	_	Translit=sekrep
 7	چىقتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chiqti
@@ -98,7 +98,7 @@
 3	كاتىپ	_	NOUN	N	_	13	nsubj	_	Translit=katip
 4	گوركىيغا	_	NOUN	N	_	13	obl	_	SpaceAfter=No|Translit=gorkiygha
 5	:	_	PUNCT	Y	_	4	punct	_	Translit=:
-6	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+6	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 7	فوتوگراف	_	NOUN	N	_	8	nsubj	_	Translit=fotograf
 8	كەلدى	_	VERB	V	_	11	ccomp	_	SpaceAfter=No|Translit=keldi
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
@@ -124,7 +124,7 @@
 # text = - ياق بىر ژورنالنىڭ مۇخبىرى ئىكەن.
 1	-	_	PUNCT	Y	_	5	punct	_	Translit=-
 2	ياق	_	INTJ	E	_	5	discourse	_	Translit=yaq
-3	بىر	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir
+3	بىر	_	NUM	M	_	4	nummod	_	Translit=bir
 4	ژورنالنىڭ	_	DET	Q	_	5	nmod:poss	_	Translit=zhornalning
 5	مۇخبىرى	_	NOUN	N	_	0	root	_	Translit=muxbiri
 6	ئىكەن	_	AUX	V	_	5	cop	_	SpaceAfter=No|Translit=iken
@@ -232,7 +232,7 @@
 # text = ھەر قېتىمدا بىر چوڭ تاشنىڭ كەينىگە مۆكۈۋېلىشنى ياخشى كۆرەتتى.
 1	ھەر	_	PRON	P	_	2	det	_	Translit=her
 2	قېتىمدا	_	DET	Q	_	7	obl	_	Translit=qëtimda
-3	بىر	_	NUM	M	NumType=Card	5	nummod	_	Translit=bir
+3	بىر	_	NUM	M	_	5	nummod	_	Translit=bir
 4	چوڭ	_	ADJ	A	_	5	amod	_	Translit=chong
 5	تاشنىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=tashning
 6	كەينىگە	_	NOUN	N	_	7	obl	_	Translit=keynige
@@ -326,7 +326,7 @@
 1	بۇ	_	PRON	P	_	2	det	_	Translit=bu
 2	تاش	_	NOUN	N	_	8	nsubj	_	Translit=tash
 3	نەچچە	_	PRON	P	_	4	det	_	Translit=nechche
-4	يۈز	_	NUM	M	NumType=Card	5	nummod	_	Translit=yüz
+4	يۈز	_	NUM	M	_	5	nummod	_	Translit=yüz
 5	يىللىق	_	ADJ	A	_	6	amod	_	Translit=yilliq
 6	تارىخقا	_	NOUN	N	_	8	obl	_	Translit=tarixqa
 7	ئىگە	_	NOUN	N	_	8	compound	_	Translit=ige
@@ -404,7 +404,7 @@
 6	رەڭگى	_	NOUN	N	_	11	nsubj	_	Translit=renggi
 7	ۋە	_	CCONJ	C	_	8	cc	_	Translit=we
 8	تىلى	_	NOUN	N	_	6	conj	_	Translit=tili
-9	بىر-بىرىگە	_	NUM	M	NumType=Card	11	obl	_	Translit=bir-birige
+9	بىر-بىرىگە	_	NUM	M	_	11	obl	_	Translit=bir-birige
 10	ئوخشاش	_	ADJ	A	_	11	compound	_	Translit=oxshash
 11	بولمىغان	_	VERB	V	_	25	advcl	_	Translit=bolmighan
 12	بىلەن	_	ADP	R	_	11	advmod	_	SpaceAfter=No|Translit=bilen
@@ -426,12 +426,12 @@
 # sent_id = s3236
 # text = باغۋەنلەر بىر ياقتىن خوشال بولۇشسا، بىر ياقتىن غەم قىلىشاتتى.
 1	باغۋەنلەر	_	NOUN	N	_	5	nsubj	_	Translit=baghwenler
-2	بىر	_	NUM	M	NumType=Card	3	compound	_	Translit=bir
+2	بىر	_	NUM	M	_	3	compound	_	Translit=bir
 3	ياقتىن	_	NOUN	N	_	5	cc	_	Translit=yaqtin
 4	خوشال	_	ADJ	A	_	5	compound	_	Translit=xoshal
 5	بولۇشسا	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bolushsa
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
-7	بىر	_	NUM	M	NumType=Card	8	compound	_	Translit=bir
+7	بىر	_	NUM	M	_	8	compound	_	Translit=bir
 8	ياقتىن	_	NOUN	N	_	10	obl	_	Translit=yaqtin
 9	غەم	_	NOUN	N	_	10	compound	_	Translit=ghem
 10	قىلىشاتتى	_	VERB	V	_	5	conj	_	SpaceAfter=No|Translit=qilishatti
@@ -674,7 +674,7 @@
 10	بۇنداق	_	PRON	P	_	12	det	_	Translit=bundaq
 11	ماشىنا	_	NOUN	N	_	12	compound	_	Translit=mashina
 12	ئادەملەرنى	_	NOUN	N	_	15	obj	_	Translit=ademlerni
-13	بىرمۇبىر	_	NUM	M	NumType=Card	15	advmod	_	Translit=birmubir
+13	بىرمۇبىر	_	NUM	M	_	15	advmod	_	Translit=birmubir
 14	ئىزدەپ	_	VERB	V	_	15	compound:lvc	_	Translit=izdep
 15	يۈرسە	_	VERB	V	_	19	advcl	_	SpaceAfter=No|Translit=yürse
 16	،	_	PUNCT	Y	_	15	punct	_	Translit=,
@@ -735,8 +735,8 @@
 8	قاچىلاپ	_	VERB	V	_	9	compound:lvc	_	Translit=qachilap
 9	قويسا	_	VERB	V	_	16	advcl	_	Translit=qoysa
 10	يېگەن	_	VERB	V	_	11	acl	_	Translit=yëgen
-11	مېۋىلىرىنى	_	NOUN	N	_	16	conj>obj	_	Translit=mëwilirini
-12	قەنتكە	_	VERB	V	_	16	conj>nmod	_	SpaceAfter=No|Translit=qentke
+11	مېۋىلىرىنى	_	NOUN	N	_	16	conj	_	Translit=mëwilirini|Edep=16:conj>obj
+12	قەنتكە	_	VERB	V	_	16	conj	_	SpaceAfter=No|Translit=qentke|Edep=16:conj>nmod
 13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
 14	قەنتنى	_	NOUN	N	_	16	obj	_	Translit=qentni
 15	توكقا	_	NOUN	N	_	16	obl	_	Translit=tokqa
@@ -893,7 +893,7 @@
 8	ھەربىر	_	PRON	P	_	9	det	_	Translit=herbir
 9	ئائىلىنىڭ	_	NOUN	N	_	2	conj	_	Translit=ailining
 10	ھەممىسىنى	_	PRON	P	_	12	obj	_	Translit=hemmisini
-11	بىر-بىرىگە	_	NUM	M	NumType=Card	12	obl	_	Translit=bir-birige
+11	بىر-بىرىگە	_	NUM	M	_	12	obl	_	Translit=bir-birige
 12	باغلايدىكەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=baghlaydiken
 13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -958,7 +958,7 @@
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
 3	يەر	_	NOUN	N	_	4	compound	_	Translit=yer
 4	شارىمىز	_	NOUN	N	_	9	nsubj	_	Translit=sharimiz
-5	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+5	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 6	كىچىك	_	ADJ	A	_	7	amod	_	Translit=kichik
 7	كەنتكە	_	NOUN	N	_	9	obl	_	Translit=kentke
 8	ئايلىنىپ	_	VERB	V	_	9	compound:lvc	_	Translit=aylinip
@@ -992,10 +992,10 @@
 5	-	_	PUNCT	Y	_	4	punct	_	Translit=-
 6	دە	_	PART	T	_	4	mark	_	SpaceAfter=No|Translit=de
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
-8	ئىككىمىز	_	NUM	M	NumType=Card	14	nsubj	_	Translit=ikkimiz
+8	ئىككىمىز	_	NUM	M	_	14	nsubj	_	Translit=ikkimiz
 9	كومپيۇتېرنى	_	NOUN	N	_	10	obj	_	Translit=kompyutërni
 10	ئېچىپ	_	VERB	V	_	14	advmod	_	Translit=ëchip
-11	بىر	_	NUM	M	NumType=Card	13	nummod	_	Translit=bir
+11	بىر	_	NUM	M	_	13	nummod	_	Translit=bir
 12	كارتون	_	NOUN	N	_	13	nmod	_	Translit=karton
 13	تورىغا	_	NOUN	N	_	14	obl	_	Translit=torigha
 14	كىردۇق	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kirduq
@@ -1193,7 +1193,7 @@
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	قارشى	_	ADJ	A	_	7	amod	_	Translit=qarshi
 7	تەرەپ	_	NOUN	N	_	11	nsubj	_	Translit=terep
-8	بىرنەچچە	_	NUM	M	NumType=Card	9	nummod	_	Translit=birnechche
+8	بىرنەچچە	_	NUM	M	_	9	nummod	_	Translit=birnechche
 9	سېكۇنت	_	NOUN	N	_	10	nmod	_	Translit=sëkunt
 10	ئىچىدىلا	_	NOUN	N	_	11	obl	_	Translit=ichidila
 11	تاپشۇرىۋالىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tapshuriwalidu
@@ -1261,7 +1261,7 @@
 4	تور	_	NOUN	N	_	5	nmod	_	Translit=tor
 5	ئىقتىدارىنىڭ	_	NOUN	N	_	8	nmod:poss	_	Translit=iqtidarining
 6	كىچىككىنە	_	ADJ	A	_	8	amod	_	Translit=kichikkine
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	يېرى	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=yëri
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
 

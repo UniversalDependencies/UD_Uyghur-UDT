@@ -74,7 +74,7 @@
 1	-	_	PUNCT	Y	_	6	punct	_	Translit=-
 2	مەن	_	PRON	P	_	6	nsubj	_	Translit=men
 3	بۇنىڭغا	_	PRON	P	_	6	obl	_	Translit=buninggha
-4	بىر	_	NUM	M	NumType=Card	5	compound	_	Translit=bir
+4	بىر	_	NUM	M	_	5	compound	_	Translit=bir
 5	نېمە	_	PRON	P	_	6	obj	_	Translit=nëme
 6	دېيەلمىگۈدەكمەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=dëyelmigüdekmen
 7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
@@ -88,7 +88,7 @@
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
 6	ئۇمۇ	_	PRON	P	_	10	nsubj	_	Translit=umu
 7	ئېنىق	_	ADJ	A	_	10	amod	_	Translit=ëniq
-8	بىر	_	NUM	M	NumType=Card	9	compound	_	Translit=bir
+8	بىر	_	NUM	M	_	9	compound	_	Translit=bir
 9	نېمە	_	PRON	P	_	10	obj	_	Translit=nëme
 10	دەپ	_	VERB	V	_	0	root	_	Translit=dep
 11	بېرەلمىدى	_	VERB	V	_	10	compound	_	SpaceAfter=No|Translit=bërelmidi
@@ -120,7 +120,7 @@
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئۇ	_	PRON	P	_	9	det	_	Translit=u
 9	يەرلەردە	_	NOUN	N	_	13	nmod	_	Translit=yerlerde
-10	بىرەر	_	NUM	M	NumType=Card	11	nummod	_	Translit=birer
+10	بىرەر	_	NUM	M	_	11	nummod	_	Translit=birer
 11	پارچە	_	DET	Q	_	12	amod	_	Translit=parche
 12	تاشمۇ	_	NOUN	N	_	13	nsubj	_	Translit=tashmu
 13	يوق	_	ADJ	A	_	6	conj	_	SpaceAfter=No|Translit=yoq
@@ -162,11 +162,11 @@
 8	ئىتتىرىپ	_	VERB	V	_	19	advcl	_	SpaceAfter=No|Translit=ittirip
 9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
 10	نەچچە	_	PRON	P	_	11	det	_	Translit=nechche
-11	يۈز	_	NUM	M	NumType=Card	16	compound	_	SpaceAfter=No|Translit=yüz
+11	يۈز	_	NUM	M	_	16	compound	_	SpaceAfter=No|Translit=yüz
 12	،	_	PUNCT	Y	_	11	punct	_	Translit=,
 13	ھەتتا	_	CCONJ	C	_	15	advmod:emph	_	Translit=hetta
 14	نەچچە	_	PRON	P	_	15	det	_	Translit=nechche
-15	مىڭ	_	NUM	M	NumType=Card	11	conj	_	Translit=ming
+15	مىڭ	_	NUM	M	_	11	conj	_	Translit=ming
 16	چاقىرىم	_	DET	Q	_	18	nmod	_	Translit=chaqirim
 17	يىراق	_	ADJ	A	_	18	amod	_	Translit=yiraq
 18	يەرلەرگە	_	NOUN	N	_	19	obl	_	Translit=yerlerge
@@ -218,7 +218,7 @@
 6	ئۇ	_	PRON	P	_	16	nsubj	_	Translit=u
 7	چاڭجياڭ	_	NOUN	N	_	8	compound	_	Translit=changjyang
 8	ۋادىسىدا	_	NOUN	N	_	16	obl	_	Translit=wadisida
-9	تۆتىنچى	_	NUM	M	NumType=Card	11	nummod	_	Translit=tötinchi
+9	تۆتىنچى	_	NUM	M	_	11	nummod	_	Translit=tötinchi
 10	مۇز	_	NOUN	N	_	11	compound	_	Translit=muz
 11	دەۋرىدىكى	_	NOUN	N	_	15	nmod	_	Translit=dewridiki
 12	مۇز	_	NOUN	N	_	13	nsubj	_	Translit=muz
@@ -242,7 +242,7 @@
 
 # sent_id = s218
 # text = بىر يىلى قىشتا، لېنىن شەھەر سىرتىدا دەم ئېلىپ داۋالاندى.
-1	بىر	_	NUM	M	NumType=Card	2	det	_	Translit=bir
+1	بىر	_	NUM	M	_	2	det	_	Translit=bir
 2	يىلى	_	NOUN	N	_	3	nmod:tmod	_	Translit=yili
 3	قىشتا	_	NOUN	N	_	10	obl	_	SpaceAfter=No|Translit=qishta
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
@@ -268,7 +268,7 @@
 # sent_id = s220
 # text = باغچىدا بىر تۈپ ئېگىز ئاق قېيىن دەرىخى بار ئىدى.
 1	باغچىدا	_	NOUN	N	_	8	nmod	_	Translit=baghchida
-2	بىر	_	NUM	M	NumType=Card	3	det	_	Translit=bir
+2	بىر	_	NUM	M	_	3	det	_	Translit=bir
 3	تۈپ	_	DET	Q	_	7	amod	_	Translit=tüp
 4	ئېگىز	_	ADJ	A	_	7	amod	_	Translit=ëgiz
 5	ئاق	_	ADJ	A	_	7	amod	_	Translit=aq
@@ -280,7 +280,7 @@
 
 # sent_id = s221
 # text = ئۈچ بوز تورغاي ھەر كۈنى ئۇنىڭغا قونۇۋالاتتى.
-1	ئۈچ	_	NUM	M	NumType=Card	3	nummod	_	Translit=üch
+1	ئۈچ	_	NUM	M	_	3	nummod	_	Translit=üch
 2	بوز	_	ADJ	A	_	3	compound	_	Translit=boz
 3	تورغاي	_	NOUN	N	_	7	nsubj	_	Translit=torghay
 4	ھەر	_	PRON	P	_	5	det	_	Translit=her
@@ -292,7 +292,7 @@
 # sent_id = s222
 # text = تورغايلارنىڭ ئىككىسىنىڭ تۆشى ھال رەڭ، بىرىنىڭكى توق قىزىل ئىدى.
 1	تورغايلارنىڭ	_	NOUN	N	_	2	nmod:poss	_	Translit=torghaylarning
-2	ئىككىسىنىڭ	_	NUM	M	NumType=Card	3	nmod:poss	_	Translit=ikkisining
+2	ئىككىسىنىڭ	_	NUM	M	_	3	nmod:poss	_	Translit=ikkisining
 3	تۆشى	_	NOUN	N	_	5	nsubj	_	Translit=töshi
 4	ھال	_	ADJ	A	_	5	amod	_	Translit=hal
 5	رەڭ	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=reng
@@ -355,7 +355,7 @@
 
 # sent_id = s227
 # text = بىر كۈنى لېنىن باغچىدىكى ھېلىقى قېيىننىڭ يېنىغا كەلگەندە، توق قىزىل تۆشلۈك بوز تورغاينىڭ يوقلۇقىنى بايقاپ قالدى.
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	16	nmod:tmod	_	Translit=küni
 3	لېنىن	_	NOUN	N	_	16	nsubj	_	Translit=lënin
 4	باغچىدىكى	_	NOUN	N	_	6	amod	_	Translit=baghchidiki
@@ -391,11 +391,11 @@
 
 # sent_id = s229
 # text = بىر چاغدا، لېنىن بىر ئوغۇل بالىنى كۆرۈپ قالدى - دە ئۇنىڭدىن سورىدى:
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	چاغدا	_	NOUN	N	_	13	obl	_	SpaceAfter=No|Translit=chaghda
 3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
 4	لېنىن	_	NOUN	N	_	13	nsubj	_	Translit=lënin
-5	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+5	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 6	ئوغۇل	_	NOUN	N	_	7	amod	_	Translit=oghul
 7	بالىنى	_	NOUN	N	_	8	obj	_	Translit=balini
 8	كۆرۈپ	_	VERB	V	_	0	root	_	Translit=körüp
@@ -739,7 +739,7 @@
 # sent_id = s259
 # text = ئاۋۋال ئۈچ ياشلىق ئۇكاڭ بىلەن قول قايرىشىپ كېلە».
 1	ئاۋۋال	_	ADV	D	_	8	advmod	_	Translit=awwal
-2	ئۈچ	_	NUM	M	NumType=Card	3	nummod	_	Translit=üch
+2	ئۈچ	_	NUM	M	_	3	nummod	_	Translit=üch
 3	ياشلىق	_	ADJ	A	_	4	amod	_	Translit=yashliq
 4	ئۇكاڭ	_	NOUN	N	_	7	obl	_	Translit=ukang
 5	بىلەن	_	ADP	R	_	4	case	_	Translit=bilen
@@ -765,7 +765,7 @@
 
 # sent_id = s262
 # text = بىر كۈنى سېنى يېڭىۋالمىسام «ئەلى» دېگەن ئىسمىمنى يۆتكىۋېتىمەن!
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	4	advmod	_	Translit=küni
 3	سېنى	_	PRON	P	_	4	obj	_	Translit=sëni
 4	يېڭىۋالمىسام	_	NOUN	N	_	10	advcl:cond	_	Translit=yëngiwalmisam
@@ -825,7 +825,7 @@
 # text = شۇ تەرىقىدە بىر ئاي ئۆتتى.
 1	شۇ	_	PRON	P	_	2	compound	_	Translit=shu
 2	تەرىقىدە	_	NOUN	N	_	5	advmod	_	Translit=teriqide
-3	بىر	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir
+3	بىر	_	NUM	M	_	4	nummod	_	Translit=bir
 4	ئاي	_	NOUN	N	_	5	nsubj	_	Translit=ay
 5	ئۆتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ötti
 6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
@@ -844,7 +844,7 @@
 
 # sent_id = s268
 # text = بىر كۈنى ئەلى سىنىپتا دەرس تەكرارلاپ ئولتۇرغان تۇرسۇننىڭ ئالدىغا كەلدى - دە دېدى:
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	13	nmod:tmod	_	Translit=küni
 3	ئەلى	_	NOUN	N	_	13	nsubj	_	Translit=eli
 4	سىنىپتا	_	NOUN	N	_	7	obl	_	Translit=sinipta
@@ -864,7 +864,7 @@
 1	-	_	PUNCT	Y	_	12	punct	_	Translit=-
 2	ئاغىنە	_	NOUN	N	_	12	discourse	_	SpaceAfter=No|Translit=aghine
 3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
-4	بىر	_	NUM	M	NumType=Card	5	nummod	_	Translit=bir
+4	بىر	_	NUM	M	_	5	nummod	_	Translit=bir
 5	ئاينىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=ayning
 6	ئالدىدا	_	NOUN	N	_	8	obl	_	Translit=aldida
 7	ساڭا	_	PRON	P	_	8	obl	_	Translit=sanga
@@ -879,7 +879,7 @@
 # text = قېنى، بىر قول قايرىشىپ باقمايمىزمۇ؟
 1	قېنى	_	PART	T	_	5	discourse	_	SpaceAfter=No|Translit=qëni
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
-3	بىر	_	NUM	M	NumType=Card	5	advmod	_	Translit=bir
+3	بىر	_	NUM	M	_	5	advmod	_	Translit=bir
 4	قول	_	NOUN	N	_	5	compound	_	Translit=qol
 5	قايرىشىپ	_	VERB	V	_	0	root	_	Translit=qayriship
 6	باقمايمىزمۇ	_	VERB	V	_	5	aux	_	SpaceAfter=No|Translit=baqmaymizmu
@@ -932,7 +932,7 @@
 # text = ئۆزۈمنى يەنە بىر كۆرسىتىپ قوياي،
 1	ئۆزۈمنى	_	PRON	P	_	4	obj	_	Translit=özümni
 2	يەنە	_	ADV	D	_	3	compound	_	Translit=yene
-3	بىر	_	NUM	M	NumType=Card	4	advmod	_	Translit=bir
+3	بىر	_	NUM	M	_	4	advmod	_	Translit=bir
 4	كۆرسىتىپ	_	VERB	V	_	0	root	_	Translit=körsitip
 5	قوياي	_	VERB	V	_	4	aux	_	SpaceAfter=No|Translit=qoyay
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
@@ -968,7 +968,7 @@
 # sent_id = s278
 # text = بالىلار ئىككىسىنى ئورىۋېلىشتى.
 1	بالىلار	_	NOUN	N	_	3	nsubj	_	Translit=balilar
-2	ئىككىسىنى	_	NUM	M	NumType=Card	3	obj	_	Translit=ikkisini
+2	ئىككىسىنى	_	NUM	M	_	3	obj	_	Translit=ikkisini
 3	ئورىۋېلىشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=oriwëlishti
 4	.	_	PUNCT	Y	_	3	punct	_	Translit=.
 
@@ -982,7 +982,7 @@
 6	كۆزىنىڭ	_	NOUN	N	_	7	nmod:poss	_	Translit=közining
 7	قۇيرۇقىدا	_	NOUN	N	_	10	obl	_	Translit=quyruqida
 8	ئۇنىڭغا	_	PRON	P	_	10	obl	_	Translit=uninggha
-9	بىر	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
 10	قارىۋەتتى	_	VERB	V	_	0	root	_	Translit=qariwetti
 11	-	_	PUNCT	Y	_	10	punct	_	Translit=-
 12	دە	_	PART	T	_	10	mark	_	SpaceAfter=No|Translit=de
@@ -1010,7 +1010,7 @@
 4	يېڭىلگەنلىكىگە	_	NOUN	N	_	6	obl	_	Translit=yëngilgenlikige
 5	تەن	_	NOUN	N	_	6	compound	_	Translit=ten
 6	بەرمەي	_	VERB	V	_	10	advcl	_	Translit=bermey
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	قانچە	_	PRON	P	_	9	amod	_	Translit=qanche
 9	قېتىم	_	DET	Q	_	10	advmod	_	Translit=qëtim
 10	تۇتۇشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tutushti
@@ -1102,7 +1102,7 @@
 # sent_id = s291
 # text = ئۇكام ئىككىمىز دائىم يايلاقتا ئوينايمىز.
 1	ئۇكام	_	NOUN	N	_	2	appos	_	Translit=ukam
-2	ئىككىمىز	_	NUM	M	NumType=Card	5	nsubj	_	Translit=ikkimiz
+2	ئىككىمىز	_	NUM	M	_	5	nsubj	_	Translit=ikkimiz
 3	دائىم	_	ADV	D	_	5	advmod	_	Translit=daim
 4	يايلاقتا	_	NOUN	N	_	5	obl	_	Translit=yaylaqta
 5	ئوينايمىز	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=oynaymiz
@@ -1110,7 +1110,7 @@
 
 # sent_id = s292
 # text = بىر قېتىم ئۇكام ئالدىمدا يۈگۈرۈپ كېتىۋاتقاندا، مەن ھېچ ئىش بولمىغاندەك قىياپەتتە: «سېريوشا!» دەپ توۋلىدىم.
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	قېتىم	_	DET	Q	_	19	advmod	_	Translit=qëtim
 3	ئۇكام	_	NOUN	N	_	6	nsubj	_	Translit=ukam
 4	ئالدىمدا	_	NOUN	N	_	6	obl	_	Translit=aldimda
@@ -1163,7 +1163,7 @@
 
 # sent_id = s295
 # text = بىر كۈنى تاڭ سەھەردە ئورنۇمدىن تۇرۇپ بېلىق تۇتقىلى ماڭدىم.
-1	بىر	_	NUM	M	NumType=Card	2	det	_	Translit=bir
+1	بىر	_	NUM	M	_	2	det	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	9	advmod	_	Translit=küni
 3	تاڭ	_	NOUN	N	_	4	compound	_	Translit=tang
 4	سەھەردە	_	NOUN	N	_	9	nmod:tmod	_	Translit=seherde
@@ -1181,7 +1181,7 @@
 3	يايلاقنىڭ	_	NOUN	N	_	9	nsubj	_	Translit=yaylaqning
 4	ئالتۇن	_	NOUN	N	_	5	compound	_	Translit=altun
 5	رەڭ	_	NOUN	N	_	10	nmod	_	Translit=reng
-6	ئەمەس	_	VERB	V	Polarity=Neg	5	cop	_	SpaceAfter=No|Translit=emes
+6	ئەمەس	_	VERB	V	_	5	cop	_	SpaceAfter=No|Translit=emes
 7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
 8	يېشىل	_	ADJ	A	_	9	amod	_	Translit=yëshil
 9	رەڭدە	_	NOUN	N	_	5	conj	_	Translit=rengde

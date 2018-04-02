@@ -28,7 +28,7 @@
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	-	_	PUNCT	Y	_	3	punct	_	Translit=-
 6	دەپتۇ	_	VERB	V	_	0	root	_	Translit=deptu
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	چاشقان	_	NOUN	N	_	6	nsubj	_	SpaceAfter=No|Translit=chashqan
 9	.	_	PUNCT	Y	_	6	punct	_	Translit=.
 
@@ -45,7 +45,7 @@
 9	-	_	PUNCT	Y	_	7	punct	_	Translit=-
 10	دەپتۇ	_	VERB	V	_	0	root	_	Translit=deptu
 11	يەنە	_	PART	T	_	12	nmod	_	Translit=yene
-12	بىر	_	NUM	M	NumType=Card	13	nummod	_	Translit=bir
+12	بىر	_	NUM	M	_	13	nummod	_	Translit=bir
 13	چاشقان	_	NOUN	N	_	10	nsubj	_	Translit=chashqan
 14	ئۇنىڭ	_	PRON	P	_	15	nmod:poss	_	Translit=uning
 15	گېپىنى	_	NOUN	N	_	16	obj	_	Translit=gëpini
@@ -69,13 +69,13 @@
 # text = - مەن بىر ئامال تاپتىم! - دەپتۇ بىر ۋىجىك چاشقان،
 1	-	_	PUNCT	Y	_	8	punct	_	Translit=-
 2	مەن	_	PRON	P	_	5	nsubj	_	Translit=men
-3	بىر	_	NUM	M	NumType=Card	4	nummod	_	Translit=bir
+3	بىر	_	NUM	M	_	4	nummod	_	Translit=bir
 4	ئامال	_	NOUN	N	_	5	obj	_	Translit=amal
 5	تاپتىم	_	VERB	V	_	8	ccomp	_	SpaceAfter=No|Translit=taptim
 6	!	_	PUNCT	Y	_	5	punct	_	Translit=!
 7	-	_	PUNCT	Y	_	5	punct	_	Translit=-
 8	دەپتۇ	_	VERB	V	_	0	root	_	Translit=deptu
-9	بىر	_	NUM	M	NumType=Card	11	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	11	nummod	_	Translit=bir
 10	ۋىجىك	_	ADJ	A	_	11	amod	_	Translit=wijik
 11	چاشقان	_	NOUN	N	_	8	nsubj	_	SpaceAfter=No|Translit=chashqan
 12	،	_	PUNCT	Y	_	8	punct	_	Translit=,
@@ -130,7 +130,7 @@
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئەڭ	_	ADV	D	_	4	advmod	_	Translit=eng
 4	قېرى	_	ADJ	A	_	6	amod	_	Translit=qëri
-5	بىر	_	NUM	M	NumType=Card	6	dep	_	Translit=bir
+5	بىر	_	NUM	M	_	6	dep	_	Translit=bir
 6	چاشقان	_	NOUN	N	_	8	nsubj	_	Translit=chashqan
 7	ئۇلاردىن	_	PRON	P	_	8	obl	_	Translit=ulardin
 8	سوراپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=soraptu
@@ -250,7 +250,7 @@
 
 # sent_id = s1220
 # text = بىر قېتىم، ئۇ موسكىۋاغا زىيارەتكە بارغاندا، بىر قىزچاقنى ئۇچرىتىپ قالدى.
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	قېتىم	_	DET	Q	_	7	obl	_	SpaceAfter=No|Translit=qëtim
 3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئۇ	_	PRON	P	_	7	nsubj	_	Translit=u
@@ -258,7 +258,7 @@
 6	زىيارەتكە	_	NOUN	N	_	7	obl	_	Translit=ziyaretke
 7	بارغاندا	_	VERB	V	_	11	advcl	_	SpaceAfter=No|Translit=barghanda
 8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
-9	بىر	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
 10	قىزچاقنى	_	NOUN	N	_	11	obj	_	Translit=qizchaqni
 11	ئۇچرىتىپ	_	VERB	V	_	0	root	_	Translit=uchritip
 12	قالدى	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=qaldi
@@ -348,7 +348,7 @@
 8	كىشىنىڭ	_	NOUN	N	_	12	nsubj	_	Translit=kishining
 9	دۇنياغا	_	NOUN	N	_	12	dep	_	Translit=dunyagha
 10	داڭلىق	_	ADJ	A	_	12	amod	_	Translit=dangliq
-11	بىر	_	NUM	M	NumType=Card	12	nummod	_	Translit=bir
+11	بىر	_	NUM	M	_	12	nummod	_	Translit=bir
 12	يازغۇچى	_	ADJ	A	_	14	obj	_	Translit=yazghuchi
 13	ئىكەنلىكىنى	_	AUX	V	_	12	cop	_	Translit=ikenlikini
 14	بىلدۈرگىنىدە	_	VERB	V	_	20	advcl	_	SpaceAfter=No|Translit=bildürginide
@@ -530,7 +530,7 @@
 # sent_id = s1240
 # text = ھەر بىر بۇژغۇندا تەسىرلىك ھېكايىلەر بار.
 1	ھەر	_	PRON	P	_	2	det	_	Translit=her
-2	بىر	_	NUM	M	NumType=Card	3	nummod	_	Translit=bir
+2	بىر	_	NUM	M	_	3	nummod	_	Translit=bir
 3	بۇژغۇندا	_	NOUN	N	_	6	nmod	_	Translit=buzhghunda
 4	تەسىرلىك	_	ADJ	A	_	5	amod	_	Translit=tesirlik
 5	ھېكايىلەر	_	NOUN	N	_	6	nsubj	_	Translit=hëkayiler
@@ -738,7 +738,7 @@
 
 # sent_id = s1254
 # text = بىر كۈنلەرگە بارغاندا، سەنمۇ چوڭ بولىسەن،
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنلەرگە	_	NOUN	N	_	3	obl	_	Translit=künlerge
 3	بارغاندا	_	VERB	V	_	7	advcl	_	SpaceAfter=No|Translit=barghanda
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
@@ -757,7 +757,7 @@
 # sent_id = s1256
 # text = يەنە بىر كۈنلەرگە بارغاندا، سەنمۇ ئۆمرۈڭنىڭ بارلىق ۋاقتىنى ئۆتكۈزۈپ بولۇپ، موماڭغا ئوخشاش مەڭگە كەلمەسكە كېتىسەن.
 1	يەنە	_	ADV	D	_	4	advmod	_	Translit=yene
-2	بىر	_	NUM	M	NumType=Card	3	nummod	_	Translit=bir
+2	بىر	_	NUM	M	_	3	nummod	_	Translit=bir
 3	كۈنلەرگە	_	NOUN	N	_	4	obl	_	Translit=künlerge
 4	بارغاندا	_	VERB	V	_	17	obl	_	SpaceAfter=No|Translit=barghanda
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
@@ -779,7 +779,7 @@
 # text = دادامنىڭ دېگەنلىرى بىر تېپىشماققا ئوخشايتتى.
 1	دادامنىڭ	_	NOUN	N	_	2	nmod:poss	_	Translit=dadamning
 2	دېگەنلىرى	_	VERB	V	_	5	nsubj	_	Translit=dëgenliri
-3	بىر	_	NUM	M	NumType=Card	4	det	_	Translit=bir
+3	بىر	_	NUM	M	_	4	det	_	Translit=bir
 4	تېپىشماققا	_	NOUN	N	_	5	obl	_	Translit=tëpishmaqqa
 5	ئوخشايتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=oxshaytti
 6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
@@ -853,7 +853,7 @@
 24	مانا	_	PRON	P	_	30	cc	_	SpaceAfter=No|Translit=mana
 25	،	_	PUNCT	Y	_	24	punct	_	Translit=,
 26	يەنە	_	ADV	D	_	27	nmod	_	Translit=yene
-27	بىر	_	NUM	M	NumType=Card	28	nummod	_	Translit=bir
+27	بىر	_	NUM	M	_	28	nummod	_	Translit=bir
 28	كۈن	_	NOUN	N	_	30	nsubj	_	Translit=kün
 29	كەلمەسكە	_	VERB	V	_	30	advmod	_	Translit=kelmeske
 30	كەتتى	_	VERB	V	_	32	ccomp	_	SpaceAfter=No|Translit=ketti
@@ -952,7 +952,7 @@
 
 # sent_id = s1267
 # text = بىر كۈنى مەكتەپتىن قايتىپ كېلىۋېتىپ، قۇياشنىڭ ئولتۇراي دەپ قالغىنىنى كۆرۈپ دېدىم:
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	كۈنى	_	NOUN	N	_	4	obl	_	Translit=küni
 3	مەكتەپتىن	_	NOUN	N	_	4	obl	_	Translit=mekteptin
 4	قايتىپ	_	VERB	V	_	12	advcl	_	Translit=qaytip
@@ -1048,7 +1048,7 @@
 6	تەتىللىك	_	NOUN	N	_	7	amod	_	Translit=tetillik
 7	تاپشۇرۇقلىرىمنى	_	VERB	V	_	11	obj	_	SpaceAfter=No|Translit=tapshuruqlirimni
 8	.	_	PUNCT	V	_	7	punct	_	Translit=.
-9	ئون	_	NUM	M	NumType=Card	10	nummod	_	Translit=on
+9	ئون	_	NUM	M	_	10	nummod	_	Translit=on
 10	كۈندىلا	_	NOUN	N	_	11	nmod:tmod	_	Translit=kündila
 11	ئىشلەپ	_	VERB	V	_	0	root	_	Translit=ishlep
 12	بولاتتىم	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=bolattim
@@ -1091,7 +1091,7 @@
 # sent_id = s1278
 # text = كېيىنكى 20 يىلدا، مەن بۇنىڭدىنمۇ زور نەپكە ئېرىشتىم.
 1	كېيىنكى	_	ADJ	A	_	3	advmod	_	Translit=këyinki
-2	20	_	NUM	M	NumType=Card	3	nummod	_	Translit=20
+2	20	_	NUM	M	_	3	nummod	_	Translit=20
 3	يىلدا	_	NOUN	N	_	9	obl	_	SpaceAfter=No|Translit=yilda
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	مەن	_	PRON	P	_	9	nsubj	_	Translit=men
@@ -1111,7 +1111,7 @@
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
 7	بىراق	_	CCONJ	C	_	15	cc	_	Translit=biraq
 8	ئەسلىدىكىدىن	_	NOUN	N	_	12	nmod	_	Translit=eslidikidin
-9	بىر	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
 10	قەدەم	_	NOUN	N	_	12	nmod	_	Translit=qedem
 11	بولسىمۇ	_	VERB	V	_	14	aux	_	Translit=bolsimu
 12	تېز	_	ADJ	A	_	13	advmod	_	Translit=tëz
@@ -1124,7 +1124,7 @@
 # sent_id = s1280
 # text = بۇ بىرنەچچە قەدەم بەك كىچىك بولسىمۇ، بىراق ئۇلارنىڭ رولى كىچىك ئەمەسكەن.
 1	بۇ	_	PRON	P	_	3	det	_	Translit=bu
-2	بىرنەچچە	_	NUM	M	NumType=Card	3	nummod	_	Translit=birnechche
+2	بىرنەچچە	_	NUM	M	_	3	nummod	_	Translit=birnechche
 3	قەدەم	_	NOUN	N	_	5	nsubj	_	Translit=qedem
 4	بەك	_	ADV	D	_	5	advmod	_	Translit=bek
 5	كىچىك	_	ADJ	A	_	11	advmod	_	Translit=kichik
@@ -1181,7 +1181,7 @@
 
 # sent_id = s1284
 # text = بىر مەكتەپنىڭ كۇلۇبىدا بالىلار ئەترىتىنىڭ ئەزالىرى يىغىن ئېچىپ، دۆلەت بايرىمىلىق پاراتقا قاتنىشىش ئىشىنى مۇزاكىرلىشىۋاتاتتى.
-1	بىر	_	NUM	M	NumType=Card	2	det	_	Translit=bir
+1	بىر	_	NUM	M	_	2	det	_	Translit=bir
 2	مەكتەپنىڭ	_	NOUN	N	_	3	nmod:poss	_	Translit=mektepning
 3	كۇلۇبىدا	_	NOUN	N	_	8	obl	_	Translit=kulubida
 4	بالىلار	_	NOUN	N	_	5	amod	_	Translit=balilar
@@ -1214,7 +1214,7 @@
 4	مەسلىھەتلىشىشكە	_	NOUN	N	_	5	nmod	_	Translit=meslihetlishishke
 5	تىگىشلىك	_	NOUN	N	_	9	amod	_	Translit=tigishlik
 6	يەنە	_	PART	T	_	7	nmod	_	Translit=yene
-7	بىر	_	NUM	M	NumType=Card	9	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	9	nummod	_	Translit=bir
 8	مۇھىم	_	ADJ	A	_	9	amod	_	Translit=muhim
 9	ئىشىنىڭ	_	NOUN	N	_	10	nsubj	_	Translit=ishining
 10	بارلىقى	_	NOUN	N	_	11	csubj	_	Translit=barliqi
@@ -1273,7 +1273,7 @@
 4	دۇكان	_	NOUN	N	_	5	nmod:poss	_	Translit=dukan
 5	خوجايىنى	_	NOUN	N	_	10	obj	_	Translit=xojayini
 6	سالاپەتلىك	_	ADJ	A	_	8	amod	_	Translit=salapetlik
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	بوۋاي	_	NOUN	N	_	10	obl	_	Translit=boway
 9	بىلەن	_	ADP	R	_	8	case	_	Translit=bilen
 10	پاراڭلىشىپ	_	VERB	V	_	0	root	_	Translit=parangliship

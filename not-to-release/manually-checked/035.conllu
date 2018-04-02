@@ -1,7 +1,7 @@
 # sent_id = s3401
 # text = يارلانمىغان بىر قانچە يېتىم بالا ئۇنىڭغا قان بەرسە بولىدىكەن.
 1	يارلانمىغان	_	NOUN	N	_	5	amod	_	Translit=yarlanmighan
-2	بىر	_	NUM	M	NumType=Card	3	nummod	_	Translit=bir
+2	بىر	_	NUM	M	_	3	nummod	_	Translit=bir
 3	قانچە	_	PRON	P	_	5	det	_	Translit=qanche
 4	يېتىم	_	ADJ	A	_	5	amod	_	Translit=yëtim
 5	بالا	_	NOUN	N	_	8	nsubj	_	Translit=bala
@@ -13,7 +13,7 @@
 
 # sent_id = s3402
 # text = بىر ئايال دوختۇر ئەگەر ئۇلار قان بەرمىسە، قىزچاقنىڭ ئۆلۈپ كېتىدىغانلىقىنى بۇ بالىلارغا ئېيتىپ، قان بېرىشنى خالايدىغانلارنىڭ بار-يوقلۇقىنى سوراپتۇ.
-1	بىر	_	NUM	M	NumType=Card	3	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	3	nummod	_	Translit=bir
 2	ئايال	_	NOUN	N	_	3	amod	_	Translit=ayal
 3	دوختۇر	_	NOUN	N	_	20	nsubj	_	Translit=doxtur
 4	ئەگەر	_	CCONJ	C	_	7	cc	_	Translit=eger
@@ -42,7 +42,7 @@
 3	كېيىن	_	ADV	D	_	11	advmod	_	SpaceAfter=No|Translit=këyin
 4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
 5	كىچككىنە	_	NOUN	N	_	7	amod	_	Translit=kichkkine
-6	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+6	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 7	قول	_	NOUN	N	_	11	nsubj	_	Translit=qol
 8	تىترىگەن	_	VERB	V	_	11	obl	_	Translit=titrigen
 9	ھالدا	_	NOUN	N	_	8	case	_	Translit=halda
@@ -137,7 +137,7 @@
 
 # sent_id = s3411
 # text = بىر ئېغىز گەپمۇ قىلماپتۇ.
-1	بىر	_	NUM	M	NumType=Card	2	nummod	_	Translit=bir
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
 2	ئېغىز	_	NOUN	N	_	3	amod	_	Translit=ëghiz
 3	گەپمۇ	_	NOUN	N	_	4	obj	_	Translit=gepmu
 4	قىلماپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qilmaptu
@@ -152,7 +152,7 @@
 5	رۇەن	_	NOUN	N	_	6	nmod	_	Translit=ruen
 6	خېڭ	_	NOUN	N	_	12	nsubj	_	Translit=xëng
 7	دەرھال	_	ADV	D	_	12	advmod	_	Translit=derhal
-8	بىر	_	NUM	M	NumType=Card	9	nummod	_	Translit=bir
+8	بىر	_	NUM	M	_	9	nummod	_	Translit=bir
 9	قولى	_	NOUN	N	_	12	obl	_	Translit=qoli
 10	بىلەن	_	ADP	R	_	9	case	_	Translit=bilen
 11	يۈزىنى	_	NOUN	N	_	12	obj	_	Translit=yüzini
@@ -357,7 +357,7 @@
 3	يەۋاتقانلىقىنى	_	VERB	V	_	4	obj	_	Translit=yewatqanliqini
 4	كۆرۈپ	_	VERB	V	_	9	advcl	_	SpaceAfter=No|Translit=körüp
 5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
-6	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+6	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 7	چەتتە	_	NOUN	N	_	8	obl	_	Translit=chette
 8	تۇرۇپ	_	VERB	V	_	9	advmod	_	Translit=turup
 9	يىغلاپ	_	VERB	V	_	0	root	_	Translit=yighlap
@@ -459,7 +459,7 @@
 3	قورسىقىنى	_	NOUN	N	_	4	obj	_	Translit=qorsiqini
 4	كۆپتۈرگەن	_	VERB	V	_	7	acl	_	Translit=köptürgen
 5	يەنە	_	ADV	D	_	6	nmod	_	Translit=yene
-6	بىر	_	NUM	M	NumType=Card	7	nummod	_	Translit=bir
+6	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
 7	ئىش	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=ish
 8	:	_	PUNCT	Y	_	7	punct	_	Translit=:
 
@@ -485,7 +485,7 @@
 6	ئاشپەزلەر	_	NOUN	N	_	11	nsubj	_	Translit=ashpezler
 7	بۇ	_	PRON	P	_	8	det	_	Translit=bu
 8	تۇخۇمدىن	_	NOUN	N	_	10	nmod	_	Translit=tuxumdin
-9	بىر	_	NUM	M	NumType=Card	10	nummod	_	Translit=bir
+9	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
 10	تەخسە	_	DET	Q	_	11	obj	_	Translit=texse
 11	قورۇپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qoruptu
 12	.	_	PUNCT	Y	_	11	punct	_	Translit=.
@@ -498,7 +498,7 @@
 4	ئالدىغا	_	NOUN	N	_	5	obl	_	Translit=aldigha
 5	ئەكىلىشىگە	_	VERB	V	_	15	advcl	_	SpaceAfter=No|Translit=ekilishige
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
-7	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 8	قىز	_	NOUN	N	_	15	nsubj	_	Translit=qiz
 9	جايىدا	_	NOUN	N	_	10	nmod	_	Translit=jayida
 10	ئولتۇرغىنىچە	_	NOUN	N	_	15	advmod	_	Translit=olturghiniche
@@ -572,7 +572,7 @@
 
 # sent_id = s3446
 # text = ئۈچ كۈنلۈك پائالىيەت ئاخىرلاشتى،
-1	ئۈچ	_	NUM	M	NumType=Card	2	nummod	_	Translit=üch
+1	ئۈچ	_	NUM	M	_	2	nummod	_	Translit=üch
 2	كۈنلۈك	_	DET	Q	_	3	amod	_	Translit=künlük
 3	پائالىيەت	_	NOUN	N	_	4	nsubj	_	Translit=paaliyet
 4	ئاخىرلاشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=axirlashti
@@ -594,12 +594,12 @@
 
 # sent_id = s3448
 # text = ئىككى قېتىم نوبىل مۇكاپاتىغا ئېرىشكەن بىر كاتتا ئالىم ئۆزىنى شۇ قەدەر ئاددىي ئادەم دەپ قارىدى.
-1	ئىككى	_	NUM	M	NumType=Card	2	nummod	_	Translit=ikki
+1	ئىككى	_	NUM	M	_	2	nummod	_	Translit=ikki
 2	قېتىم	_	DET	Q	_	5	advmod	_	Translit=qëtim
 3	نوبىل	_	NOUN	N	_	4	compound	_	Translit=nobil
 4	مۇكاپاتىغا	_	NOUN	N	_	5	obl	_	Translit=mukapatigha
 5	ئېرىشكەن	_	VERB	V	_	8	acl	_	Translit=ërishken
-6	بىر	_	NUM	M	NumType=Card	8	nummod	_	Translit=bir
+6	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
 7	كاتتا	_	ADJ	A	_	8	amod	_	Translit=katta
 8	ئالىم	_	NOUN	N	_	15	nsubj	_	Translit=alim
 9	ئۆزىنى	_	PRON	P	_	15	obj	_	Translit=özini
@@ -684,7 +684,7 @@
 # sent_id = s3454
 # text = ‹‹ ئوتتۇز ئوغۇل مەشىرىپى ›› ئېلى رايونىدىكى ئۇيغۇرلارنىڭ يەلىك مەشرىپى بولۇپ، ئۇ قاتنىشىش دائىرسى پەقەت ئەرلەر بىلەنلا چەكلىنىدىغان مەشرەپ.
 1	‹‹	_	PUNCT	N	_	20	punct	_	Translit=‹‹
-2	ئوتتۇز	_	NUM	M	NumType=Card	3	compound	_	Translit=ottuz
+2	ئوتتۇز	_	NUM	M	_	3	compound	_	Translit=ottuz
 3	ئوغۇل	_	NOUN	N	_	4	compound	_	Translit=oghul
 4	مەشىرىپى	_	NOUN	N	_	10	nsubj	_	Translit=meshiripi
 5	››	_	PUNCT	N	_	4	punct	_	Translit=››
@@ -709,7 +709,7 @@
 # text = مەسلەن، ئوتتۇز ئوغۇل مەشرىپى، دولان مەشرىپى، كۆك (مايسا) مەشرىپى، قېيىت مەشرىپى.
 1	مەسلەن	_	NOUN	N	_	5	cc	_	SpaceAfter=No|Translit=meslen
 2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
-3	ئوتتۇز	_	NUM	M	NumType=Card	4	compound	_	Translit=ottuz
+3	ئوتتۇز	_	NUM	M	_	4	compound	_	Translit=ottuz
 4	ئوغۇل	_	NOUN	N	_	5	compound	_	Translit=oghul
 5	مەشرىپى	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=meshripi
 6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
