@@ -82,9 +82,7 @@ Syntax errors: 17
 021.conllu
 *** PASSED ***
 022.conllu
-[Line                   946]: Unknown UD DEPREL: dislocative
-*** FAILED *** with 1 errors
-Syntax errors: 1
+*** PASSED ***
 023.conllu
 [Line                   505]: Unknown UD DEPREL: compound:re
 [Line                   573]: Violation of guidelines: relation conj must go left-to-right

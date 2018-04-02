@@ -943,7 +943,7 @@
 6	ئوماق	_	ADJ	A	_	7	amod	_	Translit=omaq
 7	بالا	_	NOUN	N	_	11	obl	_	Translit=bala
 8	&gt;	_	X	Y	_	7	dep	_	Translit=&gt;
-9	غا	_	X	X	_	7	dislocative	_	Translit=gha
+9	غا	_	X	X	_	7	dislocated	_	Translit=gha
 10	قارىغىنىچە	_	VERB	V	_	11	advmod	_	Translit=qarighiniche
 11	كۈلۈپ	_	VERB	V	_	0	root	_	Translit=külüp
 12	كەتتى	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=ketti
