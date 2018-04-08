@@ -1,0 +1,1435 @@
+# sent_id = s1701
+# text = ئۇنىڭ ئاياق ئىزلىرى يۇمشاققىنە ساھىل ئۈستىگە گۈل بولۇپ چېكىلەتتى.
+1	ئۇنىڭ	_	PRON	P	_	3	nmod:poss	_	Translit=uning
+2	ئاياق	_	NOUN	N	_	3	nmod	_	Translit=ayaq
+3	ئىزلىرى	_	NOUN	N	_	9	nsubj	_	Translit=izliri
+4	يۇمشاققىنە	_	NOUN	N	_	5	amod	_	Translit=yumshaqqine
+5	ساھىل	_	NOUN	N	_	6	nmod	_	Translit=sahil
+6	ئۈستىگە	_	NOUN	N	_	9	obl	_	Translit=üstige
+7	گۈل	_	NOUN	N	_	9	obl	_	Translit=gül
+8	بولۇپ	_	AUX	V	_	7	cop	_	Translit=bolup
+9	چېكىلەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chëkiletti
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.
+
+# sent_id = s1702
+# text = گۆدەك چاغلىرىمدا چوڭىيىپ كېتىشتىن بەكمۇ ئەنسىرەيتتىم.
+1	گۆدەك	_	NOUN	N	_	2	amod	_	Translit=gödek
+2	چاغلىرىمدا	_	NOUN	N	_	6	obl	_	Translit=chaghlirimda
+3	چوڭىيىپ	_	VERB	V	_	6	advmod	_	Translit=chongiyip
+4	كېتىشتىن	_	AUX	V	_	3	aux	_	Translit=këtishtin
+5	بەكمۇ	_	ADV	D	_	6	advmod	_	Translit=bekmu
+6	ئەنسىرەيتتىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ensireyttim
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1703
+# text = خېلى ياشلارغا كىرىپ قالغان بولساممۇ ھېچقانچە ئىشنى ۋۇجۇدقا چىقىرالمىدىم، دەپ ئويلايتتىم.
+1	خېلى	_	ADV	D	_	2	amod	_	Translit=xëli
+2	ياشلارغا	_	NOUN	N	_	3	obl	_	Translit=yashlargha
+3	كىرىپ	_	VERB	V	_	5	advmod	_	Translit=kirip
+4	قالغان	_	AUX	V	_	3	aux	_	Translit=qalghan
+5	بولساممۇ	_	NOUN	N	_	9	parataxis	_	Translit=bolsammu
+6	ھېچقانچە	_	PRON	P	_	7	det	_	Translit=hëchqanche
+7	ئىشنى	_	NOUN	N	_	9	obj	_	Translit=ishni
+8	ۋۇجۇدقا	_	NOUN	N	_	9	compound	_	Translit=wujudqa
+9	چىقىرالمىدىم	_	VERB	V	_	11	ccomp	_	SpaceAfter=No|Translit=chiqiralmidim
+10	،	_	PUNCT	Y	_	9	punct	_	Translit=,
+11	دەپ	_	VERB	V	_	12	advmod	_	Translit=dep
+12	ئويلايتتىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=oylayttim
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
+
+# sent_id = s1704
+# text = شۇڭا، ئون يەتتە ياشقا كىرگۈچە ئۆز - ئۆزەمنى ئەيىپلەپ يۈردۈم.
+1	شۇڭا	_	CCONJ	C	_	11	cc	_	SpaceAfter=No|Translit=shunga
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	ئون	_	NUM	M	_	4	compound	_	Translit=on
+4	يەتتە	_	NUM	M	_	5	nummod	_	Translit=yette
+5	ياشقا	_	NOUN	N	_	6	obl	_	Translit=yashqa
+6	كىرگۈچە	_	VERB	V	_	11	advmod	_	Translit=kirgüche
+7	ئۆز	_	PRON	P	_	9	compound:redup	_	Translit=öz
+8	-	_	PUNCT	Y	_	7	punct	_	Translit=-
+9	ئۆزەمنى	_	NOUN	N	_	10	obj	_	Translit=özemni
+10	ئەيىپلەپ	_	NOUN	N	_	11	advcl	_	Translit=eyiplep
+11	يۈردۈم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yürdüm
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.
+
+# sent_id = s1705
+# text = لېكىن، ئون يەتتە ياشتى ھالقىغاندا كىشىلەر مېنى &lt; &lt; پاھ، قالتىس جۇمۇ سەن! &gt; &gt; دەپ ماختىشدىغان بولدى.
+1	لېكىن	_	CCONJ	C	_	20	cc	_	SpaceAfter=No|Translit=lëkin
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	ئون	_	NUM	M	_	4	compound	_	Translit=on
+4	يەتتە	_	NUM	M	_	5	nummod	_	Translit=yette
+5	ياشتى	_	NOUN	N	_	6	obl	_	Translit=yashti
+6	ھالقىغاندا	_	VERB	V	_	20	advcl	_	Translit=halqighanda
+7	كىشىلەر	_	NOUN	N	_	20	nsubj	_	Translit=kishiler
+8	مېنى	_	PRON	P	_	20	obj	_	Translit=mëni
+9	&lt;	_	X	Y	_	15	dep	_	Translit=&lt;
+10	&lt;	_	X	Y	_	15	dep	_	Translit=&lt;
+11	پاھ	_	INTJ	E	_	15	discourse	_	SpaceAfter=No|Translit=pah
+12	،	_	PUNCT	Y	_	11	punct	_	Translit=,
+13	قالتىس	_	ADJ	A	_	15	amod	_	Translit=qaltis
+14	جۇمۇ	_	PART	T	_	15	mark	_	Translit=jumu
+15	سەن	_	PRON	P	_	19	ccomp	_	SpaceAfter=No|Translit=sen
+16	!	_	PUNCT	N	_	15	punct	_	Translit=!
+17	&gt;	_	X	Y	_	15	dep	_	Translit=&gt;
+18	&gt;	_	X	Y	_	15	dep	_	Translit=&gt;
+19	دەپ	_	VERB	V	_	20	advmod	_	Translit=dep
+20	ماختىشدىغان	_	VERB	V	_	0	root	_	Translit=maxtishdighan
+21	بولدى	_	AUX	V	_	20	aux	_	SpaceAfter=No|Translit=boldi
+22	.	_	PUNCT	Y	_	21	punct	_	Translit=.
+
+# sent_id = s1706
+# text = مەنمۇ سۇدەك ئۆتۈۋاتقان ئۆمرۈمگە پۇشايمان قىلمايدىغان، ھەتتا قانچە چوڭايسام كىشىلەر مېنى سۇنچە ماختايدىغان ئوخشايدۇ، دەپ ئويلاپ قالدىم.
+1	مەنمۇ	_	PRON	P	_	6	nsubj	_	Translit=menmu
+2	سۇدەك	_	NOUN	N	_	3	advmod	_	Translit=sudek
+3	ئۆتۈۋاتقان	_	VERB	V	_	4	acl	_	Translit=ötüwatqan
+4	ئۆمرۈمگە	_	NOUN	N	_	6	obl	_	Translit=ömrümge
+5	پۇشايمان	_	NOUN	N	_	6	compound	_	Translit=pushayman
+6	قىلمايدىغان	_	VERB	V	_	18	parataxis	_	SpaceAfter=No|Translit=qilmaydighan
+7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+8	ھەتتا	_	CCONJ	C	_	18	cc	_	Translit=hetta
+9	قانچە	_	PRON	P	_	10	advmod	_	Translit=qanche
+10	چوڭايسام	_	VERB	V	_	14	advmod	_	Translit=chongaysam
+11	كىشىلەر	_	NOUN	N	_	14	nsubj	_	Translit=kishiler
+12	مېنى	_	PRON	P	_	14	obj	_	Translit=mëni
+13	سۇنچە	_	NOUN	N	_	14	amod	_	Translit=sunche
+14	ماختايدىغان	_	VERB	V	_	17	ccomp	_	Translit=maxtaydighan
+15	ئوخشايدۇ	_	AUX	V	_	14	aux	_	SpaceAfter=No|Translit=oxshaydu
+16	،	_	PUNCT	Y	_	15	punct	_	Translit=,
+17	دەپ	_	VERB	V	_	18	advcl	_	Translit=dep
+18	ئويلاپ	_	VERB	V	_	0	root	_	Translit=oylap
+19	قالدىم	_	AUX	V	_	18	aux	_	SpaceAfter=No|Translit=qaldim
+20	.	_	PUNCT	Y	_	19	punct	_	Translit=.
+
+# sent_id = s1707
+# text = بىر كۈنى فېنيە چوڭ ئانام ماشىنىمىزنى يۇيۇشقا ياردەملەشتى.
+1	بىر	_	NUM	M	_	2	det	_	Translit=bir
+2	كۈنى	_	NOUN	N	_	8	nmod:tmod	_	Translit=küni
+3	فېنيە	_	NOUN	N	_	5	appos	_	Translit=fënye
+4	چوڭ	_	ADJ	A	_	5	compound	_	Translit=chong
+5	ئانام	_	NOUN	N	_	8	nsubj	_	Translit=anam
+6	ماشىنىمىزنى	_	NOUN	N	_	7	obj	_	Translit=mashinimizni
+7	يۇيۇشقا	_	VERB	V	_	8	obl	_	Translit=yuyushqa
+8	ياردەملەشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yardemleshti
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1708
+# text = ئۇ سۇ بىلەن يۇيدى،
+1	ئۇ	_	PRON	P	_	4	nsubj	_	Translit=u
+2	سۇ	_	NOUN	N	_	4	obl	_	Translit=su
+3	بىلەن	_	ADP	R	_	2	case	_	Translit=bilen
+4	يۇيدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yuydi
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+
+# sent_id = s1709
+# text = مەن بۇغا تېرىسى بىلەن سۈرتتۈم.
+1	مەن	_	PRON	P	_	5	nsubj	_	Translit=men
+2	بۇغا	_	NOUN	N	_	3	compound	_	Translit=bugha
+3	تېرىسى	_	NOUN	N	_	5	obl	_	Translit=tërisi
+4	بىلەن	_	ADP	R	_	3	cc	_	Translit=bilen
+5	سۈرتتۈم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=sürttüm
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1710
+# text = مەن خېلى كۈچىنىپ ئىشلىدىم.
+1	مەن	_	PRON	P	_	4	nsubj	_	Translit=men
+2	خېلى	_	ADV	D	_	3	advmod	_	Translit=xëli
+3	كۈچىنىپ	_	NOUN	N	_	4	advmod	_	Translit=küchinip
+4	ئىشلىدىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ishlidim
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1711
+# text = ئۇ پىشانەمدىكى تەرنى كۆرگەن بولسا كېرەك، مەندىن: _ _ قانچە ياشقا كىردىڭىز؟ _ _ دەپ سورىدى.
+1	ئۇ	_	PRON	P	_	4	nsubj	_	Translit=u
+2	پىشانەمدىكى	_	NOUN	N	_	3	amod	_	Translit=pishanemdiki
+3	تەرنى	_	NOUN	N	_	4	obj	_	Translit=terni
+4	كۆرگەن	_	VERB	V	_	19	parataxis	_	Translit=körgen
+5	بولسا	_	AUX	V	_	4	aux	_	Translit=bolsa
+6	كېرەك	_	ADJ	A	_	4	cop	_	SpaceAfter=No|Translit=kërek
+7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+8	مەندىن	_	PRON	P	_	19	obl	_	SpaceAfter=No|Translit=mendin
+9	:	_	PUNCT	Y	_	8	punct	_	Translit=:
+10	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+11	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+12	قانچە	_	PRON	P	_	13	det	_	Translit=qanche
+13	ياشقا	_	NOUN	N	_	14	obl	_	Translit=yashqa
+14	كىردىڭىز	_	VERB	V	_	18	ccomp	_	SpaceAfter=No|Translit=kirdingiz
+15	؟	_	PUNCT	Y	_	14	punct	_	Translit=?
+16	_	_	PUNCT	Y	_	14	punct	_	Translit=_
+17	_	_	PUNCT	Y	_	14	punct	_	Translit=_
+18	دەپ	_	VERB	V	_	19	advcl	_	Translit=dep
+19	سورىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=soridi
+20	.	_	PUNCT	Y	_	19	punct	_	Translit=.
+
+# sent_id = s1712
+# text = مەن ئۇنىڭغا بىر پەس تىكىلىپ قاراپ قالدىم ھەمدە تەشۋىشلىنىشكە باشلىدىم.
+1	مەن	_	PRON	P	_	6	nsubj	_	Translit=men
+2	ئۇنىڭغا	_	PRON	P	_	6	obl	_	Translit=uninggha
+3	بىر	_	NUM	M	_	6	advmod	_	Translit=bir
+4	پەس	_	ADJ	A	_	3	fixed	_	Translit=pes
+5	تىكىلىپ	_	VERB	V	_	6	advcl	_	Translit=tikilip
+6	قاراپ	_	VERB	V	_	0	root	_	Translit=qarap
+7	قالدىم	_	AUX	V	_	6	aux	_	Translit=qaldim
+8	ھەمدە	_	CCONJ	C	_	10	cc	_	Translit=hemde
+9	تەشۋىشلىنىشكە	_	NOUN	N	_	10	obl	_	Translit=teshwishlinishke
+10	باشلىدىم	_	VERB	V	_	6	conj	_	SpaceAfter=No|Translit=bashlidim
+11	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1713
+# text = چۈنكى، مەن ئاددىي ئادەمنىڭ كۆزلىرىدىن تەبىئەتنىڭ رەھىمسىز قانۇنىيىتىنى كۆرگەنىدىم.
+1	چۈنكى	_	CCONJ	C	_	10	cc	_	SpaceAfter=No|Translit=chünki
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	مەن	_	PRON	P	_	10	nsubj	_	Translit=men
+4	ئاددىي	_	ADJ	A	_	5	amod	_	Translit=addiy
+5	ئادەمنىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=ademning
+6	كۆزلىرىدىن	_	NOUN	N	_	10	obl	_	Translit=közliridin
+7	تەبىئەتنىڭ	_	NOUN	N	_	9	nmod:poss	_	Translit=tebietning
+8	رەھىمسىز	_	ADJ	A	_	9	amod	_	Translit=rehimsiz
+9	قانۇنىيىتىنى	_	NOUN	N	_	10	obj	_	Translit=qanuniyitini
+10	كۆرگەنىدىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=körgenidim
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1714
+# text = مەن شۇندىلا قىلبىمدىكى لىرىك كۈيلەر ۋە شائىرانە تۇيغۇلارنىڭ مېنى قۇتقۇزۇپ قالالمايدىغانلىقىنى ھېس قىلىپ يەتتىم.
+1	مەن	_	PRON	P	_	13	nsubj	_	Translit=men
+2	شۇندىلا	_	PRON	P	_	13	advmod	_	Translit=shundila
+3	قىلبىمدىكى	_	NOUN	N	_	5	amod	_	Translit=qilbimdiki
+4	لىرىك	_	VERB	V	_	5	amod	_	Translit=lirik
+5	كۈيلەر	_	VERB	V	_	11	nsubj	_	Translit=küyler
+6	ۋە	_	CCONJ	C	_	8	cc	_	Translit=we
+7	شائىرانە	_	VERB	V	_	8	nmod	_	Translit=shairane
+8	تۇيغۇلارنىڭ	_	NOUN	N	_	5	conj	_	Translit=tuyghularning
+9	مېنى	_	PRON	P	_	11	obj	_	Translit=mëni
+10	قۇتقۇزۇپ	_	VERB	V	_	11	compound	_	Translit=qutquzup
+11	قالالمايدىغانلىقىنى	_	VERB	V	_	13	obj	_	Translit=qalalmaydighanliqini
+12	ھېس	_	NOUN	N	_	13	compound	_	Translit=hës
+13	قىلىپ	_	VERB	V	_	0	root	_	Translit=qilip
+14	يەتتىم	_	AUX	V	_	13	aux	_	SpaceAfter=No|Translit=yettim
+15	.	_	PUNCT	Y	_	14	punct	_	Translit=.
+
+# sent_id = s1715
+# text = مەن ئۇنىڭ كۆزلىرىگە تىكىپ تۇرۇپ قالدىم.
+1	مەن	_	PRON	P	_	5	nsubj	_	Translit=men
+2	ئۇنىڭ	_	PRON	P	_	3	nmod:poss	_	Translit=uning
+3	كۆزلىرىگە	_	NOUN	N	_	4	obl	_	Translit=közlirige
+4	تىكىپ	_	VERB	V	_	5	advcl	_	Translit=tikip
+5	تۇرۇپ	_	VERB	V	_	0	root	_	Translit=turup
+6	قالدىم	_	AUX	V	_	5	aux	_	SpaceAfter=No|Translit=qaldim
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1716
+# text = كۆڭلۈم پاراكەندە ئىدى.
+1	كۆڭلۈم	_	NOUN	N	_	2	nsubj	_	Translit=könglüm
+2	پاراكەندە	_	ADJ	A	_	0	root	_	Translit=parakende
+3	ئىدى	_	AUX	V	_	2	cop	_	SpaceAfter=No|Translit=idi
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.
+
+# sent_id = s1717
+# text = مەن ئوڭايسىزلانغان ھالدا ئۇنىڭ سوئالىنى تەكرارلىدىم:
+1	مەن	_	PRON	P	_	6	nsubj	_	Translit=men
+2	ئوڭايسىزلانغان	_	VERB	V	_	6	obl	_	Translit=ongaysizlanghan
+3	ھالدا	_	NOUN	N	_	2	case	_	Translit=halda
+4	ئۇنىڭ	_	PRON	P	_	5	nmod:poss	_	Translit=uning
+5	سوئالىنى	_	NOUN	N	_	6	obj	_	Translit=soalini
+6	تەكرارلىدىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tekrarlidim
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:
+
+# sent_id = s1718
+# text = _ _ نەچچە ياشقا كىردىڭىز دەمسىز؟
+1	_	_	PUNCT	Y	_	6	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	6	punct	_	Translit=_
+3	نەچچە	_	PRON	P	_	4	det	_	Translit=nechche
+4	ياشقا	_	NOUN	N	_	5	obl	_	Translit=yashqa
+5	كىردىڭىز	_	VERB	V	_	6	ccomp	_	Translit=kirdingiz
+6	دەمسىز	_	PART	T	_	0	root	_	SpaceAfter=No|Translit=demsiz
+7	؟	_	PUNCT	Y	_	6	punct	_	Translit=?
+
+# sent_id = s1719
+# text = _ _ شۇنداق بېگىم، _ _ دېدى چوڭ ئانام، _ _ نەچچىگە كىردىڭىز دەۋاتىمەن.
+1	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+3	شۇنداق	_	PRON	P	_	8	discourse	_	Translit=shundaq
+4	بېگىم	_	NOUN	N	_	8	discourse	_	SpaceAfter=No|Translit=bëgim
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+6	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+7	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+8	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+9	چوڭ	_	ADJ	A	_	10	compound	_	Translit=chong
+10	ئانام	_	NOUN	N	_	8	nsubj	_	SpaceAfter=No|Translit=anam
+11	،	_	PUNCT	Y	_	16	punct	_	Translit=,
+12	_	_	PUNCT	Y	_	16	punct	_	Translit=_
+13	_	_	PUNCT	Y	_	16	punct	_	Translit=_
+14	نەچچىگە	_	NOUN	N	_	15	nmod	_	Translit=nechchige
+15	كىردىڭىز	_	NOUN	N	_	16	ccomp	_	Translit=kirdingiz
+16	دەۋاتىمەن	_	VERB	V	_	8	advcl	_	SpaceAfter=No|Translit=dewatimen
+17	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1720
+# text = مەن كۆڭلۈمدىكى تەھلىكىنى ئاخىر بېسىۋالدىم؛
+1	مەن	_	PRON	P	_	5	nsubj	_	Translit=men
+2	كۆڭلۈمدىكى	_	NOUN	N	_	3	amod	_	Translit=könglümdiki
+3	تەھلىكىنى	_	NOUN	N	_	5	obj	_	Translit=tehlikini
+4	ئاخىر	_	ADV	D	_	5	advmod	_	Translit=axir
+5	بېسىۋالدىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bësiwaldim
+6	؛	_	PUNCT	Y	_	5	punct	_	Translit=;
+
+# sent_id = s1721
+# text = _ _ قانچە ياشقا كىردىڭىز دەمسىز؟ ئۆزىڭىز دەپ بېقىڭ، مانا مەن ئاتتەك ئىشلەۋاتىمەنغۇ.
+1	_	_	PUNCT	Y	_	15	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	15	punct	_	Translit=_
+3	قانچە	_	PRON	P	_	4	det	_	Translit=qanche
+4	ياشقا	_	NOUN	N	_	5	obl	_	Translit=yashqa
+5	كىردىڭىز	_	VERB	V	_	6	ccomp	_	Translit=kirdingiz
+6	دەمسىز	_	PART	T	_	15	parataxis	_	SpaceAfter=No|Translit=demsiz
+7	؟	_	PUNCT	Y	_	6	punct	_	Translit=?
+8	ئۆزىڭىز	_	PRON	P	_	9	nsubj	_	Translit=özingiz
+9	دەپ	_	VERB	V	_	15	parataxis	_	Translit=dep
+10	بېقىڭ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=bëqing
+11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
+12	مانا	_	PRON	P	_	15	mark	_	Translit=mana
+13	مەن	_	PRON	P	_	15	nsubj	_	Translit=men
+14	ئاتتەك	_	NOUN	N	_	15	advmod	_	Translit=attek
+15	ئىشلەۋاتىمەنغۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ishlewatimenghu
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.
+
+# sent_id = s1722
+# text = _ _ مەنغۇ كۆرۈپ تۇرۇۋاتىمەن، دېدى ئۇ، _ _ يامان ئەمەس ئىشلەۋاتىسىز.
+1	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+3	مەنغۇ	_	NOUN	N	_	4	nsubj	_	Translit=menghu
+4	كۆرۈپ	_	VERB	V	_	7	ccomp	_	Translit=körüp
+5	تۇرۇۋاتىمەن	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=turuwatimen
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+8	ئۇ	_	PRON	P	_	7	nsubj	_	SpaceAfter=No|Translit=u
+9	،	_	PUNCT	Y	_	14	punct	_	Translit=,
+10	_	_	PUNCT	Y	_	14	punct	_	Translit=_
+11	_	_	PUNCT	Y	_	14	punct	_	Translit=_
+12	يامان	_	ADJ	A	_	13	compound	_	Translit=yaman
+13	ئەمەس	_	VERB	V	_	14	advmod	_	Translit=emes
+14	ئىشلەۋاتىسىز	_	VERB	V	_	7	ccomp	_	SpaceAfter=No|Translit=ishlewatisiz
+15	.	_	PUNCT	Y	_	7	punct	_	Translit=.
+
+# sent_id = s1723
+# text = لېكىن، زادى قانچە ياشقا كىرگەنسىز؟
+1	لېكىن	_	CCONJ	C	_	6	cc	_	SpaceAfter=No|Translit=lëkin
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	زادى	_	PART	T	_	6	advmod	_	Translit=zadi
+4	قانچە	_	PRON	P	_	5	det	_	Translit=qanche
+5	ياشقا	_	NOUN	N	_	6	obl	_	Translit=yashqa
+6	كىرگەنسىز	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kirgensiz
+7	؟	_	PUNCT	Y	_	6	punct	_	Translit=?
+
+# sent_id = s1724
+# text = _ _ ئاتتەك ئىشلەۋاتىمەنغۇ، _ _ دېدىم مەن سۆزۈمنى تەكرارلاپ، _ _ كىشىلەر ئاتقا مېنىۋالغاندا، ئاتنىڭ چىشىغا قارىمايدۇ - دە.
+1	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+3	ئاتتەك	_	NOUN	N	_	4	advmod	_	Translit=attek
+4	ئىشلەۋاتىمەنغۇ	_	VERB	V	_	8	ccomp	_	SpaceAfter=No|Translit=ishlewatimenghu
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+6	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+7	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+8	دېدىم	_	NOUN	N	_	0	root	_	Translit=dëdim
+9	مەن	_	PRON	P	_	8	nsubj	_	Translit=men
+10	سۆزۈمنى	_	NOUN	N	_	11	obj	_	Translit=sözümni
+11	تەكرارلاپ	_	VERB	V	_	8	advcl	_	SpaceAfter=No|Translit=tekrarlap
+12	،	_	PUNCT	Y	_	21	punct	_	Translit=,
+13	_	_	PUNCT	Y	_	21	punct	_	Translit=_
+14	_	_	PUNCT	Y	_	21	punct	_	Translit=_
+15	كىشىلەر	_	NOUN	N	_	17	nsubj	_	Translit=kishiler
+16	ئاتقا	_	NOUN	N	_	17	obl	_	Translit=atqa
+17	مېنىۋالغاندا	_	VERB	V	_	21	advcl	_	SpaceAfter=No|Translit=mëniwalghanda
+18	،	_	PUNCT	Y	_	17	punct	_	Translit=,
+19	ئاتنىڭ	_	NOUN	N	_	20	nmod:poss	_	Translit=atning
+20	چىشىغا	_	NOUN	N	_	21	obl	_	Translit=chishigha
+21	قارىمايدۇ	_	VERB	V	_	8	ccomp	_	Translit=qarimaydu
+22	-	_	PUNCT	Y	_	21	punct	_	Translit=-
+23	دە	_	PART	T	_	21	mark	_	SpaceAfter=No|Translit=de
+24	.	_	PUNCT	Y	_	23	punct	_	Translit=.
+
+# sent_id = s1725
+# text = _ _ جايىدا گەپ قىلدىڭىز! _ _ فىنيە قوشۇلغانلىقىنى بىلدۈردى.
+1	_	_	PUNCT	Y	_	11	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	11	punct	_	Translit=_
+3	جايىدا	_	NOUN	N	_	5	obl	_	Translit=jayida
+4	گەپ	_	NOUN	N	_	5	compound	_	Translit=gep
+5	قىلدىڭىز	_	VERB	V	_	11	ccomp	_	SpaceAfter=No|Translit=qildingiz
+6	!	_	PUNCT	V	_	5	punct	_	Translit=!
+7	_	_	PUNCT	Y	_	5	punct	_	Translit=_
+8	_	_	PUNCT	Y	_	5	punct	_	Translit=_
+9	فىنيە	_	NOUN	N	_	11	nsubj	_	Translit=finye
+10	قوشۇلغانلىقىنى	_	NOUN	N	_	11	obl	_	Translit=qoshulghanliqini
+11	بىلدۈردى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bildürdi
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.
+
+# sent_id = s1726
+# text = بىزنى سۆھبىتىمىزمۇ شۇنىڭ بىلەن تامام بولدى.
+1	بىزنى	_	PRON	P	_	2	nmod:poss	_	Translit=bizni
+2	سۆھبىتىمىزمۇ	_	NOUN	N	_	5	nsubj	_	Translit=söhbitimizmu
+3	شۇنىڭ	_	PRON	P	_	5	advmod	_	Translit=shuning
+4	بىلەن	_	ADP	R	_	3	fixed	_	Translit=bilen
+5	تامام	_	ADJ	A	_	0	root	_	Translit=tamam
+6	بولدى	_	AUX	V	_	5	aux	_	SpaceAfter=No|Translit=boldi
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1727
+# text = ئۇ ئويلانغان ھالدا ئۆز - ئۆزىگە: &lt; &lt; ئادەم دېگەن ئۇزاقراق ياشىسام دەيدۇ - دە &gt; &gt; دەپ قويدى.
+1	ئۇ	_	PRON	P	_	19	nsubj	_	Translit=u
+2	ئويلانغان	_	VERB	V	_	19	obl	_	Translit=oylanghan
+3	ھالدا	_	NOUN	N	_	2	case	_	Translit=halda
+4	ئۆز	_	PRON	P	_	6	compound:redup	_	Translit=öz
+5	-	_	PUNCT	Y	_	4	punct	_	Translit=-
+6	ئۆزىگە	_	PRON	P	_	19	nmod:cau	_	SpaceAfter=No|Translit=özige
+7	:	_	PUNCT	Y	_	6	punct	_	Translit=:
+8	&lt;	_	X	Y	_	14	dep	_	Translit=&lt;
+9	&lt;	_	X	Y	_	14	dep	_	Translit=&lt;
+10	ئادەم	_	NOUN	N	_	14	nsubj	_	Translit=adem
+11	دېگەن	_	AUX	V	_	10	cop	_	Translit=dëgen
+12	ئۇزاقراق	_	NOUN	N	_	13	advmod	_	Translit=uzaqraq
+13	ياشىسام	_	VERB	V	_	14	ccomp	_	Translit=yashisam
+14	دەيدۇ	_	VERB	V	_	19	ccomp	_	Translit=deydu
+15	-	_	PUNCT	Y	_	14	punct	_	Translit=-
+16	دە	_	PART	T	_	14	dep	_	Translit=de
+17	&gt;	_	X	Y	_	14	dep	_	Translit=&gt;
+18	&gt;	_	X	Y	_	14	dep	_	Translit=&gt;
+19	دەپ	_	VERB	V	_	0	root	_	Translit=dep
+20	قويدى	_	AUX	V	_	19	aux	_	SpaceAfter=No|Translit=qoydi
+21	.	_	PUNCT	Y	_	20	punct	_	Translit=.
+
+# sent_id = s1728
+# text = كەچكى شەپەق چوغدەك جۇلالىنشقا باشلىدى.
+1	كەچكى	_	ADJ	A	_	2	amod	_	Translit=kechki
+2	شەپەق	_	NOUN	N	_	4	nsubj	_	Translit=shepeq
+3	چوغدەك	_	NOUN	N	_	4	amod	_	Translit=choghdek
+4	جۇلالىنشقا	_	VERB	V	_	0	root	_	Translit=julalinshqa
+5	باشلىدى	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=bashlidi
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1729
+# text = دەرەخ ئۇچىلىرىغا قىزغۇچ جىيەك تۇتۇلۇش بىلەن تەڭ دەرەخ تۈۋى سۇس قاراڭغۇلۇققا مەھكۇم بولدى.
+1	دەرەخ	_	NOUN	N	_	2	nmod	_	Translit=derex
+2	ئۇچىلىرىغا	_	NOUN	N	_	5	nmod:cau	_	Translit=uchilirigha
+3	قىزغۇچ	_	ADJ	A	_	4	amod	_	Translit=qizghuch
+4	جىيەك	_	NOUN	N	_	5	nsubj	_	Translit=jiyek
+5	تۇتۇلۇش	_	NOUN	N	_	13	parataxis	_	Translit=tutulush
+6	بىلەن	_	ADP	R	_	5	case	_	Translit=bilen
+7	تەڭ	_	ADJ	A	_	5	advmod	_	Translit=teng
+8	دەرەخ	_	NOUN	N	_	9	nmod	_	Translit=derex
+9	تۈۋى	_	NOUN	N	_	13	nsubj	_	Translit=tüwi
+10	سۇس	_	ADJ	A	_	11	amod	_	Translit=sus
+11	قاراڭغۇلۇققا	_	NOUN	N	_	13	obl	_	Translit=qarangghuluqqa
+12	مەھكۇم	_	VERB	V	_	13	compound	_	Translit=mehkum
+13	بولدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=boldi
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
+
+# sent_id = s1730
+# text = بوزىراڭغۇ تولۇنئاي قۇياش ئورنىدا بالقىشقا تەييارلانىدى.
+1	بوزىراڭغۇ	_	NOUN	N	_	2	amod	_	Translit=bozirangghu
+2	تولۇنئاي	_	VERB	V	_	6	nsubj	_	Translit=tolunay
+3	قۇياش	_	NOUN	N	_	4	nmod	_	Translit=quyash
+4	ئورنىدا	_	NOUN	N	_	6	obl	_	Translit=ornida
+5	بالقىشقا	_	VERB	V	_	6	advmod	_	Translit=balqishqa
+6	تەييارلانىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=teyyarlanidi
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1731
+# text = دەرەخنىڭ ئەڭ ئېگىز شاخلىرىغا چۈشۈپ تۇرغان قۇياشنىڭ ئاداققى نۇرىمۇ خىرەلەشتى.
+1	دەرەخنىڭ	_	NOUN	N	_	4	nmod:poss	_	Translit=derexning
+2	ئەڭ	_	ADV	D	_	3	advmod	_	Translit=eng
+3	ئېگىز	_	ADJ	A	_	4	amod	_	Translit=ëgiz
+4	شاخلىرىغا	_	NOUN	N	_	6	obl	_	Translit=shaxlirigha
+5	چۈشۈپ	_	VERB	V	_	6	compound:lvc	_	Translit=chüshüp
+6	تۇرغان	_	VERB	V	_	9	acl	_	Translit=turghan
+7	قۇياشنىڭ	_	NOUN	N	_	9	nmod:poss	_	Translit=quyashning
+8	ئاداققى	_	NOUN	N	_	9	amod	_	Translit=adaqqi
+9	نۇرىمۇ	_	NOUN	N	_	10	nsubj	_	Translit=nurimu
+10	خىرەلەشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=xireleshti
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1732
+# text = رەسسام قەلىمىنى تاشلاپ قويدى.
+1	رەسسام	_	NOUN	N	_	3	nsubj	_	Translit=ressam
+2	قەلىمىنى	_	NOUN	N	_	3	obj	_	Translit=qelimini
+3	تاشلاپ	_	VERB	V	_	0	root	_	Translit=tashlap
+4	قويدى	_	AUX	V	_	3	aux	_	SpaceAfter=No|Translit=qoydi
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1733
+# text = _ _ سىزىپ بولاي دېگەنىدىم، _ _ دېدى ئۇ.
+1	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+3	سىزىپ	_	NOUN	N	_	9	ccomp	_	Translit=sizip
+4	بولاي	_	AUX	V	_	5	compound	_	Translit=bolay
+5	دېگەنىدىم	_	AUX	V	_	3	aux	_	SpaceAfter=No|Translit=dëgenidim
+6	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+7	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+8	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+9	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+10	ئۇ	_	PRON	P	_	9	nsubj	_	SpaceAfter=No|Translit=u
+11	.	_	PUNCT	Y	_	9	punct	_	Translit=.
+
+# sent_id = s1734
+# text = _ _ ئەمدى نېمە قىلىسىز؟ _ _ دەپ سورىدۇق بىز.
+1	_	_	PUNCT	Y	_	10	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	10	punct	_	Translit=_
+3	ئەمدى	_	ADV	D	_	5	advmod	_	Translit=emdi
+4	نېمە	_	PRON	P	_	5	obj	_	Translit=nëme
+5	قىلىسىز	_	VERB	V	_	9	ccomp	_	SpaceAfter=No|Translit=qilisiz
+6	؟	_	PUNCT	Y	_	5	punct	_	Translit=?
+7	_	_	PUNCT	Y	_	5	punct	_	Translit=_
+8	_	_	PUNCT	Y	_	5	punct	_	Translit=_
+9	دەپ	_	VERB	V	_	10	advcl	_	Translit=dep
+10	سورىدۇق	_	VERB	V	_	0	root	_	Translit=soriduq
+11	بىز	_	PRON	P	_	10	nsubj	_	SpaceAfter=No|Translit=biz
+12	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1735
+# text = _ _ ھېچ ئىش يوق، يەنە بىر كەچكى قۇياشنى كۈتمەي ئامال يوق.
+1	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	3	punct	_	Translit=_
+3	ھېچ	_	PRON	P	_	13	discourse	_	Translit=hëch
+4	ئىش	_	NOUN	N	_	3	fixed	_	Translit=ish
+5	يوق	_	ADJ	A	_	3	fixed	_	SpaceAfter=No|Translit=yoq
+6	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+7	يەنە	_	ADV	D	_	8	amod	_	Translit=yene
+8	بىر	_	NUM	M	_	10	nummod	_	Translit=bir
+9	كەچكى	_	ADJ	A	_	10	nmod	_	Translit=kechki
+10	قۇياشنى	_	NOUN	N	_	11	obj	_	Translit=quyashni
+11	كۈتمەي	_	VERB	V	_	13	advcl	_	Translit=kütmey
+12	ئامال	_	NOUN	N	_	13	compound	_	Translit=amal
+13	يوق	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=yoq
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
+
+# sent_id = s1736
+# text = ئازراقلا ۋاقىت بولسا يېتەتتى.
+1	ئازراقلا	_	ADJ	A	_	2	amod	_	Translit=azraqla
+2	ۋاقىت	_	NOUN	N	_	3	nsubj	_	Translit=waqit
+3	بولسا	_	VERB	V	_	4	advcl	_	Translit=bolsa
+4	يېتەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yëtetti
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1737
+# text = _ _ لېكىن، بۇ پەيت تەبىئەت دۇنياسى بىلەن ئەبەدىي خوشلاشقان تۇرسا، ئۇ يەنە قايتىپ كېلەمدۇ.
+1	_	_	PUNCT	Y	_	17	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	17	punct	_	Translit=_
+3	لېكىن	_	CCONJ	C	_	17	cc	_	SpaceAfter=No|Translit=lëkin
+4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+5	بۇ	_	PRON	P	_	6	det	_	Translit=bu
+6	پەيت	_	NOUN	N	_	11	nsubj	_	Translit=peyt
+7	تەبىئەت	_	NOUN	N	_	8	compound	_	Translit=tebiet
+8	دۇنياسى	_	NOUN	N	_	11	nmod	_	Translit=dunyasi
+9	بىلەن	_	ADP	R	_	8	case	_	Translit=bilen
+10	ئەبەدىي	_	ADJ	A	_	11	advmod	_	Translit=ebediy
+11	خوشلاشقان	_	NOUN	N	_	17	parataxis	_	Translit=xoshlashqan
+12	تۇرسا	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=tursa
+13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
+14	ئۇ	_	PRON	P	_	17	nsubj	_	Translit=u
+15	يەنە	_	ADV	D	_	17	advmod	_	Translit=yene
+16	قايتىپ	_	VERB	V	_	17	advcl	_	Translit=qaytip
+17	كېلەمدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=këlemdu
+18	.	_	PUNCT	Y	_	17	punct	_	Translit=.
+
+# sent_id = s1738
+# text = _ _ ئەلۋەتتە كەلمەيدۇ.
+1	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+3	ئەلۋەتتە	_	PART	T	_	4	discourse	_	Translit=elwette
+4	كەلمەيدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kelmeydu
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1739
+# text = لېكىن، شۇنىڭغا ئوخشىشپ كېتىدىغان پەيتلەر يەنە كېلىدۇ.
+1	لېكىن	_	CCONJ	C	_	8	cc	_	SpaceAfter=No|Translit=lëkin
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	شۇنىڭغا	_	PRON	P	_	5	obl	_	Translit=shuninggha
+4	ئوخشىشپ	_	VERB	V	_	5	compound	_	Translit=oxshishp
+5	كېتىدىغان	_	VERB	V	_	6	acl	_	Translit=këtidighan
+6	پەيتلەر	_	NOUN	N	_	8	nsubj	_	Translit=peytler
+7	يەنە	_	ADV	D	_	8	advmod	_	Translit=yene
+8	كېلىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=këlidu
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1740
+# text = مەن ئۆتكەن ئىشلارنى ئەسلىيەلەيمەن ھەم ئېسىمدە مەڭگۈ ساقلىيالايمەن.
+1	مەن	_	PRON	P	_	4	nsubj	_	Translit=men
+2	ئۆتكەن	_	VERB	V	_	3	acl	_	Translit=ötken
+3	ئىشلارنى	_	NOUN	N	_	4	obj	_	Translit=ishlarni
+4	ئەسلىيەلەيمەن	_	VERB	V	_	0	root	_	Translit=esliyeleymen
+5	ھەم	_	CCONJ	C	_	8	cc	_	Translit=hem
+6	ئېسىمدە	_	NOUN	N	_	8	obl	_	Translit=ësimde
+7	مەڭگۈ	_	ADV	D	_	8	advmod	_	Translit=menggü
+8	ساقلىيالايمەن	_	VERB	V	_	4	conj	_	SpaceAfter=No|Translit=saqliyalaymen
+9	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1741
+# text = _ _ بۇ مۇمكىنمۇ؟
+1	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+3	بۇ	_	PRON	P	_	4	nsubj	_	Translit=bu
+4	مۇمكىنمۇ	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=mumkinmu
+5	؟	_	PUNCT	Y	_	4	punct	_	Translit=?
+
+# sent_id = s1742
+# text = _ _ ئەلۋەتتە! ئەگەر بىر ئادەم ئۆتۈپ كاتكەن شۇنداق پەيتلەرنى ئېسىدە ساقلىيالمىسا ئۇنى ئادەم دېگىلى بولمايدۇ؟
+1	_	_	PUNCT	Y	_	17	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	17	punct	_	Translit=_
+3	ئەلۋەتتە	_	PART	T	_	17	discourse	_	SpaceAfter=No|Translit=elwette
+4	!	_	PUNCT	N	_	3	punct	_	Translit=!
+5	ئەگەر	_	CCONJ	C	_	13	cc	_	Translit=eger
+6	بىر	_	NUM	M	_	7	nummod	_	Translit=bir
+7	ئادەم	_	NOUN	N	_	13	nsubj	_	Translit=adem
+8	ئۆتۈپ	_	VERB	V	_	9	compound:lvc	_	Translit=ötüp
+9	كاتكەن	_	NOUN	N	_	11	amod	_	Translit=katken
+10	شۇنداق	_	PRON	P	_	11	advmod	_	Translit=shundaq
+11	پەيتلەرنى	_	VERB	V	_	13	obj	_	Translit=peytlerni
+12	ئېسىدە	_	NOUN	N	_	13	nmod	_	Translit=ëside
+13	ساقلىيالمىسا	_	NOUN	N	_	17	advcl	_	Translit=saqliyalmisa
+14	ئۇنى	_	PRON	P	_	16	obj	_	Translit=uni
+15	ئادەم	_	NOUN	N	_	16	nsubj	_	Translit=adem
+16	دېگىلى	_	VERB	V	_	17	advcl	_	Translit=dëgili
+17	بولمايدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bolmaydu
+18	؟	_	PUNCT	Y	_	17	punct	_	Translit=?
+
+# sent_id = s1743
+# text = بىر يىلتىزدىن ئىككى تۈپ قېيىن نوتىسى باغجانلاپ چىقتى.
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
+2	يىلتىزدىن	_	NOUN	N	_	8	obl	_	Translit=yiltizdin
+3	ئىككى	_	NUM	M	_	4	nummod	_	Translit=ikki
+4	تۈپ	_	DET	Q	_	6	nmod	_	Translit=tüp
+5	قېيىن	_	NOUN	N	_	6	compound	_	Translit=qëyin
+6	نوتىسى	_	NOUN	N	_	8	nsubj	_	Translit=notisi
+7	باغجانلاپ	_	NOUN	N	_	8	advmod	_	Translit=baghjanlap
+8	چىقتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chiqti
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1744
+# text = ئۇلار ئادەم بويى ئۆرلىگەندە ئىنسان تىلىدا پارڭلاشتى:
+1	ئۇلار	_	PRON	P	_	7	nsubj	_	Translit=ular
+2	ئادەم	_	NOUN	N	_	3	nmod	_	Translit=adem
+3	بويى	_	ADP	R	_	4	advmod	_	Translit=boyi
+4	ئۆرلىگەندە	_	VERB	V	_	7	advmod	_	Translit=örligende
+5	ئىنسان	_	NOUN	N	_	6	nmod	_	Translit=insan
+6	تىلىدا	_	NOUN	N	_	7	obl	_	Translit=tilida
+7	پارڭلاشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=parnglashti
+8	:	_	PUNCT	Y	_	7	punct	_	Translit=:
+
+# sent_id = s1745
+# text = _ _ مەن ئۆزۈن ئارزۇيۇم بويىچە ياشايمەن، _ _ دېدى بىرى.
+1	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+3	مەن	_	PRON	P	_	7	nsubj	_	Translit=men
+4	ئۆزۈن	_	NOUN	N	_	5	nmod	_	Translit=özün
+5	ئارزۇيۇم	_	NOUN	N	_	7	case	_	Translit=arzuyum
+6	بويىچە	_	ADP	R	_	5	cc	_	Translit=boyiche
+7	ياشايمەن	_	VERB	V	_	11	ccomp	_	SpaceAfter=No|Translit=yashaymen
+8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+9	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+10	_	_	PUNCT	Y	_	7	punct	_	Translit=_
+11	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+12	بىرى	_	NUM	M	_	11	nsubj	_	SpaceAfter=No|Translit=biri
+13	.	_	PUNCT	Y	_	11	punct	_	Translit=.
+
+# sent_id = s1746
+# text = _ _ مەنمۇ شۇنداق! _ _ دېدى يەنە بىرىمۇ.
+1	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+2	_	_	PUNCT	Y	_	8	punct	_	Translit=_
+3	مەنمۇ	_	PRON	P	_	4	nsubj	_	Translit=menmu
+4	شۇنداق	_	PRON	P	_	8	ccomp	_	SpaceAfter=No|Translit=shundaq
+5	!	_	PUNCT	V	_	4	punct	_	Translit=!
+6	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+7	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+8	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+9	يەنە	_	ADV	D	_	10	advmod	_	Translit=yene
+10	بىرىمۇ	_	NUM	M	_	8	nsubj	_	SpaceAfter=No|Translit=birimu
+11	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1747
+# text = ئۇلار شۇ سەبىي ئارزۇلىرى بويىچە ئايرىلىپ كېتىشتى.
+1	ئۇلار	_	PRON	P	_	6	nsubj	_	Translit=ular
+2	شۇ	_	PRON	P	_	4	det	_	Translit=shu
+3	سەبىي	_	ADJ	A	_	4	amod	_	Translit=sebiy
+4	ئارزۇلىرى	_	NOUN	N	_	6	obl	_	Translit=arzuliri
+5	بويىچە	_	ADP	R	_	4	case	_	Translit=boyiche
+6	ئايرىلىپ	_	VERB	V	_	0	root	_	Translit=ayrilip
+7	كېتىشتى	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=këtishti
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.
+
+# sent_id = s1748
+# text = بىر يىلتىزدىن ئوزۇق ئېلىپ ئېگىز ھەم بۈك-باراقسان دەرەخ بولۇپ يېتىشتى.
+1	بىر	_	NUM	M	_	2	nummod	_	Translit=bir
+2	يىلتىزدىن	_	NOUN	N	_	4	obl	_	Translit=yiltizdin
+3	ئوزۇق	_	NOUN	N	_	4	obj	_	Translit=ozuq
+4	ئېلىپ	_	VERB	V	_	10	advcl	_	Translit=ëlip
+5	ئېگىز	_	ADJ	A	_	8	amod	_	Translit=ëgiz
+6	ھەم	_	CCONJ	C	_	7	cc	_	Translit=hem
+7	بۈك-باراقسان	_	ADJ	A	_	5	conj	_	Translit=bük-baraqsan
+8	دەرەخ	_	NOUN	N	_	9	nsubj	_	Translit=derex
+9	بولۇپ	_	VERB	V	_	10	advcl	_	Translit=bolup
+10	يېتىشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yëtishti
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1749
+# text = ئۇلار يۈز يازنى بېشىدىن ئۆتكۈزدى.
+1	ئۇلار	_	PRON	P	_	5	nsubj	_	Translit=ular
+2	يۈز	_	NUM	M	_	3	nummod	_	Translit=yüz
+3	يازنى	_	NOUN	N	_	5	obj	_	Translit=yazni
+4	بېشىدىن	_	NOUN	N	_	5	obl	_	Translit=bëshidin
+5	ئۆتكۈزدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ötküzdi
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1750
+# text = بورانلار قۇم ۋە توزانلارنى ئۇچۇرۇپ كېلىپ ئۇلارنىڭ ئارسىنى تىندۇردى.
+1	بورانلار	_	NOUN	N	_	9	nsubj	_	Translit=boranlar
+2	قۇم	_	NOUN	N	_	5	obj	_	Translit=qum
+3	ۋە	_	CCONJ	C	_	4	cc	_	Translit=we
+4	توزانلارنى	_	NOUN	N	_	2	conj	_	Translit=tozanlarni
+5	ئۇچۇرۇپ	_	VERB	V	_	9	advcl	_	Translit=uchurup
+6	كېلىپ	_	AUX	V	_	5	aux	_	Translit=këlip
+7	ئۇلارنىڭ	_	PRON	P	_	8	nmod	_	Translit=ularning
+8	ئارسىنى	_	NOUN	N	_	9	obj	_	Translit=arsini
+9	تىندۇردى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tindurdi
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.
+
+# sent_id = s1751
+# text = ئۇلارنىڭ ئارسىدىكى بۇ ئۈنۈمسىز تۇپراقتىن يەنە بىر توپ ياش بوغۇنلار يېتىشىپ چىقتى.
+1	ئۇلارنىڭ	_	PRON	P	_	2	nmod:poss	_	Translit=ularning
+2	ئارسىدىكى	_	NOUN	N	_	5	amod	_	Translit=arsidiki
+3	بۇ	_	PRON	P	_	5	det	_	Translit=bu
+4	ئۈنۈمسىز	_	NOUN	N	_	5	amod	_	Translit=ünümsiz
+5	تۇپراقتىن	_	NOUN	N	_	12	obl	_	Translit=tupraqtin
+6	يەنە	_	ADV	D	_	7	nmod	_	Translit=yene
+7	بىر	_	NUM	M	_	8	nummod	_	Translit=bir
+8	توپ	_	DET	Q	_	10	nmod	_	Translit=top
+9	ياش	_	ADJ	A	_	10	amod	_	Translit=yash
+10	بوغۇنلار	_	NOUN	N	_	12	nsubj	_	Translit=boghunlar
+11	يېتىشىپ	_	VERB	V	_	12	advcl	_	Translit=yëtiship
+12	چىقتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chiqti
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
+
+# sent_id = s1752
+# text = خۇش ئاۋاز قۇشلار ئۇچۇپ كېلىپ بۇ قىيىنلارغا ئوۋا سالدى.
+1	خۇش	_	ADJ	A	_	2	amod	_	Translit=xush
+2	ئاۋاز	_	NOUN	N	_	3	amod	_	Translit=awaz
+3	قۇشلار	_	NOUN	N	_	9	nsubj	_	Translit=qushlar
+4	ئۇچۇپ	_	VERB	V	_	5	compound:lvc	_	Translit=uchup
+5	كېلىپ	_	VERB	V	_	9	advmod	_	Translit=këlip
+6	بۇ	_	PRON	P	_	7	nsubj	_	Translit=bu
+7	قىيىنلارغا	_	NOUN	N	_	9	obl	_	Translit=qiyinlargha
+8	ئوۋا	_	NOUN	N	_	9	obj	_	Translit=owa
+9	سالدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=saldi
+10	.	_	PUNCT	Y	_	9	punct	_	Translit=.
+
+# sent_id = s1753
+# text = قىيىنزارلىق ھەركۈنى كۈن پېتىپ ئۇپۇق شەپەق قىزىللىقىغا چۆمۈلگەندە، شاختىن – شاخقا قونۇپ يۈرگەن قۇشلارنىڭ شوخ سايراشلىرى بىلەن جانلىنىپ كېتىدىغان بولىدى.
+1	قىيىنزارلىق	_	NOUN	N	_	19	nsubj	_	Translit=qiyinzarliq
+2	ھەركۈنى	_	PRON	P	_	19	advmod	_	Translit=herküni
+3	كۈن	_	NOUN	N	_	4	nsubj	_	Translit=kün
+4	پېتىپ	_	VERB	V	_	8	advcl	_	Translit=pëtip
+5	ئۇپۇق	_	VERB	V	_	8	obl	_	Translit=upuq
+6	شەپەق	_	NOUN	N	_	7	amod	_	Translit=shepeq
+7	قىزىللىقىغا	_	NOUN	N	_	8	obl	_	Translit=qizilliqigha
+8	چۆمۈلگەندە	_	VERB	V	_	19	advmod	_	SpaceAfter=No|Translit=chömülgende
+9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
+10	شاختىن	_	NOUN	N	_	12	compound	_	Translit=shaxtin
+11	–	_	PUNCT	N	_	10	punct	_	Translit=–
+12	شاخقا	_	NOUN	N	_	14	nmod:cau	_	Translit=shaxqa
+13	قونۇپ	_	VERB	V	_	14	compound:lvc	_	Translit=qonup
+14	يۈرگەن	_	VERB	V	_	15	acl	_	Translit=yürgen
+15	قۇشلارنىڭ	_	NOUN	N	_	17	nmod:poss	_	Translit=qushlarning
+16	شوخ	_	ADJ	A	_	17	amod	_	Translit=shox
+17	سايراشلىرى	_	NOUN	N	_	19	obl	_	Translit=sayrashliri
+18	بىلەن	_	ADP	R	_	17	case	_	Translit=bilen
+19	جانلىنىپ	_	VERB	V	_	0	root	_	Translit=janlinip
+20	كېتىدىغان	_	AUX	V	_	19	aux	_	Translit=këtidighan
+21	بولىدى	_	AUX	V	_	19	cop	_	SpaceAfter=No|Translit=bolidi
+22	.	_	PUNCT	Y	_	21	punct	_	Translit=.
+
+# sent_id = s1754
+# text = قۇشلار سايرىماقتا.
+1	قۇشلار	_	NOUN	N	_	2	nsubj	_	Translit=qushlar
+2	سايرىماقتا	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=sayrimaqta
+3	.	_	PUNCT	Y	_	2	punct	_	Translit=.
+
+# sent_id = s1755
+# text = ئۇلار ئۆزلىرىنىڭ يېقىملىق ئاۋازلىرى بىلەن ئىككى تۈپ قېرى قېيىننىڭ كۆڭۈل سىرلىرىنى ئىزھارلىماقتا.
+1	ئۇلار	_	PRON	P	_	12	nsubj	_	Translit=ular
+2	ئۆزلىرىنىڭ	_	PRON	P	_	4	nmod:poss	_	Translit=özlirining
+3	يېقىملىق	_	ADJ	A	_	4	amod	_	Translit=yëqimliq
+4	ئاۋازلىرى	_	NOUN	N	_	12	obl	_	Translit=awazliri
+5	بىلەن	_	ADP	R	_	4	cc	_	Translit=bilen
+6	ئىككى	_	NUM	M	_	7	nummod	_	Translit=ikki
+7	تۈپ	_	DET	Q	_	9	nmod	_	Translit=tüp
+8	قېرى	_	ADJ	A	_	9	amod	_	Translit=qëri
+9	قېيىننىڭ	_	NOUN	N	_	11	nmod:poss	_	Translit=qëyinning
+10	كۆڭۈل	_	NOUN	N	_	11	nmod	_	Translit=köngül
+11	سىرلىرىنى	_	NOUN	N	_	12	obj	_	Translit=sirlirini
+12	ئىزھارلىماقتا	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=izharlimaqta
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
+
+# sent_id = s1756
+# text = ئىككى تۈپ قېيىننىڭ كۆڭلى شاد.
+1	ئىككى	_	NUM	M	_	2	nummod	_	Translit=ikki
+2	تۈپ	_	DET	Q	_	3	amod	_	Translit=tüp
+3	قېيىننىڭ	_	NOUN	N	_	4	nmod:poss	_	Translit=qëyinning
+4	كۆڭلى	_	NOUN	N	_	5	nsubj	_	Translit=köngli
+5	شاد	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=shad
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1757
+# text = چۈنكى، ئۇلارنىڭ ئۆمرى بىكار كەتمىدى.
+1	چۈنكى	_	CCONJ	C	_	6	cc	_	SpaceAfter=No|Translit=chünki
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	ئۇلارنىڭ	_	PRON	P	_	4	nmod:poss	_	Translit=ularning
+4	ئۆمرى	_	NOUN	N	_	6	nsubj	_	Translit=ömri
+5	بىكار	_	ADJ	A	_	6	compound	_	Translit=bikar
+6	كەتمىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ketmidi
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1758
+# text = ئۇلارنىڭ قوينىدىمۇ قۇش ئوۋىلىرى بار.
+1	ئۇلارنىڭ	_	PRON	P	_	2	nmod:poss	_	Translit=ularning
+2	قوينىدىمۇ	_	NOUN	N	_	5	nmod	_	Translit=qoynidimu
+3	قۇش	_	NOUN	N	_	4	compound	_	Translit=qush
+4	ئوۋىلىرى	_	NOUN	N	_	5	nsubj	_	Translit=owiliri
+5	بار	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=bar
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1759
+# text = قۇشلار بۇ يەرنى ئەۋلادمۇ ئەۋلاد ماكان ئېتىپ توختىماي سايراپ تۇرىدۇ.
+1	قۇشلار	_	NOUN	N	_	9	nsubj	_	Translit=qushlar
+2	بۇ	_	PRON	P	_	3	det	_	Translit=bu
+3	يەرنى	_	NOUN	N	_	7	obj	_	Translit=yerni
+4	ئەۋلادمۇ	_	NOUN	N	_	5	compound:redup	_	Translit=ewladmu
+5	ئەۋلاد	_	NOUN	N	_	7	advmod	_	Translit=ewlad
+6	ماكان	_	NOUN	N	_	7	compound	_	Translit=makan
+7	ئېتىپ	_	VERB	V	_	9	advcl	_	Translit=ëtip
+8	توختىماي	_	VERB	V	_	9	advmod	_	Translit=toxtimay
+9	سايراپ	_	VERB	V	_	0	root	_	Translit=sayrap
+10	تۇرىدۇ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=turidu
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1760
+# text = شۇنىڭ بىلەن، ئۇ خەلق بىلەن كېڭەش ئۆتكۈزۈپ: «بىز بۇ تارىخنى ئېنىقلاشتا قانداق خاتالاشقان بولساق، كەلگۈسى ئەۋلادلىرىمىزمۇ شۇنداق خاتالىشىدۇ. شۇڭا، بىز 12 ئايۋە ئاسماننىڭ بۇرجىغا ئاساسلىنىپ، ھەر بىر يىلغا ئات قويايلى، بۇنىڭدىن كېيىن يىل ھېسابى شۇ يىللارنىڭ ئايلىنىشى بىلەن ھېسابلىنىدىغان بولسۇن» دەپتۇ.
+1	شۇنىڭ	_	PRON	P	_	8	advmod	_	Translit=shuning
+2	بىلەن	_	ADP	R	_	1	fixed	_	SpaceAfter=No|Translit=bilen
+3	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+4	ئۇ	_	PRON	P	_	8	nsubj	_	Translit=u
+5	خەلق	_	NOUN	N	_	8	obl	_	Translit=xelq
+6	بىلەن	_	ADP	R	_	5	case	_	Translit=bilen
+7	كېڭەش	_	NOUN	N	_	8	obj	_	Translit=këngesh
+8	ئۆتكۈزۈپ	_	VERB	V	_	50	advcl	_	SpaceAfter=No|Translit=ötküzüp
+9	:	_	PUNCT	Y	_	8	punct	_	Translit=:
+10	«	_	PUNCT	Y	_	8	punct	_	SpaceAfter=No|Translit=«
+11	بىز	_	PRON	P	_	16	nsubj	_	Translit=biz
+12	بۇ	_	PRON	P	_	13	det	_	Translit=bu
+13	تارىخنى	_	NOUN	N	_	14	obj	_	Translit=tarixni
+14	ئېنىقلاشتا	_	VERB	V	_	16	obl	_	Translit=ëniqlashta
+15	قانداق	_	PRON	P	_	16	amod	_	Translit=qandaq
+16	خاتالاشقان	_	VERB	V	_	22	advcl	_	Translit=xatalashqan
+17	بولساق	_	AUX	V	_	16	aux	_	SpaceAfter=No|Translit=bolsaq
+18	،	_	PUNCT	Y	_	17	punct	_	Translit=,
+19	كەلگۈسى	_	VERB	V	_	20	amod	_	Translit=kelgüsi
+20	ئەۋلادلىرىمىزمۇ	_	NOUN	N	_	22	nsubj	_	Translit=ewladlirimizmu
+21	شۇنداق	_	PRON	P	_	22	advmod	_	Translit=shundaq
+22	خاتالىشىدۇ	_	VERB	V	_	37	parataxis	_	SpaceAfter=No|Translit=xatalishidu
+23	.	_	PUNCT	Y	_	22	punct	_	Translit=.
+24	شۇڭا	_	CCONJ	C	_	37	cc	_	SpaceAfter=No|Translit=shunga
+25	،	_	PUNCT	Y	_	24	punct	_	Translit=,
+26	بىز	_	PRON	P	_	37	nsubj	_	Translit=biz
+27	12	_	NUM	M	_	29	nummod	_	Translit=12
+28	ئايۋە	_	NOUN	N	_	29	cc	_	Translit=aywe
+29	ئاسماننىڭ	_	NOUN	N	_	30	nmod:poss	_	Translit=asmanning
+30	بۇرجىغا	_	NOUN	N	_	31	obl	_	Translit=burjigha
+31	ئاساسلىنىپ	_	VERB	V	_	37	advmod	_	SpaceAfter=No|Translit=asaslinip
+32	،	_	PUNCT	Y	_	31	punct	_	Translit=,
+33	ھەر	_	PRON	P	_	34	det	_	Translit=her
+34	بىر	_	NUM	M	_	35	nummod	_	Translit=bir
+35	يىلغا	_	NOUN	N	_	37	obl	_	Translit=yilgha
+36	ئات	_	NOUN	N	_	37	obj	_	Translit=at
+37	قويايلى	_	VERB	V	_	48	parataxis	_	SpaceAfter=No|Translit=qoyayli
+38	،	_	PUNCT	Y	_	37	punct	_	Translit=,
+39	بۇنىڭدىن	_	PRON	P	_	48	advmod	_	Translit=buningdin
+40	كېيىن	_	ADV	D	_	39	fixed	_	Translit=këyin
+41	يىل	_	NOUN	N	_	42	nmod	_	Translit=yil
+42	ھېسابى	_	NOUN	N	_	48	nsubj	_	Translit=hësabi
+43	شۇ	_	PRON	P	_	44	det	_	Translit=shu
+44	يىللارنىڭ	_	NOUN	N	_	45	nmod:poss	_	Translit=yillarning
+45	ئايلىنىشى	_	VERB	V	_	48	obl	_	Translit=aylinishi
+46	بىلەن	_	ADP	R	_	45	case	_	Translit=bilen
+47	ھېسابلىنىدىغان	_	VERB	V	_	48	compound	_	Translit=hësablinidighan
+48	بولسۇن	_	VERB	V	_	50	ccomp	_	SpaceAfter=No|Translit=bolsun
+49	»	_	PUNCT	Y	_	48	punct	_	Translit=»
+50	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu
+51	.	_	PUNCT	Y	_	50	punct	_	Translit=.
+
+# sent_id = s1761
+# text = ئۇنىڭ دېگىنىنى ىەلىقمۇ قوللاپتۇ.
+1	ئۇنىڭ	_	PRON	P	_	2	nmod:poss	_	Translit=uning
+2	دېگىنىنى	_	VERB	V	_	4	obj	_	Translit=dëginini
+3	ىەلىقمۇ	_	NOUN	N	_	4	nsubj	_	Translit=ieliqmu
+4	قوللاپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qollaptu
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1762
+# text = سۇدىن ئەڭ ئاۋۋال چاشقان ئۆتۈپتۇ، شۇڭا يىل بېشى «چاشقان يىلى» دەپ ئاتىلىپتۇ.
+1	سۇدىن	_	NOUN	N	_	5	obl	_	Translit=sudin
+2	ئەڭ	_	ADV	D	_	3	advmod	_	Translit=eng
+3	ئاۋۋال	_	ADV	D	_	5	advmod	_	Translit=awwal
+4	چاشقان	_	NOUN	N	_	5	nsubj	_	Translit=chashqan
+5	ئۆتۈپتۇ	_	VERB	V	_	15	parataxis	_	SpaceAfter=No|Translit=ötüptu
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	شۇڭا	_	CCONJ	C	_	15	cc	_	Translit=shunga
+8	يىل	_	NOUN	N	_	9	nmod	_	Translit=yil
+9	بېشى	_	NOUN	N	_	15	nsubj	_	Translit=bëshi
+10	«	_	PUNCT	Y	_	12	punct	_	SpaceAfter=No|Translit=«
+11	چاشقان	_	NOUN	N	_	12	nmod	_	Translit=chashqan
+12	يىلى	_	NOUN	N	_	14	ccomp	_	SpaceAfter=No|Translit=yili
+13	»	_	PUNCT	Y	_	12	punct	_	Translit=»
+14	دەپ	_	VERB	V	_	15	advcl	_	Translit=dep
+15	ئاتىلىپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=atiliptu
+16	.	_	PUNCT	Y	_	15	punct	_	Translit=.
+
+# sent_id = s1763
+# text = ئۇنىڭدىن كېيىن ئۆتكەنلەر تۆۋەندىكى تەرتىپ بويىچەيىل ئىسمى بولۇپ قاپتۇ: ئۇي (كالا) يىلى، بارىس يىلى (يولۋاس يىلى)، توشقان يىلى، لەھەڭ يىلى (تىمساھ يىلى)، يىلان يىلى، ئات يىلى، قوي يىلى، مايمۇن يىلى، توخۇ يىلى، ئىت يىلى، توڭگۇز يىلى.
+1	ئۇنىڭدىن	_	PRON	P	_	2	nmod	_	Translit=uningdin
+2	كېيىن	_	ADV	D	_	3	nmod	_	Translit=këyin
+3	ئۆتكەنلەر	_	NOUN	N	_	8	nsubj	_	Translit=ötkenler
+4	تۆۋەندىكى	_	ADJ	A	_	5	amod	_	Translit=töwendiki
+5	تەرتىپ	_	NOUN	N	_	8	obl	_	Translit=tertip
+6	بويىچەيىل	_	NOUN	N	_	5	case	_	Translit=boyicheyil
+7	ئىسمى	_	NOUN	N	_	8	compound	_	Translit=ismi
+8	بولۇپ	_	VERB	V	_	0	root	_	Translit=bolup
+9	قاپتۇ	_	AUX	V	_	8	aux	_	SpaceAfter=No|Translit=qaptu
+10	:	_	PUNCT	Y	_	9	punct	_	Translit=:
+11	ئۇي	_	NOUN	N	_	15	nmod	_	Translit=uy
+12	(	_	PUNCT	Y	_	11	punct	_	SpaceAfter=No|Translit=(
+13	كالا	_	NOUN	N	_	11	appos	_	SpaceAfter=No|Translit=kala
+14	)	_	PUNCT	Y	_	13	punct	_	Translit=)
+15	يىلى	_	NOUN	N	_	8	parataxis	_	SpaceAfter=No|Translit=yili
+16	،	_	PUNCT	Y	_	17	punct	_	Translit=,
+17	بارىس	_	NOUN	N	_	18	nmod	_	Translit=baris
+18	يىلى	_	NOUN	N	_	15	conj	_	Translit=yili
+19	(	_	PUNCT	Y	_	20	punct	_	SpaceAfter=No|Translit=(
+20	يولۋاس	_	NOUN	N	_	21	nmod	_	Translit=yolwas
+21	يىلى	_	NOUN	N	_	17	appos	_	SpaceAfter=No|Translit=yili
+22	)	_	PUNCT	Y	_	21	punct	_	SpaceAfter=No|Translit=)
+23	،	_	PUNCT	Y	_	21	punct	_	Translit=,
+24	توشقان	_	NOUN	N	_	25	nmod	_	Translit=toshqan
+25	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+26	،	_	PUNCT	Y	_	25	punct	_	Translit=,
+27	لەھەڭ	_	NOUN	N	_	28	nmod	_	Translit=leheng
+28	يىلى	_	NOUN	N	_	15	conj	_	Translit=yili
+29	(	_	PUNCT	Y	_	30	punct	_	SpaceAfter=No|Translit=(
+30	تىمساھ	_	ADJ	A	_	31	nmod	_	Translit=timsah
+31	يىلى	_	NOUN	N	_	27	appos	_	SpaceAfter=No|Translit=yili
+32	)	_	PUNCT	Y	_	31	punct	_	SpaceAfter=No|Translit=)
+33	،	_	PUNCT	Y	_	31	punct	_	Translit=,
+34	يىلان	_	NOUN	N	_	35	nmod	_	Translit=yilan
+35	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+36	،	_	PUNCT	Y	_	35	punct	_	Translit=,
+37	ئات	_	NOUN	N	_	38	nmod	_	Translit=at
+38	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+39	،	_	PUNCT	Y	_	38	punct	_	Translit=,
+40	قوي	_	NOUN	N	_	41	nmod	_	Translit=qoy
+41	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+42	،	_	PUNCT	Y	_	41	punct	_	Translit=,
+43	مايمۇن	_	NOUN	N	_	44	nmod	_	Translit=maymun
+44	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+45	،	_	PUNCT	Y	_	44	punct	_	Translit=,
+46	توخۇ	_	NOUN	N	_	47	nmod	_	Translit=toxu
+47	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+48	،	_	PUNCT	Y	_	47	punct	_	Translit=,
+49	ئىت	_	NOUN	N	_	50	nmod:clas	_	Translit=it
+50	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+51	،	_	PUNCT	Y	_	50	punct	_	Translit=,
+52	توڭگۇز	_	NOUN	N	_	53	nmod	_	Translit=tongguz
+53	يىلى	_	NOUN	N	_	15	conj	_	SpaceAfter=No|Translit=yili
+54	.	_	PUNCT	Y	_	15	punct	_	Translit=.
+
+# sent_id = s1764
+# text = بىراق پاتىمە: - قورقماڭلار، بىز قول تۇتۇشۇپ ماڭايلى، - دەپتۇ.
+1	بىراق	_	CCONJ	C	_	13	cc	_	Translit=biraq
+2	پاتىمە	_	NOUN	N	_	13	nsubj	_	SpaceAfter=No|Translit=patime
+3	:	_	PUNCT	Y	_	2	punct	_	Translit=:
+4	-	_	PUNCT	Y	_	2	punct	_	Translit=-
+5	قورقماڭلار	_	VERB	V	_	10	discourse	_	SpaceAfter=No|Translit=qorqmanglar
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	بىز	_	PRON	P	_	10	nsubj	_	Translit=biz
+8	قول	_	NOUN	N	_	9	obj	_	Translit=qol
+9	تۇتۇشۇپ	_	VERB	V	_	10	advcl	_	Translit=tutushup
+10	ماڭايلى	_	VERB	V	_	13	ccomp	_	SpaceAfter=No|Translit=mangayli
+11	،	_	PUNCT	Y	_	10	punct	_	Translit=,
+12	-	_	PUNCT	Y	_	10	punct	_	Translit=-
+13	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
+
+# sent_id = s1765
+# text = ئۇلار مېڭىپتۇ، مېڭىپتۇ.
+1	ئۇلار	_	PRON	P	_	4	nsubj	_	Translit=ular
+2	مېڭىپتۇ	_	VERB	V	_	4	compound:redup	_	SpaceAfter=No|Translit=mëngiptu
+3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
+4	مېڭىپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=mëngiptu
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1766
+# text = يېقىنلىشىپ قارىسا، بىر يېنىۋاتقان گۈلخان ىكەن.
+1	يېقىنلىشىپ	_	NOUN	N	_	2	advmod	_	Translit=yëqinliship
+2	قارىسا	_	VERB	V	_	6	advcl	_	SpaceAfter=No|Translit=qarisa
+3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
+4	بىر	_	NUM	M	_	6	nummod	_	Translit=bir
+5	يېنىۋاتقان	_	VERB	V	_	6	acl	_	Translit=yëniwatqan
+6	گۈلخان	_	NOUN	N	_	0	root	_	Translit=gülxan
+7	ىكەن	_	AUX	V	_	6	cop	_	SpaceAfter=No|Translit=iken
+8	.	_	PUNCT	Y	_	7	punct	_	Translit=.
+
+# sent_id = s1767
+# text = ئۇ چۈشتىن بۇرۇن سائەت ئوندا، 21 - ئەسىردىكى ئەڭ يېڭى ئالەم كېمىسىگە ئولتۇرۇپ يولغا چىقماقچى ئىدى.
+1	ئۇ	_	PRON	P	_	16	nsubj	_	Translit=u
+2	چۈشتىن	_	NOUN	N	_	3	nmod:abl	_	Translit=chüshtin
+3	بۇرۇن	_	ADV	D	_	5	advmod	_	Translit=burun
+4	سائەت	_	NOUN	N	_	5	amod	_	Translit=saet
+5	ئوندا	_	VERB	V	_	16	obl	_	SpaceAfter=No|Translit=onda
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	21	_	NUM	M	_	9	nummod	_	Translit=21
+8	-	_	PUNCT	Y	_	7	punct	_	Translit=-
+9	ئەسىردىكى	_	NOUN	N	_	13	amod	_	Translit=esirdiki
+10	ئەڭ	_	ADV	D	_	11	advmod	_	Translit=eng
+11	يېڭى	_	ADJ	A	_	13	amod	_	Translit=yëngi
+12	ئالەم	_	NOUN	N	_	13	compound	_	Translit=alem
+13	كېمىسىگە	_	NOUN	N	_	16	obl	_	Translit=këmisige
+14	ئولتۇرۇپ	_	VERB	V	_	16	advmod	_	Translit=olturup
+15	يولغا	_	NOUN	N	_	16	obl	_	Translit=yolgha
+16	چىقماقچى	_	AUX	V	_	0	root	_	Translit=chiqmaqchi
+17	ئىدى	_	VERB	V	_	16	xcomp	_	SpaceAfter=No|Translit=idi
+18	.	_	PUNCT	Y	_	17	punct	_	Translit=.
+
+# sent_id = s1768
+# text = ئۇ ئاي شارىغا چىقىپ ئولتۇراقلاشقان تۇغقانلىرىنى يوقلاپ ئۆتۈشنىمۇ كۆڭلىگە پۈككەنىدى.
+1	ئۇ	_	PRON	P	_	10	nsubj	_	Translit=u
+2	ئاي	_	NOUN	N	_	3	compound	_	Translit=ay
+3	شارىغا	_	NOUN	N	_	4	obl	_	Translit=sharigha
+4	چىقىپ	_	VERB	V	_	5	advmod	_	Translit=chiqip
+5	ئولتۇراقلاشقان	_	VERB	V	_	6	acl	_	Translit=olturaqlashqan
+6	تۇغقانلىرىنى	_	NOUN	N	_	7	obj	_	Translit=tughqanlirini
+7	يوقلاپ	_	VERB	V	_	10	advcl	_	Translit=yoqlap
+8	ئۆتۈشنىمۇ	_	AUX	V	_	7	aux	_	Translit=ötüshnimu
+9	كۆڭلىگە	_	NOUN	N	_	10	obl	_	Translit=könglige
+10	پۈككەنىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=pükkenidi
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1769
+# text = ئالەم كېمىسىنڭ ئۇچۇشىغا يەنە يېرىم سائەت بار ئىكەن، نېمە قىلسام بولار؟
+1	ئالەم	_	NOUN	N	_	2	compound	_	Translit=alem
+2	كېمىسىنڭ	_	NOUN	N	_	3	nmod:poss	_	Translit=këmisinng
+3	ئۇچۇشىغا	_	NOUN	N	_	7	nmod	_	Translit=uchushigha
+4	يەنە	_	ADV	D	_	7	advmod	_	Translit=yene
+5	يېرىم	_	ADJ	A	_	6	amod	_	Translit=yërim
+6	سائەت	_	NOUN	N	_	7	nsubj	_	Translit=saet
+7	بار	_	ADJ	A	_	12	parataxis	_	Translit=bar
+8	ئىكەن	_	AUX	V	_	7	cop	_	SpaceAfter=No|Translit=iken
+9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
+10	نېمە	_	PRON	P	_	11	obj	_	Translit=nëme
+11	قىلسام	_	VERB	V	_	12	csubj	_	Translit=qilsam
+12	بولار	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bolar
+13	؟	_	PUNCT	Y	_	12	punct	_	Translit=?
+
+# sent_id = s1770
+# text = ئادىلجان بىردەم ئويلىنىپ قالدى،
+1	ئادىلجان	_	NOUN	N	_	3	nsubj	_	Translit=adiljan
+2	بىردەم	_	ADV	D	_	3	advmod	_	Translit=birdem
+3	ئويلىنىپ	_	VERB	V	_	0	root	_	Translit=oylinip
+4	قالدى	_	AUX	V	_	3	aux	_	SpaceAfter=No|Translit=qaldi
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+
+# sent_id = s1771
+# text = ئاندىن ئېكرانلىق تېلىغونىنى ئېلىپ ئاندىن ئاي شارىدىكى مومىسى بىلەن سۆزلەشمەكچى بولدى.
+1	ئاندىن	_	CCONJ	C	_	4	advmod	_	Translit=andin
+2	ئېكرانلىق	_	NOUN	N	_	3	amod	_	Translit=ëkranliq
+3	تېلىغونىنى	_	NOUN	N	_	4	obj	_	Translit=tëlighonini
+4	ئېلىپ	_	VERB	V	_	10	advmod	_	Translit=ëlip
+5	ئاندىن	_	CCONJ	C	_	10	advmod	_	Translit=andin
+6	ئاي	_	NOUN	N	_	7	compound	_	Translit=ay
+7	شارىدىكى	_	NOUN	N	_	8	amod	_	Translit=sharidiki
+8	مومىسى	_	NOUN	N	_	10	obl	_	Translit=momisi
+9	بىلەن	_	ADP	R	_	8	case	_	Translit=bilen
+10	سۆزلەشمەكچى	_	VERB	V	_	0	root	_	Translit=sözleshmekchi
+11	بولدى	_	AUX	V	_	10	cop	_	SpaceAfter=No|Translit=boldi
+12	.	_	PUNCT	Y	_	11	punct	_	Translit=.
+
+# sent_id = s1772
+# text = مومىسى تېلىغۇن ئېكرانىدا پەيدا بولدى.
+1	مومىسى	_	NOUN	N	_	5	nsubj	_	Translit=momisi
+2	تېلىغۇن	_	NOUN	N	_	3	amod	_	Translit=tëlighun
+3	ئېكرانىدا	_	NOUN	N	_	5	obl	_	Translit=ëkranida
+4	پەيدا	_	NOUN	N	_	5	compound	_	Translit=peyda
+5	بولدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=boldi
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1773
+# text = «ئەسسالامۇ ئەلەيكۇم، موما، ياخشى تۇردىڭىزمۇ؟
+1	«	_	PUNCT	Y	_	8	punct	_	SpaceAfter=No|Translit=«
+2	ئەسسالامۇ	_	NOUN	N	_	8	discourse	_	Translit=essalamu
+3	ئەلەيكۇم	_	NOUN	N	_	2	fixed	_	SpaceAfter=No|Translit=eleykum
+4	،	_	PUNCT	Y	_	2	punct	_	Translit=,
+5	موما	_	NOUN	N	_	8	vocative	_	SpaceAfter=No|Translit=moma
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	ياخشى	_	ADJ	A	_	8	advmod	_	Translit=yaxshi
+8	تۇردىڭىزمۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=turdingizmu
+9	؟	_	PUNCT	Y	_	8	punct	_	Translit=?
+
+# sent_id = s1774
+# text = موما، ئىككى سائەتتىن كېيىن يېتىپ بارىمەن» دېدى ئادىلجان.
+1	موما	_	NOUN	N	_	7	vocative	_	SpaceAfter=No|Translit=moma
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	ئىككى	_	NUM	M	_	4	nummod	_	Translit=ikki
+4	سائەتتىن	_	NOUN	N	_	7	obl	_	Translit=saettin
+5	كېيىن	_	ADV	D	_	4	case	_	Translit=këyin
+6	يېتىپ	_	VERB	V	_	7	advmod	_	Translit=yëtip
+7	بارىمەن	_	VERB	V	_	9	ccomp	_	SpaceAfter=No|Translit=barimen
+8	»	_	PUNCT	Y	_	7	punct	_	Translit=»
+9	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+10	ئادىلجان	_	NOUN	N	_	9	nsubj	_	SpaceAfter=No|Translit=adiljan
+11	.	_	PUNCT	Y	_	9	punct	_	Translit=.
+
+# sent_id = s1775
+# text = مومىسى: ۋاي - ۋۇي، نېمانچە تېز! دەۋەتتى.
+1	مومىسى	_	NOUN	N	_	10	nsubj	_	SpaceAfter=No|Translit=momisi
+2	:	_	PUNCT	Y	_	1	punct	_	Translit=:
+3	ۋاي	_	INTJ	E	_	5	compound	_	Translit=way
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
+5	ۋۇي	_	INTJ	E	_	8	discourse	_	SpaceAfter=No|Translit=wuy
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	نېمانچە	_	PRON	P	_	8	advmod	_	Translit=nëmanche
+8	تېز	_	ADJ	A	_	10	ccomp	_	SpaceAfter=No|Translit=tëz
+9	!	_	PUNCT	V	_	8	punct	_	Translit=!
+10	دەۋەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=dewetti
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1776
+# text = ئەلۋەتتە، _ دېدى ئادىلجان، _ مېنىڭ ئولتۇرغىنىم يېڭى تىپتىكى ئالەم كېمىسى!
+1	ئەلۋەتتە	_	PART	T	_	4	mark	_	SpaceAfter=No|Translit=elwette
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	_	_	PUNCT	Y	_	1	punct	_	Translit=_
+4	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+5	ئادىلجان	_	NOUN	N	_	4	nsubj	_	SpaceAfter=No|Translit=adiljan
+6	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+7	_	_	PUNCT	Y	_	4	punct	_	Translit=_
+8	مېنىڭ	_	PRON	P	_	9	nmod:poss	_	Translit=mëning
+9	ئولتۇرغىنىم	_	NOUN	N	_	13	nsubj	_	Translit=olturghinim
+10	يېڭى	_	ADJ	A	_	11	amod	_	Translit=yëngi
+11	تىپتىكى	_	NOUN	N	_	13	amod	_	Translit=tiptiki
+12	ئالەم	_	NOUN	N	_	13	compound	_	Translit=alem
+13	كېمىسى	_	NOUN	N	_	4	ccomp	_	SpaceAfter=No|Translit=këmisi
+14	!	_	PUNCT	Y	_	13	punct	_	Translit=!
+
+# sent_id = s1777
+# text = موما، ئاڭلىشىمچە، ئاي شارىدىكى تەتقىقاتچىلار ھاۋانى بۇلغىمايدىغان قۇياش ئېنىرگىيىسى پىكاپىنى ياساپتۇدەك.
+1	موما	_	NOUN	N	_	13	vocative	_	SpaceAfter=No|Translit=moma
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	ئاڭلىشىمچە	_	VERB	V	_	13	parataxis	_	SpaceAfter=No|Translit=anglishimche
+4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+5	ئاي	_	NOUN	N	_	6	compound	_	Translit=ay
+6	شارىدىكى	_	NOUN	N	_	7	amod	_	Translit=sharidiki
+7	تەتقىقاتچىلار	_	NOUN	N	_	13	nsubj	_	Translit=tetqiqatchilar
+8	ھاۋانى	_	NOUN	N	_	9	obj	_	Translit=hawani
+9	بۇلغىمايدىغان	_	VERB	V	_	12	acl	_	Translit=bulghimaydighan
+10	قۇياش	_	NOUN	N	_	11	compound	_	Translit=quyash
+11	ئېنىرگىيىسى	_	VERB	V	_	12	nmod	_	Translit=ënirgiyisi
+12	پىكاپىنى	_	NOUN	N	_	13	obj	_	Translit=pikapini
+13	ياساپتۇدەك	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yasaptudek
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
+
+# sent_id = s1778
+# text = بۇ پىكاپ بازاردا بارمۇ؟ - دەپ سورىدى ئادىلجان.
+1	بۇ	_	PRON	P	_	2	det	_	Translit=bu
+2	پىكاپ	_	NOUN	N	_	4	nsubj	_	Translit=pikap
+3	بازاردا	_	NOUN	N	_	4	nmod	_	Translit=bazarda
+4	بارمۇ	_	ADJ	A	_	7	ccomp	_	SpaceAfter=No|Translit=barmu
+5	؟	_	PUNCT	Y	_	4	punct	_	Translit=?
+6	-	_	PUNCT	Y	_	4	punct	_	Translit=-
+7	دەپ	_	VERB	V	_	8	advmod	_	Translit=dep
+8	سورىدى	_	VERB	V	_	0	root	_	Translit=soridi
+9	ئادىلجان	_	NOUN	N	_	8	nsubj	_	SpaceAfter=No|Translit=adiljan
+10	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1779
+# text = ئالغۇڭ بارمىدى؟ _ دېدى مومىسى كۈلۈپ، _ ھەممە سودا سارايلىرىدا بار!
+1	ئالغۇڭ	_	NOUN	N	_	2	nsubj	_	Translit=alghung
+2	بارمىدى	_	VERB	V	_	5	ccomp	_	SpaceAfter=No|Translit=barmidi
+3	؟	_	PUNCT	Y	_	2	punct	_	Translit=?
+4	_	_	PUNCT	Y	_	2	punct	_	Translit=_
+5	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+6	مومىسى	_	NOUN	N	_	5	nsubj	_	Translit=momisi
+7	كۈلۈپ	_	VERB	V	_	5	advmod	_	SpaceAfter=No|Translit=külüp
+8	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+9	_	_	PUNCT	Y	_	5	punct	_	Translit=_
+10	ھەممە	_	PRON	P	_	12	det	_	Translit=hemme
+11	سودا	_	NOUN	N	_	12	nmod	_	Translit=soda
+12	سارايلىرىدا	_	NOUN	N	_	13	nmod	_	Translit=saraylirida
+13	بار	_	ADJ	A	_	5	ccomp	_	SpaceAfter=No|Translit=bar
+14	!	_	PUNCT	Y	_	13	punct	_	Translit=!
+
+# sent_id = s1780
+# text = خوش، موما، سەل تۇرۇپ كۆرۈشەيلى! - دېدى ئادىلجان،
+1	خوش	_	NOUN	N	_	7	discourse	_	SpaceAfter=No|Translit=xosh
+2	،	_	PUNCT	Y	_	1	punct	_	Translit=,
+3	موما	_	NOUN	N	_	7	vocative	_	SpaceAfter=No|Translit=moma
+4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+5	سەل	_	ADV	D	_	7	advmod	_	Translit=sel
+6	تۇرۇپ	_	VERB	V	_	5	fixed	_	Translit=turup
+7	كۆرۈشەيلى	_	VERB	V	_	10	ccomp	_	SpaceAfter=No|Translit=körüsheyli
+8	!	_	PUNCT	V	_	7	punct	_	Translit=!
+9	-	_	PUNCT	Y	_	7	punct	_	Translit=-
+10	دېدى	_	VERB	V	_	0	root	_	Translit=dëdi
+11	ئادىلجان	_	NOUN	N	_	10	nsubj	_	SpaceAfter=No|Translit=adiljan
+12	،	_	PUNCT	Y	_	10	punct	_	Translit=,
+
+# sent_id = s1781
+# text = ئاندىن ئالىقان كومپىيوتېرىنى ئاچتى.
+1	ئاندىن	_	CCONJ	C	_	4	advmod	_	Translit=andin
+2	ئالىقان	_	NOUN	N	_	3	nmod	_	Translit=aliqan
+3	كومپىيوتېرىنى	_	NOUN	N	_	4	obj	_	Translit=kompiyotërini
+4	ئاچتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=achti
+5	.	_	PUNCT	Y	_	4	punct	_	Translit=.
+
+# sent_id = s1782
+# text = ئۇ كومپىيوتېر ئارقىلىق ئاي شارىدىكى ئەڭ چوڭ سودا مەركىزىگە كىردى.
+1	ئۇ	_	PRON	P	_	10	nsubj	_	Translit=u
+2	كومپىيوتېر	_	NOUN	N	_	10	obl	_	Translit=kompiyotër
+3	ئارقىلىق	_	ADP	R	_	2	case	_	Translit=arqiliq
+4	ئاي	_	NOUN	N	_	5	compound	_	Translit=ay
+5	شارىدىكى	_	VERB	V	_	9	acl	_	Translit=sharidiki
+6	ئەڭ	_	ADV	D	_	7	advmod	_	Translit=eng
+7	چوڭ	_	ADJ	A	_	9	amod	_	Translit=chong
+8	سودا	_	NOUN	N	_	9	nmod	_	Translit=soda
+9	مەركىزىگە	_	NOUN	N	_	10	obl	_	Translit=merkizige
+10	كىردى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kirdi
+11	.	_	PUNCT	Y	_	10	punct	_	Translit=.
+
+# sent_id = s1783
+# text = مەن قۇياش ئېنىرگىيىسى پىكاپىدىن بىرنى سېتىۋالماقچىدىم،
+1	مەن	_	PRON	P	_	6	nsubj	_	Translit=men
+2	قۇياش	_	NOUN	N	_	3	compound	_	Translit=quyash
+3	ئېنىرگىيىسى	_	NOUN	N	_	4	amod	_	Translit=ënirgiyisi
+4	پىكاپىدىن	_	NOUN	N	_	6	obl	_	Translit=pikapidin
+5	بىرنى	_	NUM	M	_	6	obj	_	Translit=birni
+6	سېتىۋالماقچىدىم	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=sëtiwalmaqchidim
+7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+
+# sent_id = s1784
+# text = چۈشتىن كېيىن سائەت ئىككىدە ئالغىلى بارىمەن...
+1	چۈشتىن	_	NOUN	N	_	6	advmod	_	Translit=chüshtin
+2	كېيىن	_	ADV	D	_	1	fixed	_	Translit=këyin
+3	سائەت	_	NOUN	N	_	4	nmod	_	Translit=saet
+4	ئىككىدە	_	NUM	M	_	6	nummod	_	Translit=ikkide
+5	ئالغىلى	_	VERB	V	_	6	advmod	_	Translit=alghili
+6	بارىمەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=barimen
+7	.	_	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit=.
+8	.	_	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit=.
+9	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1785
+# text = قەدىرلىك ساياھەتچىلەر، ئالەم كېمىمىز ئۇچماقچى، بىخەتەرلىك تاسمىسىنى باغلىۋېلىڭلار!
+1	قەدىرلىك	_	NOUN	N	_	2	amod	_	Translit=qedirlik
+2	ساياھەتچىلەر	_	NOUN	N	_	6	vocative	_	SpaceAfter=No|Translit=sayahetchiler
+3	،	_	PUNCT	Y	_	2	punct	_	Translit=,
+4	ئالەم	_	NOUN	N	_	5	compound	_	Translit=alem
+5	كېمىمىز	_	NOUN	N	_	6	nsubj	_	Translit=këmimiz
+6	ئۇچماقچى	_	NOUN	N	_	10	parataxis	_	SpaceAfter=No|Translit=uchmaqchi
+7	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+8	بىخەتەرلىك	_	NOUN	N	_	9	compound	_	Translit=bixeterlik
+9	تاسمىسىنى	_	NOUN	N	_	10	obj	_	Translit=tasmisini
+10	باغلىۋېلىڭلار	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=baghliwëlinglar
+11	!	_	PUNCT	Y	_	10	punct	_	Translit=!
+
+# sent_id = s1786
+# text = ئالەم كېمىسى ۋىڭ - ڭ قىلىپ بوشلۇققا كۆتۈرۈلدى.
+1	ئالەم	_	NOUN	N	_	2	compound	_	Translit=alem
+2	كېمىسى	_	NOUN	N	_	8	nsubj	_	Translit=këmisi
+3	ۋىڭ	_	NOUN	N	_	5	compound	_	Translit=wing
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
+5	ڭ	_	NOUN	N	_	6	obj	_	Translit=ng
+6	قىلىپ	_	VERB	V	_	8	advmod	_	Translit=qilip
+7	بوشلۇققا	_	NOUN	N	_	8	obl	_	Translit=boshluqqa
+8	كۆتۈرۈلدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kötürüldi
+9	.	_	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s1787
+# text = بۇ چاغدا ئادىلجان بىخەتەرلىك تاسمىسىنى تېخى باغلاپ بولالمىغانىدى، شۇڭا ئورنىدىن چۈشۈپ كەتتى.
+1	بۇ	_	PRON	P	_	2	det	_	Translit=bu
+2	چاغدا	_	NOUN	N	_	7	advmod	_	Translit=chaghda
+3	ئادىلجان	_	NOUN	N	_	7	nsubj	_	Translit=adiljan
+4	بىخەتەرلىك	_	NOUN	N	_	5	nmod:clas	_	Translit=bixeterlik
+5	تاسمىسىنى	_	NOUN	N	_	7	obj	_	Translit=tasmisini
+6	تېخى	_	ADV	D	_	7	advmod	_	Translit=tëxi
+7	باغلاپ	_	VERB	V	_	12	parataxis	_	Translit=baghlap
+8	بولالمىغانىدى	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=bolalmighanidi
+9	،	_	PUNCT	Y	_	8	punct	_	Translit=,
+10	شۇڭا	_	CCONJ	C	_	12	cc	_	Translit=shunga
+11	ئورنىدىن	_	NOUN	N	_	12	obl	_	Translit=ornidin
+12	چۈشۈپ	_	VERB	V	_	0	root	_	Translit=chüshüp
+13	كەتتى	_	AUX	V	_	12	aux	_	SpaceAfter=No|Translit=ketti
+14	.	_	PUNCT	Y	_	13	punct	_	Translit=.
+
+# sent_id = s1788
+# text = ۋايجان! - دەپ توۋلىۋەتتى ئادىلجان.
+1	ۋايجان	_	NOUN	N	_	4	ccomp	_	SpaceAfter=No|Translit=wayjan
+2	!	_	PUNCT	V	_	1	punct	_	Translit=!
+3	-	_	PUNCT	Y	_	1	punct	_	Translit=-
+4	دەپ	_	VERB	V	_	5	advcl	_	Translit=dep
+5	توۋلىۋەتتى	_	NOUN	N	_	0	root	_	Translit=towliwetti
+6	ئادىلجان	_	VERB	V	_	5	nsubj	_	SpaceAfter=No|Translit=adiljan
+7	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1789
+# text = ئۇ كۆزىنى ئېچىپ ئەتراپقا ھەيرانلىق بىلەن قارىدى،
+1	ئۇ	_	PRON	P	_	7	nsubj	_	Translit=u
+2	كۆزىنى	_	NOUN	N	_	3	obj	_	Translit=közini
+3	ئېچىپ	_	VERB	V	_	7	advcl	_	Translit=ëchip
+4	ئەتراپقا	_	NOUN	N	_	7	obl	_	Translit=etrapqa
+5	ھەيرانلىق	_	NOUN	N	_	7	obl	_	Translit=heyranliq
+6	بىلەن	_	ADP	R	_	5	case	_	Translit=bilen
+7	قارىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qaridi
+8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+
+# sent_id = s1790
+# text = ئاندىن: چۈشۈمكەن - دە دېدى.
+1	ئاندىن	_	CCONJ	C	_	6	advmod	_	SpaceAfter=No|Translit=andin
+2	:	_	PUNCT	Y	_	1	punct	_	Translit=:
+3	چۈشۈمكەن	_	VERB	V	_	6	ccomp	_	Translit=chüshümken
+4	-	_	PUNCT	Y	_	3	punct	_	Translit=-
+5	دە	_	PART	T	_	3	mark	_	Translit=de
+6	دېدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=dëdi
+7	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1791
+# text = ئادەملەر غەلىتە چۈشلەرنى كۆرىدۇ،
+1	ئادەملەر	_	NOUN	N	_	4	nsubj	_	Translit=ademler
+2	غەلىتە	_	ADJ	A	_	3	amod	_	Translit=ghelite
+3	چۈشلەرنى	_	NOUN	N	_	4	obj	_	Translit=chüshlerni
+4	كۆرىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=köridu
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+
+# sent_id = s1792
+# text = ئاجايىپ خىياللارنى قىلىدۇ،
+1	ئاجايىپ	_	ADJ	A	_	2	amod	_	Translit=ajayip
+2	خىياللارنى	_	NOUN	N	_	3	obj	_	Translit=xiyallarni
+3	قىلىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qilidu
+4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+
+# sent_id = s1793
+# text = بالىلار تېخىمۇ شۇنداق.
+1	بالىلار	_	NOUN	N	_	3	nsubj	_	Translit=balilar
+2	تېخىمۇ	_	ADV	D	_	3	advmod	_	Translit=tëximu
+3	شۇنداق	_	PRON	P	_	0	root	_	SpaceAfter=No|Translit=shundaq
+4	.	_	PUNCT	Y	_	3	punct	_	Translit=.
+
+# sent_id = s1794
+# text = نۇرغۇن كەشپىياتچىلارنىڭ بارلىققا كېلىشىگە ئەنە شۇنداق چۈش ۋە خىياللار، سەۋەبچى بولغان.
+1	نۇرغۇن	_	ADJ	A	_	2	amod	_	Translit=nurghun
+2	كەشپىياتچىلارنىڭ	_	NOUN	N	_	4	obl	_	Translit=keshpiyatchilarning
+3	بارلىققا	_	NOUN	N	_	4	compound:lvc	_	Translit=barliqqa
+4	كېلىشىگە	_	VERB	V	_	11	nmod	_	Translit=këlishige
+5	ئەنە	_	PART	T	_	6	mark	_	Translit=ene
+6	شۇنداق	_	PRON	P	_	7	det	_	Translit=shundaq
+7	چۈش	_	NOUN	N	_	11	nsubj	_	Translit=chüsh
+8	ۋە	_	CCONJ	C	_	9	cc	_	Translit=we
+9	خىياللار	_	NOUN	N	_	7	conj	_	SpaceAfter=No|Translit=xiyallar
+10	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+11	سەۋەبچى	_	NOUN	N	_	0	root	_	Translit=sewebchi
+12	بولغان	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=bolghan
+13	.	_	PUNCT	Y	_	12	punct	_	Translit=.
+
+# sent_id = s1795
+# text = ئايغا ۋە مارسقا چىقىش كىشىلەرنڭ خىيالى ئىدى،
+1	ئايغا	_	NOUN	N	_	4	obl	_	Translit=aygha
+2	ۋە	_	CCONJ	C	_	3	cc	_	Translit=we
+3	مارسقا	_	NOUN	N	_	1	conj	_	Translit=marsqa
+4	چىقىش	_	VERB	V	_	6	cc	_	Translit=chiqish
+5	كىشىلەرنڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=kishilernng
+6	خىيالى	_	NOUN	N	_	0	root	_	Translit=xiyali
+7	ئىدى	_	AUX	V	_	6	cop	_	SpaceAfter=No|Translit=idi
+8	،	_	PUNCT	Y	_	7	punct	_	Translit=,
+
+# sent_id = s1796
+# text = مانا ھازىر راست ئىشقا ئايلاندى.
+1	مانا	_	PART	T	_	5	mark	_	Translit=mana
+2	ھازىر	_	ADV	D	_	5	advmod	_	Translit=hazir
+3	راست	_	ADJ	A	_	4	amod	_	Translit=rast
+4	ئىشقا	_	NOUN	N	_	5	obl	_	Translit=ishqa
+5	ئايلاندى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=aylandi
+6	.	_	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s1797
+# text = مەسىلىلەر ئۈستىدە كۆزىتىشنى، ئويلىنىشىنى، ئىزدىنىشنى ئادەتكە ئايلاندۇرسىڭىز، سىزمۇ چۈش ۋە خىياللىرىڭىزنى ئەمەلىيەتكە ئايلاندۇرالايسىز.
+1	مەسىلىلەر	_	NOUN	N	_	2	amod	_	Translit=mesililer
+2	ئۈستىدە	_	NOUN	N	_	3	obl	_	Translit=üstide
+3	كۆزىتىشنى	_	VERB	V	_	9	obj	_	SpaceAfter=No|Translit=közitishni
+4	،	_	PUNCT	Y	_	3	punct	_	Translit=,
+5	ئويلىنىشىنى	_	VERB	V	_	3	conj	_	SpaceAfter=No|Translit=oylinishini
+6	،	_	PUNCT	Y	_	5	punct	_	Translit=,
+7	ئىزدىنىشنى	_	VERB	V	_	3	conj	_	Translit=izdinishni
+8	ئادەتكە	_	VERB	V	_	9	obl	_	Translit=adetke
+9	ئايلاندۇرسىڭىز	_	VERB	V	_	16	advcl	_	SpaceAfter=No|Translit=aylandursingiz
+10	،	_	PUNCT	Y	_	9	punct	_	Translit=,
+11	سىزمۇ	_	PRON	P	_	16	nsubj	_	Translit=sizmu
+12	چۈش	_	NOUN	N	_	16	obj	_	Translit=chüsh
+13	ۋە	_	CCONJ	C	_	14	cc	_	Translit=we
+14	خىياللىرىڭىزنى	_	NOUN	N	_	12	conj	_	Translit=xiyalliringizni
+15	ئەمەلىيەتكە	_	NOUN	N	_	16	obl	_	Translit=emeliyetke
+16	ئايلاندۇرالايسىز	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=aylanduralaysiz
+17	.	_	PUNCT	Y	_	16	punct	_	Translit=.
+
+# sent_id = s1798
+# text = مايمۇن بىر توپ نەشپۈت كۆچىتى تىكىپتۇ ۋە ھەر كۈنى سۇ قۇيۇپ ئوغۇتلاپ، تېزرەك نەشپۈت يېيىشنى كۈتۈپتۇ.
+1	مايمۇن	_	NOUN	N	_	6	nsubj	_	Translit=maymun
+2	بىر	_	NUM	M	_	3	nummod	_	Translit=bir
+3	توپ	_	DET	Q	_	5	nmod	_	Translit=top
+4	نەشپۈت	_	NOUN	N	_	5	compound	_	Translit=neshpüt
+5	كۆچىتى	_	NOUN	N	_	6	obj	_	Translit=köchiti
+6	تىكىپتۇ	_	NOUN	N	_	0	root	_	Translit=tikiptu
+7	ۋە	_	CCONJ	C	_	17	cc	_	Translit=we
+8	ھەر	_	PRON	P	_	9	det	_	Translit=her
+9	كۈنى	_	NOUN	N	_	11	advmod	_	Translit=küni
+10	سۇ	_	NOUN	N	_	11	obj	_	Translit=su
+11	قۇيۇپ	_	VERB	V	_	12	advcl	_	Translit=quyup
+12	ئوغۇتلاپ	_	VERB	V	_	17	advcl	_	SpaceAfter=No|Translit=oghutlap
+13	،	_	PUNCT	Y	_	12	punct	_	Translit=,
+14	تېزرەك	_	ADJ	A	_	16	advmod	_	Translit=tëzrek
+15	نەشپۈت	_	NOUN	N	_	16	obj	_	Translit=neshpüt
+16	يېيىشنى	_	VERB	V	_	17	obj	_	Translit=yëyishni
+17	كۈتۈپتۇ	_	VERB	V	_	6	conj	_	SpaceAfter=No|Translit=kütüptu
+18	.	_	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1799
+# text = نەشپۇت كۆچىتى ئەمدى كۆكىرىۋاتقاندا، قارىياغاچقا قونۇۋالغان بىر قاغا دەپتۇ:
+1	نەشپۇت	_	NOUN	N	_	2	compound	_	Translit=neshput
+2	كۆچىتى	_	NOUN	N	_	4	nsubj	_	Translit=köchiti
+3	ئەمدى	_	ADV	D	_	4	advmod	_	Translit=emdi
+4	كۆكىرىۋاتقاندا	_	VERB	V	_	10	advcl	_	SpaceAfter=No|Translit=kökiriwatqanda
+5	،	_	PUNCT	Y	_	4	punct	_	Translit=,
+6	قارىياغاچقا	_	NOUN	N	_	7	obl	_	Translit=qariyaghachqa
+7	قونۇۋالغان	_	VERB	V	_	9	acl	_	Translit=qonuwalghan
+8	بىر	_	NUM	M	_	9	nummod	_	Translit=bir
+9	قاغا	_	NOUN	N	_	10	nsubj	_	Translit=qagha
+10	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu
+11	:	_	PUNCT	Y	_	10	punct	_	Translit=:
+
+# sent_id = s1800
+# text = - قاق – قاق! مايمۇن ئاكا، مايمۇن ئاكا، نەشپۈت كۆچىتى تىككىنىڭ نېمىسى؟
+1	-	_	PUNCT	Y	_	2	punct	_	Translit=-
+2	قاق	_	NOUN	N	_	4	compound	_	Translit=qaq
+3	–	_	PUNCT	N	_	2	punct	_	Translit=–
+4	قاق	_	NOUN	N	_	15	discourse	_	SpaceAfter=No|Translit=qaq
+5	!	_	PUNCT	N	_	4	punct	_	Translit=!
+6	مايمۇن	_	NOUN	N	_	15	vocative	_	Translit=maymun
+7	ئاكا	_	NOUN	N	_	6	flat	_	SpaceAfter=No|Translit=aka
+8	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+9	مايمۇن	_	NOUN	N	_	6	conj	_	Translit=maymun
+10	ئاكا	_	NOUN	N	_	9	flat	_	SpaceAfter=No|Translit=aka
+11	،	_	PUNCT	Y	_	6	punct	_	Translit=,
+12	نەشپۈت	_	NOUN	N	_	13	compound	_	Translit=neshpüt
+13	كۆچىتى	_	NOUN	N	_	14	obj	_	Translit=köchiti
+14	تىككىنىڭ	_	VERB	V	_	15	nsubj	_	Translit=tikkining
+15	نېمىسى	_	PRON	P	_	0	root	_	SpaceAfter=No|Translit=nëmisi
+16	؟	_	PUNCT	Y	_	15	punct	_	Translit=?
+
