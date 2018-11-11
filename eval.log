@@ -1,10 +1,10 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 2282c128016ebbc440640eda93072143feffae8c
-Merge: 7035c86 b050d4f
+commit 60c716c7471cd522e38d09f3486fe5684df5242f
+Merge: 971f816 2861463
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
@@ -21,7 +21,7 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi: found 6877 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40236 words.
-Genres: found 1 out of 14 known.
+Genres: found 1 out of 17 known.
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
 *** PASSED ***
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
-(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
 (weight=0.256410256410256) * (score{size}=0.534871599825482) = 0.137146564057816
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.354159148717459) * (availability=1) * (validity=1) = 0.354159148717459
+(TOTAL score=0.353189530100782) * (availability=1) * (validity=1) = 0.353189530100782
 STARS = 2
-UD_Uyghur-UDT	0.354159148717459	2
+UD_Uyghur-UDT	0.353189530100782	2
