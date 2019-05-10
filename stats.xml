@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>3456</sentences><tokens>40236</tokens><words>40236</words><fused>0</fused></total>
+    <train><sentences>1656</sentences><tokens>19262</tokens><words>19262</words><fused>0</fused></train>
+    <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
+    <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
   <lemmas unique="2887" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12067" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
