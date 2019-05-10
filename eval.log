@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 60c716c7471cd522e38d09f3486fe5684df5242f
-Merge: 971f816 2861463
+commit c40a14b1f47927cda65b82f1894fbc92fbf06f5d
+Merge: 64e2fed a87b8c9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
