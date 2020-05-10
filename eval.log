@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 3e113ab06a26503f2ba268e6b200b5592ad367fb
+commit 1cd8e524f3c6a5f0bdfdf573e0140cac0cb57135
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:47:25 2019 +0200
+Date:   Tue Nov 12 17:49:40 2019 +0100
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 18195 out of 40236 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 6877 bugs.
+Udapi: found 6881 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40236 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
@@ -33,8 +33,19 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
 [Line 61 Sent s903 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 74 Sent s903 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 ...suppressing further errors regarding Syntax
+[Line 2929 Sent s1062 Node 14]: [L5 Morpho aux-lemma] 'لازىم' is not an auxiliary verb in language [ug]
+[Line 3899 Sent s1128 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 4112 Sent s1144 Node 2]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
+[Line 4144 Sent s1147 Node 2]: [L5 Morpho aux-lemma] 'ياخشى' is not an auxiliary verb in language [ug]
+[Line 5056 Sent s1205 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 7039 Sent s1349 Node 9]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 7231 Sent s1363 Node 6]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 9309 Sent s1519 Node 15]: [L5 Morpho aux-lemma] 'چىق' is not an auxiliary verb in language [ug]
+[Line 9352 Sent s1522 Node 4]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+...suppressing further errors regarding Morpho
+Morpho errors: 16
 Syntax errors: 552
-*** FAILED *** with 552 errors
+*** FAILED *** with 568 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 12 Sent s1 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
@@ -46,9 +57,20 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 141 Sent s8 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 147 Sent s8 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 148 Sent s8 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:قويماقچى:aux --> 19:بولۇشقاندۇ:cop)
+[Line 139 Sent s8 Node 10]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Syntax
+[Line 2424 Sent s171 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 6916 Sent s501 Node 19]: [L5 Morpho aux-lemma] 'يۈر' is not an auxiliary verb in language [ug]
+[Line 7194 Sent s525 Node 3]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 8019 Sent s586 Node 4]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 8295 Sent s605 Node 7]: [L5 Morpho aux-lemma] 'ئولتۇر' is not an auxiliary verb in language [ug]
+[Line 8479 Sent s618 Node 17]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 9387 Sent s677 Node 9]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 9960 Sent s709 Node 8]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+...suppressing further errors regarding Morpho
+Morpho errors: 17
 Syntax errors: 667
-*** FAILED *** with 667 errors
+*** FAILED *** with 684 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 20 Sent s1802 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -61,8 +83,19 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 125 Sent s1810 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 127 Sent s1810 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 ...suppressing further errors regarding Syntax
+[Line 383 Sent s1830 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 1457 Sent s1893 Node 28]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
+[Line 1742 Sent s1914 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 1851 Sent s1921 Node 12]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
+[Line 2810 Sent s1990 Node 6]: [L5 Morpho aux-lemma] 'چىق' is not an auxiliary verb in language [ug]
+[Line 2817 Sent s1991 Node 3]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
+[Line 3451 Sent s2032 Node 23]: [L5 Morpho aux-lemma] 'يەت' is not an auxiliary verb in language [ug]
+[Line 3643 Sent s2045 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 4096 Sent s2075 Node 18]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
+...suppressing further errors regarding Morpho
+Morpho errors: 46
 Syntax errors: 1249
-*** FAILED *** with 1249 errors
+*** FAILED *** with 1295 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
