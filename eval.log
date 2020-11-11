@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 1cd8e524f3c6a5f0bdfdf573e0140cac0cb57135
+commit 4f29ae20b24bb80d705e463a82905c7c242d24e4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:49:40 2019 +0100
+Date:   Sun May 10 18:49:10 2020 +0200
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -69,8 +69,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 9960 Sent s709 Node 8]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 17
-Syntax errors: 667
-*** FAILED *** with 684 errors
+Syntax errors: 669
+*** FAILED *** with 686 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 20 Sent s1802 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -94,8 +94,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 4096 Sent s2075 Node 18]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 46
-Syntax errors: 1249
-*** FAILED *** with 1295 errors
+Syntax errors: 1251
+*** FAILED *** with 1297 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
