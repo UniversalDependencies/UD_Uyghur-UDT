@@ -427,7 +427,7 @@
 
 # sent_id = s28
 # text = كەنت يېنىدا سۈيىنىڭ سۈزۈكلىكىدىن تېگى كۆرۈنۈپ تۇرىدىغان بىر ئۆستەڭ بار ئىكەن.
-1	كەنت	كەنت	NOUN	N	Case=Nom	2	nmod:clas	_	Translit=kent
+1	كەنت	كەنت	NOUN	N	Case=Nom	2	compound	_	Translit=kent
 2	يېنىدا	_	NOUN	N	_	10	nmod	_	Translit=yënida|Morf=Unknown
 3	سۈيىنىڭ	_	NOUN	N	_	4	nmod:poss	_	Translit=süyining|Morf=Unknown
 4	سۈزۈكلىكىدىن	_	NOUN	N	_	6	advmod	_	Translit=süzüklikidin|Morf=Unknown
@@ -5559,7 +5559,7 @@
 15	ۋە	ۋە	CCONJ	C	_	19	cc	_	Translit=we
 16	قارىداپ	_	VERB	V	_	17	compound	_	Translit=qaridap|Morf=Unknown
 17	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	19	acl	_	Translit=ketken
-18	دەرەخ	دەرەخ	NOUN	N	Case=Nom	19	nmod:clas	_	Translit=derex
+18	دەرەخ	دەرەخ	NOUN	N	Case=Nom	19	compound	_	Translit=derex
 19	يوپۇرماقلىرى	_	NOUN	N	_	11	conj	_	Translit=yopurmaqliri|Morf=Unknown
 20	ئېنىق	ئېنىق	ADJ	A	Case=Nom	21	advmod	_	Translit=ëniq
 21	كۆرۈنۈپ	كۆرۈن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körünüp
@@ -5670,7 +5670,7 @@
 8	ئالتۇن	ئالتۇن	NOUN	N	Case=Nom	9	compound	_	Translit=altun
 9	رەڭلىك	رەڭلىك	ADJ	A	_	13	amod	_	SpaceAfter=No|Translit=renglik
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
-11	كۆمۈش	_	ADJ	A	_	12	nmod:clas	_	Translit=kömüsh|Morf=Unknown
+11	كۆمۈش	_	ADJ	A	_	12	compound	_	Translit=kömüsh|Morf=Unknown
 12	رەڭلىك	رەڭلىك	ADJ	A	Case=Nom	9	conj	_	Translit=renglik
 13	نۇرلار	نۇر	NOUN	N	Case=Nom|Number=Plur	14	nsubj	_	Translit=nurlar
 14	چىرمىۋالغاندەك	_	NOUN	N	_	15	advcl	_	Translit=chirmiwalghandek|Morf=Unknown
@@ -5988,7 +5988,7 @@
 23	ئۆتكۈزۈلۈش	_	NOUN	N	_	24	nmod	_	Translit=ötküzülüsh|Morf=Unknown
 24	ئالدىدا	ئالد	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	25	obl	_	Translit=aldida
 25	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	27	acl	_	Translit=turghan
-26	نامايىش	نامايىش	NOUN	N	Case=Nom	27	nmod:clas	_	Translit=namayish
+26	نامايىش	نامايىش	NOUN	N	Case=Nom	27	compound	_	Translit=namayish
 27	مۇراسىمىغا	مۇراسىم	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	33	obl	_	Translit=murasimigha
 28	مۇشۇ	مۇشۇ	PRON	P	Case=Nom|PronType=Dem	30	det	_	Translit=mushu
 29	ئېسىل	ئېسىل	NOUN	A	Case=Nom	30	amod	_	Translit=ësil
@@ -8586,7 +8586,7 @@
 5	ئىشخانىسىغا	ئىشخانا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	Translit=ishxanisigha
 6	كىرگەندە	_	VERB	V	_	23	advcl	_	SpaceAfter=No|Translit=kirgende|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
-8	ئۇيۇشما	ئۇيۇشما	NOUN	N	Case=Nom	9	nmod:clas	_	Translit=uyushma
+8	ئۇيۇشما	ئۇيۇشما	NOUN	N	Case=Nom	9	compound	_	Translit=uyushma
 9	مەسئۇلى	مەسئۇل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	18	appos	_	SpaceAfter=No|Translit=mesuli
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	قاتاڭغۇر	قاتاڭغۇر	ADJ	A	Case=Nom	18	acl	_	SpaceAfter=No|Translit=qatangghur
@@ -9700,7 +9700,7 @@
 # sent_id = s698
 # text = ئەگەر خەلق پۇلىنىڭ كۇرسى ئۆستۈرۈلسە، بۇ شىركەتلەرمۇ زىيان_تارتىدۇ.
 1	ئەگەر	ئەگەر	SCONJ	C	_	5	cc	_	Translit=eger
-2	خەلق	خەلق	NOUN	N	Case=Nom	3	nmod:clas	_	Translit=xelq
+2	خەلق	خەلق	NOUN	N	Case=Nom	3	compound	_	Translit=xelq
 3	پۇلىنىڭ	پۇل	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:poss	_	Translit=pulining
 4	كۇرسى	كۇرس	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	Translit=kursi
 5	ئۆستۈرۈلسە	_	VERB	V	_	9	advcl:cond	_	SpaceAfter=No|Translit=östürülse|Morf=Unknown
@@ -9784,7 +9784,7 @@
 
 # sent_id = s703
 # text = جۇڭگو_خەلق_ئىگىلىكى_تەتقىقات_ئورنىنىڭ باشلىقى فەن_گاڭ: جۇڭگونىڭ ئىچكى قۇرۇقلۇق رايونىدا ئىشقا ئورۇنلىشىش پۇرسىتىنى ئاشۇرۇشىغا ئەگىشىپ، ئۇنىڭ_ئۈستىگە باشقا تەرەققىي_قىلىۋاتقان بازارلار بىلەن رىقابەتلىشىشكە توغرا_كەلگەچكە، جۇڭگونىڭ ئىش ھەققى سەۋىيەسى تۆۋەن سەۋىيەدە ساقلىنىشى مۇمكىن، دەپ قارىدى.
-1	جۇڭگو_خەلق_ئىگىلىكى_تەتقىقات_ئورنىنىڭ	_	NOUN	N	_	2	nmod:clas	_	Translit=junggo_xelq_igiliki_tetqiqat_ornining|Morf=Unknown
+1	جۇڭگو_خەلق_ئىگىلىكى_تەتقىقات_ئورنىنىڭ	_	NOUN	N	_	2	compound	_	Translit=junggo_xelq_igiliki_tetqiqat_ornining|Morf=Unknown
 2	باشلىقى	باشلىق	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	appos	_	Translit=bashliqi
 3	فەن_گاڭ	_	NOUN	N	_	33	nsubj	_	SpaceAfter=No|Translit=fen_gang|Morf=Unknown
 4	:	:	PUNCT	Y	_	3	punct	_	Translit=:
@@ -9861,7 +9861,7 @@
 1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	17	advmod	_	SpaceAfter=No|Translit=emeliyette
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	جۇڭگونىڭ	جۇڭگو	PROPN	N	Case=Gen	5	nmod:poss	_	Translit=junggoning
-4	نوپۇس	نوپۇس	NOUN	N	Case=Nom	5	nmod:clas	_	Translit=nopus
+4	نوپۇس	نوپۇس	NOUN	N	Case=Nom	5	compound	_	Translit=nopus
 5	كۆلىمىنىڭ	كۆلەم	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod:poss	_	Translit=kölimining
 6	زورلۇقىنى	زورلۇق	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	Translit=zorluqini
 7	كۆزدە_تۇتقاندا	_	VERB	V	_	18	dep	_	SpaceAfter=No|Translit=közde_tutqanda|Morf=Unknown
@@ -9883,16 +9883,16 @@
 1	جۇڭگو_خەلقئارا_مەسىلىلىرى_تەتقىقات_ئورنىدىكى	_	NOUN	N	_	2	amod	_	Translit=junggo_xelqara_mesililiri_tetqiqat_ornidiki|Morf=Unknown
 2	دوڭ_مەنيۈەن	_	NOUN	N	_	22	nsubj	_	SpaceAfter=No|Translit=dong_menyüen|Morf=Unknown
 3	:	:	PUNCT	Y	_	2	punct	_	Translit=:
-4	كەلگۈسى	_	VERB	V	_	14	nmod:clas	_	Translit=kelgüsi|Morf=Missing,1
+4	كەلگۈسى	_	VERB	V	_	14	compound	_	Translit=kelgüsi|Morf=Missing,1
 5	20	20	NUM	M	NumType=Ord	6	nummod	_	Translit=20
-6	يىل	يىل	NOUN	N	Case=Nom	14	nmod:clas	_	SpaceAfter=No|Translit=yil
+6	يىل	يىل	NOUN	N	Case=Nom	14	compound	_	SpaceAfter=No|Translit=yil
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	30	30	NUM	M	NumType=Ord	9	nummod	_	Translit=30
-9	يىل	يىل	NOUN	N	Case=Nom	14	nmod:clas	_	SpaceAfter=No|Translit=yil
+9	يىل	يىل	NOUN	N	Case=Nom	14	compound	_	SpaceAfter=No|Translit=yil
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	ھەتتا	_	CCONJ	C	_	12	cc	_	Translit=hetta|Morf=Missing,1
 12	40	40	NUM	M	NumType=Ord	13	nummod	_	Translit=40
-13	يىل	يىل	NOUN	N	Case=Nom	14	nmod:clas	_	Translit=yil
+13	يىل	يىل	NOUN	N	Case=Nom	14	compound	_	Translit=yil
 14	ئىچىدە	ئىچ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	21	obl	_	SpaceAfter=No|Translit=ichide
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	جۇڭگو	جۇڭگو	PROPN	N	Case=Nom	21	nsubj	_	Translit=junggo
@@ -10222,7 +10222,7 @@
 3	ئەينەككە	ئەينەك	NOUN	N	Case=Dat	4	obl	_	Translit=eynekke
 4	قاراۋاتقىنىمدا	_	VERB	V	_	15	advcl	_	SpaceAfter=No|Translit=qarawatqinimda|Morf=Unknown
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	ئايال	ئايال	NOUN	N	Case=Nom	7	nmod:clas	_	Translit=ayal
+6	ئايال	ئايال	NOUN	N	Case=Nom	7	compound	_	Translit=ayal
 7	ساتىراشقا	ساتىراش	NOUN	N	Case=Dat	9	obl	_	Translit=satirashqa
 8	چاچ	چاچ	NOUN	N	Case=Nom	9	obj	_	Translit=chach
 9	ياسىتىپ	_	VERB	V	_	10	advcl	_	Translit=yasitip|Morf=Unknown
@@ -10881,7 +10881,7 @@
 
 # sent_id = s769
 # text = ئۇلار ئىشىك ئالدىغا كىلىشىگە ئىشىك ئالدىدىكى ياڭراتقۇدىن ئاۋاز چىقتى.
-1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nmod:clas	_	Translit=ular
+1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	compound	_	Translit=ular
 2	ئىشىك	ئىشىك	NOUN	N	Case=Nom	3	nmod:poss	_	Translit=ishik
 3	ئالدىغا	ئالد	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod	_	Translit=aldigha
 4	كىلىشىگە	_	NOUN	N	_	9	advcl	_	Translit=kilishige|Morf=Unknown
@@ -12772,7 +12772,7 @@
 
 # sent_id = s889
 # text = كۆز نۇرۇڭ بىر كېچىدىلا ئېقىپ تۈگەپ، قويۇق بوستان چاچلىرىڭ سەھەر كۆۋرۈكىدىن ئۆتمەي تۇرۇپلا كۈلدەك چارلىشىپ كېتىدۇ.
-1	كۆز	كۆز	NOUN	N	Case=Nom	2	nmod:clas	_	Translit=köz
+1	كۆز	كۆز	NOUN	N	Case=Nom	2	compound	_	Translit=köz
 2	نۇرۇڭ	نۇر	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	6	nsubj	_	Translit=nurung
 3	بىر	بىر	NUM	M	_	4	nummod	_	Translit=bir
 4	كېچىدىلا	_	NOUN	N	_	6	nmod:tmod	_	Translit=këchidila|Morf=Unknown

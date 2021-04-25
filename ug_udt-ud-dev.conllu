@@ -602,7 +602,7 @@
 30	سىرلىرى	سىر	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	32	nsubj	_	Translit=sirliri
 31	ئۆڭۈپ	_	VERB	V	_	32	compound:lvc	_	Translit=öngüp|Morf=Unknown
 32	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	36	acl	_	Translit=ketken
-33	ياغاچ	ياغاچ	NOUN	N	Case=Nom	34	nmod:clas	_	Translit=yaghach
+33	ياغاچ	ياغاچ	NOUN	N	Case=Nom	34	compound	_	Translit=yaghach
 34	پارتا	پارتا	NOUN	N	Case=Nom	36	compound:redup	_	Translit=parta
 35	-	-	PUNCT	Y	_	34	punct	_	Translit=-
 36	ئورۇندۇقلۇق	_	NOUN	N	_	37	amod	_	Translit=orunduqluq|Morf=Unknown
@@ -984,7 +984,7 @@
 11	بالا	بالا	NOUN	N	Case=Nom	12	nmod	_	Translit=bala
 12	بويى	بوي	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	amod	_	Translit=boyi
 13	ئۆسكەن	ئۆس	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	15	acl	_	Translit=ösken
-14	قوناق	قوناق	NOUN	N	Case=Nom	15	nmod:clas	_	Translit=qonaq
+14	قوناق	قوناق	NOUN	N	Case=Nom	15	compound	_	Translit=qonaq
 15	شاخلىرىنىڭ	_	NOUN	N	_	17	nmod:poss	_	Translit=shaxlirining|Morf=Unknown
 16	شىلدىرلىغان	شىلدىرلى	VERB	N	Case=Nom|Tense=Past|VerbForm=Ger	17	amod	_	Translit=shildirlighan
 17	ئاۋازىمۇ	_	NOUN	N	_	35	nsubj	_	SpaceAfter=No|Translit=awazimu|Morf=Unknown
@@ -1116,7 +1116,7 @@
 7	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	8	acl	_	Translit=turghan
 8	ياشلارنى	ياش	NOUN	A	Case=Acc|Number=Plur	13	obj	_	Translit=yashlarni
 9	زادىلا	_	ADV	D	_	13	advmod	_	Translit=zadila|Morf=Unknown
-10	كۆز	كۆز	NOUN	N	Case=Nom	11	nmod:clas	_	Translit=köz
+10	كۆز	كۆز	NOUN	N	Case=Nom	11	compound	_	Translit=köz
 11	قارىچۇقۇڭنىڭ	قارىچۇق	NOUN	N	Case=Gen|Number[psor]=Sing|Person[psor]=2	12	nmod:poss	_	Translit=qarichuqungning
 12	سىرتىغا	سىرت	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	Translit=sirtigha
 13	چىقارمايتتىڭ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chiqarmaytting|Morf=Unknown
@@ -2564,7 +2564,7 @@
 17	ئۈزۈم	ئۈزۈم	NOUN	N	Case=Nom	18	compound	_	Translit=üzüm
 18	سىقىش	سىق	VERB	N	Case=Nom|VerbForm=Ger	19	compound	_	Translit=siqish
 19	ماشىنىسىنىڭ	ماشىنا	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	21	nmod:poss	_	Translit=mashinisining
-20	بىسىم	_	NOUN	N	_	21	nmod:clas	_	Translit=bisim|Morf=Unknown
+20	بىسىم	_	NOUN	N	_	21	compound	_	Translit=bisim|Morf=Unknown
 21	كۈچىنى	كۈچ	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	22	obj	_	Translit=küchini
 22	قوشقاندا	قوش	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	27	advmod	_	SpaceAfter=No|Translit=qoshqanda
 23	،	،	PUNCT	Y	_	22	punct	_	Translit=,
@@ -7235,7 +7235,7 @@
 # text = مەسىلىلەرگە بولغان قارىشىمىز ۋە ھەل قىلىش ئۇسۇلىمىز ئوخشاش بولمىغانلىقتىن، كۆپ ھاللاردا نەتىجىسىمۇ ئوخشاش بولمايدۇ.
 1	مەسىلىلەرگە	مەسىلە	NOUN	N	Case=Dat|Number=Plur	3	nmod	_	Translit=mesililerge
 2	بولغان	بول	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	3	acl	_	Translit=bolghan
-3	قارىشىمىز	_	NOUN	N	_	7	nmod:clas	_	Translit=qarishimiz|Morf=Unknown
+3	قارىشىمىز	_	NOUN	N	_	7	compound	_	Translit=qarishimiz|Morf=Unknown
 4	ۋە	ۋە	CCONJ	C	_	7	cc	_	Translit=we
 5	ھەل	_	NOUN	N	_	6	compound	_	Translit=hel|Morf=Unknown
 6	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	7	acl	_	Translit=qilish
@@ -12847,7 +12847,7 @@
 46	توخۇ	توخۇ	NOUN	N	Case=Nom	47	nmod	_	Translit=toxu
 47	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	conj	_	SpaceAfter=No|Translit=yili
 48	،	،	PUNCT	Y	_	47	punct	_	Translit=,
-49	ئىت	ئىت	NOUN	N	Case=Nom	50	nmod:clas	_	Translit=it
+49	ئىت	ئىت	NOUN	N	Case=Nom	50	compound	_	Translit=it
 50	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	conj	_	SpaceAfter=No|Translit=yili
 51	،	،	PUNCT	Y	_	50	punct	_	Translit=,
 52	توڭگۇز	توڭگۇز	NOUN	N	Case=Nom	53	nmod	_	Translit=tongguz
@@ -13167,7 +13167,7 @@
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	چاغدا	چاغ	NOUN	N	Case=Loc	7	advmod	_	Translit=chaghda
 3	ئادىلجان	_	NOUN	N	_	7	nsubj	_	Translit=adiljan|Morf=Unknown
-4	بىخەتەرلىك	بىخەتەرلىك	NOUN	N	Case=Nom	5	nmod:clas	_	Translit=bixeterlik
+4	بىخەتەرلىك	بىخەتەرلىك	NOUN	N	Case=Nom	5	compound	_	Translit=bixeterlik
 5	تاسمىسىنى	تاسما	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	Translit=tasmisini
 6	تېخى	تېخى	ADV	D	_	7	advmod	_	Translit=tëxi
 7	باغلاپ	_	VERB	V	_	12	parataxis	_	Translit=baghlap|Morf=Unknown
