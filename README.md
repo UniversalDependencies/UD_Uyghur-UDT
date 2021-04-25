@@ -15,6 +15,7 @@ middle school, including stories, records and reports.
 * 2021-05-15 v2.8
   * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
     tentatively replaced with Aspect=Hab|Tense=Pres.
+  * Undocumented Cov(erb) is probably better represented as Inf, see https://github.com/UniversalDependencies/docs/issues/747
 * 2018-04-15 v2.2
   * Repository renamed from UD_Uyghur to UD_Uyghur-UDT.
   * Added new manually checked data (Marhaba Eli); dev cut at 900 sentences, additional 1656 sentences go to train.

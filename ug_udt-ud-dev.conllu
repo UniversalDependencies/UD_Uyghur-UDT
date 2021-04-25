@@ -72,7 +72,7 @@
 17	تولىمۇ	_	ADV	D	_	18	advmod	_	Translit=tolimu|Morf=Unknown
 18	پۇختا	پۇختا	ADJ	A	Case=Nom	15	conj	_	Translit=puxta
 19	رەۋىشتە	رەۋىش	NOUN	N	Case=Loc	20	advmod	_	Translit=rewishte
-20	توقۇپ	توق	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=toqup
+20	توقۇپ	توق	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=toqup
 21	چىققانىدىم	_	AUX	V	_	20	aux	_	SpaceAfter=No|Translit=chiqqanidim|Morf=Unknown
 22	.	.	PUNCT	Y	_	21	punct	_	Translit=.
 
@@ -136,7 +136,7 @@
 14	قۇرۇق	قۇرۇق	ADJ	A	_	15	amod	_	Translit=quruq
 15	ئىسكىلىت	ئىسكىلىت	NOUN	N	Case=Nom	16	nmod:poss	_	Translit=iskilit
 16	جازىسىغا	جازا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	17	obl	_	Translit=jazisigha
-17	ئايلىنىپ	ئايلان	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=aylinip
+17	ئايلىنىپ	ئايلان	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=aylinip
 18	قالاتتى	_	AUX	V	_	17	aux	_	SpaceAfter=No|Translit=qalatti|Morf=Unknown
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
@@ -554,7 +554,7 @@
 6	قىزلىق	_	NOUN	N	_	7	amod	_	Translit=qizliq|Morf=Unknown
 7	زىنىخلارنىڭ	_	NOUN	N	_	9	nsubj	_	Translit=zinixlarning|Morf=Unknown
 8	پەيدا	پەيدا	ADJ	N	_	9	compound	_	Translit=peyda
-9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	3	conj	_	Translit=bolup
+9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	3	conj	_	Translit=bolup
 10	قېلىشى	قال	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	9	aux	_	Translit=qëlishi
 11	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	17	nmod:poss	_	Translit=bizning
 12	بىر	بىر	NUM	M	_	13	nummod	_	Translit=bir
@@ -693,7 +693,7 @@
 23	پات	پات	ADJ	T	Case=Nom	24	advmod	_	Translit=pat
 24	ئاڭلاپ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=anglap|Morf=Unknown
 25	،	،	PUNCT	Y	_	24	punct	_	Translit=,
-26	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	24	conj	_	Translit=körüp
+26	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	24	conj	_	Translit=körüp
 27	قالاتتىم	_	AUX	V	_	26	aux	_	SpaceAfter=No|Translit=qalattim|Morf=Unknown
 28	.	.	PUNCT	Y	_	27	punct	_	Translit=.
 
@@ -719,7 +719,7 @@
 18	-	-	PUNCT	Y	_	17	punct	_	Translit=-
 19	ئۇزاق	ئۇزاق	ADJ	A	Case=Nom	21	advmod	_	Translit=uzaq
 20	مۇڭلىنىپ	مۇڭلان	VERB	V	Aspect=Perf|VerbForm=Conv	21	advmod	_	Translit=munglinip
-21	ئولتۇرۇپ	ئولتۇر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=olturup
+21	ئولتۇرۇپ	ئولتۇر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=olturup
 22	كېتەتتىڭ	_	AUX	V	_	21	aux	_	SpaceAfter=No|Translit=këtetting|Morf=Unknown
 23	.	.	PUNCT	Y	_	22	punct	_	Translit=.
 
@@ -761,7 +761,7 @@
 34	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	36	acl	_	Translit=ketken
 35	ئىككى	ئىككى	NUM	M	_	36	nummod	_	Translit=ikki
 36	كۆزىدەك	_	NOUN	N	_	22	conj	_	Translit=közidek|Morf=Unknown
-37	كۆرۈنۈپ	كۆرۈن	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=körünüp
+37	كۆرۈنۈپ	كۆرۈن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körünüp
 38	كېتەتتى	_	AUX	V	_	37	aux	_	SpaceAfter=No|Translit=këtetti|Morf=Unknown
 39	.	.	PUNCT	Y	_	38	punct	_	Translit=.
 
@@ -791,7 +791,7 @@
 22	سالالماس	_	NOUN	N	_	24	aux	_	Translit=salalmas|Morf=Unknown
 23	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	24	compound:lvc	_	Translit=qilip
 24	قويغۇم	_	VERB	V	_	11	conj	_	Translit=qoyghum|Morf=Unknown
-25	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=këlip
+25	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=këlip
 26	كېتەتتى	_	AUX	V	_	25	aux	_	SpaceAfter=No|Translit=këtetti|Morf=Unknown
 27	.	.	PUNCT	Y	_	26	punct	_	Translit=.
 
@@ -929,7 +929,7 @@
 14	ياش	ياش	NOUN	N	Case=Nom	15	amod	_	Translit=yash
 15	تۇمانلىرىنى	تۇمان	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	17	obj	_	Translit=tumanlirini
 16	بىرگە	بىرگە	ADV	M	_	17	advmod	_	Translit=birge
-17	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=körüp
+17	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
 18	ئۈلگۈرەتتى	_	AUX	V	_	17	aux	_	SpaceAfter=No|Translit=ülgüretti|Morf=Unknown
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
@@ -962,10 +962,10 @@
 25	-	-	PUNCT	Y	_	24	punct	_	Translit=-
 26	ئۇزاق	ئۇزاق	ADJ	A	Case=Nom	28	nmod	_	Translit=uzaq
 27	سۈكۈتكە	سۈكۈت	NOUN	N	Case=Dat	28	nmod	_	Translit=sükütke
-28	چۆمۈپ	چۆم	VERB	N	Aspect=Perf|VerbForm=Cov	22	conj	_	Translit=chömüp
+28	چۆمۈپ	چۆم	VERB	N	Aspect=Perf|VerbForm=Inf	22	conj	_	Translit=chömüp
 29	نېمىلەرنىدۇر	_	PRON	P	_	31	nsubj	_	Translit=nëmilernidur|Morf=Unknown
 30	خىيال	خىيال	NOUN	N	Case=Nom	31	compound	_	Translit=xiyal
-31	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=qilip
+31	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qilip
 32	كېتەتتىڭ	_	AUX	V	_	31	aux	_	SpaceAfter=No|Translit=këtetting|Morf=Unknown
 33	.	.	PUNCT	Y	_	32	punct	_	Translit=.
 
@@ -1026,7 +1026,7 @@
 14	ھالدا	ھال	NOUN	N	Case=Loc	13	case	_	Translit=halda
 15	كۆزلىرىمنى	_	NOUN	N	_	16	obj	_	Translit=közlirimni|Morf=Unknown
 16	چىمىلداتقىنىمچە	_	VERB	V	_	17	advcl	_	Translit=chimildatqinimche|Morf=Unknown
-17	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=turup
+17	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=turup
 18	قالاتتىم	_	AUX	V	_	17	aux	_	SpaceAfter=No|Translit=qalattim|Morf=Unknown
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
@@ -1135,7 +1135,7 @@
 9	مۇنبەت	مۇنبەت	ADJ	A	_	10	amod	_	Translit=munbet
 10	تۇپراق	تۇپراق	NOUN	N	Case=Nom	11	nmod:poss	_	Translit=tupraq
 11	باغرىغا	_	NOUN	N	_	12	obl	_	Translit=baghrigha|Morf=Unknown
-12	سىڭدۈرۈپ	سىڭدۈر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=singdürüp
+12	سىڭدۈرۈپ	سىڭدۈر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=singdürüp
 13	تاشلايتتىڭ	_	AUX	V	_	12	aux	_	SpaceAfter=No|Translit=tashlaytting|Morf=Unknown
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -1198,7 +1198,7 @@
 10	ئاشلىق	ئاشلىق	NOUN	N	Case=Nom	11	nsubj	_	Translit=ashliq
 11	بېسىلغان	_	VERB	V	_	12	acl	_	Translit=bësilghan|Morf=Unknown
 12	ئامباردەك	_	NOUN	N	_	13	advmod	_	Translit=ambardek|Morf=Unknown
-13	توشۇپ	توشۇ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=toshup
+13	توشۇپ	توشۇ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=toshup
 14	كېتەتتى	_	AUX	V	_	13	aux	_	SpaceAfter=No|Translit=këtetti|Morf=Unknown
 15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
 
@@ -1210,7 +1210,7 @@
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	Translit=sen
 6	تاياق	تاياق	NOUN	N	Case=Nom	7	obj	_	Translit=tayaq
-7	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=yep
+7	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yep
 8	باققانمۇ	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No|Translit=baqqanmu
 9	؟	؟	PUNCT	Y	_	8	punct	_	Translit=?
 
@@ -1270,7 +1270,7 @@
 31	بىر	بىر	NUM	M	_	32	nummod	_	Translit=bir
 32	يەرگە	يەر	NOUN	N	Case=Dat	34	obl	_	Translit=yerge
 33	ئىپادىسىزلا	_	VERB	V	_	34	advmod	_	Translit=ipadisizla|Morf=Unknown
-34	تىكىلىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Cov|Voice=Pass	0	root	_	Translit=tikilip
+34	تىكىلىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	Translit=tikilip
 35	قالغانىدى	_	AUX	V	_	34	aux	_	SpaceAfter=No|Translit=qalghanidi|Morf=Unknown
 36	.	.	PUNCT	Y	_	35	punct	_	Translit=.
 
@@ -1473,7 +1473,7 @@
 7	ئاۋاز	ئاۋاز	NOUN	N	Case=Nom	10	nsubj	_	Translit=awaz
 8	ئۆزۈمگە	ئۆز	PRON	P	Case=Dat|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	10	obl	_	Translit=özümge
 9	ئېنىقلا	_	VERB	V	_	10	advmod	_	Translit=ëniqla|Morf=Unknown
-10	ئاڭلىنىپ	ئاڭلى	VERB	V	Aspect=Perf|VerbForm=Cov|Voice=Pass	0	root	_	Translit=anglinip
+10	ئاڭلىنىپ	ئاڭلى	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	Translit=anglinip
 11	تۇراتتى	_	AUX	V	_	10	aux	_	SpaceAfter=No|Translit=turatti|Morf=Unknown
 12	.	.	PUNCT	Y	_	11	punct	_	Translit=.
 
@@ -1485,7 +1485,7 @@
 4	شىلدىرلىغان	شىلدىرلى	VERB	N	Case=Nom|Tense=Past|VerbForm=Ger	5	amod	_	Translit=shildirlighan
 5	ئاۋازى	_	NOUN	N	_	7	nsubj	_	Translit=awazi|Morf=Unknown
 6	ئۈزۈلمەي	ئۈزۈلمەي	ADV	V	_	7	advcl	_	Translit=üzülmey
-7	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=këlip
+7	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=këlip
 8	تۇراتتى	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=turatti|Morf=Unknown
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
@@ -1590,7 +1590,7 @@
 6	يۈرۈپ	يۈر	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=yürüp
 7	پىشقان	پىش	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	9	advmod	_	Translit=pishqan
 8	دېھقان	دېھقان	NOUN	N	Case=Nom	9	compound	_	Translit=dëhqan
-9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 10	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=ketti
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
@@ -1751,7 +1751,7 @@
 4	تېخىچە	تېخىچە	ADJ	D	Case=Nom	7	advmod	_	Translit=tëxiche
 5	سالتاڭ	سالتاڭ	NOUN	N	Case=Nom	7	obl	_	Translit=saltang
 6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	case	_	Translit=pëti
-7	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ötüp
+7	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ötüp
 8	كېتىۋاتىدۇ	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=këtiwatidu|Morf=Unknown
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
@@ -2044,7 +2044,7 @@
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
 5	ئوخشىمايدۇ	ئوخشى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No|Translit=oxshimaydu
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Cov	8	ccomp	_	Translit=dep
+7	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Inf	8	ccomp	_	Translit=dep
 8	قارىلىدۇ	قارى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=qarilidu
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
@@ -2220,7 +2220,7 @@
 8	ئۇسۇل	ئۇسۇل	NOUN	N	Case=Nom	11	csubj	_	Translit=usul
 9	ئەمدى	_	ADV	D	_	11	mark	_	Translit=emdi|Morf=Missing,1
 10	ئەسقاتمايدىغان	_	NOUN	N	_	11	compound	_	Translit=esqatmaydighan|Morf=Unknown
-11	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+11	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 12	قالىدۇ	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=qalidu|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -3444,7 +3444,7 @@
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	ئۆزۈڭ	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	8	nsubj	_	Translit=özüng
 7	سىناپ	_	VERB	V	_	8	compound	_	Translit=sinap|Morf=Unknown
-8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=körüp
+8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
 9	باقمامسەن	باق	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=baqmamsen
 10	!	!	PUNCT	Y	_	9	punct	_	Translit=!
 
@@ -3469,7 +3469,7 @@
 3	سېلىنغان	_	VERB	V	_	6	obl	_	Translit=sëlinghan|Morf=Unknown
 4	ھامان	ھامان	ADV	D	_	3	case	_	Translit=haman
 5	سۇ	سۇ	NOUN	N	Case=Nom	6	nsubj	_	Translit=su
-6	تېشىپ	تاش	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=tëship
+6	تېشىپ	تاش	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=tëship
 7	كىتىپتۇ	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=kitiptu|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
@@ -3478,7 +3478,7 @@
 1	بۇنى	_	PRON	P	_	2	obj	_	Translit=buni|Morf=Unknown
 2	كۆرگەن	كۆر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	3	acl	_	Translit=körgen
 3	ئىلىنا	_	NOUN	N	_	4	nsubj	_	Translit=ilina|Morf=Unknown
-4	چۆچۈپ	چۆچۈ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chöchüp
+4	چۆچۈپ	چۆچۈ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chöchüp
 5	كېتىپتۇ	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 6	:	:	PUNCT	Y	_	5	punct	_	Translit=:
 
@@ -3583,7 +3583,7 @@
 17	كېرەك	كېرەك	NOUN	A	Case=Nom	19	ccomp	_	SpaceAfter=No|Translit=kërek
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	دېگەننى	دې	VERB	V	Case=Acc|Tense=Past|VerbForm=Ger	20	obj	_	Translit=dëgenni
-20	بىلدۈرۈپ	بىلدۈر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bildürüp
+20	بىلدۈرۈپ	بىلدۈر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bildürüp
 21	قويماقچىمەن	_	AUX	V	_	20	aux	_	SpaceAfter=No|Translit=qoymaqchimen|Morf=Unknown
 22	.	.	PUNCT	Y	_	21	punct	_	Translit=.
 
@@ -3922,7 +3922,7 @@
 3	سىنىپقا	سىنىپ	NOUN	N	Case=Dat	4	obl	_	Translit=sinipqa
 4	باشلاپ	باشلاپ	NOUN	V	Case=Nom	5	advcl	_	Translit=bashlap
 5	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	Translit=kirip
-6	ئورۇنلاشتۇرۇپ	ئورۇنلاشتۇر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=orunlashturup
+6	ئورۇنلاشتۇرۇپ	ئورۇنلاشتۇر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=orunlashturup
 7	قويۇپتۇ	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=qoyuptu|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	SpaceAfter=No|Translit=.
 9	.	.	PUNCT	Y	_	7	punct	_	SpaceAfter=No|Translit=.
@@ -4045,7 +4045,7 @@
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	پەيتۇنلار	_	NOUN	N	_	1	conj	_	Translit=peytunlar|Morf=Unknown
 4	ئۇياقۇياققا	_	NOUN	N	_	5	advmod	_	Translit=uyaquyaqqa|Morf=Unknown
-5	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ötüp
+5	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ötüp
 6	تۇراتتى	_	AUX	V	_	5	aux	_	SpaceAfter=No|Translit=turatti|Morf=Unknown
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
@@ -4123,7 +4123,7 @@
 5	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	7	acl	_	Translit=turghan
 6	بىر	بىر	NUM	M	_	7	nummod	_	Translit=bir
 7	دوسكىنى	دوسكا	NOUN	N	Case=Acc	8	obj	_	Translit=doskini
-8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=körüp
+8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
 9	قالدى	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=qaldi
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
@@ -4372,7 +4372,7 @@
 2	:	:	PUNCT	Y	_	1	punct	_	Translit=:
 3	"	"	PUNCT	Y	_	1	punct	_	SpaceAfter=No|Translit="
 4	ئەنقانىمۇ	_	NOUN	N	_	5	obj	_	Translit=enqanimu|Morf=Unknown
-5	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	13	ccomp	_	Translit=körüp
+5	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	13	ccomp	_	Translit=körüp
 6	قويدۇم	_	AUX	V	_	5	aux	_	SpaceAfter=No|Translit=qoydum|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	قۇرۇق	قۇرۇق	ADJ	A	_	9	amod	_	Translit=quruq
@@ -4385,7 +4385,7 @@
 15	-	-	PUNCT	Y	_	14	punct	_	Translit=-
 16	دە	_	PART	T	_	14	mark	_	SpaceAfter=No|Translit=de|Morf=Missing,1
 17	،	،	PUNCT	Y	_	16	punct	_	Translit=,
-18	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Cov	14	conj	_	Translit=uchup
+18	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Inf	14	conj	_	Translit=uchup
 19	كېتىپتۇ	_	AUX	V	_	18	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 20	.	.	PUNCT	Y	_	19	punct	_	Translit=.
 
@@ -4432,7 +4432,7 @@
 20	،	،	PUNCT	Y	_	19	punct	_	Translit=,
 21	قاناتلىرىنى	قانات	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	22	obj	_	Translit=qanatlirini
 22	قېقىپ	قاق	VERB	V	Aspect=Perf|VerbForm=Conv	23	dep	_	Translit=qëqip
-23	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=uchup
+23	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=uchup
 24	كېتىپتۇ	_	AUX	V	_	23	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 25	.	.	PUNCT	Y	_	24	punct	_	Translit=.
 
@@ -4444,7 +4444,7 @@
 4	كەلگەن	كەل	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	Translit=kelgen
 5	چاۋارلارنى	_	NOUN	N	_	7	obj	_	Translit=chawarlarni|Morf=Unknown
 6	بىربىرلەپ	_	NOUN	N	_	7	advmod	_	Translit=birbirlep|Morf=Unknown
-7	تىزىپ	تىز	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	SpaceAfter=No|Translit=tizip
+7	تىزىپ	تىز	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	SpaceAfter=No|Translit=tizip
 8	.	.	PUNCT	Y	_	7	punct	_	SpaceAfter=No|Translit=.
 9	.	.	PUNCT	Y	_	7	punct	_	SpaceAfter=No|Translit=.
 10	.	.	PUNCT	Y	_	7	punct	_	Translit=.
@@ -4473,7 +4473,7 @@
 20	دە	_	PART	T	_	18	mark	_	SpaceAfter=No|Translit=de|Morf=Missing,1
 21	،	،	PUNCT	Y	_	20	punct	_	Translit=,
 22	قاقىلداپ	_	NOUN	N	_	23	advmod	_	Translit=qaqildap|Morf=Unknown
-23	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=uchup
+23	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=uchup
 24	كېتىپتۇ	_	AUX	V	_	23	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 25	.	.	PUNCT	Y	_	24	punct	_	Translit=.
 
@@ -4522,7 +4522,7 @@
 9	"	"	PUNCT	Y	_	8	punct	_	Translit="
 10	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	SpaceAfter=No|Translit=dep
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
-12	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=uchup
+12	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=uchup
 13	كېتىپتۇ	_	AUX	V	_	12	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -4754,7 +4754,7 @@
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	قۇلۇلە	قۇلۇلە	NOUN	N	Case=Nom	6	nsubj	_	Translit=qulule
 5	قاتتق	_	NOUN	N	_	6	advmod	_	Translit=qattq|Morf=Unknown
-6	مەغرۇرلىنىپ	مەغرۇرلان	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=meghrurlinip
+6	مەغرۇرلىنىپ	مەغرۇرلان	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=meghrurlinip
 7	كېتىپتۇ	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
@@ -5102,7 +5102,7 @@
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	چارە	چارە	NOUN	N	Case=Nom	4	nsubj	_	Translit=chare
 3	چاشقانلارغا	چاشقان	NOUN	N	Case=Dat|Number=Plur	4	obl	_	Translit=chashqanlargha
-4	يېقىپ	ياق	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=yëqip
+4	يېقىپ	ياق	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yëqip
 5	قاپتۇ	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=qaptu|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 
@@ -5311,7 +5311,7 @@
 3	بارغاندا	بار	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	6	obl	_	Translit=barghanda
 4	ئاپىڭىزغا	_	NOUN	N	_	5	obl	_	Translit=apingizgha|Morf=Unknown
 5	ئېيتىشنى	_	VERB	V	_	6	obj	_	Translit=ëytishni|Morf=Unknown
-6	ئۇنتۇپ	ئۇنتۇ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=untup
+6	ئۇنتۇپ	ئۇنتۇ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=untup
 7	قالماڭ	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=qalmang|Morf=Unknown
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 
@@ -5413,7 +5413,7 @@
 5	بەك	بەك	ADV	D	_	6	advmod	_	Translit=bek
 6	يۇقىرى	يۇقىرى	ADJ	A	Case=Nom	7	advmod	_	Translit=yuqiri
 7	چاغلىۋەتكەنلىكىنى	_	VERB	V	_	8	obj	_	Translit=chaghliwetkenlikini|Morf=Unknown
-8	تونۇپ	تونۇ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=tonup
+8	تونۇپ	تونۇ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=tonup
 9	يەتتى	يەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=yetti
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
@@ -5699,7 +5699,7 @@
 7	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 8	مەڭگە	مەڭ	NOUN	N	Case=Dat	10	advmod	_	Translit=mengge
 9	تۈنۈگۈن	تۈنۈگۈن	ADV	N	_	10	obl	_	Translit=tünügün
-10	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+10	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 11	قالىدۇ	_	AUX	V	_	10	aux	_	SpaceAfter=No|Translit=qalidu|Morf=Unknown
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
 
@@ -5867,7 +5867,7 @@
 8	قۇياشنىڭ	قۇياش	NOUN	N	Case=Gen	10	nsubj	_	Translit=quyashning
 9	مەڭگۈ	مەڭگۈ	ADJ	D	Case=Nom	10	advmod	_	Translit=menggü
 10	بولمايدىغانلىقىنى	_	VERB	V	_	4	conj	_	Translit=bolmaydighanliqini|Morf=Unknown
-11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chüshinip
+11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshinip
 12	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No|Translit=yettim
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -6110,7 +6110,7 @@
 12	تېز	تېز	NOUN	A	Case=Nom	13	advmod	_	Translit=tëz
 13	يۈگۈرگىلى	_	VERB	V	_	14	csubj	_	Translit=yügürgili|Morf=Unknown
 14	بولىدىغانلىقىنى	_	VERB	V	_	15	obj	_	Translit=bolidighanliqini|Morf=Unknown
-15	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chüshinip
+15	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshinip
 16	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|Translit=yettim
 17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
 
@@ -6181,7 +6181,7 @@
 5	ئەترىتىنىڭ	ئەترەت	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod:poss	_	Translit=etritining
 6	ئەزالىرى	_	NOUN	N	_	8	nsubj	_	Translit=ezaliri|Morf=Unknown
 7	يىغىن	يىغىن	NOUN	N	Case=Nom	8	obj	_	Translit=yighin
-8	ئېچىپ	ئاچ	VERB	V	Aspect=Perf|VerbForm=Cov	15	parataxis	_	SpaceAfter=No|Translit=ëchip
+8	ئېچىپ	ئاچ	VERB	V	Aspect=Perf|VerbForm=Inf	15	parataxis	_	SpaceAfter=No|Translit=ëchip
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	دۆلەت	دۆلەت	NOUN	N	Case=Nom	11	compound	_	Translit=dölet
 11	بايرىمىلىق	_	NOUN	N	_	14	amod	_	Translit=bayrimiliq|Morf=Unknown
@@ -6211,7 +6211,7 @@
 8	مۇھىم	مۇھىم	ADJ	A	_	9	amod	_	Translit=muhim
 9	ئىشىنىڭ	ئىش	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	Translit=ishining
 10	بارلىقى	بارلىق	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	csubj	_	Translit=barliqi
-11	بىلىنىپ	بىل	VERB	V	Aspect=Perf|VerbForm=Cov|Voice=Pass	0	root	_	Translit=bilinip
+11	بىلىنىپ	بىل	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	Translit=bilinip
 12	تۇراتتى	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=turatti|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -6269,7 +6269,7 @@
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
 8	بوۋاي	بوۋاي	NOUN	N	Case=Nom	10	obl	_	Translit=boway
 9	بىلەن	بىلەن	ADP	R	_	8	case	_	Translit=bilen
-10	پاراڭلىشىپ	پاراڭلاش	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=parangliship
+10	پاراڭلىشىپ	پاراڭلاش	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=parangliship
 11	تۇراتتى	_	AUX	V	_	10	aux	_	SpaceAfter=No|Translit=turatti|Morf=Unknown
 12	.	.	PUNCT	Y	_	11	punct	_	Translit=.
 
@@ -6330,7 +6330,7 @@
 19	،	،	PUNCT	Y	_	18	punct	_	Translit=,
 20	ئاندىن	ئان	NOUN	C	Case=Abl	22	advmod	_	Translit=andin
 21	دېسلوغا	_	NOUN	N	_	22	obl	_	Translit=dëslogha|Morf=Unknown
-22	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	SpaceAfter=No|Translit=qarap
+22	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	SpaceAfter=No|Translit=qarap
 23	،	،	PUNCT	Y	_	22	punct	_	Translit=,
 
 # sent_id = s1296
@@ -6426,7 +6426,7 @@
 5	ئاخىرى	ئاخىر	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	advmod	_	Translit=axiri
 6	داڭلىق	داڭلىق	ADJ	A	_	7	amod	_	Translit=dangliq
 7	رەسسام	رەسسام	NOUN	N	Case=Nom	8	obl	_	Translit=ressam
-8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 9	قالدى	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=qaldi
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
@@ -6458,7 +6458,7 @@
 1	-	-	PUNCT	Y	_	4	punct	_	Translit=-
 2	جېنىم	_	NOUN	N	_	4	obl	_	Translit=jënim|Morf=Unknown
 3	بىلەن	بىلەن	ADP	R	_	2	case	_	Translit=bilen
-4	يېزىپ	ياز	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=yëzip
+4	يېزىپ	ياز	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yëzip
 5	بېرەتتىم	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=bërettim|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 
@@ -6598,7 +6598,7 @@
 6	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Translit=uni
 7	دەررۇ	دەررۇ	ADV	D	_	9	advmod	_	Translit=derru
 8	يادىڭىزدىن	_	NOUN	N	_	9	obl	_	Translit=yadingizdin|Morf=Unknown
-9	چىقىرىپ	چىقار	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chiqirip
+9	چىقىرىپ	چىقار	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chiqirip
 10	تاشلاڭ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=tashlang|Morf=Unknown
 11	!	!	PUNCT	Y	_	10	punct	_	Translit=!
 
@@ -6975,7 +6975,7 @@
 # text = ئۇ قايتىپ كېلىپ، ئۆيىدىكىلەرگە: «بۇيىل قوناق تېرايلى» دەپتۇ.
 1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Translit=u
 2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=qaytip
-3	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Cov	12	parataxis	_	SpaceAfter=No|Translit=këlip
+3	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	12	parataxis	_	SpaceAfter=No|Translit=këlip
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	ئۆيىدىكىلەرگە	_	NOUN	N	_	12	obl	_	SpaceAfter=No|Translit=öyidikilerge|Morf=Unknown
 6	:	:	PUNCT	Y	_	12	punct	_	Translit=:
@@ -7202,7 +7202,7 @@
 11	ۋە	ۋە	CCONJ	C	_	14	cc	_	Translit=we
 12	ئۇزاق	ئۇزاق	ADJ	A	_	13	compound	_	Translit=uzaq
 13	ئۆتمەي	_	VERB	V	_	14	advmod	_	Translit=ötmey|Morf=Unknown
-14	ئۆلۈپ	ئۆل	VERB	V	Aspect=Perf|VerbForm=Cov	9	conj	_	Translit=ölüp
+14	ئۆلۈپ	ئۆل	VERB	V	Aspect=Perf|VerbForm=Inf	9	conj	_	Translit=ölüp
 15	كېتىپتۇ	_	AUX	V	_	14	aux	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
@@ -7227,7 +7227,7 @@
 2	تۇرمۇشتا	تۇرمۇش	NOUN	N	Case=Loc	5	obl	_	Translit=turmushta
 3	ھەرخىل	_	PRON	P	_	4	det	_	Translit=herxil|Morf=Unknown
 4	مەسىلىلەرگە	مەسىلە	NOUN	N	Case=Dat|Number=Plur	5	obl	_	Translit=mesililerge
-5	يولۇقۇپ	يولۇق	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=yoluqup
+5	يولۇقۇپ	يولۇق	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yoluqup
 6	تۇرىمىز	تۇر	AUX	V	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=turimiz
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
@@ -7343,7 +7343,7 @@
 13	ھەقتە	ھەق	NOUN	R	Case=Loc	16	obl	_	Translit=heqte
 14	خېلى	خال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	advmod	_	Translit=xëli
 15	ساۋاتلىق	ساۋاتلىق	ADJ	A	_	16	compound	_	Translit=sawatliq
-16	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+16	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 17	قالدىم	قال	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=qaldim
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
@@ -7885,7 +7885,7 @@
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	كېپىنەكلەر	كېپىنەك	NOUN	N	Case=Nom|Number=Plur	14	nsubj	_	Translit=këpinekler
 13	پىلدىرلاپ	_	NOUN	N	_	14	advmod	_	Translit=pildirlap|Morf=Unknown
-14	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Cov	4	conj	_	SpaceAfter=No|Translit=uchup
+14	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Inf	4	conj	_	SpaceAfter=No|Translit=uchup
 15	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 16	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	18	det	_	Translit=bu
 17	خوشال	_	ADJ	A	_	18	amod	_	Translit=xoshal|Morf=Unknown
@@ -8214,7 +8214,7 @@
 6	بويىچە	بويىچە	ADP	R	_	5	case	_	Translit=boyiche
 7	يىل	يىل	NOUN	N	Case=Nom	8	nmod:poss	_	Translit=yil
 8	ئىسمى	_	NOUN	N	_	9	compound	_	Translit=ismi|Morf=Unknown
-9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 10	قاپتۇ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=qaptu|Morf=Unknown
 11	:	:	PUNCT	Y	_	10	punct	_	Translit=:
 
@@ -8309,7 +8309,7 @@
 3	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Translit=ular
 4	قاراڭغۇدا	قاراڭغۇ	NOUN	A	Case=Loc	6	obl	_	Translit=qarangghuda
 5	يولدىن	يول	NOUN	N	Case=Abl	6	obl	_	Translit=yoldin
-6	ئېزىپ	ئەز	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ëzip
+6	ئېزىپ	ئەز	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ëzip
 7	قاپتۇ	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=qaptu|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
@@ -8488,7 +8488,7 @@
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	8	det	_	Translit=bu
 8	گۆشناننى	_	NOUN	N	_	9	obj	_	Translit=göshnanni|Morf=Unknown
-9	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Cov	13	ccomp	_	Translit=yep
+9	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Inf	13	ccomp	_	Translit=yep
 10	بولاتتۇق	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=bolattuq|Morf=Unknown
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	-	-	PUNCT	Y	_	10	punct	_	Translit=-
@@ -8525,7 +8525,7 @@
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	سۇنى	سۇ	NOUN	N	Case=Acc	6	obj	_	Translit=suni
 5	سىز	سىز	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	Translit=siz
-6	ئەكىلىپ	ئەكىلى	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ekilip
+6	ئەكىلىپ	ئەكىلى	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ekilip
 7	بېرىڭ	بېرى	NOUN	V	Case=Nom|Number[psor]=Sing|Person[psor]=2	6	aux	_	SpaceAfter=No|Translit=bëring
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
@@ -8658,7 +8658,7 @@
 1	قىزلار	قىز	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	Translit=qizlar
 2	دەريا	دەريا	NOUN	N	Case=Nom	3	nmod:poss	_	Translit=derya
 3	بويىغا	بوي	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	Translit=boyigha
-4	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=këlip
+4	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=këlip
 5	قاپتۇ	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=qaptu|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 
@@ -8698,7 +8698,7 @@
 6	بەش	بەش	NUM	M	_	7	nummod	_	Translit=besh
 7	قىزنى	قىز	NOUN	N	Case=Acc	9	obj	_	Translit=qizni
 8	دەريادىن	_	NOUN	N	_	9	obl	_	Translit=deryadin|Morf=Unknown
-9	ئۆتكۈزۈپ	ئۆتكۈز	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ötküzüp
+9	ئۆتكۈزۈپ	ئۆتكۈز	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ötküzüp
 10	قويسىڭىز	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=qoysingiz|Morf=Unknown
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 
@@ -9463,7 +9463,7 @@
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	شۇنداقلا	شۇنداقلا	ADV	C	_	9	cc	_	Translit=shundaqla
 7	ئەمدىلا	ئەمدىلا	ADJ	D	Case=Nom	8	advmod	_	Translit=emdila
-8	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Cov	9	acl	_	Translit=ötüp
+8	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Inf	9	acl	_	Translit=ötüp
 9	تۈنۈگۈن	تۈنۈگۈن	ADV	N	_	4	conj	_	SpaceAfter=No|Translit=tünügün
 10	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
@@ -9688,7 +9688,7 @@
 3	گۈزەل	گۈزەل	ADJ	A	_	4	amod	_	Translit=güzel
 4	دۇنياغا	_	NOUN	N	_	6	obl	_	Translit=dunyagha|Morf=Unknown
 5	باشلاپ	باشلاپ	NOUN	V	Case=Nom	6	advcl	_	Translit=bashlap
-6	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Cov	12	parataxis	_	SpaceAfter=No|Translit=kirip
+6	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Inf	12	parataxis	_	SpaceAfter=No|Translit=kirip
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	دۇنيادىكى	_	NOUN	N	_	11	nmod	_	Translit=dunyadiki|Morf=Unknown
 9	ئەڭ	ئەڭ	PRON	D	Case=Nom	10	advmod	_	Translit=eng
@@ -9813,7 +9813,7 @@
 18	ئاپتوبۇسلارغا	ئاپتوبۇس	NOUN	N	Case=Dat|Number=Plur	16	conj	_	Translit=aptobuslargha
 19	سۈكۈت	سۈكۈت	NOUN	N	Case=Nom	21	obl	_	Translit=süküt
 20	ئىچىدە	ئىچ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	19	case	_	Translit=ichide
-21	تىكىلىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Cov|Voice=Pass	0	root	_	Translit=tikilip
+21	تىكىلىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	Translit=tikilip
 22	تۇرۇشىدۇ	_	AUX	V	_	21	aux	_	SpaceAfter=No|Translit=turushidu|Morf=Unknown
 23	.	.	PUNCT	Y	_	22	punct	_	Translit=.
 
@@ -9861,7 +9861,7 @@
 # text = بىرلىرى بېشنى ساڭگىلىتىپ، كۆزلىرىنى يۇمۇپ، ھەسىرەت ئىچىدە ئۆرە تۇرغان قېرى بوۋايغا ئوخشىسا، گاھى بىرلىرى بېشىغا ئوتۇغان تاقىغان، ئۇچىسىغا ئالتۇن ھەللىك ئۇزۇن كۆڭلەك كىيگەن خانىشقا، يەنە بىرلىرى يوغان گۈرزە تۇتۇۋالغان زەبەردەس پالۋانلارغا ئوخشايدۇ.
 1	بىرلىرى	بىرلەر	NOUN	M	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nsubj	_	Translit=birliri
 2	بېشنى	_	NOUN	N	_	3	obj	_	Translit=bëshni|Morf=Unknown
-3	ساڭگىلىتىپ	ساڭگىلات	VERB	V	Aspect=Perf|VerbForm=Cov	13	acl	_	SpaceAfter=No|Translit=sanggilitip
+3	ساڭگىلىتىپ	ساڭگىلات	VERB	V	Aspect=Perf|VerbForm=Inf	13	acl	_	SpaceAfter=No|Translit=sanggilitip
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	كۆزلىرىنى	كۆز	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	Translit=közlirini
 6	يۇمۇپ	_	VERB	V	_	3	conj	_	SpaceAfter=No|Translit=yumup|Morf=Unknown
@@ -9951,7 +9951,7 @@
 11	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	12	acl	_	Translit=turghan
 12	يېرىدە	يار	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	Translit=yëride
 13	تاشقا	تا	VERB	N	Case=Dat|VerbForm=Ger	14	obl	_	Translit=tashqa
-14	ئايلىنىپ	ئايلان	VERB	V	Aspect=Perf|VerbForm=Cov	29	parataxis	_	Translit=aylinip
+14	ئايلىنىپ	ئايلان	VERB	V	Aspect=Perf|VerbForm=Inf	29	parataxis	_	Translit=aylinip
 15	كەتكەندەك	_	AUX	V	_	14	aux	_	SpaceAfter=No|Translit=ketkendek|Morf=Unknown
 16	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 17	ئاخىر	ئاخىر	NOUN	D	Case=Nom	19	amod	_	Translit=axir
@@ -10348,7 +10348,7 @@
 8	چۈشۈپ	چۈش	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=chüshüp
 9	بېلىقلارغا	_	NOUN	N	_	11	obl	_	Translit=bëliqlargha|Morf=Unknown
 10	يەم	يەم	NOUN	N	Case=Nom	11	compound	_	Translit=yem
-11	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+11	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 12	كېتەتتى	_	AUX	V	_	11	aux	_	SpaceAfter=No|Translit=këtetti|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -10745,7 +10745,7 @@
 9	–	–	PUNCT	N	_	8	punct	_	Translit=–
 10	پەرياد	پەرياد	NOUN	N	Case=Nom	11	amod	_	Translit=peryad
 11	ئاۋازلىرىنى	ئاۋاز	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	Translit=awazlirini
-12	بېسىپ	باس	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bësip
+12	بېسىپ	باس	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bësip
 13	چۈشتى	چۈش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=chüshti
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -10791,7 +10791,7 @@
 # text = - سۇ كىرىپ كەتتى.
 1	-	-	PUNCT	Y	_	3	punct	_	Translit=-
 2	سۇ	سۇ	NOUN	N	Case=Nom	3	nsubj	_	Translit=su
-3	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=kirip
+3	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=kirip
 4	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No|Translit=ketti
 5	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
@@ -10894,7 +10894,7 @@
 # text = ھەممە ئادەم جىمىپ قالدى.
 1	ھەممە	ھەممە	DET	P	_	2	det	_	Translit=hemme
 2	ئادەم	ئادەم	NOUN	N	Case=Nom	3	nsubj	_	Translit=adem
-3	جىمىپ	جىمى	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=jimip
+3	جىمىپ	جىمى	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=jimip
 4	قالدى	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No|Translit=qaldi
 5	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
@@ -10919,7 +10919,7 @@
 6	ھۆكۈمرانلىق	ھۆكۈمرانلىق	NOUN	N	Case=Nom	7	compound	_	Translit=hökümranliq
 7	قىلىۋاتقاندەك	_	VERB	V	_	8	acl	_	Translit=qiliwatqandek|Morf=Unknown
 8	ھېسسىياتقا	ھېسسىيات	NOUN	N	Case=Dat	9	obl	_	Translit=hëssiyatqa
-9	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=këlip
+9	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=këlip
 10	قالغانىدى	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=qalghanidi|Morf=Unknown
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
@@ -11087,7 +11087,7 @@
 # text = - كلېيمىننى قۇتقۇزۇپ چىقىڭلار!
 1	-	-	PUNCT	Y	_	3	punct	_	Translit=-
 2	كلېيمىننى	_	NOUN	N	_	3	obj	_	Translit=klëyminni|Morf=Unknown
-3	قۇتقۇزۇپ	قۇتقۇز	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=qutquzup
+3	قۇتقۇزۇپ	قۇتقۇز	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qutquzup
 4	چىقىڭلار	_	AUX	V	_	3	aux	_	SpaceAfter=No|Translit=chiqinglar|Morf=Unknown
 5	!	!	PUNCT	Y	_	4	punct	_	Translit=!
 
@@ -11242,7 +11242,7 @@
 15	قوينىغا	_	NOUN	N	_	17	obl	_	Translit=qoynigha|Morf=Unknown
 16	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Conv	17	compound:lvc	_	Translit=kirip
 17	كەتكىنىگە	_	VERB	V	_	18	obl	_	Translit=ketkinige|Morf=Unknown
-18	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=qarap
+18	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qarap
 19	تۇردى	تۇر	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No|Translit=turdi
 20	.	.	PUNCT	Y	_	19	punct	_	Translit=.
 
@@ -11275,12 +11275,12 @@
 4	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	5	det	_	Translit=öz
 5	خىزمىتىگە	_	NOUN	N	_	7	obl	_	Translit=xizmitige|Morf=Unknown
 6	سادىق	سادىق	ADJ	A	_	7	compound	_	Translit=sadiq
-7	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	SpaceAfter=No|Translit=bolup
+7	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	SpaceAfter=No|Translit=bolup
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 9	ئادىمىيلىك	_	NOUN	N	_	10	amod	_	Translit=adimiylik|Morf=Unknown
 10	بۇرچىنى	بۇرچ	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	Translit=burchini
 11	ئادا	ئادا	NOUN	N	Case=Nom	12	compound	_	Translit=ada
-12	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Cov	7	conj	_	Translit=qilip
+12	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	7	conj	_	Translit=qilip
 13	كەلگەنىدى	_	AUX	V	_	12	aux	_	SpaceAfter=No|Translit=kelgenidi|Morf=Unknown
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
@@ -11399,7 +11399,7 @@
 14	قويۇپ	_	AUX	V	_	13	aux	_	Translit=qoyup|Morf=Unknown
 15	مېھمانخانىغا	مېھمانخانا	NOUN	N	Case=Dat	16	obl	_	Translit=mëhmanxanigha
 16	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	Translit=kirip
-17	يېتىپ	يات	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=yëtip
+17	يېتىپ	يات	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yëtip
 18	قالدى	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=qaldi
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
@@ -11533,7 +11533,7 @@
 # sent_id = s1673
 # text = ساياھەتچى چۆچۈپ كەتتى ۋە ۋارقىراپ كەتتى:
 1	ساياھەتچى	ساياھەتچى	NOUN	N	Case=Nom	2	nsubj	_	Translit=sayahetchi
-2	چۆچۈپ	چۆچۈ	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chöchüp
+2	چۆچۈپ	چۆچۈ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chöchüp
 3	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	Translit=ketti
 4	ۋە	ۋە	CCONJ	C	_	5	cc	_	Translit=we
 5	ۋارقىراپ	_	VERB	V	_	2	conj	_	Translit=warqirap|Morf=Unknown
@@ -11654,7 +11654,7 @@
 13	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Translit=uni
 14	ھېچكىم	ھېچكىم	PRON	P	Case=Nom	16	nsubj	_	Translit=hëchkim
 15	خىيالىغا	_	NOUN	N	_	16	obl	_	Translit=xiyaligha|Morf=Unknown
-16	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=keltürüp
+16	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=keltürüp
 17	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=baqmighan
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
@@ -12076,7 +12076,7 @@
 3	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	6	advmod	_	Translit=bir
 4	پەس	_	ADJ	A	_	3	fixed	_	Translit=pes|Morf=Missing,1
 5	تىكىلىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Conv|Voice=Pass	6	advcl	_	Translit=tikilip
-6	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=qarap
+6	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qarap
 7	قالدىم	قال	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	Translit=qaldim
 8	ھەمدە	_	CCONJ	C	_	10	cc	_	Translit=hemde|Morf=Missing,2
 9	تەشۋىشلىنىشكە	تەشۋىشلەن	VERB	N	Case=Dat|VerbForm=Ger	10	obl	_	Translit=teshwishlinishke
@@ -12111,7 +12111,7 @@
 10	قۇتقۇزۇپ	قۇتقۇز	VERB	V	Aspect=Perf|VerbForm=Conv	11	compound	_	Translit=qutquzup
 11	قالالمايدىغانلىقىنى	_	VERB	V	_	13	obj	_	Translit=qalalmaydighanliqini|Morf=Unknown
 12	ھېس	ھېس	NOUN	N	Case=Nom	13	compound	_	Translit=hës
-13	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=qilip
+13	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qilip
 14	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No|Translit=yettim
 15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
 
@@ -12121,7 +12121,7 @@
 2	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Translit=uning
 3	كۆزلىرىگە	_	NOUN	N	_	4	obl	_	Translit=közlirige|Morf=Unknown
 4	تىكىپ	تىك	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	Translit=tikip
-5	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=turup
+5	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=turup
 6	قالدىم	قال	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=qaldim
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
@@ -12191,7 +12191,7 @@
 6	دەمسىز	دە	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No|Translit=demsiz
 7	؟	؟	PUNCT	Y	_	6	punct	_	Translit=?
 8	ئۆزىڭىز	ئۆزىڭىز	PRON	P	Case=Nom	9	nsubj	_	Translit=özingiz
-9	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Cov	15	parataxis	_	Translit=dep
+9	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Inf	15	parataxis	_	Translit=dep
 10	بېقىڭ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=bëqing|Morf=Unknown
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	مانا	_	PRON	P	_	15	mark	_	Translit=mana|Morf=Missing,1
@@ -12205,7 +12205,7 @@
 1	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 2	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 3	مەنغۇ	_	NOUN	N	_	4	nsubj	_	Translit=menghu|Morf=Unknown
-4	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Cov	7	ccomp	_	Translit=körüp
+4	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	7	ccomp	_	Translit=körüp
 5	تۇرۇۋاتىمەن	_	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=turuwatimen|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=dëdi
@@ -12300,7 +12300,7 @@
 16	دە	_	PART	T	_	14	dep	_	Translit=de|Morf=Missing,1
 17	&gt;	_	X	Y	_	14	dep	_	Translit=&gt;|Morf=Unknown
 18	&gt;	_	X	Y	_	14	dep	_	Translit=&gt;|Morf=Unknown
-19	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=dep
+19	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=dep
 20	قويدى	_	AUX	V	_	19	aux	_	SpaceAfter=No|Translit=qoydi|Morf=Unknown
 21	.	.	PUNCT	Y	_	20	punct	_	Translit=.
 
@@ -12558,7 +12558,7 @@
 3	سەبىي	سەبىي	NOUN	A	Case=Nom	4	amod	_	Translit=sebiy
 4	ئارزۇلىرى	ئارزۇ	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	Translit=arzuliri
 5	بويىچە	بويىچە	ADP	R	_	4	case	_	Translit=boyiche
-6	ئايرىلىپ	ئايرىل	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=ayrilip
+6	ئايرىلىپ	ئايرىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ayrilip
 7	كېتىشتى	_	AUX	V	_	6	aux	_	SpaceAfter=No|Translit=këtishti|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
@@ -12806,7 +12806,7 @@
 5	تەرتىپ	تەرتىپ	NOUN	N	Case=Nom	8	obl	_	Translit=tertip
 6	بويىچەيىل	_	NOUN	N	_	5	case	_	Translit=boyicheyil|Morf=Unknown
 7	ئىسمى	_	NOUN	N	_	8	compound	_	Translit=ismi|Morf=Unknown
-8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=bolup
+8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 9	قاپتۇ	_	AUX	V	_	8	aux	_	SpaceAfter=No|Translit=qaptu|Morf=Unknown
 10	:	:	PUNCT	Y	_	9	punct	_	Translit=:
 11	ئۇي	_	NOUN	N	_	15	nmod	_	Translit=uy|Morf=Unknown
@@ -13175,7 +13175,7 @@
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	شۇڭا	شۇڭا	ADV	C	_	12	cc	_	Translit=shunga
 11	ئورنىدىن	_	NOUN	N	_	12	obl	_	Translit=ornidin|Morf=Unknown
-12	چۈشۈپ	چۈش	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chüshüp
+12	چۈشۈپ	چۈش	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshüp
 13	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=ketti
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
