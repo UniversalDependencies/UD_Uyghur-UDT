@@ -33,7 +33,8 @@
     <tag name="X">66</tag><!-- _, advcl, case -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="39">
+    <feat name="Aspect" value="Hab" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1540</feat><!-- دەپ, بولۇپ, قىلىپ, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, كۆرۈپ, بېرىپ, قايتىپ -->
     <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">524</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
     <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
@@ -64,8 +65,8 @@
     <feat name="PronType" value="Int" upos="ADV,DET">82</feat><!-- قانداق, قايسى, نېمىشقا, نەدە -->
     <feat name="PronType" value="Prs" upos="PRON">1358</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, ئۇلار, ئۇنى, بىز, ئۇنىڭغا, ئۇلارنىڭ, ماڭا -->
     <feat name="Reflex" value="Yes" upos="PRON">147</feat><!-- ئۆز, ئۆزىنى, ئۆزىنىڭ, ئۆزى, ئۆزۈم, ئۆزۈمنى, ئۆزۈمنىڭ, ئۆزۈڭ, ئۆزىمۇ, ئۆزۈمدىن -->
-    <feat name="Tense" value="Aor" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1737</feat><!-- ئىدى, دېدى, كەتتى, بولغان, بولدى, دېگەن, تۇرغان, قالدى, كەلدى, كەتكەن -->
+    <feat name="Tense" value="Pres" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">1456</feat><!-- دەپ, بولۇپ, قىلىپ, بولسا, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, بېرىپ, قايتىپ -->
     <feat name="VerbForm" value="Cov" upos="VERB">343</feat><!-- بولۇپ, قاراپ, قىلىپ, كۆرۈپ, كىرىپ, چىقىپ, كېلىپ, ئۆتۈپ, دەپ, ئۇچۇپ -->
     <feat name="VerbForm" value="Fin" upos="AUX,PART,VERB">1656</feat><!-- ئىدى, دېدى, كەتتى, بار, بولدى, قالدى, كەلدى, بولىدۇ, باشلىدى, بولغان -->
