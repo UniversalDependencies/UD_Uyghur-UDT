@@ -1770,7 +1770,7 @@
 # sent_id = s1917
 # text = قىزىمىزنىڭ مېھرىدىن كەچكىنىمىز كەچكەن، دېيىشكەنىدۇق.
 1	قىزىمىزنىڭ	_	NOUN	N	_	2	nmod:poss	_	Translit=qizimizning|Morf=Unknown
-2	مېھرىدىن	مېھر	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:abl	_	Translit=mëhridin
+2	مېھرىدىن	مېھر	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod	_	Translit=mëhridin
 3	كەچكىنىمىز	_	NOUN	N	_	4	compound	_	Translit=kechkinimiz|Morf=Unknown
 4	كەچكەن	كەچ	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|Translit=kechken
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
@@ -5693,7 +5693,7 @@
 13	شۇنى	_	PRON	P	_	14	obj	_	Translit=shuni|Morf=Unknown
 14	جاكارلايمەنكى	_	VERB	V	_	21	parataxis	_	SpaceAfter=No|Translit=jakarlaymenki|Morf=Unknown
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
-16	بۈگۈندىن	_	NOUN	N	_	17	nmod:abl	_	Translit=bügündin|Morf=Unknown
+16	بۈگۈندىن	_	NOUN	N	Case=Abl	17	nmod	_	Translit=bügündin|Morf=Unknown
 17	باشلاپ	باشلاپ	NOUN	V	Case=Nom	21	advmod	_	SpaceAfter=No|Translit=bashlap
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	مايمۇن	مايمۇن	NOUN	N	Case=Nom	21	nsubj	_	Translit=maymun
@@ -7781,7 +7781,7 @@
 12	ئۆزىنىڭ	ئۆز	PRON	P	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	20	nsubj	_	Translit=özining
 13	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	15	det	_	Translit=bu
 14	ئېسىل	ئېسىل	NOUN	A	Case=Nom	15	amod	_	Translit=ësil
-15	رەڭ	رەڭ	NOUN	N	Case=Nom	20	nmod:abl	_	Translit=reng
+15	رەڭ	رەڭ	NOUN	N	Case=Abl	20	nmod	_	Translit=reng
 16	ۋە	ۋە	CCONJ	C	_	18	cc	_	Translit=we
 17	شوخ	شوخ	ADJ	A	_	18	amod	_	Translit=shox
 18	گۈللەردىن	گۈل	NOUN	N	Case=Abl|Number=Plur	15	conj	_	Translit=güllerdin
@@ -10758,7 +10758,7 @@
 9	تۇرىدىغان	_	VERB	V	_	12	acl	_	Translit=turidighan|Morf=Unknown
 10	قاپقارا	قاپقارا	NOUN	A	Case=Nom	12	amod	_	Translit=qapqara
 11	قوي	قوي	NOUN	N	Case=Nom	12	amod	_	Translit=qoy
-12	كۆزلىرى	كۆز	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	26	nmod:abl	_	Translit=közliri
+12	كۆزلىرى	كۆز	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	26	nmod	_	Translit=közliri
 13	ۋە	ۋە	CCONJ	C	_	16	cc	_	Translit=we
 14	خۇشخۇيلۇق	_	NOUN	N	_	15	nsubj	_	Translit=xushxuyluq|Morf=Unknown
 15	كەتمەيدىغان	_	NOUN	N	_	16	amod	_	Translit=ketmeydighan|Morf=Unknown
@@ -11623,7 +11623,7 @@
 
 # sent_id = s2575
 # text = سۆزۈمدىن بوۋاي خۇشال بولدى بولغاي، تاتىراڭغۇ چىرايى نۇر يۈگۈرگەندەك چاقناپ كەتتى.
-1	سۆزۈمدىن	_	ADJ	A	_	4	nmod:abl	_	Translit=sözümdin|Morf=Missing,1
+1	سۆزۈمدىن	_	ADJ	A	Case=Abl	4	nmod	_	Translit=sözümdin|Morf=Missing,1
 2	بوۋاي	بوۋاي	NOUN	N	Case=Nom	4	nsubj	_	Translit=boway
 3	خۇشال	خۇشال	ADJ	A	_	4	compound	_	Translit=xushal
 4	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	Translit=boldi
@@ -12067,7 +12067,7 @@
 3	كۆزلىرىدىن	كۆز	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	Translit=közliridin
 4	ئېقىۋاتقان	_	VERB	V	_	6	acl	_	Translit=ëqiwatqan|Morf=Unknown
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
-6	ياشلاردىن	ياش	NOUN	N	Case=Abl|Number=Plur	10	nmod:abl	_	Translit=yashlardin
+6	ياشلاردىن	ياش	NOUN	N	Case=Abl|Number=Plur	10	nmod	_	Translit=yashlardin
 7	بىر	بىر	NUM	M	_	9	nummod	_	Translit=bir
 8	چىن	چىن	NOUN	A	Case=Nom	9	amod	_	Translit=chin
 9	يۈرەكنى	يۈرەك	NOUN	N	Case=Acc	10	obj	_	Translit=yürekni
@@ -15886,7 +15886,7 @@
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	تەرەپ	تەرەپ	NOUN	N	Case=Nom	6	compound:redup	_	Translit=terep
 5	–	–	PUNCT	N	_	4	punct	_	Translit=–
-6	تەرەپتىن	تەرەپ	NOUN	N	Case=Abl	13	nmod:abl	_	Translit=tereptin
+6	تەرەپتىن	تەرەپ	NOUN	N	Case=Abl	13	nmod	_	Translit=tereptin
 7	ئوغلاق	ئوغلاق	NOUN	N	Case=Nom	11	ccomp	_	SpaceAfter=No|Translit=oghlaq
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 9	ئوغلاق	ئوغلاق	NOUN	N	Case=Nom	7	conj	_	SpaceAfter=No|Translit=oghlaq
@@ -17101,7 +17101,7 @@
 
 # sent_id = s2912
 # text = كۆزلىرىدىن ئىسسىق ياش قۇيۇلدى.
-1	كۆزلىرىدىن	كۆز	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:abl	_	Translit=közliridin
+1	كۆزلىرىدىن	كۆز	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod	_	Translit=közliridin
 2	ئىسسىق	ئىسسىق	ADJ	A	_	3	amod	_	Translit=issiq
 3	ياش	ياش	NOUN	N	Case=Nom	4	nsubj	_	Translit=yash
 4	قۇيۇلدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=quyuldi|Morf=Unknown
@@ -23457,7 +23457,7 @@
 10	كۆپ	كۆپ	ADJ	A	Case=Nom	12	advmod	_	Translit=köp
 11	چىقىپ	چىق	VERB	V	Aspect=Perf|VerbForm=Conv	12	compound:lvc	_	Translit=chiqip
 12	كېتىش	كەت	VERB	V	Case=Nom|VerbForm=Ger	7	conj	_	Translit=këtish
-13	سەۋەبىدىن	_	NOUN	N	_	15	nmod:abl	_	Translit=sewebidin|Morf=Unknown
+13	سەۋەبىدىن	_	NOUN	N	Case=Abl	15	nmod	_	Translit=sewebidin|Morf=Unknown
 14	ئۆلۈپ	ئۆل	VERB	V	Aspect=Perf|VerbForm=Conv	15	compound:lvc	_	Translit=ölüp
 15	كېتىشى	كەت	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	16	nmod	_	Translit=këtishi
 16	ئېھتىمالى	_	NOUN	N	_	17	nsubj	_	Translit=ëhtimali|Morf=Unknown

@@ -36,12 +36,12 @@
   <feats unique="39">
     <feat name="Aspect" value="Hab" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1540</feat><!-- دەپ, بولۇپ, قىلىپ, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, كۆرۈپ, بېرىپ, قايتىپ -->
-    <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">524</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
+    <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">535</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
     <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
     <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">995</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">792</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10021</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10018</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
     <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- نەزىرىدە -->
     <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">259</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, بولمىسا, بولسىڭىز, تۇرسا, قالسا, قارىسام, بولساڭ -->
@@ -75,7 +75,7 @@
     <feat name="Voice" value="Pass" upos="VERB">60</feat><!-- بىلىنىپ, قىلىنغان, ھېسابلىنىدۇ, ئاڭلىنىپ, تىكىلىپ, بىلىنىدۇ, چايقىلىپ, بىلىندى, تاشلىنىپ, قىلىندى -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="48">
+  <deps unique="47">
     <dep name="acl">742</dep>
     <dep name="advcl">1521</dep>
     <dep name="advcl:cond">20</dep>
@@ -103,8 +103,7 @@
     <dep name="flat">54</dep>
     <dep name="goeswith">1</dep>
     <dep name="mark">206</dep>
-    <dep name="nmod">1313</dep>
-    <dep name="nmod:abl">25</dep>
+    <dep name="nmod">1338</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:ins">2</dep>

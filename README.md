@@ -17,6 +17,7 @@ middle school, including stories, records and reports.
     tentatively replaced with Aspect=Hab|Tense=Pres.
   * Undocumented Cov(erb) is probably better represented as Inf, see https://github.com/UniversalDependencies/docs/issues/747
   * Undocumented nmod:clas changed to compound.
+  * Undocumented nmod:abl changed to nmod (the ablative can be recognized by Case=Abl).
 * 2018-04-15 v2.2
   * Repository renamed from UD_Uyghur to UD_Uyghur-UDT.
   * Added new manually checked data (Marhaba Eli); dev cut at 900 sentences, additional 1656 sentences go to train.
