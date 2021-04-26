@@ -289,7 +289,7 @@
 # sent_id = s1823
 # text = بىر كۈنى، قەيسەر دادىسى بىلەن تاغقا چىقتى.
 1	بىر	بىر	NUM	M	_	2	nummod	_	Translit=bir
-2	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	advmod:tmod	_	SpaceAfter=No|Translit=küni
+2	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	obl:tmod	_	SpaceAfter=No|Translit=küni
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	قەيسەر	قەيسەر	NOUN	A	Case=Nom	8	nsubj	_	Translit=qeyser
 5	دادىسى	دادا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	Translit=dadisi
@@ -15574,7 +15574,7 @@
 # sent_id = s2805
 # text = بىر كۈنى، توغرۇل بىر گۈلتاج ياساپ كۈنتۇغدىنڭ بېشىغا كىيگۈزۈپ قويۇپتۇ.
 1	بىر	بىر	NUM	M	_	2	nummod	_	Translit=bir
-2	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	advmod:tmod	_	SpaceAfter=No|Translit=küni
+2	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl:tmod	_	SpaceAfter=No|Translit=küni
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	توغرۇل	_	NOUN	N	_	10	nsubj	_	Translit=toghrul|Morf=Unknown
 5	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
@@ -16589,7 +16589,7 @@
 # text = 1840 - يىلى، ئەنگىلىيە پوچتا ماركىسىنى تۇجى قېتىم رەسمىي تارقاتقان.
 1	1840	1840	NUM	M	NumType=Ord	3	nummod	_	Translit=1840
 2	-	-	PUNCT	Y	_	1	punct	_	Translit=-
-3	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	advmod:tmod	_	SpaceAfter=No|Translit=yili
+3	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	obl:tmod	_	SpaceAfter=No|Translit=yili
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	ئەنگىلىيە	_	NOUN	N	_	11	nsubj	_	Translit=engiliye|Morf=Unknown
 6	پوچتا	پوچتا	NOUN	N	Case=Nom	7	nmod	_	Translit=pochta
@@ -23372,7 +23372,7 @@
 2	مەزگىلىدە	مەزگىل	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	SpaceAfter=No|Translit=mezgilide
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	بىر	بىر	NUM	M	_	5	nummod	_	Translit=bir
-5	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	advmod:tmod	_	Translit=küni
+5	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obl:tmod	_	Translit=küni
 6	بىر-نەچچە	_	NUM	M	_	7	nummod	_	Translit=bir-nechche|Morf=Unknown
 7	پاي	پاي	NOUN	Q	Case=Nom	9	amod	_	Translit=pay
 8	زەمبىرەك	زەمبىرەك	NOUN	N	Case=Nom	9	nmod	_	Translit=zembirek
