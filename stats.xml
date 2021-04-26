@@ -76,7 +76,7 @@
     <feat name="Voice" value="Pass" upos="VERB">60</feat><!-- بىلىنىپ, قىلىنغان, ھېسابلىنىدۇ, ئاڭلىنىپ, تىكىلىپ, بىلىنىدۇ, چايقىلىپ, بىلىندى, تاشلىنىپ, قىلىندى -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="43">
     <dep name="acl">742</dep>
     <dep name="advcl">1521</dep>
     <dep name="advcl:cond">20</dep>
@@ -105,14 +105,13 @@
     <dep name="nmod">1338</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
-    <dep name="nmod:ins">2</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1475</dep>
     <dep name="nmod:tmod">83</dep>
     <dep name="nsubj">3817</dep>
     <dep name="nummod">755</dep>
     <dep name="obj">2305</dep>
-    <dep name="obl">3945</dep>
+    <dep name="obl">3947</dep>
     <dep name="obl:tmod">4</dep>
     <dep name="orphan">8</dep>
     <dep name="parataxis">405</dep>

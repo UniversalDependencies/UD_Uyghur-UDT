@@ -8752,7 +8752,7 @@
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	بەزىلەر	بەزى	ADJ	P	Case=Nom|Number=Plur	15	nsubj	_	Translit=beziler
 12	ساپال	ساپال	ADJ	N	_	13	amod	_	Translit=sapal
-13	قاچىدا	_	NOUN	N	_	15	nmod:ins	_	Translit=qachida|Morf=Unknown
+13	قاچىدا	_	NOUN	N	_	15	obl	_	Translit=qachida|Morf=Unknown
 14	ئۇسۇپ	_	NOUN	N	_	15	obl	_	Translit=usup|Morf=Missing,2
 15	ئىچىدۇ	ئىچ	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ichidu
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
@@ -17556,7 +17556,7 @@
 
 # sent_id = s2956
 # text = بىز بىر نەچچەيلەن پاختىلىق كىيملىرىمىزنى سېلىۋىتىپ، دالىغا ئوقتەك ئېتىلدۇق.
-1	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nmod:ins	_	Translit=biz
+1	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	obl	_	Translit=biz
 2	بىر	بىر	NUM	M	_	3	nummod	_	Translit=bir
 3	نەچچەيلەن	_	NOUN	N	_	1	appos	_	Translit=nechcheylen|Morf=Unknown
 4	پاختىلىق	_	ADJ	A	_	5	amod	_	Translit=paxtiliq|Morf=Unknown
