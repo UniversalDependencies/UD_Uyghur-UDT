@@ -227,7 +227,7 @@
 3	سوغۇق	سوغۇق	ADJ	A	Case=Nom	1	conj	_	Translit=soghuq
 4	بىرلىشىپ	بىرلەش	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=birliship
 5	ئۇلارنىڭ	ئۇلار	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	nmod:poss	_	Translit=ularning
-6	ھاياتىنى	_	NOUN	N	_	9	obj:cau	_	Translit=hayatini|Morf=Unknown
+6	ھاياتىنى	_	NOUN	N	_	9	obj	_	Translit=hayatini|Morf=Unknown
 7	خەتەر	خەتەر	NOUN	N	Case=Nom	8	nmod:poss	_	Translit=xeter
 8	ئىچىدە	ئىچ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	Translit=ichide
 9	قالدۇردى	قالدۇر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qaldurdi
@@ -1712,12 +1712,12 @@
 # text = ئاماننىسا دادىسىغا شېئىرلارنى دېكلاماتسىيە قىلدۇرۇپ ئاڭلاشقا ۋە ساز چالدۇرۇپ ئاڭلاشقا تولىمۇ خۇشتار ئىدى.
 1	ئاماننىسا	_	NOUN	N	_	12	nsubj	_	Translit=amannisa|Morf=Unknown
 2	دادىسىغا	دادا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:cau	_	Translit=dadisigha
-3	شېئىرلارنى	_	NOUN	N	_	5	obj:cau	_	Translit=shëirlarni|Morf=Unknown
+3	شېئىرلارنى	_	NOUN	N	_	5	obj	_	Translit=shëirlarni|Morf=Unknown
 4	دېكلاماتسىيە	_	NOUN	N	_	5	compound	_	Translit=dëklamatsiye|Morf=Unknown
 5	قىلدۇرۇپ	_	VERB	V	_	6	advcl	_	Translit=qildurup|Morf=Unknown
 6	ئاڭلاشقا	_	VERB	V	_	12	advcl	_	Translit=anglashqa|Morf=Unknown
 7	ۋە	ۋە	CCONJ	C	_	10	cc	_	Translit=we
-8	ساز	ساز	NOUN	N	Case=Nom	9	obj:cau	_	Translit=saz
+8	ساز	ساز	NOUN	N	Case=Nom	9	obj	_	Translit=saz
 9	چالدۇرۇپ	_	NOUN	N	_	10	advcl	_	Translit=chaldurup|Morf=Unknown
 10	ئاڭلاشقا	_	VERB	V	_	6	conj	_	Translit=anglashqa|Morf=Unknown
 11	تولىمۇ	_	ADV	D	_	12	advmod	_	Translit=tolimu|Morf=Unknown
@@ -2445,7 +2445,7 @@
 2	دەرەختىن	دەرەخ	NOUN	N	Case=Abl	8	nmod	_	Translit=derextin
 3	بىر	بىر	NUM	M	_	4	nummod	_	Translit=bir
 4	تال	تال	NOUN	Q	Case=Nom	5	amod	_	Translit=tal
-5	چېچەكنى	چېچەك	NOUN	N	Case=Acc	8	obj:cau	_	Translit=chëchekni
+5	چېچەكنى	چېچەك	NOUN	N	Case=Acc	8	obj	_	Translit=chëchekni
 6	غولى	غول	ADJ	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	advmod	_	Translit=gholi
 7	بىلەن	بىلەن	ADP	C	_	6	case	_	Translit=bilen
 8	سۇندۇرىۋېلىپ	_	NOUN	N	_	10	advcl	_	Translit=sunduriwëlip|Morf=Unknown
