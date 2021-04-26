@@ -79,7 +79,7 @@
     <dep name="acl">742</dep>
     <dep name="advcl">1521</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">357</dep>
+    <dep name="advmod">2711</dep>
     <dep name="advmod:emph">30</dep>
     <dep name="advmod:tmod">4</dep>
     <dep name="amod">2390</dep>
@@ -115,7 +115,7 @@
     <dep name="nummod">755</dep>
     <dep name="obj">2301</dep>
     <dep name="obj:cau">4</dep>
-    <dep name="obl">5433</dep>
+    <dep name="obl">3079</dep>
     <dep name="orphan">8</dep>
     <dep name="parataxis">405</dep>
     <dep name="punct">7811</dep>
