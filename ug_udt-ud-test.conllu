@@ -1039,7 +1039,7 @@
 23	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	24	acl	_	Translit=dëgen
 24	ماقاللارنى	ماقال	NOUN	N	Case=Acc|Number=Plur	25	obj	_	Translit=maqallarni
 25	ئاڭلاپ	_	VERB	V	_	0	root	_	Translit=anglap|Morf=Unknown
-26	باققانمۇ	باق	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	25	aux:q	_	SpaceAfter=No|Translit=baqqanmu
+26	باققانمۇ	باق	VERB	V	Case=Nom|Mood=Int|Tense=Past|VerbForm=Ger	25	compound	_	SpaceAfter=No|Translit=baqqanmu
 27	؟	؟	PUNCT	Y	_	26	punct	_	Translit=?
 
 # sent_id = s75
@@ -2089,7 +2089,7 @@
 1	-	-	PUNCT	Y	_	9	punct	_	Translit=-
 2	راستىنلا	_	ADJ	A	_	3	advmod	_	Translit=rastinla|Morf=Unknown
 3	يادلاپ	_	NOUN	N	_	9	ccomp	_	Translit=yadlap|Morf=Unknown
-4	بولدىڭىزمۇ	بول	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	3	aux:q	_	SpaceAfter=No|Translit=boldingizmu
+4	بولدىڭىزمۇ	بول	VERB	V	Mood=Int|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=boldingizmu
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	قىزىم	_	NOUN	N	_	3	vocative	_	SpaceAfter=No|Translit=qizim|Morf=Unknown
 7	؟	؟	PUNCT	Y	_	9	punct	_	Translit=?
@@ -2872,7 +2872,7 @@
 2	نېمىشقا	نېمىشقا	ADV	P	PronType=Int	4	advmod	_	Translit=nëmishqa
 3	يەرگە	يەر	NOUN	N	Case=Dat	4	obl	_	Translit=yerge
 4	پېتىپ	_	VERB	V	_	0	root	_	Translit=pëtip|Morf=Unknown
-5	كەتمىگەندۇ	_	VERB	V	_	4	aux:q	_	SpaceAfter=No|Translit=ketmigendu|Morf=Unknown
+5	كەتمىگەندۇ	_	VERB	V	_	4	compound	_	SpaceAfter=No|Translit=ketmigendu|Morf=Unknown
 6	؟	؟	PUNCT	Y	_	5	punct	_	Translit=?
 
 # sent_id = s207

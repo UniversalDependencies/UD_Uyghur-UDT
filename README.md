@@ -20,6 +20,7 @@ middle school, including stories, records and reports.
   * Undocumented nmod:abl changed to nmod (the ablative can be recognized by Case=Abl).
   * Adverbially used nominals changed from advmod to obl.
   * Undocumented obj:cau changed to obj (there were only 4 occurrences in test, nowhere else).
+  * Undocumented and rare aux:q removed.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Uyghur to UD_Uyghur-UDT.
   * Added new manually checked data (Marhaba Eli); dev cut at 900 sentences, additional 1656 sentences go to train.
