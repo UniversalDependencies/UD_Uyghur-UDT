@@ -33,7 +33,7 @@
     <tag name="X">66</tag><!-- _, advcl, case -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="39">
+  <feats unique="40">
     <feat name="Aspect" value="Hab" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1540</feat><!-- دەپ, بولۇپ, قىلىپ, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, كۆرۈپ, بېرىپ, قايتىپ -->
     <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">535</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
@@ -46,7 +46,8 @@
     <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">259</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, بولمىسا, بولسىڭىز, تۇرسا, قالسا, قارىسام, بولساڭ -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">134</feat><!-- بار, ئىش, مارى, قارا, كەل, ئاس, ئاچ, ئېغىر, بەر, تارتىش -->
-    <feat name="Mood" value="Ind" upos="AUX,PART,VERB">1522</feat><!-- ئىدى, دېدى, كەتتى, بولدى, قالدى, كەلدى, بولىدۇ, باشلىدى, بولغان, قىلدى -->
+    <feat name="Mood" value="Ind" upos="AUX,PART,VERB">1521</feat><!-- ئىدى, دېدى, كەتتى, بولدى, قالدى, كەلدى, بولىدۇ, باشلىدى, بولغان, قىلدى -->
+    <feat name="Mood" value="Int" upos="VERB">2</feat><!-- باققانمۇ, بولدىڭىزمۇ -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,VERB">1662</feat><!-- ئۇلار, بىز, ئۇلارنىڭ, بالىلار, بىزنىڭ, ئۇلارغا, ئۇلارنى, بولسا, ئادەملەر, چاغلاردا -->
     <feat name="Number" value="Sing" upos="AUX,PART,PRON,VERB">2673</feat><!-- ئۇ, مەن, ئۇنىڭ, ئىدى, سەن, دېدى, كەتتى, ئۇنى, بولدى, قالدى -->
     <feat name="Number[psor]" value="Plur" upos="NOUN,NUM">26</feat><!-- ئىككىمىز, قولۇڭلارنى, ئاناڭلار, ئاراڭلاردا, ئاراڭلاردىن, ئاناڭلارنى, ئىككىمىزنىڭ, ئىككىڭلارنىڭ, ئۇسۇلۇڭلار, كەشپىياتچىمىزنىڭ -->
@@ -75,21 +76,19 @@
     <feat name="Voice" value="Pass" upos="VERB">60</feat><!-- بىلىنىپ, قىلىنغان, ھېسابلىنىدۇ, ئاڭلىنىپ, تىكىلىپ, بىلىنىدۇ, چايقىلىپ, بىلىندى, تاشلىنىپ, قىلىندى -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
+  <deps unique="44">
     <dep name="acl">742</dep>
     <dep name="advcl">1521</dep>
     <dep name="advcl:cond">20</dep>
     <dep name="advmod">1846</dep>
     <dep name="advmod:emph">30</dep>
-    <dep name="advmod:tmod">4</dep>
     <dep name="amod">2390</dep>
     <dep name="appos">125</dep>
     <dep name="aux">815</dep>
-    <dep name="aux:q">3</dep>
     <dep name="case">586</dep>
     <dep name="cc">675</dep>
     <dep name="ccomp">432</dep>
-    <dep name="compound">1600</dep>
+    <dep name="compound">1603</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">994</dep>
@@ -109,12 +108,12 @@
     <dep name="nmod:ins">2</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1475</dep>
-    <dep name="nmod:ref">1</dep>
     <dep name="nmod:tmod">83</dep>
     <dep name="nsubj">3817</dep>
     <dep name="nummod">755</dep>
     <dep name="obj">2305</dep>
-    <dep name="obl">3944</dep>
+    <dep name="obl">3945</dep>
+    <dep name="obl:tmod">4</dep>
     <dep name="orphan">8</dep>
     <dep name="parataxis">405</dep>
     <dep name="punct">7811</dep>
