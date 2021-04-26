@@ -2048,7 +2048,7 @@
 5	مىرزا	مىرزا	PROPN	N	Case=Nom|Gender=Masc	6	nmod	_	Translit=mirza
 6	مەھمۇد	_	NOUN	N	_	9	nsubj	_	Translit=mehmud|Morf=Unknown
 7	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	8	det	_	Translit=öz
-8	ئىشىغا	ئىش	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:ref	_	Translit=ishigha
+8	ئىشىغا	ئىش	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	Translit=ishigha
 9	تۇتۇندى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tutundi|Morf=Unknown
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
