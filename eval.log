@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 4f29ae20b24bb80d705e463a82905c7c242d24e4
+commit 27afbd805c690a196721b19b0b968b65a84d52c9
+Merge: c8b10f6 faf0efc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:49:10 2020 +0200
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,23 +15,25 @@ Split: Found at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 18195 out of 40236 total words have one or more features.
+Features: 18203 out of 40236 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 6881 bugs.
+Udapi:
+               TOTAL       6882
+Udapi: found 6882 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40236 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
-[Line 8 Sent s901 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 13 Sent s901 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
-[Line 25 Sent s901 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 51 Sent s902 Node 17]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (17:ئەمەس:cop --> 18:ئىدى:cop)
 [Line 60 Sent s903 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'NOUN'
 [Line 57 Sent s903 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:ھاياتىم:cop --> 2:مېنىڭ:nmod)
 [Line 59 Sent s903 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:ھاياتىم:cop --> 4:رېئاللىقتىكى:nmod)
 [Line 61 Sent s903 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 74 Sent s903 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 123 Sent s906 Node 1]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 124 Sent s906 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 223 Sent s911 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 ...suppressing further errors regarding Syntax
 [Line 2929 Sent s1062 Node 14]: [L5 Morpho aux-lemma] 'لازىم' is not an auxiliary verb in language [ug]
 [Line 3899 Sent s1128 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
@@ -44,8 +46,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
 [Line 9352 Sent s1522 Node 4]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 16
-Syntax errors: 552
-*** FAILED *** with 568 errors
+Syntax errors: 358
+*** FAILED *** with 374 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 12 Sent s1 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
@@ -54,10 +56,10 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 107 Sent s5 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 116 Sent s6 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 131 Sent s8 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 141 Sent s8 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 147 Sent s8 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 148 Sent s8 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:قويماقچى:aux --> 19:بولۇشقاندۇ:cop)
 [Line 139 Sent s8 Node 10]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 139 Sent s8 Node 10]: [L5 Syntax cop-lemma] 'تۇر' is not a copula in language [ug]
 ...suppressing further errors regarding Syntax
 [Line 2424 Sent s171 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 [Line 6916 Sent s501 Node 19]: [L5 Morpho aux-lemma] 'يۈر' is not an auxiliary verb in language [ug]
@@ -69,21 +71,21 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 9960 Sent s709 Node 8]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 17
-Syntax errors: 669
-*** FAILED *** with 686 errors
+Syntax errors: 467
+*** FAILED *** with 484 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
-[Line 20 Sent s1802 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 29 Sent s1803 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 30 Sent s1803 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 31 Sent s1803 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 71 Sent s1806 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 89 Sent s1807 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 115 Sent s1809 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 125 Sent s1810 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 127 Sent s1810 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-...suppressing further errors regarding Syntax
+[Line 236 Sent s1818 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 239 Sent s1818 Node 12]: [L3 Syntax rel-upos-mark] 'mark' should not be 'VERB'
+[Line 236 Sent s1818 Node 9]: [L5 Syntax cop-lemma] 'دې' is not a copula in language [ug]
+[Line 326 Sent s1825 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 352 Sent s1828 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 383 Sent s1830 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+...suppressing further errors regarding Syntax
 [Line 1457 Sent s1893 Node 28]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
 [Line 1742 Sent s1914 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 [Line 1851 Sent s1921 Node 12]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
@@ -94,8 +96,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 4096 Sent s2075 Node 18]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 46
-Syntax errors: 1251
-*** FAILED *** with 1297 errors
+Syntax errors: 810
+*** FAILED *** with 856 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
