@@ -12,6 +12,16 @@ middle school, including stories, records and reports.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
+    tentatively replaced with Aspect=Hab|Tense=Pres.
+  * Undocumented Cov(erb) is probably better represented as Inf, see https://github.com/UniversalDependencies/docs/issues/747
+  * Undocumented nmod:clas changed to compound.
+  * Undocumented nmod:abl changed to nmod (the ablative can be recognized by Case=Abl).
+  * Adverbially used nominals changed from advmod to obl.
+  * Undocumented obj:cau changed to obj (there were only 4 occurrences in test, nowhere else).
+  * Undocumented and rare aux:q removed.
+  * Converted or removed some other rare and undocumented relation subtypes, such as nmod:ins.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Uyghur to UD_Uyghur-UDT.
   * Added new manually checked data (Marhaba Eli); dev cut at 900 sentences, additional 1656 sentences go to train.
