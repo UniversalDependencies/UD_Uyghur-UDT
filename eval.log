@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 8ba3e23b02579c48cc33714e54eaed10b73f0091
+commit 5f305ed7b1af1ff0f24644bef62e54ba2b132aaf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 10:03:16 2021 +0200
+Date:   Wed Nov 3 17:08:54 2021 +0100
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -46,8 +46,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
 [Line 9352 Sent s1522 Node 4]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 16
-Syntax errors: 358
-*** FAILED *** with 374 errors
+Syntax errors: 355
+*** FAILED *** with 371 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 12 Sent s1 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
@@ -62,17 +62,17 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
 [Line 139 Sent s8 Node 10]: [L5 Syntax cop-lemma] 'تۇر' is not a copula in language [ug]
 ...suppressing further errors regarding Syntax
 [Line 2424 Sent s171 Node 7]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 6798 Sent s494 Node 6]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 6916 Sent s501 Node 19]: [L5 Morpho aux-lemma] 'يۈر' is not an auxiliary verb in language [ug]
 [Line 7194 Sent s525 Node 3]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 [Line 8019 Sent s586 Node 4]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 [Line 8295 Sent s605 Node 7]: [L5 Morpho aux-lemma] 'ئولتۇر' is not an auxiliary verb in language [ug]
 [Line 8479 Sent s618 Node 17]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 [Line 9387 Sent s677 Node 9]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
-[Line 9960 Sent s709 Node 8]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
-Morpho errors: 17
-Syntax errors: 467
-*** FAILED *** with 484 errors
+Morpho errors: 18
+Syntax errors: 457
+*** FAILED *** with 475 errors
 Exit code: 1
 validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 30 Sent s1803 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
@@ -80,11 +80,11 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 71 Sent s1806 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 127 Sent s1810 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 236 Sent s1818 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 239 Sent s1818 Node 12]: [L3 Syntax rel-upos-mark] 'mark' should not be 'VERB'
 [Line 236 Sent s1818 Node 9]: [L5 Syntax cop-lemma] 'دې' is not a copula in language [ug]
 [Line 326 Sent s1825 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 352 Sent s1828 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 383 Sent s1830 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
+[Line 477 Sent s1840 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 ...suppressing further errors regarding Syntax
 [Line 1457 Sent s1893 Node 28]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
 [Line 1742 Sent s1914 Node 12]: [L5 Morpho aux-lemma] 'تۇر' is not an auxiliary verb in language [ug]
@@ -96,8 +96,8 @@ validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
 [Line 4096 Sent s2075 Node 18]: [L5 Morpho aux-lemma] 'كەل' is not an auxiliary verb in language [ug]
 ...suppressing further errors regarding Morpho
 Morpho errors: 46
-Syntax errors: 810
-*** FAILED *** with 856 errors
+Syntax errors: 807
+*** FAILED *** with 853 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
