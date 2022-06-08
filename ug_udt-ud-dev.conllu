@@ -4728,7 +4728,7 @@
 
 # sent_id = s1181
 # text = قۇلۇلە يىڭناغۇچ، ھەسەلھەرىسى، كېپىنەك... قاتارلىق رىقابەتچىلىرىنى ئارقىدا قالدۇرۇپ، چېمپىيونلۇق لوڭقىسىنى ئاپتۇ.
-1	قۇلۇلە	قۇلۇلە	NOUN	N	Case=Nom	17	punct	_	Translit=qulule
+1	قۇلۇلە	قۇلۇلە	NOUN	N	Case=Nom	17	nsubj	_	Translit=qulule
 2	يىڭناغۇچ	_	NOUN	N	_	11	appos	_	SpaceAfter=No|Translit=yingnaghuch|Morf=Unknown
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ھەسەلھەرىسى	_	NOUN	N	_	2	conj	_	SpaceAfter=No|Translit=heselherisi|Morf=Unknown

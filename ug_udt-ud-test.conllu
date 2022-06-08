@@ -7122,7 +7122,7 @@
 # text = ئۆيۈمگە ئاز قالغاندا، ھېلىقى قۇملۇققا قايتىپ بېرىپ قاراپ باققۇم كەلدى.
 1	ئۆيۈمگە	ئۆي	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=1	3	obl	_	Translit=öyümge
 2	ئاز	ئاز	ADJ	A	Case=Nom	3	advmod	_	Translit=az
-3	قالغاندا	قال	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	11	punct	_	SpaceAfter=No|Translit=qalghanda
+3	قالغاندا	قال	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	11	advcl	_	SpaceAfter=No|Translit=qalghanda
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	ھېلىقى	_	PRON	P	_	6	det	_	Translit=hëliqi|Morf=Unknown
 6	قۇملۇققا	قۇملۇق	NOUN	N	Case=Dat	7	obl	_	Translit=qumluqqa
@@ -7501,7 +7501,7 @@
 
 # sent_id = s547
 # text = توخۇ قاناتلىرىنى قېقىپ قويۇپ دەپتۇ:
-1	توخۇ	توخۇ	NOUN	N	Case=Nom	5	punct	_	Translit=toxu
+1	توخۇ	توخۇ	NOUN	N	Case=Nom	2	nmod	_	Translit=toxu
 2	قاناتلىرىنى	قانات	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	3	obj	_	Translit=qanatlirini
 3	قېقىپ	قاق	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	Translit=qëqip
 4	قويۇپ	_	AUX	V	_	3	aux	_	Translit=qoyup|Morf=Unknown
@@ -9917,7 +9917,7 @@
 9	2-	_	VERB	V	_	7	conj	_	Translit=2-|Morf=Unknown
 10	ئورۇندا	ئورۇن	NOUN	N	Case=Loc	11	obl	_	Translit=orunda
 11	تۇرۇشى	تۇر	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	12	csubj	_	Translit=turushi
-12	مۇمكىن	_	ADJ	A	_	28	punct	_	SpaceAfter=No|Translit=mumkin|Morf=Missing,1
+12	مۇمكىن	_	ADJ	A	_	28	advcl	_	SpaceAfter=No|Translit=mumkin|Morf=Missing,1
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 14	لېكىن	لېكىن	CCONJ	C	_	28	cc	_	Translit=lëkin
 15	كىشى	كىشى	NOUN	N	Case=Nom	16	case	_	Translit=kishi
