@@ -6794,10 +6794,10 @@
 2	ئۆتۈۋاتقاندا	_	VERB	V	_	11	advcl	_	Translit=ötüwatqanda|Morf=Unknown
 3	قىرغاقتا	قىرغاق	NOUN	N	Case=Loc	4	obl	_	Translit=qirghaqta
 4	قالغان	قال	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	6	acl	_	Translit=qalghan
-5	«	«	PUNCT	Y	_	4	punct	_	SpaceAfter=No|Translit=«
-6	بالىلىرى	بالا	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	SpaceAfter=No|Translit=baliliri
+5	«	«	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit=«
+6	بالىلىرى	بالا	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3|Typo=Yes	10	obl	_	SpaceAfter=No|Translit=baliliri|CorrectForm=بالىلىرىغا|CorrectTranslit=balilirigha
 7	»	»	PUNCT	Y	_	6	punct	_	Translit=»
-8	غا	_	X	X	_	6	goeswith	_	Translit=gha|Morf=Unknown
+8	غا	_	X	X	_	6	dep	_	Translit=gha|Morf=Unknown
 9	خەۋپ	خەۋپ	NOUN	N	Case=Nom	10	nsubj	_	Translit=xewp
 10	يېتىشىدىن	يات	VERB	V	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	11	advcl	_	Translit=yëtishidin
 11	ئەنسىرەيدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ensireydu|Morf=Unknown
