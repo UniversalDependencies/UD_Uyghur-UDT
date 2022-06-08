@@ -2117,7 +2117,7 @@
 # text = مۇنداقچە قىلىپ ئېيتقاندا، شەكىلگە قاراش نۇقتىسى ئوخشاش بولمىغاچقا، تۆت جاۋابنىڭ ھەممىسى توغرا بولىدۇ.
 1	مۇنداقچە	_	PRON	P	_	2	compound	_	Translit=mundaqche|Morf=Unknown
 2	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	3	compound	_	Translit=qilip
-3	ئېيتقاندا	_	VERB	V	_	14	mark	_	SpaceAfter=No|Translit=ëytqanda|Morf=Unknown
+3	ئېيتقاندا	_	VERB	V	_	14	advcl	_	SpaceAfter=No|Translit=ëytqanda|Morf=Unknown
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	شەكىلگە	_	NOUN	N	_	6	obl	_	Translit=shekilge|Morf=Unknown
 6	قاراش	قارا	VERB	V	Case=Nom|VerbForm=Ger	7	nmod:poss	_	Translit=qarash
@@ -2211,9 +2211,9 @@
 # sent_id = s1022
 # text = ئەھۋالنىڭ ئۆزگىرىشى تۈپەيلىدىن، بۇرۇن ئۈنۈملۈك بولۇۋاتقان ئۇسۇل ئەمدى ئەسقاتمايدىغان بولۇپ قالىدۇ.
 1	ئەھۋالنىڭ	ئەھۋال	NOUN	N	Case=Gen	2	nmod:poss	_	Translit=ehwalning
-2	ئۆزگىرىشى	ئۆزگەر	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	3	case	_	Translit=özgirishi
-3	تۈپەيلىدىن	_	ADP	R	_	11	advmod	_	SpaceAfter=No|Translit=tüpeylidin|Morf=Unknown
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+2	ئۆزگىرىشى	ئۆزگەر	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	11	advcl	_	Translit=özgirishi
+3	تۈپەيلىدىن	_	ADP	R	_	2	mark	_	SpaceAfter=No|Translit=tüpeylidin|Morf=Unknown
+4	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 5	بۇرۇن	_	ADV	D	_	8	nmod:tmod	_	Translit=burun|Morf=Missing,1
 6	ئۈنۈملۈك	ئۈنۈملۈك	ADJ	A	_	8	amod	_	Translit=ünümlük
 7	بولۇۋاتقان	_	AUX	V	_	6	aux	_	Translit=boluwatqan|Morf=Unknown
@@ -2289,7 +2289,7 @@
 13	يىڭى	_	VERB	V	_	14	dep	_	Translit=yingi|Morf=Missing,1
 14	ئۇسۇللىرى	ئۇسۇل	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	11	conj	_	Translit=usulliri
 15	ئۈستىدە	_	ADP	R	_	14	case	_	Translit=üstide|Morf=Missing,1
-16	ئىزدىنىش	_	VERB	V	_	23	case	_	Translit=izdinish|Morf=Unknown
+16	ئىزدىنىش	_	VERB	V	_	23	advcl	_	Translit=izdinish|Morf=Unknown
 17	ئۈچۈن	ئۈچۈن	ADP	C	_	16	case	_	SpaceAfter=No|Translit=üchün
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	ئىجادىي	ئىجادىي	ADJ	A	_	20	amod	_	Translit=ijadiy
@@ -3849,16 +3849,16 @@
 
 # sent_id = s1125
 # text = _ دەرس ئاڭلاي دېۋىدىم؟ _ مۇدىر ھەيرانلىق نەزىرى بىلەن مەمتىلىگە قاراپتۇ.
-1	_	_	PUNCT	Y	_	12	punct	_	Translit=_|Morf=Unknown
+1	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
 2	دەرس	دەرس	NOUN	N	Case=Nom	3	obj	_	Translit=ders
 3	ئاڭلاي	_	VERB	V	_	4	ccomp	_	Translit=anglay|Morf=Unknown
 4	دېۋىدىم	_	VERB	V	_	7	ccomp	_	SpaceAfter=No|Translit=dëwidim|Morf=Unknown
 5	؟	؟	PUNCT	Y	_	4	punct	_	Translit=?
 6	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
 7	مۇدىر	مۇدىر	NOUN	N	Case=Nom	12	nsubj	_	Translit=mudir
-8	ھەيرانلىق	ھەيرانلىق	NOUN	N	Case=Nom	9	amod	_	Translit=heyranliq
-9	نەزىرى	نەزەر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	case	_	Translit=neziri
-10	بىلەن	بىلەن	ADP	R	_	12	advmod	_	Translit=bilen
+8	ھەيرانلىق	ھەيرانلىق	NOUN	N	Case=Nom	9	nmod	_	Translit=heyranliq
+9	نەزىرى	نەزەر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=neziri
+10	بىلەن	بىلەن	ADP	R	_	9	case	_	Translit=bilen
 11	مەمتىلىگە	_	NOUN	N	_	12	nmod:cau	_	Translit=memtilige|Morf=Unknown
 12	قاراپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qaraptu|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
@@ -7872,8 +7872,8 @@
 
 # sent_id = s1411
 # text = يەنە تېخى يوپۇرماقلار شىلدىرلاپ، قۇشلار بەس - بەستە سايراپ، كېپىنەكلەر پىلدىرلاپ ئۇچۇپ، بۇ خوشال كەيپىياتقا جور بولدى..
-1	يەنە	يەنە	ADV	C	_	2	mark	_	Translit=yene
-2	تېخى	تېخى	ADV	T	_	20	mark	_	Translit=tëxi
+1	يەنە	يەنە	ADV	C	_	2	advmod	_	Translit=yene
+2	تېخى	تېخى	ADV	T	_	20	advmod	_	Translit=tëxi
 3	يوپۇرماقلار	_	NOUN	N	_	4	nsubj	_	Translit=yopurmaqlar|Morf=Unknown
 4	شىلدىرلاپ	_	VERB	V	_	20	advcl	_	SpaceAfter=No|Translit=shildirlap|Morf=Unknown
 5	،	،	PUNCT	Y	_	10	punct	_	Translit=,
@@ -8393,8 +8393,8 @@
 # text = - ھا - ھا، نېمە دېگەن ياخشى!
 1	-	-	PUNCT	Y	_	2	punct	_	Translit=-
 2	ھا	_	INTJ	I	_	4	compound	_	Translit=ha|Morf=Unknown
-3	-	-	PUNCT	Y	_	2	punct	_	Translit=-
-4	ھا	_	INTJ	I	_	8	mark	_	SpaceAfter=No|Translit=ha|Morf=Unknown
+3	-	-	PUNCT	Y	_	4	punct	_	Translit=-
+4	ھا	_	INTJ	I	_	8	discourse	_	SpaceAfter=No|Translit=ha|Morf=Unknown
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	نېمە	نېمە	NOUN	P	Case=Nom	8	acl	_	Translit=nëme
 7	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	6	fixed	_	Translit=dëgen
@@ -10715,8 +10715,8 @@
 
 # sent_id = s1612
 # text = مانا ئەمدى ھايات – ماماتى قىلنىڭ ئۈستىدە تۇرسا، ئۇلار ئەقلى - ھوشىنى يوقاتماي مۇمكىنمۇ!
-1	مانا	_	PART	T	_	2	mark	_	Translit=mana|Morf=Missing,1
-2	ئەمدى	_	ADV	D	_	14	mark	_	Translit=emdi|Morf=Missing,1
+1	مانا	_	PART	T	_	2	advmod	_	Translit=mana|Morf=Missing,1
+2	ئەمدى	_	ADV	D	_	14	advmod	_	Translit=emdi|Morf=Missing,1
 3	ھايات	ھايات	NOUN	N	Case=Nom	5	compound:redup	_	Translit=hayat
 4	–	–	PUNCT	N	_	3	punct	_	Translit=–
 5	ماماتى	_	NOUN	N	_	7	amod	_	Translit=mamati|Morf=Unknown
@@ -12527,8 +12527,8 @@
 2	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 3	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=men
 4	ئۆزۈن	_	NOUN	N	_	5	nmod	_	Translit=özün|Morf=Unknown
-5	ئارزۇيۇم	_	NOUN	N	_	7	case	_	Translit=arzuyum|Morf=Unknown
-6	بويىچە	بويىچە	ADP	R	_	5	cc	_	Translit=boyiche
+5	ئارزۇيۇم	_	NOUN	N	_	7	obl	_	Translit=arzuyum|Morf=Unknown
+6	بويىچە	بويىچە	ADP	R	_	5	case	_	Translit=boyiche
 7	ياشايمەن	_	VERB	V	_	11	ccomp	_	SpaceAfter=No|Translit=yashaymen|Morf=Unknown
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 9	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
