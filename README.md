@@ -12,6 +12,8 @@ middle school, including stories, records and reports.
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed validation errors.
 * 2021-05-15 v2.8
   * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
     tentatively replaced with Aspect=Hab|Tense=Pres.
