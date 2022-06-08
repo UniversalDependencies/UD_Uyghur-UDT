@@ -166,7 +166,7 @@
 10	پاجىئەلىك	پاجىئەلىك	ADJ	A	_	11	amod	_	Translit=pajielik
 11	ھالاكىتىمنى	_	NOUN	N	_	13	obj	_	Translit=halakitimni|Morf=Unknown
 12	قوبۇل	قوبۇل	NOUN	N	Case=Nom	13	compound	_	Translit=qobul
-13	قىلىشتىنمۇ	قىل	VERB	V	Case=Abl|VerbForm=Ger	14	nsubj	_	Translit=qilishtinmu
+13	قىلىشتىنمۇ	قىل	VERB	V	Case=Abl|VerbForm=Ger	14	advcl	_	Translit=qilishtinmu
 14	مۈشكۈل	مۈشكۈل	ADJ	A	Case=Nom	0	root	_	Translit=müshkül
 15	ئىدى	ئى	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No|Translit=idi
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
@@ -2150,7 +2150,7 @@
 14	بىلمەي	_	VERB	V	_	18	advcl	_	Translit=bilmey|Morf=Unknown
 15	كاللىمىزدا	_	VERB	V	_	18	obl	_	Translit=kallimizda|Morf=Unknown
 16	تىرەن	_	ADJ	A	_	17	amod	_	Translit=tiren|Morf=Unknown
-17	يىلتىز	يىلتىز	NOUN	N	Case=Nom	18	nsubj	_	Translit=yiltiz
+17	يىلتىز	يىلتىز	NOUN	N	Case=Nom	18	obj	_	Translit=yiltiz
 18	تارتىپ	تارتىپ	ADP	V	_	0	root	_	Translit=tartip
 19	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No|Translit=ketti
 20	.	.	PUNCT	Y	_	19	punct	_	Translit=.
