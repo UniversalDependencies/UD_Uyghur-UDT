@@ -8152,7 +8152,7 @@
 4	پاك	پاك	ADJ	A	_	5	amod	_	Translit=pak
 5	ۋىجدانىڭىز	_	NOUN	N	_	15	obl	_	Translit=wijdaningiz|Morf=Unknown
 6	بىلەن	بىلەن	ADP	R	_	5	case	_	Translit=bilen
-7	‹	‹	PUNCT	N	_	13	punct	_	Translit=‹
+7	‹	‹	PUNCT	N	_	12	punct	_	Translit=‹
 8	‹	‹	PUNCT	N	_	12	punct	_	Translit=‹
 9	بارلىق	بارلىق	DET	P	Case=Nom	10	det	_	Translit=barliq
 10	ئىقتىدارىمنى	_	NOUN	N	_	12	obj	_	Translit=iqtidarimni|Morf=Unknown
@@ -10097,7 +10097,7 @@
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
 9	›	›	PUNCT	N	_	7	punct	_	Translit=›
 10	ۋە	ۋە	CCONJ	C	_	14	cc	_	Translit=we
-11	‹	‹	PUNCT	N	_	15	punct	_	Translit=‹
+11	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
 12	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
 13	ئەدەپ–ئەخلاق	_	NOUN	N	_	14	nmod	_	Translit=edep–exlaq|Morf=Unknown
 14	بۆشۈكى	بۆشۈك	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	conj	_	Translit=böshüki
@@ -10180,7 +10180,7 @@
 28	بىلەن	بىلەن	ADP	R	_	34	cc	_	Translit=bilen
 29	دولان	دولان	NOUN	N	Case=Nom	30	nmod	_	Translit=dolan
 30	ئۇيغۇرلىرىنىڭ	ئۇيغۇر	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	34	nmod:poss	_	Translit=uyghurlirining
-31	‹	‹	PUNCT	N	_	35	punct	_	Translit=‹
+31	‹	‹	PUNCT	N	_	34	punct	_	Translit=‹
 32	‹	‹	PUNCT	N	_	34	punct	_	Translit=‹
 33	دولان	دولان	NOUN	N	Case=Nom	34	compound	_	Translit=dolan
 34	مەشرىپى	مەشرەپ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	conj	_	Translit=meshripi
@@ -10415,7 +10415,7 @@
 7	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	6	cop	_	SpaceAfter=No|Translit=bolup
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 9	ئادەتتە	ئادەت	NOUN	N	Case=Loc	16	obl	_	Translit=adette
-10	‹	‹	PUNCT	Y	_	13	punct	_	Translit=‹
+10	‹	‹	PUNCT	Y	_	12	punct	_	Translit=‹
 11	‹	‹	PUNCT	Y	_	12	punct	_	Translit=‹
 12	ساقچى	ساقچى	NOUN	N	Case=Nom	15	nmod	_	Translit=saqchi
 13	›	›	PUNCT	N	_	12	punct	_	Translit=›
@@ -10594,7 +10594,7 @@
 # text = بالا: ‹ ‹ چىدايمەن › › دەپ جاۋاپ بەرگەندىن كېيىن، ئۇنىڭ مەشرەپكە قېتىلىشىغا رۇخسەت قىلىنىدۇ.
 1	بالا	بالا	NOUN	N	Case=Nom	10	nsubj	_	SpaceAfter=No|Translit=bala
 2	:	:	PUNCT	Y	_	1	punct	_	Translit=:
-3	‹	‹	PUNCT	Y	_	6	punct	_	Translit=‹
+3	‹	‹	PUNCT	Y	_	5	punct	_	Translit=‹
 4	‹	‹	PUNCT	Y	_	5	punct	_	Translit=‹
 5	چىدايمەن	_	NOUN	N	_	8	ccomp	_	Translit=chidaymen|Morf=Unknown
 6	›	›	PUNCT	V	_	5	punct	_	Translit=›

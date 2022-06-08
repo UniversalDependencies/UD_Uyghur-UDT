@@ -9159,7 +9159,7 @@
 23	،	،	PUNCT	Y	_	22	punct	_	Translit=,
 24	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	Translit=u
 25	پەقەت	پەقەت	ADJ	D	Case=Nom	32	advmod	_	Translit=peqet
-26	‹	‹	PUNCT	N	_	33	punct	_	Translit=‹
+26	‹	‹	PUNCT	N	_	32	punct	_	Translit=‹
 27	‹	‹	PUNCT	N	_	32	punct	_	Translit=‹
 28	ئالىي	ئالىي	ADJ	A	_	29	amod	_	Translit=aliy
 29	ئەقىلگە	_	NOUN	N	_	30	nmod	_	Translit=eqilge|Morf=Unknown
@@ -9212,7 +9212,7 @@
 # text = مەن بۇرۇن ‹ ‹ ئەدەبىياتقا سۆز › › دېگەن ماۋزۇدا بىر پارچە يازغانىدىم.
 1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Translit=men
 2	بۇرۇن	بۇرۇن	NOUN	D	Case=Nom	13	obl	_	Translit=burun
-3	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
+3	‹	‹	PUNCT	N	_	6	punct	_	Translit=‹
 4	‹	‹	PUNCT	N	_	6	punct	_	Translit=‹
 5	ئەدەبىياتقا	ئەدەبىيات	NOUN	N	Case=Dat	6	nmod	_	Translit=edebiyatqa
 6	سۆز	سۆز	NOUN	N	Case=Nom	9	ccomp	_	Translit=söz
@@ -10015,7 +10015,7 @@
 # sent_id = s1563
 # text = كاپىتان ‹ ‹ نورماندى › › ناملىق بۇ پاراخوتنى ئېھتىيات بىلەن ھەيدەپ كېتىۋاتاتتى،
 1	كاپىتان	_	NOUN	N	_	12	nsubj	_	Translit=kapitan|Morf=Unknown
-2	‹	‹	PUNCT	N	_	5	punct	_	Translit=‹
+2	‹	‹	PUNCT	N	_	4	punct	_	Translit=‹
 3	‹	‹	PUNCT	N	_	4	punct	_	Translit=‹
 4	نورماندى	_	NOUN	N	_	9	appos	_	Translit=normandi|Morf=Unknown
 5	›	›	PUNCT	N	_	4	punct	_	Translit=›
@@ -10087,7 +10087,7 @@
 1	دېڭىزچىلار	_	NOUN	N	_	11	nsubj	_	Translit=dëngizchilar|Morf=Unknown
 2	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	Translit=uni
 3	ئەڭ	ئەڭ	PRON	D	Case=Nom	6	obl	_	Translit=eng
-4	‹	‹	PUNCT	A	_	7	punct	_	Translit=‹
+4	‹	‹	PUNCT	A	_	6	punct	_	Translit=‹
 5	‹	‹	PUNCT	Y	_	6	punct	_	Translit=‹
 6	ياش	يا	VERB	A	Case=Nom|VerbForm=Ger	9	amod	_	Translit=yash
 7	›	›	PUNCT	N	_	6	punct	_	Translit=›
@@ -10248,7 +10248,7 @@
 2	چاقپەلەك	چاقپەلەك	NOUN	N	Case=Nom	4	obl	_	Translit=chaqpelek
 3	بىلەن	بىلەن	ADP	R	_	2	case	_	Translit=bilen
 4	ھەرىكەتلىنىدىغان	_	VERB	V	_	12	acl	_	Translit=heriketlinidighan|Morf=Unknown
-5	‹	‹	PUNCT	N	_	8	punct	_	Translit=‹
+5	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
 6	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	12	appos	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
@@ -10279,7 +10279,7 @@
 7	شىددەت	شىددەت	NOUN	N	Case=Nom	18	obl	_	Translit=shiddet
 8	بىلەن	بىلەن	ADP	R	_	7	case	_	Translit=bilen
 9	ئۇدۇل	ئۇدۇل	ADJ	D	Case=Nom	18	advmod	_	Translit=udul
-10	‹	‹	PUNCT	N	_	13	punct	_	Translit=‹
+10	‹	‹	PUNCT	N	_	12	punct	_	Translit=‹
 11	‹	‹	PUNCT	N	_	12	punct	_	Translit=‹
 12	نورماندى	_	NOUN	N	_	16	appos	_	Translit=normandi|Morf=Unknown
 13	›	›	PUNCT	N	_	12	punct	_	Translit=›
@@ -10358,14 +10358,14 @@
 2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	ئالغا	ئالغا	NOUN	N	Case=Nom	4	amod	_	Translit=algha
 4	ئىلگىرىلەۋاتقان	_	VERB	V	_	11	acl	_	Translit=ilgirilewatqan|Morf=Unknown
-5	‹	‹	PUNCT	N	_	8	punct	_	Translit=‹
+5	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
 6	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	11	appos	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
 9	›	›	PUNCT	N	_	7	punct	_	Translit=›
 10	ناملىق	_	ADJ	A	_	7	case	_	Translit=namliq|Morf=Unknown
 11	پاراخوت	_	NOUN	N	_	27	nsubj	_	Translit=paraxot|Morf=Unknown
-12	‹	‹	PUNCT	N	_	15	punct	_	Translit=‹
+12	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
 13	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
 14	نورماندى	_	NOUN	N	_	18	appos	_	Translit=normandi|Morf=Unknown
 15	›	›	PUNCT	N	_	14	punct	_	Translit=›
@@ -10389,7 +10389,7 @@
 2	سوقۇلۇشتىن	_	NOUN	N	_	4	obl	_	Translit=soqulushtin|Morf=Unknown
 3	زەخمەت	زەخمەت	NOUN	N	Case=Nom	4	obj	_	Translit=zexmet
 4	يېگەن	_	VERB	V	_	11	acl	_	Translit=yëgen|Morf=Unknown
-5	‹	‹	PUNCT	N	_	8	punct	_	Translit=‹
+5	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
 6	‹	‹	PUNCT	Y	_	7	punct	_	Translit=‹
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	11	appos	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
@@ -11123,7 +11123,7 @@
 3	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	4	obl	_	Translit=tëximu
 4	تېزلىتىپ	_	VERB	V	_	20	advcl	_	SpaceAfter=No|Translit=tëzlitip|Morf=Unknown
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	‹	‹	PUNCT	Y	_	9	punct	_	Translit=‹
+6	‹	‹	PUNCT	Y	_	8	punct	_	Translit=‹
 7	‹	‹	PUNCT	Y	_	8	punct	_	Translit=‹
 8	نورماندى	_	NOUN	N	_	12	appos	_	Translit=normandi|Morf=Unknown
 9	›	›	PUNCT	N	_	8	punct	_	Translit=›
