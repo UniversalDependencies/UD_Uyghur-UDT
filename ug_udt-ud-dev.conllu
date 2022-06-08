@@ -1877,23 +1877,23 @@
 
 # sent_id = s995
 # text = ئۇ بىر قولىغا ئون قاداق كېلىدىغان، يەنە بىر قولىغا بىر قاداق كېلىدىغان قوغۇشۇن شاركچىنى ئېلىۋالغانىدى.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Translit=u
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
 2	بىر	بىر	NUM	M	_	3	nummod	_	Translit=bir
-3	قولىغا	قول	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	16	obj	_	Translit=qoligha
+3	قولىغا	قول	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	orphan	_	Translit=qoligha
 4	ئون	ئون	NUM	M	_	5	nummod	_	Translit=on
 5	قاداق	_	NOUN	N	_	6	obl	_	Translit=qadaq|Morf=Unknown
-6	كېلىدىغان	_	VERB	V	_	3	orphan	_	SpaceAfter=No|Translit=këlidighan|Morf=Unknown
-7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
-8	يەنە	يەنە	ADV	C	_	9	nmod	_	Translit=yene
+6	كېلىدىغان	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=këlidighan|Morf=Unknown
+7	،	،	PUNCT	Y	_	16	punct	_	Translit=,
+8	يەنە	يەنە	ADV	C	_	16	cc	_	Translit=yene
 9	بىر	بىر	NUM	M	_	10	nummod	_	Translit=bir
-10	قولىغا	قول	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod	_	Translit=qoligha
+10	قولىغا	قول	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	Translit=qoligha
 11	بىر	بىر	NUM	M	_	12	nummod	_	Translit=bir
 12	قاداق	_	NOUN	N	_	13	obl	_	Translit=qadaq|Morf=Unknown
 13	كېلىدىغان	_	VERB	V	_	15	acl	_	Translit=këlidighan|Morf=Unknown
-14	قوغۇشۇن	قوغۇشۇن	NOUN	N	Case=Nom	15	amod	_	Translit=qoghushun
-15	شاركچىنى	_	NOUN	N	_	3	conj	_	Translit=sharkchini|Morf=Unknown
-16	ئېلىۋالغانىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ëliwalghanidi|Morf=Unknown
-17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
+14	قوغۇشۇن	قوغۇشۇن	NOUN	N	Case=Nom	15	nmod	_	Translit=qoghushun
+15	شاركچىنى	_	NOUN	N	_	16	obj	_	Translit=sharkchini|Morf=Unknown
+16	ئېلىۋالغانىدى	_	VERB	V	_	6	conj	_	SpaceAfter=No|Translit=ëliwalghanidi|Morf=Unknown
+17	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s996
 # text = ۋاقىت توشقاندا گالىلېي ئىككى قوغۇشۇن شاركچىنى مۇنار ئۈستىدىن بىرلا ۋاقىتتا پەسكە تاشلىدى،
