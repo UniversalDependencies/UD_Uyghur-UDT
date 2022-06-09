@@ -1748,7 +1748,7 @@
 
 # sent_id = s128
 # text = گاھى چاغلاردا، بويىدىن ئېگىز سازلارنى قولىغا ئېلىۋېلىپ، تۇرۇپ زىل تارىلارنى تىرىڭشىتسا، تۇرۇپ بوم تارىلارنى تىرىڭشىتاتتى.
-1	گاھى	_	VERB	V	_	2	det	_	Translit=gahi|Morf=Unknown
+1	گاھى	_	VERB	V	_	2	acl	_	Translit=gahi|Morf=Unknown
 2	چاغلاردا	چاغ	NOUN	N	Case=Loc|Number=Plur	18	nmod:tmod	_	SpaceAfter=No|Translit=chaghlarda
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	بويىدىن	بوي	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:comp	_	Translit=boyidin
