@@ -1088,7 +1088,7 @@
 14	لاي–لايقا	_	NOUN	N	_	15	nmod	_	Translit=lay–layqa|Morf=Unknown
 15	ئېقىنى	ئېقىن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	conj	_	Translit=ëqini
 16	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	22	advcl	_	Translit=këlip
-17	قىسمەن	قىسمەن	NOUN	D	Case=Nom	18	det	_	Translit=qismen
+17	قىسمەن	قىسمەن	NOUN	D	Case=Nom	18	nmod	_	Translit=qismen
 18	رايونلاردا	رايون	NOUN	N	Case=Loc|Number=Plur	22	obl	_	Translit=rayonlarda
 19	ئېغىر	ئېغىر	ADJ	A	_	20	amod	_	Translit=ëghir
 20	ئاپەت	ئاپەت	NOUN	N	Case=Nom	22	nsubj	_	Translit=apet
@@ -10950,7 +10950,7 @@
 # text = — زادى نېمە گەپ بۇ ؟!
 1	—	—	PUNCT	Y	_	4	punct	_	Translit=—
 2	زادى	زادى	ADV	T	_	4	advmod	_	Translit=zadi
-3	نېمە	نېمە	NOUN	P	Case=Nom	4	det	_	Translit=nëme
+3	نېمە	نېمە	NOUN	P	Case=Nom	4	nmod	_	Translit=nëme
 4	گەپ	گەپ	NOUN	N	Case=Nom	0	root	_	Translit=gep
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	nsubj	_	Translit=bu
 6	؟!	_	PUNCT	Y	_	4	punct	_	Translit=?!|Morf=Unknown
@@ -13527,7 +13527,7 @@
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئۇنىڭغا	ئۇ	PRON	P	Case=Dat|Number=Sing|Person=3|PronType=Prs	12	nmod	_	Translit=uninggha
 9	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	10	compound	_	Translit=bir
-10	خىل	خىل	NOUN	N	Case=Nom	11	det	_	Translit=xil
+10	خىل	خىل	NOUN	N	Case=Nom	11	nmod	_	Translit=xil
 11	دورا	دورا	NOUN	N	Case=Nom	12	obj	_	Translit=dora
 12	ئارىلاشتۇرۇپلا	_	NOUN	N	_	28	advcl	_	Translit=arilashturupla|Morf=Unknown
 13	گاز	گاز	NOUN	N	Case=Nom	14	compound	_	Translit=gaz
@@ -13866,7 +13866,7 @@
 14	-	-	PUNCT	Y	_	15	punct	_	Translit=-
 15	تۆت	تۆت	NUM	M	Case=Nom|NumType=Ord	13	conj	_	Translit=töt
 16	مىڭ	مىڭ	NUM	M	_	17	nummod	_	Translit=ming
-17	مېتىر	مېتىر	NOUN	Q	Case=Nom	18	det	_	Translit=mëtir
+17	مېتىر	مېتىر	NOUN	Q	Case=Nom	18	nmod	_	Translit=mëtir
 18	ئېگىز	ئېگىز	NOUN	A	Case=Nom	20	amod	_	Translit=ëgiz
 19	تەڭرىتاغ	_	NOUN	N	_	20	nmod	_	Translit=tengritagh|Morf=Unknown
 20	تىزمىسى	_	NOUN	N	_	32	nsubj	_	Translit=tizmisi|Morf=Unknown
@@ -13894,7 +13894,7 @@
 5	600	600	NUM	M	NumType=Ord	8	nummod	_	Translit=600
 6	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 7	1008	1008	NUM	M	NumType=Ord	5	conj	_	Translit=1008
-8	مېتىر	مېتىر	NOUN	Q	Case=Nom	9	det	_	Translit=mëtir
+8	مېتىر	مېتىر	NOUN	Q	Case=Nom	9	nmod	_	Translit=mëtir
 9	ئېگىز	ئېگىز	NOUN	A	Case=Nom	11	amod	_	Translit=ëgiz
 10	بولغان	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	Translit=bolghan
 11	قۇرۇقتاغ	_	NOUN	N	_	15	nsubj	_	Translit=quruqtagh|Morf=Unknown
@@ -14114,7 +14114,7 @@
 5	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
 6	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 7	500	500	NUM	M	NumType=Ord	4	conj	_	Translit=500
-8	مو	مو	NOUN	Q	Case=Nom	9	det	_	Translit=mo
+8	مو	مو	NOUN	Q	Case=Nom	9	nmod	_	Translit=mo
 9	يەرنى	يەر	NOUN	N	Case=Acc	10	obj	_	Translit=yerni
 10	سۇغۇرالايدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=sughuralaydu|Morf=Unknown
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
@@ -14430,7 +14430,7 @@
 4	ئوخشاش	ئوخشاش	ADJ	A	_	5	amod	_	Translit=oxshash
 5	ئۇزۇنلۇقتىكى	ئۇزۇنلۇق	NOUN	N	Case=Nom	8	amod	_	Translit=uzunluqtiki
 6	ئىككى	ئىككى	NUM	M	_	7	nummod	_	Translit=ikki
-7	تال	تال	NOUN	Q	Case=Nom	8	det	_	Translit=tal
+7	تال	تال	NOUN	Q	Case=Nom	8	nmod	_	Translit=tal
 8	تانىنى	_	NOUN	N	_	9	obj	_	Translit=tanini|Morf=Unknown
 9	تېپىپ	تاپ	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	SpaceAfter=No|Translit=tëpip
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
@@ -14745,7 +14745,7 @@
 
 # sent_id = s2756
 # text = مانا بۇلار ئۇنىڭ ھەر كۈنى پىيادە كېتىۋاتقاندا ئىنتايىن چېچەن سەزگۈلىرى كۆزەتكەن ھەرخىل نەرسىلەر ئىدى.
-1	مانا	مانا	NOUN	P	Case=Nom	2	det	_	Translit=mana
+1	مانا	مانا	NOUN	P	Case=Nom	2	nmod	_	Translit=mana
 2	بۇلار	بۇ	PRON	P	Case=Nom|Number=Plur|PronType=Dem	13	nsubj	_	Translit=bular
 3	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	Translit=uning
 4	ھەر	ھەر	DET	P	_	5	det	_	Translit=her
@@ -20711,7 +20711,7 @@
 
 # sent_id = s3201
 # text = نېمە ئىش بولغانلىقىنى چۈشىنەلمىگەن گوركىي سورىدى:
-1	نېمە	نېمە	NOUN	P	Case=Nom	2	det	_	Translit=nëme
+1	نېمە	نېمە	NOUN	P	Case=Nom	2	nmod	_	Translit=nëme
 2	ئىش	ئىش	NOUN	N	Case=Nom	4	obj	_	Translit=ish
 3	بولغانلىقىنى	_	AUX	V	_	2	cop	_	Translit=bolghanliqini|Morf=Unknown
 4	چۈشىنەلمىگەن	_	VERB	V	_	5	acl	_	Translit=chüshinelmigen|Morf=Unknown
@@ -22414,7 +22414,7 @@
 4	بىزدىن	بىز	PRON	P	Case=Abl|Number=Plur|Person=1|PronType=Prs	8	nmod	_	Translit=bizdin
 5	150	150	NUM	M	NumType=Ord	6	nummod	_	Translit=150
 6	مىليون	مىليون	NOUN	M	Case=Nom	7	nummod	_	Translit=milyon
-7	كىلومېتىر	كىلومېتىر	NOUN	Q	Case=Nom	8	det	_	Translit=kilomëtir
+7	كىلومېتىر	كىلومېتىر	NOUN	Q	Case=Nom	8	nmod	_	Translit=kilomëtir
 8	يىراقلىقتا	يىراقلىق	NOUN	N	Case=Loc	9	obl	_	Translit=yiraqliqta
 9	تۇرىدۇ	تۇر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=turidu
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.

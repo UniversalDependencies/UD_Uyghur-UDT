@@ -1727,7 +1727,7 @@
 
 # sent_id = s127
 # text = گاھى چاغلاردا، ئېسىدە قالغان مىسرالارنى يېرىم - يارتا ھالەتتە چۈچۈك تىلى بىلەن دادىسىغا دېكلاماتسىيە قىلىپ بېرەتتى.
-1	گاھى	_	NOUN	N	_	2	det	_	Translit=gahi|Morf=Unknown
+1	گاھى	_	NOUN	N	_	2	nmod	_	Translit=gahi|Morf=Unknown
 2	چاغلاردا	چاغ	NOUN	N	Case=Loc|Number=Plur	16	nmod:tmod	_	SpaceAfter=No|Translit=chaghlarda
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئېسىدە	ئەس	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=ëside
@@ -9219,7 +9219,7 @@
 # sent_id = s666
 # text = دوستلىرىم بىرەر ئىشى بولۇپ قالسا، كۆڭلەكنى بېرىپ تۇرۇشۇمنى ئۆتۈنەتتى.
 1	دوستلىرىم	_	NOUN	N	_	10	nsubj	_	Translit=dostlirim|Morf=Unknown
-2	بىرەر	بىرەر	NOUN	M	Case=Nom	3	det	_	Translit=birer
+2	بىرەر	بىرەر	NOUN	M	Case=Nom	3	nmod	_	Translit=birer
 3	ئىشى	ئىش	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	Translit=ishi
 4	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=bolup
 5	قالسا	قال	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	aux	_	SpaceAfter=No|Translit=qalsa
