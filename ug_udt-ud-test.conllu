@@ -565,7 +565,7 @@
 17	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s38
-# text = نۇرغۇن دەل - دەرەخلەر مورىلاردىن كۆتۈرۈلۈۋاتقان ئىس تۈتەكلەر case نەلەرگىدۇر غايىپ بوپتۇ.
+# text = نۇرغۇن دەل - دەرەخلەر مورىلاردىن كۆتۈرۈلۈۋاتقان ئىس تۈتەكلەر بىلەن نەلەرگىدۇر غايىپ بوپتۇ.
 1	نۇرغۇن	نۇرغۇن	NOUN	A	Case=Nom	4	amod	_	Translit=nurghun
 2	دەل	دەل	ADV	D	_	4	compound:redup	_	Translit=del
 3	-	-	PUNCT	Y	_	2	punct	_	Translit=-
@@ -573,8 +573,8 @@
 5	مورىلاردىن	مورا	NOUN	N	Case=Abl|Number=Plur	6	nmod	_	Translit=morilardin
 6	كۆتۈرۈلۈۋاتقان	_	NOUN	N	_	8	acl	_	Translit=kötürülüwatqan|Morf=Unknown
 7	ئىس	ئىس	NOUN	N	Case=Nom	8	compound:redup	_	Translit=is
-8	تۈتەكلەر	تۈتەك	NOUN	N	Case=Nom|Number=Plur	11	case	_	Translit=tütekler
-9	case	case	X	R	_	8	advmod	_	Translit=bilen
+8	تۈتەكلەر	تۈتەك	NOUN	N	Case=Nom|Number=Plur	11	obl	_	Translit=tütekler
+9	بىلەن	بىلەن	ADP	R	_	8	case	_	Translit=bilen
 10	نەلەرگىدۇر	_	PRON	P	_	11	advmod	_	Translit=nelergidur|Morf=Unknown
 11	غايىپ	_	NOUN	N	_	0	root	_	Translit=ghayip|Morf=Unknown
 12	بوپتۇ	_	VERB	V	_	11	compound	_	SpaceAfter=No|Translit=boptu|Morf=Unknown
@@ -8068,8 +8068,8 @@
 21	يۇقا	_	NOUN	N	_	24	amod	_	Translit=yuqa|Morf=Unknown
 22	بىر	بىر	NUM	M	_	23	nummod	_	Translit=bir
 23	يالاڭ	يالا	NOUN	A	Case=Nom|Number[psor]=Sing|Person[psor]=2	24	amod	_	Translit=yalang
-24	كىيىم	كىيىم	NOUN	N	Case=Nom	26	case	_	Translit=kiyim
-25	بىلەن	بىلەن	ADP	R	_	24	mark	_	Translit=bilen
+24	كىيىم	كىيىم	NOUN	N	Case=Nom	26	obl	_	Translit=kiyim
+25	بىلەن	بىلەن	ADP	R	_	24	case	_	Translit=bilen
 26	قالغانلىقىنى	_	VERB	V	_	27	obj	_	Translit=qalghanliqini|Morf=Unknown
 27	كۆرۈپتۇ	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=körüptu|Morf=Unknown
 28	.	.	PUNCT	Y	_	8	punct	_	Translit=.
@@ -9840,7 +9840,7 @@
 17	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	31	nsubj	_	SpaceAfter=No|Translit=bu
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	ئون	ئون	NUM	M	_	20	nummod	_	Translit=on
-20	يىلدىن	يىل	NOUN	N	Case=Abl	21	case	_	Translit=yildin
+20	يىلدىن	يىل	NOUN	N	Case=Abl	21	nmod	_	Translit=yildin
 21	كېيىنكى	كېيىنكى	NOUN	A	Case=Nom	22	amod	_	Translit=këyinki
 22	جۇڭگونىڭ	جۇڭگو	PROPN	N	Case=Gen	29	nmod:poss	_	Translit=junggoning
 23	يەنىلا	يەنىلا	NOUN	D	Case=Nom	26	obl	_	Translit=yenila
@@ -12197,8 +12197,8 @@
 1	مەخسۇس	مەخسۇس	ADJ	A	Case=Nom	6	advmod	_	Translit=mexsus
 2	ئېلان	ئېلان	NOUN	N	Case=Nom	4	compound:redup	_	Translit=ëlan
 3	-	-	PUNCT	Y	_	2	punct	_	Translit=-
-4	ئۇچۇر	ئۇچۇر	NOUN	N	Case=Nom	5	case	_	Translit=uchur
-5	ئۈچۈن	ئۈچۈن	ADP	C	_	6	advmod	_	Translit=üchün
+4	ئۇچۇر	ئۇچۇر	NOUN	N	Case=Nom	6	obl	_	Translit=uchur
+5	ئۈچۈن	ئۈچۈن	ADP	C	_	4	case	_	Translit=üchün
 6	لايىھەلىگەن	_	VERB	V	_	11	acl	_	Translit=layiheligen|Morf=Unknown
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
 8	نەچچە	نەچچە	DET	P	_	9	det	_	Translit=nechche
