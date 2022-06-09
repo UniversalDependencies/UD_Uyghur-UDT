@@ -2450,8 +2450,8 @@
 7	كېرەك	كېرەك	NOUN	A	Case=Nom	6	conj	_	SpaceAfter=No|Translit=kërek
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 9	ھەمدە	_	CCONJ	C	_	19	cc	_	Translit=hemde|Morf=Missing,2
-10	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	11	compound	_	Translit=buning
-11	ئۈچۈن	ئۈچۈن	ADP	C	_	19	cc	_	Translit=üchün
+10	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	19	obl	_	Translit=buning
+11	ئۈچۈن	ئۈچۈن	ADP	C	_	10	case	_	Translit=üchün
 12	بىلىمنى	بىلىم	NOUN	N	Case=Acc	14	obj	_	Translit=bilimni
 13	جانلىق	جانلىق	ADJ	A	Case=Nom	14	advmod	_	Translit=janliq
 14	ئىشلىتىدىغان	_	VERB	V	_	17	acl	_	Translit=ishlitidighan|Morf=Unknown
@@ -3740,7 +3740,7 @@
 
 # sent_id = s1118
 # text = يەنە كېلىپ تۈركىيىدە تونۇشبىلىشلىرىمۇ يوق ئىكەن.
-1	يەنە	يەنە	ADV	C	_	2	compound	_	Translit=yene
+1	يەنە	يەنە	ADV	C	_	5	advmod	_	Translit=yene
 2	كېلىپ	_	CCONJ	C	_	5	cc	_	Translit=këlip|Morf=Missing,6
 3	تۈركىيىدە	تۈركىي	ADJ	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	Translit=türkiyide
 4	تونۇشبىلىشلىرىمۇ	_	NOUN	N	_	5	nsubj	_	Translit=tonushbilishlirimu|Morf=Unknown
@@ -5027,7 +5027,7 @@
 
 # sent_id = s1204
 # text = - ئۇ ماڭغان چاغدا شەپە چىقارمايدۇ ئەمەسمۇ، - دەپتۇ يەنە بىر چاشقان ئۇنىڭ گېپىنى ماقۇللاپ،
-1	-	-	PUNCT	Y	_	10	punct	_	Translit=-
+1	-	-	PUNCT	Y	_	6	punct	_	Translit=-
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
 3	ماڭغان	ماڭ	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	4	acl	_	Translit=mangghan
 4	چاغدا	چاغ	NOUN	N	Case=Loc	6	obl	_	Translit=chaghda
@@ -5198,9 +5198,9 @@
 
 # sent_id = s1216
 # text = ئاڭلاشلارغا قارىغاندا، چاشقانلار تا ھازىرغىچە بۇ ئىشنى دەتالاش قىلىدىكەن،
-1	ئاڭلاشلارغا	_	VERB	V	_	2	compound	_	Translit=anglashlargha|Morf=Unknown
-2	قارىغاندا	_	ADP	R	_	10	cc	_	SpaceAfter=No|Translit=qarighanda|Morf=Missing,6
-3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
+1	ئاڭلاشلارغا	_	VERB	V	_	10	advcl	_	Translit=anglashlargha|Morf=Unknown
+2	قارىغاندا	_	ADP	R	_	1	case	_	SpaceAfter=No|Translit=qarighanda|Morf=Missing,6
+3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 4	چاشقانلار	چاشقان	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	Translit=chashqanlar
 5	تا	تا	ADP	R	_	6	advmod	_	Translit=ta
 6	ھازىرغىچە	_	ADV	D	_	10	case	_	Translit=hazirghiche|Morf=Unknown
@@ -5842,15 +5842,15 @@
 20	كېتىۋاتقانلىقىغا	_	NOUN	N	_	21	obl	_	Translit=këtiwatqanliqigha|Morf=Unknown
 21	قارايدىغان	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qaraydighan|Morf=Unknown
 22	،	،	PUNCT	Y	_	32	punct	_	Translit=,
-23	«	«	PUNCT	Y	_	30	punct	_	SpaceAfter=No|Translit=«
+23	«	«	PUNCT	Y	_	24	punct	_	SpaceAfter=No|Translit=«
 24	مانا	مانا	NOUN	P	Case=Nom	32	ccomp	_	SpaceAfter=No|Translit=mana
-25	،	،	PUNCT	Y	_	24	punct	_	Translit=,
+25	،	،	PUNCT	Y	_	30	punct	_	Translit=,
 26	يەنە	يەنە	ADV	D	_	27	nmod	_	Translit=yene
 27	بىر	بىر	NUM	M	_	28	nummod	_	Translit=bir
 28	كۈن	كۈن	NOUN	N	Case=Nom	30	nsubj	_	Translit=kün
 29	كەلمەسكە	_	VERB	V	_	30	advmod	_	Translit=kelmeske|Morf=Unknown
 30	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	SpaceAfter=No|Translit=ketti
-31	»	»	PUNCT	Y	_	30	punct	_	Translit=»
+31	»	»	PUNCT	Y	_	24	punct	_	Translit=»
 32	دەيدىغان	_	VERB	V	_	21	conj	_	Translit=deydighan|Morf=Unknown
 33	بولدۇم	بول	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	32	aux	_	SpaceAfter=No|Translit=boldum
 34	.	.	PUNCT	Y	_	33	punct	_	Translit=.
@@ -6024,7 +6024,7 @@
 2	بەزىدە	_	PRON	P	_	9	obl	_	Translit=bezide|Morf=Missing,1
 3	قۇياش	قۇياش	NOUN	N	Case=Nom	2	conj	_	Translit=quyash
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	SpaceAfter=No|Translit=bilen
-5	،	،	PUNCT	Y	_	7	punct	_	Translit=,
+5	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 6	بەزىدە	_	PRON	P	_	3	conj	_	Translit=bezide|Morf=Missing,1
 7	شامال	شامال	NOUN	N	Case=Nom	6	conj	_	Translit=shamal
 8	بىلەن	بىلەن	ADP	R	_	7	case	_	Translit=bilen

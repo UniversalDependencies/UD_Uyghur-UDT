@@ -1746,7 +1746,7 @@
 
 # sent_id = s1915
 # text = _ ئەسلىدىغۇ مۇنداق كەم ئەقىللىق قىلمىساق بوپتىكەن.
-1	_	_	PUNCT	Y	_	6	punct	_	Translit=_|Morf=Unknown
+1	_	_	PUNCT	Y	_	2	punct	_	Translit=_|Morf=Unknown
 2	ئەسلىدىغۇ	_	NOUN	N	_	0	root	_	Translit=eslidighu|Morf=Unknown
 3	مۇنداق	مۇنداق	ADV	P	_	6	advmod	_	Translit=mundaq
 4	كەم	كەم	NOUN	A	Case=Nom	5	amod	_	Translit=kem
@@ -4362,7 +4362,7 @@
 2	بىردەم	بىردەم	NOUN	D	Case=Nom	9	obl	_	Translit=birdem
 3	كۈمۈش	كۈمۈش	NOUN	N	Case=Nom	4	amod	_	Translit=kümüsh
 4	رەڭدە	رەڭ	NOUN	N	Case=Loc	2	conj	_	SpaceAfter=No|Translit=rengde
-5	،	،	PUNCT	Y	_	8	punct	_	Translit=,
+5	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 6	بىردەم	بىردەم	NOUN	D	Case=Nom	4	conj	_	Translit=birdem
 7	يېشىل	يېشىل	NOUN	A	Case=Nom	8	amod	_	Translit=yëshil
 8	رەڭدە	رەڭ	NOUN	N	Case=Loc	6	conj	_	Translit=rengde
@@ -11005,7 +11005,7 @@
 7	كۆزلىرى	كۆز	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	nsubj	_	Translit=közliri
 8	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	13	obl	_	Translit=bir
 9	ماڭا	مەن	PRON	P	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	conj	_	SpaceAfter=No|Translit=manga
-10	،	،	PUNCT	Y	_	12	punct	_	Translit=,
+10	،	،	PUNCT	Y	_	11	punct	_	Translit=,
 11	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	9	conj	_	Translit=bir
 12	مومىسىغا	موما	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	11	conj	_	Translit=momisigha
 13	تىكىلەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tikiletti|Morf=Unknown
@@ -11950,7 +11950,7 @@
 1	نەۋرەم	نەۋرە	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	18	nsubj	_	Translit=newrem
 2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	8	obl	_	Translit=bir
 3	ماڭا	مەن	PRON	P	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	conj	_	SpaceAfter=No|Translit=manga
-4	،	،	PUNCT	Y	_	7	punct	_	Translit=,
+4	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 5	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	3	conj	_	Translit=bir
 6	يىغلاۋاتقان	_	NOUN	N	_	7	amod	_	Translit=yighlawatqan|Morf=Unknown
 7	مومىسىغا	موما	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	conj	_	Translit=momisigha
@@ -16810,8 +16810,8 @@
 
 # sent_id = s2893
 # text = شۇنىڭ بىلەن ئارچېر تەتقىق قىلىشنى باشلىۋەتتى.
-1	شۇنىڭ	_	CCONJ	C	_	2	compound	_	Translit=shuning|Morf=Missing,1
-2	بىلەن	بىلەن	ADP	C	_	6	cc	_	Translit=bilen
+1	شۇنىڭ	_	CCONJ	C	_	6	cc	_	Translit=shuning|Morf=Missing,1
+2	بىلەن	بىلەن	ADP	C	_	1	fixed	_	Translit=bilen
 3	ئارچېر	_	NOUN	N	_	6	nsubj	_	Translit=archër|Morf=Unknown
 4	تەتقىق	_	NOUN	N	_	5	compound	_	Translit=tetqiq|Morf=Unknown
 5	قىلىشنى	قىل	VERB	V	Case=Acc|VerbForm=Ger	6	obj	_	Translit=qilishni
