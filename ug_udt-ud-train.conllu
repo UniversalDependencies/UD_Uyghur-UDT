@@ -5502,7 +5502,7 @@
 2	ئۆزىنىڭ	ئۆز	PRON	P	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	3	nsubj	_	Translit=özining
 3	پادىشاھ	پادىشاھ	NOUN	N	Case=Nom	5	nummod	_	Translit=padishah
 4	بولغانلىقىدىن	_	NOUN	N	_	3	cop	_	Translit=bolghanliqidin|Morf=Unknown
-5	پەخىرلەنگەن	پەخىرلەن	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	8	nummod	_	Translit=pexirlengen
+5	پەخىرلەنگەن	پەخىرلەن	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	8	advcl	_	Translit=pexirlengen
 6	ھالدا	ھال	NOUN	N	Case=Loc	5	case	_	Translit=halda
 7	بۇيرۇق	بۇيرۇق	NOUN	N	Case=Nom	8	obj	_	Translit=buyruq
 8	چۈشۈرۈپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chüshürüptu|Morf=Unknown
@@ -5539,7 +5539,7 @@
 # text = بىراق بۇيرۇققا بويسۇنۇشقا مەجبۇر بوپتۇ.
 1	بىراق	بىراق	CCONJ	C	_	5	cc	_	Translit=biraq
 2	بۇيرۇققا	بۇيرۇق	NOUN	N	Case=Dat	3	obl	_	Translit=buyruqqa
-3	بويسۇنۇشقا	_	VERB	V	_	5	nummod	_	Translit=boysunushqa|Morf=Unknown
+3	بويسۇنۇشقا	_	VERB	V	_	5	advcl	_	Translit=boysunushqa|Morf=Unknown
 4	مەجبۇر	مەجبۇر	ADJ	A	_	5	compound	_	Translit=mejbur
 5	بوپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=boptu|Morf=Unknown
 6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
@@ -8559,7 +8559,7 @@
 
 # sent_id = s2362
 # text = كۆپلىگەن تاۋى نازۇك كىشىلەرنىڭ بىرەر – يېرىم ئېغىز قاتتىق سۆز ئاڭلىسىلا چىدىماي قالىدىغانلىقىنى تونۇپ يەتكەن بولغاچقا، ئىمكانىيەتنىڭ بارىچە سەزگۈر مىجەزىمنى تىزگىنلەپ كەلدىم.
-1	كۆپلىگەن	كۆپلىگەن	DET	M	_	4	nummod	_	Translit=köpligen
+1	كۆپلىگەن	كۆپلىگەن	DET	M	_	4	det	_	Translit=köpligen
 2	تاۋى	_	NOUN	N	_	3	compound	_	Translit=tawi|Morf=Unknown
 3	نازۇك	نازۇك	ADJ	A	_	4	amod	_	Translit=nazuk
 4	كىشىلەرنىڭ	_	NOUN	N	_	13	nmod:poss	_	Translit=kishilerning|Morf=Unknown

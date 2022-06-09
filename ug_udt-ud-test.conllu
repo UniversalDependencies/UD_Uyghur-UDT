@@ -925,8 +925,8 @@
 10	-	-	PUNCT	Y	_	11	punct	_	Translit=-
 11	دە	_	PART	T	_	9	mark	_	SpaceAfter=No|Translit=de|Morf=Missing,1
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
-13	يەنە	يەنە	ADV	D	_	16	nummod	_	Translit=yene
-14	بىر	بىر	NUM	M	NumType=Ord	13	fixed	_	Translit=bir
+13	يەنە	يەنە	ADV	D	_	16	advmod	_	Translit=yene
+14	بىر	بىر	NUM	M	NumType=Ord	16	nummod	_	Translit=bir
 15	سېرىق	سېرىق	ADJ	A	_	16	amod	_	Translit=sëriq
 16	قوڭغۇزنى	قوڭغۇز	NOUN	N	Case=Acc	17	obj	_	Translit=qongghuzni
 17	چىشلىگىنىچە	_	NOUN	N	_	20	advcl	_	Translit=chishliginiche|Morf=Unknown
@@ -1580,8 +1580,8 @@
 2	سۆزنى	سۆز	NOUN	N	Case=Acc	3	obj	_	Translit=sözni
 3	ئاڭلىغان	ئاڭلى	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	4	acl	_	Translit=anglighan
 4	كۇڭزى	_	NOUN	N	_	9	nsubj	_	Translit=kungzi|Morf=Unknown
-5	يەنە	يەنە	ADV	D	_	7	nummod	_	Translit=yene
-6	بىر	بىر	NUM	M	NumType=Ord	5	fixed	_	Translit=bir
+5	يەنە	يەنە	ADV	D	_	7	advmod	_	Translit=yene
+6	بىر	بىر	NUM	M	NumType=Ord	7	nummod	_	Translit=bir
 7	قېتىم	قېتىم	ADV	Q	_	9	advmod	_	Translit=qëtim
 8	تەزىم	تەزىم	NOUN	N	Case=Nom	9	compound	_	Translit=tezim
 9	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qilidu

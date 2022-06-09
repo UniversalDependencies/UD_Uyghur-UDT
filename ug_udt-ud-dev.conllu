@@ -3973,7 +3973,7 @@
 
 # sent_id = s1134
 # text = كۆپلىگەن شئېرمۇزىكىلارنى ئىجاد قىلىپ، ئۇلارغا ئۆگىتىپتۇ...
-1	كۆپلىگەن	كۆپلىگەن	DET	M	_	2	nummod	_	Translit=köpligen
+1	كۆپلىگەن	كۆپلىگەن	DET	M	_	2	det	_	Translit=köpligen
 2	شئېرمۇزىكىلارنى	_	NOUN	N	_	4	obj	_	Translit=shërmuzikilarni|Morf=Unknown
 3	ئىجاد	ئىجاد	NOUN	N	Case=Nom	4	compound	_	Translit=ijad
 4	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	SpaceAfter=No|Translit=qilip
