@@ -2815,11 +2815,11 @@
 17	ئىجادىي	ئىجادىي	ADJ	A	_	18	amod	_	Translit=ijadiy
 18	قابىليەتكە	_	NOUN	N	_	19	nmod	_	Translit=qabilyetke|Morf=Unknown
 19	ئىگە	ئىگە	NOUN	N	Case=Nom	20	amod	_	Translit=ige
-20	ئادەم	ئادەم	NOUN	N	Case=Nom	15	nsubj	_	Translit=adem
+20	ئادەم	ئادەم	NOUN	N	Case=Nom	25	nsubj	_	Translit=adem
 21	ئۆزىنىڭ	ئۆز	PRON	P	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	23	nmod:poss	_	Translit=özining
 22	كىچىككىنە	كىچىككىنە	ADJ	A	_	23	amod	_	Translit=kichikkine
-23	خىياللىرىغىمۇ	_	NOUN	N	_	15	obl	_	Translit=xiyallirighimu|Morf=Unknown
-24	ئىتىبارسىز	_	NOUN	N	_	15	compound	_	Translit=itibarsiz|Morf=Unknown
+23	خىياللىرىغىمۇ	_	NOUN	N	_	25	obl	_	Translit=xiyallirighimu|Morf=Unknown
+24	ئىتىبارسىز	_	NOUN	N	_	25	compound	_	Translit=itibarsiz|Morf=Unknown
 25	قارىمايدۇ	قارى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	appos	_	SpaceAfter=No|Translit=qarimaydu
 26	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 

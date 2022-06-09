@@ -8519,7 +8519,7 @@
 2	تۇرقىدا	تۇرق	NOUN	R	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	Translit=turqida
 3	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
 4	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	5	advmod	_	Translit=tëximu
-5	ئاجىز	ئاجىز	NOUN	A	Case=Nom	6	nsubj	_	Translit=ajiz
+5	ئاجىز	ئاجىز	NOUN	A	Case=Nom	6	xcomp	_	Translit=ajiz
 6	كۆرۈنەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=körünetti|Morf=Unknown
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
@@ -9086,8 +9086,8 @@
 11	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	17	acl	_	Translit=ketken
 12	بولسىمۇ	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	cop	_	SpaceAfter=No|Translit=bolsimu
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
-14	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Translit=men
-15	ئۈچۈن	ئۈچۈن	ADP	C	_	17	csubj	_	Translit=üchün
+14	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	obl	_	Translit=men
+15	ئۈچۈن	ئۈچۈن	ADP	C	_	14	case	_	Translit=üchün
 16	تولىمۇ	_	ADV	D	_	17	advmod	_	Translit=tolimu|Morf=Unknown
 17	ئەتىۋارلىق	ئەتىۋارلىق	ADJ	A	Case=Nom	0	root	_	Translit=etiwarliq
 18	ئىدى	ئى	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	SpaceAfter=No|Translit=idi
@@ -12108,7 +12108,7 @@
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	قىز	قىز	NOUN	N	Case=Nom	12	nsubj	_	Translit=qiz
 6	خۇددى	خۇددى	ADJ	T	Case=Nom	7	case	_	Translit=xuddi
-7	زەينىدىندەكلا	_	NOUN	N	_	12	nsubj	_	Translit=zeynidindekla|Morf=Unknown
+7	زەينىدىندەكلا	زەينى	PROPN	N	_	12	obl	_	Translit=zeynidindekla|Morf=Unknown
 8	خۇش	خۇش	ADJ	A	_	9	compound	_	Translit=xush
 9	پېئىل	پېئىل	NOUN	V	Case=Nom	16	parataxis	_	SpaceAfter=No|Translit=pëil
 10	،	،	PUNCT	Y	_	12	punct	_	Translit=,
@@ -12565,7 +12565,7 @@
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 6	چۆچەكنى	چۆچەك	NOUN	N	Case=Acc	7	obj	_	Translit=chöchekni
 7	سۆزلەپ	_	VERB	V	_	8	advcl	_	Translit=sözlep|Morf=Unknown
-8	كەلگۈچى	_	VERB	V	_	23	nsubj	_	Translit=kelgüchi|Morf=Unknown
+8	كەلگۈچى	_	VERB	V	_	23	advcl	_	Translit=kelgüchi|Morf=Unknown
 9	ياكى	ياكى	CCONJ	C	_	11	cc	_	Translit=yaki
 10	خاتىرىلەپ	_	VERB	V	_	11	advcl	_	Translit=xatirilep|Morf=Unknown
 11	كەلگۈچىلەرنىڭ	_	VERB	V	_	8	conj	_	Translit=kelgüchilerning|Morf=Unknown
@@ -12699,7 +12699,7 @@
 20	ساختا	ساختا	ADJ	A	_	21	amod	_	Translit=saxta
 21	شەكىلگە	_	NOUN	N	_	23	nmod:cau	_	Translit=shekilge|Morf=Unknown
 22	سادىق	سادىق	ADJ	A	_	23	compound	_	Translit=sadiq
-23	بولۇشۇم	بول	VERB	V	Case=Nom|Number[psor]=Sing|Person[psor]=1|VerbForm=Ger	24	csubj	_	Translit=bolushum
+23	بولۇشۇم	بول	VERB	V	Case=Nom|Number[psor]=Sing|Person[psor]=1|VerbForm=Ger	24	xcomp	_	Translit=bolushum
 24	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
 25	.	.	PUNCT	Y	_	24	punct	_	Translit=.
 
@@ -12914,7 +12914,7 @@
 # text = بۇ خەتنىڭ شەكلى مەيلى قانچىلىك كۆركەم، رەڭدار بولۇشىدىن قەتئىينەزەر، ئۇ ئۆز ئىچىگە ئالغان مەزمۇن شۇ قەدەر ۋەھىمىلىك ئىدى.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	خەتنىڭ	خەت	NOUN	N	Case=Gen	3	nmod:poss	_	Translit=xetning
-3	شەكلى	_	NOUN	N	_	19	nsubj	_	Translit=shekli|Morf=Unknown
+3	شەكلى	_	NOUN	N	_	19	dislocated	_	Translit=shekli|Morf=Unknown
 4	مەيلى	مەيل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=meyli
 5	قانچىلىك	قانچىلىك	ADJ	P	Case=Nom	9	advmod	_	Translit=qanchilik
 6	كۆركەم	كۆركەم	ADJ	A	Case=Nom	9	nsubj	_	SpaceAfter=No|Translit=körkem
