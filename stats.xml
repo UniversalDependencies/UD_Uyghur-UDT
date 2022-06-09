@@ -10,7 +10,7 @@
     <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
     <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2888" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
+  <lemmas unique="2889" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12066" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">2809</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, خۇددى, ئوخشاش, سادىق -->
     <tag name="ADP">627</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1114</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="AUX">1115</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">116</tag><!-- _, بولسۇن, پاھ, ھەي, ياق, ۋاي, رەھمەت, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">68</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, زەينى, نەزىرە -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8119</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="VERB">8118</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -41,7 +41,7 @@
     <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">995</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">793</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10018</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10019</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
     <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- نەزىرىدە -->
     <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">259</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, بولمىسا, بولسىڭىز, تۇرسا, قالسا, قارىسام, بولساڭ -->
@@ -79,41 +79,41 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
     <dep name="acl">743</dep>
-    <dep name="advcl">1532</dep>
+    <dep name="advcl">1531</dep>
     <dep name="advcl:cond">20</dep>
     <dep name="advmod">1849</dep>
     <dep name="advmod:emph">30</dep>
-    <dep name="amod">2398</dep>
+    <dep name="amod">2409</dep>
     <dep name="appos">123</dep>
     <dep name="aux">815</dep>
-    <dep name="case">585</dep>
+    <dep name="case">573</dep>
     <dep name="cc">633</dep>
     <dep name="ccomp">432</dep>
     <dep name="compound">1598</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
-    <dep name="conj">1034</dep>
-    <dep name="cop">641</dep>
+    <dep name="conj">1038</dep>
+    <dep name="cop">642</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">904</dep>
     <dep name="discourse">252</dep>
-    <dep name="dislocated">14</dep>
+    <dep name="dislocated">15</dep>
     <dep name="fixed">118</dep>
     <dep name="flat">54</dep>
     <dep name="mark">200</dep>
-    <dep name="nmod">1357</dep>
+    <dep name="nmod">1355</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
     <dep name="nmod:tmod">88</dep>
-    <dep name="nsubj">3798</dep>
+    <dep name="nsubj">3792</dep>
     <dep name="nummod">739</dep>
-    <dep name="obj">2311</dep>
+    <dep name="obj">2310</dep>
     <dep name="obl">3959</dep>
     <dep name="obl:tmod">4</dep>
-    <dep name="orphan">8</dep>
+    <dep name="orphan">13</dep>
     <dep name="parataxis">405</dep>
     <dep name="punct">7807</dep>
     <dep name="reparandum">1</dep>

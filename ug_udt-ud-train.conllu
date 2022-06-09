@@ -5263,7 +5263,7 @@
 4	ئاسماننىڭ	ئاسمان	NOUN	N	Case=Gen	6	nmod:poss	_	Translit=asmanning
 5	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
 6	بۇرجىكىدىن	بۇرجەك	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	2	conj	_	Translit=burjikidin
-7	باشقا	باشقا	ADJ	A	Case=Nom	6	case	_	Translit=bashqa
+7	باشقا	باشقا	ADJ	A	Case=Nom	6	amod	_	Translit=bashqa
 8	ھېچنېمىنى	_	PRON	P	_	9	obj	_	Translit=hëchnëmini|Morf=Unknown
 9	كۆرگىلى	_	VERB	V	_	10	csubj	_	Translit=körgili|Morf=Unknown
 10	بولمايتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bolmaytti|Morf=Unknown

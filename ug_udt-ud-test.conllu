@@ -12107,7 +12107,7 @@
 3	كەلگەن	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	Translit=kelgen
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	قىز	قىز	NOUN	N	Case=Nom	12	nsubj	_	Translit=qiz
-6	خۇددى	خۇددى	ADJ	T	Case=Nom	7	case	_	Translit=xuddi
+6	خۇددى	خۇددى	ADJ	T	Case=Nom	7	amod	_	Translit=xuddi
 7	زەينىدىندەكلا	زەينى	PROPN	N	_	12	obl	_	Translit=zeynidindekla|Morf=Unknown
 8	خۇش	خۇش	ADJ	A	_	9	compound	_	Translit=xush
 9	پېئىل	پېئىل	NOUN	V	Case=Nom	16	parataxis	_	SpaceAfter=No|Translit=pëil

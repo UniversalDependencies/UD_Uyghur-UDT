@@ -1750,7 +1750,7 @@
 3	ئاكاڭ	ئاكا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	7	nsubj	_	Translit=akang
 4	تېخىچە	تېخىچە	ADJ	D	Case=Nom	7	advmod	_	Translit=tëxiche
 5	سالتاڭ	سالتاڭ	NOUN	N	Case=Nom	7	obl	_	Translit=saltang
-6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	case	_	Translit=pëti
+6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	amod	_	Translit=pëti
 7	ئۆتۈپ	ئۆت	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ötüp
 8	كېتىۋاتىدۇ	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=këtiwatidu|Morf=Unknown
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
@@ -6161,7 +6161,7 @@
 3	ۋارشاۋادا	_	NOUN	N	_	2	appos	_	Translit=warshawada|Morf=Unknown
 4	ئىلگىركى	ئىلگىركى	ADV	N	_	5	nmod	_	Translit=ilgirki
 5	يىللاردىكىگە	_	NOUN	N	_	13	obl	_	Translit=yillardikige|Morf=Unknown
-6	ئوخشاش	ئوخشاش	ADJ	A	Case=Nom	5	case	_	SpaceAfter=No|Translit=oxshash
+6	ئوخشاش	ئوخشاش	ADJ	A	Case=Nom	5	amod	_	SpaceAfter=No|Translit=oxshash
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	دۆلەت	دۆلەت	NOUN	N	Case=Nom	9	compound	_	Translit=dölet
 9	بايرىمىنى	بايرام	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	11	obj	_	Translit=bayrimini
@@ -7752,7 +7752,7 @@
 1	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	Translit=biz
 2	قەدىردان	قەدىردان	ADJ	A	_	3	amod	_	Translit=qedirdan
 3	ئوقۇتقۇچىلىرىمىزغا	_	NOUN	N	_	8	obl	_	Translit=oqutquchilirimizgha|Morf=Unknown
-4	خۇددى	خۇددى	ADJ	T	Case=Nom	5	case	_	Translit=xuddi
+4	خۇددى	خۇددى	ADJ	T	Case=Nom	5	amod	_	Translit=xuddi
 5	قۇشلاردەك	_	NOUN	N	_	6	obl	_	Translit=qushlardek|Morf=Unknown
 6	چۇۋۇرلىشىپ	_	VERB	V	_	8	advcl	_	Translit=chuwurliship|Morf=Unknown
 7	سالام	سالا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	8	compound	_	Translit=salam
@@ -9234,7 +9234,7 @@
 5	ئۇسۇلىدىن	ئۇسۇل	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=usulidin
 6	پايدىلنىپ	_	NOUN	N	_	5	case	_	Translit=paydilnip|Morf=Unknown
 7	ئەدەبىيات	ئەدەبىيات	NOUN	N	Case=Nom	10	nmod	_	Translit=edebiyat
-8	توغرىسىدىكى	توغرا	ADJ	R	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	case	_	Translit=toghrisidiki
+8	توغرىسىدىكى	توغرا	ADJ	R	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	amod	_	Translit=toghrisidiki
 9	بەزى	بەزى	DET	P	Case=Nom	10	det	_	Translit=bezi
 10	قاراشلىرىمنى	_	NOUN	N	_	12	obj	_	Translit=qarashlirimni|Morf=Unknown
 11	ئوتتۇرغا	_	NOUN	N	_	12	obl	_	Translit=otturgha|Morf=Unknown
@@ -10020,7 +10020,7 @@
 4	نورماندى	_	NOUN	N	_	12	obj	_	Translit=normandi|Morf=Unknown
 5	›	›	PUNCT	N	_	4	punct	_	Translit=›
 6	›	›	PUNCT	N	_	4	punct	_	Translit=›
-7	ناملىق	_	ADJ	A	_	4	case	_	Translit=namliq|Morf=Unknown
+7	ناملىق	_	ADJ	A	_	4	amod	_	Translit=namliq|Morf=Unknown
 8	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	det	_	Translit=bu
 9	پاراخوتنى	_	NOUN	N	_	4	appos	_	Translit=paraxotni|Morf=Unknown
 10	ئېھتىيات	ئېھتىيات	NOUN	N	Case=Nom	12	obl	_	Translit=ëhtiyat
@@ -10044,7 +10044,7 @@
 3	نورماندى	_	NOUN	N	_	19	nsubj	_	Translit=normandi|Morf=Unknown
 4	›	›	PUNCT	N	_	3	punct	_	Translit=›
 5	›	›	PUNCT	N	_	3	punct	_	Translit=›
-6	ناملىق	_	ADJ	A	_	3	case	_	Translit=namliq|Morf=Unknown
+6	ناملىق	_	ADJ	A	_	3	amod	_	Translit=namliq|Morf=Unknown
 7	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	3	det	_	Translit=bu
 8	پاراخوت	_	NOUN	N	_	3	appos	_	Translit=paraxot|Morf=Unknown
 9	ئېنگىلز	_	NOUN	N	_	10	compound	_	Translit=ëngilz|Morf=Unknown
@@ -10284,7 +10284,7 @@
 12	نورماندى	_	NOUN	N	_	17	obl	_	Translit=normandi|Morf=Unknown
 13	›	›	PUNCT	N	_	12	punct	_	Translit=›
 14	›	›	PUNCT	N	_	12	punct	_	Translit=›
-15	ناملىق	_	ADJ	A	_	12	case	_	Translit=namliq|Morf=Unknown
+15	ناملىق	_	ADJ	A	_	12	amod	_	Translit=namliq|Morf=Unknown
 16	پاراخوتقا	_	NOUN	N	_	12	appos	_	Translit=paraxotqa|Morf=Unknown
 17	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	Translit=qarap
 18	كېلىۋاتاتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=këliwatatti|Morf=Unknown
@@ -10370,7 +10370,7 @@
 14	نورماندى	_	NOUN	N	_	19	nmod:poss	_	Translit=normandi|Morf=Unknown
 15	›	›	PUNCT	N	_	14	punct	_	Translit=›
 16	›	›	PUNCT	N	_	14	punct	_	Translit=›
-17	ناملىق	_	ADJ	A	_	14	case	_	Translit=namliq|Morf=Unknown
+17	ناملىق	_	ADJ	A	_	14	amod	_	Translit=namliq|Morf=Unknown
 18	پاراخوتنىڭ	_	NOUN	N	_	14	appos	_	Translit=paraxotning|Morf=Unknown
 19	بېقىنىغا	_	NOUN	N	_	20	obl	_	Translit=bëqinigha|Morf=Unknown
 20	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	21	advcl	_	Translit=këlip
@@ -10407,7 +10407,7 @@
 3	نورماندى	_	NOUN	N	_	21	nmod	_	Translit=normandi|Morf=Unknown
 4	›	›	PUNCT	N	_	3	punct	_	Translit=›
 5	›	›	PUNCT	N	_	3	punct	_	Translit=›
-6	ناملىق	_	ADJ	A	_	3	case	_	Translit=namliq|Morf=Unknown
+6	ناملىق	_	ADJ	A	_	3	amod	_	Translit=namliq|Morf=Unknown
 7	پاراخوتتا	_	NOUN	N	_	3	appos	_	Translit=paraxotta|Morf=Unknown
 8	يىگىرمە	يىگىرمە	NUM	M	Case=Nom|NumType=Ord	9	compound	_	Translit=yigirme
 9	بەش	بەش	NUM	M	_	10	nummod	_	Translit=besh
@@ -11128,7 +11128,7 @@
 8	نورماندى	_	NOUN	N	_	20	obl	_	Translit=normandi|Morf=Unknown
 9	›	›	PUNCT	N	_	8	punct	_	Translit=›
 10	›	›	PUNCT	N	_	8	punct	_	Translit=›
-11	ناملىق	_	ADJ	A	_	8	case	_	Translit=namliq|Morf=Unknown
+11	ناملىق	_	ADJ	A	_	8	amod	_	Translit=namliq|Morf=Unknown
 12	پاراخوتتىن	_	NOUN	N	_	8	appos	_	Translit=paraxottin|Morf=Unknown
 13	‹	‹	PUNCT	Y	_	15	punct	_	Translit=‹
 14	‹	‹	PUNCT	Y	_	15	punct	_	Translit=‹
