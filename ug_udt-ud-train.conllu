@@ -1182,7 +1182,7 @@
 14	ئويناپ	ئوينا	VERB	V	Aspect=Perf|VerbForm=Conv	25	advmod	_	SpaceAfter=No|Translit=oynap
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	تەكشۈرۈش	_	VERB	V	_	18	nmod	_	Translit=tekshürüsh|Morf=Unknown
-17	توغرىسىدىكى	توغرا	ADJ	R	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	case	_	Translit=toghrisidiki
+17	توغرىسىدىكى	توغرا	ADJ	R	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	advmod	_	Translit=toghrisidiki
 18	ئۇچۇرغا	ئۇچۇر	NOUN	N	Case=Dat	19	obj	_	Translit=uchurgha
 19	ئېرىشكەن	ئېرىش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=ërishken
 20	ھامان	ھامان	ADV	D	_	25	advmod	_	Translit=haman
@@ -10691,7 +10691,7 @@
 # text = سائەت توققۇزلار ئەتراپىدا ئىنستىتۇت دوختۇرخانىسىغا چىقىپ كەتكەن ئايالىم دوختۇرغا كۆرۈندىمۇ، كۆرۈنمىدىمۇ بىلمەيمەن، كۆزلىرىدىن، تاتارغان چىرايىدىن قايغۇ–ھەسرەت ئارىلاشقان جىددىيلىك ئۆرلىگەن ھالدا ئۆيگە قايتىپ كەلدى.
 1	سائەت	سائەت	NOUN	N	Case=Nom	2	nsubj	_	Translit=saet
 2	توققۇزلار	_	NOUN	N	_	25	obl	_	Translit=toqquzlar|Morf=Unknown
-3	ئەتراپىدا	ئەتراپىدا	DET	N	_	2	case	_	Translit=etrapida
+3	ئەتراپىدا	ئەتراپىدا	DET	N	_	2	det	_	Translit=etrapida
 4	ئىنستىتۇت	ئىنستىتۇت	ADJ	N	Case=Nom	5	nmod	_	Translit=institut
 5	دوختۇرخانىسىغا	دوختۇرخانا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	7	nmod:cau	_	Translit=doxturxanisigha
 6	چىقىپ	چىق	VERB	V	Aspect=Perf|VerbForm=Conv	7	compound:lvc	_	Translit=chiqip
@@ -18254,7 +18254,7 @@
 
 # sent_id = s3009
 # text = بىزنىڭ سوراپ-سوراپ تۈگىتەلمەيدىغان "نېمە ئۈچۈن" لىرىمىز بار،
-1	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	case	_	Translit=bizning
+1	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	obl	_	Translit=bizning
 2	سوراپ-سوراپ	_	NOUN	N	_	3	advmod	_	Translit=sorap-sorap|Morf=Unknown
 3	تۈگىتەلمەيدىغان	_	NOUN	N	_	6	acl	_	Translit=tügitelmeydighan|Morf=Unknown
 4	"	"	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit="

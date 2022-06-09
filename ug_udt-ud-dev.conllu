@@ -120,8 +120,8 @@
 
 # sent_id = s906
 # text = بۇنىڭ بىلەن سېنىڭ قەلب قەسرەڭدىكى يارقىن ئوبرازىم كاۋا پېلىكىدەك قۇرۇپ، گۆشى يوق قۇرۇق ئىسكىلىت جازىسىغا ئايلىنىپ قالاتتى.
-1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	2	case	_	Translit=buning
-2	بىلەن	بىلەن	ADP	R	_	17	advmod	_	Translit=bilen
+1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	17	obl	_	Translit=buning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	سېنىڭ	_	PRON	P	_	5	nmod:poss	_	Translit=sëning|Morf=Unknown
 4	قەلب	قەلب	NOUN	N	Case=Nom	5	nmod:poss	_	Translit=qelb
 5	قەسرەڭدىكى	_	NOUN	N	_	7	amod	_	Translit=qesrengdiki|Morf=Unknown
@@ -9258,8 +9258,8 @@
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Translit=u
 3	ئۆسمۈر	ئۆسمۈر	NOUN	N	Case=Nom	4	amod	_	Translit=ösmür
 4	كىتابخانلارنىڭ	كىتابخان	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	Translit=kitabxanlarning
-5	ئەدەبىياتقا	ئەدەبىيات	NOUN	N	Case=Dat	7	nmod	_	Translit=edebiyatqa
-6	بولغان	بول	AUX	V	Case=Nom|Tense=Past|VerbForm=Ger	5	case	_	Translit=bolghan
+5	ئەدەبىياتقا	ئەدەبىيات	NOUN	N	Case=Dat	7	advcl	_	Translit=edebiyatqa
+6	بولغان	بول	AUX	V	Case=Nom|Tense=Past|VerbForm=Ger	5	cop	_	Translit=bolghan
 7	قىزىقىشىنى	قىزىق	VERB	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	8	obj	_	Translit=qiziqishini
 8	قوزغىيالىسا	_	VERB	V	_	12	parataxis	_	SpaceAfter=No|Translit=qozghiyalisa|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
@@ -10253,7 +10253,7 @@
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	22	parataxis	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
 9	›	›	PUNCT	N	_	7	punct	_	Translit=›
-10	ناملىق	_	ADJ	A	_	7	case	_	Translit=namliq|Morf=Unknown
+10	ناملىق	_	ADJ	A	_	7	amod	_	Translit=namliq|Morf=Unknown
 11	چوڭ	چوڭ	ADJ	A	_	7	amod	_	Translit=chong
 12	پاراخوت	_	NOUN	N	_	7	appos	_	Translit=paraxot|Morf=Unknown
 13	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	7	cop	_	SpaceAfter=No|Translit=bolup
@@ -10363,7 +10363,7 @@
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	27	nsubj	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
 9	›	›	PUNCT	N	_	7	punct	_	Translit=›
-10	ناملىق	_	ADJ	A	_	7	case	_	Translit=namliq|Morf=Unknown
+10	ناملىق	_	ADJ	A	_	7	amod	_	Translit=namliq|Morf=Unknown
 11	پاراخوت	_	NOUN	N	_	7	appos	_	Translit=paraxot|Morf=Unknown
 12	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
 13	‹	‹	PUNCT	N	_	14	punct	_	Translit=‹
@@ -10394,7 +10394,7 @@
 7	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	12	nsubj	_	Translit=mari
 8	›	›	PUNCT	N	_	7	punct	_	Translit=›
 9	›	›	PUNCT	N	_	7	punct	_	Translit=›
-10	ناملىق	_	ADJ	A	_	7	case	_	Translit=namliq|Morf=Unknown
+10	ناملىق	_	ADJ	A	_	7	amod	_	Translit=namliq|Morf=Unknown
 11	پاراخوتمۇ	_	NOUN	N	_	7	appos	_	Translit=paraxotmu|Morf=Unknown
 12	توختاپ	_	VERB	V	_	0	root	_	Translit=toxtap|Morf=Unknown
 13	قالدى	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=qaldi
@@ -10930,7 +10930,7 @@
 3	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	17	nsubj	_	Translit=mari
 4	›	›	PUNCT	N	_	3	punct	_	Translit=›
 5	›	›	PUNCT	N	_	3	punct	_	Translit=›
-6	ناملىق	_	ADJ	A	_	3	case	_	Translit=namliq|Morf=Unknown
+6	ناملىق	_	ADJ	A	_	3	amod	_	Translit=namliq|Morf=Unknown
 7	پاراخوتتىكىلەرمۇ	_	NOUN	N	_	3	appos	_	Translit=paraxottikilermu|Morf=Unknown
 8	قۇتقۇزۇش	قۇتقۇز	VERB	V	Case=Nom|VerbForm=Ger	9	compound	_	Translit=qutquzush
 9	قولۋاقلىرىنى	قولۋاق	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	Translit=qolwaqlirini
@@ -11135,7 +11135,7 @@
 15	مارى	مارى	VERB	N	Mood=Imp|VerbForm=Fin	20	obl	_	Translit=mari
 16	›	›	PUNCT	N	_	15	punct	_	Translit=›
 17	›	›	PUNCT	N	_	15	punct	_	Translit=›
-18	ناملىق	_	ADJ	A	_	15	case	_	Translit=namliq|Morf=Unknown
+18	ناملىق	_	ADJ	A	_	15	amod	_	Translit=namliq|Morf=Unknown
 19	پاراخوتقا	_	NOUN	N	_	15	appos	_	Translit=paraxotqa|Morf=Unknown
 20	چىقماقتا	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=chiqmaqta|Morf=Unknown
 21	.	.	PUNCT	Y	_	20	punct	_	Translit=.

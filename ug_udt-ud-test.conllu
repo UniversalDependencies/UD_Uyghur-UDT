@@ -10160,7 +10160,7 @@
 3	داجىپ_بولغىچە	_	NOUN	N	_	9	obl	_	Translit=dajip_bolghiche|Morf=Unknown
 4	كەينىگە	_	NOUN	N	_	5	obl	_	Translit=keynige|Morf=Unknown
 5	قارىغان	قارا	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	7	advcl	_	Translit=qarighan
-6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	case	_	Translit=pëti
+6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	advmod	_	Translit=pëti
 7	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=këlip
 8	مېنى	_	PRON	P	_	9	obj	_	Translit=mëni|Morf=Unknown
 9	ئۇرۇۋەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=uruwetti|Morf=Unknown
@@ -12639,7 +12639,7 @@
 13	ساختا	ساختا	ADJ	A	_	14	amod	_	Translit=saxta
 14	شەكلىمنى	_	NOUN	N	_	11	conj	_	Translit=sheklimni|Morf=Unknown
 15	بۇزماي	_	NOUN	N	_	19	advcl	_	Translit=buzmay|Morf=Unknown
-16	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	17	case	_	Translit=öz
+16	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	17	obl	_	Translit=öz
 17	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	19	obl	_	Translit=pëti
 18	ساقلاپ	_	VERB	V	_	19	compound	_	Translit=saqlap|Morf=Unknown
 19	قېلىشقا	_	VERB	V	_	20	nmod	_	Translit=qëlishqa|Morf=Unknown
@@ -12724,7 +12724,7 @@
 
 # sent_id = s887
 # text = ئۇ ھالدا سەن ئاشۇ چۆچەكتىكى بىچارە قىزنىڭ بۈگۈنكى زامان رېئاللىقىدىكى ئۆزۈڭ، ھېلىقى قان شورىغۇچ يەتتە باشلىق يالماۋۇزنىڭ مەن ئىكەنلىكىمنى شەكسىز ھېس قىلىۋالالايسەن.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	case	_	Translit=u
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	det	_	Translit=u
 2	ھالدا	ھال	NOUN	N	Case=Loc	23	obl	_	Translit=halda
 3	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nmod:poss	_	Translit=sen
 4	ئاشۇ	ئاشۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=ashu
@@ -12751,8 +12751,8 @@
 
 # sent_id = s888
 # text = بۇنىڭ بىلەن ئىككىمىزنىڭ ئوتتۇرىسىدىكى سېھرىي جادۇ تاماملىنىدۇ - دە، سەن تىرىك تۇرۇپ ئۆلۈپ دوزاخ ئازابىنى تارتىسەن.
-1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	2	case	_	Translit=buning
-2	بىلەن	بىلەن	ADP	C	_	7	advmod	_	Translit=bilen
+1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	7	obl	_	Translit=buning
+2	بىلەن	بىلەن	ADP	C	_	1	case	_	Translit=bilen
 3	ئىككىمىزنىڭ	ئىككى	NUM	M	Case=Gen|Number[psor]=Plur|NumType=Ord|Person[psor]=1	4	nmod:poss	_	Translit=ikkimizning
 4	ئوتتۇرىسىدىكى	ئوتتۇرا	ADJ	A	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	amod	_	Translit=otturisidiki
 5	سېھرىي	سېھرىي	ADJ	A	_	6	compound:redup	_	Translit=sëhriy
@@ -12928,8 +12928,8 @@
 14	ئىچىگە	ئىچىگە	ADP	N	_	15	obl	_	Translit=ichige
 15	ئالغان	ئال	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	16	acl	_	Translit=alghan
 16	مەزمۇن	مەزمۇن	NOUN	N	Case=Nom	19	nsubj	_	Translit=mezmun
-17	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	18	case	_	Translit=shu
-18	قەدەر	قەدەر	ADP	R	_	19	advmod	_	Translit=qeder
+17	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	19	obl	_	Translit=shu
+18	قەدەر	قەدەر	ADP	R	_	17	case	_	Translit=qeder
 19	ۋەھىمىلىك	ۋەھىمىلىك	ADJ	A	Case=Nom	0	root	_	Translit=wehimilik
 20	ئىدى	ئى	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	SpaceAfter=No|Translit=idi
 21	.	.	PUNCT	Y	_	20	punct	_	Translit=.
@@ -12981,8 +12981,8 @@
 5	مۇنارىنى	_	NOUN	N	_	12	obj	_	Translit=munarini|Morf=Unknown
 6	قانداق	قانداق	ADV	P	PronType=Int	7	nsubj	_	Translit=qandaq
 7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	Translit=qilip
-8	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	9	case	_	Translit=bu
-9	قەدەر	قەدەر	ADP	R	_	10	advmod	_	Translit=qeder
+8	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	10	obl	_	Translit=bu
+9	قەدەر	قەدەر	ADP	R	_	8	case	_	Translit=qeder
 10	مۇكەممەل	مۇكەممەل	ADJ	A	Case=Nom	12	advmod	_	Translit=mukemmel
 11	بىنا	بىنا	ADJ	N	_	12	compound	_	Translit=bina
 12	قىلغانلىقىمدىنمۇ	_	VERB	V	_	14	advcl	_	Translit=qilghanliqimdinmu|Morf=Unknown
@@ -12993,7 +12993,7 @@
 # sent_id = s899
 # text = لېكىن ھەر قېتىم چاقناپ تۇرغان قاپقارا قوي كۆزلىرىڭگە تىكىلگىنىمدە، روھ قۇشۇم تەن قەپىسىمدە يەر بىلەن يەكسان بولاتتى.
 1	لېكىن	لېكىن	CCONJ	C	_	18	cc	_	Translit=lëkin
-2	ھەر	ھەر	DET	P	_	3	case	_	Translit=her
+2	ھەر	ھەر	DET	P	_	3	det	_	Translit=her
 3	قېتىم	قېتىم	ADV	Q	_	9	advmod	_	Translit=qëtim
 4	چاقناپ	_	VERB	V	_	5	compound:lvc	_	Translit=chaqnap|Morf=Unknown
 5	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	8	acl	_	Translit=turghan
