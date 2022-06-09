@@ -22070,11 +22070,11 @@
 
 # sent_id = s3306
 # text = 1969- يىل 7- ئاينىڭ 20- كۈنى، ئامېرىكىلىق ئىككى ئالەم ئۇچقۇچىسى تۇنجى بولۇپ ئاي شارىغا چىقتى.
-1	1969-	_	NUM	M	_	2	nummod	_	Translit=1969-|Morf=Unknown
-2	يىل	يىل	NOUN	N	Case=Nom	6	appos	_	Translit=yil
-3	7-	_	NUM	M	_	2	nummod	_	Translit=7-|Morf=Unknown
-4	ئاينىڭ	ئاي	NOUN	N	Case=Gen	2	appos	_	Translit=ayning
-5	20-	_	NOUN	N	_	6	nummod	_	Translit=20-|Morf=Unknown
+1	1969-	1969	NUM	M	_	2	nmod:tmod	_	Translit=1969-|Morf=Unknown
+2	يىل	يىل	NOUN	N	Case=Nom	6	nmod:tmod	_	Translit=yil
+3	7-	7	NUM	M	_	4	nmod:tmod	_	Translit=7-|Morf=Unknown
+4	ئاينىڭ	ئاي	NOUN	N	Case=Gen	6	nmod:tmod	_	Translit=ayning
+5	20-	20	NOUN	N	_	6	nmod:tmod	_	Translit=20-|Morf=Unknown
 6	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	SpaceAfter=No|Translit=küni
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئامېرىكىلىق	_	NOUN	N	_	11	amod	_	Translit=amërikiliq|Morf=Unknown
