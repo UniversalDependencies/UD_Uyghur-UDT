@@ -1617,7 +1617,7 @@
 
 # sent_id = s977
 # text = ئىككىنچى ئاكاڭ ئەستۇللا بولسا تۇتقان - قويغىنىنى بىلمەيدىغان بالا بولدى.
-1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom	2	nummod	_	Translit=ikkinchi
+1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom|NumType=Ord	2	amod	_	Translit=ikkinchi
 2	ئاكاڭ	ئاكا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	9	nsubj	_	Translit=akang
 3	ئەستۇللا	_	NOUN	N	_	2	appos	_	Translit=estulla|Morf=Unknown
 4	بولسا	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	cop	_	Translit=bolsa
@@ -2275,7 +2275,7 @@
 # sent_id = s1026
 # text = يەنىلا ئىككىنچى خىل جاۋاب ياكى مەسىلنى مەسىلىنى ھەل قىلىشنىڭ باشقا يوللىرى ۋە يىڭى ئۇسۇللىرى ئۈستىدە ئىزدىنىش ئۈچۈن، ئىجادىي تەپەككۇرغا تايىنىشقا توغرا كېلىدۇ.
 1	يەنىلا	يەنىلا	NOUN	D	Case=Nom	23	cc	_	Translit=yenila
-2	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom	3	nummod	_	Translit=ikkinchi
+2	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom|NumType=Ord	3	amod	_	Translit=ikkinchi
 3	خىل	خىل	NOUN	N	Case=Nom	4	amod	_	Translit=xil
 4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	9	obj	_	Translit=jawab
 5	ياكى	ياكى	CCONJ	C	_	6	cc	_	Translit=yaki
@@ -6916,7 +6916,7 @@
 
 # sent_id = s1341
 # text = ئىككىنچى يىلى بالا يەنە توختام تۈزگىلى بېرىپتۇ.
-1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom	2	nummod	_	Translit=ikkinchi
+1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom|NumType=Ord	2	amod	_	Translit=ikkinchi
 2	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=yili
 3	بالا	بالا	NOUN	N	Case=Nom	7	nsubj	_	Translit=bala
 4	يەنە	يەنە	ADV	D	_	7	advmod	_	Translit=yene
@@ -7071,7 +7071,7 @@
 
 # sent_id = s1352
 # text = ئۈچىنچى يىلى بالا يەنە توختام تۈزگىلى بارغاندا، باي: «ئەمدىغۇ دەردىمنى ئالارمەن» دەپ ئويلاپتۇ ۋە:
-1	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom	2	nummod	_	Translit=üchinchi
+1	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom|NumType=Ord	2	amod	_	Translit=üchinchi
 2	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=yili
 3	بالا	بالا	NOUN	N	Case=Nom	7	nsubj	_	Translit=bala
 4	يەنە	يەنە	ADV	D	_	7	obl	_	Translit=yene

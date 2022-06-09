@@ -5247,7 +5247,7 @@
 # sent_id = s2155
 # text = بىنانىڭ ئۈچىنچى قەۋىتىدىن نېمىنى كۆرگىلى بولىدۇ دەيسىز.
 1	بىنانىڭ	_	NOUN	N	_	3	nmod:poss	_	Translit=binaning|Morf=Unknown
-2	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom	3	nummod	_	Translit=üchinchi
+2	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom|NumType=Ord	3	amod	_	Translit=üchinchi
 3	قەۋىتىدىن	قەۋەت	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=qewitidin
 4	نېمىنى	نام	NOUN	P	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	Translit=nëmini
 5	كۆرگىلى	_	VERB	V	_	6	csubj	_	Translit=körgili|Morf=Unknown
@@ -5557,7 +5557,7 @@
 
 # sent_id = s2178
 # text = ئىككىنچى ھەپتىسى كىنگورۇ ۋەزىپىگە ئولتۇرۇرۇپتۇ.
-1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom	2	nummod	_	Translit=ikkinchi
+1	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom|NumType=Ord	2	amod	_	Translit=ikkinchi
 2	ھەپتىسى	ھەپتە	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=heptisi
 3	كىنگورۇ	_	NOUN	N	_	5	nsubj	_	Translit=kingoru|Morf=Unknown
 4	ۋەزىپىگە	_	NOUN	N	_	5	obl	_	Translit=wezipige|Morf=Unknown
@@ -5608,7 +5608,7 @@
 
 # sent_id = s2182
 # text = ئۈچىنچى ھەپتىسى پادىشاھ بولۇش نۆۋىتى مايمۇنغا كەپتۇ.
-1	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom	2	nummod	_	Translit=üchinchi
+1	ئۈچىنچى	ئۈچىنچى	ADJ	M	Case=Nom|NumType=Ord	2	amod	_	Translit=üchinchi
 2	ھەپتىسى	ھەپتە	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=heptisi
 3	پادىشاھ	پادىشاھ	NOUN	N	Case=Nom	4	nsubj	_	Translit=padishah
 4	بولۇش	بول	VERB	V	Case=Nom|VerbForm=Ger	5	nmod	_	Translit=bolush
@@ -10243,7 +10243,7 @@
 
 # sent_id = s2479
 # text = ‹‹ئوتتۇز ئوغۇل مەشرىپى››نىڭ تەشكىلىي قۇرۇلمىسى ئاساسەن مەشرەپ بېگى (قازىبەگ)، يېگىتۋېشى، دارىگەي بېگى، كۆلبېگى، پاششاپ قاتارلىق ئەمەللەردىن تەركىپ تاپقان بولۇپ، ئۇلارنىڭ ھەربىرىنىڭ ئۆز ئالدىغا ۋەزىپىلىرى بار.
-1	‹‹ئوتتۇز	_	ADJ	A	_	2	nummod	_	Translit=‹‹ottuz|Morf=Unknown
+1	‹‹ئوتتۇز	_	ADJ	A	NumType=Ord	2	amod	_	Translit=‹‹ottuz|Morf=Unknown
 2	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	3	nmod	_	Translit=oghul
 3	مەشرىپى››نىڭ	_	NOUN	N	_	5	nmod:poss	_	Translit=meshripi››ning|Morf=Unknown
 4	تەشكىلىي	تەشكىلىي	ADJ	A	_	5	amod	_	Translit=teshkiliy

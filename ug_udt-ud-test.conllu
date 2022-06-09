@@ -623,7 +623,7 @@
 11	يېغىپ	_	NOUN	N	_	12	advcl	_	Translit=yëghip|Morf=Unknown
 12	توختىماي	_	VERB	V	_	17	advcl	_	SpaceAfter=No|Translit=toxtimay|Morf=Unknown
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
-14	ئالتىنچى	ئالتىنچى	ADJ	M	Case=Nom	15	nummod	_	Translit=altinchi
+14	ئالتىنچى	ئالتىنچى	ADJ	M	Case=Nom|NumType=Ord	15	amod	_	Translit=altinchi
 15	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	17	nmod:tmod	_	Translit=küni
 16	سەھەردە	سەھەر	NOUN	N	Case=Loc	17	nmod:tmod	_	Translit=seherde
 17	توختاپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=toxtaptu|Morf=Unknown
@@ -10024,7 +10024,7 @@
 3	شەكلىم	_	NOUN	N	_	15	nsubj	_	Translit=sheklim|Morf=Unknown
 4	بولسا	بول	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	3	mark	_	Translit=bolsa
 5	ھاياتىمدىكى	_	NOUN	N	_	8	amod	_	Translit=hayatimdiki|Morf=Unknown
-6	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom	7	nummod	_	Translit=ikkinchi
+6	ئىككىنچى	ئىككىنچى	ADJ	M	Case=Nom|NumType=Ord	7	amod	_	Translit=ikkinchi
 7	خىل	خىل	NOUN	N	Case=Nom	8	amod	_	Translit=xil
 8	ھالەت	ھالەت	NOUN	N	Case=Nom	9	nmod:poss	_	Translit=halet
 9	ئىچىدە	ئىچ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=ichide
