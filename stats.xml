@@ -78,7 +78,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
-    <dep name="acl">742</dep>
+    <dep name="acl">743</dep>
     <dep name="advcl">1530</dep>
     <dep name="advcl:cond">20</dep>
     <dep name="advmod">1848</dep>
@@ -87,16 +87,16 @@
     <dep name="appos">125</dep>
     <dep name="aux">815</dep>
     <dep name="case">583</dep>
-    <dep name="cc">675</dep>
+    <dep name="cc">635</dep>
     <dep name="ccomp">432</dep>
     <dep name="compound">1603</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
-    <dep name="conj">994</dep>
+    <dep name="conj">1034</dep>
     <dep name="cop">641</dep>
     <dep name="csubj">89</dep>
     <dep name="dep">88</dep>
-    <dep name="det">905</dep>
+    <dep name="det">904</dep>
     <dep name="discourse">252</dep>
     <dep name="dislocated">13</dep>
     <dep name="fixed">115</dep>
