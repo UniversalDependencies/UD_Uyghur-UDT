@@ -10,23 +10,23 @@
     <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
     <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2886" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
+  <lemmas unique="2888" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12066" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">2342</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, خۇددى, ئوخشاش, سادىق -->
+    <tag name="ADJ">2809</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, خۇددى, ئوخشاش, سادىق -->
     <tag name="ADP">627</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
     <tag name="AUX">1114</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">116</tag><!-- _, بولسۇن, پاھ, ھەي, ياق, ۋاي, رەھمەت, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
-    <tag name="NOUN">14250</tag><!-- _, بالا, يەر, كۈن, ئادەم, ئىش, يىل, ئانا, سۇ, قول -->
+    <tag name="NOUN">13782</tag><!-- _, بالا, يەر, كۈن, ئادەم, ئىش, يىل, ئانا, سۇ, قول -->
     <tag name="NUM">996</tag><!-- بىر, ئىككى, _, تۆت, ئون, بەش, ئۈچ, ئالتە, مىڭ, يەتتە -->
     <tag name="PART">121</tag><!-- _, ئوخشى -->
     <tag name="PRON">2692</tag><!-- ئۇ, _, بۇ, مەن, ئۇلار, ئۆز, سەن, بىز, شۇ, ئەڭ -->
-    <tag name="PROPN">67</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, نەزىرە -->
+    <tag name="PROPN">68</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, زەينى, نەزىرە -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
     <tag name="VERB">8119</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
@@ -79,27 +79,27 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
     <dep name="acl">743</dep>
-    <dep name="advcl">1530</dep>
+    <dep name="advcl">1532</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">1848</dep>
+    <dep name="advmod">1849</dep>
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2398</dep>
-    <dep name="appos">125</dep>
+    <dep name="appos">123</dep>
     <dep name="aux">815</dep>
-    <dep name="case">583</dep>
-    <dep name="cc">635</dep>
+    <dep name="case">585</dep>
+    <dep name="cc">633</dep>
     <dep name="ccomp">432</dep>
-    <dep name="compound">1603</dep>
+    <dep name="compound">1598</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1034</dep>
     <dep name="cop">641</dep>
-    <dep name="csubj">89</dep>
+    <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">904</dep>
     <dep name="discourse">252</dep>
-    <dep name="dislocated">13</dep>
-    <dep name="fixed">115</dep>
+    <dep name="dislocated">14</dep>
+    <dep name="fixed">118</dep>
     <dep name="flat">54</dep>
     <dep name="mark">200</dep>
     <dep name="nmod">1357</dep>
@@ -107,11 +107,11 @@
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
-    <dep name="nmod:tmod">83</dep>
-    <dep name="nsubj">3803</dep>
-    <dep name="nummod">742</dep>
+    <dep name="nmod:tmod">88</dep>
+    <dep name="nsubj">3798</dep>
+    <dep name="nummod">739</dep>
     <dep name="obj">2311</dep>
-    <dep name="obl">3956</dep>
+    <dep name="obl">3959</dep>
     <dep name="obl:tmod">4</dep>
     <dep name="orphan">8</dep>
     <dep name="parataxis">405</dep>
@@ -119,6 +119,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">6</dep>
+    <dep name="xcomp">8</dep>
   </deps>
 </treebank>
