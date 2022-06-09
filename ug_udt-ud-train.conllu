@@ -1,14 +1,14 @@
 # sent_id = s1801
 # text = نەشپۈت بەش يىلدا، ئۆرۈك تۆت يىلدا مېۋە بېرىدۇ دېگەننى ئاڭلىمىغانمىدىڭ؟
-1	نەشپۈت	_	NOUN	N	_	9	nsubj	_	Translit=neshpüt|Edep=9:nsubj>conj|Morf=Unknown
+1	نەشپۈت	نەشپۈت	NOUN	N	Case=Nom	10	ccomp	_	Translit=neshpüt|Edep=9:nsubj>conj|Morf=Unknown
 2	بەش	بەش	NUM	M	_	3	nummod	_	Translit=besh
-3	يىلدا	يىل	NOUN	N	Case=Loc	9	nmod	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>nmod
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+3	يىلدا	يىل	NOUN	N	Case=Loc	1	orphan	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>nmod
+4	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 5	ئۆرۈك	ئۆرۈك	NOUN	N	Case=Nom	9	nsubj	_	Translit=örük
 6	تۆت	تۆت	NUM	M	_	7	nummod	_	Translit=töt
 7	يىلدا	يىل	NOUN	N	Case=Loc	9	obl	_	Translit=yilda
 8	مېۋە	مېۋە	NOUN	N	Case=Nom	9	obj	_	Translit=mëwe
-9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Translit=bëridu
+9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Translit=bëridu
 10	دېگەننى	دې	VERB	V	Case=Acc|Tense=Past|VerbForm=Ger	11	obj	_	Translit=dëgenni
 11	ئاڭلىمىغانمىدىڭ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=anglimighanmiding|Morf=Unknown
 12	؟	؟	PUNCT	Y	_	11	punct	_	Translit=?
@@ -94,15 +94,15 @@
 
 # sent_id = s1808
 # text = ئۆرۈك تۆت يىلدا، شاپتۇل ئۈچ يىللدا مېۋىگە كىرىدۇ دېگەن گەپ بار.
-1	ئۆرۈك	ئۆرۈك	NOUN	N	Case=Nom	9	nsubj	_	Translit=örük|Edep=9:nsubj>conj
+1	ئۆرۈك	ئۆرۈك	NOUN	N	Case=Nom	10	ccomp	_	Translit=örük|Edep=9:nsubj>conj
 2	تۆت	تۆت	NUM	M	_	3	nummod	_	Translit=töt
-3	يىلدا	يىل	NOUN	N	Case=Loc	9	nmod	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>conj
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+3	يىلدا	يىل	NOUN	N	Case=Loc	1	orphan	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>conj
+4	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 5	شاپتۇل	شاپتۇل	PROPN	N	Case=Nom	9	nsubj	_	Translit=shaptul|Edep=9:nsubj>congj
 6	ئۈچ	ئۈچ	NUM	M	_	7	nummod	_	Translit=üch
 7	يىللدا	_	NOUN	N	_	9	obl	_	Translit=yillda|Morf=Unknown
 8	مېۋىگە	_	NOUN	N	_	9	obl	_	Translit=mëwige|Morf=Unknown
-9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Translit=kiridu
+9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Translit=kiridu
 10	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	11	acl	_	Translit=dëgen
 11	گەپ	گەپ	NOUN	N	Case=Nom	12	nsubj	_	Translit=gep
 12	بار	بار	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bar
@@ -191,15 +191,15 @@
 
 # sent_id = s1815
 # text = شاپتۇل تۆت يىلدا، گىلاس ئۈچ يىلدا مېۋىگە كىرىدۇ دېگەن گەپ بار.
-1	شاپتۇل	شاپتۇل	PROPN	N	Case=Nom	9	nsubj	_	Translit=shaptul|Edep=9:nsubj>conj
+1	شاپتۇل	شاپتۇل	PROPN	N	Case=Nom	10	ccomp	_	Translit=shaptul|Edep=9:nsubj>conj
 2	تۆت	تۆت	NUM	M	_	3	nummod	_	Translit=töt
-3	يىلدا	يىل	NOUN	N	Case=Loc	9	nmod	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>conj
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+3	يىلدا	يىل	NOUN	N	Case=Loc	1	orphan	_	SpaceAfter=No|Translit=yilda|Edep=9:nmod>conj
+4	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 5	گىلاس	_	NOUN	N	_	9	nsubj	_	Translit=gilas|Morf=Unknown
 6	ئۈچ	ئۈچ	NUM	M	_	7	nummod	_	Translit=üch
 7	يىلدا	يىل	NOUN	N	Case=Loc	9	obl	_	Translit=yilda
 8	مېۋىگە	_	NOUN	N	_	9	obl	_	Translit=mëwige|Morf=Unknown
-9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Translit=kiridu
+9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Translit=kiridu
 10	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	11	acl	_	Translit=dëgen
 11	گەپ	گەپ	NOUN	N	Case=Nom	12	nsubj	_	Translit=gep
 12	بار	بار	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bar
@@ -868,7 +868,7 @@
 4	ئۆتكەندىن	ئۆت	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	5	advmod	_	Translit=ötkendin
 5	كېيىن	كېيىن	NOUN	D	Case=Nom	12	obl	_	Translit=këyin
 6	رەڭمۇرەڭ	_	NOUN	N	_	7	amod	_	Translit=rengmureng|Morf=Unknown
-7	گۈللەر	گۈل	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	Translit=güller
+7	گۈللەر	گۈل	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Translit=güller
 8	ئېچىلىپ	_	VERB	V	_	12	advmod	_	SpaceAfter=No|Translit=ëchilip|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	ھويلا	ھويلا	NOUN	N	Case=Nom	12	nsubj	_	Translit=hoyla
@@ -2936,14 +2936,14 @@
 7	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=bolup
 8	كەتسىمۇ	كەت	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	7	aux	_	Translit=ketsimu
 9	مەيلى	مەيل	NOUN	T	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	24	parataxis	_	SpaceAfter=No|Translit=meyli
-10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
+10	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 11	سېنىڭ	_	PRON	P	_	13	nmod:poss	_	Translit=sëning|Morf=Unknown
 12	ئويغاق	ئويغاق	ADJ	N	_	13	amod	_	Translit=oyghaq
-13	قۇچىقىڭ	_	VERB	V	_	16	nsubj	_	Translit=quchiqing|Morf=Unknown
+13	قۇچىقىڭ	_	VERB	V	_	15	nsubj	_	Translit=quchiqing|Morf=Unknown
 14	ئۇيقۇ	ئۇيقۇ	NOUN	V	Case=Nom	15	nmod	_	Translit=uyqu
-15	دۇنياسى	_	NOUN	N	_	16	nsubj	_	Translit=dunyasi|Morf=Unknown
-16	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	Translit=bolup
-17	كەتسىمۇ	كەت	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	16	aux	_	Translit=ketsimu
+15	دۇنياسى	_	NOUN	N	_	18	advcl	_	Translit=dunyasi|Morf=Unknown
+16	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	15	cop	_	Translit=bolup
+17	كەتسىمۇ	كەت	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	15	aux	_	Translit=ketsimu
 18	مەيلى	مەيل	NOUN	T	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	24	parataxis	_	SpaceAfter=No|Translit=meyli
 19	،	،	PUNCT	Y	_	18	punct	_	Translit=,
 20	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	21	det	_	Translit=bu
@@ -8743,19 +8743,19 @@
 1	ئوخشاش	ئوخشاش	ADJ	A	_	4	amod	_	Translit=oxshash
 2	بىر	بىر	NUM	M	_	3	nummod	_	Translit=bir
 3	ئېرىقتىكى	ئېرىق	NOUN	N	Case=Nom	4	amod	_	Translit=ëriqtiki
-4	سۇ	سۇ	NOUN	N	Case=Nom	15	parataxis	_	SpaceAfter=No|Translit=su
+4	سۇ	سۇ	NOUN	N	Case=Nom	6	parataxis	_	SpaceAfter=No|Translit=su
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	بەزىلەر	بەزى	ADJ	P	Case=Nom|Number=Plur	15	nsubj	_	Translit=beziler
-7	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Translit=uni
-8	ئالتۇن	ئالتۇن	NOUN	N	Case=Nom	9	amod	_	Translit=altun
-9	كاسىدا	كاسا	NOUN	V	Case=Loc	15	advcl	_	SpaceAfter=No|Translit=kasida
-10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
+6	بەزىلەر	بەزى	ADJ	P	Case=Nom|Number=Plur	0	root	_	Translit=beziler
+7	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	orphan	_	Translit=uni
+8	ئالتۇن	ئالتۇن	NOUN	N	Case=Nom	9	nmod	_	Translit=altun
+9	كاسىدا	كاسا	NOUN	V	Case=Loc	6	orphan	_	SpaceAfter=No|Translit=kasida
+10	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 11	بەزىلەر	بەزى	ADJ	P	Case=Nom|Number=Plur	15	nsubj	_	Translit=beziler
 12	ساپال	ساپال	ADJ	N	_	13	amod	_	Translit=sapal
 13	قاچىدا	_	NOUN	N	_	15	obl	_	Translit=qachida|Morf=Unknown
 14	ئۇسۇپ	_	NOUN	N	_	15	obl	_	Translit=usup|Morf=Missing,2
-15	ئىچىدۇ	ئىچ	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ichidu
-16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
+15	ئىچىدۇ	ئىچ	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|Translit=ichidu
+16	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s2374
 # text = ئالتۇن كاسىسىمۇ، ساپال قاچىسىمۇ يوق كىشىلەر بولسا قوللىرىدا ئۇچۇملاپ ئىچىدۇ.
@@ -19607,7 +19607,7 @@
 # text = كېۋەزلىكتىكى ئېچىلغان پاختىلار خۇددى ئاق بۇلۇت يەرگە چۈشۈپ قالغاندەك كۆرۈنەتتى.
 1	كېۋەزلىكتىكى	كېۋەزلىك	NOUN	N	Case=Nom	3	amod	_	Translit=këwezliktiki
 2	ئېچىلغان	_	VERB	V	_	3	amod	_	Translit=ëchilghan|Morf=Unknown
-3	پاختىلار	_	NOUN	N	_	9	nsubj	_	Translit=paxtilar|Morf=Unknown
+3	پاختىلار	_	NOUN	N	_	9	dislocated	_	Translit=paxtilar|Morf=Unknown
 4	خۇددى	خۇددى	ADJ	T	_	9	mark	_	Translit=xuddi
 5	ئاق	ئاق	ADJ	A	Case=Nom	6	amod	_	Translit=aq
 6	بۇلۇت	بۇلۇت	NOUN	N	Case=Nom	9	nsubj	_	Translit=bulut
