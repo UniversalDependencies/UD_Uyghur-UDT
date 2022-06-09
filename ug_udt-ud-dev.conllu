@@ -5132,7 +5132,7 @@
 # sent_id = s1211
 # text = - بۇغۇ ئوبدان ئامال ئىكەن،
 1	-	-	PUNCT	Y	_	4	punct	_	Translit=-
-2	بۇغۇ	_	NOUN	N	_	4	det	_	Translit=bughu|Morf=Unknown
+2	بۇغۇ	_	NOUN	N	_	4	nmod	_	Translit=bughu|Morf=Unknown
 3	ئوبدان	ئوبدان	NOUN	A	Case=Nom	4	amod	_	Translit=obdan
 4	ئامال	ئامال	NOUN	N	Case=Nom	0	root	_	Translit=amal
 5	ئىكەن	_	AUX	V	_	4	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
@@ -5659,7 +5659,7 @@
 4	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|Translit=ketti
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	8	acl	_	Translit=dëgen
-7	نېمە	نېمە	NOUN	P	Case=Nom	8	det	_	Translit=nëme
+7	نېمە	نېمە	NOUN	P	Case=Nom	8	nmod	_	Translit=nëme
 8	گەپ	گەپ	NOUN	N	Case=Nom	11	ccomp	_	SpaceAfter=No|Translit=gep
 9	؟	؟	PUNCT	Y	_	8	punct	_	Translit=?
 10	-	-	PUNCT	Y	_	8	punct	_	Translit=-
@@ -9874,7 +9874,7 @@
 13	بوۋايغا	بوۋاي	NOUN	N	Case=Dat	14	obl	_	Translit=bowaygha
 14	ئوخشىسا	ئوخشى	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	37	parataxis	_	SpaceAfter=No|Translit=oxshisa
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
-16	گاھى	_	NOUN	N	_	17	det	_	Translit=gahi|Morf=Unknown
+16	گاھى	_	NOUN	N	_	17	nmod	_	Translit=gahi|Morf=Unknown
 17	بىرلىرى	بىرلەر	NOUN	M	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	Translit=birliri|Edep=37:conj>subj
 18	بېشىغا	_	NOUN	N	_	20	obl	_	Translit=bëshigha|Morf=Unknown
 19	ئوتۇغان	_	NOUN	N	_	20	obj	_	Translit=otughan|Morf=Unknown
@@ -10339,7 +10339,7 @@
 # sent_id = s1583
 # text = كېشىلەر نېمە ئىش بولغانلىقىنى ئاڭقىرىپ بولغۇچە دېڭىزغا چۈشۈپ بېلىقلارغا يەم بولۇپ كېتەتتى.
 1	كېشىلەر	_	NOUN	N	_	5	nsubj	_	Translit=këshiler|Morf=Unknown
-2	نېمە	نېمە	NOUN	P	Case=Nom	3	det	_	Translit=nëme
+2	نېمە	نېمە	NOUN	P	Case=Nom	3	nmod	_	Translit=nëme
 3	ئىش	ئىش	NOUN	N	Case=Nom	4	nsubj	_	Translit=ish
 4	بولغانلىقىنى	_	VERB	V	_	5	obj	_	Translit=bolghanliqini|Morf=Unknown
 5	ئاڭقىرىپ	ئاڭقار	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=angqirip
