@@ -136,7 +136,7 @@
 7	يىراقلارغا	يىراق	NOUN	A	Case=Dat|Number=Plur	9	obl	_	Translit=yiraqlargha
 8	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=uchup
 9	بارالايدىغان	_	VERB	V	_	17	parataxis	_	Translit=baralaydighan|Morf=Unknown
-10	تۇرسا	تۇر	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	cop	_	SpaceAfter=No|Translit=tursa
+10	تۇرسا	تۇر	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	aux	_	SpaceAfter=No|Translit=tursa
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	نىمىشقا	_	PRON	P	_	17	obl	_	Translit=nëmishqa|Morf=Unknown
 13	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	14	det	_	Translit=bu
@@ -2421,7 +2421,7 @@
 4	ئۇلۇغ	ئۇلۇغ	ADJ	A	Case=Nom	0	root	_	Translit=ulugh
 5	ۋە	ۋە	CCONJ	C	_	6	cc	_	Translit=we
 6	لاي	لاي	NOUN	N	Case=Nom	4	conj	_	Translit=lay
-7	تۇرىدۇ	تۇر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No|Translit=turidu
+7	تۇرىدۇ	تۇر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|Translit=turidu
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s172
@@ -7191,7 +7191,7 @@
 # text = كەتمەكچى بولۇپ تۇرغاندا بىلىنەر - بىلىنمەس ئازگالغا كۆزۈم چۈشتى.
 1	كەتمەكچى	_	VERB	V	_	9	advcl	_	Translit=ketmekchi|Morf=Unknown
 2	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bolup
-3	تۇرغاندا	تۇر	AUX	V	Case=Loc|Tense=Past|VerbForm=Ger	1	cop	_	Translit=turghanda
+3	تۇرغاندا	تۇر	AUX	V	Case=Loc|Tense=Past|VerbForm=Ger	1	aux	_	Translit=turghanda
 4	بىلىنەر	_	NOUN	N	_	6	compound:redup	_	Translit=biliner|Morf=Unknown
 5	-	-	PUNCT	Y	_	4	punct	_	Translit=-
 6	بىلىنمەس	_	NUM	M	_	7	amod	_	Translit=bilinmes|Morf=Unknown

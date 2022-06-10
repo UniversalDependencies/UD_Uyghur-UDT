@@ -19620,13 +19620,13 @@
 # sent_id = s3113
 # text = ئۇلار تۇرۇپ بىر توپ توشقانغا ئايلانسا، تۇرۇپ بىر توپ قوزا سىياقىغا ئۆزگىرەتتى.
 1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	Translit=ular
-2	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	13	cop	_	Translit=turup
+2	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	13	aux	_	Translit=turup
 3	بىر	بىر	NUM	M	_	4	nummod	_	Translit=bir
 4	توپ	توپ	NOUN	Q	Case=Nom	5	amod	_	Translit=top
 5	توشقانغا	توشقان	ADJ	N	Case=Dat	6	obl	_	Translit=toshqangha
 6	ئايلانسا	ئايلان	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	0	root	_	SpaceAfter=No|Translit=aylansa
 7	،	،	PUNCT	Y	_	13	punct	_	Translit=,
-8	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	13	cop	_	Translit=turup
+8	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	13	aux	_	Translit=turup
 9	بىر	بىر	NUM	M	_	10	nummod	_	Translit=bir
 10	توپ	توپ	NOUN	Q	Case=Nom	11	amod	_	Translit=top
 11	قوزا	قوزا	NOUN	N	Case=Nom	12	nmod	_	Translit=qoza
@@ -22455,7 +22455,7 @@
 2	بىزدىن	بىز	PRON	P	Case=Abl|Number=Plur|Person=1|PronType=Prs	4	nmod	_	Translit=bizdin
 3	شۇنچە	شۇنچە	ADV	P	_	4	advmod	_	Translit=shunche
 4	يىراق	يىراق	NOUN	A	Case=Nom	12	advcl	_	Translit=yiraq
-5	تۇرسا	تۇر	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	cop	_	SpaceAfter=No|Translit=tursa
+5	تۇرسا	تۇر	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	aux	_	SpaceAfter=No|Translit=tursa
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	_	Translit=uni
 8	ئوقيا	ئوقيا	NOUN	N	Case=Nom	12	nmod	_	Translit=oqya
@@ -22684,7 +22684,7 @@
 7	كۆمۈرنىڭ	كۆمۈر	NOUN	N	Case=Gen	8	nmod:poss	_	Translit=kömürning
 8	مۇناسىۋىتى	مۇناسىۋەت	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	Translit=munasiwiti
 9	يوقتەك	_	ADJ	A	_	18	parataxis	_	Translit=yoqtek|Morf=Unknown
-10	تۇرغىنى	تۇر	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	9	cop	_	Translit=turghini
+10	تۇرغىنى	تۇر	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	9	aux	_	Translit=turghini
 11	بىلەن	بىلەن	ADP	R	_	9	advmod	_	SpaceAfter=No|Translit=bilen
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
 13	ئۇمۇ	_	PRON	P	_	18	nsubj	_	Translit=umu|Morf=Unknown
