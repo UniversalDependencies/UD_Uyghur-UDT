@@ -2370,7 +2370,7 @@
 13	كېيىن	كېيىن	NOUN	D	Case=Nom	12	case	_	Translit=këyin
 14	پەيدا	پەيدا	ADJ	N	_	15	compound	_	Translit=peyda
 15	بولۇشىمۇ	بول	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	0	root	_	Translit=bolushimu
-16	مۇمكىن	مۇمكىن	NOUN	A	Case=Nom	15	cop	_	SpaceAfter=No|Translit=mumkin
+16	مۇمكىن	مۇمكىن	ADJ	A	Case=Nom	15	advmod	_	SpaceAfter=No|Translit=mumkin
 17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s1032
@@ -5924,8 +5924,8 @@
 13	بالا	بالا	NOUN	N	Case=Nom	14	amod	_	Translit=bala
 14	قۇش	قۇ	VERB	N	Case=Nom|VerbForm=Ger	9	conj	_	Translit=qush
 15	بولىشىمۇ	_	AUX	V	_	14	cop	_	Translit=bolishimu|Morf=Unknown
-16	مۇمكىن	مۇمكىن	NOUN	A	Case=Nom	15	compound	_	SpaceAfter=No|Translit=mumkin
-17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
+16	مۇمكىن	مۇمكىن	ADJ	A	Case=Nom	14	advmod	_	SpaceAfter=No|Translit=mumkin
+17	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s1266
 # text = تېز ئۆتۈۋاتقان ۋاقىت مېنى تىتتىت قىلىپلا قالماي، يەنە كۆڭلۈمنى يېرىم قىلاتتى.

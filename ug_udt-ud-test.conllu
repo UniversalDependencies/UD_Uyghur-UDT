@@ -5846,7 +5846,7 @@
 5	جەزمەن	جەزمەن	ADV	D	_	6	advmod	_	Translit=jezmen
 6	كۆرگەن	كۆر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	Translit=körgen
 7	بولۇشى	بول	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	6	cop	_	Translit=bolushi
-8	مۇمكىن	مۇمكىن	NOUN	A	Case=Nom	7	compound	_	Translit=mumkin
+8	مۇمكىن	مۇمكىن	ADJ	A	Case=Nom	6	advmod	_	Translit=mumkin
 9	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=dep
 10	ئىشىنىدىكەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ishinidiken|Morf=Unknown
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.

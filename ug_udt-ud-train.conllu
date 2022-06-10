@@ -21042,8 +21042,8 @@
 6	تارىخقا	تارىخ	NOUN	N	Case=Dat	8	obl	_	Translit=tarixqa
 7	ئىگە	ئىگە	NOUN	N	Case=Nom	8	compound	_	Translit=ige
 8	بۇلۇشى	بۇل	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	0	root	_	Translit=bulushi
-9	مۇمكىن	مۇمكىن	NOUN	A	Case=Nom	8	cop	_	SpaceAfter=No|Translit=mumkin
-10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
+9	مۇمكىن	مۇمكىن	ADJ	A	Case=Nom	8	advmod	_	SpaceAfter=No|Translit=mumkin
+10	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 
 # sent_id = s3230
 # text = مېنىڭ كىچىك ۋاقتىمدىمۇ ئۇ شۇ يەردە ئىدى.
