@@ -7758,13 +7758,13 @@
 
 # sent_id = s568
 # text = كەمتەر بولۇش، ئۆزىنىڭ يېتەرسىزلىكىنىنى ئېتىراپ قىلىش، باشقىلارنىڭ ئارتۇقچىلىقىنى ھۆرمەت قىلىش گۈزەل ئەخلاق - پەزىلەتتۇر.
-1	كەمتەر	_	NOUN	N	_	2	cop	_	Translit=kemter|Morf=Unknown
-2	بولۇش	بول	VERB	V	Case=Nom|VerbForm=Ger	16	nsubj	_	SpaceAfter=No|Translit=bolush
+1	كەمتەر	_	NOUN	N	_	16	csubj	_	Translit=kemter|Morf=Unknown
+2	بولۇش	بول	AUX	V	Case=Nom|VerbForm=Ger	1	cop	_	SpaceAfter=No|Translit=bolush
 3	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 4	ئۆزىنىڭ	ئۆز	PRON	P	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	5	nmod:poss	_	Translit=özining
 5	يېتەرسىزلىكىنىنى	_	NOUN	N	_	7	obj	_	Translit=yëtersizlikinini|Morf=Unknown
 6	ئېتىراپ	ئېتىراپ	NOUN	N	Case=Nom	7	compound	_	Translit=ëtirap
-7	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	2	conj	_	SpaceAfter=No|Translit=qilish
+7	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	1	conj	_	SpaceAfter=No|Translit=qilish
 8	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 9	باشقىلارنىڭ	باشقا	ADJ	A	Case=Gen|Number=Plur	10	nmod:poss	_	Translit=bashqilarning
 10	ئارتۇقچىلىقىنى	ئارتۇقچىلىق	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	Translit=artuqchiliqini
@@ -12168,7 +12168,7 @@
 2	كۆچۈرۈپ	كۆچۈر	VERB	V	Aspect=Perf|VerbForm=Conv	25	advcl	_	Translit=köchürüp
 3	كەلدىكىن	_	AUX	V	_	2	aux	_	Translit=keldikin|Morf=Unknown
 4	تور	تور	NOUN	N	Case=Nom	5	compound	_	Translit=tor
-5	مەستانىلىرىلا	_	NOUN	N	_	11	cop	_	Translit=mestanilirila|Morf=Unknown
+5	مەستانىلىرىلا	_	NOUN	N	_	11	nmod	_	Translit=mestanilirila|Morf=Unknown
 6	ئەمەس	ئى	AUX	V	Number=Sing|Person=3|Polarity=Neg	5	cop	_	SpaceAfter=No|Translit=emes
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئادەتتىكى	ئادەت	NOUN	N	Case=Nom	10	amod	_	Translit=adettiki

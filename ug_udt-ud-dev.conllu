@@ -57,7 +57,7 @@
 2	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	Translit=mëning
 3	مەۋجۇت	مەۋجۇت	ADJ	A	Case=Nom	4	amod	_	Translit=mewjut
 4	رېئاللىقتىكى	رېئاللىق	NOUN	N	Case=Nom	5	nmod	_	Translit=rëalliqtiki
-5	ھاياتىم	_	NOUN	N	_	8	cop	_	Translit=hayatim|Morf=Unknown
+5	ھاياتىم	_	NOUN	N	_	8	nmod	_	Translit=hayatim|Morf=Unknown
 6	مىسالى	_	NOUN	N	_	8	advmod	_	Translit=misali|Morf=Unknown
 7	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
 8	تور	تور	NOUN	N	Case=Nom	20	parataxis	_	Translit=tor
@@ -3607,7 +3607,7 @@
 4	تۇرمۇشتا	تۇرمۇش	NOUN	N	Case=Loc	2	conj	_	Translit=turmushta
 5	قول	قول	NOUN	N	Case=Nom	6	compound	_	Translit=qol
 6	سېلىپ	سال	VERB	V	Aspect=Perf|VerbForm=Conv	7	advmod	_	Translit=sëlip
-7	ئىشلىمىسەك	_	VERB	V	_	11	cop	_	Translit=ishlimisek|Morf=Unknown
+7	ئىشلىمىسەك	_	VERB	V	_	11	advcl	_	Translit=ishlimisek|Morf=Unknown
 8	ۋە	ۋە	CCONJ	C	_	10	dep	_	Translit=we
 9	مېڭە	مېڭە	NOUN	N	Case=Nom	10	obj	_	Translit=mënge
 10	ئىشلاتمىسەك	_	AUX	V	_	7	conj	_	Translit=ishlatmisek|Morf=Unknown
@@ -4764,7 +4764,7 @@
 2	ئۆزىنىڭ	ئۆز	PRON	P	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	4	nsubj	_	Translit=özining
 3	ئۇچۇش	ئۇچ	VERB	N	Case=Nom|VerbForm=Ger	4	acl	_	Translit=uchush
 4	چېمپىيونى	چېمپىيون	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	Translit=chëmpiyoni
-5	ئىكەنلكىنى	_	NOUN	N	_	4	cop	_	Translit=ikenlkini|Morf=Unknown
+5	ئىكەنلكىنى	_	NOUN	N	_	4	nmod	_	Translit=ikenlkini|Morf=Unknown
 6	باشقىلار	باشقا	ADJ	A	Case=Nom|Number=Plur	7	nsubj	_	Translit=bashqilar
 7	بىلمەي	_	VERB	V	_	10	ccomp	_	Translit=bilmey|Morf=Unknown
 8	قالمىسۇن	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=qalmisun|Morf=Unknown
@@ -7023,7 +7023,7 @@
 10	قىسمىنىمۇ	قىسمەن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	conj	_	Translit=qisminimu
 11	ئالىمەن	_	VERB	V	_	12	ccomp	_	Translit=alimen|Morf=Unknown
 12	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=dëgen
-13	ئىدىمغۇ	_	NOUN	N	_	12	cop	_	SpaceAfter=No|Translit=idimghu|Morf=Unknown
+13	ئىدىمغۇ	_	NOUN	N	_	12	xcomp	_	SpaceAfter=No|Translit=idimghu|Morf=Unknown
 14	!	!	PUNCT	Y	_	13	punct	_	Translit=!
 
 # sent_id = s1349
@@ -9169,7 +9169,7 @@
 33	›	›	PUNCT	I	_	32	punct	_	Translit=›
 34	›	›	PUNCT	M	_	32	punct	_	Translit=›
 35	دىن	_	X	X	_	32	mark	_	Translit=din|Morf=Missing,1
-36	ئىبارەت	_	ADP	R	_	32	cop	_	SpaceAfter=No|Translit=ibaret|Morf=Unknown
+36	ئىبارەت	_	ADP	R	_	32	case	_	SpaceAfter=No|Translit=ibaret|Morf=Unknown
 37	.	.	PUNCT	Y	_	36	punct	_	Translit=.
 
 # sent_id = s1511
