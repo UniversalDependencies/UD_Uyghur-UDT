@@ -8183,7 +8183,7 @@
 10	ۋە	ۋە	CCONJ	C	_	16	cc	_	Translit=we
 11	ئاكىسى	ئاكا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	Translit=akisi
 12	تولىيە	_	NOUN	N	_	11	appos	_	Translit=toliye|Morf=Unknown
-13	بىلەن	بىلەن	ADP	R	_	11	cop	_	Translit=bilen
+13	بىلەن	بىلەن	ADP	R	_	12	case	_	Translit=bilen
 14	بىللە	بىللە	ADJ	D	Case=Nom	16	advmod	_	Translit=bille
 15	ئورمانلىققا	ئورمانلىق	NOUN	N	Case=Dat	16	obl	_	Translit=ormanliqqa
 16	باردى	بار	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No|Translit=bardi
@@ -9842,14 +9842,14 @@
 19	ئون	ئون	NUM	M	_	20	nummod	_	Translit=on
 20	يىلدىن	يىل	NOUN	N	Case=Abl	21	nmod	_	Translit=yildin
 21	كېيىنكى	كېيىنكى	ADJ	A	Case=Nom	22	amod	_	Translit=këyinki
-22	جۇڭگونىڭ	جۇڭگو	PROPN	N	Case=Gen	29	nmod:poss	_	Translit=junggoning
+22	جۇڭگونىڭ	جۇڭگو	PROPN	N	Case=Gen	28	nmod:poss	_	Translit=junggoning
 23	يەنىلا	يەنىلا	NOUN	D	Case=Nom	26	obl	_	Translit=yenila
 24	نۇرغۇن	نۇرغۇن	ADJ	A	Case=Nom	25	amod	_	Translit=nurghun
 25	خىرىسقا	خىرىس	NOUN	N	Case=Dat	26	nmod:cau	_	Translit=xirisqa
 26	دۇچ_كېلىدىغان	_	VERB	V	_	28	acl	_	Translit=duch_këlidighan|Morf=Unknown
 27	تەرەققى_قىلىۋاتقان	_	NOUN	N	_	28	amod	_	Translit=tereqqi_qiliwatqan|Morf=Unknown
-28	دۆلەت	دۆلەت	NOUN	N	Case=Nom	29	cop	_	Translit=dölet
-29	بولۇشىنى	بول	VERB	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	30	obj	_	Translit=bolushini
+28	دۆلەت	دۆلەت	NOUN	N	Case=Nom	30	ccomp	_	Translit=dölet
+29	بولۇشىنى	بول	AUX	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	28	cop	_	Translit=bolushini
 30	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	31	aux	_	Translit=keltürüp
 31	چىقىرىدۇ	چىقار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	SpaceAfter=No|Translit=chiqiridu
 32	،	،	PUNCT	Y	_	31	punct	_	Translit=,

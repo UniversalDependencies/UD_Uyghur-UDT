@@ -671,7 +671,7 @@
 6	كىشىگە	كىشىگە	NOUN	N	Case=Nom	10	nmod:cau	_	Translit=kishige
 7	ھۆرمەت	ھۆرمەت	NOUN	N	Case=Nom	8	compound	_	Translit=hörmet
 8	نەزىرى	نەزەر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	Translit=neziri
-9	بىلەن	بىلەن	ADP	R	_	8	cop	_	Translit=bilen
+9	بىلەن	بىلەن	ADP	R	_	8	case	_	Translit=bilen
 10	قارىدى	قارا	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	parataxis	_	Translit=qaridi
 11	ۋە	ۋە	CCONJ	C	_	15	cc	_	Translit=we
 12	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	14	compound:redup	_	Translit=öz
