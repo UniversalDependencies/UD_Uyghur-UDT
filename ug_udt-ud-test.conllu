@@ -8158,7 +8158,7 @@
 11	ۋە	ۋە	CCONJ	C	_	21	cc	_	Translit=we
 12	قېرىنداشلىق	قېرىنداشلىق	NOUN	N	Case=Nom	13	amod	_	Translit=qërindashliq
 13	مېھرى	مېھر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod	_	Translit=mëhri
-14	توغرۇلۇق	توغرۇلۇق	NOUN	R	Case=Nom	13	cop	_	Translit=toghruluq
+14	توغرۇلۇق	توغرۇلۇق	NOUN	R	Case=Nom	13	nmod	_	Translit=toghruluq
 15	گەپ	گەپ	NOUN	N	Case=Nom	16	nsubj	_	Translit=gep
 16	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	21	advcl	_	Translit=bolup
 17	قالسا	قال	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	16	aux	_	SpaceAfter=No|Translit=qalsa
