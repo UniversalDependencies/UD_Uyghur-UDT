@@ -5293,17 +5293,17 @@
 
 # sent_id = s2159
 # text = شار بىردەم تىنچ تۇرغاندىن كىيىن بىر كۆتۈرۈلۈپ، بىر پەسىيىشكە باشلىدى.
-1	شار	شار	NOUN	N	Case=Nom	10	nsubj	_	Translit=shar
+1	شار	شار	NOUN	N	Case=Nom	11	nsubj	_	Translit=shar
 2	بىردەم	بىردەم	NOUN	D	Case=Nom	4	obl	_	Translit=birdem
 3	تىنچ	تىنچ	ADJ	A	Case=Nom	4	advmod	_	Translit=tinch
-4	تۇرغاندىن	تۇر	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	10	obl	_	Translit=turghandin
+4	تۇرغاندىن	تۇر	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	11	obl	_	Translit=turghandin
 5	كىيىن	_	VERB	V	_	4	case	_	Translit=kiyin|Morf=Unknown
 6	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	7	obl	_	Translit=bir
 7	كۆتۈرۈلۈپ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kötürülüp|Morf=Unknown
-8	،	،	PUNCT	Y	_	10	punct	_	Translit=,
-9	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	10	obl	_	Translit=bir
-10	پەسىيىشكە	_	VERB	V	_	7	conj	_	Translit=pesiyishke|Morf=Unknown
-11	باشلىدى	باشلى	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No|Translit=bashlidi
+8	،	،	PUNCT	Y	_	11	punct	_	Translit=,
+9	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	11	obl	_	Translit=bir
+10	پەسىيىشكە	_	VERB	V	_	11	xcomp	_	Translit=pesiyishke|Morf=Unknown
+11	باشلىدى	باشلى	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No|Translit=bashlidi
 12	.	.	PUNCT	Y	_	11	punct	_	Translit=.
 
 # sent_id = s2160
