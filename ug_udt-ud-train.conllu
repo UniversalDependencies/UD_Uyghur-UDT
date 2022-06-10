@@ -2812,7 +2812,7 @@
 
 # sent_id = s1991
 # text = سادىق قايتىپ كەلدى.
-1	سادىق	سادىق	ADJ	N	Case=Nom	2	nsubj	_	Translit=sadiq
+1	سادىق	سادىق	PROPN	N	Case=Nom	2	nsubj	_	Translit=sadiq
 2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qaytip
 3	كەلدى	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No|Translit=keldi
 4	.	.	PUNCT	Y	_	3	punct	_	Translit=.
