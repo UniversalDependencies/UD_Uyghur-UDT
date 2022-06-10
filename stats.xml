@@ -93,7 +93,7 @@
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">592</dep>
+    <dep name="cop">591</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
@@ -120,6 +120,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">36</dep>
+    <dep name="xcomp">37</dep>
   </deps>
 </treebank>
