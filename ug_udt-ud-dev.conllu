@@ -4141,9 +4141,9 @@
 # sent_id = s1147
 # text = بەك ياخشى بولدى!
 1	بەك	بەك	ADV	D	_	2	advmod	_	Translit=bek
-2	ياخشى	ياخشى	AUX	A	Case=Nom	3	cop	_	Translit=yaxshi
-3	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=boldi
-4	!	!	PUNCT	Y	_	3	punct	_	Translit=!
+2	ياخشى	ياخشى	ADJ	A	Case=Nom	0	root	_	Translit=yaxshi
+3	بولدى	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No|Translit=boldi
+4	!	!	PUNCT	Y	_	2	punct	_	Translit=!
 
 # sent_id = s1148
 # text = ئامپېر خۇش بولۇپ ئۇياققا باردى – دە، يانچۇقىدىن بورنى چىقىرىپ، دوسكىغا يېزىپ ھېسابلاشقا باشلىدى.
