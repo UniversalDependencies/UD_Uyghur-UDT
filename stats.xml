@@ -17,8 +17,8 @@
   <tags unique="16">
     <tag name="ADJ">2849</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">630</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
-    <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1113</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="ADV">982</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
+    <tag name="AUX">1116</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">111</tag><!-- _, پاھ, ھەي, ياق, ۋاي, رەھمەت, بولسۇن, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">74</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, سادىق, ئىمام, بېيجىڭ -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8124</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="VERB">8120</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -79,22 +79,22 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
     <dep name="acl">743</dep>
-    <dep name="advcl">1536</dep>
+    <dep name="advcl">1537</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">1881</dep>
+    <dep name="advmod">1882</dep>
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2427</dep>
     <dep name="appos">123</dep>
-    <dep name="aux">826</dep>
-    <dep name="case">561</dep>
+    <dep name="aux">827</dep>
+    <dep name="case">568</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">432</dep>
-    <dep name="compound">1595</dep>
+    <dep name="compound">1594</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">574</dep>
-    <dep name="csubj">87</dep>
+    <dep name="cop">555</dep>
+    <dep name="csubj">88</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
     <dep name="discourse">252</dep>
@@ -104,17 +104,17 @@
     <dep name="flat">54</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">146</dep>
-    <dep name="nmod">1358</dep>
+    <dep name="nmod">1363</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
     <dep name="nmod:tmod">88</dep>
-    <dep name="nsubj">3788</dep>
+    <dep name="nsubj">3787</dep>
     <dep name="nsubj:pass">6</dep>
-    <dep name="nummod">740</dep>
+    <dep name="nummod">739</dep>
     <dep name="obj">2309</dep>
-    <dep name="obl">3982</dep>
+    <dep name="obl">3985</dep>
     <dep name="obl:tmod">4</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">405</dep>
@@ -122,6 +122,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">45</dep>
+    <dep name="xcomp">48</dep>
   </deps>
 </treebank>
