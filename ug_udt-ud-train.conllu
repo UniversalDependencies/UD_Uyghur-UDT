@@ -11623,12 +11623,12 @@
 
 # sent_id = s2575
 # text = سۆزۈمدىن بوۋاي خۇشال بولدى بولغاي، تاتىراڭغۇ چىرايى نۇر يۈگۈرگەندەك چاقناپ كەتتى.
-1	سۆزۈمدىن	_	ADJ	A	Case=Abl	4	nmod	_	Translit=sözümdin|Morf=Missing,1
-2	بوۋاي	بوۋاي	NOUN	N	Case=Nom	4	nsubj	_	Translit=boway
-3	خۇشال	خۇشال	ADJ	A	_	4	compound	_	Translit=xushal
-4	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	Translit=boldi
-5	بولغاي	بولغاي	AUX	T	_	4	cop	_	SpaceAfter=No|Translit=bolghay
-6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
+1	سۆزۈمدىن	_	ADJ	A	Case=Abl	3	obl	_	Translit=sözümdin|Morf=Missing,1
+2	بوۋاي	بوۋاي	NOUN	N	Case=Nom	3	nsubj	_	Translit=boway
+3	خۇشال	خۇشال	ADJ	A	_	11	parataxis	_	Translit=xushal
+4	بولدى	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	Translit=boldi
+5	بولغاي	بولغاي	ADV	T	_	3	advmod	_	SpaceAfter=No|Translit=bolghay
+6	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 7	تاتىراڭغۇ	تاتىراڭغۇ	NOUN	N	Case=Nom	8	amod	_	Translit=tatirangghu
 8	چىرايى	_	NOUN	N	_	11	nsubj	_	Translit=chirayi|Morf=Unknown
 9	نۇر	نۇر	NOUN	N	Case=Nom	10	nsubj	_	Translit=nur
