@@ -2077,11 +2077,11 @@
 # sent_id = s1012
 # text = شۇڭا ئمۇ توغرا جاۋاب بولىدۇ.
 1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Gloss=so|Translit=shunga
-2	ئمۇ	_	NOUN	N	_	4	nsubj	_	Translit=mu|Morf=Unknown
+2	ئمۇ	ئمۇ	NOUN	N	Case=Nom	4	nsubj	_	Translit=mu|Morf=Unknown
 3	توغرا	توغرا	ADJ	A	Case=Nom	4	amod	_	Translit=toghra
 4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	0	root	_	Translit=jawab
 5	بولىدۇ	بول	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|Translit=bolidu
-6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
+6	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
 # sent_id = s1013
 # text = ئەمسە د قانداق بولىدۇ؟
@@ -2106,11 +2106,11 @@
 
 # sent_id = s1015
 # text = شۇڭا دمۇ توغرا جاۋاب ھېسابلىنىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Gloss=so|Translit=shunga
-2	دمۇ	_	NOUN	N	_	4	nsubj	_	Translit=dmu|Morf=Unknown
+1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Gloss=so|Translit=shunga
+2	دمۇ	دمۇ	NOUN	N	Case=Nom	5	nsubj:pass	_	Translit=dmu|Morf=Unknown
 3	توغرا	توغرا	ADJ	A	Case=Nom	4	amod	_	Translit=toghra
-4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	0	root	_	Translit=jawab
-5	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	SpaceAfter=No|Translit=hësablinidu
+4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	5	xcomp	_	Translit=jawab
+5	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=hësablinidu
 6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
 
 # sent_id = s1016
