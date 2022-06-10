@@ -3440,15 +3440,15 @@
 12	ياڭراتقان	_	VERB	V	_	15	acl	_	Translit=yangratqan|Morf=Unknown
 13	چىن	چىن	ADJ	A	Case=Nom	14	amod	_	Translit=chin
 14	ئىنسانلىق	ئىنسانلىق	NOUN	N	Case=Nom	15	amod	_	Translit=insanliq
-15	خىتابى	_	NOUN	N	_	22	obj	_	Translit=xitabi|Morf=Unknown
+15	خىتابى	_	NOUN	N	_	23	obj	_	Translit=xitabi|Morf=Unknown
 16	ئىكەنلىكىنى	_	AUX	V	_	15	cop	_	Translit=ikenlikini|Morf=Unknown
-17	كېيىن	كېيىن	NOUN	D	Case=Nom	22	obl	_	SpaceAfter=No|Translit=këyin
+17	كېيىن	كېيىن	NOUN	D	Case=Nom	23	obl	_	SpaceAfter=No|Translit=këyin
 18	،	،	PUNCT	Y	_	20	punct	_	Translit=,
 19	بەكمۇ	_	ADV	D	_	20	advmod	_	Translit=bekmu|Morf=Unknown
 20	كېيىن	كېيىن	NOUN	D	Case=Nom	17	conj	_	Translit=këyin
 21	ھېس	ھېس	NOUN	N	Case=Nom	22	compound	_	Translit=hës
-22	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qilip
-23	يەتتىم	يەت	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No|Translit=yettim
+22	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	23	xcomp	_	Translit=qilip
+23	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yettim
 24	.	.	PUNCT	Y	_	23	punct	_	Translit=.
 
 # sent_id = s2033
