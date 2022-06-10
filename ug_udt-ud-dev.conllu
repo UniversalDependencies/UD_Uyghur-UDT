@@ -1583,16 +1583,16 @@
 # sent_id = s975
 # text = چوڭ ئاكاڭ ئەبەيدۇللا مېنىڭ كەينىمدىن يۈرۈپ پىشقان دېھقان بولۇپ كەتتى.
 1	چوڭ	چوڭ	ADJ	A	_	2	amod	_	Translit=chong
-2	ئاكاڭ	ئاكا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	0	root	_	Translit=akang
-3	ئەبەيدۇللا	_	NOUN	N	_	2	appos	_	Translit=ebeydulla|Morf=Unknown
+2	ئاكاڭ	ئاكا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	8	nsubj	_	Translit=akang
+3	ئەبەيدۇللا	ئەبەيدۇللا	PROPN	N	Case=Nom	2	appos	_	Translit=ebeydulla|Morf=Unknown
 4	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	Translit=mëning
 5	كەينىمدىن	_	NOUN	N	_	6	obl	_	Translit=keynimdin|Morf=Unknown
-6	يۈرۈپ	يۈر	VERB	V	Aspect=Perf|VerbForm=Conv	2	advcl	_	Translit=yürüp
-7	پىشقان	پىش	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	2	advmod	_	Translit=pishqan
-8	دېھقان	دېھقان	NOUN	N	Case=Nom	2	compound	_	Translit=dëhqan
-9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	2	appos	_	Translit=bolup
+6	يۈرۈپ	يۈر	VERB	V	Aspect=Perf|VerbForm=Conv	2	acl	_	Translit=yürüp
+7	پىشقان	پىش	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	8	acl	_	Translit=pishqan
+8	دېھقان	دېھقان	NOUN	N	Case=Nom	0	root	_	Translit=dëhqan
+9	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Inf	8	cop	_	Translit=bolup
 10	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No|Translit=ketti
-11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
+11	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
 # sent_id = s976
 # text = ئۇ ھازىر ئون مو يەرنىڭ خوجايىنى بولۇپ، تۆت بالىسىنى كەينىگە سېلىپ، رىزقىنى يەردىن تېپىپ يەۋاتىدۇ.
@@ -2151,7 +2151,7 @@
 15	كاللىمىزدا	_	VERB	V	_	18	obl	_	Translit=kallimizda|Morf=Unknown
 16	تىرەن	_	ADJ	A	_	17	amod	_	Translit=tiren|Morf=Unknown
 17	يىلتىز	يىلتىز	NOUN	N	Case=Nom	18	obj	_	Translit=yiltiz
-18	تارتىپ	تارتىپ	ADP	V	_	0	root	_	Translit=tartip
+18	تارتىپ	تارتىپ	VERB	V	_	0	root	_	Translit=tartip
 19	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No|Translit=ketti
 20	.	.	PUNCT	Y	_	19	punct	_	Translit=.
 
