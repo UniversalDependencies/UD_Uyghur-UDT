@@ -3392,7 +3392,7 @@
 12	كۆرگەندە	كۆر	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	17	advcl	_	Translit=körgende
 13	ھاردۇقۇڭ	_	NOUN	N	_	14	nsubj	_	Translit=harduqung|Morf=Unknown
 14	چىقسا	چىق	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	17	ccomp	_	Translit=chiqsa
-15	كېرەك	_	ADJ	A	_	14	advmod	_	SpaceAfter=No|Translit=kërek|Morf=Missing,1
+15	كېرەك	_	ADJ	A	Case=Nom	14	advmod	_	Gloss=need|Morf=Missing,1|SpaceAfter=No|Translit=kërek
 16	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 17	كۈلىسەن	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=külisen|Morf=Unknown
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
@@ -3797,7 +3797,7 @@
 19	ئۆزى	ئۆز	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	21	nsubj	_	Translit=özi
 20	مۇستەقىل	مۇستەقىل	ADJ	A	Case=Nom	21	advmod	_	Translit=musteqil
 21	مېڭىشى	ماڭ	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	17	conj	_	Translit=mëngishi
-22	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+22	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 23	.	.	PUNCT	Y	_	22	punct	_	Translit=.
 
 # sent_id = s2055
@@ -6062,7 +6062,7 @@
 13	ئەنە	ئەنە	PRON	T	Case=Nom	15	obl	_	Translit=ene
 14	شۇنداق	شۇنداق	ADV	P	_	13	fixed	_	Translit=shundaq
 15	بولۇشى	بول	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	16	csubj	_	Translit=bolushi
-16	كېرەك	كېرەك	NOUN	A	Case=Nom	19	ccomp	_	SpaceAfter=No|Translit=kërek
+16	كېرەك	كېرەك	ADJ	A	Case=Nom	19	ccomp	_	Gloss=need|SpaceAfter=No|Translit=kërek
 17	!	!	PUNCT	V	_	16	punct	_	Translit=!
 18	-	-	PUNCT	Y	_	16	punct	_	Translit=-
 19	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=dëdi
@@ -7749,7 +7749,7 @@
 17	ئەمىلىمگە	_	NOUN	N	_	19	obl	_	Translit=emilimge|Morf=Unknown
 18	ماس	ماس	ADJ	A	_	19	compound	_	Translit=mas
 19	كەلمىسە	كەل	VERB	V	Mood=Cnd|Number=Plur|Person=3|Polarity=Neg|VerbForm=Conv	20	csubj	_	Translit=kelmise
-20	كېرەك	كېرەك	NOUN	A	Case=Nom	9	ccomp	_	SpaceAfter=No|Translit=kërek
+20	كېرەك	كېرەك	ADJ	A	Case=Nom	9	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 21	.	.	PUNCT	Y	_	20	punct	_	Translit=.
 
 # sent_id = s2310
@@ -8110,7 +8110,7 @@
 5	يۈكسەك	يۈكسەك	ADJ	A	_	6	amod	_	Translit=yüksek
 6	ئشەنچ	_	NOUN	N	_	7	nsubj	_	Translit=shench|Morf=Unknown
 7	بولۇشى	بول	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	8	csubj	_	Translit=bolushi
-8	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+8	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
 # sent_id = s2335
@@ -12112,7 +12112,7 @@
 16	ئاللىبۇرۇن	ئاللىبۇرۇن	ADV	D	_	17	advmod	_	Translit=alliburun
 17	خوشلاشقان	_	VERB	V	_	0	root	_	Translit=xoshlashqan|Morf=Unknown
 18	بولسا	بول	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	19	compound	_	Translit=bolsa
-19	كېرەك	كېرەك	NOUN	A	Case=Nom	17	cop	_	SpaceAfter=No|Translit=kërek
+19	كېرەك	كېرەك	ADJ	A	Case=Nom	17	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 20	.	.	PUNCT	Y	_	19	punct	_	Translit=.
 
 # sent_id = s2606
@@ -15023,7 +15023,7 @@
 12	غالجىرانە	غالجىرانە	ADJ	N	_	13	amod	_	Translit=ghaljirane
 13	ھەركەتنى	ھەركەت	NOUN	V	Case=Acc	14	obj	_	Translit=herketni
 14	چەكلەش	_	VERB	V	_	0	root	_	Translit=cheklesh|Morf=Unknown
-15	كېرەك	كېرەك	NOUN	A	Case=Nom	14	cop	_	SpaceAfter=No|Translit=kërek
+15	كېرەك	كېرەك	ADJ	A	Case=Nom	14	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
 # sent_id = s2773
@@ -15353,7 +15353,7 @@
 3	بۇنداق	بۇنداق	DET	P	Case=Nom	4	det	_	Translit=bundaq
 4	بىشەملىكنى	بىشەملىك	NOUN	N	Case=Acc	5	obj	_	Translit=bishemlikni
 5	چەكلەش	_	VERB	V	_	10	ccomp	_	Translit=cheklesh|Morf=Unknown
-6	كېرەك	كېرەك	NOUN	A	Case=Nom	5	cop	_	SpaceAfter=No|Translit=kërek
+6	كېرەك	كېرەك	ADJ	A	Case=Nom	5	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	_	_	PUNCT	Y	_	6	punct	_	Translit=_|Morf=Unknown
 9	_	_	PUNCT	Y	_	6	punct	_	Translit=_|Morf=Unknown
@@ -16490,7 +16490,7 @@
 9	ئۈچۈن	ئۈچۈن	ADP	C	_	8	case	_	Translit=üchün
 10	نېمە	نېمە	NOUN	P	Case=Nom	11	obj	_	Translit=nëme
 11	قىلىشىمىز	_	VERB	V	_	15	ccomp	_	Translit=qilishimiz|Morf=Unknown
-12	كېرەك	كېرەك	NOUN	A	Case=Nom	11	cop	_	SpaceAfter=No|Translit=kërek
+12	كېرەك	كېرەك	ADJ	A	Case=Nom	11	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 13	؟	؟	PUNCT	Y	_	12	punct	_	Translit=?
 14	_	_	PUNCT	Y	_	12	punct	_	Translit=_|Morf=Unknown
 15	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	16	advcl	_	Translit=dep
@@ -16528,7 +16528,7 @@
 3	ئۈچۈن	ئۈچۈن	ADP	C	_	2	case	_	Translit=üchün
 4	ياخشى	ياخشى	ADJ	A	Case=Nom	5	advmod	_	Translit=yaxshi
 5	ئوقۇش	ئوقۇش	NOUN	V	Case=Nom	22	parataxis	_	Translit=oqush
-6	كېرەك	كېرەك	NOUN	A	Case=Nom	5	cop	_	SpaceAfter=No|Translit=kërek
+6	كېرەك	كېرەك	ADJ	A	Case=Nom	5	advmod	_	Gloss=need|SpaceAfter=No|Translit=kërek
 7	.	.	PUNCT	V	_	6	punct	_	Translit=.
 8	ياخشى	ياخشى	ADJ	A	Case=Nom	9	advmod	_	Translit=yaxshi
 9	ئوقۇساڭلار	_	VERB	V	_	22	advcl	_	SpaceAfter=No|Translit=oqusanglar|Morf=Unknown
@@ -18283,7 +18283,7 @@
 14	ئىشلىتىشكە	_	NOUN	N	_	16	obl	_	Translit=ishlitishke|Morf=Unknown
 15	ماھىر	ماھىر	ADJ	A	_	16	compound	_	Translit=mahir
 16	بولۇشىمىز	_	VERB	V	_	11	conj	_	Translit=bolushimiz|Morf=Unknown
-17	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+17	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
 # sent_id = s3011
@@ -19158,7 +19158,7 @@
 # text = كىمنى سايلاش كېرەك؟
 1	كىمنى	_	PRON	P	_	2	obj	_	Translit=kimni|Morf=Unknown
 2	سايلاش	_	VERB	V	_	3	nsubj	_	Translit=saylash|Morf=Unknown
-3	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+3	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 4	؟	؟	PUNCT	Y	_	3	punct	_	Translit=?
 
 # sent_id = s3076
@@ -21176,7 +21176,7 @@
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	مېۋىلەرنى	مېۋە	NOUN	N	Case=Acc|Number=Plur	4	obj	_	Translit=mëwilerni
 4	ئۈزۈش	ئۈز	VERB	V	Case=Nom|VerbForm=Ger	5	nsubj	_	Translit=üzüsh
-5	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+5	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 
 # sent_id = s3239
@@ -21185,7 +21185,7 @@
 2	جايلارغا	جاي	NOUN	N	Case=Dat|Number=Plur	3	obl	_	Translit=jaylargha
 3	ئاپىرىپ	_	VERB	V	_	4	advmod	_	Translit=apirip|Morf=Unknown
 4	سېتىش	سات	VERB	V	Case=Nom|VerbForm=Ger	5	nsubj	_	Translit=sëtish
-5	كېرەك	كېرەك	NOUN	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=kërek
+5	كېرەك	كېرەك	ADJ	A	Case=Nom	0	root	_	Gloss=need|SpaceAfter=No|Translit=kërek
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 
 # sent_id = s3240
@@ -21814,7 +21814,7 @@
 14	ئىشقىلىپ	_	PART	T	_	21	advmod	_	SpaceAfter=No|Translit=ishqilip|Morf=Missing,2
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	نېمە	نېمە	NOUN	P	Case=Nom	18	nsubj	_	Translit=nëme
-17	كېرەك	كېرەك	NOUN	A	Case=Nom	18	compound	_	Translit=kërek
+17	كېرەك	كېرەك	ADJ	A	Case=Nom	18	compound	_	Gloss=need|Translit=kërek
 18	بولسا	بول	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	21	advcl	_	SpaceAfter=No|Translit=bolsa
 19	،	،	PUNCT	Y	_	18	punct	_	Translit=,
 20	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	21	obj	_	Translit=shu
