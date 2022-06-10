@@ -15,10 +15,10 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">2848</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
+    <tag name="ADJ">2849</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">630</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1114</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="AUX">1113</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">111</tag><!-- _, پاھ, ھەي, ياق, ۋاي, رەھمەت, بولسۇن, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -77,23 +77,23 @@
     <feat name="Voice" value="Pass" upos="VERB">60</feat><!-- بىلىنىپ, قىلىنغان, ھېسابلىنىدۇ, ئاڭلىنىپ, تىكىلىپ, بىلىنىدۇ, چايقىلىپ, بىلىندى, تاشلىنىپ, قىلىندى -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="45">
     <dep name="acl">743</dep>
     <dep name="advcl">1536</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">1880</dep>
+    <dep name="advmod">1881</dep>
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2427</dep>
     <dep name="appos">123</dep>
-    <dep name="aux">825</dep>
+    <dep name="aux">826</dep>
     <dep name="case">561</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">432</dep>
-    <dep name="compound">1596</dep>
+    <dep name="compound">1595</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">578</dep>
+    <dep name="cop">574</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
@@ -102,6 +102,7 @@
     <dep name="expl">1</dep>
     <dep name="fixed">118</dep>
     <dep name="flat">54</dep>
+    <dep name="iobj">1</dep>
     <dep name="mark">146</dep>
     <dep name="nmod">1358</dep>
     <dep name="nmod:cau">68</dep>
@@ -109,8 +110,8 @@
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
     <dep name="nmod:tmod">88</dep>
-    <dep name="nsubj">3789</dep>
-    <dep name="nsubj:pass">5</dep>
+    <dep name="nsubj">3788</dep>
+    <dep name="nsubj:pass">6</dep>
     <dep name="nummod">740</dep>
     <dep name="obj">2309</dep>
     <dep name="obl">3982</dep>
@@ -121,6 +122,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">43</dep>
+    <dep name="xcomp">45</dep>
   </deps>
 </treebank>

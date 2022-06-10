@@ -13951,17 +13951,17 @@
 # text = مانا شۇنىڭ نەتىجىسىدە تۇرپان جۇڭگو بۇيىچە ئەڭ ئىسسىق بولدىغان رايونلارنىڭ بىرى بولۇپ قالغان.
 1	مانا	_	PART	T	_	3	mark	_	Translit=mana|Morf=Missing,1
 2	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	3	nmod:poss	_	Translit=shuning
-3	نەتىجىسىدە	نەتىجە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	advmod	_	Translit=netijiside
-4	تۇرپان	_	NOUN	N	_	11	nsubj	_	Translit=turpan|Morf=Unknown
+3	نەتىجىسىدە	نەتىجە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	advmod	_	Translit=netijiside
+4	تۇرپان	_	NOUN	N	_	13	nsubj	_	Translit=turpan|Morf=Unknown
 5	جۇڭگو	جۇڭگو	PROPN	N	Case=Nom	9	obl	_	Translit=junggo
 6	بۇيىچە	_	NOUN	N	_	5	case	_	Translit=buyiche|Morf=Unknown
 7	ئەڭ	ئەڭ	PRON	D	Case=Nom	8	obl	_	Translit=eng
 8	ئىسسىق	ئىسسىق	ADJ	A	_	9	compound	_	Translit=issiq
 9	بولدىغان	_	VERB	V	_	10	acl	_	Translit=boldighan|Morf=Unknown
 10	رايونلارنىڭ	رايون	NOUN	N	Case=Gen|Number=Plur	11	nmod:poss	_	Translit=rayonlarning
-11	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	0	root	_	Translit=biri
+11	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	13	xcomp	_	Translit=biri
 12	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	13	compound:lvc	_	Translit=bolup
-13	قالغان	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	SpaceAfter=No|Translit=qalghan
+13	قالغان	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qalghan
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
 # sent_id = s2709
@@ -14018,11 +14018,11 @@
 # sent_id = s2712
 # text = كارىزنىڭ قۇرۇلمىسى قارىماققا ئىنتايىن ئاددى كۆرۈنىدۇ.
 1	كارىزنىڭ	كارىز	NOUN	N	Case=Gen	2	nmod:poss	_	Translit=karizning
-2	قۇرۇلمىسى	قۇرۇلما	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	Translit=qurulmisi
+2	قۇرۇلمىسى	قۇرۇلما	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=qurulmisi
 3	قارىماققا	_	VERB	V	_	5	nmod	_	Translit=qarimaqqa|Morf=Unknown
-4	ئىنتايىن	ئىنتايىن	ADV	D	_	5	advmod	_	Translit=intayin
-5	ئاددى	_	ADJ	A	_	0	root	_	Translit=addi|Morf=Unknown
-6	كۆرۈنىدۇ	كۆرۈن	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No|Translit=körünidu
+4	ئىنتايىن	ئىنتايىن	ADV	D	_	6	advmod	_	Translit=intayin
+5	ئاددى	_	ADJ	A	_	6	xcomp	_	Translit=addi|Morf=Unknown
+6	كۆرۈنىدۇ	كۆرۈن	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=körünidu
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s2713
