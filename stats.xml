@@ -15,10 +15,10 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">2850</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
+    <tag name="ADJ">2849</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">630</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1112</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="AUX">1113</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">111</tag><!-- _, پاھ, ھەي, ياق, ۋاي, رەھمەت, بولسۇن, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -26,10 +26,10 @@
     <tag name="NUM">996</tag><!-- بىر, ئىككى, _, تۆت, ئون, بەش, ئۈچ, ئالتە, مىڭ, يەتتە -->
     <tag name="PART">121</tag><!-- _, ئوخشى -->
     <tag name="PRON">2692</tag><!-- ئۇ, _, بۇ, مەن, ئۇلار, ئۆز, سەن, بىز, شۇ, ئەڭ -->
-    <tag name="PROPN">72</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, بېيجىڭ, خڭجۇ -->
+    <tag name="PROPN">73</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, بېيجىڭ, خڭجۇ -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8124</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="VERB">8123</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -37,7 +37,7 @@
     <feat name="Aspect" value="Hab" upos="AUX,PART,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1540</feat><!-- دەپ, بولۇپ, قىلىپ, قاراپ, ئېلىپ, تۇرۇپ, كېلىپ, كۆرۈپ, بېرىپ, قايتىپ -->
     <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">535</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
-    <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
     <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">995</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">793</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
@@ -86,14 +86,14 @@
     <dep name="amod">2427</dep>
     <dep name="appos">123</dep>
     <dep name="aux">825</dep>
-    <dep name="case">559</dep>
+    <dep name="case">561</dep>
     <dep name="cc">634</dep>
-    <dep name="ccomp">431</dep>
+    <dep name="ccomp">432</dep>
     <dep name="compound">1596</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">586</dep>
+    <dep name="cop">583</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
@@ -111,7 +111,7 @@
     <dep name="nsubj">3789</dep>
     <dep name="nsubj:pass">5</dep>
     <dep name="nummod">740</dep>
-    <dep name="obj">2310</dep>
+    <dep name="obj">2309</dep>
     <dep name="obl">3982</dep>
     <dep name="obl:tmod">4</dep>
     <dep name="orphan">13</dep>
@@ -120,6 +120,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">38</dep>
+    <dep name="xcomp">39</dep>
   </deps>
 </treebank>

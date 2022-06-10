@@ -1238,18 +1238,18 @@
 
 # sent_id = s1882
 # text = ئەمما، يېشى 40تىن ئاشقان بولسىمۇ، تېخى پەرزەنت يۈزى كۆرۈپ باقمىدى.
-1	ئەمما	ئەمما	CCONJ	C	_	11	cc	_	SpaceAfter=No|Translit=emma
+1	ئەمما	ئەمما	CCONJ	C	_	12	cc	_	SpaceAfter=No|Translit=emma
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	يېشى	ياش	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	Translit=yëshi
 4	40تىن	_	NUM	M	_	5	obl	_	Translit=40tin|Morf=Unknown
-5	ئاشقان	_	VERB	V	_	11	obl	_	Translit=ashqan|Morf=Unknown
+5	ئاشقان	_	VERB	V	_	12	obl	_	Translit=ashqan|Morf=Unknown
 6	بولسىمۇ	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	5	cop	_	SpaceAfter=No|Translit=bolsimu
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
-8	تېخى	تېخى	ADV	D	_	11	advmod	_	Translit=tëxi
+8	تېخى	تېخى	ADV	D	_	12	advmod	_	Translit=tëxi
 9	پەرزەنت	پەرزەنت	NOUN	N	Case=Nom	10	nmod	_	Translit=perzent
-10	يۈزى	يۈز	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	obj	_	Translit=yüzi
-11	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
-12	باقمىدى	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	11	cop	_	SpaceAfter=No|Translit=baqmidi
+10	يۈزى	يۈز	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	Translit=yüzi
+11	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	12	xcomp	_	Translit=körüp
+12	باقمىدى	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqmidi
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s1883
