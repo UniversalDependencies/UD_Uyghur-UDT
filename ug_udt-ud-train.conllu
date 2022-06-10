@@ -907,21 +907,21 @@
 3	يىللىق	يىللىق	ADJ	A	Case=Nom	4	amod	_	Translit=yilliq
 4	باھا	باھا	NOUN	N	Case=Nom	6	obl	_	Translit=baha
 5	بويىچە	بويىچە	ADP	R	_	4	case	_	Translit=boyiche
-6	ھېسابلىغاندا	ھېسابلى	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	19	advcl	_	SpaceAfter=No|Translit=hësablighanda
+6	ھېسابلىغاندا	ھېسابلى	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	20	advcl	_	SpaceAfter=No|Translit=hësablighanda
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	2015	2015	NUM	M	NumType=Ord	10	nummod	_	Translit=2015
 9	-	-	PUNCT	Y	_	8	punct	_	Translit=-
 10	يىلىغا	يىل	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	Translit=yiligha
-11	بارغاندا	بار	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	19	advcl	_	Translit=barghanda
+11	بارغاندا	بار	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	20	advcl	_	Translit=barghanda
 12	ئىچكى	ئىچكى	ADJ	A	_	13	compound	_	Translit=ichki
 13	ئىشلەپچىقىرىش	ئىشلەپچىقار	VERB	V	Case=Nom|VerbForm=Ger	15	compound	_	Translit=ishlepchiqirish
 14	ئومۇمىي	ئومۇمىي	ADJ	A	Case=Nom	15	amod	_	Translit=omumiy
-15	قىممىتى	قىممەت	ADJ	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	19	nsubj	_	Translit=qimmiti
+15	قىممىتى	قىممەت	ADJ	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	nsubj	_	Translit=qimmiti
 16	55	55	NUM	M	NumType=Ord	17	nummod	_	Translit=55
 17	تىرىليون	تىرىليون	NOUN	M	Case=Nom	18	nummod	_	Translit=tirilyon
-18	يۈەندىن	يۈەن	NOUN	Q	Case=Abl	19	obl	_	Translit=yüendin
-19	ئېشىپ	ئەش	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ëship
-20	كېتىدۇ	كەت	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No|Translit=këtidu
+18	يۈەندىن	يۈەن	NOUN	Q	Case=Abl	20	obl	_	Translit=yüendin
+19	ئېشىپ	ئەش	VERB	V	Aspect=Perf|VerbForm=Inf	20	xcomp	_	Translit=ëship
+20	كېتىدۇ	كەت	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=këtidu
 21	.	.	PUNCT	Y	_	20	punct	_	Translit=.
 
 # sent_id = s1868
@@ -2454,15 +2454,15 @@
 
 # sent_id = s1968
 # text = _ سادىقنىڭ چىرايى تېخىمۇ تاتىرىپ، لەۋلىرى تىترەپ كەتتى، _ ئۇنى ئانام چېلىۋاتىدۇ.
-1	_	_	PUNCT	Y	_	8	punct	_	Translit=_|Morf=Unknown
+1	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
 2	سادىقنىڭ	سادىق	ADJ	N	Case=Gen	3	nmod:poss	_	Translit=sadiqning
 3	چىرايى	_	NOUN	N	_	5	nsubj	_	Translit=chirayi|Morf=Unknown
 4	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	5	obl	_	Translit=tëximu
-5	تاتىرىپ	تاتار	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	SpaceAfter=No|Translit=tatirip
+5	تاتىرىپ	تاتار	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	SpaceAfter=No|Translit=tatirip
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	لەۋلىرى	لەۋ	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=lewliri
-8	تىترەپ	_	VERB	V	_	14	parataxis	_	Translit=titrep|Morf=Unknown
-9	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No|Translit=ketti
+7	لەۋلىرى	لەۋ	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	Translit=lewliri
+8	تىترەپ	_	VERB	V	_	9	xcomp	_	Translit=titrep|Morf=Unknown
+9	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	SpaceAfter=No|Translit=ketti
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
 12	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	obj	_	Translit=uni
@@ -24016,10 +24016,10 @@
 1	تۇخۇمنى	تۇخۇم	NOUN	N	Case=Acc	3	obj	_	Translit=tuxumni
 2	كۆتۈرۈپ	كۆتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	3	compound:lvc	_	Translit=kötürüp
 3	كېلىۋاتقان	_	VERB	V	_	4	acl	_	Translit=këliwatqan|Morf=Unknown
-4	ئوقۇتقۇچى	ئوقۇتقۇچى	NOUN	V	Case=Nom	6	nsubj	_	Translit=oqutquchi
+4	ئوقۇتقۇچى	ئوقۇتقۇچى	NOUN	V	Case=Nom	7	nsubj	_	Translit=oqutquchi
 5	خاپا	خاپا	NOUN	A	Case=Nom	6	compound	_	Translit=xapa
-6	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
-7	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No|Translit=ketti
+6	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	7	xcomp	_	Translit=bolup
+7	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ketti
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s3442

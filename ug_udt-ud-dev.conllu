@@ -7732,7 +7732,7 @@
 # sent_id = s1399
 # text = مەكتەپ ھويلىسى رەڭمۇرەڭ، خىلمۇخىل مىللىيچە كىيىملەرنى كىيگەن بەختىيار بالىلار بىلەن تېخىمۇ گۈزەللىشىپ كېتىدۇ.
 1	مەكتەپ	مەكتەپ	NOUN	N	Case=Nom	2	nmod:poss	_	Translit=mektep
-2	ھويلىسى	ھويلا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	nsubj	_	Translit=hoylisi
+2	ھويلىسى	ھويلا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nsubj	_	Translit=hoylisi
 3	رەڭمۇرەڭ	_	NOUN	N	_	7	amod	_	SpaceAfter=No|Translit=rengmureng|Morf=Unknown
 4	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 5	خىلمۇخىل	_	NOUN	N	_	3	conj	_	Translit=xilmuxil|Morf=Unknown
@@ -7740,11 +7740,11 @@
 7	كىيىملەرنى	_	NOUN	N	_	8	obj	_	Translit=kiyimlerni|Morf=Unknown
 8	كىيگەن	_	VERB	V	_	10	acl	_	Translit=kiygen|Morf=Unknown
 9	بەختىيار	بەختىيار	ADJ	A	_	10	amod	_	Translit=bextiyar
-10	بالىلار	بالا	NOUN	N	Case=Nom|Number=Plur	13	obl	_	Translit=balilar
+10	بالىلار	بالا	NOUN	N	Case=Nom|Number=Plur	14	obl	_	Translit=balilar
 11	بىلەن	بىلەن	ADP	R	_	10	case	_	Translit=bilen
-12	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	13	obl	_	Translit=tëximu
-13	گۈزەللىشىپ	_	VERB	V	_	0	root	_	Translit=güzelliship|Morf=Unknown
-14	كېتىدۇ	كەت	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No|Translit=këtidu
+12	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	14	obl	_	Translit=tëximu
+13	گۈزەللىشىپ	_	VERB	V	_	14	xcomp	_	Translit=güzelliship|Morf=Unknown
+14	كېتىدۇ	كەت	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=këtidu
 15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
 
 # sent_id = s1400
@@ -10322,18 +10322,18 @@
 # sent_id = s1582
 # text = شۇ ئەسنادا، ئۇنىڭغا قۇيۇق تۇمان ئارىسىدىن نۇرغۇن پاراخوت يۇپۇرۇلۇپ كېلىۋاتقاندەك تۇيۇلۇپ كەتتى.
 1	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=shu
-2	ئەسنادا	_	NOUN	N	_	12	obl	_	SpaceAfter=No|Translit=esnada|Morf=Unknown
+2	ئەسنادا	_	NOUN	N	_	13	obl	_	SpaceAfter=No|Translit=esnada|Morf=Unknown
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	ئۇنىڭغا	ئۇ	PRON	P	Case=Dat|Number=Sing|Person=3|PronType=Prs	12	obl	_	Translit=uninggha
+4	ئۇنىڭغا	ئۇ	PRON	P	Case=Dat|Number=Sing|Person=3|PronType=Prs	13	obl	_	Translit=uninggha
 5	قۇيۇق	_	ADJ	A	_	6	amod	_	Translit=quyuq|Morf=Unknown
 6	تۇمان	تۇمان	NOUN	N	Case=Nom	7	nmod	_	Translit=tuman
 7	ئارىسىدىن	ئارا	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	Translit=arisidin
 8	نۇرغۇن	نۇرغۇن	ADJ	A	Case=Nom	9	amod	_	Translit=nurghun
 9	پاراخوت	_	NOUN	N	_	11	nsubj	_	Translit=paraxot|Morf=Unknown
 10	يۇپۇرۇلۇپ	_	VERB	V	_	11	advcl	_	Translit=yupurulup|Morf=Unknown
-11	كېلىۋاتقاندەك	_	VERB	V	_	12	advcl	_	Translit=këliwatqandek|Morf=Unknown
-12	تۇيۇلۇپ	_	VERB	V	_	0	root	_	Translit=tuyulup|Morf=Unknown
-13	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No|Translit=ketti
+11	كېلىۋاتقاندەك	_	VERB	V	_	13	advcl	_	Translit=këliwatqandek|Morf=Unknown
+12	تۇيۇلۇپ	_	VERB	V	_	13	xcomp	_	Translit=tuyulup|Morf=Unknown
+13	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ketti
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
 # sent_id = s1583
@@ -11164,10 +11164,10 @@
 
 # sent_id = s1648
 # text = پاراخوت پۈتۈنلەي چۆكۈپ كەتتى.
-1	پاراخوت	_	NOUN	N	_	3	nsubj	_	Translit=paraxot|Morf=Unknown
-2	پۈتۈنلەي	پۈتۈنلەي	ADV	D	_	3	advmod	_	Translit=pütünley
-3	چۆكۈپ	_	VERB	V	_	0	root	_	Translit=chöküp|Morf=Unknown
-4	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No|Translit=ketti
+1	پاراخوت	_	NOUN	N	_	4	nsubj	_	Translit=paraxot|Morf=Unknown
+2	پۈتۈنلەي	پۈتۈنلەي	ADV	D	_	4	advmod	_	Translit=pütünley
+3	چۆكۈپ	_	VERB	V	_	4	xcomp	_	Translit=chöküp|Morf=Unknown
+4	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ketti
 5	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
 # sent_id = s1649

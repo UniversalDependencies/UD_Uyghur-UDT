@@ -18,7 +18,7 @@
     <tag name="ADJ">2850</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">630</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">981</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1114</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
+    <tag name="AUX">1108</tag><!-- _, بول, ئى, كەت, تۇر, كەل, بەر, يۈر, چىق, ئولتۇر -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">116</tag><!-- _, بولسۇن, پاھ, ھەي, ياق, ۋاي, رەھمەت, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">71</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, ئىمام, بېيجىڭ, خڭجۇ -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8117</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="VERB">8123</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -93,7 +93,7 @@
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">613</dep>
+    <dep name="cop">607</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
@@ -120,6 +120,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">24</dep>
+    <dep name="xcomp">30</dep>
   </deps>
 </treebank>
