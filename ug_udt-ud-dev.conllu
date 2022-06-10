@@ -8264,15 +8264,15 @@
 
 # sent_id = s1442
 # text = ئۇ چىرايلىق بولۇپلا قالماي، يەنە بەك ئەقىللىق ئىكەن.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	cop	_	Translit=u
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=u
 2	چىرايلىق	چىرايلىق	ADJ	A	Case=Nom	0	root	_	Translit=chirayliq
 3	بولۇپلا	_	AUX	V	_	2	cop	_	Translit=bolupla|Morf=Unknown
-4	قالماي	_	VERB	V	_	3	case	_	SpaceAfter=No|Translit=qalmay|Morf=Unknown
+4	قالماي	_	VERB	V	_	2	advcl	_	SpaceAfter=No|Translit=qalmay|Morf=Unknown
 5	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 6	يەنە	يەنە	ADV	D	_	8	cc	_	Translit=yene
 7	بەك	بەك	ADV	D	_	8	advmod	_	Translit=bek
 8	ئەقىللىق	ئەقىللىق	ADJ	A	Case=Nom	2	conj	_	Translit=eqilliq
-9	ئىكەن	_	AUX	V	_	8	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
+9	ئىكەن	_	VERB	V	_	8	advcl	_	SpaceAfter=No|Translit=iken|Morf=Unknown
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s1443
