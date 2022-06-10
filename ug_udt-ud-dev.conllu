@@ -4290,7 +4290,7 @@
 13	ۋۈجۇدقا	_	VERB	V	_	14	compound	_	Translit=wüjudqa|Morf=Unknown
 14	چىقىرىش	چىقار	VERB	V	Case=Nom|VerbForm=Ger	15	acl	_	Translit=chiqirish
 15	ئىمكانىيىتىگە	_	NOUN	N	_	17	obl	_	Translit=imkaniyitige|Morf=Unknown
-16	ئىگە	ئىگە	NOUN	N	Case=Nom	17	cop	_	Translit=ige
+16	ئىگە	ئىگە	NOUN	N	Case=Nom	17	obl	_	Translit=ige
 17	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qilidu
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 

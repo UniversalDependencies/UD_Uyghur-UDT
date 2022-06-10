@@ -24166,7 +24166,7 @@
 3	قەتئىي	قەتئىي	ADJ	D	Case=Nom	4	advmod	_	Translit=qetiy
 4	تەۋرەنمەس	_	VERB	V	_	5	acl	_	Translit=tewrenmes|Morf=Unknown
 5	روھقا	روھ	NOUN	N	Case=Dat	7	obl	_	Translit=rohqa
-6	ئىگە	ئىگە	NOUN	N	Case=Nom	7	cop	_	Translit=ige
+6	ئىگە	ئىگە	NOUN	N	Case=Nom	7	obl	_	Translit=ige
 7	بولۇشىمىز	_	VERB	V	_	8	nsubj	_	Translit=bolushimiz|Morf=Unknown
 8	زۆرۈر	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=zörür|Morf=Unknown
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
