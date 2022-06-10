@@ -3034,9 +3034,9 @@
 # sent_id = s2007
 # text = قۇياشنىڭ قۇدرىتى بولمىسا، سەييارىلىرىنى ھەرگىزمۇ ئۆز سىزىقىدا چۆرگىلىتەلمەيتتى.
 1	قۇياشنىڭ	قۇياش	NOUN	N	Case=Gen	2	nmod:poss	_	Translit=quyashning
-2	قۇدرىتى	قۇدرەت	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	cop	_	Translit=qudriti
-3	بولمىسا	بول	VERB	V	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Conv	9	parataxis	_	SpaceAfter=No|Translit=bolmisa
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+2	قۇدرىتى	قۇدرەت	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	parataxis	_	Translit=qudriti
+3	بولمىسا	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Conv	2	cop	_	SpaceAfter=No|Translit=bolmisa
+4	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 5	سەييارىلىرىنى	سەييارە	ADJ	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	obj	_	Translit=seyyarilirini
 6	ھەرگىزمۇ	_	ADV	D	_	9	advmod	_	Translit=hergizmu|Morf=Unknown
 7	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	8	nmod	_	Translit=öz
