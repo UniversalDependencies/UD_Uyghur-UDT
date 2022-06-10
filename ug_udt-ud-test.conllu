@@ -8288,11 +8288,11 @@
 # text = بىر ئائىلە كىشىلىرى ياۋا ئازغاننىڭ يېنىدا ئولتۇرۇپ كۆڭۈللۈك پاراڭغا چۈشتى.
 1	بىر	بىر	NUM	M	_	2	nummod	_	Translit=bir
 2	ئائىلە	ئائىلە	NOUN	N	Case=Nom	3	amod	_	Translit=aile
-3	كىشىلىرى	كىشى	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	Translit=kishiliri
+3	كىشىلىرى	كىشى	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	Translit=kishiliri
 4	ياۋا	ياۋا	ADJ	A	_	5	amod	_	Translit=yawa
-5	ئازغاننىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=azghanning|Morf=Unknown
-6	يېنىدا	_	NOUN	N	_	7	obl	_	Translit=yënida|Morf=Unknown
-7	ئولتۇرۇپ	ئولتۇر	AUX	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=olturup
+5	ئازغاننىڭ	ئازغان	NOUN	N	Case=Gen	6	nmod:poss	_	Translit=azghanning|Morf=Unknown
+6	يېنىدا	يېنى	NOUN	N	Case=Loc	7	obl	_	Translit=yënida|Morf=Unknown
+7	ئولتۇرۇپ	ئولتۇر	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=olturup
 8	كۆڭۈللۈك	كۆڭۈللۈك	ADJ	A	_	9	amod	_	Translit=köngüllük
 9	پاراڭغا	پارا	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=2	10	obl	_	Translit=paranggha
 10	چۈشتى	چۈش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chüshti
