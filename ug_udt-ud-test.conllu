@@ -1630,7 +1630,7 @@
 
 # sent_id = s119
 # text = شۇنىڭدىن تارتىپ، كۇڭزى كۈن بويى ئۇستازىنىڭ قېشىدىن نېرى كەتمەي ھەر ۋاقىت تەلىم ئالىدۇ.
-1	شۇنىڭدىن	_	PRON	P	_	14	mark	_	Translit=shuningdin|Morf=Unknown
+1	شۇنىڭدىن	_	PRON	P	_	14	obl	_	Translit=shuningdin|Morf=Unknown
 2	تارتىپ	تارتىپ	ADP	R	_	1	fixed	_	SpaceAfter=No|Translit=tartip
 3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 4	كۇڭزى	_	NOUN	N	_	14	nsubj	_	Translit=kungzi|Morf=Unknown
@@ -3434,7 +3434,7 @@
 4	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	SpaceAfter=No|Translit=qarap
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	كۈلۈمسىرىگەن	_	VERB	V	_	8	advcl	_	Translit=külümsirigen|Morf=Unknown
-7	ھالدا	ھال	NOUN	N	Case=Loc	6	mark	_	Translit=halda
+7	ھالدا	ھال	NOUN	N	Case=Loc	6	obl	_	Translit=halda
 8	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=dëdi
 9	:	:	PUNCT	Y	_	8	punct	_	Translit=:
 
@@ -5243,7 +5243,7 @@
 6	-	-	PUNCT	Y	_	4	punct	_	Translit=-
 7	كراي	_	NOUN	N	_	15	nsubj	_	Translit=kray|Morf=Unknown
 8	كۈلۈمسىرىگەن	_	VERB	V	_	15	advcl	_	Translit=külümsirigen|Morf=Unknown
-9	ھالدا	ھال	NOUN	N	Case=Loc	8	mark	_	Translit=halda
+9	ھالدا	ھال	NOUN	N	Case=Loc	8	obl	_	Translit=halda
 10	سىزغۇچنى	سىزغۇچ	NOUN	N	Case=Acc	11	obj	_	Translit=sizghuchni
 11	ئىتتىرىۋېتىپ	_	VERB	V	_	15	advcl	_	SpaceAfter=No|Translit=ittiriwëtip|Morf=Unknown
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
@@ -5886,7 +5886,7 @@
 
 # sent_id = s442
 # text = ئەجىبا، مەن پادىشاھ بولۇشقا لايىق ئەمەسمۇ؟
-1	ئەجىبا	_	NOUN	N	_	6	mark	_	SpaceAfter=No|Translit=ejiba|Morf=Unknown
+1	ئەجىبا	_	NOUN	N	_	6	obl	_	SpaceAfter=No|Translit=ejiba|Morf=Unknown
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Translit=men
 4	پادىشاھ	پادىشاھ	NOUN	N	Case=Nom	5	nsubj	_	Translit=padishah
@@ -6215,7 +6215,7 @@
 
 # sent_id = s458
 # text = ئەمەلىيەتتە ئۇلارمۇ ھېچنېمىنى كۆرمەپتۇ.
-1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	4	mark	_	Translit=emeliyette
+1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	4	obl	_	Translit=emeliyette
 2	ئۇلارمۇ	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Translit=ularmu
 3	ھېچنېمىنى	_	PRON	P	_	4	obj	_	Translit=hëchnëmini|Morf=Unknown
 4	كۆرمەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=körmeptu|Morf=Unknown
@@ -6805,7 +6805,7 @@
 
 # sent_id = s495
 # text = شۇنىڭ بىلەن بۆرە بىر ھايۋاننى بوغۇپ ئۆلتۈرۈپ، ئۇنىڭ قېرىنىنى پۈۋلەپ تۇلۇمدەك كۆپتۈرۈپ، بېغىشىدىن چىشلەپ، كۈچۈكلىرىنى ئۇنىڭ ئۈستىگە چىقىرىدۇ - دە، ئۇنىڭ لەيلەش كۈچىدىن پايدىلنىپ، ھەممىسىنى دەريادىن ئامان - ئېسەن ئۆتكۈزۈۋالىدۇ.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	35	mark	_	Translit=shuning
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	35	obl	_	Translit=shuning
 2	بىلەن	بىلەن	ADP	C	_	1	fixed	_	Translit=bilen
 3	بۆرە	بۆرە	NOUN	N	Case=Nom	35	nsubj	_	Translit=böre
 4	بىر	بىر	DET	M	Case=Nom|NumType=Ord	5	det	_	Translit=bir
@@ -7643,7 +7643,7 @@
 
 # sent_id = s559
 # text = ئاڭغىچە ئۆردەك يېتىپ كەپتۇ.
-1	ئاڭغىچە	ئاڭ	NOUN	P	_	4	mark	_	Translit=angghiche
+1	ئاڭغىچە	ئاڭ	NOUN	P	_	4	obl	_	Translit=angghiche
 2	ئۆردەك	ئۆردەك	NOUN	N	Case=Nom	4	nsubj	_	Translit=ördek
 3	يېتىپ	يات	VERB	V	Aspect=Perf|VerbForm=Conv	4	advmod	_	Translit=yëtip
 4	كەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=keptu|Morf=Unknown
@@ -8451,7 +8451,7 @@
 
 # sent_id = s617
 # text = ئۇنداقتا، مەن ئەڭ ئاجىزمۇ؟
-1	ئۇنداقتا	_	PRON	P	_	5	mark	_	SpaceAfter=No|Translit=undaqta|Morf=Missing,1
+1	ئۇنداقتا	_	PRON	P	_	5	nmod	_	SpaceAfter=No|Translit=undaqta|Morf=Missing,1
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=men
 4	ئەڭ	ئەڭ	PRON	D	Case=Nom	5	advmod	_	Translit=eng
@@ -9798,7 +9798,7 @@
 12	ئاشۇرۇشىغا	ئاشۇر	VERB	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	13	obl	_	Translit=ashurushigha
 13	ئەگىشىپ	_	VERB	V	_	29	advmod	_	SpaceAfter=No|Translit=egiship|Morf=Unknown
 14	،	،	PUNCT	Y	_	13	punct	_	Translit=,
-15	ئۇنىڭ_ئۈستىگە	_	NOUN	N	_	21	mark	_	Translit=uning_üstige|Morf=Unknown
+15	ئۇنىڭ_ئۈستىگە	_	NOUN	N	_	21	obl	_	Translit=uning_üstige|Morf=Unknown
 16	باشقا	باشقا	ADJ	A	_	18	amod	_	Translit=bashqa
 17	تەرەققىي_قىلىۋاتقان	_	NOUN	N	_	18	acl	_	Translit=tereqqiy_qiliwatqan|Morf=Unknown
 18	بازارلار	بازار	NOUN	N	Case=Nom|Number=Plur	21	obl	_	Translit=bazarlar

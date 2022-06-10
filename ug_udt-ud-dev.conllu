@@ -1227,7 +1227,7 @@
 9	بىلەكلىرىڭ	_	NOUN	N	_	10	nmod:poss	_	Translit=bilekliring|Morf=Unknown
 10	ئۈستىدە	ئۈست	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	Translit=üstide
 11	ماغدۇرسىز	ماغدۇرسىز	NOUN	V	Case=Nom	13	acl	_	Translit=maghdursiz
-12	ھالەتتە	ھالەت	NOUN	N	Case=Loc	11	mark	_	Translit=halette
+12	ھالەتتە	ھالەت	NOUN	N	Case=Loc	11	nmod	_	Translit=halette
 13	ياتقان	يات	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	14	acl	_	Translit=yatqan
 14	بېشىڭنى	_	NOUN	N	_	15	obj	_	Translit=bëshingni|Morf=Unknown
 15	كۆتۈرمەيلا	_	NOUN	N	_	16	advcl	_	Translit=kötürmeyla|Morf=Unknown
@@ -2085,7 +2085,7 @@
 
 # sent_id = s1013
 # text = ئەمسە د قانداق بولىدۇ؟
-1	ئەمسە	_	NOUN	N	_	3	mark	_	Translit=emse|Morf=Unknown
+1	ئەمسە	_	NOUN	N	_	3	obl	_	Translit=emse|Morf=Unknown
 2	د	_	NOUN	N	_	3	nsubj	_	Translit=d|Morf=Unknown
 3	قانداق	قانداق	ADV	P	PronType=Int	0	root	_	Translit=qandaq
 4	بولىدۇ	بول	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No|Translit=bolidu
@@ -2157,7 +2157,7 @@
 
 # sent_id = s1018
 # text = ئەمەلىيەتتە، ئەگەر ماتېماتىكا مەسىلىسى بولغاندا ئىدى، توغرا جاۋابنىڭ بىر بولۇشى توغرا بولاتتى.
-1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	13	mark	_	SpaceAfter=No|Translit=emeliyette
+1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	13	obl	_	SpaceAfter=No|Translit=emeliyette
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئەگەر	ئەگەر	SCONJ	C	_	5	cc	_	Translit=eger
 4	ماتېماتىكا	ماتېماتىكا	NOUN	N	Case=Nom	5	nmod:poss	_	Translit=matëmatika
@@ -2639,7 +2639,7 @@
 1	مەلۇم	مەلۇم	ADJ	A	_	2	amod	_	Translit=melum
 2	پسىخولوگىيمۇتەخەسسىسلىرى	_	NOUN	N	_	3	nmod:poss	_	Translit=psixologiymutexessisliri|Morf=Unknown
 3	گۇرۇپپىسى	گۇرۇپپا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	nsubj	_	Translit=guruppisi
-4	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	25	mark	_	Translit=emeliyette
+4	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	25	obl	_	Translit=emeliyette
 5	ئىجادىي	ئىجادىي	ADJ	A	_	6	amod	_	Translit=ijadiy
 6	خىزمەت	خىزمەت	NOUN	N	Case=Nom	8	obl	_	Translit=xizmet
 7	بىلەن	بىلەن	ADP	R	_	6	case	_	Translit=bilen
@@ -3830,7 +3830,7 @@
 1	_	_	PUNCT	Y	_	17	punct	_	Translit=_|Morf=Unknown
 2	كەچۈرۈڭ	كەچۈرۈڭ	INTJ	V	_	17	advcl	_	SpaceAfter=No|Translit=kechürüng
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	ئەپەندى	ئەپەندى	NOUN	N	Case=Nom	17	mark	_	Translit=ependi
+4	ئەپەندى	ئەپەندى	NOUN	N	Case=Nom	17	obl	_	Translit=ependi
 5	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Translit=men
 6	ئىشلىرىمنى	_	NOUN	N	_	7	obj	_	Translit=ishlirimni|Morf=Unknown
 7	تۈگىتىپ	_	VERB	V	_	11	advcl	_	Translit=tügitip|Morf=Unknown
@@ -7897,7 +7897,7 @@
 
 # sent_id = s1412
 # text = مانا بۇ بىزنىڭ مەكتىپىمىز،
-1	مانا	_	PRON	P	_	4	mark	_	Translit=mana|Morf=Missing,1
+1	مانا	_	PRON	P	_	4	nmod	_	Translit=mana|Morf=Missing,1
 2	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	nsubj	_	Translit=bu
 3	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	Translit=bizning
 4	مەكتىپىمىز	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=mektipimiz|Morf=Unknown
@@ -7905,7 +7905,7 @@
 
 # sent_id = s1413
 # text = مانا بۇ بىزنىڭ بىلىم باغچىمىز،
-1	مانا	_	PRON	P	_	5	mark	_	Translit=mana|Morf=Missing,1
+1	مانا	_	PRON	P	_	5	obl	_	Translit=mana|Morf=Missing,1
 2	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	nsubj	_	Translit=bu
 3	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	Translit=bizning
 4	بىلىم	بىلىم	NOUN	N	Case=Nom	5	amod	_	Translit=bilim
@@ -8169,7 +8169,7 @@
 
 # sent_id = s1435
 # text = ئەنە شۇ 12 ىىل ھايۋاننىڭ ئىسمى 12 يىلغا ئات قىلىپ قويۇلۇپتۇ.
-1	ئەنە	ئەنە	PRON	P	Case=Nom	11	mark	_	Translit=ene
+1	ئەنە	ئەنە	PRON	P	Case=Nom	11	obl	_	Translit=ene
 2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=shu
 3	12	12	NUM	M	NumType=Ord	4	nummod	_	Translit=12
 4	ىىل	_	NOUN	N	_	5	amod	_	Translit=iil|Morf=Unknown
@@ -12194,7 +12194,7 @@
 9	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Inf	15	parataxis	_	Translit=dep
 10	بېقىڭ	_	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=bëqing|Morf=Unknown
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
-12	مانا	_	PRON	P	_	15	mark	_	Translit=mana|Morf=Missing,1
+12	مانا	_	PRON	P	_	15	obl	_	Translit=mana|Morf=Missing,1
 13	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Translit=men
 14	ئاتتەك	_	NOUN	N	_	15	obl	_	Translit=attek|Morf=Unknown
 15	ئىشلەۋاتىمەنغۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ishlewatimenghu|Morf=Unknown

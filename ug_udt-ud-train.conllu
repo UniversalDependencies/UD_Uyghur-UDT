@@ -10129,7 +10129,7 @@
 
 # sent_id = s2475
 # text = مەسلەن، ئوتتۇز ئوغۇل مەشرىپى، دولان مەشرىپى، كۆك (مايسا) مەشرىپى، قېيىت مەشرىپى.
-1	مەسلەن	_	NOUN	N	_	17	mark	_	SpaceAfter=No|Translit=meslen|Morf=Unknown
+1	مەسلەن	_	NOUN	N	_	17	nmod	_	SpaceAfter=No|Translit=meslen|Morf=Unknown
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئوتتۇز	ئوتتۇز	NUM	M	_	4	nummod	_	Translit=ottuz
 4	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	5	nmod	_	Translit=oghul
