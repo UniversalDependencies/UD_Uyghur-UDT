@@ -7026,7 +7026,7 @@
 
 # sent_id = s510
 # text = ئۇنداق تېز يۈگۈرۈدىغان بۆرىنى ئۆمرۈمدە تۇنجى قىتىم كۆرۈشۈم ئىدى.
-1	ئۇنداق	ئۇنداق	DET	P	_	4	mark	_	Translit=undaq
+1	ئۇنداق	ئۇنداق	DET	P	_	4	det	_	Translit=undaq
 2	تېز	تېز	NOUN	A	Case=Nom	3	obl	_	Translit=tëz
 3	يۈگۈرۈدىغان	_	VERB	V	_	4	acl	_	Translit=yügürüdighan|Morf=Unknown
 4	بۆرىنى	بۆرە	NOUN	N	Case=Acc	8	obj	_	Translit=börini
