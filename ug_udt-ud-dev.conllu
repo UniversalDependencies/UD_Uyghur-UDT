@@ -2926,8 +2926,8 @@
 11	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	Translit=uni
 12	بوشاشماي	_	VERB	V	_	13	advcl	_	Translit=boshashmay|Morf=Unknown
 13	داۋاملاشتۇرۇش	_	VERB	V	_	8	conj	_	Translit=dawamlashturush|Morf=Unknown
-14	لازىم	لازىم	AUX	A	Case=Nom	13	cop	_	SpaceAfter=No|Translit=lazim
-15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
+14	لازىم	لازىم	ADJ	A	Case=Nom	13	advmod	_	SpaceAfter=No|Translit=lazim
+15	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
 # sent_id = s1063
 # text = ئەگەر مۇشۇلارنى ئەمەلگە ئاشۇرالىسىڭىز، چوقۇم ئىجادچانلىققا ئىگە ئادەم بولالايسىز.
