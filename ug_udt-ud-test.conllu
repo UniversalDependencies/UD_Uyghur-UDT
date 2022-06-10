@@ -7125,9 +7125,9 @@
 3	قالغاندا	قال	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	11	advcl	_	SpaceAfter=No|Translit=qalghanda
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	ھېلىقى	_	PRON	P	_	6	det	_	Translit=hëliqi|Morf=Unknown
-6	قۇملۇققا	قۇملۇق	NOUN	N	Case=Dat	7	obl	_	Translit=qumluqqa
-7	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=qaytip
-8	بېرىپ	بەر	AUX	V	Aspect=Perf|VerbForm=Conv	7	aux	_	Translit=bërip
+6	قۇملۇققا	قۇملۇق	NOUN	N	Case=Dat	8	obl	_	Translit=qumluqqa
+7	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	8	xcomp	_	Translit=qaytip
+8	بېرىپ	بەر	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=bërip
 9	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Inf	7	conj	_	Translit=qarap
 10	باققۇم	_	VERB	V	_	9	compound	_	Translit=baqqum|Morf=Unknown
 11	كەلدى	كەل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=keldi
@@ -7214,8 +7214,8 @@
 
 # sent_id = s527
 # text = يۈگۈرۈپ بېرىپ قارىسام، بىر دۆۋە تۆگە مايىقى ئىكەن.
-1	يۈگۈرۈپ	_	VERB	V	_	3	advcl	_	Translit=yügürüp|Morf=Unknown
-2	بېرىپ	بەر	AUX	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bërip
+1	يۈگۈرۈپ	_	VERB	V	_	2	xcomp	_	Translit=yügürüp|Morf=Unknown
+2	بېرىپ	بەر	VERB	V	Aspect=Perf|VerbForm=Conv	3	advcl	_	Translit=bërip
 3	قارىسام	قارا	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	8	advcl	_	SpaceAfter=No|Translit=qarisam
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
@@ -11380,19 +11380,19 @@
 
 # sent_id = s806
 # text = ئۇ مۇزنى كارتىلدىتىپ گۈرۈچ دانىسىدەك قىرىپ، بىر چىنە قېتىق دوغى ئېتىپ بەردى.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Translit=u
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Translit=u
 2	مۇزنى	مۇز	NOUN	N	Case=Acc	6	obj	_	Translit=muzni
 3	كارتىلدىتىپ	_	VERB	V	_	6	advmod	_	Translit=kartilditip|Morf=Unknown
 4	گۈرۈچ	گۈرۈچ	NOUN	N	Case=Nom	5	nmod	_	Translit=gürüch
 5	دانىسىدەك	_	NOUN	N	_	6	obl	_	Translit=danisidek|Morf=Unknown
-6	قىرىپ	قىر	VERB	V	Aspect=Perf|VerbForm=Conv	12	advmod	_	SpaceAfter=No|Translit=qirip
+6	قىرىپ	قىر	VERB	V	Aspect=Perf|VerbForm=Conv	13	advmod	_	SpaceAfter=No|Translit=qirip
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	بىر	بىر	NUM	M	_	9	nummod	_	Translit=bir
 9	چىنە	چىنە	NOUN	Q	Case=Nom	11	nmod	_	Translit=chine
 10	قېتىق	قېتىق	NOUN	N	Case=Nom	11	nmod	_	Translit=qëtiq
 11	دوغى	_	NOUN	N	_	12	obj	_	Translit=doghi|Morf=Unknown
-12	ئېتىپ	ئات	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ëtip
-13	بەردى	بەر	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=berdi
+12	ئېتىپ	ئات	VERB	V	Aspect=Perf|VerbForm=Inf	13	xcomp	_	Translit=ëtip
+13	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdi
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
 # sent_id = s807
@@ -12230,14 +12230,14 @@
 # sent_id = s862
 # text = شۇ خۇشلۇقۇمدا ئىش ھەققىنى بىراقلا 2000 يۈەنگە چىقىرىپ بەردىم.
 1	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=shu
-2	خۇشلۇقۇمدا	خۇشلۇق	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=1	8	obl	_	Translit=xushluqumda
+2	خۇشلۇقۇمدا	خۇشلۇق	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=1	9	obl	_	Translit=xushluqumda
 3	ئىش	ئىش	NOUN	N	Case=Nom	4	compound	_	Translit=ish
 4	ھەققىنى	_	NOUN	N	_	8	obj	_	Translit=heqqini|Morf=Unknown
-5	بىراقلا	بىراقلا	ADV	D	_	8	advmod	_	Translit=biraqla
+5	بىراقلا	بىراقلا	ADV	D	_	9	advmod	_	Translit=biraqla
 6	2000	2000	NUM	M	NumType=Ord	7	nummod	_	Translit=2000
-7	يۈەنگە	يۈەن	NOUN	Q	Case=Dat	8	obl	_	Translit=yüenge
-8	چىقىرىپ	چىقار	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chiqirip
-9	بەردىم	بەر	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=berdim
+7	يۈەنگە	يۈەن	NOUN	Q	Case=Dat	9	obl	_	Translit=yüenge
+8	چىقىرىپ	چىقار	VERB	V	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Translit=chiqirip
+9	بەردىم	بەر	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdim
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s863

@@ -6362,12 +6362,12 @@
 
 # sent_id = s1299
 # text = سەن ماڭا ئېلان رەسىملىرىنى سىزىپ بېرىسەن.
-1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Translit=sen
-2	ماڭا	مەن	PRON	P	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	Translit=manga
+1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Translit=sen
+2	ماڭا	مەن	PRON	P	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	Translit=manga
 3	ئېلان	ئېلان	NOUN	N	Case=Nom	4	nmod:poss	_	Translit=ëlan
 4	رەسىملىرىنى	رەسىم	NOUN	V	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	Translit=resimlirini
-5	سىزىپ	_	VERB	V	_	0	root	_	Translit=sizip|Morf=Unknown
-6	بېرىسەن	بەر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=bërisen
+5	سىزىپ	_	VERB	V	_	6	xcomp	_	Translit=sizip|Morf=Unknown
+6	بېرىسەن	بەر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bërisen
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s1300
@@ -6513,10 +6513,10 @@
 # sent_id = s1312
 # text = . سىزگە خەت يېزىپ بەرسەم، ئۆزۈم بېرىپ دوستىڭىزغا ئوقۇپ بەرسەم بولىدۇ، - دەپتۇ ئەپەندىم.
 1	.	.	PUNCT	N	_	15	punct	_	Translit=.
-2	سىزگە	_	PRON	P	_	4	obl	_	Translit=sizge|Morf=Unknown
+2	سىزگە	_	PRON	P	_	5	obl	_	Translit=sizge|Morf=Unknown
 3	خەت	خەت	NOUN	N	Case=Nom	4	obj	_	Translit=xet
-4	يېزىپ	ياز	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=yëzip
-5	بەرسەم	بەر	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	4	aux	_	SpaceAfter=No|Translit=bersem
+4	يېزىپ	ياز	VERB	V	Aspect=Perf|VerbForm=Conv	5	xcomp	_	Translit=yëzip
+5	بەرسەم	بەر	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	10	advcl	_	SpaceAfter=No|Translit=bersem
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۆزۈم	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	10	nsubj	_	Translit=özüm
 8	بېرىپ	بار	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=bërip
@@ -7265,16 +7265,16 @@
 
 # sent_id = s1366
 # text = ئۇلار بىزگە مەسىلىلەرگە قانداق قاراش، قانداق ئويلاشنى ئېيتىپ بېرىدۇ.
-1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Translit=ular
-2	بىزگە	_	PRON	P	_	9	obl	_	Translit=bizge|Morf=Unknown
+1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	Translit=ular
+2	بىزگە	_	PRON	P	_	10	obl	_	Translit=bizge|Morf=Unknown
 3	مەسىلىلەرگە	مەسىلە	NOUN	N	Case=Dat|Number=Plur	8	obl	_	Translit=mesililerge
 4	قانداق	قانداق	DET	P	PronType=Int	5	det	_	Translit=qandaq
 5	قاراش	قارا	VERB	V	Case=Nom|VerbForm=Ger	9	obj	_	SpaceAfter=No|Translit=qarash
 6	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 7	قانداق	قانداق	DET	P	PronType=Int	8	det	_	Translit=qandaq
 8	ئويلاشنى	_	VERB	V	_	5	conj	_	Translit=oylashni|Morf=Unknown
-9	ئېيتىپ	_	VERB	V	_	0	root	_	Translit=ëytip|Morf=Unknown
-10	بېرىدۇ	بەر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=bëridu
+9	ئېيتىپ	_	VERB	V	_	10	xcomp	_	Translit=ëytip|Morf=Unknown
+10	بېرىدۇ	بەر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bëridu
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
 # sent_id = s1367
@@ -9359,8 +9359,8 @@
 
 # sent_id = s1523
 # text = سەن كىشىلەرگە كىشىلىك ھاياتنىڭ نەقەدەر رەڭگارەڭ ۋە ئەگرى - توقايلىقىنى ئېيتىپ بېرىسەن.
-1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	Translit=sen
-2	كىشىلەرگە	_	NOUN	N	_	11	obl	_	Translit=kishilerge|Morf=Unknown
+1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	Translit=sen
+2	كىشىلەرگە	_	NOUN	N	_	12	obl	_	Translit=kishilerge|Morf=Unknown
 3	كىشىلىك	كىشىلىك	ADJ	A	Case=Nom	4	amod	_	Translit=kishilik
 4	ھاياتنىڭ	ھايات	NOUN	N	Case=Gen	10	nmod:poss	_	Translit=hayatning
 5	نەقەدەر	_	INTJ	E	_	6	amod	_	Translit=neqeder|Morf=Unknown
@@ -9369,8 +9369,8 @@
 8	ئەگرى	_	ADJ	A	_	10	compound:redup	_	Translit=egri|Morf=Missing,1
 9	-	-	PUNCT	Y	_	8	punct	_	Translit=-
 10	توقايلىقىنى	توقايلىق	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	conj	_	Translit=toqayliqini
-11	ئېيتىپ	_	VERB	V	_	0	root	_	Translit=ëytip|Morf=Unknown
-12	بېرىسەن	بەر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|Translit=bërisen
+11	ئېيتىپ	_	VERB	V	_	12	xcomp	_	Translit=ëytip|Morf=Unknown
+12	بېرىسەن	بەر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bërisen
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s1524
@@ -9557,14 +9557,14 @@
 5	تارىخنى	تارىخ	NOUN	N	Case=Acc	7	obj	_	Translit=tarixni
 6	ئەكىس	_	VERB	V	_	7	compound	_	Translit=ekis|Morf=Unknown
 7	ئەتتۈرسەڭ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ettürseng|Morf=Unknown
-8	،	،	PUNCT	Y	_	14	punct	_	Translit=,
-9	بەزىدە	بەزى	ADJ	P	Case=Loc	14	advmod	_	Translit=bezide
+8	،	،	PUNCT	Y	_	15	punct	_	Translit=,
+9	بەزىدە	بەزى	ADJ	P	Case=Loc	15	advmod	_	Translit=bezide
 10	ئۇنتۇلغۇسىز	ئۇنتۇلغۇسىز	ADJ	N	_	13	amod	_	Translit=untulghusiz
 11	كىچىك	كىچىك	ADJ	A	_	13	amod	_	Translit=kichik
 12	بىر	بىر	NUM	M	_	13	nummod	_	Translit=bir
 13	دەقىقىنى	دەقىقە	NOUN	N	Case=Acc	14	dep	_	Translit=deqiqini
-14	تەسۋىرلەپ	_	VERB	V	_	7	conj	_	Translit=teswirlep|Morf=Unknown
-15	بېرىسەن	بەر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|Translit=bërisen
+14	تەسۋىرلەپ	_	VERB	V	_	15	xcomp	_	Translit=teswirlep|Morf=Unknown
+15	بېرىسەن	بەر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No|Translit=bërisen
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
 # sent_id = s1536
