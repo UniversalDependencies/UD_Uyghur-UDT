@@ -5007,8 +5007,8 @@
 # sent_id = s1202
 # text = - مۈشۈك دېگەن بەك مەككار،
 1	-	-	PUNCT	Y	_	5	punct	_	Translit=-
-2	مۈشۈك	مۈشۈك	NOUN	N	Case=Nom	5	nsubj	_	Translit=müshük
-3	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	Translit=dëgen
+2	مۈشۈك	مۈشۈك	NOUN	N	Case=Nom	3	xcomp	_	Translit=müshük
+3	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	nsubj	_	Translit=dëgen
 4	بەك	بەك	ADV	D	_	5	advmod	_	Translit=bek
 5	مەككار	مەككار	ADJ	A	Case=Nom	0	root	_	SpaceAfter=No|Translit=mekkar
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
@@ -6148,10 +6148,10 @@
 # sent_id = s1282
 # text = ئىيۇل ئېيى يېتىپ كېلەي دېدى.
 1	ئىيۇل	ئىيۇل	NOUN	N	Case=Nom	2	amod	_	Translit=iyul
-2	ئېيى	ئاي	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	Translit=ëyi
+2	ئېيى	ئاي	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	Translit=ëyi
 3	يېتىپ	يات	VERB	V	Aspect=Perf|VerbForm=Conv	4	compound	_	Translit=yëtip
-4	كېلەي	_	VERB	V	_	0	root	_	Translit=këley|Morf=Unknown
-5	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No|Translit=dëdi
+4	كېلەي	_	VERB	V	_	5	xcomp	_	Translit=këley|Morf=Unknown
+5	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=dëdi
 6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
 
 # sent_id = s1283
@@ -12291,8 +12291,8 @@
 7	:	:	PUNCT	Y	_	6	punct	_	Translit=:
 8	&lt;	_	X	Y	_	14	dep	_	Translit=&lt;|Morf=Unknown
 9	&lt;	_	X	Y	_	14	dep	_	Translit=&lt;|Morf=Unknown
-10	ئادەم	ئادەم	NOUN	N	Case=Nom	14	nsubj	_	Translit=adem
-11	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	Translit=dëgen
+10	ئادەم	ئادەم	NOUN	N	Case=Nom	11	xcomp	_	Translit=adem
+11	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	nsubj	_	Translit=dëgen
 12	ئۇزاقراق	_	NOUN	N	_	13	obl	_	Translit=uzaqraq|Morf=Unknown
 13	ياشىسام	_	VERB	V	_	14	ccomp	_	Translit=yashisam|Morf=Unknown
 14	دەيدۇ	دە	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	Translit=deydu

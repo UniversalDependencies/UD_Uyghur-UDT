@@ -232,8 +232,8 @@
 5	ۋۇي	_	INTJ	E	_	11	discourse	_	SpaceAfter=No|Translit=wuy|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۈچ	ئۈچ	NUM	M	_	8	nummod	_	Translit=üch
-8	يىل	يىل	NOUN	N	Case=Nom	11	nsubj	_	Translit=yil
-9	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	Translit=dëgen
+8	يىل	يىل	NOUN	N	Case=Nom	9	xcomp	_	Translit=yil
+9	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	nsubj	_	Translit=dëgen
 10	بەك	بەك	ADV	D	_	11	advmod	_	Translit=bek
 11	ئۇزاق	ئۇزاق	ADJ	A	Case=Nom	0	root	_	Translit=uzaq
 12	دېگنە	_	VERB	V	_	11	mark	_	SpaceAfter=No|Translit=dëgne|Morf=Unknown
@@ -654,8 +654,8 @@
 20	دېگەنلەرنى	_	VERB	V	_	21	obj	_	Translit=dëgenlerni|Morf=Unknown
 21	بىلەلەيسەن	_	VERB	V	_	27	parataxis	_	SpaceAfter=No|Translit=bileleysen|Morf=Unknown
 22	.	.	PUNCT	Y	_	21	punct	_	Translit=.
-23	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	Translit=u
-24	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	Translit=dëgen
+23	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	xcomp	_	Translit=u
+24	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	nsubj	_	Translit=dëgen
 25	زور	زور	ADJ	A	Case=Nom	26	amod	_	Translit=zor
 26	بايلىقنىڭ	بايلىق	NOUN	N	Case=Gen	27	nmod:poss	_	Translit=bayliqning
 27	ئاچقۇچى	ئاچقۇچ	NOUN	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	SpaceAfter=No|Translit=achquchi
@@ -6057,8 +6057,8 @@
 8	بالام	بالا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	6	vocative	_	SpaceAfter=No|Translit=balam
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 10	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	11	amod	_	Translit=oghul
-11	بالا	بالا	NOUN	N	Case=Nom	15	dep	_	Translit=bala
-12	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	Translit=dëgen
+11	بالا	بالا	NOUN	N	Case=Nom	12	xcomp	_	Translit=bala
+12	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	dep	_	Translit=dëgen
 13	ئەنە	ئەنە	PRON	T	Case=Nom	15	obl	_	Translit=ene
 14	شۇنداق	شۇنداق	ADV	P	_	13	fixed	_	Translit=shundaq
 15	بولۇشى	بول	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	16	csubj	_	Translit=bolushi
@@ -12772,9 +12772,9 @@
 # text = نەتىجىدە &lt; قاندىغاي &gt; دېگەن ھايۋانغا ئوخشاپ كېتىدىغان بىر تۈركۈم ئۇيغۇر قىزلىرى بارلىققا كەلدى.
 1	نەتىجىدە	نەتىجە	NOUN	N	Case=Loc	14	obl	_	Translit=netijide
 2	&lt;	_	X	Y	_	14	dep	_	Translit=&lt;|Morf=Unknown
-3	قاندىغاي	_	NOUN	N	_	6	nsubj	_	Translit=qandighay|Morf=Unknown
+3	قاندىغاي	_	NOUN	N	_	5	xcomp	_	Translit=qandighay|Morf=Unknown
 4	&gt;	_	X	Y	_	14	dep	_	Translit=&gt;|Morf=Unknown
-5	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	Translit=dëgen
+5	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	nsubj	_	Translit=dëgen
 6	ھايۋانغا	ھايۋان	NOUN	N	Case=Dat	8	obl	_	Translit=haywangha
 7	ئوخشاپ	_	VERB	V	_	8	compound:lvc	_	Translit=oxshap|Morf=Unknown
 8	كېتىدىغان	_	VERB	V	_	12	acl	_	Translit=këtidighan|Morf=Unknown
@@ -13332,8 +13332,8 @@
 # sent_id = s2677
 # text = لېكىن پاكىت دېگەن بەرىبىر پاكىتتە.
 1	لېكىن	لېكىن	CCONJ	C	_	5	cc	_	Translit=lëkin
-2	پاكىت	پاكىت	NOUN	N	Case=Nom	5	nsubj	_	Translit=pakit
-3	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	Translit=dëgen
+2	پاكىت	پاكىت	NOUN	N	Case=Nom	3	xcomp	_	Translit=pakit
+3	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	nsubj	_	Translit=dëgen
 4	بەرىبىر	بەرىبىر	ADJ	T	Case=Nom	5	nmod	_	Translit=beribir
 5	پاكىتتە	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=pakitte|Morf=Unknown
 6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
@@ -16093,8 +16093,8 @@
 1	_	_	PUNCT	Y	_	12	punct	_	Translit=_|Morf=Unknown
 2	ئەلۋەتتە	ئەلۋەتتە	ADV	T	_	12	discourse	_	SpaceAfter=No|Translit=elwette
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	12	nsubj	_	Translit=bu
-5	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	Translit=dëgen
+4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	xcomp	_	Translit=bu
+5	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	nsubj	_	Translit=dëgen
 6	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	7	nmod	_	Translit=oghul
 7	بالىنى	بالا	NOUN	N	Case=Acc	11	obj	_	Translit=balini
 8	باتۇر	باتۇر	NOUN	A	Case=Nom	11	compound	_	SpaceAfter=No|Translit=batur

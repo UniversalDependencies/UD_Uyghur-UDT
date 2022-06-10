@@ -8091,12 +8091,12 @@
 # text = _ قېرىنداشلىق مېھرى دېگەن مانا شۇ! _ دەپتۇ كىشىلەر كۆز يېشى قىلىشىپ.
 1	_	_	PUNCT	Y	_	3	punct	_	Translit=_|Morf=Unknown
 2	قېرىنداشلىق	قېرىنداشلىق	NOUN	N	Case=Nom	3	amod	_	Translit=qërindashliq
-3	مېھرى	مېھر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=mëhri
-4	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	Translit=dëgen
-5	مانا	_	PART	T	_	6	advmod:emph	_	Translit=mana|Morf=Missing,1
-6	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	9	ccomp	_	SpaceAfter=No|Translit=shu
-7	!	!	PUNCT	N	_	6	punct	_	Translit=!
-8	_	_	PUNCT	Y	_	6	punct	_	Translit=_|Morf=Unknown
+3	مېھرى	مېھر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	Translit=mëhri
+4	دېگەن	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	Translit=dëgen
+5	مانا	_	PART	T	_	4	advmod:emph	_	Translit=mana|Morf=Missing,1
+6	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	4	xcomp	_	SpaceAfter=No|Translit=shu
+7	!	!	PUNCT	N	_	4	punct	_	Translit=!
+8	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
 9	دەپتۇ	_	VERB	V	_	0	root	_	Translit=deptu|Morf=Unknown
 10	كىشىلەر	_	NOUN	N	_	9	nsubj	_	Translit=kishiler|Morf=Unknown
 11	كۆز	كۆز	NOUN	N	Case=Nom	12	compound	_	Translit=köz
