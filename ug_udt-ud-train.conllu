@@ -1377,7 +1377,7 @@
 18	ۋە	ۋە	CCONJ	C	_	28	cc	_	SpaceAfter=No|Translit=we
 19	:	:	PUNCT	Y	_	18	punct	_	Translit=:
 20	_	_	PUNCT	Y	_	18	punct	_	Translit=_|Morf=Unknown
-21	ئەمىسە	ئەمىسە	ADJ	T	_	25	mark	_	SpaceAfter=No|Translit=emise
+21	ئەمىسە	ئەمىسە	ADJ	T	_	25	amod	_	SpaceAfter=No|Translit=emise
 22	،	،	PUNCT	Y	_	21	punct	_	Translit=,
 23	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	24	det	_	Translit=bu
 24	ئوغلىمىزنى	_	NOUN	N	_	25	obj	_	Translit=oghlimizni|Morf=Unknown
@@ -2997,7 +2997,7 @@
 5	چۆرىدەپ	_	VERB	V	_	6	advmod	_	Translit=chöridep|Morf=Unknown
 6	ئولتۇرۇپتىمىز	_	NOUN	N	_	11	parataxis	_	SpaceAfter=No|Translit=olturuptimiz|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
-8	خۇددى	خۇددى	ADJ	T	_	11	mark	_	Translit=xuddi
+8	خۇددى	خۇددى	ADJ	T	_	11	advmod	_	Translit=xuddi
 9	قۇياشنى	قۇياش	NOUN	N	Case=Acc	10	obj	_	Translit=quyashni
 10	چۆرىدىگەن	_	VERB	V	_	11	acl	_	Translit=chöridigen|Morf=Unknown
 11	سەييارىلەردەك	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=seyyarilerdek|Morf=Unknown
@@ -3392,7 +3392,7 @@
 12	كۆرگەندە	كۆر	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	17	advcl	_	Translit=körgende
 13	ھاردۇقۇڭ	_	NOUN	N	_	14	nsubj	_	Translit=harduqung|Morf=Unknown
 14	چىقسا	چىق	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	17	ccomp	_	Translit=chiqsa
-15	كېرەك	_	ADJ	A	_	14	mark	_	SpaceAfter=No|Translit=kërek|Morf=Missing,1
+15	كېرەك	_	ADJ	A	_	14	advmod	_	SpaceAfter=No|Translit=kërek|Morf=Missing,1
 16	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 17	كۈلىسەن	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=külisen|Morf=Unknown
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
@@ -3509,7 +3509,7 @@
 7	سوغۇق	سوغۇق	ADJ	A	Case=Nom	5	conj	_	Translit=soghuq
 8	بىلىنىدىكەن	_	VERB	V	_	15	parataxis	_	SpaceAfter=No|Translit=bilinidiken|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
-10	خۇددى	خۇددى	ADJ	T	_	12	mark	_	Translit=xuddi
+10	خۇددى	خۇددى	ADJ	T	_	12	advmod	_	Translit=xuddi
 11	جاھان	جاھان	NOUN	N	Case=Nom	12	nsubj	_	Translit=jahan
 12	ئەمەستەك	_	VERB	V	_	15	advmod	_	SpaceAfter=No|Translit=emestek|Morf=Unknown
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
@@ -4184,7 +4184,7 @@
 # sent_id = s2081
 # text = _ خوش، بۈگۈن نىمە بولدى؟ مەكتەپ چۆلدەرەپ قاپتىغۇ؟
 1	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
-2	خوش	خوش	ADJ	N	_	6	mark	_	SpaceAfter=No|Translit=xosh
+2	خوش	خوش	ADJ	N	_	6	advmod	_	SpaceAfter=No|Translit=xosh
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	بۈگۈن	بۈگۈن	ADV	N	_	6	advmod	_	Translit=bügün
 5	نىمە	_	PRON	P	_	6	nsubj	_	Translit=nime|Morf=Unknown
@@ -4937,7 +4937,7 @@
 14	نەقەدەر	_	INTJ	E	_	15	advmod	_	Translit=neqeder|Morf=Unknown
 15	گۈزەل	گۈزەل	ADJ	A	Case=Nom	0	root	_	Translit=güzel
 16	-	-	PUNCT	Y	_	17	punct	_	Translit=-
-17	ھە	ھە	ADJ	T	_	15	mark	_	SpaceAfter=No|Translit=he
+17	ھە	ھە	ADJ	T	_	15	advmod	_	SpaceAfter=No|Translit=he
 18	!	!	PUNCT	Y	_	17	punct	_	Translit=!
 
 # sent_id = s2134
@@ -7955,7 +7955,7 @@
 7	خۇشال	خۇشال	ADJ	A	_	8	amod	_	Translit=xushal
 8	كەيپىيات	كەيپىيات	NOUN	V	Case=Nom	0	root	_	Translit=keypiyat
 9	-	-	PUNCT	Y	_	10	punct	_	Translit=-
-10	ھە	ھە	ADJ	E	_	8	mark	_	SpaceAfter=No|Translit=he
+10	ھە	ھە	ADJ	E	_	8	amod	_	SpaceAfter=No|Translit=he
 11	!	!	PUNCT	Y	_	10	punct	_	Translit=!
 
 # sent_id = s2323
@@ -9015,7 +9015,7 @@
 1	يولنىڭ	يول	NOUN	N	Case=Gen	2	nmod:poss	_	Translit=yolning
 2	ئەتىراپىدا	_	NOUN	N	_	7	obl	_	Translit=etirapida|Morf=Unknown
 3	كىشىلەر	_	NOUN	N	_	7	nsubj	_	Translit=kishiler|Morf=Unknown
-4	خۇددى	خۇددى	ADJ	T	_	5	mark	_	Translit=xuddi
+4	خۇددى	خۇددى	ADJ	T	_	5	amod	_	Translit=xuddi
 5	چۈمۈلىلەردەك	_	NOUN	N	_	6	obl	_	Translit=chümülilerdek|Morf=Unknown
 6	قىمىلدىشىپ	_	VERB	V	_	7	advmod	_	Translit=qimildiship|Morf=Unknown
 7	يۈرۈشەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yürüshetti|Morf=Unknown
@@ -9061,7 +9061,7 @@
 # sent_id = s2396
 # text = يامغۇر خۇددى ئەگلەكتىن ئۆتكۈزۈلگەندەك ئۇششاق ۋە قويۇق تامچىلاپ، توختىماي ياغاتتى.
 1	يامغۇر	يامغۇر	NOUN	N	Case=Nom	11	nsubj	_	Translit=yamghur
-2	خۇددى	خۇددى	ADJ	T	_	4	mark	_	Translit=xuddi
+2	خۇددى	خۇددى	ADJ	T	_	4	amod	_	Translit=xuddi
 3	ئەگلەكتىن	_	NOUN	N	_	4	nmod	_	Translit=eglektin|Morf=Unknown
 4	ئۆتكۈزۈلگەندەك	_	NOUN	N	_	5	nmod	_	Translit=ötküzülgendek|Morf=Unknown
 5	ئۇششاق	ئۇششاق	ADJ	A	Case=Nom	8	advmod	_	Translit=ushshaq
@@ -9312,7 +9312,7 @@
 # text = يامغۇر تامچىلىرى خۇددى قويۇق چاچما ئوقلاردەك ئۆگزىنىڭ قاڭالتىرىغا تېگىپ داراڭلىغان سادا چىقىراتتى.
 1	يامغۇر	يامغۇر	NOUN	N	Case=Nom	2	nmod	_	Translit=yamghur
 2	تامچىلىرى	تامچى	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	12	nsubj	_	Translit=tamchiliri
-3	خۇددى	خۇددى	ADJ	T	_	6	mark	_	Translit=xuddi
+3	خۇددى	خۇددى	ADJ	T	_	6	amod	_	Translit=xuddi
 4	قويۇق	قويۇق	ADJ	A	_	6	amod	_	Translit=qoyuq
 5	چاچما	_	NOUN	N	_	6	amod	_	Translit=chachma|Morf=Missing,2
 6	ئوقلاردەك	_	NOUN	N	_	12	obl	_	Translit=oqlardek|Morf=Unknown
@@ -10671,7 +10671,7 @@
 
 # sent_id = s2506
 # text = خۇددى يېلىنجاپ تۇرغان قىزىل چوغدىن ئۆرلىگەن قىزىق ھارارەتتەك بىرخىل ھاياجان ئىلكىدە قولۇمغا قەلەم ئالدىم.
-1	خۇددى	خۇددى	ADJ	T	_	8	mark	_	Translit=xuddi
+1	خۇددى	خۇددى	ADJ	T	_	8	amod	_	Translit=xuddi
 2	يېلىنجاپ	_	VERB	V	_	3	compound:lvc	_	Translit=yëlinjap|Morf=Unknown
 3	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	Translit=turghan
 4	قىزىل	قىزىل	ADJ	A	_	5	amod	_	Translit=qizil
@@ -12214,7 +12214,7 @@
 # sent_id = s2612
 # text = بۇ خۇددى كۆزنى ئويۇپ بېرىش بەدىلىگە كۆزەينەككە ئېرىشىشكە ئوخشايدۇ.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	9	nsubj	_	Translit=bu
-2	خۇددى	خۇددى	ADJ	T	_	9	mark	_	Translit=xuddi
+2	خۇددى	خۇددى	ADJ	T	_	9	advmod	_	Translit=xuddi
 3	كۆزنى	كۆز	NOUN	N	Case=Acc	5	obj	_	Translit=közni
 4	ئويۇپ	ئوي	VERB	V	Aspect=Perf|VerbForm=Conv	5	compound:lvc	_	Translit=oyup
 5	بېرىش	بار	VERB	V	Case=Nom|VerbForm=Ger	6	nmod	_	Translit=bërish
@@ -12580,7 +12580,7 @@
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	سېمىز	سېمىز	ADJ	A	Case=Nom	8	amod	_	Translit=sëmiz
 8	ئاياللار	ئايال	NOUN	N	Case=Nom|Number=Plur	17	nsubj	_	Translit=ayallar
-9	خۇددى	خۇددى	ADJ	T	_	14	mark	_	Translit=xuddi
+9	خۇددى	خۇددى	ADJ	T	_	14	amod	_	Translit=xuddi
 10	ئولجىغا	ئولجا	NOUN	N	Case=Dat	11	obl	_	Translit=oljigha
 11	ئېرىشكەن	ئېرىش	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	14	acl	_	Translit=ërishken
 12	ۋەھشىي	ۋەھشىي	ADJ	A	_	14	amod	_	Translit=wehshiy
@@ -18543,7 +18543,7 @@
 5	قانداق	قانداق	ADV	P	PronType=Int	6	advmod	_	Translit=qandaq
 6	ياخشى	ياخشى	ADJ	A	Case=Nom	0	root	_	Translit=yaxshi
 7	بولاتتى	_	AUX	V	_	6	cop	_	Translit=bolatti|Morf=Unknown
-8	ھە	ھە	ADJ	T	_	6	mark	_	SpaceAfter=No|Translit=he
+8	ھە	ھە	ADJ	T	_	6	advmod	_	SpaceAfter=No|Translit=he
 9	!	!	PUNCT	Y	_	8	punct	_	Translit=!
 
 # sent_id = s3027
@@ -18776,7 +18776,7 @@
 4	نېمىدېگەن	_	INTJ	E	_	5	advmod	_	Translit=nëmidëgen|Morf=Unknown
 5	تاتلىق	تاتلىق	NOUN	A	Case=Nom	0	root	_	Translit=tatliq
 6	-	-	PUNCT	Y	_	7	punct	_	Translit=-
-7	ھە	ھە	ADJ	E	_	5	mark	_	SpaceAfter=No|Translit=he
+7	ھە	ھە	ADJ	E	_	5	amod	_	SpaceAfter=No|Translit=he
 8	!	!	PUNCT	Y	_	7	punct	_	SpaceAfter=No|Translit=!
 9	"	"	PUNCT	Y	_	5	punct	_	Translit="
 
@@ -19295,7 +19295,7 @@
 5	ۋە	ۋە	CCONJ	C	_	6	cc	_	Translit=we
 6	رەڭگارەڭ	_	ADJ	A	_	4	conj	_	Translit=renggareng|Morf=Unknown
 7	-	-	PUNCT	Y	_	8	punct	_	Translit=-
-8	ھە	ھە	ADJ	E	_	6	mark	_	SpaceAfter=No|Translit=he
+8	ھە	ھە	ADJ	E	_	6	advmod	_	SpaceAfter=No|Translit=he
 9	!	!	PUNCT	Y	_	8	punct	_	Translit=!
 
 # sent_id = s3089
@@ -19608,7 +19608,7 @@
 1	كېۋەزلىكتىكى	كېۋەزلىك	NOUN	N	Case=Nom	3	amod	_	Translit=këwezliktiki
 2	ئېچىلغان	_	VERB	V	_	3	amod	_	Translit=ëchilghan|Morf=Unknown
 3	پاختىلار	_	NOUN	N	_	9	dislocated	_	Translit=paxtilar|Morf=Unknown
-4	خۇددى	خۇددى	ADJ	T	_	9	mark	_	Translit=xuddi
+4	خۇددى	خۇددى	ADJ	T	_	9	advmod	_	Translit=xuddi
 5	ئاق	ئاق	ADJ	A	Case=Nom	6	amod	_	Translit=aq
 6	بۇلۇت	بۇلۇت	NOUN	N	Case=Nom	9	nsubj	_	Translit=bulut
 7	يەرگە	يەر	NOUN	N	Case=Dat	9	obl	_	Translit=yerge
@@ -19768,7 +19768,7 @@
 9	-	-	PUNCT	Y	_	10	punct	_	Translit=-
 10	دە	_	PART	T	_	8	mark	_	SpaceAfter=No|Translit=de|Morf=Missing,1
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
-12	خۇددى	خۇددى	ADJ	T	_	14	mark	_	Translit=xuddi
+12	خۇددى	خۇددى	ADJ	T	_	14	amod	_	Translit=xuddi
 13	توك	توك	ADJ	N	Case=Nom	14	nsubj	_	Translit=tok
 14	سوقۇۋەتكەندەك	_	NOUN	N	_	17	obl	_	Translit=soquwetkendek|Morf=Unknown
 15	قاڭقىپ	_	VERB	V	_	17	advmod	_	Translit=qangqip|Morf=Unknown
@@ -21212,7 +21212,7 @@
 
 # sent_id = s3242
 # text = توغرا، ھازىر دېھقانچىلىق ئىشلىرىنى قىلالايدىغان ماشىنا ئادەملەر بار.
-1	توغرا	توغرا	ADJ	A	_	9	mark	_	SpaceAfter=No|Translit=toghra
+1	توغرا	توغرا	ADJ	A	_	9	advmod	_	SpaceAfter=No|Translit=toghra
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ھازىر	ھازىر	ADV	D	_	9	advmod	_	Translit=hazir
 4	دېھقانچىلىق	دېھقانچىلىق	NOUN	N	Case=Nom	5	nmod	_	Translit=dëhqanchiliq
@@ -21613,7 +21613,7 @@
 1	تورغا	تور	NOUN	N	Case=Dat	2	obl	_	Translit=torgha
 2	كىرسە	_	VERB	V	_	9	advcl	_	SpaceAfter=No|Translit=kirse|Morf=Unknown
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	خۇددى	خۇددى	ADJ	T	_	9	mark	_	Translit=xuddi
+4	خۇددى	خۇددى	ADJ	T	_	9	advmod	_	Translit=xuddi
 5	يۇقىرى	يۇقىرى	ADJ	A	_	6	amod	_	Translit=yuqiri
 6	سۈرئەتلىك	_	VERB	V	_	8	acl	_	Translit=süretlik|Morf=Unknown
 7	ئۇچۇر	ئۇچۇر	NOUN	N	Case=Nom	8	nmod	_	Translit=uchur
@@ -21892,7 +21892,7 @@
 2	نېمىدېگەن	_	INTJ	E	_	3	advmod	_	Translit=nëmidëgen|Morf=Unknown
 3	ئاستا	ئاستا	ADV	A	_	0	root	_	Translit=asta
 4	-	-	PUNCT	Y	_	5	punct	_	Translit=-
-5	ھە	ھە	ADJ	T	_	3	mark	_	SpaceAfter=No|Translit=he
+5	ھە	ھە	ADJ	T	_	3	advmod	_	SpaceAfter=No|Translit=he
 6	!	!	PUNCT	Y	_	5	punct	_	Translit=!
 
 # sent_id = s3291
@@ -22241,7 +22241,7 @@
 8	گاڭگىرىتىپ	_	NOUN	N	_	0	root	_	Translit=ganggiritip|Morf=Unknown
 9	قويىدۇ	_	AUX	V	_	8	aux	_	Translit=qoyidu|Morf=Unknown
 10	-	-	PUNCT	Y	_	11	punct	_	Translit=-
-11	ھە	ھە	ADJ	T	_	8	mark	_	Translit=he
+11	ھە	ھە	ADJ	T	_	8	amod	_	Translit=he
 12	!؟	_	PUNCT	Y	_	11	punct	_	Translit=!?|Morf=Unknown
 
 # sent_id = s3318
@@ -22465,7 +22465,7 @@
 12	چۈشۈرگىلى	_	NOUN	N	_	0	root	_	Translit=chüshürgili|Morf=Unknown
 13	بولسۇن	بولسۇن	INTJ	V	_	12	cop	_	Translit=bolsun
 14	-	-	PUNCT	Y	_	15	punct	_	Translit=-
-15	ھە	ھە	ADJ	T	_	12	mark	_	SpaceAfter=No|Translit=he
+15	ھە	ھە	ADJ	T	_	12	amod	_	SpaceAfter=No|Translit=he
 16	؟	؟	PUNCT	Y	_	15	punct	_	Translit=?
 
 # sent_id = s3333

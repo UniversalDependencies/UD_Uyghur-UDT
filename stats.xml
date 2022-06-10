@@ -81,9 +81,9 @@
     <dep name="acl">743</dep>
     <dep name="advcl">1532</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">1847</dep>
+    <dep name="advmod">1866</dep>
     <dep name="advmod:emph">30</dep>
-    <dep name="amod">2414</dep>
+    <dep name="amod">2427</dep>
     <dep name="appos">123</dep>
     <dep name="aux">815</dep>
     <dep name="case">560</dep>
@@ -101,7 +101,7 @@
     <dep name="dislocated">15</dep>
     <dep name="fixed">118</dep>
     <dep name="flat">54</dep>
-    <dep name="mark">181</dep>
+    <dep name="mark">149</dep>
     <dep name="nmod">1358</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>

@@ -4442,7 +4442,7 @@
 4	-	-	PUNCT	Y	_	3	punct	_	Translit=-
 5	جۈپ	_	NUM	M	_	6	nummod	_	Translit=jüp|Morf=Missing,2
 6	كۆزلەر	كۆز	NOUN	N	Case=Nom|Number=Plur	14	nsubj	_	Translit=közler
-7	خۇددى	خۇددى	ADJ	T	_	9	mark	_	Translit=xuddi
+7	خۇددى	خۇددى	ADJ	T	_	9	amod	_	Translit=xuddi
 8	كەچۈرۈمگە	كەچۈرۈم	NOUN	N	Case=Dat	9	nmod	_	Translit=kechürümge
 9	ئېرىشكەندەك	_	NOUN	N	_	14	obl	_	Translit=ërishkendek|Morf=Unknown
 10	يەنە	يەنە	ADV	D	_	14	advmod	_	Translit=yene
@@ -5708,7 +5708,7 @@
 9	نەقەدەر	_	INTJ	E	_	10	advmod:emph	_	Translit=neqeder|Morf=Unknown
 10	ئوخشايدۇ	_	VERB	V	_	0	root	_	Translit=oxshaydu|Morf=Unknown
 11	-	-	PUNCT	Y	_	12	punct	_	Translit=-
-12	ھە	ھە	ADJ	T	_	10	mark	_	SpaceAfter=No|Translit=he
+12	ھە	ھە	ADJ	T	_	10	advmod	_	SpaceAfter=No|Translit=he
 13	!	!	PUNCT	Y	_	12	punct	_	Translit=!
 
 # sent_id = s429
@@ -6423,7 +6423,7 @@
 4	كۆتۈرۈپ	كۆتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	5	advmod	_	Translit=kötürüp
 5	ماڭىدىغان	_	VERB	V	_	6	acl	_	Translit=mangidighan|Morf=Unknown
 6	ۋەزىرلەر	ۋەزىر	NOUN	N	Case=Nom|Number=Plur	17	nsubj	_	Translit=wezirler
-7	خۇددى	خۇددى	ADJ	T	_	10	mark	_	Translit=xuddi
+7	خۇددى	خۇددى	ADJ	T	_	10	advmod	_	Translit=xuddi
 8	پەشنى	پەش	NOUN	N	Case=Acc	9	obj	_	Translit=peshni
 9	كۆتۈرۈپ	كۆتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=kötürüp
 10	ماڭغان	ماڭ	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	11	acl	_	Translit=mangghan
@@ -8249,7 +8249,7 @@
 
 # sent_id = s602
 # text = راست دېگەندەك، ياۋا گۈللەر ئارىسىدا بىر تۈپ ياۋا ئازغان بار ئىدى،
-1	راست	_	ADJ	A	_	11	mark	_	Translit=rast|Morf=Missing,1
+1	راست	_	ADJ	A	_	11	advmod	_	Translit=rast|Morf=Missing,1
 2	دېگەندەك	_	VERB	V	_	1	fixed	_	SpaceAfter=No|Translit=dëgendek|Morf=Unknown
 3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 4	ياۋا	ياۋا	ADJ	A	_	5	amod	_	Translit=yawa
@@ -11105,7 +11105,7 @@
 # sent_id = s785
 # text = ئۇلار خۇددى ئىككى بۇقا تاقاشقاندەك بىر - بىرىنى ئىتتىرىشىپ، «پەم تالىشىپ» چىمەنلىكنى تىلغىۋەتتى.
 1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	Translit=ular
-2	خۇددى	خۇددى	ADJ	T	_	5	mark	_	Translit=xuddi
+2	خۇددى	خۇددى	ADJ	T	_	5	advmod	_	Translit=xuddi
 3	ئىككى	ئىككى	NUM	M	_	4	nummod	_	Translit=ikki
 4	بۇقا	بۇقا	NOUN	N	Case=Nom	5	nsubj	_	Translit=buqa
 5	تاقاشقاندەك	_	VERB	V	_	9	advcl	_	Translit=taqashqandek|Morf=Unknown

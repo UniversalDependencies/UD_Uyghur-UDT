@@ -2301,7 +2301,7 @@
 
 # sent_id = s1027
 # text = ئەمىسە ئىجادىي تەپەككۇردا قانداق زۆرۈر ئامىللار بولىدۇ؟
-1	ئەمىسە	ئەمىسە	ADJ	T	_	7	mark	_	Translit=emise
+1	ئەمىسە	ئەمىسە	ADJ	T	_	7	advmod	_	Translit=emise
 2	ئىجادىي	ئىجادىي	ADJ	A	_	3	amod	_	Translit=ijadiy
 3	تەپەككۇردا	تەپەككۇر	NOUN	N	Case=Loc	7	obl	_	Translit=tepekkurda
 4	قانداق	قانداق	ADV	P	PronType=Int	6	amod	_	Translit=qandaq
@@ -7922,7 +7922,7 @@
 # text = بىزنىڭ تۇرمۇشىمىز خۇددى رەڭگارەڭ رەسىملەرگە ئوخشايدۇ.
 1	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	Translit=bizning
 2	تۇرمۇشىمىز	_	NOUN	N	_	6	nsubj	_	Translit=turmushimiz|Morf=Unknown
-3	خۇددى	خۇددى	ADJ	T	_	6	mark	_	Translit=xuddi
+3	خۇددى	خۇددى	ADJ	T	_	6	advmod	_	Translit=xuddi
 4	رەڭگارەڭ	_	ADJ	A	_	5	amod	_	Translit=renggareng|Morf=Unknown
 5	رەسىملەرگە	رەسىم	NOUN	V	Case=Dat|Number=Plur	6	obl	_	Translit=resimlerge
 6	ئوخشايدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=oxshaydu|Morf=Unknown
@@ -11049,7 +11049,7 @@
 13	تەمكىن	تەمكىن	ADJ	A	_	14	amod	_	Translit=temkin
 14	تۇتۇۋاتاتتىكى	_	VERB	V	_	37	parataxis	_	SpaceAfter=No|Translit=tutuwatattiki|Morf=Unknown
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
-16	خۇددى	خۇددى	ADJ	T	_	37	mark	_	Translit=xuddi
+16	خۇددى	خۇددى	ADJ	T	_	37	amod	_	Translit=xuddi
 17	بالا	بالا	NOUN	N	Case=Nom	19	compound:redup	_	Translit=bala
 18	–	–	PUNCT	N	_	17	punct	_	Translit=–
 19	قازاغا	_	NOUN	N	_	20	obl	_	Translit=qazagha|Morf=Unknown
@@ -11780,7 +11780,7 @@
 6	باركى	_	ADJ	A	_	18	parataxis	_	SpaceAfter=No|Translit=barki|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	Translit=u
-9	خۇددى	خۇددى	ADJ	T	_	14	mark	_	Translit=xuddi
+9	خۇددى	خۇددى	ADJ	T	_	14	advmod	_	Translit=xuddi
 10	قۇرتلاپ	_	VERB	V	_	11	advcl	_	Translit=qurtlap|Morf=Unknown
 11	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	13	acl	_	Translit=ketken
 12	توختام	توختام	NOUN	N	Case=Nom	13	amod	_	Translit=toxtam
