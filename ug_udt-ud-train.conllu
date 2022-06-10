@@ -2802,12 +2802,12 @@
 
 # sent_id = s1990
 # text = كېيىن ئۇ خەۋەر يالغان بولۇپ چىقتى.
-1	كېيىن	كېيىن	NOUN	D	Case=Nom	5	obl	_	Translit=këyin
+1	كېيىن	كېيىن	NOUN	D	Case=Nom	6	obl	_	Translit=këyin
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	det	_	Translit=u
-3	خەۋەر	خەۋەر	NOUN	N	Case=Nom	5	nsubj	_	Translit=xewer
+3	خەۋەر	خەۋەر	NOUN	N	Case=Nom	6	nsubj	_	Translit=xewer
 4	يالغان	يالغان	NOUN	A	Case=Nom	5	compound	_	Translit=yalghan
-5	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
-6	چىقتى	چىق	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=chiqti
+5	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	6	xcomp	_	Translit=bolup
+6	چىقتى	چىق	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chiqti
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s1991
@@ -18217,17 +18217,17 @@
 2	قىيىن	قىيىن	ADJ	A	_	3	amod	_	Translit=qiyin
 3	مەسىلىنى	مەسىلە	NOUN	N	Case=Acc	5	obj	_	Translit=mesilini
 4	ھەل	_	NOUN	N	_	5	compound	_	Translit=hel|Morf=Unknown
-5	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	14	obl	_	Translit=qilish
+5	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	15	obl	_	Translit=qilish
 6	ئۈچۈن	ئۈچۈن	ADP	C	_	5	advmod	_	SpaceAfter=No|Translit=üchün
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
-8	مۇتەخەسىسسلەر	_	NOUN	N	_	14	nsubj	_	Translit=mutexesissler|Morf=Unknown
+8	مۇتەخەسىسسلەر	_	NOUN	N	_	15	nsubj	_	Translit=mutexesissler|Morf=Unknown
 9	بىر	بىر	NUM	M	_	10	nummod	_	Translit=bir
 10	خىل	خىل	NOUN	N	Case=Nom	13	amod	_	Translit=xil
 11	ئالاھىدە	ئالاھىدە	ADJ	D	Case=Nom	13	nmod	_	Translit=alahide
 12	يۇيۇنۇش	_	VERB	V	_	13	nmod	_	Translit=yuyunush|Morf=Unknown
 13	ئەسۋابىنى	_	NOUN	N	_	14	obj	_	Translit=eswabini|Morf=Unknown
-14	لايىھىلەپ	_	VERB	V	_	0	root	_	Translit=layihilep|Morf=Unknown
-15	چىقتى	چىق	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No|Translit=chiqti
+14	لايىھىلەپ	_	VERB	V	_	15	xcomp	_	Translit=layihilep|Morf=Unknown
+15	چىقتى	چىق	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chiqti
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
 # sent_id = s3007

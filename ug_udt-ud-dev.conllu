@@ -9292,9 +9292,9 @@
 
 # sent_id = s1519
 # text = سەن رەڭدار قەلىمىڭ بىلەن دۇنيادا مەۋجۇت بولۇپ قېلىشى مۇمكىن بولغان بارلىق گۈزەللىكنىڭ سۈرىتىنى سىزىپ چىقىسەن.
-1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	Translit=sen
+1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	Translit=sen
 2	رەڭدار	رەڭدار	ADJ	A	_	3	amod	_	Translit=rengdar
-3	قەلىمىڭ	_	NOUN	N	_	14	obl	_	Translit=qeliming|Morf=Unknown
+3	قەلىمىڭ	_	NOUN	N	_	15	obl	_	Translit=qeliming|Morf=Unknown
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
 5	دۇنيادا	_	NOUN	N	_	7	obl	_	Translit=dunyada|Morf=Unknown
 6	مەۋجۇت	مەۋجۇت	NOUN	A	Case=Nom	7	compound	_	Translit=mewjut
@@ -9305,8 +9305,8 @@
 11	بارلىق	بارلىق	DET	P	Case=Nom	12	det	_	Translit=barliq
 12	گۈزەللىكنىڭ	گۈزەللىك	NOUN	N	Case=Gen	13	nmod:poss	_	Translit=güzellikning
 13	سۈرىتىنى	سۈرەت	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	14	obj	_	Translit=süritini
-14	سىزىپ	_	VERB	V	_	0	root	_	Translit=sizip|Morf=Unknown
-15	چىقىسەن	چىق	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|Translit=chiqisen
+14	سىزىپ	_	VERB	V	_	15	xcomp	_	Translit=sizip|Morf=Unknown
+15	چىقىسەن	چىق	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chiqisen
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
 # sent_id = s1520
