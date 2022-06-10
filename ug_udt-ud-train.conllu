@@ -826,7 +826,7 @@
 
 # sent_id = s1862
 # text = شۇڭا دادىسى ھويلىغا خىلمۇخىل گۈللەرنى تېرىپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	6	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	6	cc	_	Gloss=so|Translit=shunga
 2	دادىسى	دادا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=dadisi
 3	ھويلىغا	ھويلا	NOUN	N	Case=Dat	6	obl	_	Translit=hoyligha
 4	خىلمۇخىل	_	NOUN	N	_	5	amod	_	Translit=xilmuxil|Morf=Unknown
@@ -1254,7 +1254,7 @@
 
 # sent_id = s1883
 # text = شۇڭا خانىم مېنى: بالىلىرىدىن بىرەرىنى بالا قىلىۋېلىشىمغا بېرەمدىكىن، سوراپ باق، دەپ ئەۋەتتى.
-1	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Gloss=so|Translit=shunga
 2	خانىم	خانىم	NOUN	N	Case=Nom	15	nsubj	_	Translit=xanim
 3	مېنى	_	PRON	P	_	15	obj	_	SpaceAfter=No|Translit=mëni|Morf=Unknown
 4	:	:	PUNCT	Y	_	3	punct	_	Translit=:
@@ -1629,7 +1629,7 @@
 
 # sent_id = s1908
 # text = شۇڭا، قىزىمنى ئېلىپ قېلىپ، ئوغلۇمنى بېرىۋەتكەن بولسىلا.
-1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	قىزىمنى	_	NOUN	N	_	4	obj	_	Translit=qizimni|Morf=Unknown
 4	ئېلىپ	ئال	VERB	V	Aspect=Perf|VerbForm=Conv	8	advmod	_	Translit=ëlip
@@ -3817,7 +3817,7 @@
 
 # sent_id = s2057
 # text = شۇڭا بىزنى غەيرەتلىك، شىجائەتلىك، جۇشقۇن، قەيسەر بولۇشقا ئىلھاملاندۇراتتىڭ.
-1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|Translit=shunga
 2	بىزنى	بىز	PRON	P	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	Translit=bizni
 3	غەيرەتلىك	_	VERB	V	_	10	nsubj	_	SpaceAfter=No|Translit=gheyretlik|Morf=Unknown
 4	،	،	PUNCT	Y	_	5	punct	_	Translit=,
@@ -3832,7 +3832,7 @@
 
 # sent_id = s2058
 # text = شۇڭا بىزگە تەلەپچان ئىدىڭ،
-1	شۇڭا	شۇڭا	ADV	C	_	3	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	3	cc	_	Gloss=so|Translit=shunga
 2	بىزگە	_	PRON	P	_	3	nmod	_	Translit=bizge|Morf=Unknown
 3	تەلەپچان	تەلەپچان	ADJ	A	Case=Nom	0	root	_	Translit=telepchan
 4	ئىدىڭ	ئى	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No|Translit=iding
@@ -4615,7 +4615,7 @@
 
 # sent_id = s2110
 # text = شۇڭا، ئۇلارنىڭ ئۆلۈش ئېھتىمالى ئانچە چوڭ ئەمەسكەن.
-1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئۇلارنىڭ	ئۇلار	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod:poss	_	Translit=ularning
 4	ئۆلۈش	ئۆل	VERB	V	Case=Nom|VerbForm=Ger	5	nmod	_	Translit=ölüsh
@@ -4661,7 +4661,7 @@
 
 # sent_id = s2113
 # text = شۇڭا يوقىلىپ كەتكەن ئىكەن.
-1	شۇڭا	شۇڭا	ADV	C	_	3	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	3	cc	_	Gloss=so|Translit=shunga
 2	يوقىلىپ	يوقال	VERB	V	Aspect=Perf|VerbForm=Conv	3	compound:lvc	_	Translit=yoqilip
 3	كەتكەن	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=ketken
 4	ئىكەن	_	AUX	V	_	3	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
@@ -5063,7 +5063,7 @@
 
 # sent_id = s2142
 # text = شۇڭا، مەن پۇچۇق ئۆچۈرگۈچنى ئۆزۈم ئىشلىتىپ، يېڭى ئۆچۈرگۈچۈمنى نامرات ساۋاقدىشىم يۇلتۇزغا بېرەي، دەپ ئويلاۋاتىمەن.
-1	شۇڭا	شۇڭا	ADV	C	_	17	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	17	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Translit=men
 4	پۇچۇق	پۇچۇق	ADJ	A	Case=Nom	5	amod	_	Translit=puchuq
@@ -7349,7 +7349,7 @@
 
 # sent_id = s2289
 # text = شۇڭا ھەممەيلەن بۇ پۇرسەتتىن پايدىلنىپ، ئۆز يۇرتداشلىرىدىن زادى كىملەرنىڭ ئەخمەق، يارامسىز ئىكەنلىكىنى سىناپ باقماقچى بولۇشۇپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	16	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	16	cc	_	Gloss=so|Translit=shunga
 2	ھەممەيلەن	ھەممەيلەن	PRON	M	Case=Nom	16	nsubj	_	Translit=hemmeylen
 3	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	det	_	Translit=bu
 4	پۇرسەتتىن	پۇرسەت	NOUN	N	Case=Abl	5	obl	_	Translit=pursettin
@@ -7767,7 +7767,7 @@
 
 # sent_id = s2311
 # text = شۇڭا ئۇ ئۆزى پۈتۈنلەي كۆرمىگەن رەختلەرنى بىر قۇر مەدھىيىلەش بىلەن ئۇلارغا ئۆزىنىڭ بۇ ئېسىل رەڭ ۋە شوخ گۈللەردىن ئىنتايىن قانائەتلەنگەنلىكىنى بىلدۈرۈپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	21	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	21	cc	_	Gloss=so|Translit=shunga
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	obl	_	Translit=u
 3	ئۆزى	ئۆز	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	5	nsubj	_	Translit=özi
 4	پۈتۈنلەي	پۈتۈنلەي	ADV	D	_	5	advmod	_	Translit=pütünley
@@ -8421,7 +8421,7 @@
 
 # sent_id = s2353
 # text = شۇڭا، بىز رادىينىڭ پاتېنىت ھوقۇقىنى تەلەپ قىلماي، خېلى جىق بايلىقتىن ۋاز كەچتۇق.
-1	شۇڭا	شۇڭا	ADV	C	_	14	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	14	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	Translit=biz
 4	رادىينىڭ	رادىي	NOUN	N	Case=Gen	6	nmod:poss	_	Translit=radiyning
@@ -8896,7 +8896,7 @@
 
 # sent_id = s2384
 # text = شۇڭا ئۇلار سۇنىڭ نەقەدەر ئۇلۇغلۇقىنى ھېس قىلالمايدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Gloss=so|Translit=shunga
 2	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Translit=ular
 3	سۇنىڭ	سۇ	NOUN	N	Case=Gen	5	nmod:poss	_	Translit=suning
 4	نەقەدەر	_	INTJ	E	_	5	advmod	_	Translit=neqeder|Morf=Unknown
@@ -10087,7 +10087,7 @@
 
 # sent_id = s2473
 # text = شۇڭا مەشرەپ خەلىقنىڭ ‹ ‹ سەنئەت مەكتىپى › › ۋە ‹ ‹ ئەدەپ–ئەخلاق بۆشۈكى › › دەپ تەرىپلىنىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	18	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	18	cc	_	Gloss=so|Translit=shunga
 2	مەشرەپ	مەشرەپ	NOUN	N	Case=Nom	18	obj	_	Translit=meshrep
 3	خەلىقنىڭ	_	NOUN	N	_	14	nmod:poss	_	Translit=xeliqning|Morf=Unknown
 4	‹	‹	PUNCT	N	_	7	punct	_	Translit=‹
@@ -10356,7 +10356,7 @@
 
 # sent_id = s2483
 # text = شۇڭا دارىگەي بېگى شۇ يېزا--كەنىتتىكى ناخشا–مۇزىكىغا ماھىر سەنئەتكارلار ئارسىدىن سايلاش ئارقىلىق بېكىتىلىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	12	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	12	cc	_	Gloss=so|Translit=shunga
 2	دارىگەي	_	NOUN	N	_	3	nmod	_	Translit=darigey|Morf=Unknown
 3	بېگى	بەگ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	nsubj	_	Translit=bëgi
 4	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=shu
@@ -10469,7 +10469,7 @@
 
 # sent_id = s2491
 # text = شۇڭا مەشرەپكە ئەزا بولغۇچىدىن بەلگىلىك شەتلەرنى ئورۇنداش تەلەپ قىلىندۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Gloss=so|Translit=shunga
 2	مەشرەپكە	مەشرەپ	NOUN	N	Case=Dat	4	obl	_	Translit=meshrepke
 3	ئەزا	ئەزا	NOUN	N	Case=Nom	4	compound	_	Translit=eza
 4	بولغۇچىدىن	_	VERB	V	_	9	obl	_	Translit=bolghuchidin|Morf=Unknown
@@ -12749,7 +12749,7 @@
 
 # sent_id = s2647
 # text = شۇڭا ئۇلار ئامېرىكىنىڭ پۇل تېپىش ئۈچۈن ئىشلەنگەن فىلىملىرىدىكى نامراتلار مەھەللىسىدە يۈرگەن كوچا لۈكچەكلىرىنىڭ تەقى-تۇرقىنى مودا قاتارىدا چۈشىنىۋېلىشقانىدى.
-1	شۇڭا	شۇڭا	ADV	C	_	17	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	17	cc	_	Gloss=so|Translit=shunga
 2	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Translit=ular
 3	ئامېرىكىنىڭ	ئامېرىكا	PROPN	N	Case=Gen	8	nmod:poss	_	Translit=amërikining
 4	پۇل	پۇل	NOUN	N	Case=Nom	5	obj	_	Translit=pul
@@ -15077,7 +15077,7 @@
 
 # sent_id = s2777
 # text = شۇڭا ئۇ پىسا ئۇنىۋېرىستېتىدىن ئايرىلدى.
-1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Gloss=so|Translit=shunga
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Translit=u
 3	پىسا	_	NOUN	N	_	4	nmod	_	Translit=pisa|Morf=Unknown
 4	ئۇنىۋېرىستېتىدىن	_	NOUN	N	_	5	obl	_	Translit=uniwëristëtidin|Morf=Unknown
@@ -15386,7 +15386,7 @@
 4	رەت	رەت	NOUN	N	Case=Nom	5	compound	_	Translit=ret
 5	قىلدى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	SpaceAfter=No|Translit=qildi
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Translit=shunga
+7	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|Translit=shunga
 8	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	Translit=ular
 9	تەھدىتنى	تەھدىت	NOUN	N	Case=Acc	11	obj	_	Translit=tehditni
 10	ئەمەلدە	ئەمەل	NOUN	N	Case=Loc	11	obl	_	Translit=emelde
@@ -16106,7 +16106,7 @@
 
 # sent_id = s2844
 # text = شۇڭا بىزدە قەدىمدىن تا ھازىرغىچە ئۈزۈلمەي داۋاملىشىپ كېلىۋاتىدۇ، _ دېدى بوۋام پەخىرلەنگەن ھالدا.
-1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	Gloss=so|Translit=shunga
 2	بىزدە	_	PRON	P	_	8	obl	_	Translit=bizde|Morf=Unknown
 3	قەدىمدىن	قەدىم	NOUN	N	Case=Abl	8	obl	_	Translit=qedimdin
 4	تا	تا	ADP	R	_	5	cc	_	Translit=ta
@@ -17130,7 +17130,7 @@
 
 # sent_id = s2915
 # text = شۇڭا بىز ساغلام ئۆسۈپ يېتىلمەكتىمىز.
-1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Gloss=so|Translit=shunga
 2	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Translit=biz
 3	ساغلام	ساغلام	ADJ	A	Case=Nom	5	advmod	_	Translit=saghlam
 4	ئۆسۈپ	ئۆس	VERB	V	Aspect=Perf|VerbForm=Conv	5	compound	_	Translit=ösüp
@@ -18120,7 +18120,7 @@
 
 # sent_id = s3000
 # text = شۇڭا، ئالەم ئۇچقۇچىلىرى سۇ ئىچكەندە، سۈمۈرۈش نەيچىسى ئورنىتىلغان سۇلياۋ ئىستاكاننى ئىشلىتىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	13	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	13	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئالەم	ئالەم	NOUN	N	Case=Nom	4	compound	_	Translit=alem
 4	ئۇچقۇچىلىرى	ئۇچقۇچى	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	nsubj	_	Translit=uchquchiliri
@@ -18421,7 +18421,7 @@
 
 # sent_id = s3018
 # text = شۇڭا، بۇ قېتىم ئۇلار ئاچچىقتىن يېرىلغۇدەك بولۇپ تاغدىن چۈشۈپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	det	_	Translit=bu
 4	قېتىم	قېتىم	ADV	Q	_	10	advmod	_	Translit=qëtim
@@ -23775,7 +23775,7 @@
 
 # sent_id = s3422
 # text = شۇڭا، ھەممە قېنىنى قىزچاققا بېرىپ، ئۇنى ياشاش ئىمكانىيىتىگە ئېرىشتۈرمەكچى بولغانىكەن،
-1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ھەممە	ھەممە	DET	P	_	4	det	_	Translit=hemme
 4	قېنىنى	قان	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	Translit=qënini
@@ -24216,7 +24216,7 @@
 
 # sent_id = s3456
 # text = شۇڭا مەشرەپ خەلىقنىڭ ‹‹سەنئەت مەكتىپى›› ۋە ‹‹ئەدەپ–ئەخلاق بۆشۈكى›› دەپ تەرىپلىنىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	Gloss=so|Translit=shunga
 2	مەشرەپ	مەشرەپ	NOUN	N	Case=Nom	3	nmod	_	Translit=meshrep
 3	خەلىقنىڭ	_	NOUN	N	_	5	nmod:poss	_	Translit=xeliqning|Morf=Unknown
 4	‹‹سەنئەت	_	NOUN	N	_	5	nmod	_	Translit=‹‹senet|Morf=Unknown

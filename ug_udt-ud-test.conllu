@@ -2426,7 +2426,7 @@
 
 # sent_id = s172
 # text = شۇڭا، بولۇق قولىنى كەينىگە تۇتۇپ، بۇ چېچەكنى چىشلەپ ئالىدۇ،
-1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	بولۇق	بولۇق	NOUN	N	Case=Nom	11	nsubj	_	Translit=boluq
 4	قولىنى	قول	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	Translit=qolini
@@ -6658,7 +6658,7 @@
 
 # sent_id = s485
 # text = شۇڭا ئۇ تېخىمۇ مەغرۇر قىياپەتكە كىرىۋاپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	6	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	6	cc	_	Gloss=so|Translit=shunga
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
 3	تېخىمۇ	_	ADV	D	_	4	advmod:emph	_	Translit=tëximu|Morf=Missing,1
 4	مەغرۇر	مەغرۇر	ADJ	A	_	5	amod	_	Translit=meghrur
@@ -10376,7 +10376,7 @@
 
 # sent_id = s738
 # text = شۇڭا، شارتتىدە بۇرۇلۇپ يان كوچىغا كىرىپ كەتتىم.
-1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	شارتتىدە	_	NOUN	N	_	4	obl	_	Translit=sharttide|Morf=Unknown
 4	بۇرۇلۇپ	بۇرۇل	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	Translit=burulup
@@ -10518,7 +10518,7 @@
 
 # sent_id = s746
 # text = شۇڭا ئۆگزىلىرى يانداش ئۆيلەر بۇ يەردە يوق.
-1	شۇڭا	شۇڭا	ADV	C	_	7	mark	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Gloss=so|Translit=shunga
 2	ئۆگزىلىرى	ئۆگزە	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	Translit=ögziliri
 3	يانداش	يانداش	VERB	V	Mood=Imp|VerbForm=Fin	4	acl	_	Translit=yandash
 4	ئۆيلەر	ئۆي	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	Translit=öyler

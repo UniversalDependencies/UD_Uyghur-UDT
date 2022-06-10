@@ -2038,7 +2038,7 @@
 
 # sent_id = s1008
 # text = شۇڭا باشقا شەيئىلەر بىلەن ئوخشىمايدۇ، دەپ قارىلىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	8	cc	_	Gloss=so|Translit=shunga
 2	باشقا	باشقا	ADJ	A	_	3	amod	_	Translit=bashqa
 3	شەيئىلەر	شەيئى	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	Translit=sheyiler
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
@@ -2076,7 +2076,7 @@
 
 # sent_id = s1012
 # text = شۇڭا ئمۇ توغرا جاۋاب بولىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Gloss=so|Translit=shunga
 2	ئمۇ	_	NOUN	N	_	4	nsubj	_	Translit=mu|Morf=Unknown
 3	توغرا	توغرا	ADJ	A	Case=Nom	4	amod	_	Translit=toghra
 4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	0	root	_	Translit=jawab
@@ -2106,7 +2106,7 @@
 
 # sent_id = s1015
 # text = شۇڭا دمۇ توغرا جاۋاب ھېسابلىنىدۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	4	cc	_	Gloss=so|Translit=shunga
 2	دمۇ	_	NOUN	N	_	4	nsubj	_	Translit=dmu|Morf=Unknown
 3	توغرا	توغرا	ADJ	A	Case=Nom	4	amod	_	Translit=toghra
 4	جاۋاب	جاۋاب	NOUN	N	Case=Nom	0	root	_	Translit=jawab
@@ -2251,7 +2251,7 @@
 
 # sent_id = s1024
 # text = شۇڭا بىر جاۋاب بىلەن قانائەتلىنىپ قالماسلىق، ئىزدىنىشتىن ۋاز كەچمەسلىك لازىم.
-1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|Translit=shunga
 2	بىر	بىر	NUM	M	_	3	nummod	_	Translit=bir
 3	جاۋاب	جاۋاب	NOUN	N	Case=Nom	6	obl	_	Translit=jawab
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
@@ -4587,7 +4587,7 @@
 
 # sent_id = s1170
 # text = شۇڭا تا ھازىرغىچە كىشىلەر ياساپ بەرگەن تەييار ئۇۋىدا ياشايدىكەن.
-1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Gloss=so|Translit=shunga
 2	تا	تا	ADP	R	_	3	advmod:emph	_	Translit=ta
 3	ھازىرغىچە	_	ADV	D	_	9	advmod	_	Translit=hazirghiche|Morf=Unknown
 4	كىشىلەر	_	NOUN	N	_	6	nsubj	_	Translit=kishiler|Morf=Unknown
@@ -4673,7 +4673,7 @@
 
 # sent_id = s1176
 # text = شۇڭا، ئۇ بوران - يامغۇرلۇق چاغلاردىمۇ ئۇۋىسىدا خاتىرجەم يېتىۋېرىدىكەن.
-1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	10	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 4	بوران	بوران	NOUN	N	Case=Nom	6	compound:redup	_	Translit=boran
@@ -4966,7 +4966,7 @@
 
 # sent_id = s1199
 # text = شۇڭا، ئۇلار ئۆمرىنىڭ ئاخىرىغىچە بەخىتلىك ياشاپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	7	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Translit=ular
 4	ئۆمرىنىڭ	_	NOUN	N	_	5	nmod:poss	_	Translit=ömrining|Morf=Unknown
@@ -7169,7 +7169,7 @@
 
 # sent_id = s1359
 # text = شۇڭا سىلىگە پىيازنىڭ كۆكى تېگىدۇ،
-1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	5	cc	_	Gloss=so|Translit=shunga
 2	سىلىگە	_	PRON	P	_	5	obl	_	Translit=silige|Morf=Unknown
 3	پىيازنىڭ	پىياز	NOUN	V	Case=Gen	4	nmod:poss	_	Translit=piyazning
 4	كۆكى	كۆك	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	Translit=köki
@@ -8068,7 +8068,7 @@
 
 # sent_id = s1427
 # text = شۇڭا، بىز 12 ئاي ۋە ئاسماننىڭ بۇرجىغا ئاساسلىنىپ، ھەر بىر يىلغا ئات قويايلى،
-1	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	Translit=biz
 4	12	12	NUM	M	NumType=Ord	5	nummod	_	Translit=12
@@ -8193,7 +8193,7 @@
 
 # sent_id = s1437
 # text = شۇڭا يىل بېشى «چاشقان يىلى» دەپ ئاتىلىپتۇ.
-1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	9	cc	_	Gloss=so|Translit=shunga
 2	يىل	يىل	NOUN	N	Case=Nom	3	nmod:poss	_	Translit=yil
 3	بېشى	باش	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	Translit=bëshi
 4	«	«	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit=«
@@ -11948,7 +11948,7 @@
 
 # sent_id = s1704
 # text = شۇڭا، ئون يەتتە ياشقا كىرگۈچە ئۆز - ئۆزەمنى ئەيىپلەپ يۈردۈم.
-1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	SpaceAfter=No|Translit=shunga
+1	شۇڭا	شۇڭا	ADV	C	_	11	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئون	ئون	NUM	M	Case=Nom|NumType=Ord	4	compound	_	Translit=on
 4	يەتتە	يەتتە	NUM	M	_	5	nummod	_	Translit=yette
@@ -12741,7 +12741,7 @@
 21	شۇنداق	شۇنداق	ADV	P	_	22	advmod	_	Translit=shundaq
 22	خاتالىشىدۇ	خاتالاش	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	_	SpaceAfter=No|Translit=xatalishidu
 23	.	.	PUNCT	Y	_	22	punct	_	Translit=.
-24	شۇڭا	شۇڭا	ADV	C	_	37	cc	_	SpaceAfter=No|Translit=shunga
+24	شۇڭا	شۇڭا	ADV	C	_	37	cc	_	Gloss=so|SpaceAfter=No|Translit=shunga
 25	،	،	PUNCT	Y	_	24	punct	_	Translit=,
 26	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	Translit=biz
 27	12	12	NUM	M	NumType=Ord	29	nummod	_	Translit=12
@@ -12786,7 +12786,7 @@
 4	چاشقان	چاشقان	NOUN	N	Case=Nom	5	nsubj	_	Translit=chashqan
 5	ئۆتۈپتۇ	_	VERB	V	_	15	parataxis	_	SpaceAfter=No|Translit=ötüptu|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Translit=shunga
+7	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Gloss=so|Translit=shunga
 8	يىل	يىل	NOUN	N	Case=Nom	9	nmod	_	Translit=yil
 9	بېشى	باش	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	nsubj	_	Translit=bëshi
 10	«	«	PUNCT	Y	_	12	punct	_	SpaceAfter=No|Translit=«
@@ -13173,7 +13173,7 @@
 7	باغلاپ	_	VERB	V	_	12	parataxis	_	Translit=baghlap|Morf=Unknown
 8	بولالمىغانىدى	_	AUX	V	_	7	aux	_	SpaceAfter=No|Translit=bolalmighanidi|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
-10	شۇڭا	شۇڭا	ADV	C	_	12	cc	_	Translit=shunga
+10	شۇڭا	شۇڭا	ADV	C	_	12	cc	_	Gloss=so|Translit=shunga
 11	ئورنىدىن	_	NOUN	N	_	12	obl	_	Translit=ornidin|Morf=Unknown
 12	چۈشۈپ	چۈش	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshüp
 13	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=ketti
