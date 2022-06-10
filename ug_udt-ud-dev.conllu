@@ -9803,10 +9803,10 @@
 8	چوققىلار	چوققا	NOUN	N	Case=Nom|Number=Plur	21	nsubj	_	Translit=choqqilar
 9	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	10	det	_	Translit=öz
 10	باغرىنى	_	NOUN	N	_	11	obj	_	Translit=baghrini|Morf=Unknown
-11	يېرىپ	يار	VERB	V	Aspect=Perf|VerbForm=Conv	13	advcl	_	Translit=yërip
-12	موكىدەك	_	NOUN	N	_	13	obl	_	Translit=mokidek|Morf=Unknown
-13	ئۆتۈشۈپ	_	VERB	V	_	21	obl	_	Translit=ötüshüp|Morf=Unknown
-14	يۈرگەن	يۈر	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	Translit=yürgen
+11	يېرىپ	يار	VERB	V	Aspect=Perf|VerbForm=Conv	14	advcl	_	Translit=yërip
+12	موكىدەك	_	NOUN	N	_	14	obl	_	Translit=mokidek|Morf=Unknown
+13	ئۆتۈشۈپ	_	VERB	V	_	14	xcomp	_	Translit=ötüshüp|Morf=Unknown
+14	يۈرگەن	يۈر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	obl	_	Translit=yürgen
 15	زامانىۋى	زامانىۋى	ADJ	A	_	18	amod	_	Translit=zamaniwi
 16	ماشىنا	ماشىنا	NOUN	N	Case=Nom	21	obl	_	Translit=mashina
 17	-	-	PUNCT	Y	_	18	punct	_	Translit=-
