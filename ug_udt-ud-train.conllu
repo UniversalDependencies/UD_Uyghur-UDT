@@ -935,7 +935,7 @@
 7	تۈردە	تۈر	NOUN	N	Case=Loc	11	obl	_	Translit=türde
 8	ئەڭ	ئەڭ	PRON	D	Case=Nom	9	obl	_	Translit=eng
 9	كۆپ	كۆپ	ADJ	A	_	11	amod	_	Translit=köp
-10	چىمپيون	_	NOUN	N	_	11	aux	_	Translit=chimpyon|Morf=Unknown
+10	چىمپيون	_	NOUN	N	_	11	compound	_	Translit=chimpyon|Morf=Unknown
 11	بولغان	بول	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	12	acl	_	Translit=bolghan
 12	دۆلەتكە	دۆلەت	NOUN	N	Case=Dat	13	obl	_	Translit=döletke
 13	ئايلاندى	ئايلان	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=aylandi
@@ -16010,7 +16010,7 @@
 5	ئىچىدىن	ئىچ	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=ichidin
 6	ئېتىلىپ	_	AUX	V	_	7	advmod	_	Translit=ëtilip|Morf=Unknown
 7	چىقىپ	چىق	VERB	V	Aspect=Perf|VerbForm=Inf	14	parataxis	_	Translit=chiqip
-8	كەتتى،	_	NOUN	N	_	7	aux	_	Translit=ketti,|Morf=Unknown
+8	كەتتى،	_	NOUN	N	_	7	compound	_	Translit=ketti,|Morf=Unknown
 9	بىزنڭ	_	VERB	V	_	10	nmod:poss	_	Translit=biznng|Morf=Unknown
 10	چەۋەندازلاردىن	چەۋەنداز	ADJ	N	Case=Abl|Number=Plur	11	nmod	_	Translit=chewendazlardin
 11	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	14	nsubj	_	Translit=biri
@@ -20449,7 +20449,7 @@
 # sent_id = s3179
 # text = قوياش پارلاپ تۇرغان بىر ئەتىگىنى گوركىي كىتاب ئوقۇۋاتاتتى،
 1	قوياش	_	NOUN	N	_	2	nsubj	_	Translit=qoyash|Morf=Unknown
-2	پارلاپ	_	NOUN	N	_	3	aux	_	Translit=parlap|Morf=Unknown
+2	پارلاپ	_	NOUN	N	_	3	compound	_	Translit=parlap|Morf=Unknown
 3	تۇرغان	تۇر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	Translit=turghan
 4	بىر	بىر	NUM	M	NumType=Ord	5	compound	_	Translit=bir
 5	ئەتىگىنى	ئەتىگەن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	Translit=etigini

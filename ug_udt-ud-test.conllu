@@ -2152,7 +2152,7 @@
 3	چىقىپ	چىق	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	Translit=chiqip
 4	ئانىڭىزغا	_	NOUN	N	_	5	obl	_	Translit=aningizgha|Morf=Unknown
 5	ئوقۇپ	_	VERB	V	_	0	root	_	Translit=oqup|Morf=Unknown
-6	بېرىڭ	بېرى	NOUN	V	Case=Nom|Number[psor]=Sing|Person[psor]=2	5	aux	_	SpaceAfter=No|Translit=bëring
+6	بېرىڭ	بېرى	NOUN	V	Case=Nom|Number[psor]=Sing|Person[psor]=2	5	compound	_	SpaceAfter=No|Translit=bëring
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s156
@@ -5536,7 +5536,7 @@
 11	چۆپلەر	چۆپ	ADJ	N	Case=Nom|Number=Plur	6	conj	_	Translit=chöpler
 12	بىلەن	بىلەن	ADP	R	_	11	case	_	Translit=bilen
 13	بوياپ	_	NOUN	N	_	14	compound	_	Translit=boyap|Morf=Unknown
-14	قويۇلغاندەك	_	NOUN	N	_	15	aux	_	Translit=qoyulghandek|Morf=Unknown
+14	قويۇلغاندەك	_	NOUN	N	_	15	compound	_	Translit=qoyulghandek|Morf=Unknown
 15	ياپيېشىل	_	ADJ	A	_	0	root	_	SpaceAfter=No|Translit=yapyëshil|Morf=Unknown
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
@@ -8795,7 +8795,7 @@
 15	مېنى	_	PRON	P	_	17	obj	_	Translit=mëni|Morf=Unknown
 16	دەرھال	دەرھال	ADV	D	_	17	advmod	_	Translit=derhal
 17	ئاپىرىپ	_	VERB	V	_	22	ccomp	_	Translit=apirip|Morf=Unknown
-18	قوي	قوي	NOUN	V	Case=Nom	17	aux	_	Translit=qoy
+18	قوي	قوي	NOUN	V	Case=Nom	17	compound	_	Translit=qoy
 19	ئۆيۈمگە	ئۆي	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=1	17	obl	_	SpaceAfter=No|Translit=öyümge
 20	!	!	PUNCT	V	_	17	punct	_	SpaceAfter=No|Translit=!
 21	»	»	PUNCT	Y	_	17	punct	_	Translit=»
@@ -9043,7 +9043,7 @@
 15	ساغلام	ساغلام	ADJ	A	_	16	amod	_	Translit=saghlam
 16	بالا	بالا	NOUN	N	Case=Nom	17	nsubj	_	Translit=bala
 17	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	21	ccomp	_	Translit=qilip
-18	قوي	قوي	NOUN	V	Case=Nom	17	aux	_	SpaceAfter=No|Translit=qoy
+18	قوي	قوي	NOUN	V	Case=Nom	17	compound	_	SpaceAfter=No|Translit=qoy
 19	!	!	PUNCT	V	_	18	punct	_	SpaceAfter=No|Translit=!
 20	»	»	PUNCT	Y	_	17	punct	_	Translit=»
 21	دەپتۇ	_	VERB	V	_	10	conj	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
