@@ -1438,17 +1438,17 @@
 # text = كۇڭزى: «مېنىڭ ئۇستاز تۇتماقچى بولغىنىم دەل مۇشۇ كىشىدەك قىلىدۇ!» دەپ ئويلايدۇ - دە،
 1	كۇڭزى	_	NOUN	N	_	15	nsubj	_	SpaceAfter=No|Translit=kungzi|Morf=Unknown
 2	:	:	PUNCT	Y	_	1	punct	_	Translit=:
-3	«	«	PUNCT	Y	_	10	punct	_	SpaceAfter=No|Translit=«
+3	«	«	PUNCT	Y	_	11	punct	_	SpaceAfter=No|Translit=«
 4	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	Translit=mëning
 5	ئۇستاز	ئۇستاز	NOUN	N	Case=Nom	6	nsubj	_	Translit=ustaz
-6	تۇتماقچى	_	VERB	V	_	10	csubj	_	Translit=tutmaqchi|Morf=Unknown
+6	تۇتماقچى	_	VERB	V	_	11	csubj	_	Translit=tutmaqchi|Morf=Unknown
 7	بولغىنىم	_	AUX	V	_	6	cop	_	Translit=bolghinim|Morf=Unknown
 8	دەل	دەل	ADV	D	_	9	advmod:emph	_	Translit=del
 9	مۇشۇ	مۇشۇ	PRON	P	Case=Nom|PronType=Dem	10	det	_	Translit=mushu
-10	كىشىدەك	_	NOUN	N	_	14	ccomp	_	Translit=kishidek|Morf=Unknown
-11	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|Translit=qilidu
+10	كىشىدەك	_	NOUN	N	_	11	xcomp	_	Translit=kishidek|Morf=Unknown
+11	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	SpaceAfter=No|Translit=qilidu
 12	!	!	PUNCT	V	_	11	punct	_	SpaceAfter=No|Translit=!
-13	»	»	PUNCT	Y	_	10	punct	_	Translit=»
+13	»	»	PUNCT	Y	_	11	punct	_	Translit=»
 14	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	Translit=dep
 15	ئويلايدۇ	_	VERB	V	_	0	root	_	Translit=oylaydu|Morf=Unknown
 16	-	-	PUNCT	Y	_	17	punct	_	Translit=-
@@ -1899,8 +1899,8 @@
 5	مىلەپ	_	VERB	V	_	10	advcl	_	Translit=milep|Morf=Unknown
 6	خۇش	خۇش	ADJ	A	_	7	amod	_	Translit=xush
 7	خەتچىلەپ	_	NOUN	N	_	10	obl	_	Translit=xetchilep|Morf=Unknown
-8	چىرايلىق	چىرايلىق	ADJ	A	Case=Nom	10	advmod	_	Translit=chirayliq
-9	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	8	cop	_	Translit=qilip
+8	چىرايلىق	چىرايلىق	ADJ	A	Case=Nom	9	xcomp	_	Translit=chirayliq
+9	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	10	advmod	_	Translit=qilip
 10	يېزىشقا	_	VERB	V	_	11	advcl	_	Translit=yëzishqa|Morf=Unknown
 11	كىرىشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kirishti|Morf=Unknown
 12	.	.	PUNCT	Y	_	11	punct	_	Translit=.
@@ -11823,10 +11823,10 @@
 
 # sent_id = s835
 # text = ئۆزىمۇ دۇرۇس بالىدەك قىلىدۇ،
-1	ئۆزىمۇ	ئۆز	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	3	nsubj	_	Translit=özimu
+1	ئۆزىمۇ	ئۆز	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	4	nsubj	_	Translit=özimu
 2	دۇرۇس	دۇرۇس	ADJ	A	_	3	amod	_	Translit=durus
-3	بالىدەك	_	NOUN	N	_	0	root	_	Translit=balidek|Morf=Unknown
-4	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No|Translit=qilidu
+3	بالىدەك	_	NOUN	N	_	4	xcomp	_	Translit=balidek|Morf=Unknown
+4	قىلىدۇ	قىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qilidu
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 
 # sent_id = s836

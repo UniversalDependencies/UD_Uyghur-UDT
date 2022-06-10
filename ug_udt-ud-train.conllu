@@ -14149,12 +14149,12 @@
 # sent_id = s2720
 # text = بۇنىڭدىن ئېگىزلىكى ۋە كەڭلىكى ئىككى مېتىردىن قىلىپ تام قوپۇرۇلسا، 3000 كىلومېتىردىن ئېشىپ كېتىدۇ.
 1	بۇنىڭدىن	بۇنىڭدىن	ADP	P	_	9	obl	_	Translit=buningdin
-2	ئېگىزلىكى	ئېگىزلىك	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=ëgizliki
+2	ئېگىزلىكى	ئېگىزلىك	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	Translit=ëgizliki
 3	ۋە	ۋە	CCONJ	C	_	4	cc	_	Translit=we
 4	كەڭلىكى	كەڭلىك	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	conj	_	Translit=kengliki
 5	ئىككى	ئىككى	NUM	M	_	6	nummod	_	Translit=ikki
-6	مېتىردىن	مېتىر	NOUN	Q	Case=Abl	9	obl	_	Translit=mëtirdin
-7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	6	cop	_	Translit=qilip
+6	مېتىردىن	مېتىر	NOUN	Q	Case=Abl	7	xcomp	_	Translit=mëtirdin
+7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	9	obl	_	Translit=qilip
 8	تام	تام	NOUN	N	Case=Nom	9	nsubj	_	Translit=tam
 9	قوپۇرۇلسا	_	VERB	V	_	13	advcl	_	SpaceAfter=No|Translit=qopurulsa|Morf=Unknown
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
@@ -17016,8 +17016,8 @@
 3	ئۆيگە	ئۆي	NOUN	N	Case=Dat	8	obl	_	Translit=öyge
 4	پارتا-ئورۇندۇقلار	_	VERB	V	_	8	nsubj	_	Translit=parta-orunduqlar|Morf=Unknown
 5	ئىككى	ئىككى	NUM	M	_	6	nummod	_	Translit=ikki
-6	قۇر	_	DET	Q	_	8	obl	_	Translit=qur|Morf=Missing,2
-7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	6	cop	_	Translit=qilip
+6	قۇر	_	DET	Q	_	7	xcomp	_	Translit=qur|Morf=Missing,2
+7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	8	obl	_	Translit=qilip
 8	تىزىلدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tizildi|Morf=Unknown
 9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
@@ -17025,10 +17025,10 @@
 # text = ئىككى ئېغىزلىق ئۆي ئوقۇتقۇچىلار ئىشخانىسى قىلىندى.
 1	ئىككى	ئىككى	NUM	M	_	2	nummod	_	Translit=ikki
 2	ئېغىزلىق	_	DET	Q	_	3	amod	_	Translit=ëghizliq|Morf=Unknown
-3	ئۆي	ئۆي	NOUN	N	Case=Nom	5	obj	_	Translit=öy
+3	ئۆي	ئۆي	NOUN	N	Case=Nom	6	obj	_	Translit=öy
 4	ئوقۇتقۇچىلار	ئوقۇتقۇچى	NOUN	V	Case=Nom|Number=Plur	5	nmod	_	Translit=oqutquchilar
-5	ئىشخانىسى	ئىشخانا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	Translit=ishxanisi
-6	قىلىندى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	cop	_	SpaceAfter=No|Translit=qilindi
+5	ئىشخانىسى	ئىشخانا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	xcomp	_	Translit=ishxanisi
+6	قىلىندى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=qilindi
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s2908
