@@ -8068,15 +8068,15 @@
 
 # sent_id = s2331
 # text = ھىم، مېنى يەۋالغىن، دەپ ئېتىلىپ كېلىۋاتقان ئوخشىمامسەن!
-1	ھىم	ھىم	ADJ	E	_	8	discourse	_	SpaceAfter=No|Translit=him
+1	ھىم	ھىم	ADJ	E	_	9	discourse	_	SpaceAfter=No|Translit=him
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	مېنى	_	PRON	P	_	4	obj	_	Translit=mëni|Morf=Unknown
 4	يەۋالغىن	_	VERB	V	_	6	ccomp	_	SpaceAfter=No|Translit=yewalghin|Morf=Unknown
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	Translit=dep
-7	ئېتىلىپ	_	VERB	V	_	8	advmod	_	Translit=ëtilip|Morf=Unknown
-8	كېلىۋاتقان	_	VERB	V	_	0	root	_	Translit=këliwatqan|Morf=Unknown
-9	ئوخشىمامسەن	ئوخشى	PART	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|Translit=oxshimamsen
+6	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=dep
+7	ئېتىلىپ	_	VERB	V	_	9	advmod	_	Translit=ëtilip|Morf=Unknown
+8	كېلىۋاتقان	_	VERB	V	_	9	xcomp	_	Translit=këliwatqan|Morf=Unknown
+9	ئوخشىمامسەن	ئوخشى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=oxshimamsen
 10	!	!	PUNCT	Y	_	9	punct	_	Translit=!
 
 # sent_id = s2332
@@ -17604,16 +17604,16 @@
 
 # sent_id = s2960
 # text = ئۇلار باھارنىڭ قاشلىرى ئوخشىمامدۇ؟ ياكى باھارنىڭ ناخشا نوتىسىمىدۇ؟
-1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Translit=ular
+1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Translit=ular
 2	باھارنىڭ	باھار	NOUN	N	Case=Gen	3	nmod:poss	_	Translit=baharning
-3	قاشلىرى	قاش	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	Translit=qashliri
-4	ئوخشىمامدۇ	ئوخشى	PART	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No|Translit=oxshimamdu
+3	قاشلىرى	قاش	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	xcomp	_	Translit=qashliri
+4	ئوخشىمامدۇ	ئوخشى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=oxshimamdu
 5	؟	؟	PUNCT	V	_	9	punct	_	Translit=?
 6	ياكى	ياكى	CCONJ	C	_	9	cc	_	Translit=yaki
 7	باھارنىڭ	باھار	NOUN	N	Case=Gen	9	nmod:poss	_	Translit=baharning
 8	ناخشا	ناخشا	NOUN	N	Case=Nom	9	obl	_	Translit=naxsha
 9	نوتىسىمىدۇ	_	VERB	V	_	3	conj	_	SpaceAfter=No|Translit=notisimidu|Morf=Unknown
-10	؟	؟	PUNCT	Y	_	3	punct	_	Translit=?
+10	؟	؟	PUNCT	Y	_	4	punct	_	Translit=?
 
 # sent_id = s2961
 # text = توڭى ئېرىگەن ئېرىقلاردا سۈزۈك سۇلار ئېقىۋىتىپتۇ،
