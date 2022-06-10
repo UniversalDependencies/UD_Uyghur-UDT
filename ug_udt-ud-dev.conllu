@@ -548,7 +548,7 @@
 # text = بۇرۇتلارنىڭ خەت تارتىپ قېلىشى، قىزلىق زىنىخلارنىڭ پەيدا بولۇپ قېلىشى بىزنىڭ بىر ھالەتتىن يەنە بىر ھالەتكە ئۆتۈۋاتقانلىقىمىزدىن ئۈنسىز بېشارەت بېرەتتى.
 1	بۇرۇتلارنىڭ	بۇرۇت	NOUN	N	Case=Gen|Number=Plur	3	nsubj	_	Translit=burutlarning
 2	خەت	خەت	NOUN	N	Case=Nom	3	compound	_	Translit=xet
-3	تارتىپ	تارتىپ	ADP	V	_	20	csubj	_	Translit=tartip
+3	تارتىپ	تارتىپ	VERB	V	_	20	csubj	_	Translit=tartip
 4	قېلىشى	قال	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	3	aux	_	SpaceAfter=No|Translit=qëlishi
 5	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 6	قىزلىق	_	NOUN	N	_	7	amod	_	Translit=qizliq|Morf=Unknown
