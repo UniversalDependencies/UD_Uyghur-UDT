@@ -20980,12 +20980,12 @@
 # sent_id = s3225
 # text = چوڭ تاش شۇنداق ئوبدان دالدا بولاتتىكى، دوستلىرى تاشنى ئۇيان ئايلىنىپ، بۇيان ئايلىنىپمۇ ئۇنى تاپالمايتتى.
 1	چوڭ	چوڭ	ADJ	A	_	2	amod	_	Translit=chong
-2	تاش	تاش	NOUN	N	Case=Nom	6	nsubj	_	Translit=tash
+2	تاش	تاش	NOUN	N	Case=Nom	5	nsubj	_	Translit=tash
 3	شۇنداق	شۇنداق	ADV	P	_	4	advmod	_	Translit=shundaq
 4	ئوبدان	ئوبدان	ADJ	A	Case=Nom	5	amod	_	Translit=obdan
-5	دالدا	دالدا	NOUN	N	Case=Nom	6	cop	_	Translit=dalda
-6	بولاتتىكى	_	VERB	V	_	16	parataxis	_	SpaceAfter=No|Translit=bolattiki|Morf=Unknown
-7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
+5	دالدا	دالدا	NOUN	N	Case=Nom	16	parataxis	_	Translit=dalda
+6	بولاتتىكى	بول	AUX	V	_	5	cop	_	SpaceAfter=No|Translit=bolattiki|Morf=Unknown
+7	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 8	دوستلىرى	دوست	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	16	nsubj	_	Translit=dostliri
 9	تاشنى	تا	VERB	N	Case=Acc|VerbForm=Ger	14	obj	_	Translit=tashni
 10	ئۇيان	_	NOUN	N	_	11	obl	_	Translit=uyan|Morf=Unknown
