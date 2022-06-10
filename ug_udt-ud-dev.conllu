@@ -2398,15 +2398,15 @@
 
 # sent_id = s1034
 # text = بىلىم _ _ يىڭى ئىجادىي پىكىرنى شەكىللەندۈرىدىغان ماتېرىيال ھېسابلىنىدۇ.
-1	بىلىم	بىلىم	NOUN	N	Case=Nom	8	nsubj	_	Translit=bilim
+1	بىلىم	بىلىم	NOUN	N	Case=Nom	9	nsubj:pass	_	Translit=bilim
 2	_	_	PUNCT	Y	_	1	punct	_	Translit=_|Morf=Unknown
 3	_	_	PUNCT	Y	_	1	punct	_	Translit=_|Morf=Unknown
 4	يىڭى	يىڭ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	amod	_	Translit=yingi
 5	ئىجادىي	ئىجادىي	ADJ	A	_	6	amod	_	Translit=ijadiy
 6	پىكىرنى	پىكىر	NOUN	N	Case=Acc	7	obj	_	Translit=pikirni
 7	شەكىللەندۈرىدىغان	_	VERB	V	_	8	acl	_	Translit=shekillendüridighan|Morf=Unknown
-8	ماتېرىيال	ماتېرىيال	NOUN	N	Case=Nom	0	root	_	Translit=matëriyal
-9	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	SpaceAfter=No|Translit=hësablinidu
+8	ماتېرىيال	ماتېرىيال	NOUN	N	Case=Nom	9	xcomp	_	Translit=matëriyal
+9	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=hësablinidu
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s1035
@@ -2475,12 +2475,12 @@
 # sent_id = s1038
 # text = بۇ جەھەتتە جونسۇنگودىنبېرك ئالدىنقى قاتاردىكى ۋەكىل ھېسابلىنىدۇ.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
-2	جەھەتتە	جەھەت	NOUN	N	Case=Loc	6	nmod	_	Translit=jehette
-3	جونسۇنگودىنبېرك	_	NOUN	N	_	6	nsubj	_	Translit=jonsungodinbërk|Morf=Unknown
+2	جەھەتتە	جەھەت	NOUN	N	Case=Loc	7	obl	_	Translit=jehette
+3	جونسۇنگودىنبېرك	_	NOUN	N	_	7	nsubj:pass	_	Translit=jonsungodinbërk|Morf=Unknown
 4	ئالدىنقى	ئالدىنقى	ADJ	A	_	5	amod	_	Translit=aldinqi
 5	قاتاردىكى	قاتار	NOUN	N	Case=Nom	6	nmod	_	Translit=qatardiki
-6	ۋەكىل	ۋەكىل	NOUN	N	Case=Nom	0	root	_	Translit=wekil
-7	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	SpaceAfter=No|Translit=hësablinidu
+6	ۋەكىل	ۋەكىل	NOUN	N	Case=Nom	7	xcomp	_	Translit=wekil
+7	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=hësablinidu
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s1039

@@ -7358,23 +7358,23 @@
 
 # sent_id = s536
 # text = ئۇ سەدددىچىن سېپىلى، بېيجىڭ - خڭجۇ قانىلى بىلەن قوشۇلۇپ جۇڭگودىكى ئۈچ چوڭ قەدىمكى قۇرۇلۇشنىڭ بىرى ھېسابلىنىدۇ.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Translit=u
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	Translit=u
 2	سەدددىچىن	_	NOUN	N	_	3	compound	_	Translit=sedddichin|Morf=Unknown
 3	سېپىلى	سېپىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	SpaceAfter=No|Translit=sëpili
 4	،	،	PUNCT	Y	_	8	punct	_	Translit=,
-5	بېيجىڭ	_	NOUN	N	_	7	compound	_	Translit=bëyjing|Morf=Unknown
+5	بېيجىڭ	بېيجىڭ	PROPN	N	Case=Nom	7	compound	_	Translit=bëyjing|Morf=Unknown
 6	-	-	PUNCT	Y	_	5	punct	_	Translit=-
-7	خڭجۇ	_	NOUN	N	_	8	compound	_	Translit=xngju|Morf=Unknown
+7	خڭجۇ	خڭجۇ	PROPN	N	Case=Nom	8	compound	_	Translit=xngju|Morf=Unknown
 8	قانىلى	_	NOUN	N	_	3	conj	_	Translit=qanili|Morf=Unknown
-9	بىلەن	بىلەن	ADP	R	_	8	case	_	Translit=bilen
-10	قوشۇلۇپ	_	VERB	V	_	16	advcl	_	Translit=qoshulup|Morf=Unknown
+9	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
+10	قوشۇلۇپ	_	VERB	V	_	17	advcl	_	Translit=qoshulup|Morf=Unknown
 11	جۇڭگودىكى	جۇڭگو	PROPN	N	Case=Nom	15	amod	_	Translit=junggodiki
 12	ئۈچ	ئۈچ	NUM	M	_	13	nummod	_	Translit=üch
 13	چوڭ	چوڭ	ADJ	A	_	15	amod	_	Translit=chong
 14	قەدىمكى	قەدىمكى	ADJ	A	_	15	amod	_	Translit=qedimki
 15	قۇرۇلۇشنىڭ	قۇرۇلۇش	NOUN	V	Case=Gen	16	nmod:poss	_	Translit=qurulushning
-16	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	0	root	_	Translit=biri
-17	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	SpaceAfter=No|Translit=hësablinidu
+16	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	17	xcomp	_	Translit=biri
+17	ھېسابلىنىدۇ	ھېسابلى	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=hësablinidu
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
 # sent_id = s537
@@ -8460,20 +8460,20 @@
 
 # sent_id = s618
 # text = _ ناۋادا سەن ھېچكىمنى قوغدىيالمىساڭ، ئەڭ ئاجىز ھېسابلىنىسەن، _ دېدى ئانا ساشانىڭ بېشىنى سىلاپ تۇرۇپ.
-1	_	_	PUNCT	Y	_	12	punct	_	Translit=_|Morf=Unknown
+1	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
 2	ناۋادا	ناۋادا	ADV	C	_	5	cc	_	Translit=nawada
 3	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Translit=sen
 4	ھېچكىمنى	_	PRON	P	_	5	obj	_	Translit=hëchkimni|Morf=Unknown
 5	قوغدىيالمىساڭ	_	VERB	V	_	8	parataxis	_	SpaceAfter=No|Translit=qoghdiyalmisang|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئەڭ	ئەڭ	PRON	D	Case=Nom	8	advmod	_	Translit=eng
-8	ئاجىز	ئاجىز	NOUN	A	Case=Nom	12	ccomp	_	Translit=ajiz
-9	ھېسابلىنىسەن	ھېسابلى	VERB	N	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	SpaceAfter=No|Translit=hësablinisen
+8	ئاجىز	ئاجىز	NOUN	A	Case=Nom	9	xcomp	_	Translit=ajiz
+9	ھېسابلىنىسەن	ھېسابلى	VERB	N	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	SpaceAfter=No|Translit=hësablinisen
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
 12	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=dëdi
 13	ئانا	ئانا	NOUN	N	Case=Nom	12	nsubj	_	Translit=ana
-14	ساشانىڭ	_	NOUN	N	_	15	nmod:poss	_	Translit=sashaning|Morf=Unknown
+14	ساشانىڭ	ساشا	PROPN	N	_	15	nmod:poss	_	Translit=sashaning|Morf=Unknown
 15	بېشىنى	باش	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	16	obj	_	Translit=bëshini
 16	سىلاپ	_	VERB	V	_	12	advcl	_	Translit=silap|Morf=Unknown
 17	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	16	aux	_	SpaceAfter=No|Translit=turup
