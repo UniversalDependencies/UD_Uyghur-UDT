@@ -1484,8 +1484,8 @@
 # text = ھەر قانچە نامرات بولساقمۇ، چىرىغىمىزنى ياندۇرىدىغانغا شۇ بولمىسا بولمايدىكەن.
 1	ھەر	ھەر	DET	P	_	2	det	_	Translit=her
 2	قانچە	قانچە	DET	P	_	3	det	_	Translit=qanche
-3	نامرات	نامرات	NOUN	A	Case=Nom	4	cop	_	Translit=namrat
-4	بولساقمۇ	بول	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	10	advmod	_	SpaceAfter=No|Translit=bolsaqmu
+3	نامرات	نامرات	NOUN	A	Case=Nom	10	advcl	_	Translit=namrat
+4	بولساقمۇ	بول	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	3	cop	_	SpaceAfter=No|Translit=bolsaqmu
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	چىرىغىمىزنى	_	NOUN	N	_	7	obj	_	Translit=chirighimizni|Morf=Unknown
 7	ياندۇرىدىغانغا	_	VERB	V	_	10	obl	_	Translit=yanduridighangha|Morf=Unknown
