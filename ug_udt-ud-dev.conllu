@@ -10,7 +10,7 @@
 8	بىر	بىر	NUM	M	_	9	nummod	_	Translit=bir
 9	قىزنىڭ	قىز	NOUN	N	Case=Gen	10	nmod:poss	_	Translit=qizning
 10	تومۇرىدىكى	تومۇر	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	amod	_	Translit=tomuridiki
-11	ئىسسىق	ئىسسىق	ADJ	A	Case=Nom	14	aux	_	SpaceAfter=No|Translit=issiq
+11	ئىسسىق	ئىسسىق	ADJ	A	Case=Nom	14	amod	_	SpaceAfter=No|Translit=issiq
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
 13	قىزىل	قىزىل	ADJ	A	_	14	amod	_	Translit=qizil
 14	قېنىنى	قان	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	15	obj	_	Translit=qënini
@@ -2751,7 +2751,7 @@
 6	بۇنداق	بۇنداق	DET	P	Case=Nom	8	det	_	Translit=bundaq
 7	ئاجايىپ	ئاجايىپ	ADJ	A	_	8	amod	_	Translit=ajayip
 8	ئىلھامغا	ئىلھام	NOUN	V	Case=Dat	11	obj	_	Translit=ilhamgha
-9	ئاسان	ئاسان	ADJ	A	Case=Nom	11	aux	_	Translit=asan
+9	ئاسان	ئاسان	ADJ	A	Case=Nom	11	amod	_	Translit=asan
 10	ئىگە	ئىگە	NOUN	N	Case=Nom	11	compound	_	Translit=ige
 11	بولغان	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	Translit=bolghan
 12	ئەمەس	ئى	AUX	V	Number=Sing|Person=3|Polarity=Neg	11	cop	_	SpaceAfter=No|Translit=emes
@@ -5282,7 +5282,7 @@
 # text = بۇ قىزچاققا ئامراق بولۇپ قالغان بېرنادشاۋ ئۇنىڭ بىلەن بىللە خېلى ئۇزاق ئوينىدى.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	قىزچاققا	قىزچاق	NOUN	N	Case=Dat	3	nmod:cau	_	Translit=qizchaqqa
-3	ئامراق	ئامراق	ADJ	A	_	6	aux	_	Translit=amraq
+3	ئامراق	ئامراق	ADJ	A	_	6	amod	_	Translit=amraq
 4	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	5	compound:lvc	_	Translit=bolup
 5	قالغان	قال	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	6	acl	_	Translit=qalghan
 6	بېرنادشاۋ	_	NOUN	N	_	12	nsubj	_	Translit=bërnadshaw|Morf=Unknown

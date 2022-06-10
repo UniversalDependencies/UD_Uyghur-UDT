@@ -12850,7 +12850,7 @@
 1	بۇنىڭدا	_	PRON	P	_	8	nmod	_	Translit=buningda|Morf=Unknown
 2	ئادەمنى	ئادەم	NOUN	N	Case=Acc	8	obj	_	Translit=ademni
 3	ھەم	ھەم	CCONJ	C	_	4	cc	_	Translit=hem
-4	خۇشال	خۇشال	ADJ	A	Case=Nom	5	aux	_	Translit=xushal
+4	خۇشال	خۇشال	ADJ	A	Case=Nom	5	amod	_	Translit=xushal
 5	قىلىدىغىنى	_	VERB	V	_	18	nsubj	_	Translit=qilidighini|Morf=Unknown
 6	ھەم	ھەم	CCONJ	C	_	8	cc	_	Translit=hem
 7	چوڭقۇر	چوڭقۇر	NOUN	A	Case=Nom	8	advmod	_	Translit=chongqur
@@ -21404,7 +21404,7 @@
 5	توك	توك	ADJ	N	Case=Nom	6	obj	_	Translit=tok
 6	قاچىلىيالايدىغان	_	NOUN	N	_	7	obl	_	Translit=qachiliyalaydighan|Morf=Unknown
 7	قىلغىلى	_	VERB	V	_	0	root	_	Translit=qilghili|Morf=Unknown
-8	بولارمۇ	بولار	ADJ	V	Case=Nom	7	aux	_	SpaceAfter=No|Translit=bolarmu
+8	بولارمۇ	بولار	ADJ	V	Case=Nom	7	amod	_	SpaceAfter=No|Translit=bolarmu
 9	؟	؟	PUNCT	Y	_	8	punct	_	Translit=?
 
 # sent_id = s3257

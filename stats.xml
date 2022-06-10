@@ -10,15 +10,15 @@
     <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
     <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2896" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
+  <lemmas unique="2898" /><!-- ،, ., -, بىر, ئۇ, بول, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12066" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">2849</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
-    <tag name="ADP">629</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, تارتىپ, ئىچىگە, قاتارلىق, قەدەر, بۇنىڭدىن -->
+    <tag name="ADP">628</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, ئىچىگە, تارتىپ, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">982</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">1092</tag><!-- _, بول, ئى, كەت, تۇر, كەل, ئولتۇر -->
+    <tag name="AUX">1091</tag><!-- _, بول, ئى, كەت, تۇر, كەل -->
     <tag name="CCONJ">506</tag><!-- ۋە, _, لېكىن, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">111</tag><!-- _, پاھ, ھەي, ياق, ۋاي, رەھمەت, بولسۇن, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">75</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, سادىق, ئىمام, ئەبەيدۇللا -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8145</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
+    <tag name="VERB">8147</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قال, قارا, تۇر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -39,8 +39,8 @@
     <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">535</feat><!-- ئاندىن, كۆزلىرىدىن, يەردىن, بولغاندىن, ئارىسىدىن, ئەزەلدىن, بىردەمدىن, قولىدىن, كەينىدىن, مەكتەپتىن -->
     <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1171</feat><!-- ئۇنى, ئۆزىنى, ئۇلارنى, بېشىنى, قولىنى, ئادەمنى, بىزنى, گەپنى, ئىشنى, يۈزىنى -->
     <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">995</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
-    <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">793</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">996</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
+    <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">794</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10023</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
     <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- نەزىرىدە -->
     <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
@@ -83,9 +83,9 @@
     <dep name="advcl:cond">20</dep>
     <dep name="advmod">1881</dep>
     <dep name="advmod:emph">30</dep>
-    <dep name="amod">2427</dep>
+    <dep name="amod">2432</dep>
     <dep name="appos">122</dep>
-    <dep name="aux">802</dep>
+    <dep name="aux">797</dep>
     <dep name="case">568</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">432</dep>
