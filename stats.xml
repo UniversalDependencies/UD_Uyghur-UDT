@@ -85,7 +85,7 @@
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2427</dep>
     <dep name="appos">123</dep>
-    <dep name="aux">822</dep>
+    <dep name="aux">825</dep>
     <dep name="case">559</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">431</dep>
@@ -93,7 +93,7 @@
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
-    <dep name="cop">590</dep>
+    <dep name="cop">586</dep>
     <dep name="csubj">87</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
@@ -102,7 +102,7 @@
     <dep name="fixed">118</dep>
     <dep name="flat">54</dep>
     <dep name="mark">146</dep>
-    <dep name="nmod">1357</dep>
+    <dep name="nmod">1358</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:part">6</dep>

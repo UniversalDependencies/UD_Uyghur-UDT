@@ -22497,7 +22497,7 @@
 14	بىر	بىر	NUM	M	_	15	nummod	_	Translit=bir
 15	قۇياشقا	قۇياش	NOUN	N	Case=Dat	16	nmod	_	Translit=quyashqa
 16	تەڭ	تەڭ	NOUN	A	Case=Nom	0	root	_	Translit=teng
-17	كېلىدۇ	كەل	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No|Translit=këlidu
+17	كېلىدۇ	كەل	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=këlidu
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
 # sent_id = s3335

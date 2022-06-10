@@ -11418,7 +11418,7 @@
 11	-	-	PUNCT	Y	_	10	punct	_	Translit=-
 12	بىلىنمەس	_	NUM	M	_	13	nummod	_	Translit=bilinmes|Morf=Unknown
 13	قېلىنراق	_	ADJ	A	_	5	conj	_	Translit=qëlinraq|Morf=Unknown
-14	كەلگەن	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	Translit=kelgen
+14	كەلگەن	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	Translit=kelgen
 15	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	16	det	_	Translit=bu
 16	بالىنىڭ	بالا	NOUN	N	Case=Gen	17	nmod:poss	_	Translit=balining
 17	رەڭگىرويى	رەڭگىروي	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	21	nsubj	_	Translit=renggiroyi
@@ -12104,7 +12104,7 @@
 # text = ئاق پىشماق كەلگەن بۇ قىز خۇددى زەينىدىندەكلا خۇش پېئىل، خۇش مۇئامىلە ئىدى، دائىم كۈلۈپلا تۇراتتى.
 1	ئاق	ئاق	NOUN	A	Case=Nom	2	compound	_	Translit=aq
 2	پىشماق	پىش	VERB	A	_	5	amod	_	Translit=pishmaq
-3	كەلگەن	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	Translit=kelgen
+3	كەلگەن	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	Translit=kelgen
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	قىز	قىز	NOUN	N	Case=Nom	12	nsubj	_	Translit=qiz
 6	خۇددى	خۇددى	ADJ	T	Case=Nom	7	amod	_	Translit=xuddi
