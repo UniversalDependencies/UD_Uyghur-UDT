@@ -8183,7 +8183,7 @@
 10	ۋە	ۋە	CCONJ	C	_	16	cc	_	Translit=we
 11	ئاكىسى	ئاكا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	Translit=akisi
 12	تولىيە	_	NOUN	N	_	11	appos	_	Translit=toliye|Morf=Unknown
-13	بىلەن	بىلەن	ADP	R	_	11	cop	_	Translit=bilen
+13	بىلەن	بىلەن	ADP	R	_	12	case	_	Translit=bilen
 14	بىللە	بىللە	ADJ	D	Case=Nom	16	advmod	_	Translit=bille
 15	ئورمانلىققا	ئورمانلىق	NOUN	N	Case=Dat	16	obl	_	Translit=ormanliqqa
 16	باردى	بار	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No|Translit=bardi
