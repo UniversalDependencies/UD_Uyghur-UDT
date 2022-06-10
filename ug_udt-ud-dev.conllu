@@ -7331,7 +7331,7 @@
 1	ۋە	ۋە	CCONJ	C	_	16	cc	_	Translit=we
 2	سەپەرگە	سەپەر	NOUN	N	Case=Dat	3	obl	_	Translit=seperge
 3	چىقىشتىن	چىق	VERB	V	Case=Abl|VerbForm=Ger	10	obl	_	Translit=chiqishtin
-4	بۇرۇن	بۇرۇن	NOUN	D	Case=Nom	3	case	_	Translit=burun
+4	بۇرۇن	بۇرۇن	ADP	D	_	3	case	_	Translit=burun
 5	قەشقەرگە	قەشقەر	PROPN	N	Case=Dat	9	nmod	_	Translit=qeshqerge
 6	دائىر	دائىر	ADP	R	_	5	case	_	Translit=dair
 7	بىر	بىر	NUM	M	NumType=Ord	8	mark	_	Translit=bir
@@ -8010,7 +8010,7 @@
 3	ئۆزى	ئۆز	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	5	det	_	Translit=özi
 4	تەختكە	تەخت	NOUN	N	Case=Dat	5	obl	_	Translit=textke
 5	چىقىشتىن	چىق	VERB	V	Case=Abl|VerbForm=Ger	8	obl	_	Translit=chiqishtin
-6	بۇرۇن	بۇرۇن	NOUN	D	Case=Nom	5	case	_	Translit=burun
+6	بۇرۇن	بۇرۇن	ADP	D	_	5	case	_	Translit=burun
 7	يۈز	يۈز	NOUN	N	Case=Nom	8	compound	_	Translit=yüz
 8	بەرگەن	بەر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	10	acl	_	Translit=bergen
 9	بىر	بىر	NUM	M	_	10	nummod	_	Translit=bir
@@ -9398,7 +9398,7 @@
 1	نەچچە	نەچچە	DET	P	_	2	det	_	Translit=nechche
 2	مىڭ	مىڭ	NUM	M	_	3	nummod	_	Translit=ming
 3	يىل	يىل	NOUN	N	Case=Nom	5	obl	_	Translit=yil
-4	بۇرۇن	بۇرۇن	NOUN	D	Case=Nom	3	case	_	Translit=burun
+4	بۇرۇن	بۇرۇن	ADP	D	_	3	case	_	Translit=burun
 5	ياشىغان	_	VERB	V	_	6	acl	_	Translit=yashighan|Morf=Unknown
 6	كىشىلەرنى	_	NOUN	N	_	8	obj	_	Translit=kishilerni|Morf=Unknown
 7	تىلغا	تىل	NOUN	N	Case=Dat	8	obl	_	Translit=tilgha
