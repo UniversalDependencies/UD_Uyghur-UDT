@@ -1436,7 +1436,7 @@
 
 # sent_id = s105
 # text = كۇڭزى: «مېنىڭ ئۇستاز تۇتماقچى بولغىنىم دەل مۇشۇ كىشىدەك قىلىدۇ!» دەپ ئويلايدۇ - دە،
-1	كۇڭزى	_	NOUN	N	_	15	nsubj	_	SpaceAfter=No|Translit=kungzi|Morf=Unknown
+1	كۇڭزى	كۇڭزى	PROPN	N	Case=Nom	15	nsubj	_	SpaceAfter=No|Translit=kungzi|Morf=Unknown
 2	:	:	PUNCT	Y	_	1	punct	_	Translit=:
 3	«	«	PUNCT	Y	_	10	punct	_	SpaceAfter=No|Translit=«
 4	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	Translit=mëning
