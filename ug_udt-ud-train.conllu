@@ -9225,7 +9225,7 @@
 5	يۈز	يۈز	NOUN	M	Case=Nom	6	nummod	_	Translit=yüz
 6	ئادەم	ئادەم	NOUN	N	Case=Nom	19	nsubj	_	Translit=adem
 7	چىلىق–چىلىق	_	VERB	V	_	8	advmod	_	Translit=chiliq–chiliq|Morf=Unknown
-8	ھۆل	ھۆل	AUX	A	Case=Nom	10	cop	_	Translit=höl
+8	ھۆل	ھۆل	ADJ	A	Case=Nom	10	advmod	_	Translit=höl
 9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	10	compound:lvc	_	Translit=bolup
 10	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	14	acl	_	Translit=ketken
 11	ۋە	ۋە	CCONJ	C	_	10	conj	_	Translit=we
@@ -23467,12 +23467,12 @@
 
 # sent_id = s3399
 # text = قىزچاققا دەرھال قان بېرىلمىسە بولمايدىكەن.
-1	قىزچاققا	قىزچاق	NOUN	N	Case=Dat	5	cop	_	Translit=qizchaqqa
-2	دەرھال	دەرھال	ADV	D	_	5	advmod	_	Translit=derhal
-3	قان	قان	NOUN	N	Case=Nom	5	nsubj	_	Translit=qan
-4	بېرىلمىسە	_	VERB	V	_	5	compound	_	Translit=bërilmise|Morf=Unknown
-5	بولمايدىكەن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bolmaydiken|Morf=Unknown
-6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
+1	قىزچاققا	قىزچاق	NOUN	N	Case=Dat	4	iobj	_	Translit=qizchaqqa
+2	دەرھال	دەرھال	ADV	D	_	4	advmod	_	Translit=derhal
+3	قان	قان	NOUN	N	Case=Nom	4	nsubj:pass	_	Translit=qan
+4	بېرىلمىسە	_	VERB	V	_	0	root	_	Translit=bërilmise|Morf=Unknown
+5	بولمايدىكەن	بول	AUX	V	_	4	aux	_	SpaceAfter=No|Translit=bolmaydiken|Morf=Unknown
+6	.	.	PUNCT	Y	_	4	punct	_	Translit=.
 
 # sent_id = s3400
 # text = دوختۇر ۋە سېستىرالارنىڭ ھېچقايسىسىنىڭ قان تىپى ئۇنىڭكى بىلەن ئوخشاش چىقماپتۇ.
