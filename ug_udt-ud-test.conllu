@@ -4563,15 +4563,15 @@
 1	سىلەر	سىلەر	PRON	P	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	Translit=siler
 2	ئۆز	ئۆز	PRON	P	Case=Nom|Reflex=Yes	3	nmod	_	Translit=öz
 3	مېھرىڭلارنى	_	NOUN	N	_	4	obj	_	Translit=mëhringlarni|Morf=Unknown
-4	ئىپادىيەلىسەڭلارلا	_	VERB	V	_	11	advcl:cond	_	SpaceAfter=No|Translit=ipadiyelisenglarla|Morf=Unknown
+4	ئىپادىيەلىسەڭلارلا	_	VERB	V	_	12	advcl:cond	_	SpaceAfter=No|Translit=ipadiyelisenglarla|Morf=Unknown
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	ھەر	ھەر	DET	P	_	7	compound	_	Translit=her
 7	قانچە	قانچە	DET	P	_	8	advmod	_	Translit=qanche
 8	ئاددى	_	NOUN	N	_	9	amod	_	Translit=addi|Morf=Unknown
-9	سوۋغاتمۇ	_	NOUN	N	_	11	nsubj	_	Translit=sowghatmu|Morf=Unknown
-10	ئۇلارغا	ئۇلار	PRON	P	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	obl	_	Translit=ulargha
-11	بىباھا	_	VERB	V	_	0	root	_	Translit=bibaha|Morf=Unknown
-12	بىلىنىدۇ	بىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	SpaceAfter=No|Translit=bilinidu
+9	سوۋغاتمۇ	_	NOUN	N	_	12	nsubj	_	Translit=sowghatmu|Morf=Unknown
+10	ئۇلارغا	ئۇلار	PRON	P	Case=Dat|Number=Plur|Person=3|PronType=Prs	12	obl	_	Translit=ulargha
+11	بىباھا	_	VERB	V	_	12	xcomp	_	Translit=bibaha|Morf=Unknown
+12	بىلىنىدۇ	بىل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=bilinidu
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s347
