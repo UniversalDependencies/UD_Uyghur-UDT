@@ -9155,7 +9155,7 @@
 19	يۇقىرى	يۇقىرى	ADJ	A	Case=Nom	20	advmod	_	Translit=yuqiri
 20	ئونىۋاندىكى	_	NOUN	N	_	21	amod	_	Translit=oniwandiki|Morf=Unknown
 21	ئادەم	ئادەم	NOUN	N	Case=Nom	8	conj	_	Translit=adem
-22	بولسۇن	بولسۇن	INTJ	V	_	21	cop	_	SpaceAfter=No|Translit=bolsun
+22	بولسۇن	بول	AUX	V	_	21	cop	_	SpaceAfter=No|Translit=bolsun
 23	،	،	PUNCT	Y	_	22	punct	_	Translit=,
 24	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	Translit=u
 25	پەقەت	پەقەت	ADJ	D	Case=Nom	32	advmod	_	Translit=peqet

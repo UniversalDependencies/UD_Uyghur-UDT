@@ -13628,7 +13628,7 @@
 # text = ھازىرچە مۇشۇنچلىك بولسۇن.
 1	ھازىرچە	ھازىرچە	ADV	D	_	2	advmod	_	Translit=hazirche
 2	مۇشۇنچلىك	_	NOUN	N	_	0	root	_	Translit=mushunchlik|Morf=Unknown
-3	بولسۇن	بولسۇن	INTJ	V	_	2	cop	_	SpaceAfter=No|Translit=bolsun
+3	بولسۇن	بول	AUX	V	_	2	cop	_	SpaceAfter=No|Translit=bolsun
 4	.	.	PUNCT	Y	_	3	punct	_	Translit=.
 
 # sent_id = s2694
@@ -22463,7 +22463,7 @@
 10	قانداق	قانداق	ADV	P	PronType=Int	12	advmod	_	Translit=qandaq
 11	ئېتىپ	ئات	VERB	V	Aspect=Perf|VerbForm=Conv	12	advmod	_	Translit=ëtip
 12	چۈشۈرگىلى	_	NOUN	N	_	0	root	_	Translit=chüshürgili|Morf=Unknown
-13	بولسۇن	بولسۇن	INTJ	V	_	12	cop	_	Translit=bolsun
+13	بولسۇن	بول	AUX	V	_	12	cop	_	Translit=bolsun
 14	-	-	PUNCT	Y	_	15	punct	_	Translit=-
 15	ھە	ھە	ADJ	T	_	12	amod	_	SpaceAfter=No|Translit=he
 16	؟	؟	PUNCT	Y	_	15	punct	_	Translit=?

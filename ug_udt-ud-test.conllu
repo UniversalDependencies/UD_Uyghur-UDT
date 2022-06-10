@@ -4547,7 +4547,7 @@
 3	خىلمۇ	خىل	NOUN	N	Case=Nom	5	compound:redup	_	Translit=xilmu
 4	-	-	PUNCT	Y	_	3	punct	_	Translit=-
 5	خىل	خىل	NOUN	N	Case=Nom	0	root	_	Translit=xil
-6	بولسۇن	بولسۇن	INTJ	V	_	5	cop	_	SpaceAfter=No|Translit=bolsun
+6	بولسۇن	بول	AUX	V	_	5	cop	_	SpaceAfter=No|Translit=bolsun
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s345
@@ -8854,7 +8854,7 @@
 13	جىمى	_	NOUN	N	_	14	amod	_	Translit=jimi|Morf=Missing,2
 14	قونچاقلار	_	NOUN	N	_	15	nsubj	_	Translit=qonchaqlar|Morf=Unknown
 15	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	ccomp	_	Translit=mëning
-16	بولسۇن	بولسۇن	INTJ	V	_	15	cop	_	SpaceAfter=No|Translit=bolsun
+16	بولسۇن	بول	AUX	V	_	15	cop	_	SpaceAfter=No|Translit=bolsun
 17	!	!	PUNCT	V	_	16	punct	_	SpaceAfter=No|Translit=!
 18	»	»	PUNCT	Y	_	15	punct	_	Translit=»
 19	دەپتۇ	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
