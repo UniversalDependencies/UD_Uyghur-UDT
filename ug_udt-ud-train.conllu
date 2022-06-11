@@ -21360,14 +21360,14 @@
 # sent_id = s3254
 # text = توك بولمىسا، ماشىنا ئادەم «ئاچلىقتىن يىقىلىپ چۈشىدۇ».
 1	توك	توك	ADJ	N	Case=Nom	2	nsubj	_	Translit=tok
-2	بولمىسا	بول	VERB	V	Mood=Cnd|Number=Plur|Person=3|Polarity=Neg|VerbForm=Conv	8	advcl	_	SpaceAfter=No|Translit=bolmisa
+2	بولمىسا	بول	VERB	V	Mood=Cnd|Number=Plur|Person=3|Polarity=Neg|VerbForm=Conv	9	advcl	_	SpaceAfter=No|Translit=bolmisa
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ماشىنا	ماشىنا	NOUN	N	Case=Nom	5	compound	_	Translit=mashina
-5	ئادەم	ئادەم	NOUN	N	Case=Nom	8	nsubj	_	Translit=adem
-6	«	«	PUNCT	Y	_	8	punct	_	SpaceAfter=No|Translit=«
-7	ئاچلىقتىن	ئاچلىق	NOUN	N	Case=Abl	8	obl	_	Translit=achliqtin
-8	يىقىلىپ	يىقىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yiqilip
-9	چۈشىدۇ	چۈش	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=chüshidu
+5	ئادەم	ئادەم	NOUN	N	Case=Nom	9	nsubj	_	Translit=adem
+6	«	«	PUNCT	Y	_	9	punct	_	SpaceAfter=No|Translit=«
+7	ئاچلىقتىن	ئاچلىق	NOUN	N	Case=Abl	9	obl	_	Translit=achliqtin
+8	يىقىلىپ	يىقىل	VERB	V	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Translit=yiqilip
+9	چۈشىدۇ	چۈش	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chüshidu
 10	»	»	PUNCT	Y	_	9	punct	_	SpaceAfter=No|Translit=»
 11	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 

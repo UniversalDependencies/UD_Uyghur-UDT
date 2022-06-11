@@ -10736,17 +10736,17 @@
 # text = دەل شۇ پەيتتە، كاپىتاننىڭ كۈچلۈك ئاۋازى داد – پەرياد ئاۋازلىرىنى بېسىپ چۈشتى.
 1	دەل	دەل	ADV	D	_	3	advmod	_	Translit=del
 2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	3	det	_	Translit=shu
-3	پەيتتە	پەيت	NOUN	N	Case=Loc	12	obl	_	SpaceAfter=No|Translit=peytte
+3	پەيتتە	پەيت	NOUN	N	Case=Loc	13	obl	_	SpaceAfter=No|Translit=peytte
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	كاپىتاننىڭ	_	NOUN	N	_	7	nmod:poss	_	Translit=kapitanning|Morf=Unknown
 6	كۈچلۈك	كۈچلۈك	ADJ	A	Case=Nom	7	advmod	_	Translit=küchlük
-7	ئاۋازى	_	NOUN	N	_	12	nsubj	_	Translit=awazi|Morf=Unknown
+7	ئاۋازى	_	NOUN	N	_	13	nsubj	_	Translit=awazi|Morf=Unknown
 8	داد	داد	NOUN	N	Case=Nom	10	nmod:poss	_	Translit=dad
 9	–	–	PUNCT	N	_	8	punct	_	Translit=–
 10	پەرياد	پەرياد	NOUN	N	Case=Nom	11	amod	_	Translit=peryad
 11	ئاۋازلىرىنى	ئاۋاز	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	Translit=awazlirini
-12	بېسىپ	باس	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bësip
-13	چۈشتى	چۈش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No|Translit=chüshti
+12	بېسىپ	باس	VERB	V	Aspect=Perf|VerbForm=Inf	13	xcomp	_	Translit=bësip
+13	چۈشتى	چۈش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chüshti
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
 
 # sent_id = s1614
