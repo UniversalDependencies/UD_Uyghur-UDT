@@ -2105,7 +2105,7 @@
 # text = - قېنى بىر ئوقۇڭا بىر ئاڭلاپ باقاي.
 1	-	-	PUNCT	Y	_	2	punct	_	Translit=-
 2	قېنى	_	PART	T	_	4	discourse	_	Translit=qëni|Morf=Missing,1
-3	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	4	advmod	_	Translit=bir
+3	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	4	nummod	_	Translit=bir
 4	ئوقۇڭا	_	NOUN	N	_	0	root	_	Translit=oqunga|Morf=Unknown
 5	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	7	obl	_	Translit=bir
 6	ئاڭلاپ	_	VERB	V	_	7	xcomp	_	Translit=anglap|Morf=Unknown
@@ -6154,7 +6154,7 @@
 1	ئالدامچىلار	ئالدامچى	NOUN	N	Case=Nom|Number=Plur	48	nsubj	_	Translit=aldamchilar
 2	خۇددى	خۇددى	ADJ	T	Case=Nom	5	advmod	_	Translit=xuddi
 3	قولىدا	قول	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	Translit=qolida
-4	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	5	advmod	_	Translit=bir
+4	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	5	nummod	_	Translit=bir
 5	نەرسەباردەك	_	NOUN	N	_	9	obl	_	SpaceAfter=No|Translit=nersebardek|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
@@ -7532,7 +7532,7 @@
 # sent_id = s550
 # text = ئىككىيلەن بىر يۈگۈرۈشۈپ باقمايلىمۇ؟
 1	ئىككىيلەن	_	NUM	M	_	4	nsubj	_	Translit=ikkiylen|Morf=Unknown
-2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	4	advmod	_	Translit=bir
+2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	4	nummod	_	Translit=bir
 3	يۈگۈرۈشۈپ	_	NOUN	N	_	4	xcomp	_	Translit=yügürüshüp|Morf=Unknown
 4	باقمايلىمۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=baqmaylimu|Morf=Unknown
 5	؟	؟	PUNCT	Y	_	4	punct	_	Translit=?
@@ -11232,7 +11232,7 @@
 # sent_id = s794
 # text = ئۇنى بىر قاراشتىلا تونۇپ قالدىم.
 1	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Translit=uni
-2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	3	advmod	_	Translit=bir
+2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	3	nummod	_	Translit=bir
 3	قاراشتىلا	_	NOUN	N	_	4	obl	_	Translit=qarashtila|Morf=Unknown
 4	تونۇپ	تونۇ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=tonup
 5	قالدىم	قال	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No|Translit=qaldim
@@ -11422,7 +11422,7 @@
 15	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	16	det	_	Translit=bu
 16	بالىنىڭ	بالا	NOUN	N	Case=Gen	17	nmod:poss	_	Translit=balining
 17	رەڭگىرويى	رەڭگىروي	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	21	nsubj	_	Translit=renggiroyi
-18	بىر	بىر	NUM	M	NumType=Ord	19	advmod:emph	_	Translit=bir
+18	بىر	بىر	NUM	M	NumType=Ord	19	nummod	_	Translit=bir
 19	قاراشتىلا	_	NOUN	N	_	21	advcl	_	Translit=qarashtila|Morf=Unknown
 20	قىزلارغا	قىز	NOUN	N	Case=Dat|Number=Plur	21	obl	_	Translit=qizlargha
 21	ئوخشاپراق	_	VERB	V	_	0	root	_	Translit=oxshapraq|Morf=Unknown
@@ -11496,7 +11496,7 @@
 # sent_id = s814
 # text = يۇيۇنغاچ بىر سەگىدەپ كېلەي دەپ دەريا بويىغا باردىم.
 1	يۇيۇنغاچ	_	NOUN	N	_	4	advcl	_	Translit=yuyunghach|Morf=Unknown
-2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	3	advmod	_	Translit=bir
+2	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	3	nummod	_	Translit=bir
 3	سەگىدەپ	_	NOUN	N	_	4	advcl	_	Translit=segidep|Morf=Unknown
 4	كېلەي	_	VERB	V	_	5	ccomp	_	Translit=këley|Morf=Unknown
 5	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	Translit=dep

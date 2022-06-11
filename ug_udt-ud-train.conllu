@@ -3964,7 +3964,7 @@
 9	قالغان	قال	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	10	acl	_	Translit=qalghan
 10	كۆڭۈللىرىمىز	_	NOUN	N	_	14	nsubj	_	Translit=köngüllirimiz|Morf=Unknown
 11	پاللىدە	_	NOUN	N	_	14	obl	_	Translit=pallide|Morf=Unknown
-12	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	14	advmod	_	Translit=bir
+12	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	14	nummod	_	Translit=bir
 13	يۇرۇپ	_	NOUN	N	_	14	xcomp	_	Translit=yurup|Morf=Unknown
 14	كەتسۇن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ketsun|Morf=Unknown
 15	!	!	PUNCT	Y	_	14	punct	_	Translit=!
@@ -18081,7 +18081,7 @@
 1	ئۇنداق	ئۇنداق	DET	P	_	2	compound	_	Translit=undaq
 2	قىلمىسا	قىل	VERB	V	Mood=Cnd|Number=Plur|Person=3|Polarity=Neg|VerbForm=Conv	7	advcl	_	SpaceAfter=No|Translit=qilmisa
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	5	advmod	_	Translit=bir
+4	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	5	nummod	_	Translit=bir
 5	ئۆرۈلسىلا	_	NOUN	N	_	7	obl	_	Translit=örülsila|Morf=Unknown
 6	لەيلەپ	_	VERB	V	_	7	xcomp	_	Translit=leylep|Morf=Unknown
 7	قالىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=qalidu|Morf=Unknown

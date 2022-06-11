@@ -81,8 +81,8 @@
     <dep name="acl">745</dep>
     <dep name="advcl">2069</dep>
     <dep name="advcl:cond">20</dep>
-    <dep name="advmod">1169</dep>
-    <dep name="advmod:emph">26</dep>
+    <dep name="advmod">1161</dep>
+    <dep name="advmod:emph">25</dep>
     <dep name="amod">2431</dep>
     <dep name="appos">122</dep>
     <dep name="aux">336</dep>
@@ -112,7 +112,7 @@
     <dep name="nmod:tmod">88</dep>
     <dep name="nsubj">3788</dep>
     <dep name="nsubj:pass">6</dep>
-    <dep name="nummod">739</dep>
+    <dep name="nummod">748</dep>
     <dep name="obj">2309</dep>
     <dep name="obl">4107</dep>
     <dep name="obl:tmod">4</dep>
