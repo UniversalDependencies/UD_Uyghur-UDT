@@ -8912,7 +8912,7 @@
 3	بولۇشىدىن	بول	AUX	V	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	2	cop	_	Translit=bolushidin
 4	قەتئىينەزەر	قەتئىينەزەر	NOUN	T	Case=Nom	22	obl	_	SpaceAfter=No|Translit=qetiynezer
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	ئەگەر	ئەگەر	SCONJ	C	_	13	advmod	_	Translit=eger
+6	ئەگەر	ئەگەر	SCONJ	C	_	13	mark	_	Translit=eger
 7	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Translit=u
 8	ئاچلىق	ئاچلىق	NOUN	N	Case=Nom	12	nmod:poss	_	Translit=achliq
 9	ۋە	ۋە	CCONJ	C	_	10	cc	_	Translit=we
@@ -22573,7 +22573,7 @@
 
 # sent_id = s3340
 # text = گەرچە قۇياش بىزدىن ناھايىتى يىراقتا بولسىمۇ، بىز بىلەن بولغان مۇناسىۋىتى ئىنتايىن قويۇق.
-1	گەرچە	گەرچە	SCONJ	N	_	5	advmod	_	Translit=gerche
+1	گەرچە	گەرچە	SCONJ	N	_	5	mark	_	Translit=gerche
 2	قۇياش	قۇياش	NOUN	N	Case=Nom	5	nsubj	_	Translit=quyash
 3	بىزدىن	بىز	PRON	P	Case=Abl|Number=Plur|Person=1|PronType=Prs	5	nmod	_	Translit=bizdin
 4	ناھايىتى	ناھايىتى	ADV	D	_	5	advmod	_	Translit=nahayiti
@@ -23823,7 +23823,7 @@
 2	خېڭ	_	NOUN	N	_	1	flat	_	SpaceAfter=No|Translit=xëng|Morf=Unknown
 3	:	:	PUNCT	Y	_	1	punct	_	Translit=:
 4	-	-	PUNCT	Y	_	1	punct	_	Translit=-
-5	چۈنكى	چۈنكى	SCONJ	C	_	8	advmod	_	Translit=chünki
+5	چۈنكى	چۈنكى	SCONJ	C	_	8	mark	_	Translit=chünki
 6	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Translit=u
 7	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	Translit=mëning
 8	دوستۇم	دوست	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	11	ccomp	_	SpaceAfter=No|Translit=dostum
