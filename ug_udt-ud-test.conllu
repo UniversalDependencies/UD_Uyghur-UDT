@@ -3206,8 +3206,8 @@
 7	بالىنى	بالا	NOUN	N	Case=Acc	8	obj	_	Translit=balini
 8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
 9	قالدى	قال	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	Translit=qaldi
-10	-	-	PUNCT	Y	_	11	punct	_	Translit=-
-11	دە	_	PART	T	_	9	mark	_	Translit=de|Morf=Missing,1
+10	-	-	PUNCT	Y	_	13	punct	_	Translit=-
+11	دە	_	PART	T	_	13	mark	_	Translit=de|Morf=Missing,1
 12	ئۇنىڭدىن	_	PRON	P	_	13	obl	_	Translit=uningdin|Morf=Unknown
 13	سورىدى	_	VERB	V	_	8	conj	_	SpaceAfter=No|Translit=soridi|Morf=Unknown
 14	:	:	PUNCT	Y	_	8	punct	_	Translit=:
@@ -3255,8 +3255,8 @@
 12	توڭلاپ	_	VERB	V	_	13	advcl	_	Translit=tonglap|Morf=Unknown
 13	ئۆلۈپ	ئۆل	VERB	V	Aspect=Perf|VerbForm=Inf	8	conj	_	Translit=ölüp
 14	قالغان	قال	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	Translit=qalghan
-15	ئوخشايدۇ	_	VERB	V	_	14	compound	_	SpaceAfter=No|Translit=oxshaydu|Morf=Unknown
-16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
+15	ئوخشايدۇ	_	VERB	V	_	13	compound	_	SpaceAfter=No|Translit=oxshaydu|Morf=Unknown
+16	.	.	PUNCT	Y	_	8	punct	_	Translit=.
 
 # sent_id = s233
 # text = ھاۋا بەك سوغۇق،
@@ -6959,8 +6959,8 @@
 5	بېشى	باش	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=bëshi
 6	تۆرەپ	_	NOUN	N	_	0	root	_	Translit=törep|Morf=Unknown
 7	قالغان	قال	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	Translit=qalghan
-8	ئوخشايدۇ	_	VERB	V	_	7	compound	_	SpaceAfter=No|Translit=oxshaydu|Morf=Unknown
-9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
+8	ئوخشايدۇ	_	VERB	V	_	6	compound	_	SpaceAfter=No|Translit=oxshaydu|Morf=Unknown
+9	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s504
 # text = مەن مۇشۇنداق خىيال قىلغاچ قەدەمدە بىر سېيرىلىپ ئېگىز قۇم دۆۋىسىنىڭ ئۈستىگە چىقتىم.

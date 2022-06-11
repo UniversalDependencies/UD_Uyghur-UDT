@@ -5443,8 +5443,8 @@
 8	تېخىمۇ	تېخىمۇ	NOUN	D	Case=Nom	9	obl	_	Translit=tëximu
 9	گۈزەللىشىپ	_	VERB	V	_	0	root	_	Translit=güzelliship|Morf=Unknown
 10	كەتكەن	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	Translit=ketken
-11	بولاتتى	_	AUX	V	_	10	cop	_	SpaceAfter=No|Translit=bolatti|Morf=Unknown
-12	.	.	PUNCT	Y	_	10	punct	_	Translit=.
+11	بولاتتى	بول	AUX	V	_	9	aux	_	SpaceAfter=No|Translit=bolatti|Morf=Unknown
+12	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s2170
 # text = ھايۋانات پادىشاھى شىر ھايۋانلار ئىچىدىن ئۆزىگە ئىزباسار تاللىماقچى بوپتۇ.
@@ -20290,7 +20290,7 @@
 8	قىش	قىش	NOUN	N	Case=Nom	9	amod	_	Translit=qish
 9	بوۋاي	بوۋاي	NOUN	N	Case=Nom	10	nsubj	_	Translit=boway
 10	كېلەي	_	VERB	V	_	14	ccomp	_	Translit=këley|Morf=Unknown
-11	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	12	compound	_	Translit=dep
+11	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	10	compound	_	Translit=dep
 12	قالدى	قال	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=qaldi
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 14	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	Translit=dep
@@ -20361,7 +20361,7 @@
 5	تەييارلىقى	تەييارلىق	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=teyyarliqi
 6	بىلەن	بىلەن	ADP	R	_	5	case	_	Translit=bilen
 7	ئالدىراش	ئالدىراش	ADJ	V	Case=Nom	0	root	_	Translit=aldirash
-8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	9	compound	_	Translit=bolup
+8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	7	aux	_	Translit=bolup
 9	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No|Translit=ketti
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
