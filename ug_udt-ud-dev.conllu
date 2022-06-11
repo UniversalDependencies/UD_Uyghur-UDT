@@ -11063,8 +11063,8 @@
 27	قازاغىمۇ	_	NOUN	N	_	29	obl	_	Translit=qazaghimu|Morf=Unknown
 28	بۇيرۇق	بۇيرۇق	NOUN	N	Case=Nom	29	compound	_	Translit=buyruq
 29	چۈشۈرۋاتقاندەك	_	VERB	V	_	21	conj	_	SpaceAfter=No|Translit=chüshürwatqandek|Morf=Unknown
-30	،	،	PUNCT	Y	_	37	punct	_	Translit=,
-31	ھەتتا	_	CCONJ	C	_	37	cc	_	Translit=hetta|Morf=Missing,1
+30	،	،	PUNCT	Y	_	38	punct	_	Translit=,
+31	ھەتتا	_	CCONJ	C	_	38	cc	_	Translit=hetta|Morf=Missing,1
 32	ھالاكەتكە	ھالاكەت	NOUN	N	Case=Dat	33	obl	_	Translit=halaketke
 33	ئۇچرىغان	ئۇچرى	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	34	acl	_	Translit=uchrighan
 34	پاراخوتمۇ	_	NOUN	N	_	38	nsubj	_	Translit=paraxotmu|Morf=Unknown
