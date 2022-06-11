@@ -583,7 +583,7 @@
 # sent_id = s39
 # text = شۇنىڭ بىلەن، ھەممە ئائىلىلەر ئۆتكۈر پالتىلىرىغا تايىنىپ كۈنلىرىنى يامان ئەمەس ئۆتكۈزۈپتۇ.
 1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	R	_	12	advmod	_	SpaceAfter=No|Translit=bilen
+2	بىلەن	بىلەن	ADP	R	_	12	case	_	SpaceAfter=No|Translit=bilen
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ھەممە	ھەممە	DET	P	_	5	det	_	Translit=hemme
 5	ئائىلىلەر	_	NOUN	N	_	12	nsubj	_	Translit=aililer|Morf=Unknown
@@ -1144,7 +1144,7 @@
 1	ياغاچچى	ياغاچچى	NOUN	N	Case=Nom	2	amod	_	Translit=yaghachchi
 2	بالا	بالا	NOUN	N	Case=Nom	6	nsubj	_	Translit=bala
 3	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	compound	_	Translit=aldi
-4	بىلەن	بىلەن	ADP	R	_	6	advmod	_	Translit=bilen
+4	بىلەن	بىلەن	ADP	R	_	6	case	_	Translit=bilen
 5	دەرەخنى	دەرەخ	NOUN	N	Case=Acc	6	obj	_	Translit=derexni
 6	ھەرىدەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=herideptu|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
@@ -2918,7 +2918,7 @@
 # sent_id = s210
 # text = نېمە ئۈچۈن ئۇنىڭ ئەتراپىدىكى يەرلەر تۈپتۈز، ئۇ يەرلەردە بىرەر پارچە تاشمۇ يوق؟
 1	نېمە	نېمە	NOUN	P	Case=Nom	2	compound	_	Translit=nëme
-2	ئۈچۈن	ئۈچۈن	ADP	C	_	13	advmod	_	Translit=üchün
+2	ئۈچۈن	ئۈچۈن	ADP	C	_	13	case	_	Translit=üchün
 3	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	Translit=uning
 4	ئەتراپىدىكى	_	NOUN	N	_	5	amod	_	Translit=etrapidiki|Morf=Unknown
 5	يەرلەر	يەر	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	Translit=yerler
@@ -3597,7 +3597,7 @@
 # sent_id = s264
 # text = شۇنىڭدىن تارتىپ، ئۇ ھەر كۈنى سەھەر تۇرۇپ چېنىقىشقا باشلىدى.
 1	شۇنىڭدىن	_	PRON	P	_	2	compound	_	Translit=shuningdin|Morf=Unknown
-2	تارتىپ	تارتىپ	ADP	R	_	10	advmod	_	SpaceAfter=No|Translit=tartip
+2	تارتىپ	تارتىپ	ADP	R	_	10	case	_	SpaceAfter=No|Translit=tartip
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 5	ھەر	ھەر	DET	P	_	6	det	_	Translit=her
@@ -5544,7 +5544,7 @@
 # text = ئۇ شۇ قەدەر تىنىق ھەم سۈزۈككى، تېگىدىكى سۇس قوڭۇر تاشلار، قۇم دانچىلىرى ۋە قارىداپ كەتكەن دەرەخ يوپۇرماقلىرى ئېنىق كۆرۈنۈپ تۇرىدۇ.
 1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
 2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	3	compound	_	Translit=shu
-3	قەدەر	قەدەر	ADP	R	_	4	advmod:emph	_	Translit=qeder
+3	قەدەر	قەدەر	ADP	R	_	4	case	_	Translit=qeder
 4	تىنىق	تىنىق	NOUN	N	Case=Nom	21	advcl	_	Translit=tiniq
 5	ھەم	ھەم	CCONJ	C	_	6	cc	_	Translit=hem
 6	سۈزۈككى	_	VERB	V	_	4	conj	_	SpaceAfter=No|Translit=süzükki|Morf=Unknown
@@ -7303,7 +7303,7 @@
 7	ئۈچۈن	ئۈچۈن	ADP	C	_	6	case	_	SpaceAfter=No|Translit=üchün
 8	،	،	PUNCT	Y	_	13	punct	_	Translit=,
 9	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	compound	_	Translit=aldi
-10	بىلەن	بىلەن	ADP	R	_	13	advmod	_	Translit=bilen
+10	بىلەن	بىلەن	ADP	R	_	13	case	_	Translit=bilen
 11	قۇم	قۇم	NOUN	N	Case=Nom	12	compound	_	Translit=qum
 12	دۆۋىسىگە	_	NOUN	N	_	13	obl	_	Translit=döwisige|Morf=Unknown
 13	يامىشىپ	ياماش	VERB	V	Aspect=Perf|VerbForm=Inf	6	conj	_	Translit=yamiship
@@ -9272,7 +9272,7 @@
 6	تۇغقانلىرىمىزنىڭ	_	NOUN	N	_	7	nmod:poss	_	Translit=tughqanlirimizning|Morf=Unknown
 7	بالىلىرىنىڭ	بالا	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=balilirining
 8	كىيىشى	كىي	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	17	obl	_	Translit=kiyishi
-9	ئۈچۈن	ئۈچۈن	ADP	C	_	8	advmod	_	SpaceAfter=No|Translit=üchün
+9	ئۈچۈن	ئۈچۈن	ADP	C	_	8	case	_	SpaceAfter=No|Translit=üchün
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	مېنىڭ	مەن	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	nmod:poss	_	Translit=mëning
 12	بەزى	بەزى	DET	P	Case=Nom	15	det	_	Translit=bezi
@@ -9952,7 +9952,7 @@
 # text = سەن مەن ھەققىدە تولىمۇ سەمىمىي ئاۋازدا تارتىنىپ تۇرۇپ مۇشۇنداق دېگەنىدىڭ.
 1	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	Translit=sen
 2	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	obl	_	Translit=men
-3	ھەققىدە	ھەققىدە	ADP	R	_	2	advmod	_	Translit=heqqide
+3	ھەققىدە	ھەققىدە	ADP	R	_	2	case	_	Translit=heqqide
 4	تولىمۇ	_	ADV	D	_	5	advmod	_	Translit=tolimu|Morf=Unknown
 5	سەمىمىي	سەمىمىي	ADJ	A	_	6	amod	_	Translit=semimiy
 6	ئاۋازدا	ئاۋاز	NOUN	N	Case=Loc	10	obl	_	Translit=awazda
@@ -9994,7 +9994,7 @@
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	شەكىلنى	شەكىل	NOUN	N	Case=Acc	8	obj	_	Translit=shekilni
 6	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	7	compound	_	Translit=bu
-7	قەدەر	قەدەر	ADP	R	_	8	advmod	_	Translit=qeder
+7	قەدەر	قەدەر	ADP	R	_	8	case	_	Translit=qeder
 8	مۇكەممەللەشتۈرۈش	_	VERB	V	_	17	advcl	_	Translit=mukemmelleshtürüsh|Morf=Unknown
 9	ئۈچۈن	ئۈچۈن	ADP	C	_	8	case	_	Translit=üchün
 10	يىراق	يىراق	ADJ	A	Case=Nom	11	amod	_	Translit=yiraq
@@ -10208,7 +10208,7 @@
 # text = ئادەتتە چېچىمدىن كۆرە بۇرۇتۇمنىڭ ياسىلىشىغا بەكرەك ئەھمىيەت_بېرەتتىم.
 1	ئادەتتە	ئادەت	NOUN	N	Case=Loc	7	discourse	_	Translit=adette
 2	چېچىمدىن	_	NOUN	N	_	3	nmod:comp	_	Translit=chëchimdin|Morf=Unknown
-3	كۆرە	_	ADP	R	_	5	advmod	_	Translit=köre|Morf=Unknown
+3	كۆرە	_	ADP	R	_	5	case	_	Translit=köre|Morf=Unknown
 4	بۇرۇتۇمنىڭ	بۇرۇت	NOUN	N	Case=Gen|Number[psor]=Sing|Person[psor]=1	5	nmod:poss	_	Translit=burutumning
 5	ياسىلىشىغا	ياسى	VERB	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger|Voice=Pass	7	obl	_	Translit=yasilishigha
 6	بەكرەك	_	ADV	D	_	7	advmod	_	Translit=bekrek|Morf=Unknown
