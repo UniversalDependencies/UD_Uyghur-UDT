@@ -557,7 +557,7 @@
 1	-	-	PUNCT	Y	_	13	punct	_	Translit=-
 2	نۇرغۇن	نۇرغۇن	ADJ	A	Case=Nom	3	amod	_	Translit=nurghun
 3	يىللار	يىل	NOUN	N	Case=Nom|Number=Plur	4	amod	_	Translit=yillar
-4	ئىلگىرى	ئىلگىرى	NOUN	D	Case=Nom	13	advmod	_	Translit=ilgiri
+4	ئىلگىرى	ئىلگىرى	NOUN	D	Case=Nom	13	obl	_	Translit=ilgiri
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 6	يەر	يەر	NOUN	N	Case=Nom	13	nsubj	_	Translit=yer
 7	بۈك	بۈك	ADJ	A	_	9	compound:redup	_	Translit=bük
@@ -1392,7 +1392,7 @@
 1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Translit=ular
 2	نېرى-بېرى	_	ADV	D	_	3	amod	_	Translit=nëri-bëri|Morf=Unknown
 3	دېيىشمەيلا	_	VERB	V	_	7	advcl	_	Translit=dëyishmeyla|Morf=Unknown
-4	باشتا	باش	NOUN	N	Case=Loc	5	advmod	_	Translit=bashta
+4	باشتا	باش	NOUN	N	Case=Loc	5	obl	_	Translit=bashta
 5	دېيشكىنى	_	NOUN	N	_	7	obl	_	Translit=dëyshkini|Morf=Unknown
 6	بويىچە	بويىچە	ADP	R	_	5	advmod	_	Translit=boyiche
 7	پۈتۈشتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=pütüshti|Morf=Unknown
@@ -1539,7 +1539,7 @@
 1	بىراق	بىراق	CCONJ	C	_	17	cc	_	SpaceAfter=No|Translit=biraq
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	4	det	_	Translit=shu
-4	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	advmod	_	Translit=küni
+4	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=küni
 5	كەچقۇرۇن	كەچقۇرۇن	NOUN	N	Case=Nom	17	obl	_	Translit=kechqurun
 6	بالىلارنىڭ	بالا	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	Translit=balilarning
 7	ئاپىسى	ئاپا	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	17	nsubj	_	Translit=apisi
@@ -1648,7 +1648,7 @@
 4	گېپىنى	گەپ	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	Translit=gëpini
 5	ئاڭلاپ	_	VERB	V	_	9	advcl	_	SpaceAfter=No|Translit=anglap|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	سەل	سەل	NOUN	D	Case=Nom	8	advmod	_	Translit=sel
+7	سەل	سەل	NOUN	D	Case=Nom	8	obl	_	Translit=sel
 8	باشقىچە	باش	NOUN	D	_	9	obl	_	Translit=bashqiche
 9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
 10	قالدى	قال	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=qaldi
@@ -1976,13 +1976,13 @@
 
 # sent_id = s1932
 # text = ناھايتى مودا ياسانغان ياش چوكان، قاپقارا مايلانغان بۈدۈر چېچىغا، يۈز-كۆزلىرىگە توپىلىق يولنىڭ ئاچچىق شور توپىسىنىڭ قونۇۋېلىشىدىن ئەنسىرەپ، پۈتۈنلەي ئورىۋالغىنىچە، ئېرىدىن ماي تارتىپ ئولتۇراتتى.
-1	ناھايتى	_	NOUN	N	_	2	advmod	_	Translit=nahayti|Morf=Unknown
+1	ناھايتى	_	NOUN	N	_	2	obl	_	Translit=nahayti|Morf=Unknown
 2	مودا	مودا	NOUN	N	Case=Nom	3	obl	_	Translit=moda
 3	ياسانغان	ياسان	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	Translit=yasanghan
 4	ياش	ياش	NOUN	N	Case=Nom	5	amod	_	Translit=yash
 5	چوكان	چوكان	NOUN	N	Case=Nom	19	nsubj	_	SpaceAfter=No|Translit=chokan
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	قاپقارا	قاپقارا	NOUN	A	Case=Nom	8	advmod	_	Translit=qapqara
+7	قاپقارا	قاپقارا	NOUN	A	Case=Nom	8	obl	_	Translit=qapqara
 8	مايلانغان	_	NOUN	N	_	10	amod	_	Translit=maylanghan|Morf=Unknown
 9	بۈدۈر	بۈدۈر	ADJ	A	_	10	amod	_	Translit=büdür
 10	چېچىغا	_	VERB	V	_	18	nmod	_	SpaceAfter=No|Translit=chëchigha|Morf=Unknown
@@ -2360,7 +2360,7 @@
 1	_	_	PUNCT	Y	_	7	punct	_	Translit=_|Morf=Unknown
 2	ياق	ياق	INTJ	E	_	7	discourse	_	SpaceAfter=No|Translit=yaq
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
-4	سەل	سەل	NOUN	D	Case=Nom	5	advmod	_	Translit=sel
+4	سەل	سەل	NOUN	D	Case=Nom	5	obl	_	Translit=sel
 5	يىراققا	يىراق	NOUN	A	Case=Dat	7	obl	_	Translit=yiraqqa
 6	كۆچۈپ	كۆچ	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	Translit=köchüp
 7	كەتتى	كەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ketti
@@ -2775,7 +2775,7 @@
 # text = _ ئۇ ئەسلى بەكمۇ ياخشى، ساغلام ئايال ئىدى.
 1	_	_	PUNCT	Y	_	8	punct	_	Translit=_|Morf=Unknown
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Translit=u
-3	ئەسلى	ئەسل	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	advmod	_	Translit=esli
+3	ئەسلى	ئەسل	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	Translit=esli
 4	بەكمۇ	_	ADV	D	_	5	advmod	_	Translit=bekmu|Morf=Unknown
 5	ياخشى	ياخشى	ADJ	A	_	8	amod	_	SpaceAfter=No|Translit=yaxshi
 6	،	،	PUNCT	Y	_	7	punct	_	Translit=,
@@ -3359,7 +3359,7 @@
 # text = كەچقۇرۇن مەن تايچاقتەك سەكرەپ - ئويناقلىشىپ مەكتەپتىن يانىمەن، سەن ئۈستۋېشىڭ توپا، ھارغىن ھالەتتە ئىشتىن يانىسەن.
 1	كەچقۇرۇن	كەچقۇرۇن	NOUN	N	Case=Nom	8	obl	_	Translit=kechqurun
 2	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Translit=men
-3	تايچاقتەك	_	NOUN	N	_	6	advmod	_	Translit=taychaqtek|Morf=Unknown
+3	تايچاقتەك	_	NOUN	N	_	6	obl	_	Translit=taychaqtek|Morf=Unknown
 4	سەكرەپ	_	VERB	V	_	8	advcl	_	Translit=sekrep|Morf=Unknown
 5	-	-	PUNCT	Y	_	6	punct	_	Translit=-
 6	ئويناقلىشىپ	_	NOUN	N	_	4	conj	_	Translit=oynaqliship|Morf=Unknown
@@ -3522,7 +3522,7 @@
 1	ھەممىمىز	_	PRON	P	_	5	nsubj	_	Translit=hemmimiz|Morf=Unknown
 2	بېشىڭدا	_	NOUN	N	_	5	nmod	_	Translit=bëshingda|Morf=Unknown
 3	قارا	_	ADJ	A	_	4	amod	_	Translit=qara|Morf=Missing,1
-4	قۇشقاچتەك	_	NOUN	N	_	5	advmod	_	Translit=qushqachtek|Morf=Unknown
+4	قۇشقاچتەك	_	NOUN	N	_	5	obl	_	Translit=qushqachtek|Morf=Unknown
 5	چۇۋۇرلىشىۋاتىمىز	_	NOUN	N	_	8	parataxis	_	SpaceAfter=No|Translit=chuwurlishiwatimiz|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	نالە	نالە	NOUN	N	Case=Nom	8	compound	_	Translit=nale
@@ -3852,11 +3852,11 @@
 # sent_id = s2060
 # text = يولدىن سەل قېيىپ كېتىشلىرىمىزمۇ، بىلىپ-بىلمەي ئېزىشلىرىمىزمۇ سېنىڭ ئۆتكۈر نەزىرىڭدىن قېچىپ قۇتۇلالمايتتى.
 1	يولدىن	يول	NOUN	N	Case=Abl	4	obl	_	Translit=yoldin
-2	سەل	سەل	NOUN	D	Case=Nom	4	advmod	_	Translit=sel
+2	سەل	سەل	NOUN	D	Case=Nom	4	obl	_	Translit=sel
 3	قېيىپ	قاي	VERB	V	Aspect=Perf|VerbForm=Conv	4	compound	_	Translit=qëyip
 4	كېتىشلىرىمىزمۇ	_	AUX	V	_	12	nsubj	_	SpaceAfter=No|Translit=këtishlirimizmu|Morf=Unknown
 5	،	،	PUNCT	Y	_	7	punct	_	Translit=,
-6	بىلىپ-بىلمەي	_	NOUN	N	_	7	advmod	_	Translit=bilip-bilmey|Morf=Unknown
+6	بىلىپ-بىلمەي	_	NOUN	N	_	7	obl	_	Translit=bilip-bilmey|Morf=Unknown
 7	ئېزىشلىرىمىزمۇ	_	NOUN	N	_	4	conj	_	Translit=ëzishlirimizmu|Morf=Unknown
 8	سېنىڭ	_	PRON	P	_	10	nmod:poss	_	Translit=sëning|Morf=Unknown
 9	ئۆتكۈر	ئۆتكۈر	ADJ	A	Case=Nom	10	amod	_	Translit=ötkür
@@ -3963,7 +3963,7 @@
 8	ئىچىدە	ئىچ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	Translit=ichide
 9	قالغان	قال	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	10	acl	_	Translit=qalghan
 10	كۆڭۈللىرىمىز	_	NOUN	N	_	14	nsubj	_	Translit=köngüllirimiz|Morf=Unknown
-11	پاللىدە	_	NOUN	N	_	14	advmod	_	Translit=pallide|Morf=Unknown
+11	پاللىدە	_	NOUN	N	_	14	obl	_	Translit=pallide|Morf=Unknown
 12	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	14	advmod	_	Translit=bir
 13	يۇرۇپ	_	NOUN	N	_	14	xcomp	_	Translit=yurup|Morf=Unknown
 14	كەتسۇن	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ketsun|Morf=Unknown
@@ -4371,7 +4371,7 @@
 
 # sent_id = s2094
 # text = يەنىمۇ يىراققا قارىغۇدەك بولسىڭىز، بېلىقلار ئەركىن پىلتىڭلاپ ئويناۋاتقاندەك كۆرۈنەتتى.
-1	يەنىمۇ	يەنىمۇ	NOUN	D	Case=Nom	2	advmod	_	Translit=yenimu
+1	يەنىمۇ	يەنىمۇ	NOUN	D	Case=Nom	2	obl	_	Translit=yenimu
 2	يىراققا	يىراق	NOUN	A	Case=Dat	3	obl	_	Translit=yiraqqa
 3	قارىغۇدەك	_	AUX	V	_	10	parataxis	_	Translit=qarighudek|Morf=Unknown
 4	بولسىڭىز	بول	AUX	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Conv	3	cop	_	SpaceAfter=No|Translit=bolsingiz
@@ -4413,7 +4413,7 @@
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	سايرام	_	NOUN	N	_	5	compound	_	Translit=sayram|Morf=Unknown
 5	كۆلىنىڭ	كۆل	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod:poss	_	Translit=kölining
-6	ئەڭ	ئەڭ	PRON	D	Case=Nom	7	advmod	_	Translit=eng
+6	ئەڭ	ئەڭ	PRON	D	Case=Nom	7	obl	_	Translit=eng
 7	چوڭقۇر	چوڭقۇر	ADJ	A	Case=Nom	8	amod	_	Translit=chongqur
 8	يېرى	يار	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	Translit=yëri
 9	90	90	NUM	M	NumType=Ord	10	nummod	_	Translit=90
@@ -5694,7 +5694,7 @@
 14	جاكارلايمەنكى	_	VERB	V	_	21	parataxis	_	SpaceAfter=No|Translit=jakarlaymenki|Morf=Unknown
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	بۈگۈندىن	_	NOUN	N	Case=Abl	17	nmod	_	Translit=bügündin|Morf=Unknown
-17	باشلاپ	باشلاپ	NOUN	V	Case=Nom	21	advmod	_	SpaceAfter=No|Translit=bashlap
+17	باشلاپ	باشلاپ	NOUN	V	Case=Nom	21	obl	_	SpaceAfter=No|Translit=bashlap
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	مايمۇن	مايمۇن	NOUN	N	Case=Nom	21	nsubj	_	Translit=maymun
 20	ھايۋانات	ھايۋانات	NOUN	N	Case=Nom	21	compound	_	Translit=haywanat
@@ -6370,7 +6370,7 @@
 
 # sent_id = s2225
 # text = ئىلگىرى ئۈ قىپقىزىل تاشلىق تاغ بولغاچقا، &lt; قىزىلتاغ &gt; دەپ ئاتالغان.
-1	ئىلگىرى	ئىلگىرى	NOUN	D	Case=Nom	5	advmod	_	Translit=ilgiri
+1	ئىلگىرى	ئىلگىرى	NOUN	D	Case=Nom	5	obl	_	Translit=ilgiri
 2	ئۈ	_	NOUN	N	_	5	nsubj	_	Translit=ü|Morf=Unknown
 3	قىپقىزىل	قىپقىزىل	ADJ	A	Case=Nom	4	amod	_	Translit=qipqizil
 4	تاشلىق	تاشلىق	NOUN	N	Case=Nom	5	amod	_	Translit=tashliq
@@ -7085,7 +7085,7 @@
 11	ئىنسانلار	ئىنسان	NOUN	N	Case=Nom|Number=Plur	13	nsubj	_	Translit=insanlar
 12	ئارزۇ	ئارزۇ	NOUN	N	Case=Nom	13	compound	_	Translit=arzu
 13	قىلغانلىكى	_	NOUN	N	_	16	amod	_	Translit=qilghanliki|Morf=Unknown
-14	ئەڭ	ئەڭ	PRON	D	Case=Nom	15	advmod	_	Translit=eng
+14	ئەڭ	ئەڭ	PRON	D	Case=Nom	15	obl	_	Translit=eng
 15	ئېسىل	ئېسىل	ADJ	A	Case=Nom	16	amod	_	Translit=ësil
 16	رەختلەرنى	رەخت	NOUN	N	Case=Acc|Number=Plur	17	obj	_	Translit=rextlerni
 17	توقۇيالايدىغانلىقىنى	_	NOUN	N	_	18	obj	_	Translit=toquyalaydighanliqini|Morf=Unknown
@@ -7130,7 +7130,7 @@
 7	كەلمەيدىغان	_	VERB	V	_	12	amod	_	Translit=kelmeydighan|Morf=Unknown
 8	ياكى	ياكى	CCONJ	C	_	11	cc	_	Translit=yaki
 9	ئوڭشىيالماس	_	VERB	V	_	10	advcl	_	Translit=ongshiyalmas|Morf=Unknown
-10	دەرىجىدە	دەرىجە	NOUN	N	Case=Loc	11	advmod	_	Translit=derijide
+10	دەرىجىدە	دەرىجە	NOUN	N	Case=Loc	11	obl	_	Translit=derijide
 11	ئەخمەق	ئەخمەق	NOUN	A	Case=Nom	7	conj	_	Translit=exmeq
 12	ئادەملەرنىڭلا	_	VERB	V	_	15	obl	_	Translit=ademlerningla|Morf=Unknown
 13	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	14	det	_	Translit=bu
@@ -7260,9 +7260,9 @@
 20	قۇرۇق	قۇرۇق	ADJ	A	_	21	amod	_	Translit=quruq
 21	دەستىگاھتا	_	NOUN	N	_	26	nmod	_	Translit=destigahta|Morf=Unknown
 22	ھەر	ھەر	DET	P	_	23	det	_	Translit=her
-23	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	27	advmod	_	Translit=küni
+23	كۈنى	كۈن	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	Translit=küni
 24	تۈن	تۈن	NOUN	N	Case=Nom	25	compound	_	Translit=tün
-25	يېرىمغىچە	يېرىم	NOUN	N	_	27	advmod	_	Translit=yërimghiche
+25	يېرىمغىچە	يېرىم	NOUN	N	_	27	obl	_	Translit=yërimghiche
 26	ھەپىلىشىپ	_	NOUN	N	_	27	xcomp	_	Translit=hepiliship|Morf=Unknown
 27	يۈرۈپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yürüptu|Morf=Unknown
 28	.	.	PUNCT	Y	_	27	punct	_	Translit=.
@@ -7720,7 +7720,7 @@
 
 # sent_id = s2308
 # text = ئەمەلىيەتتە بۇ نەرسىلەر مەۋجۇت ئەمەس ئىكەن.
-1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	4	advmod	_	Translit=emeliyette
+1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	4	obl	_	Translit=emeliyette
 2	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	3	det	_	Translit=bu
 3	نەرسىلەر	نەرسە	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	Translit=nersiler
 4	مەۋجۇت	مەۋجۇت	NOUN	A	Case=Nom	0	root	_	Translit=mewjut
@@ -7733,7 +7733,7 @@
 1	«	«	PUNCT	Y	_	9	punct	_	SpaceAfter=No|Translit=«
 2	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Translit=men
 3	ئەخمەق	ئەخمەق	NOUN	A	Case=Nom	8	ccomp	_	Translit=exmeq
-4	ئەمەستۇرمەن	_	NOUN	N	_	3	advmod	_	SpaceAfter=No|Translit=emesturmen|Morf=Unknown
+4	ئەمەستۇرمەن	_	NOUN	N	_	3	obl	_	SpaceAfter=No|Translit=emesturmen|Morf=Unknown
 5	!	!	PUNCT	N	_	4	punct	_	Translit=!
 6	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
 7	_	_	PUNCT	Y	_	4	punct	_	Translit=_|Morf=Unknown
@@ -7744,7 +7744,7 @@
 12	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 13	_	_	PUNCT	Y	_	9	punct	_	Translit=_|Morf=Unknown
 14	_	_	PUNCT	Y	_	20	punct	_	Translit=_|Morf=Unknown
-15	ئېھتىمال	ئېھتىمال	NOUN	T	Case=Nom	20	advmod	_	Translit=ëhtimal
+15	ئېھتىمال	ئېھتىمال	NOUN	T	Case=Nom	20	obl	_	Translit=ëhtimal
 16	ئىقتىدارىم	_	NOUN	N	_	19	nsubj	_	Translit=iqtidarim|Morf=Unknown
 17	ئەمىلىمگە	_	NOUN	N	_	19	obl	_	Translit=emilimge|Morf=Unknown
 18	ماس	ماس	ADJ	A	_	19	compound	_	Translit=mas
@@ -7905,7 +7905,7 @@
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 6	رەخت	رەخت	NOUN	N	Case=Nom	8	nsubj	_	Translit=rext
-7	راست	راست	NOUN	A	Case=Nom	8	advmod	_	Translit=rast
+7	راست	راست	NOUN	A	Case=Nom	8	obl	_	Translit=rast
 8	چىرايلىقمىكەن	_	NOUN	N	_	12	ccomp	_	SpaceAfter=No|Translit=chirayliqmiken|Morf=Unknown
 9	؟	؟	PUNCT	Y	_	8	punct	_	Translit=?
 10	_	_	PUNCT	Y	_	8	punct	_	Translit=_|Morf=Unknown
@@ -8062,7 +8062,7 @@
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	nsubj	_	Translit=bu
 4	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
-5	سېمىز	سېمىز	NOUN	A	Case=Nom	6	advmod	_	Translit=sëmiz
+5	سېمىز	سېمىز	NOUN	A	Case=Nom	6	obl	_	Translit=sëmiz
 6	قوزىكەنغۇ	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=qozikenghu|Morf=Unknown
 7	!	!	PUNCT	Y	_	6	punct	_	Translit=!
 
@@ -8130,7 +8130,7 @@
 
 # sent_id = s2336
 # text = مەيلى قانچىلىك بەدەل تۆلەشتىن قەتئىينەزەر، قىلماقچى بولغان ئىشىنى ۋۇجۇدقا چىقىرىشقا تىرىشىڭ.
-1	مەيلى	مەيل	NOUN	T	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	advmod	_	Translit=meyli
+1	مەيلى	مەيل	NOUN	T	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	Translit=meyli
 2	قانچىلىك	قانچىلىك	DET	P	Case=Nom	4	det	_	Translit=qanchilik
 3	بەدەل	بەدەل	NOUN	N	Case=Nom	4	obj	_	Translit=bedel
 4	تۆلەشتىن	تۆلەش	NOUN	V	Case=Abl	12	advcl	_	Translit=töleshtin
@@ -8244,7 +8244,7 @@
 6	مەلۇم	مەلۇم	ADJ	A	_	8	amod	_	Translit=melum
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
 8	كۈچنىڭ	كۈچ	NOUN	N	Case=Gen	9	nmod:poss	_	Translit=küchning
-9	تۈرتكىسىدە	تۈرتكە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	advmod	_	Translit=türtkiside
+9	تۈرتكىسىدە	تۈرتكە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	Translit=türtkiside
 10	غوزەك	_	NOUN	N	_	11	obj	_	Translit=ghozek|Morf=Unknown
 11	چىقارغانلىقىغا	_	NOUN	N	_	12	nmod	_	Translit=chiqarghanliqigha|Morf=Unknown
 12	ئوخشاشلا	_	ADJ	A	_	17	advmod	_	Translit=oxshashla|Morf=Unknown
@@ -8430,7 +8430,7 @@
 7	تەلەپ	تەلەپ	NOUN	N	Case=Nom	8	compound	_	Translit=telep
 8	قىلماي	_	VERB	V	_	14	advcl	_	SpaceAfter=No|Translit=qilmay|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
-10	خېلى	خال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	advmod	_	Translit=xëli
+10	خېلى	خال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	Translit=xëli
 11	جىق	جىق	DET	A	_	12	amod	_	Translit=jiq
 12	بايلىقتىن	بايلىق	NOUN	N	Case=Abl	14	obl	_	Translit=bayliqtin
 13	ۋاز	_	NOUN	N	_	14	compound	_	Translit=waz|Morf=Unknown
@@ -8727,7 +8727,7 @@
 3	سېھرىي	سېھرىي	ADJ	A	_	4	amod	_	Translit=sëhriy
 4	كۈچى	كۈچ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nsubj	_	Translit=küchi
 5	تەجرىبىخانىدا	تەجرىبىخانا	NOUN	N	Case=Loc	10	nmod	_	Translit=tejribixanida
-6	ئۆمۈرۋايەت	_	NOUN	N	_	10	advmod	_	Translit=ömürwayet|Morf=Unknown
+6	ئۆمۈرۋايەت	_	NOUN	N	_	10	obl	_	Translit=ömürwayet|Morf=Unknown
 7	باش	باش	NOUN	N	Case=Nom	8	obj	_	Translit=bash
 8	چۆكۈرۈپ	_	VERB	V	_	10	advcl	_	Translit=chökürüp|Morf=Unknown
 9	خىزمەت	خىزمەت	NOUN	N	Case=Nom	10	obj	_	Translit=xizmet
@@ -8994,7 +8994,7 @@
 
 # sent_id = s2391
 # text = يىڭى ياسىلىۋاتقان يولنىڭ ئۇلى ۋوگزالنىڭ تاشتىن قوپۇرۇلغان يۈك سۇپىسىدىن تارتىپ ئورمانغا قاراپ سوزۇلۇپ ياتاتتى.
-1	يىڭى	يىڭ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	advmod	_	Translit=yingi
+1	يىڭى	يىڭ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	obl	_	Translit=yingi
 2	ياسىلىۋاتقان	_	NOUN	N	_	3	amod	_	Translit=yasiliwatqan|Morf=Unknown
 3	يولنىڭ	يول	NOUN	N	Case=Gen	4	nmod:poss	_	Translit=yolning
 4	ئۇلى	ئۇل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nsubj	_	Translit=uli
@@ -9128,8 +9128,8 @@
 1	سېلىنۋاتقان	_	NOUN	N	_	2	amod	_	Translit=sëlinwatqan|Morf=Unknown
 2	يولنىڭ	يول	NOUN	N	Case=Gen	3	nmod:poss	_	Translit=yolning
 3	ئۇلى	ئۇل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=uli
-4	كۈندن–كۈنگە	_	NOUN	N	_	5	advmod	_	Translit=kündn–künge|Morf=Unknown
-5	ئۇزىراپ	_	NOUN	N	_	8	advmod	_	Translit=uzirap|Morf=Unknown
+4	كۈندن–كۈنگە	_	NOUN	N	_	5	obl	_	Translit=kündn–künge|Morf=Unknown
+5	ئۇزىراپ	_	NOUN	N	_	8	obl	_	Translit=uzirap|Morf=Unknown
 6	ئورمانغا	ئورمان	NOUN	N	Case=Dat	8	obl	_	Translit=ormangha
 7	ئىچكىرىلەپ	_	VERB	V	_	8	advcl	_	Translit=ichkirilep|Morf=Unknown
 8	كىرمەكتە	كىرمەك	NOUN	V	Case=Loc	0	root	_	Translit=kirmekte
@@ -9175,7 +9175,7 @@
 # text = ئىشىك–دېرىزلەرنىڭ ئورنىدا يوغان–يوغان تۆشۈكلەرلا قالغان،
 1	ئىشىك–دېرىزلەرنىڭ	_	NOUN	N	_	2	nmod:poss	_	Translit=ishik–dërizlerning|Morf=Unknown
 2	ئورنىدا	ئورنىدا	ADJ	N	Case=Nom	5	obl	_	Translit=ornida
-3	يوغان–يوغان	_	NOUN	N	_	4	advmod	_	Translit=yoghan–yoghan|Morf=Unknown
+3	يوغان–يوغان	_	NOUN	N	_	4	obl	_	Translit=yoghan–yoghan|Morf=Unknown
 4	تۆشۈكلەرلا	_	NOUN	N	_	5	nsubj	_	Translit=töshüklerla|Morf=Unknown
 5	قالغان	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qalghan
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
@@ -9369,7 +9369,7 @@
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
 8	يېرىم	يېرىم	NUM	A	Case=Nom|NumType=Ord	9	amod	_	Translit=yërim
 9	قاداق	_	NOUN	N	_	12	amod	_	Translit=qadaq|Morf=Unknown
-10	كۆمۈردەك	_	NOUN	N	_	11	advmod	_	Translit=kömürdek|Morf=Unknown
+10	كۆمۈردەك	_	NOUN	N	_	11	obl	_	Translit=kömürdek|Morf=Unknown
 11	قاپقارا	قاپقارا	ADJ	A	Case=Nom	12	amod	_	Translit=qapqara
 12	بولكا	بولكا	NOUN	N	Case=Nom	5	conj	_	Translit=bolka
 13	ئىدى	ئى	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No|Translit=idi
@@ -9992,7 +9992,7 @@
 1	مەشرەپ	مەشرەپ	NOUN	N	Case=Nom	10	nsubj	_	Translit=meshrep
 2	ئۇيغۇر	ئۇيغۇر	NOUN	N	Case=Nom	3	compound	_	Translit=uyghur
 3	خەلقىنىڭ	خەلق	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	Translit=xelqining
-4	ناھايتى	_	NOUN	N	_	5	advmod	_	Translit=nahayti|Morf=Unknown
+4	ناھايتى	_	NOUN	N	_	5	obl	_	Translit=nahayti|Morf=Unknown
 5	ئوزاق	_	NOUN	N	_	6	amod	_	Translit=ozaq|Morf=Unknown
 6	تارىخقا	تارىخ	NOUN	N	Case=Dat	7	nmod	_	Translit=tarixqa
 7	ئىگە	ئىگە	NOUN	N	Case=Nom	9	amod	_	Translit=ige
@@ -10234,7 +10234,7 @@
 14	باشلىنىپ	_	VERB	V	_	21	advcl	_	SpaceAfter=No|Translit=bashlinip|Morf=Unknown
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	كېلەر	كېلەر	ADJ	V	Case=Nom	17	acl	_	Translit=këler
-17	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	advmod	_	Translit=yili
+17	يىلى	يىل	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	obl	_	Translit=yili
 18	ئەتىيازلىق	_	NOUN	N	_	19	amod	_	Translit=etiyazliq|Morf=Missing,1
 19	تېرىلغۇ	تېرىلغۇ	NOUN	V	Case=Nom	20	nsubj	_	Translit=tërilghu
 20	باشلانغىچە	_	NOUN	N	_	21	obl	_	Translit=bashlanghiche|Morf=Unknown
@@ -10585,7 +10585,7 @@
 
 # sent_id = s2500
 # text = چىدىسىڭىز كىرىشكە رۇخسەت.
-1	چىدىسىڭىز	_	NOUN	N	_	3	advmod	_	Translit=chidisingiz|Morf=Missing,2
+1	چىدىسىڭىز	_	NOUN	N	_	3	obl	_	Translit=chidisingiz|Morf=Missing,2
 2	كىرىشكە	_	VERB	V	_	3	nmod	_	Translit=kirishke|Morf=Unknown
 3	رۇخسەت	رۇخسەت	NOUN	N	Case=Nom	0	root	_	SpaceAfter=No|Translit=ruxset
 4	.	.	PUNCT	Y	_	3	punct	_	Translit=.
@@ -10768,7 +10768,7 @@
 19	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Conv	20	compound:lvc	_	Translit=körüp
 20	باقمىغان	باق	VERB	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	25	acl	_	SpaceAfter=No|Translit=baqmighan
 21	،	،	PUNCT	Y	_	20	punct	_	Translit=,
-22	ئىچ–ئىچىدىن	_	NOUN	N	_	23	advmod	_	Translit=ich–ichidin|Morf=Unknown
+22	ئىچ–ئىچىدىن	_	NOUN	N	_	23	obl	_	Translit=ich–ichidin|Morf=Unknown
 23	ئازابلىنىۋاتقان	_	NOUN	N	_	25	acl	_	Translit=azabliniwatqan|Morf=Unknown
 24	بىر	بىر	DET	M	Case=Nom|NumType=Ord	25	det	_	Translit=bir
 25	ھەسرەتنى	ھەسرەت	NOUN	N	Case=Acc	26	obj	_	Translit=hesretni
@@ -11110,7 +11110,7 @@
 
 # sent_id = s2536
 # text = ئادەتتە ھەر خىل گەپ–سۆز، قىلىقلارنى قىلىپ مېنى كۈلدۈرىدىغان نەۋرەممۇ بىر كۆڭۈلسىزلىكنىڭ شەپىسىنى سەزگەندەك سۈكۈتكە چۆمگەنىدى.
-1	ئادەتتە	ئادەت	NOUN	N	Case=Loc	9	advmod	_	Translit=adette
+1	ئادەتتە	ئادەت	NOUN	N	Case=Loc	9	obl	_	Translit=adette
 2	ھەر	ھەر	DET	P	_	3	det	_	Translit=her
 3	خىل	خىل	NOUN	N	Case=Nom	4	amod	_	Translit=xil
 4	گەپ–سۆز	_	NOUN	N	_	7	obj	_	SpaceAfter=No|Translit=gep–söz|Morf=Unknown
@@ -11640,7 +11640,7 @@
 # sent_id = s2576
 # text = بىز مانا شۇنداق كېلىشىپ ئايرىلدۇق.
 1	بىز	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Translit=biz
-2	مانا	مانا	NOUN	T	Case=Nom	3	advmod	_	Translit=mana
+2	مانا	مانا	NOUN	T	Case=Nom	3	obl	_	Translit=mana
 3	شۇنداق	شۇنداق	DET	P	_	4	det	_	Translit=shundaq
 4	كېلىشىپ	_	VERB	V	_	5	advcl	_	Translit=këliship|Morf=Unknown
 5	ئايرىلدۇق	ئايرىل	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=ayrilduq
@@ -12853,7 +12853,7 @@
 4	خۇشال	خۇشال	ADJ	A	Case=Nom	5	amod	_	Translit=xushal
 5	قىلىدىغىنى	_	VERB	V	_	18	nsubj	_	Translit=qilidighini|Morf=Unknown
 6	ھەم	ھەم	CCONJ	C	_	8	cc	_	Translit=hem
-7	چوڭقۇر	چوڭقۇر	NOUN	A	Case=Nom	8	advmod	_	Translit=chongqur
+7	چوڭقۇر	چوڭقۇر	NOUN	A	Case=Nom	8	obl	_	Translit=chongqur
 8	ئويلاندۇرىدىغىنى	_	NOUN	N	_	5	conj	_	Translit=oylanduridighini|Morf=Unknown
 9	ھاۋانى	_	NOUN	N	_	11	obj	_	Translit=hawani|Morf=Unknown
 10	ئېنىرگىيە	_	NOUN	N	_	11	compound	_	Translit=ënirgiye|Morf=Unknown
@@ -13288,7 +13288,7 @@
 # sent_id = s2675
 # text = ئالىمجاننىڭ نۆۋەتتە تىزىملاتقان بۇ بىر تۈرىمۇ خەلقارالاشسا نوبىل مۇكاپاتىغا شەكسىز ئېرىشىدۇ.
 1	ئالىمجاننىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=alimjanning|Morf=Unknown
-2	نۆۋەتتە	نۆۋەت	NOUN	Q	Case=Loc	3	advmod	_	Translit=nöwette
+2	نۆۋەتتە	نۆۋەت	NOUN	Q	Case=Loc	3	obl	_	Translit=nöwette
 3	تىزىملاتقان	_	NOUN	N	_	6	amod	_	Translit=tizimlatqan|Morf=Unknown
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 5	بىر	بىر	NUM	M	_	6	nummod	_	Translit=bir
@@ -13635,7 +13635,7 @@
 # text = ھازىر ئالىمجان كۈندە نەچچە ئون زىيارەتچىنى كۈتىۋېلىش بىلەن بەند بولىۋاتىدۇ.
 1	ھازىر	ھازىر	ADV	D	_	10	advmod	_	Translit=hazir
 2	ئالىمجان	_	NOUN	N	_	10	nsubj	_	Translit=alimjan|Morf=Unknown
-3	كۈندە	كۈن	NOUN	N	Case=Loc	7	advmod	_	Translit=künde
+3	كۈندە	كۈن	NOUN	N	Case=Loc	7	obl	_	Translit=künde
 4	نەچچە	نەچچە	DET	P	_	5	det	_	Translit=nechche
 5	ئون	ئون	NUM	M	_	6	nummod	_	Translit=on
 6	زىيارەتچىنى	زىيارەتچى	NOUN	N	Case=Acc	7	obj	_	Translit=ziyaretchini
@@ -13951,7 +13951,7 @@
 # text = مانا شۇنىڭ نەتىجىسىدە تۇرپان جۇڭگو بۇيىچە ئەڭ ئىسسىق بولدىغان رايونلارنىڭ بىرى بولۇپ قالغان.
 1	مانا	_	PART	T	_	3	mark	_	Translit=mana|Morf=Missing,1
 2	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	3	nmod:poss	_	Translit=shuning
-3	نەتىجىسىدە	نەتىجە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	advmod	_	Translit=netijiside
+3	نەتىجىسىدە	نەتىجە	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	Translit=netijiside
 4	تۇرپان	_	NOUN	N	_	13	nsubj	_	Translit=turpan|Morf=Unknown
 5	جۇڭگو	جۇڭگو	PROPN	N	Case=Nom	9	obl	_	Translit=junggo
 6	بۇيىچە	_	NOUN	N	_	5	case	_	Translit=buyiche|Morf=Unknown
@@ -14051,7 +14051,7 @@
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	يەر	يەر	NOUN	N	Case=Nom	7	obl	_	Translit=yer
 7	شەكىلى	شەكىل	NOUN	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	Translit=shekili
-8	ئەڭ	ئەڭ	PRON	D	Case=Nom	9	advmod	_	Translit=eng
+8	ئەڭ	ئەڭ	PRON	D	Case=Nom	9	obl	_	Translit=eng
 9	پەس	پەس	ADJ	A	Case=Nom	10	amod	_	Translit=pes
 10	يەرگە	يەر	NOUN	N	Case=Dat	11	obl	_	Translit=yerge
 11	كەلگەندە	كەل	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	19	obl	_	Translit=kelgende
@@ -16139,7 +16139,7 @@
 # text = دادام باشقىلارنى خېلى ئارقىدا تاشلاپ، چىلان تورۇقنى قويۇندەك چاپتۇرۇپ كېلىۋاتاتتى.
 1	دادام	دادا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	11	nsubj	_	Translit=dadam
 2	باشقىلارنى	باشقا	ADJ	A	Case=Acc|Number=Plur	5	obj	_	Translit=bashqilarni
-3	خېلى	خال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	advmod	_	Translit=xëli
+3	خېلى	خال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	Translit=xëli
 4	ئارقىدا	ئارقا	NOUN	N	Case=Loc	5	amod	_	Translit=arqida
 5	تاشلاپ	_	VERB	V	_	11	advcl	_	SpaceAfter=No|Translit=tashlap|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
@@ -17575,7 +17575,7 @@
 3	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 4	يۈزىنى	يۈز	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	Translit=yüzini
 5	ئۇياتچان	ئۇياتچان	ADJ	N	_	6	amod	_	Translit=uyatchan
-6	قىزچاقتەك	_	NOUN	N	_	7	advmod	_	Translit=qizchaqtek|Morf=Unknown
+6	قىزچاقتەك	_	NOUN	N	_	7	obl	_	Translit=qizchaqtek|Morf=Unknown
 7	پۈركىۋالغان	_	NOUN	N	_	2	conj	_	Translit=pürkiwalghan|Morf=Unknown
 8	ئىكەن	_	AUX	V	_	7	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
 9	،	،	PUNCT	Y	_	7	punct	_	Translit=,
@@ -17827,7 +17827,7 @@
 3	تونۇشتۇرۇشىچە	_	VERB	V	_	17	discourse	_	SpaceAfter=No|Translit=tonushturushiche|Morf=Unknown
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	مۇتەخسسىسلەر	_	NOUN	N	_	7	nsubj	_	Translit=mutexssisler|Morf=Unknown
-6	شالغۇتلاشتۇرۇپ	_	NOUN	N	_	7	advmod	_	Translit=shalghutlashturup|Morf=Missing,2
+6	شالغۇتلاشتۇرۇپ	_	NOUN	N	_	7	obl	_	Translit=shalghutlashturup|Morf=Missing,2
 7	يېتىشتۈرگەن	_	NOUN	N	_	10	amod	_	Translit=yëtishtürgen|Morf=Unknown
 8	ئەلا	ئەلا	ADJ	A	Case=Nom	9	amod	_	Translit=ela
 9	سورتلۇق	_	ADJ	A	_	10	amod	_	Translit=sortluq|Morf=Unknown
@@ -17836,7 +17836,7 @@
 12	شالنىڭ	شال	NOUN	N	Case=Gen	14	nmod:poss	_	Translit=shalning
 13	مەھسۇلات	مەھسۇلات	NOUN	N	Case=Nom	14	nmod	_	Translit=mehsulat
 14	مىقدارىنى	_	NOUN	N	_	17	obj	_	Translit=miqdarini|Morf=Unknown
-15	زور	زور	NOUN	A	Case=Nom	16	advmod	_	Translit=zor
+15	زور	زور	NOUN	A	Case=Nom	16	obl	_	Translit=zor
 16	دەرىجىدە	دەرىجە	NOUN	N	Case=Loc	17	obl	_	Translit=derijide
 17	ئاشۇرۇپتۇ	_	VERB	V	_	40	parataxis	_	SpaceAfter=No|Translit=ashuruptu|Morf=Unknown
 18	.	.	PUNCT	V	_	17	punct	_	Translit=.
@@ -18255,7 +18255,7 @@
 # sent_id = s3009
 # text = بىزنىڭ سوراپ-سوراپ تۈگىتەلمەيدىغان "نېمە ئۈچۈن" لىرىمىز بار،
 1	بىزنىڭ	بىز	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	obl	_	Translit=bizning
-2	سوراپ-سوراپ	_	NOUN	N	_	3	advmod	_	Translit=sorap-sorap|Morf=Unknown
+2	سوراپ-سوراپ	_	NOUN	N	_	3	obl	_	Translit=sorap-sorap|Morf=Unknown
 3	تۈگىتەلمەيدىغان	_	NOUN	N	_	6	acl	_	Translit=tügitelmeydighan|Morf=Unknown
 4	"	"	PUNCT	Y	_	6	punct	_	SpaceAfter=No|Translit="
 5	نېمە	نېمە	NOUN	P	Case=Nom	6	compound	_	Translit=nëme
@@ -18816,7 +18816,7 @@
 8	ئايلىنىۋاتقانلىقىنى	_	VERB	V	_	13	obj	_	SpaceAfter=No|Translit=ayliniwatqanliqini|Morf=Unknown
 9	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 10	سۇنىڭ	سۇ	NOUN	N	Case=Gen	12	nmod:poss	_	Translit=suning
-11	ئۈزۈلۈپ-ئۈزۈلۈپ	_	NOUN	N	_	12	advmod	_	Translit=üzülüp-üzülüp|Morf=Unknown
+11	ئۈزۈلۈپ-ئۈزۈلۈپ	_	NOUN	N	_	12	obl	_	Translit=üzülüp-üzülüp|Morf=Unknown
 12	چۈشۈۋاتقانلىقىنى	_	NOUN	N	_	8	conj	_	Translit=chüshüwatqanliqini|Morf=Unknown
 13	كۆرۈپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=körüptu|Morf=Unknown
 14	.	.	PUNCT	Y	_	13	punct	_	Translit=.
@@ -18839,7 +18839,7 @@
 7	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	det	_	Translit=u
 8	يەردە	يەر	NOUN	N	Case=Loc	14	obl	_	Translit=yerde
 9	كىشىلەرگە	_	NOUN	N	_	14	obl	_	Translit=kishilerge|Morf=Unknown
-10	نۇرغۇن	نۇرغۇن	NOUN	A	Case=Nom	12	advmod	_	Translit=nurghun
+10	نۇرغۇن	نۇرغۇن	NOUN	A	Case=Nom	12	obl	_	Translit=nurghun
 11	ياخشى	ياخشى	ADJ	A	Case=Nom	12	advmod	_	Translit=yaxshi
 12	ئىشلارنى	ئىش	NOUN	N	Case=Acc|Number=Plur	13	obj	_	Translit=ishlarni
 13	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	14	xcomp	_	Translit=qilip
@@ -19780,7 +19780,7 @@
 # text = ئوھۇ، ئەسلىدە بۇ قوزا چارۋىچىلىق مەيدانىدىكى تاغىلار ئاتايىتەن بۆرىگە تاقابىل تۇرۇش ئۈچۈن ياسىغان ماشنا قوي ئىكەن.
 1	ئوھۇ	ئوھۇ	NOUN	N	Case=Nom	16	discourse	_	SpaceAfter=No|Translit=ohu
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
-3	ئەسلىدە	ئەسل	NOUN	D	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	16	advmod	_	Translit=eslide
+3	ئەسلىدە	ئەسل	NOUN	D	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	Translit=eslide
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	قوزا	قوزا	NOUN	N	Case=Nom	16	nsubj	_	Translit=qoza
 6	چارۋىچىلىق	چارۋىچىلىق	NOUN	N	Case=Nom	7	nmod	_	Translit=charwichiliq
@@ -20057,7 +20057,7 @@
 # text = ھەممە نەرسە شۇقەدەر خىلۋەت، شۇقەدەر سىرلىقكى، ئۇنىڭ تېگىگە يەتكىلى بولمايدۇ.
 1	ھەممە	ھەممە	DET	P	_	2	det	_	Translit=hemme
 2	نەرسە	نەرسە	NOUN	N	Case=Nom	4	nsubj	_	Translit=nerse
-3	شۇقەدەر	_	NOUN	N	_	4	advmod	_	Translit=shuqeder|Morf=Unknown
+3	شۇقەدەر	_	NOUN	N	_	4	obl	_	Translit=shuqeder|Morf=Unknown
 4	خىلۋەت	خىلۋەت	NOUN	V	Case=Nom	11	parataxis	_	SpaceAfter=No|Translit=xilwet
 5	،	،	PUNCT	Y	_	7	punct	_	Translit=,
 6	شۇقەدەر	_	NOUN	N	_	7	obl	_	Translit=shuqeder|Morf=Unknown
@@ -20319,7 +20319,7 @@
 # text = پاقىلار قىشىچە راھەت ئۇخلاشنىڭ غېمىدە كامار كولاشقا تۇتۇندى.
 1	پاقىلار	پاقا	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Translit=paqilar
 2	قىشىچە	_	ADV	D	_	4	advmod	_	Translit=qishiche|Morf=Unknown
-3	راھەت	راھەت	NOUN	N	Case=Nom	4	advmod	_	Translit=rahet
+3	راھەت	راھەت	NOUN	N	Case=Nom	4	obl	_	Translit=rahet
 4	ئۇخلاشنىڭ	_	NOUN	N	_	5	nmod:poss	_	Translit=uxlashning|Morf=Unknown
 5	غېمىدە	غەم	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	Translit=ghëmide
 6	كامار	كامار	NOUN	N	Case=Nom	7	obj	_	Translit=kamar
@@ -20699,7 +20699,7 @@
 # text = تۇيۇقسىز، ئوغۇل بالا «شاپپىدە» ئولتۇردى - دە يىغلاشقا باشلىدى.
 1	تۇيۇقسىز	تۇيۇقسىز	ADV	D	_	6	advmod	_	SpaceAfter=No|Translit=tuyuqsiz
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
-3	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	4	advmod	_	Translit=oghul
+3	ئوغۇل	ئوغۇل	NOUN	N	Case=Nom	4	obl	_	Translit=oghul
 4	بالا	بالا	NOUN	N	Case=Nom	6	nsubj	_	Translit=bala
 5	«شاپپىدە»	_	NOUN	N	_	6	obl	_	Translit=«shappide»|Morf=Unknown
 6	ئولتۇردى	ئولتۇر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	Translit=olturdi
@@ -22062,7 +22062,7 @@
 10	ئۈچۈن	ئۈچۈن	ADP	C	_	9	case	_	SpaceAfter=No|Translit=üchün
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	ئىنسانلار	ئىنسان	NOUN	N	Case=Nom|Number=Plur	16	nsubj	_	Translit=insanlar
-13	زور	زور	NOUN	A	Case=Nom	14	advmod	_	Translit=zor
+13	زور	زور	NOUN	A	Case=Nom	14	obl	_	Translit=zor
 14	تىرىشچانلىق	تىرىشچانلىق	NOUN	N	Case=Nom	15	obj	_	Translit=tirishchanliq
 15	كۆرسىتىپ	_	VERB	V	_	16	xcomp	_	Translit=körsitip|Morf=Unknown
 16	كەلمەكتە	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=kelmekte|Morf=Unknown
@@ -22262,7 +22262,7 @@
 
 # sent_id = s3319
 # text = مۆلچەرلىنىشىچە، ئاي شارىدىن ئېلىپ كېلىنگەن بىر پارچە تاشنىڭ يېشى 4 مىليارد 600 مىليون يىل ئىكەن؛
-1	مۆلچەرلىنىشىچە	_	NOUN	N	_	15	advmod	_	SpaceAfter=No|Translit=mölcherlinishiche|Morf=Unknown
+1	مۆلچەرلىنىشىچە	_	NOUN	N	_	15	obl	_	SpaceAfter=No|Translit=mölcherlinishiche|Morf=Unknown
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	ئاي	ئاي	NOUN	N	Case=Nom	4	compound	_	Translit=ay
 4	شارىدىن	_	NOUN	N	_	6	obl	_	Translit=sharidin|Morf=Unknown
@@ -22324,7 +22324,7 @@
 
 # sent_id = s3323
 # text = مانا بۇ بىر سىر.
-1	مانا	مانا	NOUN	T	Case=Nom	4	advmod	_	Translit=mana
+1	مانا	مانا	NOUN	T	Case=Nom	4	obl	_	Translit=mana
 2	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	4	nsubj	_	Translit=bu
 3	بىر	بىر	NUM	M	_	4	nummod	_	Translit=bir
 4	سىر	سىر	NOUN	N	Case=Nom	0	root	_	SpaceAfter=No|Translit=sir
@@ -22359,7 +22359,7 @@
 # text = ئۇلارنىڭ ھەددىدىن ئارتۇق قىزدۇرۇىشى بىلەن يەردە بىر تال گىياھمۇ ئۈنمەيدىكەن.
 1	ئۇلارنىڭ	ئۇلار	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	nmod:poss	_	Translit=ularning
 2	ھەددىدىن	_	NOUN	N	_	3	compound	_	Translit=heddidin|Morf=Unknown
-3	ئارتۇق	ئارتۇق	NOUN	A	Case=Nom	4	advmod	_	Translit=artuq
+3	ئارتۇق	ئارتۇق	NOUN	A	Case=Nom	4	obl	_	Translit=artuq
 4	قىزدۇرۇىشى	_	NOUN	N	_	10	obl	_	Translit=qizduruishi|Morf=Unknown
 5	بىلەن	بىلەن	ADP	R	_	4	case	_	Translit=bilen
 6	يەردە	يەر	NOUN	N	Case=Loc	10	obl	_	Translit=yerde
@@ -22481,7 +22481,7 @@
 
 # sent_id = s3334
 # text = ئەمەلىيەتتە ئۇ غايەت زور بولۇپ، 1 مىليون 300 مىڭ يەر شارى ئاران بىر قۇياشقا تەڭ كېلىدۇ.
-1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	16	advmod	_	Translit=emeliyette
+1	ئەمەلىيەتتە	ئەمەلىيەت	NOUN	N	Case=Loc	16	obl	_	Translit=emeliyette
 2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Translit=u
 3	غايەت	غايەت	ADV	A	_	4	advmod	_	Translit=ghayet
 4	زور	زور	NOUN	A	Case=Nom	16	parataxis	_	Translit=zor
@@ -22701,7 +22701,7 @@
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 3	كۆمۈر	كۆمۈر	NOUN	N	Case=Nom	14	nsubj	_	Translit=kömür
 4	ئۆسۈملۈكلەرنىڭ	ئۆسۈملۈك	NOUN	N	Case=Gen|Number=Plur	12	nmod:poss	_	Translit=ösümlüklerning
-5	يىراق	يىراق	NOUN	A	Case=Nom	7	advmod	_	Translit=yiraq
+5	يىراق	يىراق	NOUN	A	Case=Nom	7	obl	_	Translit=yiraq
 6	قەدىمكى	قەدىمكى	ADJ	A	Case=Nom	7	advmod	_	Translit=qedimki
 7	دەۋردە	دەۋر	NOUN	N	Case=Loc	12	obl	_	Translit=dewrde
 8	يەر	يەر	NOUN	N	Case=Nom	9	nmod	_	Translit=yer
@@ -23084,7 +23084,7 @@
 11	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	12	compound	_	Translit=shu
 12	ئارقىلىق	ئارقىلىق	ADP	R	_	18	advmod	_	Translit=arqiliq
 13	ئانىسىغا	ئانا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	Translit=anisigha
-14	ياردەملىشىپ	_	NOUN	N	_	16	advmod	_	Translit=yardemliship|Morf=Missing,2
+14	ياردەملىشىپ	_	NOUN	N	_	16	obl	_	Translit=yardemliship|Morf=Missing,2
 15	قىلغان	قىل	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	16	acl	_	Translit=qilghan
 16	ئىشلىرىغا	ئىش	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	18	obl	_	Translit=ishlirigha
 17	ھەق	ھەق	NOUN	N	Case=Nom	18	obj	_	Translit=heq
@@ -23698,7 +23698,7 @@
 2	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Translit=uning
 3	بۇقۇلدىشى	بۇقۇلدى	VERB	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	7	nsubj	_	Translit=buquldishi
 4	پەس	پەس	ADJ	A	Case=Nom	5	amod	_	Translit=pes
-5	ئاۋازدا	ئاۋاز	NOUN	N	Case=Loc	6	advmod	_	Translit=awazda
+5	ئاۋازدا	ئاۋاز	NOUN	N	Case=Loc	6	obl	_	Translit=awazda
 6	يىغلاشقا	_	NOUN	N	_	7	obl	_	Translit=yighlashqa|Morf=Unknown
 7	ئايلىنىپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ayliniptu|Morf=Unknown
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
