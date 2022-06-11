@@ -20361,7 +20361,7 @@
 5	تەييارلىقى	تەييارلىق	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=teyyarliqi
 6	بىلەن	بىلەن	ADP	R	_	5	case	_	Translit=bilen
 7	ئالدىراش	ئالدىراش	ADJ	V	Case=Nom	0	root	_	Translit=aldirash
-8	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	7	aux	_	Translit=bolup
+8	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	7	aux	_	Translit=bolup
 9	كەتتى	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No|Translit=ketti
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
