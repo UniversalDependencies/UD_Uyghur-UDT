@@ -14419,7 +14419,7 @@
 15	بايقىغانلىقىنى	_	NOUN	N	_	9	conj	_	Translit=bayqighanliqini|Morf=Unknown
 16	دەرھال	دەرھال	ADV	D	_	17	advmod	_	Translit=derhal
 17	ئايدىڭلاشتۇرماقچى	_	VERB	V	_	0	root	_	Translit=aydinglashturmaqchi|Morf=Unknown
-18	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=boldi
+18	بولدى	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=boldi
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
 # sent_id = s2735

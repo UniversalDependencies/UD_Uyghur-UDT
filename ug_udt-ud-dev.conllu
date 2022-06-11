@@ -5267,7 +5267,7 @@
 6	ئاپئاق	ئاپئاق	ADJ	A	Case=Nom	16	parataxis	_	Translit=apaq
 7	ھەم	ھەم	CCONJ	C	_	8	cc	_	Translit=hem
 8	بۇدرۇق	بۇدرۇق	ADJ	A	Case=Nom	6	conj	_	Translit=budruq
-9	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	8	aux	_	SpaceAfter=No|Translit=bolup
+9	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	8	aux	_	SpaceAfter=No|Translit=bolup
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 11	يوغان	يوغان	ADJ	A	_	12	amod	_	Translit=yoghan
 12	كۆزلىرى	كۆز	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	amod	_	Translit=közliri
@@ -6106,7 +6106,7 @@
 8	ئەسلىدىكىدىن	ئەسل	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	12	nmod	_	Translit=eslidikidin
 9	بىر	بىر	NUM	M	_	10	nummod	_	Translit=bir
 10	قەدەم	قەدەم	NOUN	N	Case=Nom	12	nmod	_	Translit=qedem
-11	بولسىمۇ	بول	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	14	aux	_	Translit=bolsimu
+11	بولسىمۇ	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	14	aux	_	Translit=bolsimu
 12	تېز	تېز	NOUN	A	Case=Nom	13	obl	_	Translit=tëz
 13	يۈگۈرگىلى	_	VERB	V	_	14	csubj	_	Translit=yügürgili|Morf=Unknown
 14	بولىدىغانلىقىنى	_	VERB	V	_	15	obj	_	Translit=bolidighanliqini|Morf=Unknown

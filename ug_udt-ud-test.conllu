@@ -489,7 +489,7 @@
 7	ئائىلە	ئائىلە	NOUN	N	Case=Nom	9	nsubj	_	Translit=aile
 8	ساپان	ساپان	NOUN	N	Case=Nom	9	obj	_	Translit=sapan
 9	ياسىماقچى	_	VERB	V	_	4	conj	_	Translit=yasimaqchi|Morf=Unknown
-10	بولسا	بول	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	aux	_	SpaceAfter=No|Translit=bolsa
+10	بولسا	بول	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	aux	_	SpaceAfter=No|Translit=bolsa
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 12	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	13	det	_	Translit=shu
 13	ئائىلىدىكىلەر	_	NOUN	N	_	19	nsubj	_	Translit=ailidikiler|Morf=Unknown
@@ -1152,7 +1152,7 @@
 # sent_id = s84
 # text = ھەرىدەپ بولۇپ قارىسا، ياغاچ قىسقا بولۇپ قاپتۇ.
 1	ھەرىدەپ	_	NOUN	N	_	3	advcl	_	Translit=heridep|Morf=Unknown
-2	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bolup
+2	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bolup
 3	قارىسا	قارا	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	8	advcl	_	SpaceAfter=No|Translit=qarisa
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	ياغاچ	ياغاچ	NOUN	N	Case=Nom	8	nsubj	_	Translit=yaghach
@@ -2081,7 +2081,7 @@
 4	دادا	دادا	NOUN	N	Case=Nom	6	discourse	_	SpaceAfter=No|Translit=dada
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	يادلاپ	_	NOUN	N	_	2	conj	_	Translit=yadlap|Morf=Unknown
-7	بولدۇم	بول	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No|Translit=boldum
+7	بولدۇم	بول	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No|Translit=boldum
 8	!	!	PUNCT	Y	_	7	punct	_	Translit=!
 
 # sent_id = s151
@@ -4265,7 +4265,7 @@
 13	قىممەتلىك	قىممەتلىك	ADJ	A	_	14	amod	_	Translit=qimmetlik
 14	نەرسىنى	نەرسە	NOUN	N	Case=Acc	15	obj	_	Translit=nersini
 15	تاپماقچى	_	VERB	V	_	0	root	_	Translit=tapmaqchi|Morf=Unknown
-16	بولدۇم	بول	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|Translit=boldum
+16	بولدۇم	بول	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|Translit=boldum
 17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s320
@@ -4765,7 +4765,7 @@
 3	«	«	PUNCT	Y	_	11	punct	_	SpaceAfter=No|Translit=«
 4	قىلىدىغاننى	_	NOUN	N	_	5	obj	_	Translit=qilidighanni|Morf=Unknown
 5	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=qilip
-6	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	5	aux	_	SpaceAfter=No|Translit=bolup
+6	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	5	aux	_	SpaceAfter=No|Translit=bolup
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	ھېچ	ھېچ	PRON	P	Case=Nom	9	compound	_	Translit=hëch
 9	ئىش	ئىش	NOUN	N	Case=Nom	10	nsubj	_	Translit=ish
@@ -5144,7 +5144,7 @@
 20	ياندۇرما	ياندۇر	VERB	V	Mood=Imp|Polarity=Neg|VerbForm=Fin	22	parataxis	_	SpaceAfter=No|Translit=yandurma
 21	،	،	PUNCT	Y	_	20	punct	_	Translit=,
 22	مۇداپىئىلەنسەڭ	مۇداپىئىلەن	VERB	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Conv	6	parataxis	_	Translit=mudapiilenseng
-23	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No|Translit=boldi
+23	بولدى	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No|Translit=boldi
 24	.	.	PUNCT	Y	_	23	punct	_	SpaceAfter=No|Translit=.
 25	»	»	PUNCT	Y	_	22	punct	_	Translit=»
 
@@ -6356,7 +6356,7 @@
 8	،	،	PUNCT	Y	_	10	punct	_	Translit=,
 9	سايىۋەنلەرمۇ	سايىۋەن	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	Translit=sayiwenlermu
 10	ھازىر	ھازىر	ADV	D	_	6	conj	_	Translit=hazir
-11	بولدى	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=boldi
+11	بولدى	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=boldi
 12	،	،	PUNCT	Y	_	15	punct	_	Translit=,
 13	مۇراسىمغا	مۇراسىم	NOUN	N	Case=Dat	14	nmod	_	Translit=murasimgha
 14	مەرھەمەت	مەرھەمەت	NOUN	N	Case=Nom	15	xcomp	_	Translit=merhemet
@@ -7190,7 +7190,7 @@
 # sent_id = s525
 # text = كەتمەكچى بولۇپ تۇرغاندا بىلىنەر - بىلىنمەس ئازگالغا كۆزۈم چۈشتى.
 1	كەتمەكچى	_	VERB	V	_	9	advcl	_	Translit=ketmekchi|Morf=Unknown
-2	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bolup
+2	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	1	aux	_	Translit=bolup
 3	تۇرغاندا	تۇر	AUX	V	Case=Loc|Tense=Past|VerbForm=Ger	1	aux	_	Translit=turghanda
 4	بىلىنەر	_	NOUN	N	_	6	compound:redup	_	Translit=biliner|Morf=Unknown
 5	-	-	PUNCT	Y	_	4	punct	_	Translit=-
