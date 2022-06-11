@@ -6974,9 +6974,9 @@
 # sent_id = s1345
 # text = ئۇ قايتىپ كېلىپ، ئۆيىدىكىلەرگە: «بۇيىل قوناق تېرايلى» دەپتۇ.
 1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Translit=u
-2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=qaytip
-3	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	12	parataxis	_	SpaceAfter=No|Translit=këlip
-4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
+2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	12	parataxis	_	Translit=qaytip
+3	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Inf	2	xcomp	_	SpaceAfter=No|Translit=këlip
+4	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 5	ئۆيىدىكىلەرگە	_	NOUN	N	_	12	obl	_	SpaceAfter=No|Translit=öyidikilerge|Morf=Unknown
 6	:	:	PUNCT	Y	_	5	punct	_	Translit=:
 7	«	«	PUNCT	Y	_	10	punct	_	SpaceAfter=No|Translit=«
@@ -7148,7 +7148,7 @@
 8	بالا	بالا	NOUN	N	Case=Nom	12	nsubj	_	Translit=bala
 9	توختامنى	توختام	NOUN	N	Case=Acc	10	obj	_	Translit=toxtamni
 10	كۆرسىتىپ	_	VERB	V	_	12	advcl	_	Translit=körsitip|Morf=Unknown
-11	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Conv	10	aux	_	Translit=turup
+11	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	10	aux	_	Translit=turup
 12	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 

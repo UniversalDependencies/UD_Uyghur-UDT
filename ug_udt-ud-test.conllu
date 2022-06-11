@@ -1487,7 +1487,7 @@
 10	يەتكۈچە	_	VERB	V	_	11	advmod	_	Translit=yetküche|Morf=Unknown
 11	تارتقانلىقى	_	VERB	V	_	12	csubj	_	Translit=tartqanliqi|Morf=Unknown
 12	بىلىنىپ	بىل	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	15	acl	_	Translit=bilinip
-13	تۇرغان	تۇر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	Translit=turghan
+13	تۇرغان	تۇر	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	Translit=turghan
 14	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	15	det	_	Translit=bu
 15	يىگىتنىڭ	يىگىت	NOUN	N	Case=Gen	19	nsubj	_	Translit=yigitning
 16	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	17	compound	_	Translit=bir
@@ -1795,7 +1795,7 @@
 6	قۇچىغىغا	_	NOUN	N	_	7	obl	_	Translit=quchighigha|Morf=Unknown
 7	ئېلىپ	ئال	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	Translit=ëlip
 8	ئەركىلىتىپ	_	VERB	V	_	10	advcl	_	Translit=erkilitip|Morf=Unknown
-9	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Conv	8	aux	_	Translit=turup
+9	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	8	aux	_	Translit=turup
 10	دىدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=didi|Morf=Unknown
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
@@ -2302,7 +2302,7 @@
 15	ھايۋانلارنىڭ	ھايۋان	NOUN	N	Case=Gen|Number=Plur	16	nmod:poss	_	Translit=haywanlarning
 16	نامىنى	نامە	NOUN	N	Case=Acc	17	obj	_	Translit=namini
 17	ئېيتقىلى	_	VERB	V	_	0	root	_	Translit=ëytqili|Morf=Unknown
-18	تۇردى	تۇر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=turdi
+18	تۇردى	تۇر	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=turdi
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
 # sent_id = s165
@@ -3566,7 +3566,7 @@
 # sent_id = s261
 # text = قاراپ تۇر،
 1	قاراپ	قارا	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qarap
-2	تۇر	تۇر	VERB	V	Mood=Imp|VerbForm=Fin	1	aux	_	SpaceAfter=No|Translit=tur
+2	تۇر	تۇر	AUX	V	Mood=Imp|VerbForm=Fin	1	aux	_	SpaceAfter=No|Translit=tur
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 
 # sent_id = s262
@@ -4726,7 +4726,7 @@
 # text = كراي كۈلۈمسىرەپ تۇرۇپ: - ئاداش، مەن قەستەن قىلمىدىم، - دېدى.
 1	كراي	_	NOUN	N	_	13	nsubj	_	Translit=kray|Morf=Unknown
 2	كۈلۈمسىرەپ	_	VERB	V	_	13	advcl	_	Translit=külümsirep|Morf=Unknown
-3	تۇرۇپ	تۇر	VERB	V	Aspect=Perf|VerbForm=Conv	2	aux	_	SpaceAfter=No|Translit=turup
+3	تۇرۇپ	تۇر	AUX	V	Aspect=Perf|VerbForm=Conv	2	aux	_	SpaceAfter=No|Translit=turup
 4	:	:	PUNCT	Y	_	3	punct	_	Translit=:
 5	-	-	PUNCT	Y	_	3	punct	_	Translit=-
 6	ئاداش	ئاداش	NOUN	N	Case=Nom	10	discourse	_	SpaceAfter=No|Translit=adash
@@ -5330,9 +5330,9 @@
 
 # sent_id = s406
 # text = ئۆيگە قايتىپ كەلگەندىن كېيىن، بولغان ئىشلارنى دادامغا سۆزلەپ بەردىم.
-1	ئۆيگە	ئۆي	NOUN	N	Case=Dat	3	obl	_	Translit=öyge
-2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=qaytip
-3	كەلگەندىن	كەل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	10	advcl	_	Translit=kelgendin
+1	ئۆيگە	ئۆي	NOUN	N	Case=Dat	2	obl	_	Translit=öyge
+2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=qaytip
+3	كەلگەندىن	كەل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	2	xcomp	_	Translit=kelgendin
 4	كېيىن	_	ADV	D	_	3	mark	_	SpaceAfter=No|Translit=këyin|Morf=Missing,1
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	بولغان	بول	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	7	acl	_	Translit=bolghan
@@ -5563,7 +5563,7 @@
 19	يوپۇرماقلىرى	_	NOUN	N	_	11	conj	_	Translit=yopurmaqliri|Morf=Unknown
 20	ئېنىق	ئېنىق	ADJ	A	Case=Nom	21	advmod	_	Translit=ëniq
 21	كۆرۈنۈپ	كۆرۈن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körünüp
-22	تۇرىدۇ	تۇر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No|Translit=turidu
+22	تۇرىدۇ	تۇر	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No|Translit=turidu
 23	.	.	PUNCT	Y	_	22	punct	_	Translit=.
 
 # sent_id = s421
