@@ -1237,10 +1237,10 @@
 
 # sent_id = s959
 # text = ئاۋازىڭ ئۇزاق يىل ئېغىر كېسەل تارتىپ ماغدۇرى قالمىغان ئادەمنىڭ ئاۋازىدەك تىترەڭگۈ ۋە جانسىز بولۇپ، ھەسرەت تۇمانلىرى لەيلەپ تۇرغان بىر جۈپ قاپقارا قوي كۆزلىرىڭ نامەلۇم بىر خىيال شولىلىرى ئىچىدە نەگىدۇر بىر يەرگە ئىپادىسىزلا تىكىلىپ قالغانىدى.
-1	ئاۋازىڭ	_	NOUN	N	_	13	nsubj	_	Translit=awazing|Morf=Unknown
+1	ئاۋازىڭ	ئاۋاز	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	13	nsubj	_	Translit=awazing|Morf=Unknown
 2	ئۇزاق	ئۇزاق	ADJ	A	_	3	amod	_	Translit=uzaq
-3	يىل	يىل	NOUN	N	Case=Nom	6	nmod:tmod	_	Translit=yil
-4	ئېغىر	ئېغىر	ADJ	A	_	6	amod	_	Translit=ëghir
+3	يىل	يىل	NOUN	N	Case=Nom	5	nmod:tmod	_	Translit=yil
+4	ئېغىر	ئېغىر	ADJ	A	_	5	amod	_	Translit=ëghir
 5	كېسەل	كېسەل	NOUN	N	Case=Nom	8	obl	_	Translit=kësel
 6	تارتىپ	تارتىپ	ADP	R	_	5	case	_	Translit=tartip
 7	ماغدۇرى	ماغدۇر	NOUN	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=maghduri
@@ -5203,7 +5203,7 @@
 3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
 4	چاشقانلار	چاشقان	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	Translit=chashqanlar
 5	تا	تا	ADP	R	_	6	case	_	Translit=ta
-6	ھازىرغىچە	_	ADV	D	_	10	case	_	Translit=hazirghiche|Morf=Unknown
+6	ھازىرغىچە	_	ADV	D	_	10	advmod	_	Translit=hazirghiche|Morf=Unknown
 7	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	8	det	_	Translit=bu
 8	ئىشنى	ئىش	NOUN	N	Case=Acc	10	obj	_	Translit=ishni
 9	دەتالاش	_	NOUN	N	_	10	compound	_	Translit=detalash|Morf=Missing,1
@@ -11546,9 +11546,9 @@
 2	_	_	PUNCT	Y	_	13	punct	_	Translit=_|Morf=Unknown
 3	خالايىق	خالايىق	NOUN	N	Case=Nom	13	vocative	_	SpaceAfter=No|Translit=xalayiq
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
-5	ئېتىمنىڭ	_	NOUN	N	_	6	nmod:poss	_	Translit=ëtimning|Morf=Unknown
-6	يوقالغانلىقى	_	NOUN	N	_	7	nmod	_	Translit=yoqalghanliqi|Morf=Unknown
-7	تۈپەيلىدىن	_	ADP	R	_	13	case	_	Translit=tüpeylidin|Morf=Unknown
+5	ئېتىمنىڭ	ئىت	NOUN	N	_	6	nmod:poss	_	Gloss=of-my-dog|Translit=ëtimning|Morf=Unknown
+6	يوقالغانلىقى	_	NOUN	N	_	13	obl	_	Translit=yoqalghanliqi|Morf=Unknown
+7	تۈپەيلىدىن	_	ADP	R	_	6	case	_	Translit=tüpeylidin|Morf=Unknown
 8	ھەممىڭلار	_	VERB	V	_	13	nsubj	_	Translit=hemminglar|Morf=Unknown
 9	تۇشمۇ	تۇ	VERB	V	Case=Nom|VerbForm=Ger	11	compound:redup	_	Translit=tushmu
 10	-	-	PUNCT	Y	_	9	punct	_	Translit=-
