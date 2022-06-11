@@ -10207,8 +10207,8 @@
 # sent_id = s726
 # text = ئادەتتە چېچىمدىن كۆرە بۇرۇتۇمنىڭ ياسىلىشىغا بەكرەك ئەھمىيەت_بېرەتتىم.
 1	ئادەتتە	ئادەت	NOUN	N	Case=Loc	7	discourse	_	Translit=adette
-2	چېچىمدىن	_	NOUN	N	_	3	nmod:comp	_	Translit=chëchimdin|Morf=Unknown
-3	كۆرە	_	ADP	R	_	5	case	_	Translit=köre|Morf=Unknown
+2	چېچىمدىن	چاچ	NOUN	N	Case=Abl|Number[psor]=Sing|Person[psor]=1	5	nmod:comp	_	Gloss=than-my-hair|Translit=chëchimdin|Morf=Unknown
+3	كۆرە	كۆرە	ADP	R	_	2	case	_	Translit=köre|Morf=Unknown
 4	بۇرۇتۇمنىڭ	بۇرۇت	NOUN	N	Case=Gen|Number[psor]=Sing|Person[psor]=1	5	nmod:poss	_	Translit=burutumning
 5	ياسىلىشىغا	ياسى	VERB	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger|Voice=Pass	7	obl	_	Translit=yasilishigha
 6	بەكرەك	_	ADV	D	_	7	advmod	_	Translit=bekrek|Morf=Unknown
