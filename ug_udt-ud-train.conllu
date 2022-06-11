@@ -16008,7 +16008,7 @@
 3	بىلەن	بىلەن	ADP	R	_	2	case	_	Translit=bilen
 4	توپنىڭ	توپ	NOUN	N	Case=Gen	5	nmod:poss	_	Translit=topning
 5	ئىچىدىن	ئىچ	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	Translit=ichidin
-6	ئېتىلىپ	_	AUX	V	_	7	advmod	_	Translit=ëtilip|Morf=Unknown
+6	ئېتىلىپ	_	VERB	V	_	7	advcl	_	Translit=ëtilip|Morf=Unknown
 7	چىقىپ	چىق	VERB	V	Aspect=Perf|VerbForm=Inf	14	parataxis	_	Translit=chiqip
 8	كەتتى،	_	NOUN	N	_	7	compound	_	Translit=ketti,|Morf=Unknown
 9	بىزنڭ	_	VERB	V	_	10	nmod:poss	_	Translit=biznng|Morf=Unknown
