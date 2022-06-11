@@ -22956,13 +22956,13 @@
 # text = بۇ بۆلەكتىكى تېكىستلەر بىزنى ئاجايىپ-غارايىپ پەن-تېخنىكا دۇنياسىغا باشلاپ كىرىدۇ.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	بۆلەكتىكى	بۆلەك	NOUN	N	Case=Nom	3	amod	_	Translit=bölektiki
-3	تېكىستلەر	تېكىست	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Translit=tëkistler
+3	تېكىستلەر	تېكىست	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	Translit=tëkistler
 4	بىزنى	بىز	PRON	P	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	Translit=bizni
 5	ئاجايىپ-غارايىپ	_	NOUN	N	_	7	amod	_	Translit=ajayip-gharayip|Morf=Unknown
 6	پەن-تېخنىكا	_	NOUN	N	_	7	nmod	_	Translit=pen-tëxnika|Morf=Unknown
-7	دۇنياسىغا	_	NOUN	N	_	8	obl	_	Translit=dunyasigha|Morf=Unknown
-8	باشلاپ	باشلاپ	NOUN	V	Case=Nom	0	root	_	Translit=bashlap
-9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=kiridu
+7	دۇنياسىغا	_	NOUN	N	_	9	obl	_	Translit=dunyasigha|Morf=Unknown
+8	باشلاپ	باشلاپ	NOUN	V	Case=Nom	9	xcomp	_	Translit=bashlap
+9	كىرىدۇ	كىر	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=kiridu
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s3364

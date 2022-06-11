@@ -85,8 +85,8 @@
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2431</dep>
     <dep name="appos">122</dep>
-    <dep name="aux">342</dep>
-    <dep name="case">568</dep>
+    <dep name="aux">334</dep>
+    <dep name="case">569</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">433</dep>
     <dep name="compound">1607</dep>
@@ -110,7 +110,7 @@
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
     <dep name="nmod:tmod">88</dep>
-    <dep name="nsubj">3787</dep>
+    <dep name="nsubj">3788</dep>
     <dep name="nsubj:pass">6</dep>
     <dep name="nummod">739</dep>
     <dep name="obj">2309</dep>
@@ -122,6 +122,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">54</dep>
-    <dep name="xcomp">514</dep>
+    <dep name="xcomp">520</dep>
   </deps>
 </treebank>

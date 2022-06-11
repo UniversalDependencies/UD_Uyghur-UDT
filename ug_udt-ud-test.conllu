@@ -7569,8 +7569,8 @@
 # sent_id = s554
 # text = ئالدىدا چېپىپ كېتىۋاتقان توخۇ ئۆردەكنىڭ ئىغاڭلىغىنىچە مىسىلداپ مېڭىپ كېلىۋاتقانلىقىنى كۆرۈپ، بىردەم - بىردەم ئارقىغا قاراپ مەسخىرىلىك كۈلۈپتۇ.
 1	ئالدىدا	ئالد	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	2	obl	_	Translit=aldida
-2	چېپىپ	چاپ	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=chëpip
-3	كېتىۋاتقان	_	VERB	V	_	4	acl	_	Translit=këtiwatqan|Morf=Unknown
+2	چېپىپ	چاپ	VERB	V	Aspect=Perf|VerbForm=Conv	4	acl	_	Translit=chëpip
+3	كېتىۋاتقان	_	VERB	V	_	2	xcomp	_	Translit=këtiwatqan|Morf=Unknown
 4	توخۇ	توخۇ	NOUN	N	Case=Nom	18	nsubj	_	Translit=toxu
 5	ئۆردەكنىڭ	ئۆردەك	NOUN	N	Case=Gen	9	nmod:poss	_	Translit=ördekning
 6	ئىغاڭلىغىنىچە	_	NOUN	N	_	9	obl	_	Translit=ighanglighiniche|Morf=Unknown
@@ -8779,8 +8779,8 @@
 # sent_id = s639
 # text = قاتتىق قورقۇپ كەتكەن ژىننى دەررۇ گۈلنىڭ يېشىل بەرگنى ئۈزۈپ ناخشا ئېيتىپتۇ ۋە: «مېنى دەرھال ئاپىرىپ قوي ئۆيۈمگە!» دەپتۇ.
 1	قاتتىق	قاتتىق	ADJ	A	Case=Nom	2	advmod	_	Translit=qattiq
-2	قورقۇپ	قورق	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=qorqup
-3	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	4	acl	_	Translit=ketken
+2	قورقۇپ	قورق	VERB	V	Aspect=Perf|VerbForm=Conv	4	acl	_	Translit=qorqup
+3	كەتكەن	كەت	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	2	xcomp	_	Translit=ketken
 4	ژىننى	_	NOUN	N	_	11	nsubj	_	Translit=zhinni|Morf=Unknown
 5	دەررۇ	دەررۇ	ADV	D	_	9	advmod	_	Translit=derru
 6	گۈلنىڭ	گۈل	NOUN	N	Case=Gen	8	nmod:poss	_	Translit=gülning
@@ -9837,7 +9837,7 @@
 14	ئەستە_چىڭ_تۇتۇش	_	VERB	V	_	15	csubj	_	Translit=este_ching_tutush|Morf=Unknown
 15	كېرەك	كېرەك	ADJ	A	Case=Nom	33	ccomp	_	Gloss=need|SpaceAfter=No|Translit=kërek
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
-17	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	31	nsubj	_	SpaceAfter=No|Translit=bu
+17	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	30	nsubj	_	SpaceAfter=No|Translit=bu
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,
 19	ئون	ئون	NUM	M	_	20	nummod	_	Translit=on
 20	يىلدىن	يىل	NOUN	N	Case=Abl	21	nmod	_	Translit=yildin
@@ -9850,9 +9850,9 @@
 27	تەرەققى_قىلىۋاتقان	_	NOUN	N	_	28	amod	_	Translit=tereqqi_qiliwatqan|Morf=Unknown
 28	دۆلەت	دۆلەت	NOUN	N	Case=Nom	30	ccomp	_	Translit=dölet
 29	بولۇشىنى	بول	AUX	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	28	cop	_	Translit=bolushini
-30	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	31	aux	_	Translit=keltürüp
-31	چىقىرىدۇ	چىقار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	SpaceAfter=No|Translit=chiqiridu
-32	،	،	PUNCT	Y	_	31	punct	_	Translit=,
+30	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	33	ccomp	_	Translit=keltürüp
+31	چىقىرىدۇ	چىقار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	xcomp	_	SpaceAfter=No|Translit=chiqiridu
+32	،	،	PUNCT	Y	_	30	punct	_	Translit=,
 33	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=dëdi
 34	.	.	PUNCT	Y	_	33	punct	_	Translit=.
 
@@ -12135,20 +12135,20 @@
 
 # sent_id = s857
 # text = ئىككىسى ئىككى ئورۇندۇقتا يانمۇيان ئولتۇرۇۋېلىپ، بىر ھەپتىدەك ھەپىلىشىپ بىر تور بېتى لايىھەلەپ چىقىشتى.
-1	ئىككىسى	ئىككى	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	13	nsubj	_	Translit=ikkisi
+1	ئىككىسى	ئىككى	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	14	nsubj	_	Translit=ikkisi
 2	ئىككى	ئىككى	NUM	M	_	3	nummod	_	Translit=ikki
 3	ئورۇندۇقتا	ئورۇندۇق	NOUN	N	Case=Loc	5	obl	_	Translit=orunduqta
 4	يانمۇيان	يانمۇيان	NOUN	N	Case=Nom	5	obl	_	Translit=yanmuyan
-5	ئولتۇرۇۋېلىپ	_	VERB	V	_	13	advcl	_	SpaceAfter=No|Translit=olturuwëlip|Morf=Unknown
+5	ئولتۇرۇۋېلىپ	_	VERB	V	_	14	advcl	_	SpaceAfter=No|Translit=olturuwëlip|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	بىر	بىر	NUM	M	_	8	nummod	_	Translit=bir
 8	ھەپتىدەك	_	NOUN	N	_	9	nmod:tmod	_	Translit=heptidek|Morf=Unknown
-9	ھەپىلىشىپ	_	VERB	V	_	13	advcl	_	Translit=hepiliship|Morf=Unknown
+9	ھەپىلىشىپ	_	VERB	V	_	14	advcl	_	Translit=hepiliship|Morf=Unknown
 10	بىر	بىر	NUM	M	_	12	nummod	_	Translit=bir
 11	تور	تور	NOUN	N	Case=Nom	12	compound	_	Translit=tor
 12	بېتى	بات	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	obj	_	Translit=bëti
-13	لايىھەلەپ	_	NOUN	N	_	0	root	_	Translit=layihelep|Morf=Unknown
-14	چىقىشتى	چىقىش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No|Translit=chiqishti
+13	لايىھەلەپ	_	NOUN	N	_	14	xcomp	_	Translit=layihelep|Morf=Unknown
+14	چىقىشتى	چىقىش	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chiqishti
 15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
 
 # sent_id = s858
