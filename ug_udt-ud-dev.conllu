@@ -5406,15 +5406,15 @@
 
 # sent_id = s1231
 # text = ئۇ شۇ ھامان ئۆزىنى بەك يۇقىرى چاغلىۋەتكەنلىكىنى تونۇپ يەتتى.
-1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Translit=u
-2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	8	obl	_	Translit=shu
+1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Translit=u
+2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	9	obl	_	Translit=shu
 3	ھامان	ھامان	ADV	D	_	2	fixed	_	Translit=haman
 4	ئۆزىنى	ئۆز	PRON	P	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	7	obj	_	Translit=özini
 5	بەك	بەك	ADV	D	_	6	advmod	_	Translit=bek
 6	يۇقىرى	يۇقىرى	ADJ	A	Case=Nom	7	advmod	_	Translit=yuqiri
 7	چاغلىۋەتكەنلىكىنى	_	VERB	V	_	8	obj	_	Translit=chaghliwetkenlikini|Morf=Unknown
-8	تونۇپ	تونۇ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=tonup
-9	يەتتى	يەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=yetti
+8	تونۇپ	تونۇ	VERB	V	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Translit=tonup
+9	يەتتى	يەت	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yetti
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s1232
@@ -5867,8 +5867,8 @@
 8	قۇياشنىڭ	قۇياش	NOUN	N	Case=Gen	10	nsubj	_	Translit=quyashning
 9	مەڭگۈ	مەڭگۈ	ADJ	D	Case=Nom	10	advmod	_	Translit=menggü
 10	بولمايدىغانلىقىنى	_	VERB	V	_	4	conj	_	Translit=bolmaydighanliqini|Morf=Unknown
-11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshinip
-12	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No|Translit=yettim
+11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	12	xcomp	_	Translit=chüshinip
+12	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yettim
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s1262
@@ -6100,7 +6100,7 @@
 2	مەڭگۈ	مەڭگۈ	ADJ	D	Case=Nom	4	advmod	_	Translit=menggü
 3	ۋاقىتنى	ۋاقىت	NOUN	N	Case=Acc	4	obj	_	Translit=waqitni
 4	يېڭەلمەيدىغانلىقىمنى	_	VERB	V	_	5	obj	_	Translit=yëngelmeydighanliqimni|Morf=Unknown
-5	بىلسەممۇ	_	VERB	V	_	15	parataxis	_	SpaceAfter=No|Translit=bilsemmu|Morf=Unknown
+5	بىلسەممۇ	_	VERB	V	_	16	parataxis	_	SpaceAfter=No|Translit=bilsemmu|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	بىراق	بىراق	CCONJ	C	_	15	cc	_	Translit=biraq
 8	ئەسلىدىكىدىن	ئەسل	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	12	nmod	_	Translit=eslidikidin
@@ -6110,8 +6110,8 @@
 12	تېز	تېز	NOUN	A	Case=Nom	13	obl	_	Translit=tëz
 13	يۈگۈرگىلى	_	VERB	V	_	14	csubj	_	Translit=yügürgili|Morf=Unknown
 14	بولىدىغانلىقىنى	_	VERB	V	_	15	obj	_	Translit=bolidighanliqini|Morf=Unknown
-15	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshinip
-16	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|Translit=yettim
+15	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	16	xcomp	_	Translit=chüshinip
+16	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yettim
 17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s1280
@@ -12099,8 +12099,8 @@
 
 # sent_id = s1714
 # text = مەن شۇندىلا قىلبىمدىكى لىرىك كۈيلەر ۋە شائىرانە تۇيغۇلارنىڭ مېنى قۇتقۇزۇپ قالالمايدىغانلىقىنى ھېس قىلىپ يەتتىم.
-1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Translit=men
-2	شۇندىلا	_	PRON	P	_	13	obl	_	Translit=shundila|Morf=Unknown
+1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Translit=men
+2	شۇندىلا	_	PRON	P	_	14	obl	_	Translit=shundila|Morf=Unknown
 3	قىلبىمدىكى	_	NOUN	N	_	5	amod	_	Translit=qilbimdiki|Morf=Unknown
 4	لىرىك	_	VERB	V	_	5	amod	_	Translit=lirik|Morf=Unknown
 5	كۈيلەر	كۈي	NOUN	V	Case=Nom|Number=Plur	11	nsubj	_	Translit=küyler
@@ -12111,8 +12111,8 @@
 10	قۇتقۇزۇپ	قۇتقۇز	VERB	V	Aspect=Perf|VerbForm=Conv	11	compound	_	Translit=qutquzup
 11	قالالمايدىغانلىقىنى	_	VERB	V	_	13	obj	_	Translit=qalalmaydighanliqini|Morf=Unknown
 12	ھېس	ھېس	NOUN	N	Case=Nom	13	compound	_	Translit=hës
-13	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qilip
-14	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No|Translit=yettim
+13	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Inf	14	xcomp	_	Translit=qilip
+14	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yettim
 15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
 
 # sent_id = s1715

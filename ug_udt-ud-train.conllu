@@ -8532,9 +8532,9 @@
 
 # sent_id = s2360
 # text = مەن فرانسىيىدە ياشاش جەريانىدا ئەركىنلىككە ئېرىشىش يولىدا قانچىلىك بەدەل تۆلىنىدىغانلىقىنى چۈشىنىپ يەتتىم.
-1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Translit=men
+1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Translit=men
 2	فرانسىيىدە	_	ADJ	A	_	3	obl	_	Translit=fransiyide|Morf=Unknown
-3	ياشاش	_	VERB	V	_	11	obl	_	Translit=yashash|Morf=Unknown
+3	ياشاش	_	VERB	V	_	12	obl	_	Translit=yashash|Morf=Unknown
 4	جەريانىدا	_	NOUN	N	_	3	case	_	Translit=jeryanida|Morf=Unknown
 5	ئەركىنلىككە	ئەركىنلىك	NOUN	N	Case=Dat	6	obl	_	Translit=erkinlikke
 6	ئېرىشىش	ئېرىش	VERB	V	Case=Nom|VerbForm=Ger	7	nmod	_	Translit=ërishish
@@ -8542,8 +8542,8 @@
 8	قانچىلىك	قانچىلىك	DET	P	Case=Nom	9	det	_	Translit=qanchilik
 9	بەدەل	بەدەل	NOUN	N	Case=Nom	10	nsubj	_	Translit=bedel
 10	تۆلىنىدىغانلىقىنى	_	VERB	V	_	11	obj	_	Translit=tölinidighanliqini|Morf=Unknown
-11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=chüshinip
-12	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No|Translit=yettim
+11	چۈشىنىپ	چۈشەن	VERB	V	Aspect=Perf|VerbForm=Inf	12	xcomp	_	Translit=chüshinip
+12	يەتتىم	يەت	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yettim
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
 # sent_id = s2361
