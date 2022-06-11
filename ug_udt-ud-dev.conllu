@@ -1206,12 +1206,12 @@
 # text = − − كامال، سەن تاياق يەپ باققانمۇ؟
 1	−	_	NOUN	N	_	7	dep	_	Translit=−|Morf=Unknown
 2	−	_	NOUN	N	_	7	dep	_	Translit=−|Morf=Unknown
-3	كامال	كامال	PROPN	N	Case=Nom	7	vocative	_	SpaceAfter=No|Translit=kamal
+3	كامال	كامال	PROPN	N	Case=Nom	8	vocative	_	SpaceAfter=No|Translit=kamal
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
-5	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	Translit=sen
+5	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Translit=sen
 6	تاياق	تاياق	NOUN	N	Case=Nom	7	obj	_	Translit=tayaq
-7	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=yep
-8	باققانمۇ	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No|Translit=baqqanmu
+7	يەپ	يە	VERB	V	Aspect=Perf|VerbForm=Inf	8	xcomp	_	Translit=yep
+8	باققانمۇ	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqqanmu
 9	؟	؟	PUNCT	Y	_	8	punct	_	Translit=?
 
 # sent_id = s958
@@ -3437,15 +3437,15 @@
 
 # sent_id = s1096
 # text = - ئويلاۋەرگىنىڭ بىلەن بىكار، ئۆزۈڭ سىناپ كۆرۈپ باقمامسەن!
-1	-	-	PUNCT	Y	_	8	punct	_	Translit=-
+1	-	-	PUNCT	Y	_	9	punct	_	Translit=-
 2	ئويلاۋەرگىنىڭ	_	NOUN	N	_	4	nmod	_	Translit=oylawergining|Morf=Unknown
 3	بىلەن	بىلەن	ADP	R	_	2	case	_	Translit=bilen
-4	بىكار	بىكار	ADJ	A	Case=Nom	8	parataxis	_	SpaceAfter=No|Translit=bikar
+4	بىكار	بىكار	ADJ	A	Case=Nom	9	parataxis	_	SpaceAfter=No|Translit=bikar
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-6	ئۆزۈڭ	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	8	nsubj	_	Translit=özüng
+6	ئۆزۈڭ	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	9	nsubj	_	Translit=özüng
 7	سىناپ	_	VERB	V	_	8	compound	_	Translit=sinap|Morf=Unknown
-8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=körüp
-9	باقمامسەن	باق	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=baqmamsen
+8	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Translit=körüp
+9	باقمامسەن	باق	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqmamsen
 10	!	!	PUNCT	Y	_	9	punct	_	Translit=!
 
 # sent_id = s1097
@@ -6516,13 +6516,13 @@
 2	سىزگە	_	PRON	P	_	5	obl	_	Translit=sizge|Morf=Unknown
 3	خەت	خەت	NOUN	N	Case=Nom	4	obj	_	Translit=xet
 4	يېزىپ	ياز	VERB	V	Aspect=Perf|VerbForm=Conv	5	xcomp	_	Translit=yëzip
-5	بەرسەم	بەر	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	10	advcl	_	SpaceAfter=No|Translit=bersem
+5	بەرسەم	بەر	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	11	advcl	_	SpaceAfter=No|Translit=bersem
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
-7	ئۆزۈم	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	10	nsubj	_	Translit=özüm
-8	بېرىپ	بار	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	Translit=bërip
-9	دوستىڭىزغا	_	NOUN	N	_	10	obl	_	Translit=dostingizgha|Morf=Unknown
-10	ئوقۇپ	_	VERB	V	_	12	advcl	_	Translit=oqup|Morf=Unknown
-11	بەرسەم	بەر	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	10	aux	_	Translit=bersem
+7	ئۆزۈم	ئۆز	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	11	nsubj	_	Translit=özüm
+8	بېرىپ	بار	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=bërip
+9	دوستىڭىزغا	_	NOUN	N	_	11	obl	_	Translit=dostingizgha|Morf=Unknown
+10	ئوقۇپ	_	VERB	V	_	11	xcomp	_	Translit=oqup|Morf=Unknown
+11	بەرسەم	بەر	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	12	advcl	_	Translit=bersem
 12	بولىدۇ	بول	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	SpaceAfter=No|Translit=bolidu
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 14	-	-	PUNCT	Y	_	12	punct	_	Translit=-
@@ -11649,13 +11649,13 @@
 8	ئاستىدا	ئاست	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	Translit=astida
 9	مىڭ	مىڭ	NUM	M	_	10	nummod	_	Translit=ming
 10	يىللاپ	_	NOUN	N	_	11	nmod:tmod	_	Translit=yillap|Morf=Unknown
-11	ياتقان	يات	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	parataxis	_	SpaceAfter=No|Translit=yatqan
+11	ياتقان	يات	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	parataxis	_	SpaceAfter=No|Translit=yatqan
 12	،	،	PUNCT	Y	_	11	punct	_	Translit=,
 13	ئۇنى	ئۇ	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Translit=uni
-14	ھېچكىم	ھېچكىم	PRON	P	Case=Nom	16	nsubj	_	Translit=hëchkim
-15	خىيالىغا	_	NOUN	N	_	16	obl	_	Translit=xiyaligha|Morf=Unknown
-16	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=keltürüp
-17	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=baqmighan
+14	ھېچكىم	ھېچكىم	PRON	P	Case=Nom	17	nsubj	_	Translit=hëchkim
+15	خىيالىغا	_	NOUN	N	_	17	obl	_	Translit=xiyaligha|Morf=Unknown
+16	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Inf	17	xcomp	_	Translit=keltürüp
+17	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqmighan
 18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
 
 # sent_id = s1681

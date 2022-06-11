@@ -15,7 +15,7 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">2849</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
+    <tag name="ADJ">2848</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">628</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, ئىچىگە, تارتىپ, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">982</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
     <tag name="AUX">1180</tag><!-- _, بول, ئى, قال, كەت, تۇر, كەل -->
@@ -26,7 +26,7 @@
     <tag name="NUM">996</tag><!-- بىر, ئىككى, _, تۆت, ئون, بەش, ئۈچ, ئالتە, مىڭ, يەتتە -->
     <tag name="PART">119</tag><!-- _ -->
     <tag name="PRON">2692</tag><!-- ئۇ, _, بۇ, مەن, ئۇلار, ئۆز, سەن, بىز, شۇ, ئەڭ -->
-    <tag name="PROPN">75</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, سادىق, ئىمام, ئەبەيدۇللا -->
+    <tag name="PROPN">76</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, سادىق, ئىمام, ئەبەيدۇللا -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
     <tag name="VERB">8058</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قارا, تۇر, كۆر -->
@@ -41,7 +41,7 @@
     <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">993</feat><!-- ئۇنىڭغا, ماڭا, ئۆيگە, ئۇلارغا, يەرگە, ئالدىغا, ساڭا, مەكتەپكە, سۇغا, ئىشقا -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">996</feat><!-- ئۇنىڭ, ئۇلارنىڭ, مېنىڭ, بىزنىڭ, ئۆزىنىڭ, شۇنىڭ, ئادەمنىڭ, بالىلارنىڭ, بالىنىڭ, سادىقنىڭ -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">794</feat><!-- چاغدا, ئىچىدە, ھالدا, يەردە, ئالدىدا, كەلگەندە, چاغلاردا, ئاستىدا, ئەمەلىيەتتە, ئۈستىدە -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10023</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10024</feat><!-- بۇ, ئۇ, مەن, بىر, سەن, ئۇلار, بالا, شۇ, كېيىن, بىز -->
     <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- نەزىرىدە -->
     <feat name="Gender" value="Masc" upos="PROPN">18</feat><!-- مىرزا, ئالىم, ئالىمى, ئىمامنى -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">259</feat><!-- بولسا, بولسىمۇ, بولسام, قارىسا, بولمىسا, بولسىڭىز, تۇرسا, قالسا, قارىسام, بولساڭ -->
@@ -85,7 +85,7 @@
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2432</dep>
     <dep name="appos">122</dep>
-    <dep name="aux">783</dep>
+    <dep name="aux">769</dep>
     <dep name="case">568</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">432</dep>
@@ -97,7 +97,7 @@
     <dep name="csubj">88</dep>
     <dep name="dep">88</dep>
     <dep name="det">908</dep>
-    <dep name="discourse">252</dep>
+    <dep name="discourse">251</dep>
     <dep name="dislocated">15</dep>
     <dep name="expl">1</dep>
     <dep name="fixed">118</dep>
@@ -121,7 +121,7 @@
     <dep name="punct">7807</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
-    <dep name="vocative">53</dep>
-    <dep name="xcomp">73</dep>
+    <dep name="vocative">54</dep>
+    <dep name="xcomp">87</dep>
   </deps>
 </treebank>

@@ -1927,22 +1927,22 @@
 
 # sent_id = s140
 # text = ئاماننىسا تېخى سىياھ قۇرۇمىغان قەغەزنى ئاۋايلاپ قولىغا ئېلىپ، بالىلارغا خاس ئاۋازى بىلەن دۇدۇقلىماي ئوقۇپ بەردى.
-1	ئاماننىسا	_	NOUN	N	_	15	nsubj	_	Translit=amannisa|Morf=Unknown
+1	ئاماننىسا	_	NOUN	N	_	16	nsubj	_	Translit=amannisa|Morf=Unknown
 2	تېخى	تېخى	ADV	D	_	4	advmod	_	Translit=tëxi
 3	سىياھ	سىياھ	NOUN	N	Case=Nom	4	nsubj	_	Translit=siyah
 4	قۇرۇمىغان	_	NOUN	N	_	5	acl	_	Translit=qurumighan|Morf=Unknown
 5	قەغەزنى	قەغەز	NOUN	N	Case=Acc	8	obj	_	Translit=qeghezni
 6	ئاۋايلاپ	_	NOUN	N	_	8	obl	_	Translit=awaylap|Morf=Unknown
 7	قولىغا	قول	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	Translit=qoligha
-8	ئېلىپ	ئال	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	SpaceAfter=No|Translit=ëlip
+8	ئېلىپ	ئال	VERB	V	Aspect=Perf|VerbForm=Conv	16	advcl	_	SpaceAfter=No|Translit=ëlip
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	بالىلارغا	بالا	NOUN	N	Case=Dat|Number=Plur	11	nmod	_	Translit=balilargha
 11	خاس	خاس	ADJ	A	Case=Nom	12	amod	_	Translit=xas
-12	ئاۋازى	_	NOUN	N	_	15	obl	_	Translit=awazi|Morf=Unknown
+12	ئاۋازى	_	NOUN	N	_	16	obl	_	Translit=awazi|Morf=Unknown
 13	بىلەن	بىلەن	ADP	R	_	12	case	_	Translit=bilen
-14	دۇدۇقلىماي	_	NOUN	N	_	15	obl	_	Translit=duduqlimay|Morf=Unknown
-15	ئوقۇپ	_	VERB	V	_	0	root	_	Translit=oqup|Morf=Unknown
-16	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|Translit=berdi
+14	دۇدۇقلىماي	_	NOUN	N	_	16	obl	_	Translit=duduqlimay|Morf=Unknown
+15	ئوقۇپ	_	VERB	V	_	16	xcomp	_	Translit=oqup|Morf=Unknown
+16	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdi
 17	.	.	PUNCT	Y	_	16	punct	_	Translit=.
 
 # sent_id = s141
@@ -2009,21 +2009,21 @@
 
 # sent_id = s146
 # text = ئاخىر ئۇ بىر ئاز قانائەت ھاسىل قىلغاندىن كېيىن، شېئىر يېزىلغان قەغەزنى قىزىغا قايتۇرۇپ بەردى.
-1	ئاخىر	ئاخىر	NOUN	D	Case=Nom	14	obl	_	Translit=axir
-2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Translit=u
+1	ئاخىر	ئاخىر	NOUN	D	Case=Nom	15	obl	_	Translit=axir
+2	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Translit=u
 3	بىر	بىر	NUM	M	Case=Nom|NumType=Ord	4	compound	_	Translit=bir
 4	ئاز	ئاز	ADJ	A	Case=Nom	7	advmod	_	Translit=az
 5	قانائەت	قانائەت	NOUN	N	Case=Nom	7	obj	_	Translit=qanaet
 6	ھاسىل	_	NOUN	N	_	7	compound	_	Translit=hasil|Morf=Unknown
-7	قىلغاندىن	قىل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	14	advcl	_	Translit=qilghandin
+7	قىلغاندىن	قىل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	15	advcl	_	Translit=qilghandin
 8	كېيىن	كېيىن	NOUN	D	Case=Nom	7	case	_	SpaceAfter=No|Translit=këyin
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	شېئىر	شېئىر	NOUN	N	Case=Nom	11	nsubj	_	Translit=shëir
 11	يېزىلغان	_	VERB	V	_	12	acl	_	Translit=yëzilghan|Morf=Unknown
 12	قەغەزنى	قەغەز	NOUN	N	Case=Acc	14	obj	_	Translit=qeghezni
-13	قىزىغا	قىز	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	Translit=qizigha
-14	قايتۇرۇپ	قايتۇر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=qayturup
-15	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No|Translit=berdi
+13	قىزىغا	قىز	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	Translit=qizigha
+14	قايتۇرۇپ	قايتۇر	VERB	V	Aspect=Perf|VerbForm=Inf	15	xcomp	_	Translit=qayturup
+15	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdi
 16	.	.	PUNCT	Y	_	15	punct	_	Translit=.
 
 # sent_id = s147
@@ -2114,12 +2114,12 @@
 
 # sent_id = s153
 # text = ئاماننىسا شېئىرنى تولۇق ياد ئوقۇپ بەردى.
-1	ئاماننىسا	_	NOUN	N	_	5	nsubj	_	Translit=amannisa|Morf=Unknown
+1	ئاماننىسا	_	NOUN	N	_	6	nsubj	_	Translit=amannisa|Morf=Unknown
 2	شېئىرنى	شېئىر	NOUN	N	Case=Acc	5	obj	_	Translit=shëirni
-3	تولۇق	تولۇق	ADJ	A	Case=Nom	5	advmod	_	Translit=toluq
-4	ياد	ياد	NOUN	N	Case=Nom	5	obl	_	Translit=yad
-5	ئوقۇپ	_	VERB	V	_	0	root	_	Translit=oqup|Morf=Unknown
-6	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=berdi
+3	تولۇق	تولۇق	ADJ	A	Case=Nom	6	advmod	_	Translit=toluq
+4	ياد	ياد	NOUN	N	Case=Nom	6	obl	_	Translit=yad
+5	ئوقۇپ	_	VERB	V	_	6	xcomp	_	Translit=oqup|Morf=Unknown
+6	بەردى	بەر	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdi
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s154
@@ -5332,14 +5332,14 @@
 # text = ئۆيگە قايتىپ كەلگەندىن كېيىن، بولغان ئىشلارنى دادامغا سۆزلەپ بەردىم.
 1	ئۆيگە	ئۆي	NOUN	N	Case=Dat	3	obl	_	Translit=öyge
 2	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=qaytip
-3	كەلگەندىن	كەل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	9	advcl	_	Translit=kelgendin
+3	كەلگەندىن	كەل	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	10	advcl	_	Translit=kelgendin
 4	كېيىن	_	ADV	D	_	3	mark	_	SpaceAfter=No|Translit=këyin|Morf=Missing,1
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	بولغان	بول	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	7	acl	_	Translit=bolghan
 7	ئىشلارنى	ئىش	NOUN	N	Case=Acc|Number=Plur	9	obj	_	Translit=ishlarni
-8	دادامغا	دادا	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=1	9	obl	_	Translit=dadamgha
-9	سۆزلەپ	_	VERB	V	_	0	root	_	Translit=sözlep|Morf=Unknown
-10	بەردىم	بەر	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=berdim
+8	دادامغا	دادا	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=1	10	obl	_	Translit=dadamgha
+9	سۆزلەپ	_	VERB	V	_	10	xcomp	_	Translit=sözlep|Morf=Unknown
+10	بەردىم	بەر	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=berdim
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
 # sent_id = s407
@@ -10492,12 +10492,12 @@
 3	ئائىلىلىك	ئائىلىلىك	NOUN	Q	Case=Nom	6	amod	_	Translit=aililik
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 5	كىچىككىنە	كىچىككىنە	ADJ	A	_	6	amod	_	Translit=kichikkine
-6	يېزىدا	_	NOUN	N	_	10	obl	_	Translit=yëzida|Morf=Unknown
-7	ئەزەلدىن	ئەزەل	NOUN	D	Case=Abl	10	obl	_	Translit=ezeldin
+6	يېزىدا	_	NOUN	N	_	11	obl	_	Translit=yëzida|Morf=Unknown
+7	ئەزەلدىن	ئەزەل	NOUN	D	Case=Abl	11	obl	_	Translit=ezeldin
 8	بۇنداق	بۇنداق	DET	P	Case=Nom	9	det	_	Translit=bundaq
-9	ئاۋاز	ئاۋاز	NOUN	N	Case=Nom	10	nsubj	_	Translit=awaz
-10	ئاڭلىنىپ	ئاڭلى	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	Translit=anglinip
-11	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=baqmighan
+9	ئاۋاز	ئاۋاز	NOUN	N	Case=Nom	11	nsubj	_	Translit=awaz
+10	ئاڭلىنىپ	ئاڭلى	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	11	xcomp	_	Translit=anglinip
+11	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqmighan
 12	.	.	PUNCT	Y	_	11	punct	_	Translit=.
 
 # sent_id = s745

@@ -26,9 +26,9 @@
 # sent_id = s1803
 # text = مايمۇن بىردەم ئويلاپ بېقىپ دەپتۇ:
 1	مايمۇن	مايمۇن	NOUN	N	Case=Nom	5	nsubj	_	Translit=maymun
-2	بىردەم	بىردەم	NOUN	D	Case=Nom	3	obl	_	Translit=birdem
-3	ئويلاپ	_	VERB	V	_	5	advmod	_	Translit=oylap|Morf=Unknown
-4	بېقىپ	باق	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=bëqip
+2	بىردەم	بىردەم	NOUN	D	Case=Nom	4	obl	_	Translit=birdem
+3	ئويلاپ	_	VERB	V	_	4	xcomp	_	Translit=oylap|Morf=Unknown
+4	بېقىپ	باق	VERB	V	Aspect=Perf|VerbForm=Conv	5	advmod	_	Translit=bëqip
 5	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
 6	:	:	PUNCT	Y	_	5	punct	_	Translit=:
 
@@ -122,9 +122,9 @@
 # sent_id = s1810
 # text = مايمۇن بىردەم ئويلىنىپ بېقىپ دەپتۇ:
 1	مايمۇن	مايمۇن	NOUN	N	Case=Nom	5	nsubj	_	Translit=maymun
-2	بىردەم	بىردەم	NOUN	D	Case=Nom	3	obl	_	Translit=birdem
-3	ئويلىنىپ	_	VERB	V	_	5	advcl	_	Translit=oylinip|Morf=Unknown
-4	بېقىپ	باق	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=bëqip
+2	بىردەم	بىردەم	NOUN	D	Case=Nom	4	obl	_	Translit=birdem
+3	ئويلىنىپ	_	VERB	V	_	4	xcomp	_	Translit=oylinip|Morf=Unknown
+4	بېقىپ	باق	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	Translit=bëqip
 5	دەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
 6	:	:	PUNCT	Y	_	5	punct	_	Translit=:
 
@@ -1262,10 +1262,10 @@
 6	بىرەرىنى	بىرەرى	NOUN	M	Case=Acc	9	obj	_	Translit=birerini
 7	بالا	بالا	NOUN	N	Case=Nom	8	nsubj	_	Translit=bala
 8	قىلىۋېلىشىمغا	_	NOUN	N	_	9	obl	_	Translit=qiliwëlishimgha|Morf=Unknown
-9	بېرەمدىكىن	_	VERB	V	_	11	parataxis	_	SpaceAfter=No|Translit=bëremdikin|Morf=Unknown
+9	بېرەمدىكىن	_	VERB	V	_	12	parataxis	_	SpaceAfter=No|Translit=bëremdikin|Morf=Unknown
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
-11	سوراپ	_	VERB	V	_	14	ccomp	_	Translit=sorap|Morf=Unknown
-12	باق	باق	VERB	V	Mood=Imp|VerbForm=Fin	11	aux	_	SpaceAfter=No|Translit=baq
+11	سوراپ	_	VERB	V	_	12	xcomp	_	Translit=sorap|Morf=Unknown
+12	باق	باق	VERB	V	Mood=Imp|VerbForm=Fin	14	ccomp	_	SpaceAfter=No|Translit=baq
 13	،	،	PUNCT	Y	_	12	punct	_	Translit=,
 14	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	Translit=dep
 15	ئەۋەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ewetti|Morf=Unknown
@@ -8886,12 +8886,12 @@
 
 # sent_id = s2383
 # text = دېھقاندەك قاق چۈشتە يەر تېرىپ باقمىغان.
-1	دېھقاندەك	_	NOUN	N	_	5	obl	_	Translit=dëhqandek|Morf=Unknown
+1	دېھقاندەك	_	NOUN	N	_	6	obl	_	Translit=dëhqandek|Morf=Unknown
 2	قاق	_	NOUN	N	_	3	amod	_	Translit=qaq|Morf=Missing,1
-3	چۈشتە	_	NOUN	N	_	5	obl	_	Translit=chüshte|Morf=Unknown
+3	چۈشتە	_	NOUN	N	_	6	obl	_	Translit=chüshte|Morf=Unknown
 4	يەر	يەر	NOUN	N	Case=Nom	5	obj	_	Translit=yer
-5	تېرىپ	تار	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=tërip
-6	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=baqmighan
+5	تېرىپ	تار	VERB	V	Aspect=Perf|VerbForm=Inf	6	xcomp	_	Translit=tërip
+6	باقمىغان	باق	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqmighan
 7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
 
 # sent_id = s2384
@@ -21853,13 +21853,13 @@
 
 # sent_id = s3287
 # text = مەن چەتئەلدىكى نەۋرە ھەدەمگە ئاتكرىتكا ئەۋەتىپ باقتىم.
-1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Translit=men
+1	مەن	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=men
 2	چەتئەلدىكى	_	NOUN	N	_	4	amod	_	Translit=cheteldiki|Morf=Unknown
 3	نەۋرە	نەۋرە	NOUN	N	Case=Nom	4	amod	_	Translit=newre
-4	ھەدەمگە	_	NOUN	N	_	6	obl	_	Translit=hedemge|Morf=Unknown
+4	ھەدەمگە	_	NOUN	N	_	7	obl	_	Translit=hedemge|Morf=Unknown
 5	ئاتكرىتكا	_	NOUN	N	_	6	obj	_	Translit=atkritka|Morf=Unknown
-6	ئەۋەتىپ	_	VERB	V	_	0	root	_	Translit=ewetip|Morf=Unknown
-7	باقتىم	باق	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No|Translit=baqtim
+6	ئەۋەتىپ	_	VERB	V	_	7	xcomp	_	Translit=ewetip|Morf=Unknown
+7	باقتىم	باق	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=baqtim
 8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
 
 # sent_id = s3288
