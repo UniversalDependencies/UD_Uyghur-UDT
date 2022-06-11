@@ -2360,8 +2360,8 @@
 
 # sent_id = s168
 # text = ئۇلار ۋارقىرىشىپ ئورۇنلىرىدىن تۇرۇشۇپ، يېڭىلىشىپ قالغان بولۇق ئىسىملىك بالىنى تۇتۇپ، ئويۇننىڭ قائىدىسى بويىچە جازالاشقا تۇتۇش قىلدى.
-1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Translit=ular
-2	ۋارقىرىشىپ	_	VERB	V	_	17	advcl	_	Translit=warqiriship|Morf=Unknown
+1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	Translit=ular
+2	ۋارقىرىشىپ	_	VERB	V	_	18	advcl	_	Translit=warqiriship|Morf=Unknown
 3	ئورۇنلىرىدىن	ئورۇن	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	Translit=orunliridin
 4	تۇرۇشۇپ	_	VERB	V	_	2	conj	_	SpaceAfter=No|Translit=turushup|Morf=Unknown
 5	،	،	PUNCT	Y	_	11	punct	_	Translit=,
@@ -2375,9 +2375,9 @@
 13	ئويۇننىڭ	ئويۇن	NOUN	A	Case=Gen	14	nmod:poss	_	Translit=oyunning
 14	قائىدىسى	قائىدە	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	Translit=qaidisi
 15	بويىچە	بويىچە	ADP	R	_	14	case	_	Translit=boyiche
-16	جازالاشقا	_	VERB	V	_	17	obl	_	Translit=jazalashqa|Morf=Unknown
-17	تۇتۇش	تۇت	VERB	V	Case=Nom|VerbForm=Ger	0	root	_	Translit=tutush
-18	قىلدى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=qildi
+16	جازالاشقا	_	VERB	V	_	18	obl	_	Translit=jazalashqa|Morf=Unknown
+17	تۇتۇش	تۇت	VERB	V	Case=Nom|VerbForm=Ger	18	xcomp	_	Translit=tutush
+18	قىلدى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qildi
 19	.	.	PUNCT	Y	_	18	punct	_	Translit=.
 
 # sent_id = s169
@@ -6934,13 +6934,13 @@
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	بۆرە	بۆرە	NOUN	N	Case=Nom	21	nsubj	_	Translit=böre
 7	تېز	تېز	NOUN	A	Case=Nom	8	obl	_	Translit=tëz
-8	يۈگۈرۈپ	_	VERB	V	_	12	advmod	_	SpaceAfter=No|Translit=yügürüp|Morf=Unknown
+8	يۈگۈرۈپ	_	VERB	V	_	13	advmod	_	SpaceAfter=No|Translit=yügürüp|Morf=Unknown
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,
 10	ئادەمدىن	ئادەم	NOUN	N	Case=Abl	11	nmod:comp	_	Translit=ademdin
 11	چاققان	چاق	VERB	A	Case=Nom|Tense=Past|VerbForm=Ger	12	compound	_	Translit=chaqqan
-12	كەلگەندەك	_	VERB	V	_	21	advcl	_	Translit=kelgendek|Morf=Unknown
-13	قىلغان	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	Translit=qilghan
-14	بىلەن	بىلەن	ADP	R	_	12	parataxis	_	SpaceAfter=No|Translit=bilen
+12	كەلگەندەك	_	VERB	V	_	13	xcomp	_	Translit=kelgendek|Morf=Unknown
+13	قىلغان	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	Translit=qilghan
+14	بىلەن	بىلەن	ADP	R	_	13	parataxis	_	SpaceAfter=No|Translit=bilen
 15	،	،	PUNCT	Y	_	14	punct	_	Translit=,
 16	قۇم	قۇم	NOUN	N	Case=Nom	17	compound	_	Translit=qum
 17	دۆۋىسىنىڭ	_	ADJ	A	_	18	nmod:poss	_	Translit=döwisining|Morf=Unknown
