@@ -1331,7 +1331,7 @@
 # text = ئۇيان ئويلاپ، بۇيان ئويلاپ، ئاخىرى كۈتكۈچى ئايالغا، _ بۇ ئشنى بالىلارنىڭ ئاپىسى بىلەن مەسلىھەتلىشىپ ئاندىن بىر نېمە دەي، _ دېدى.
 1	ئۇيان	ئۇيان	PROPN	N	Case=Nom	24	nsubj	_	Translit=uyan|Morf=Unknown
 2	ئويلاپ	_	VERB	V	_	5	advcl	_	SpaceAfter=No|Translit=oylap|Morf=Unknown
-3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
+3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	بۇيان	بۇيان	ADP	R	_	5	case	_	Translit=buyan
 5	ئويلاپ	_	VERB	V	_	24	advcl	_	SpaceAfter=No|Translit=oylap|Morf=Unknown
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
