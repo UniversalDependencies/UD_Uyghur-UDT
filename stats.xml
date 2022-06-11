@@ -85,7 +85,7 @@
     <dep name="advmod:emph">30</dep>
     <dep name="amod">2431</dep>
     <dep name="appos">122</dep>
-    <dep name="aux">348</dep>
+    <dep name="aux">344</dep>
     <dep name="case">568</dep>
     <dep name="cc">634</dep>
     <dep name="ccomp">433</dep>
@@ -122,6 +122,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">54</dep>
-    <dep name="xcomp">508</dep>
+    <dep name="xcomp">512</dep>
   </deps>
 </treebank>

@@ -1055,14 +1055,14 @@
 # text = بۇ بۆلەكتىكى تېكىستلەر بۇ ماقاللار توغرىسىدا قىزىقارلىق ھېكايىلەرنى سۆزلەپ بېرىدۇ؛
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	بۆلەكتىكى	بۆلەك	NOUN	N	Case=Nom	3	amod	_	Translit=bölektiki
-3	تېكىستلەر	تېكىست	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	Translit=tëkistler
+3	تېكىستلەر	تېكىست	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	Translit=tëkistler
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	ماقاللار	ماقال	NOUN	N	Case=Nom|Number=Plur	8	nmod	_	Translit=maqallar
 6	توغرىسىدا	_	ADP	R	_	5	case	_	Translit=toghrisida|Morf=Missing,2
 7	قىزىقارلىق	قىزىقارلىق	ADJ	A	_	8	amod	_	Translit=qiziqarliq
 8	ھېكايىلەرنى	_	NOUN	N	_	9	obj	_	Translit=hëkayilerni|Morf=Unknown
-9	سۆزلەپ	_	VERB	V	_	0	root	_	Translit=sözlep|Morf=Unknown
-10	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=bëridu
+9	سۆزلەپ	_	VERB	V	_	10	xcomp	_	Translit=sözlep|Morf=Unknown
+10	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bëridu
 11	؛	_	PUNCT	Y	_	10	punct	_	Translit=;|Morf=Unknown
 
 # sent_id = s77
@@ -1075,8 +1075,8 @@
 6	قانداق	قانداق	ADV	P	PronType=Int	7	advmod	_	Translit=qandaq
 7	ئويلاش	_	VERB	V	_	3	conj	_	Translit=oylash|Morf=Unknown
 8	كېرەكلىكىنى	كېرەكلىك	ADJ	A	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	compound:lvc	_	Translit=këreklikini
-9	ئېيتىپ	_	VERB	V	_	0	root	_	Translit=ëytip|Morf=Unknown
-10	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=bëridu
+9	ئېيتىپ	_	VERB	V	_	10	xcomp	_	Translit=ëytip|Morf=Unknown
+10	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bëridu
 11	.	.	PUNCT	Y	_	10	punct	_	Translit=.
 
 # sent_id = s78
@@ -2599,13 +2599,13 @@
 # text = بۇ بۆلەكتىكى ئەسەرلەر بىزگە بۇ خەزىنىنىڭ ئىشىكىنى ئېچىپ بېرىدۇ.
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu
 2	بۆلەكتىكى	بۆلەك	ADJ	A	Case=Nom	3	amod	_	Translit=bölektiki
-3	ئەسەرلەر	ئەسەر	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Translit=eserler
-4	بىزگە	_	PRON	P	_	8	obl	_	Translit=bizge|Morf=Unknown
+3	ئەسەرلەر	ئەسەر	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	Translit=eserler
+4	بىزگە	_	PRON	P	_	9	obl	_	Translit=bizge|Morf=Unknown
 5	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
 6	خەزىنىنىڭ	خەزىنە	NOUN	N	Case=Gen	7	nmod:poss	_	Translit=xezinining
 7	ئىشىكىنى	ئىشىك	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	8	obj	_	Translit=ishikini
-8	ئېچىپ	ئاچ	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=ëchip
-9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=bëridu
+8	ئېچىپ	ئاچ	VERB	V	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Translit=ëchip
+9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bëridu
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.
 
 # sent_id = s184
@@ -2621,13 +2621,13 @@
 # text = ئۇلارنىڭ ئېسىل پەزىلەتلىرى بىزگە ئادەم بولۇش يوللىرىنى كۆرسىتىپ بېرىدۇ،
 1	ئۇلارنىڭ	ئۇلار	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	Translit=ularning
 2	ئېسىل	ئېسىل	ADJ	A	Case=Nom	3	amod	_	Translit=ësil
-3	پەزىلەتلىرى	پەزىلەت	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=peziletliri
-4	بىزگە	_	PRON	P	_	8	obl	_	Translit=bizge|Morf=Unknown
+3	پەزىلەتلىرى	پەزىلەت	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	Translit=peziletliri
+4	بىزگە	_	PRON	P	_	9	obl	_	Translit=bizge|Morf=Unknown
 5	ئادەم	ئادەم	NOUN	N	Case=Nom	6	nsubj	_	Translit=adem
 6	بولۇش	بول	VERB	V	Case=Nom|VerbForm=Ger	7	nmod:poss	_	Translit=bolush
 7	يوللىرىنى	يول	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	obj	_	Translit=yollirini
-8	كۆرسىتىپ	_	VERB	V	_	0	root	_	Translit=körsitip|Morf=Unknown
-9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=bëridu
+8	كۆرسىتىپ	_	VERB	V	_	9	xcomp	_	Translit=körsitip|Morf=Unknown
+9	بېرىدۇ	بار	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bëridu
 10	،	،	PUNCT	Y	_	9	punct	_	Translit=,
 
 # sent_id = s186
