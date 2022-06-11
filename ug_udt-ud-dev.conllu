@@ -1241,8 +1241,8 @@
 2	ئۇزاق	ئۇزاق	ADJ	A	_	3	amod	_	Translit=uzaq
 3	يىل	يىل	NOUN	N	Case=Nom	6	nmod:tmod	_	Translit=yil
 4	ئېغىر	ئېغىر	ADJ	A	_	6	amod	_	Translit=ëghir
-5	كېسەل	كېسەل	NOUN	N	Case=Nom	6	compound	_	Translit=kësel
-6	تارتىپ	تارتىپ	ADP	R	_	8	case	_	Translit=tartip
+5	كېسەل	كېسەل	NOUN	N	Case=Nom	8	obl	_	Translit=kësel
+6	تارتىپ	تارتىپ	ADP	R	_	5	case	_	Translit=tartip
 7	ماغدۇرى	ماغدۇر	NOUN	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=maghduri
 8	قالمىغان	قال	VERB	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	9	acl	_	Translit=qalmighan
 9	ئادەمنىڭ	ئادەم	NOUN	N	Case=Gen	10	nmod:poss	_	Translit=ademning
@@ -2603,8 +2603,8 @@
 
 # sent_id = s1045
 # text = شۇنىڭدىن ئېتىبارەن ئېلېكترونلۇق ئويۇنچۇق ئىنقىلابى بارلىققا كەلدى.
-1	شۇنىڭدىن	_	PRON	P	_	2	compound	_	Translit=shuningdin|Morf=Unknown
-2	ئېتىبارەن	_	ADP	R	_	7	case	_	Translit=ëtibaren|Morf=Unknown
+1	شۇنىڭدىن	_	PRON	P	_	7	obl	_	Translit=shuningdin|Morf=Unknown
+2	ئېتىبارەن	_	ADP	R	_	1	case	_	Translit=ëtibaren|Morf=Unknown
 3	ئېلېكترونلۇق	ئېلېكترونلۇق	ADJ	N	_	4	amod	_	Translit=ëlëktronluq
 4	ئويۇنچۇق	ئويۇنچۇق	NOUN	N	Case=Nom	5	amod	_	Translit=oyunchuq
 5	ئىنقىلابى	_	NOUN	N	_	7	nsubj	_	Translit=inqilabi|Morf=Unknown

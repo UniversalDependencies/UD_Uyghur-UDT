@@ -582,8 +582,8 @@
 
 # sent_id = s39
 # text = شۇنىڭ بىلەن، ھەممە ئائىلىلەر ئۆتكۈر پالتىلىرىغا تايىنىپ كۈنلىرىنى يامان ئەمەس ئۆتكۈزۈپتۇ.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	R	_	12	case	_	SpaceAfter=No|Translit=bilen
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	12	obl	_	Translit=shuning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	SpaceAfter=No|Translit=bilen
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ھەممە	ھەممە	DET	P	_	5	det	_	Translit=hemme
 5	ئائىلىلەر	_	NOUN	N	_	12	nsubj	_	Translit=aililer|Morf=Unknown
@@ -1143,8 +1143,8 @@
 # text = ياغاچچى بالا ئالدى بىلەن دەرەخنى ھەرىدەپتۇ،
 1	ياغاچچى	ياغاچچى	NOUN	N	Case=Nom	2	amod	_	Translit=yaghachchi
 2	بالا	بالا	NOUN	N	Case=Nom	6	nsubj	_	Translit=bala
-3	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	compound	_	Translit=aldi
-4	بىلەن	بىلەن	ADP	R	_	6	case	_	Translit=bilen
+3	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	Translit=aldi
+4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen
 5	دەرەخنى	دەرەخ	NOUN	N	Case=Acc	6	obj	_	Translit=derexni
 6	ھەرىدەپتۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=herideptu|Morf=Unknown
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
@@ -2917,8 +2917,8 @@
 
 # sent_id = s210
 # text = نېمە ئۈچۈن ئۇنىڭ ئەتراپىدىكى يەرلەر تۈپتۈز، ئۇ يەرلەردە بىرەر پارچە تاشمۇ يوق؟
-1	نېمە	نېمە	NOUN	P	Case=Nom	2	compound	_	Translit=nëme
-2	ئۈچۈن	ئۈچۈن	ADP	C	_	13	case	_	Translit=üchün
+1	نېمە	نېمە	NOUN	P	Case=Nom	13	obl	_	Translit=nëme
+2	ئۈچۈن	ئۈچۈن	ADP	C	_	1	case	_	Translit=üchün
 3	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	Translit=uning
 4	ئەتراپىدىكى	_	NOUN	N	_	5	amod	_	Translit=etrapidiki|Morf=Unknown
 5	يەرلەر	يەر	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	Translit=yerler
@@ -3596,8 +3596,8 @@
 
 # sent_id = s264
 # text = شۇنىڭدىن تارتىپ، ئۇ ھەر كۈنى سەھەر تۇرۇپ چېنىقىشقا باشلىدى.
-1	شۇنىڭدىن	_	PRON	P	_	2	compound	_	Translit=shuningdin|Morf=Unknown
-2	تارتىپ	تارتىپ	ADP	R	_	10	case	_	SpaceAfter=No|Translit=tartip
+1	شۇنىڭدىن	_	PRON	P	_	10	obl	_	Translit=shuningdin|Morf=Unknown
+2	تارتىپ	تارتىپ	ADP	R	_	1	case	_	SpaceAfter=No|Translit=tartip
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 5	ھەر	ھەر	DET	P	_	6	det	_	Translit=her
@@ -5543,8 +5543,8 @@
 # sent_id = s420
 # text = ئۇ شۇ قەدەر تىنىق ھەم سۈزۈككى، تېگىدىكى سۇس قوڭۇر تاشلار، قۇم دانچىلىرى ۋە قارىداپ كەتكەن دەرەخ يوپۇرماقلىرى ئېنىق كۆرۈنۈپ تۇرىدۇ.
 1	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
-2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	3	compound	_	Translit=shu
-3	قەدەر	قەدەر	ADP	R	_	4	case	_	Translit=qeder
+2	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	4	obl	_	Translit=shu
+3	قەدەر	قەدەر	ADP	R	_	2	case	_	Translit=qeder
 4	تىنىق	تىنىق	NOUN	N	Case=Nom	21	advcl	_	Translit=tiniq
 5	ھەم	ھەم	CCONJ	C	_	6	cc	_	Translit=hem
 6	سۈزۈككى	_	VERB	V	_	4	conj	_	SpaceAfter=No|Translit=süzükki|Morf=Unknown
@@ -7302,8 +7302,8 @@
 6	قېلىش	قال	VERB	V	Case=Nom|VerbForm=Ger	20	advcl	_	Translit=qëlish
 7	ئۈچۈن	ئۈچۈن	ADP	C	_	6	case	_	SpaceAfter=No|Translit=üchün
 8	،	،	PUNCT	Y	_	13	punct	_	Translit=,
-9	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	compound	_	Translit=aldi
-10	بىلەن	بىلەن	ADP	R	_	13	case	_	Translit=bilen
+9	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	Translit=aldi
+10	بىلەن	بىلەن	ADP	R	_	9	case	_	Translit=bilen
 11	قۇم	قۇم	NOUN	N	Case=Nom	12	compound	_	Translit=qum
 12	دۆۋىسىگە	_	NOUN	N	_	13	obl	_	Translit=döwisige|Morf=Unknown
 13	يامىشىپ	ياماش	VERB	V	Aspect=Perf|VerbForm=Inf	6	conj	_	Translit=yamiship
@@ -9993,8 +9993,8 @@
 3	قەلبىڭدىكى	_	NOUN	N	_	5	amod	_	Translit=qelbingdiki|Morf=Unknown
 4	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	5	det	_	Translit=bu
 5	شەكىلنى	شەكىل	NOUN	N	Case=Acc	8	obj	_	Translit=shekilni
-6	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	7	compound	_	Translit=bu
-7	قەدەر	قەدەر	ADP	R	_	8	case	_	Translit=qeder
+6	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	8	obl	_	Translit=bu
+7	قەدەر	قەدەر	ADP	R	_	6	case	_	Translit=qeder
 8	مۇكەممەللەشتۈرۈش	_	VERB	V	_	17	advcl	_	Translit=mukemmelleshtürüsh|Morf=Unknown
 9	ئۈچۈن	ئۈچۈن	ADP	C	_	8	case	_	Translit=üchün
 10	يىراق	يىراق	ADJ	A	Case=Nom	11	amod	_	Translit=yiraq

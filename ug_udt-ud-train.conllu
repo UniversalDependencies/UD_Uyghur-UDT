@@ -6161,8 +6161,8 @@
 
 # sent_id = s2215
 # text = شۇنىڭدىن تارتىپ، ئۇ ھەر كۈنى كەچلىك تامىقىنى يەپ بولۇپ شىرەنىڭ يېنىغا كېلىپ ئولتۇراتتى - دە، قېرىنداشنى چىڭ تۇتۇپ يېزىشقا كىرىشەتتى.
-1	شۇنىڭدىن	_	PRON	P	_	2	compound	_	Translit=shuningdin|Morf=Unknown
-2	تارتىپ	تارتىپ	ADP	R	_	22	case	_	SpaceAfter=No|Translit=tartip
+1	شۇنىڭدىن	_	PRON	P	_	22	obl	_	Translit=shuningdin|Morf=Unknown
+2	تارتىپ	تارتىپ	ADP	R	_	1	case	_	SpaceAfter=No|Translit=tartip
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Translit=u
 5	ھەر	ھەر	DET	P	_	6	det	_	Translit=her
@@ -7313,8 +7313,8 @@
 4	ئىشەنسىمۇ	ئىشەن	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	21	advcl	_	SpaceAfter=No|Translit=ishensimu
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,
 6	يەنىلا	يەنىلا	NOUN	D	Case=Nom	21	obl	_	Translit=yenila
-7	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	compound	_	Translit=aldi
-8	بىلەن	بىلەن	ADP	R	_	12	case	_	Translit=bilen
+7	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=aldi
+8	بىلەن	بىلەن	ADP	R	_	7	case	_	Translit=bilen
 9	باشقا	باشقا	ADJ	A	_	11	amod	_	Translit=bashqa
 10	بىر	بىر	NUM	M	_	11	nummod	_	Translit=bir
 11	ئادەمنى	ئادەم	NOUN	N	Case=Acc	12	obj	_	Translit=ademni
@@ -10482,8 +10482,8 @@
 
 # sent_id = s2492
 # text = ئالدى بىلەن مەشرەپكە قاتنىشىشنى تەلەپ قىلغۇچى يىگىتنى دادىسى يېتىلەپ مەشرەپ سورۇنىغا ئەكېلىدۇ.
-1	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	compound	_	Translit=aldi
-2	بىلەن	بىلەن	ADP	R	_	12	case	_	Translit=bilen
+1	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=aldi
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	مەشرەپكە	مەشرەپ	NOUN	N	Case=Dat	4	obl	_	Translit=meshrepke
 4	قاتنىشىشنى	قاتنىشىش	NOUN	V	Case=Acc	6	obj	_	Translit=qatnishishni
 5	تەلەپ	تەلەپ	NOUN	N	Case=Nom	6	compound	_	Translit=telep
@@ -12652,8 +12652,8 @@
 
 # sent_id = s2641
 # text = شۇنىڭ بىلەن ئۇلارنىڭ ئاددى چىرايىمۇ ئۆزلىرىگە مۇھەببەت ۋە قەدىرىيەت ئېلىپ كېلەتتى.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	C	_	11	case	_	Translit=bilen
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	11	obl	_	Translit=shuning
+2	بىلەن	بىلەن	ADP	C	_	1	case	_	Translit=bilen
 3	ئۇلارنىڭ	ئۇلار	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod:poss	_	Translit=ularning
 4	ئاددى	_	NOUN	N	_	5	amod	_	Translit=addi|Morf=Unknown
 5	چىرايىمۇ	_	NOUN	N	_	11	nsubj	_	Translit=chirayimu|Morf=Unknown
@@ -13124,8 +13124,8 @@
 6	ئەھۋال	ئەھۋال	NOUN	N	Case=Nom	8	obj	_	Translit=ehwal
 7	ئىنكاس	ئىنكاس	NOUN	N	Case=Nom	8	compound	_	Translit=inkas
 8	قىلغاندا	قىل	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	22	obl	_	Translit=qilghanda
-9	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	compound	_	Translit=aldi
-10	بىلەن	بىلەن	ADP	R	_	22	case	_	Translit=bilen
+9	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	22	obl	_	Translit=aldi
+10	بىلەن	بىلەن	ADP	R	_	9	case	_	Translit=bilen
 11	ناھىيىمىزنىڭ	_	NOUN	N	_	16	nmod:poss	_	Translit=nahiyimizning|Morf=Unknown
 12	ئەلسۆيەر	_	VERB	V	_	16	amod	_	SpaceAfter=No|Translit=elsöyer|Morf=Unknown
 13	،	،	PUNCT	Y	_	14	punct	_	Translit=,
@@ -13200,8 +13200,8 @@
 5	ئۇيغۇر	ئۇيغۇر	NOUN	N	Case=Nom	6	compound	_	Translit=uyghur
 6	ئالىمى	ئالىم	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	amod	_	Translit=alimi
 7	يىگىتى	يىگىت	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	nsubj	_	Translit=yigiti
-8	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	compound	_	Translit=aldi
-9	بىلەن	بىلەن	ADP	R	_	13	case	_	Translit=bilen
+8	ئالدى	ئالد	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	Translit=aldi
+9	بىلەن	بىلەن	ADP	R	_	8	case	_	Translit=bilen
 10	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	det	_	Translit=u
 11	فىلمىنى	_	NOUN	N	_	12	obj	_	Translit=filmini|Morf=Unknown
 12	قويۇپ	_	VERB	V	_	13	xcomp	_	Translit=qoyup|Morf=Unknown
@@ -13431,8 +13431,8 @@
 
 # sent_id = s2684
 # text = ئۇنىڭ بىلەن بىرگە ياغاچچىلىق قىلىپ يىراق-يېقىنغا ئۇستا ھۇنەرۋەن دەپ نام چىقارغان.
-1	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	compound	_	Translit=uning
-2	بىلەن	بىلەن	ADP	R	_	5	case	_	Translit=bilen
+1	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	obl	_	Translit=uning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	بىرگە	بىرگە	ADV	M	_	5	advmod	_	Translit=birge
 4	ياغاچچىلىق	ياغاچچىلىق	NOUN	N	Case=Nom	5	compound	_	Translit=yaghachchiliq
 5	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=qilip
@@ -15086,8 +15086,8 @@
 
 # sent_id = s2778
 # text = شۇنىڭ بىلەن ئۇ ھەممەيلەنگە تونۇش مېدىتسىنا ئوقۇپ مەغلۇپ بولغان ئادەم، «ئەسقاتمايدىغان ماتېماتىكا بىلەن ھەپلىشىدىغان روھىي كېسەل» گە ئايلاندى.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	R	_	21	case	_	Translit=bilen
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	21	obl	_	Translit=shuning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 4	ھەممەيلەنگە	_	PRON	P	_	5	nmod	_	Translit=hemmeylenge|Morf=Unknown
 5	تونۇش	تونۇ	VERB	A	Case=Nom|VerbForm=Ger	10	amod	_	Translit=tonush
@@ -16704,8 +16704,8 @@
 
 # sent_id = s2887
 # text = شۇنىڭ بىلەن ئۇ ئارچېرغا: - ئەپەندى قەلەمتىرىچىڭىز بولسا بېرىپ تۇرسىڭىز بوپتىكەن، - دېدى.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	R	_	15	case	_	Translit=bilen
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	15	obl	_	Translit=shuning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Translit=u
 4	ئارچېرغا	_	NOUN	N	_	15	obl	_	SpaceAfter=No|Translit=archërgha|Morf=Unknown
 5	:	:	PUNCT	Y	_	4	punct	_	Translit=:
@@ -18786,8 +18786,8 @@
 2	بىلەن	بىلەن	ADP	C	_	3	cc	_	Translit=bilen
 3	توشقان	توشقان	ADJ	N	Case=Nom	1	conj	_	Translit=toshqan
 4	تۈلكىنىڭ	تۈلكە	NOUN	M	Case=Gen	10	nmod:poss	_	Translit=tülkining
-5	نېمە	نېمە	NOUN	P	Case=Nom	6	compound	_	Translit=nëme
-6	ئۈچۈن	ئۈچۈن	ADP	C	_	10	case	_	Translit=üchün
+5	نېمە	نېمە	NOUN	P	Case=Nom	10	obl	_	Translit=nëme
+6	ئۈچۈن	ئۈچۈن	ADP	C	_	5	case	_	Translit=üchün
 7	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	8	det	_	Translit=bu
 8	ئۈزۈملەرنى	ئۈزۈم	NOUN	N	Case=Acc|Number=Plur	9	nsubj	_	Translit=üzümlerni
 9	ئاچچىق	ئاچچىق	NOUN	A	Case=Nom	10	ccomp	_	Translit=achchiq
@@ -22814,8 +22814,8 @@
 
 # sent_id = s3353
 # text = بۇنىڭ بىلەن شامال ھاسىل بولىدۇ.
-1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=buning
-2	بىلەن	بىلەن	ADP	R	_	5	case	_	Translit=bilen
+1	بۇنىڭ	بۇ	PRON	P	Case=Gen|PronType=Dem	5	obl	_	Translit=buning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	شامال	شامال	NOUN	N	Case=Nom	5	nsubj	_	Translit=shamal
 4	ھاسىل	_	NOUN	N	_	5	compound	_	Translit=hasil|Morf=Unknown
 5	بولىدۇ	بول	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=bolidu
@@ -23042,8 +23042,8 @@
 
 # sent_id = s3369
 # text = شۇنىڭ بىلەن ئۇ بارا-بارا ئۆزىنى بىر كىچىك سودىگەردەك ھېس قىلىدىغان بولۇپ قالدى.
-1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	2	compound	_	Translit=shuning
-2	بىلەن	بىلەن	ADP	R	_	10	case	_	Translit=bilen
+1	شۇنىڭ	شۇ	PRON	P	Case=Gen|PronType=Dem	10	obl	_	Translit=shuning
+2	بىلەن	بىلەن	ADP	R	_	1	case	_	Translit=bilen
 3	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Translit=u
 4	بارا-بارا	_	ADV	D	_	10	advmod	_	Translit=bara-bara|Morf=Unknown
 5	ئۆزىنى	ئۆز	PRON	P	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	10	obj	_	Translit=özini
@@ -23081,8 +23081,8 @@
 8	ئانىسىغا	ئانا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	Translit=anisigha
 9	بەرمەكچى	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bermekchi|Morf=Unknown
 10	،	،	PUNCT	Y	_	18	punct	_	Translit=,
-11	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	12	compound	_	Translit=shu
-12	ئارقىلىق	ئارقىلىق	ADP	R	_	18	case	_	Translit=arqiliq
+11	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	18	obl	_	Translit=shu
+12	ئارقىلىق	ئارقىلىق	ADP	R	_	11	case	_	Translit=arqiliq
 13	ئانىسىغا	ئانا	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	Translit=anisigha
 14	ياردەملىشىپ	_	NOUN	N	_	16	obl	_	Translit=yardemliship|Morf=Missing,2
 15	قىلغان	قىل	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	16	acl	_	Translit=qilghan
@@ -23795,8 +23795,8 @@
 2	بىراق	بىراق	CCONJ	C	_	9	cc	_	SpaceAfter=No|Translit=biraq
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 4	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Translit=u
-5	نېمە	نېمە	NOUN	P	Case=Nom	6	compound	_	Translit=nëme
-6	ئۈچۈن	ئۈچۈن	ADP	C	_	9	case	_	Translit=üchün
+5	نېمە	نېمە	NOUN	P	Case=Nom	9	obl	_	Translit=nëme
+6	ئۈچۈن	ئۈچۈن	ADP	C	_	5	case	_	Translit=üchün
 7	بۇنداق	بۇنداق	ADJ	P	Case=Nom	8	advmod	_	Translit=bundaq
 8	قىلىشنى	قىل	VERB	V	Case=Acc|VerbForm=Ger	9	obj	_	Translit=qilishni
 9	خالايدۇ	_	VERB	V	_	12	ccomp	_	SpaceAfter=No|Translit=xalaydu|Morf=Unknown
@@ -24093,8 +24093,8 @@
 7	كاتتا	كات	ADJ	A	Case=Loc	8	amod	_	Translit=katta
 8	ئالىم	ئالىم	PROPN	N	Case=Nom|Gender=Masc	15	nsubj	_	Translit=alim
 9	ئۆزىنى	ئۆز	PRON	P	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	15	obj	_	Translit=özini
-10	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	11	compound	_	Translit=shu
-11	قەدەر	قەدەر	ADP	R	_	12	case	_	Translit=qeder
+10	شۇ	شۇ	PRON	P	Case=Nom|PronType=Dem	12	obl	_	Translit=shu
+11	قەدەر	قەدەر	ADP	R	_	10	case	_	Translit=qeder
 12	ئاددىي	ئاددىي	ADJ	A	Case=Nom	13	amod	_	Translit=addiy
 13	ئادەم	ئادەم	NOUN	N	Case=Nom	14	ccomp	_	Translit=adem
 14	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	Translit=dep
