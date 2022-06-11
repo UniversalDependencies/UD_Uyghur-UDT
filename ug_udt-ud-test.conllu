@@ -273,7 +273,7 @@
 16	تېپىپ	تاپ	VERB	V	Aspect=Perf|VerbForm=Inf	12	conj	_	Translit=tëpip
 17	ۋوگزالغا	ۋوگزال	NOUN	N	Case=Dat	18	obl	_	Translit=wogzalgha
 18	ئېلىپ	ئال	VERB	V	Aspect=Perf|VerbForm=Inf	12	conj	_	Translit=ëlip
-19	كېلىشكە	كەل	VERB	V	Case=Dat|VerbForm=Ger	18	aux	_	Translit=këlishke
+19	كېلىشكە	كەل	AUX	V	Case=Dat|VerbForm=Ger	18	aux	_	Translit=këlishke
 20	چاقىرىق	_	NOUN	N	_	21	compound	_	Translit=chaqiriq|Morf=Unknown
 21	قىلدى	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qildi
 22	.	.	PUNCT	Y	_	21	punct	_	Translit=.
@@ -835,7 +835,7 @@
 2	تاغ	تاغ	NOUN	N	Case=Nom	3	nmod:poss	_	Translit=tagh
 3	قۇشقىچى	قۇشقاچ	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	Translit=qushqichi
 4	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=uchup
-5	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	4	aux	_	SpaceAfter=No|Translit=këlip
+5	كېلىپ	كەل	AUX	V	Aspect=Perf|VerbForm=Conv	4	aux	_	SpaceAfter=No|Translit=këlip
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,
 7	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	Translit=uning
 8	يېنىدىكى	يان	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nmod	_	Translit=yënidiki
@@ -2070,7 +2070,7 @@
 14	چۇڭۇلداپ	_	NOUN	N	_	15	advcl	_	Translit=chunguldap|Morf=Unknown
 15	سۆزلىگىنىچە	_	NOUN	N	_	16	advcl	_	Translit=sözliginiche|Morf=Unknown
 16	كىرىپ	كىر	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=kirip
-17	كەلدى	كەل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=keldi
+17	كەلدى	كەل	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No|Translit=keldi
 18	:	:	PUNCT	Y	_	17	punct	_	Translit=:
 
 # sent_id = s150
@@ -2987,7 +2987,7 @@
 3	سىگۇاڭ	_	NOUN	N	_	2	flat	_	Translit=siguang|Morf=Unknown
 4	يۇرتىغا	يۇرت	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	Translit=yurtigha
 5	قايتىپ	قايت	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	Translit=qaytip
-6	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	5	aux	_	SpaceAfter=No|Translit=këlip
+6	كېلىپ	كەل	AUX	V	Aspect=Perf|VerbForm=Conv	5	aux	_	SpaceAfter=No|Translit=këlip
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,
 8	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	9	det	_	Translit=bu
 9	تاشنى	تا	VERB	N	Case=Acc|VerbForm=Ger	12	obj	_	Translit=tashni
@@ -3343,7 +3343,7 @@
 # sent_id = s242
 # text = advcl كېلىدۇ،
 1	advcl	advcl	X	V	_	0	root	_	Translit=qaytip
-2	كېلىدۇ	كەل	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No|Translit=këlidu
+2	كېلىدۇ	كەل	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No|Translit=këlidu
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,
 
 # sent_id = s243
