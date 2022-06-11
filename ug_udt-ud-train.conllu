@@ -10366,7 +10366,7 @@
 8	سەنئەتكارلار	_	NOUN	N	_	9	nmod	_	Translit=senetkarlar|Morf=Unknown
 9	ئارسىدىن	_	NOUN	N	_	10	obl	_	Translit=arsidin|Morf=Unknown
 10	سايلاش	_	VERB	V	_	12	obl	_	Translit=saylash|Morf=Unknown
-11	ئارقىلىق	ئارقىلىق	ADP	R	_	10	aux	_	Translit=arqiliq
+11	ئارقىلىق	ئارقىلىق	ADP	R	_	10	case	_	Translit=arqiliq
 12	بېكىتىلىدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bëkitilidu|Morf=Unknown
 13	.	.	PUNCT	Y	_	12	punct	_	Translit=.
 
@@ -12117,7 +12117,7 @@
 
 # sent_id = s2606
 # text = ئۇلار كىيىمنى كۆز-كۆز قىلىش رەۋىشتە ئەمەس، بەلكى ئىنسانىي ھوزۇر سۈپىتىدە كىيىدىغاندەك تۇراتتى.
-1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	aux	_	Translit=ular
+1	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	Translit=ular
 2	كىيىمنى	كىيىم	NOUN	N	Case=Acc	12	obj	_	Translit=kiyimni
 3	كۆز-كۆز	_	NOUN	N	_	4	compound	_	Translit=köz-köz|Morf=Unknown
 4	قىلىش	قىل	VERB	V	Case=Nom|VerbForm=Ger	5	nmod	_	Translit=qilish
@@ -19533,7 +19533,7 @@
 24	ياۋا	ياۋا	ADJ	A	_	25	amod	_	Translit=yawa
 25	گۈللەرنى	گۈل	NOUN	N	Case=Acc|Number=Plur	3	conj	_	SpaceAfter=No|Translit=güllerni
 26	،	،	PUNCT	Y	_	29	punct	_	Translit=,
-27	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Conv	28	aux	_	Translit=uchup
+27	ئۇچۇپ	ئۇچ	VERB	V	Aspect=Perf|VerbForm=Conv	28	xcomp	_	Translit=uchup
 28	يۈرگەن	يۈر	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	29	acl	_	Translit=yürgen
 29	كېپىنەك	كېپىنەك	NOUN	N	Case=Nom	3	conj	_	SpaceAfter=No|Translit=këpinek
 30	،	،	PUNCT	Y	_	32	punct	_	Translit=,
