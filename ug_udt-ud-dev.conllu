@@ -1206,7 +1206,7 @@
 # text = − − كامال، سەن تاياق يەپ باققانمۇ؟
 1	−	_	NOUN	N	_	7	dep	_	Translit=−|Morf=Unknown
 2	−	_	NOUN	N	_	7	dep	_	Translit=−|Morf=Unknown
-3	كامال	كامال	ADJ	N	_	7	discourse	_	SpaceAfter=No|Translit=kamal
+3	كامال	كامال	PROPN	N	Case=Nom	7	vocative	_	SpaceAfter=No|Translit=kamal
 4	،	،	PUNCT	Y	_	3	punct	_	Translit=,
 5	سەن	سەن	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	Translit=sen
 6	تاياق	تاياق	NOUN	N	Case=Nom	7	obj	_	Translit=tayaq
