@@ -12,6 +12,8 @@ middle school, including stories, records and reports.
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * Fixed one sentence, regenerated transliteration.
 * 2022-11-15 v2.11
   * Fixed validation errors.
 * 2021-05-15 v2.8

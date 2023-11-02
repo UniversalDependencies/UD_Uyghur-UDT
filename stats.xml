@@ -10,7 +10,7 @@
     <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
     <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2905" /><!-- ،, ., -, بىر, بول, ئۇ, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
+  <lemmas unique="2906" /><!-- ،, ., -, بىر, بول, ئۇ, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12066" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">2847</tag><!-- _, چوڭ, ياخشى, يوق, باشقا, كىچىك, ئۇزاق, كېرەك, خۇددى, ئوخشاش -->
     <tag name="ADP">628</tag><!-- بىلەن, ئۈچۈن, _, ئارقىلىق, بويىچە, ئىچىگە, تارتىپ, قاتارلىق, قەدەر, بۇنىڭدىن -->
     <tag name="ADV">982</tag><!-- _, يەنە, شۇنداق, بەك, شۇڭا, قانداق, قېتىم, تېخى, دەرھال, دەل -->
-    <tag name="AUX">910</tag><!-- بول, _, ئى, كەت, قال, تۇر, كەل -->
+    <tag name="AUX">911</tag><!-- بول, _, ئى, كەت, قال, تۇر, كەل -->
     <tag name="CCONJ">503</tag><!-- ۋە, لېكىن, _, ھەم, بىراق, ياكى, ئەمما, بەلكى -->
     <tag name="DET">408</tag><!-- ھەر, بىر, نەچچە, _, قانچە, بۇنداق, ھەممە, قانداق, قايسى, بەزى -->
     <tag name="INTJ">111</tag><!-- _, پاھ, ھەي, ياق, ۋاي, رەھمەت, بولسۇن, ھەئە, كەچۈرۈڭ, ئاپىرىن -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">81</tag><!-- جۇڭگو, قەشقەر, مىرزا, ئالىم, شاپتۇل, ئامېرىكا, شىنجاڭ, سادىق, ئارىستوتېل, ئىمام -->
     <tag name="PUNCT">7807</tag><!-- ،, ., -, _, !, :, ؟, «, », – -->
     <tag name="SCONJ">62</tag><!-- چۈنكى, ئەگەر, گەرچە -->
-    <tag name="VERB">8328</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قارا, تۇر, كۆر -->
+    <tag name="VERB">8327</tag><!-- _, بول, قىل, دە, دې, كەل, بار, قارا, تۇر, كۆر -->
     <tag name="X">28</tag><!-- _, advcl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -85,11 +85,11 @@
     <dep name="advmod:emph">24</dep>
     <dep name="amod">2431</dep>
     <dep name="appos">122</dep>
-    <dep name="aux">336</dep>
-    <dep name="case">629</dep>
-    <dep name="cc">634</dep>
+    <dep name="aux">337</dep>
+    <dep name="case">630</dep>
+    <dep name="cc">635</dep>
     <dep name="ccomp">433</dep>
-    <dep name="compound">1574</dep>
+    <dep name="compound">1573</dep>
     <dep name="compound:lvc">268</dep>
     <dep name="compound:redup">254</dep>
     <dep name="conj">1037</dep>
@@ -100,17 +100,17 @@
     <dep name="discourse">271</dep>
     <dep name="dislocated">15</dep>
     <dep name="expl">1</dep>
-    <dep name="fixed">116</dep>
+    <dep name="fixed">115</dep>
     <dep name="flat">54</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">149</dep>
+    <dep name="mark">148</dep>
     <dep name="nmod">1360</dep>
     <dep name="nmod:cau">68</dep>
     <dep name="nmod:comp">20</dep>
     <dep name="nmod:part">6</dep>
     <dep name="nmod:poss">1476</dep>
     <dep name="nmod:tmod">88</dep>
-    <dep name="nsubj">3789</dep>
+    <dep name="nsubj">3788</dep>
     <dep name="nsubj:pass">6</dep>
     <dep name="nummod">748</dep>
     <dep name="obj">2309</dep>
@@ -122,6 +122,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">3456</dep>
     <dep name="vocative">54</dep>
-    <dep name="xcomp">520</dep>
+    <dep name="xcomp">521</dep>
   </deps>
 </treebank>
