@@ -1561,18 +1561,19 @@
 
 # sent_id = s113
 # text = شۇنداق تۇرۇقلۇق، نېمە ئۈچۈن يەنە مېنى ئۇستاز تۇتماقچى بولۇپ قالدىڭىز؟
-1	شۇنداق	شۇنداق	ADV	P	_	10	compound	_	Translit=shundaq
-2	تۇرۇقلۇق	_	ADP	R	_	1	mark	_	SpaceAfter=No|Translit=turuqluq|Morf=Unknown
-3	،	،	PUNCT	Y	_	4	punct	_	Translit=,
-4	نېمە	نېمە	NOUN	P	Case=Nom	1	obl	_	Translit=nëme
-5	ئۈچۈن	ئۈچۈن	ADP	R	_	4	fixed	_	Translit=üchün
-6	يەنە	يەنە	ADV	D	_	1	advmod	_	Translit=yene
-7	مېنى	_	PRON	P	_	1	obj	_	Translit=mëni|Morf=Unknown
-8	ئۇستاز	ئۇستاز	NOUN	N	Case=Nom	1	nsubj	_	Translit=ustaz
-9	تۇتماقچى	_	VERB	V	_	1	fixed	_	Translit=tutmaqchi|Morf=Unknown
-10	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	Translit=bolup
-11	قالدىڭىز	قال	AUX	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=qaldingiz
-12	؟	؟	PUNCT	Y	_	11	punct	_	Translit=?
+# text_en = Also, why did you want to take me as your teacher again?
+1	شۇنداق	شۇنداق	ADV	P	_	9	cc	_	Translit=shundaq|Gloss=yes
+2	تۇرۇقلۇق	تۇرۇقلۇق	ADP	R	_	1	fixed	_	SpaceAfter=No|Translit=turuqluq|Morf=Unknown|Gloss=too
+3	،	،	PUNCT	Y	_	1	punct	_	Translit=,
+4	نېمە	نېمە	NOUN	P	Case=Nom	9	obl	_	Translit=nëme|Gloss=what
+5	ئۈچۈن	ئۈچۈن	ADP	R	_	4	case	_	Translit=üchün|Gloss=for
+6	يەنە	يەنە	ADV	D	_	9	advmod	_	Translit=yene|Gloss=again
+7	مېنى	_	PRON	P	_	9	obj	_	Translit=mëni|Morf=Unknown|Gloss=me
+8	ئۇستاز	ئۇستاز	NOUN	N	Case=Nom	9	xcomp	_	Translit=ustaz|Gloss=teacher
+9	تۇتماقچى	_	VERB	V	_	0	root	_	Translit=tutmaqchi|Morf=Unknown|Gloss=to-catch
+10	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Inf	9	aux	_	Translit=bolup|Gloss=is
+11	قالدىڭىز	قال	AUX	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No|Translit=qaldingiz|Gloss=you-are-left
+12	؟	؟	PUNCT	Y	_	9	punct	_	Translit=?
 
 # sent_id = s114
 # text = بۇ سۆزنى ئاڭلىغان كۇڭزى يەنە بىر قېتىم تەزىم قىلىدۇ.
