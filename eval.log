@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 7d1701627a049b669035300e16b53289b74cc4d4
+commit 563152c0a9441b7706e0422e976ea61d5f3627df
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:13:16 2023 +0100
+Date:   Sun May 5 13:39:20 2024 +0200
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,35 @@ Udapi: found 6708 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40236 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
+[Line 1248 Sent s956 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:مۇشۇنداق:det --> 4:مانا:nmod)
+[Line 7808 Sent s1371 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:مۇنچە:det --> 7:بىر:nummod)
+[Line 14135 Sent s1794 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:شۇنداق:det --> 5:ئەنە:mark)
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
+[Line 364 Sent s20 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:نەچچە:det --> 5:ئون:nummod)
+[Line 10217 Sent s688 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:بىر:nummod)
+[Line 10236 Sent s689 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:ئىككى:nummod)
+[Line 10576 Sent s705 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:يەنە:nmod)
+[Line 11451 Sent s758 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:نەق:amod)
+[Line 13040 Sent s859 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:نەچچە:det --> 14:بىر:nummod)
+[Line 13064 Sent s860 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:نەچچە:det --> 7:بىر:nummod)
+[Line 13765 Sent s893 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:بۇ:det --> 4:دېگەندىن:amod)
+Warnings: 8
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
+[Line 4410 Sent s2078 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:دەل:nmod)
+[Line 4832 Sent s2105 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:نەچچە:det --> 2:يۈز:nummod)
+[Line 8715 Sent s2338 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:بىر:nummod)
+[Line 9804 Sent s2405 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:مۇنچە:det --> 5:بىر:nummod)
+[Line 13436 Sent s2638 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:قانچە:det --> 3:بىر:nummod)
+[Line 16996 Sent s2834 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:نەچچە:det --> 6:ئون:nummod)
+[Line 17677 Sent s2880 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:قېتىم:det --> 8:تۇجى:nummod)
+[Line 18151 Sent s2908 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:نەچچە:det --> 8:يۈز:nummod)
+[Line 20708 Sent s3097 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:مۇشۇ:det --> 4:مانا:nmod)
+[Line 23975 Sent s3331 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:نەچچە:det --> 3:20:nummod)
+...suppressing further errors regarding Warning
+Warnings: 12
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
