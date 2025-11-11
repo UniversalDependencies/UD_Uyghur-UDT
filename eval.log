@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 0593747fdee8756f67ca9352ef2ed5a9830ee8c8
+commit 6a688e9c563b6d605ce74491a7fdc22d5f2bdca0
+Merge: c8444a6 d3b4262
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:49:12 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ug_udt'
+Language code (from CoNLL-U file name) = 'ug'
+Found the following data files: ug_udt-ud-dev.conllu, ug_udt-ud-test.conllu, ug_udt-ud-train.conllu
 Size: counted 40236 of 40236 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.38952423454418.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,90 +23,87 @@ Features: 18224 out of 40236 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       6585
-Udapi: found 6585 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 40236 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
-[Line 185 Sent s909 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ ئۈچۈن' does not have the 'ExtPos' feature
-[Line 202 Sent s910 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنداق بولسىمۇ' does not have the 'ExtPos' feature
-[Line 1248 Sent s956 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:مۇشۇنداق:det --> 4:مانا:nmod)
-[Line 3020 Sent s1058 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ھەر قانداق' does not have the 'ExtPos' feature
-[Line 3032 Sent s1059 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ئالدى بىلەن' does not have the 'ExtPos' feature
-[Line 3248 Sent s1071 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇ چاغدا' does not have the 'ExtPos' feature
-[Line 3564 Sent s1091 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'نېمە ئۈچۈن' does not have the 'ExtPos' feature
-[Line 3690 Sent s1100 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'نېمە بولغىنى' does not have the 'ExtPos' feature
-[Line 4585 Sent s1157 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'بىر مۇنچە' does not have the 'ExtPos' feature
-[Line 4822 Sent s1168 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ھەر بىر' does not have the 'ExtPos' feature
-[Line 5125 Sent s1188 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ھەر قانچە قىلىپمۇ' does not have the 'ExtPos' feature
+[Line 8 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈم özüm' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 24 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'كىمدۇر kimdur' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 28 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'مېنى mëni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 45 Sent s902]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈمدىن özümdin' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 98 Sent s904]: [L3 Warning pron-det-without-prontype] The word 'ئۇنىڭدىنمۇ uningdinmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 131 Sent s906]: [L3 Warning pron-det-without-prontype] The word 'سېنىڭ sëning' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 172 Sent s908]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈمنىڭ özümning' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 173 Sent s908]: [L3 Warning pron-det-without-prontype] The word 'ئەڭ eng' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 185 Sent s909]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ ئۈچۈن' does not have the 'ExtPos' feature
+[Line 188 Sent s909]: [L3 Warning pron-det-without-prontype] The word 'ئۆز öz' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 7808 Sent s1371 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:مۇنچە:det --> 7:بىر:nummod)
-[Line 14135 Sent s1794 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:شۇنداق:det --> 5:ئەنە:mark)
-Syntax errors: 3
-Warnings: 36
-*** FAILED *** with 3 errors
+[Line 1248 Sent s956]: [L3 Syntax leaf-det] 'det' not expected to have children (5:مۇشۇنداق:det --> 4:مانا:nmod)
+[Line 7808 Sent s1371]: [L3 Syntax leaf-det] 'det' not expected to have children (8:مۇنچە:det --> 7:بىر:nummod)
+[Line 8525 Sent s1422]: [L3 Syntax too-many-objects] Multiple direct objects [4, 9] ('تېكىستلەرنى tëkistlerni', 'مول mol') under the predicate 'قىلالايمىز qilalaymiz'.
+[Line 10424 Sent s1552]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('سېنى sëni', 'قىلىشنى qilishni') under the predicate 'قىغانلارغا qighanlargha'.
+[Line 14135 Sent s1794]: [L3 Syntax leaf-det] 'det' not expected to have children (6:شۇنداق:det --> 5:ئەنە:mark)
+Syntax errors: 5
+Warnings: 377
+*** FAILED *** with 5 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
-[Line 209 Sent s12 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 274 Sent s16 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 364 Sent s20 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:نەچچە:det --> 5:ئون:nummod)
-[Line 540 Sent s33 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
-[Line 1093 Sent s74 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'يەتتە ئۆلچەپ بىر كەس' does not have the 'ExtPos' feature
-[Line 1100 Sent s74 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ياخشى چارە ئىشنىڭ يېرىمى' does not have the 'ExtPos' feature
-[Line 1107 Sent s74 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'سەۋەب قىلساڭ سېۋەتتە سۇ توختايدۇ' does not have the 'ExtPos' feature
-[Line 1251 Sent s85 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 1340 Sent s91 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 1369 Sent s93 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ئېتىشلارغا قارىغاندا' does not have the 'ExtPos' feature
-[Line 1373 Sent s93 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'يەتتە ئۆلچەپ بىر كەس' does not have the 'ExtPos' feature
+[Line 89 Sent s4]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 97 Sent s4]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 149 Sent s8]: [L3 Warning pron-det-without-prontype] The word 'نىمىشقا nimishqa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 209 Sent s12]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 212 Sent s12]: [L3 Warning pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 274 Sent s16]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 300 Sent s17]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 365 Sent s20]: [L3 Warning pron-det-without-prontype] The word 'نەچچە nechche' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 364 Sent s20]: [L3 Syntax leaf-det] 'det' not expected to have children (6:نەچچە:det --> 5:ئون:nummod)
+[Line 393 Sent s22]: [L3 Warning pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 435 Sent s26]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 10217 Sent s688 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:بىر:nummod)
-[Line 10236 Sent s689 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:ئىككى:nummod)
-[Line 10576 Sent s705 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:يەنە:nmod)
-[Line 11451 Sent s758 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:نەق:amod)
-[Line 13040 Sent s859 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:نەچچە:det --> 14:بىر:nummod)
-[Line 13064 Sent s860 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:نەچچە:det --> 7:بىر:nummod)
-[Line 13765 Sent s893 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:بۇ:det --> 4:دېگەندىن:amod)
+[Line 10217 Sent s688]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:بىر:nummod)
+[Line 10236 Sent s689]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:ئىككى:nummod)
+[Line 10576 Sent s705]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:يەنە:nmod)
+[Line 11451 Sent s758]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:نەق:amod)
+[Line 13040 Sent s859]: [L3 Syntax leaf-det] 'det' not expected to have children (15:نەچچە:det --> 14:بىر:nummod)
+[Line 13064 Sent s860]: [L3 Syntax leaf-det] 'det' not expected to have children (8:نەچچە:det --> 7:بىر:nummod)
+[Line 13765 Sent s893]: [L3 Syntax leaf-det] 'det' not expected to have children (6:بۇ:det --> 4:دېگەندىن:amod)
 Syntax errors: 8
-Warnings: 50
+Warnings: 366
 *** FAILED *** with 8 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
-[Line 997 Sent s1868 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'بۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 1074 Sent s1871 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'بىر تۇتاش' does not have the 'ExtPos' feature
-[Line 1380 Sent s1885 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ئۇنىڭدىن باشقا' does not have the 'ExtPos' feature
-[Line 1438 Sent s1888 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'بىر نېمە' does not have the 'ExtPos' feature
-[Line 1596 Sent s1897 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ئۇنىڭ ئۈستىگە' does not have the 'ExtPos' feature
-[Line 1711 Sent s1905 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ئۇنىڭ ئۈستىگە' does not have the 'ExtPos' feature
-[Line 1787 Sent s1911 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەنلا' does not have the 'ExtPos' feature
-[Line 2063 Sent s1928 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
-[Line 2933 Sent s1986 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'بىر مۇنچە' does not have the 'ExtPos' feature
-[Line 3514 Sent s2023 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
+[Line 42 Sent s1804]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 145 Sent s1811]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 288 Sent s1821]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 291 Sent s1821]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 394 Sent s1829]: [L3 Warning pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 409 Sent s1830]: [L3 Warning pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 433 Sent s1832]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 498 Sent s1838]: [L3 Warning pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 517 Sent s1840]: [L3 Warning pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 531 Sent s1841]: [L3 Warning pron-det-without-prontype] The word 'بۇنىڭدا buningda' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 4410 Sent s2078 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:دەل:nmod)
-[Line 4832 Sent s2105 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:نەچچە:det --> 2:يۈز:nummod)
-[Line 8715 Sent s2338 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:بىر:nummod)
-[Line 9804 Sent s2405 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:مۇنچە:det --> 5:بىر:nummod)
-[Line 13436 Sent s2638 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:قانچە:det --> 3:بىر:nummod)
-[Line 16996 Sent s2834 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:نەچچە:det --> 6:ئون:nummod)
-[Line 17677 Sent s2880 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:قېتىم:det --> 8:تۇجى:nummod)
-[Line 18151 Sent s2908 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:نەچچە:det --> 8:يۈز:nummod)
-[Line 20708 Sent s3097 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:مۇشۇ:det --> 4:مانا:nmod)
-[Line 23975 Sent s3331 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:نەچچە:det --> 3:20:nummod)
+[Line 2900 Sent s1984]: [L3 Syntax too-many-objects] Multiple direct objects [19, 25] ('كۈلۈپ külüp', 'قوڭغۇراق qongghuraq') under the predicate 'چالاتتى chalatti'.
+[Line 4410 Sent s2078]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:دەل:nmod)
+[Line 4832 Sent s2105]: [L3 Syntax leaf-det] 'det' not expected to have children (3:نەچچە:det --> 2:يۈز:nummod)
+[Line 6850 Sent s2228]: [L3 Syntax too-many-objects] Multiple direct objects [8, 13] ('كۆۋرۈك köwrük', 'يوللار yollar') under the predicate 'ياسالماقتا yasalmaqta'.
+[Line 8715 Sent s2338]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:بىر:nummod)
+[Line 9804 Sent s2405]: [L3 Syntax leaf-det] 'det' not expected to have children (6:مۇنچە:det --> 5:بىر:nummod)
+[Line 13436 Sent s2638]: [L3 Syntax leaf-det] 'det' not expected to have children (4:قانچە:det --> 3:بىر:nummod)
+[Line 16996 Sent s2834]: [L3 Syntax leaf-det] 'det' not expected to have children (7:نەچچە:det --> 6:ئون:nummod)
+[Line 17270 Sent s2851]: [L3 Syntax too-many-objects] Multiple direct objects [8, 15] ('كېلىدىغانلىقىنى këlidighanliqini', 'كېلىشىمىزنى këlishimizni') under the predicate 'ئېيتتى ëytti'.
+[Line 17328 Sent s2854]: [L3 Syntax too-many-objects] Multiple direct objects [2, 9] ('ئۇنى uni', 'رەھبىرى rehbiri') under the predicate 'تونۇۋالدۇق tonuwalduq'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 15
-*** FAILED *** with 12 errors
+Syntax errors: 16
+Warnings: 539
+*** FAILED *** with 16 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.534871599825482) = 0.137146564057816
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.35501714957546) * (availability=1) * (validity=0.01) = 0.0035501714957546
+(weight=0.111111111111111) * (score{features}=0.2) = 0.0222222222222222
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.534871599825482) = 0.198100592527956
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.918918918918919) = 0.102102102102102
+(TOTAL score=0.508358104942331) * (availability=1) * (validity=0.01) = 0.00508358104942331
 STARS = 0
-UD_Uyghur-UDT	0.0035501714957546	0
+UD_Uyghur-UDT	0.00508358104942331	0
