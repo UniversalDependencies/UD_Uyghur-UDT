@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Uyghur-UDT:
-commit 6a688e9c563b6d605ce74491a7fdc22d5f2bdca0
-Merge: c8444a6 d3b4262
+commit 138cf13665bb24c227aeca5fe8b7fb19e8130622
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 21:01:08 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ug_udt'
 Language code (from CoNLL-U file name) = 'ug'
@@ -25,76 +25,118 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-dev.conllu
-[Line 8 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈم özüm' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 24 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'كىمدۇر kimdur' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 28 Sent s901]: [L3 Warning pron-det-without-prontype] The word 'مېنى mëni' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 45 Sent s902]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈمدىن özümdin' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 98 Sent s904]: [L3 Warning pron-det-without-prontype] The word 'ئۇنىڭدىنمۇ uningdinmu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 131 Sent s906]: [L3 Warning pron-det-without-prontype] The word 'سېنىڭ sëning' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 172 Sent s908]: [L3 Warning pron-det-without-prontype] The word 'ئۆزۈمنىڭ özümning' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 173 Sent s908]: [L3 Warning pron-det-without-prontype] The word 'ئەڭ eng' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 185 Sent s909]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ ئۈچۈن' does not have the 'ExtPos' feature
-[Line 188 Sent s909]: [L3 Warning pron-det-without-prontype] The word 'ئۆز öz' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 1248 Sent s956]: [L3 Syntax leaf-det] 'det' not expected to have children (5:مۇشۇنداق:det --> 4:مانا:nmod)
-[Line 7808 Sent s1371]: [L3 Syntax leaf-det] 'det' not expected to have children (8:مۇنچە:det --> 7:بىر:nummod)
-[Line 8525 Sent s1422]: [L3 Syntax too-many-objects] Multiple direct objects [4, 9] ('تېكىستلەرنى tëkistlerni', 'مول mol') under the predicate 'قىلالايمىز qilalaymiz'.
-[Line 10424 Sent s1552]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('سېنى sëni', 'قىلىشنى qilishni') under the predicate 'قىغانلارغا qighanlargha'.
-[Line 14135 Sent s1794]: [L3 Syntax leaf-det] 'det' not expected to have children (6:شۇنداق:det --> 5:ئەنە:mark)
-Syntax errors: 5
-Warnings: 377
-*** FAILED *** with 5 errors
+[Line 8 Sent s901]: [L3 WARNING pron-det-without-prontype] The word 'ئۆزۈم özüm' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 24 Sent s901]: [L3 WARNING pron-det-without-prontype] The word 'كىمدۇر kimdur' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 28 Sent s901]: [L3 WARNING pron-det-without-prontype] The word 'مېنى mëni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 45 Sent s902]: [L3 WARNING pron-det-without-prontype] The word 'ئۆزۈمدىن özümdin' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 98 Sent s904]: [L3 WARNING pron-det-without-prontype] The word 'ئۇنىڭدىنمۇ uningdinmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 131 Sent s906]: [L3 WARNING pron-det-without-prontype] The word 'سېنىڭ sëning' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 172 Sent s908]: [L3 WARNING pron-det-without-prontype] The word 'ئۆزۈمنىڭ özümning' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 173 Sent s908]: [L3 WARNING pron-det-without-prontype] The word 'ئەڭ eng' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 185 Sent s909]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ ئۈچۈن' does not have the 'ExtPos' feature
+[Line 188 Sent s909]: [L3 WARNING pron-det-without-prontype] The word 'ئۆز öz' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 202 Sent s910]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنداق بولسىمۇ' does not have the 'ExtPos' feature
+[Line 235 Sent s911]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'بوشلۇقۇمدىكى boshluqumdiki') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 248 Sent s912]: [L3 WARNING pron-det-without-prontype] The word 'سېنىڭ sëning' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1248 Sent s956]: [L3 SYNTAX leaf-det] 'det' not expected to have children (5:مۇشۇنداق:det --> 4:مانا:nmod)
+[Line 1580 Sent s971]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'ئىلگىرىكىدەك ilgirikidek') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2933 Sent s1055]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'خىيالغا xiyalgha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3020 Sent s1058]: [L3 WARNING fixed-without-extpos] Fixed expression 'ھەر قانداق' does not have the 'ExtPos' feature
+[Line 3032 Sent s1059]: [L3 WARNING fixed-without-extpos] Fixed expression 'ئالدى بىلەن' does not have the 'ExtPos' feature
+[Line 3247 Sent s1071]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'شۇ shu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3248 Sent s1071]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇ چاغدا' does not have the 'ExtPos' feature
+[Line 3564 Sent s1091]: [L3 WARNING fixed-without-extpos] Fixed expression 'نېمە ئۈچۈن' does not have the 'ExtPos' feature
+[Line 3690 Sent s1100]: [L3 WARNING fixed-without-extpos] Fixed expression 'نېمە بولغىنى' does not have the 'ExtPos' feature
+[Line 4585 Sent s1157]: [L3 WARNING fixed-without-extpos] Fixed expression 'بىر مۇنچە' does not have the 'ExtPos' feature
+[Line 4822 Sent s1168]: [L3 WARNING fixed-without-extpos] Fixed expression 'ھەر بىر' does not have the 'ExtPos' feature
+[Line 5125 Sent s1188]: [L3 WARNING fixed-without-extpos] Fixed expression 'ھەر قانچە قىلىپمۇ' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5289 Sent s1200]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'شۇنىڭدىن shuningdin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6464 Sent s1278]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'يىلدا yilda') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6470 Sent s1278]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'نەپكە nepke') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7808 Sent s1371]: [L3 SYNTAX leaf-det] 'det' not expected to have children (8:مۇنچە:det --> 7:بىر:nummod)
+[Line 8102 Sent s1390]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'شۇنىڭدىن shuningdin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 363
+SYNTAX errors: 19
+*** FAILED *** with 19 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-test.conllu
-[Line 89 Sent s4]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 97 Sent s4]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 149 Sent s8]: [L3 Warning pron-det-without-prontype] The word 'نىمىشقا nimishqa' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 209 Sent s12]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 212 Sent s12]: [L3 Warning pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 274 Sent s16]: [L3 Warning fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
-[Line 300 Sent s17]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 365 Sent s20]: [L3 Warning pron-det-without-prontype] The word 'نەچچە nechche' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 364 Sent s20]: [L3 Syntax leaf-det] 'det' not expected to have children (6:نەچچە:det --> 5:ئون:nummod)
-[Line 393 Sent s22]: [L3 Warning pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 435 Sent s26]: [L3 Warning pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 10217 Sent s688]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:بىر:nummod)
-[Line 10236 Sent s689]: [L3 Syntax leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:ئىككى:nummod)
-[Line 10576 Sent s705]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:يەنە:nmod)
-[Line 11451 Sent s758]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:نەق:amod)
-[Line 13040 Sent s859]: [L3 Syntax leaf-det] 'det' not expected to have children (15:نەچچە:det --> 14:بىر:nummod)
-[Line 13064 Sent s860]: [L3 Syntax leaf-det] 'det' not expected to have children (8:نەچچە:det --> 7:بىر:nummod)
-[Line 13765 Sent s893]: [L3 Syntax leaf-det] 'det' not expected to have children (6:بۇ:det --> 4:دېگەندىن:amod)
-Syntax errors: 8
-Warnings: 366
-*** FAILED *** with 8 errors
+[Line 89 Sent s4]: [L3 WARNING pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 97 Sent s4]: [L3 WARNING pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 149 Sent s8]: [L3 WARNING pron-det-without-prontype] The word 'نىمىشقا nimishqa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 209 Sent s12]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 212 Sent s12]: [L3 WARNING pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 274 Sent s16]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 300 Sent s17]: [L3 WARNING pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 365 Sent s20]: [L3 WARNING pron-det-without-prontype] The word 'نەچچە nechche' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 364 Sent s20]: [L3 SYNTAX leaf-det] 'det' not expected to have children (6:نەچچە:det --> 5:ئون:nummod)
+[Line 393 Sent s22]: [L3 WARNING pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 435 Sent s26]: [L3 WARNING pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 440 Sent s26]: [L3 WARNING pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 465 Sent s28]: [L3 WARNING pron-det-without-prontype] The word 'بىر bir' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 540 Sent s33]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
+[Line 1093 Sent s74]: [L3 WARNING fixed-without-extpos] Fixed expression 'يەتتە ئۆلچەپ بىر كەس' does not have the 'ExtPos' feature
+[Line 1100 Sent s74]: [L3 WARNING fixed-without-extpos] Fixed expression 'ياخشى چارە ئىشنىڭ يېرىمى' does not have the 'ExtPos' feature
+[Line 1107 Sent s74]: [L3 WARNING fixed-without-extpos] Fixed expression 'سەۋەب قىلساڭ سېۋەتتە سۇ توختايدۇ' does not have the 'ExtPos' feature
+[Line 1251 Sent s85]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 1340 Sent s91]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 1369 Sent s93]: [L3 WARNING fixed-without-extpos] Fixed expression 'ئېتىشلارغا قارىغاندا' does not have the 'ExtPos' feature
+[Line 1373 Sent s93]: [L3 WARNING fixed-without-extpos] Fixed expression 'يەتتە ئۆلچەپ بىر كەس' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5152 Sent s364]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'كېيىن këyin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6549 Sent s453]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'قاقماي qaqmay') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8357 Sent s569]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'ئۆگىنىپلا öginipla') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9346 Sent s635]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'ئوقۇشقا oqushqa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10115 Sent s681]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'ئىشلەيدىغانلىقىنى ishleydighanliqini') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10217 Sent s688]: [L3 SYNTAX leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:بىر:nummod)
+[Line 10236 Sent s689]: [L3 SYNTAX leaf-det] 'det' not expected to have children (10:قېتىم:det --> 9:ئىككى:nummod)
+[Line 10317 Sent s693]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'تۆۋەن töwen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10576 Sent s705]: [L3 SYNTAX leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:يەنە:nmod)
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 359
+SYNTAX errors: 15
+*** FAILED *** with 15 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ug --max-err=10 UD_Uyghur-UDT/ug_udt-ud-train.conllu
-[Line 42 Sent s1804]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 145 Sent s1811]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 288 Sent s1821]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 291 Sent s1821]: [L3 Warning pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 394 Sent s1829]: [L3 Warning pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 409 Sent s1830]: [L3 Warning pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 433 Sent s1832]: [L3 Warning pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 498 Sent s1838]: [L3 Warning pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 517 Sent s1840]: [L3 Warning pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 531 Sent s1841]: [L3 Warning pron-det-without-prontype] The word 'بۇنىڭدا buningda' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2900 Sent s1984]: [L3 Syntax too-many-objects] Multiple direct objects [19, 25] ('كۈلۈپ külüp', 'قوڭغۇراق qongghuraq') under the predicate 'چالاتتى chalatti'.
-[Line 4410 Sent s2078]: [L3 Syntax leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:دەل:nmod)
-[Line 4832 Sent s2105]: [L3 Syntax leaf-det] 'det' not expected to have children (3:نەچچە:det --> 2:يۈز:nummod)
-[Line 6850 Sent s2228]: [L3 Syntax too-many-objects] Multiple direct objects [8, 13] ('كۆۋرۈك köwrük', 'يوللار yollar') under the predicate 'ياسالماقتا yasalmaqta'.
-[Line 8715 Sent s2338]: [L3 Syntax leaf-det] 'det' not expected to have children (11:نەچچە:det --> 10:بىر:nummod)
-[Line 9804 Sent s2405]: [L3 Syntax leaf-det] 'det' not expected to have children (6:مۇنچە:det --> 5:بىر:nummod)
-[Line 13436 Sent s2638]: [L3 Syntax leaf-det] 'det' not expected to have children (4:قانچە:det --> 3:بىر:nummod)
-[Line 16996 Sent s2834]: [L3 Syntax leaf-det] 'det' not expected to have children (7:نەچچە:det --> 6:ئون:nummod)
-[Line 17270 Sent s2851]: [L3 Syntax too-many-objects] Multiple direct objects [8, 15] ('كېلىدىغانلىقىنى këlidighanliqini', 'كېلىشىمىزنى këlishimizni') under the predicate 'ئېيتتى ëytti'.
-[Line 17328 Sent s2854]: [L3 Syntax too-many-objects] Multiple direct objects [2, 9] ('ئۇنى uni', 'رەھبىرى rehbiri') under the predicate 'تونۇۋالدۇق tonuwalduq'.
-...suppressing further errors regarding Syntax
-Syntax errors: 16
-Warnings: 539
-*** FAILED *** with 16 errors
+[Line 42 Sent s1804]: [L3 WARNING pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 145 Sent s1811]: [L3 WARNING pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 288 Sent s1821]: [L3 WARNING pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 291 Sent s1821]: [L3 WARNING pron-det-without-prontype] The word 'بۇنى buni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 394 Sent s1829]: [L3 WARNING pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 409 Sent s1830]: [L3 WARNING pron-det-without-prontype] The word 'ئۆزى özi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 433 Sent s1832]: [L3 WARNING pron-det-without-prontype] The word 'شۇنداقمۇ shundaqmu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 498 Sent s1838]: [L3 WARNING pron-det-without-prontype] The word 'بۇلارغا bulargha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 517 Sent s1840]: [L3 WARNING pron-det-without-prontype] The word 'ھەممىسى hemmisi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 531 Sent s1841]: [L3 WARNING pron-det-without-prontype] The word 'بۇنىڭدا buningda' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 997 Sent s1868]: [L3 WARNING fixed-without-extpos] Fixed expression 'بۇنىڭ بىلەن' does not have the 'ExtPos' feature
+[Line 1074 Sent s1871]: [L3 WARNING fixed-without-extpos] Fixed expression 'بىر تۇتاش' does not have the 'ExtPos' feature
+[Line 1116 Sent s1873]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'قۇرۇلۇشىنى qurulushini') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1380 Sent s1885]: [L3 WARNING fixed-without-extpos] Fixed expression 'ئۇنىڭدىن باشقا' does not have the 'ExtPos' feature
+[Line 1438 Sent s1888]: [L3 WARNING fixed-without-extpos] Fixed expression 'بىر نېمە' does not have the 'ExtPos' feature
+[Line 1485 Sent s1890]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'دېيشكىنى dëyshkini') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1596 Sent s1897]: [L3 WARNING fixed-without-extpos] Fixed expression 'ئۇنىڭ ئۈستىگە' does not have the 'ExtPos' feature
+[Line 1642 Sent s1900]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'كەچقۇرۇن kechqurun') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1711 Sent s1905]: [L3 WARNING fixed-without-extpos] Fixed expression 'ئۇنىڭ ئۈستىگە' does not have the 'ExtPos' feature
+[Line 1760 Sent s1909]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'باشقىچە bashqiche') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1787 Sent s1911]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنىڭ بىلەنلا' does not have the 'ExtPos' feature
+[Line 2063 Sent s1928]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
+[Line 2111 Sent s1932]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'مودا moda') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2520 Sent s1957]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'يىراققا yiraqqa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2900 Sent s1984]: [L3 SYNTAX too-many-objects] Multiple direct objects [19, 25] ('كۈلۈپ külüp', 'قوڭغۇراق qongghuraq') under the predicate 'چالاتتى chalatti'.
+[Line 2933 Sent s1986]: [L3 WARNING fixed-without-extpos] Fixed expression 'بىر مۇنچە' does not have the 'ExtPos' feature
+[Line 3514 Sent s2023]: [L3 WARNING fixed-without-extpos] Fixed expression 'شۇنداق قىلىپ' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 4410 Sent s2078]: [L3 SYNTAX leaf-det] 'det' not expected to have children (2:شۇ:det --> 1:دەل:nmod)
+[Line 4668 Sent s2094]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'يىراققا yiraqqa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4832 Sent s2105]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:نەچچە:det --> 2:يۈز:nummod)
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 498
+SYNTAX errors: 54
+*** FAILED *** with 54 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.2) = 0.0222222222222222
