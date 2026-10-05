@@ -5149,7 +5149,7 @@
 # sent_id = s364
 # text = بىردەمدىن كېيىن، ئۇ خەت يېزىۋاتقاندا، جەينىكىگە بىرلا سوقۇلۇپ، ئۇنىڭ دەپتىرىنىمۇ سەتلەشتۈرۈۋەتتىم.
 # translit = birdemdin këyin, u xet yëziwatqanda, jeynikige birla soqulup, uning deptirinimu setleshtürüwettim.
-1	بىردەمدىن	بىردەم	NOUN	D	Case=Abl	2	obl	_	Translit=birdemdin|LTranslit=birdem
+1	بىردەمدىن	بىردەم	NOUN	D	Case=Abl	2	nmod	_	Translit=birdemdin|LTranslit=birdem
 2	كېيىن	كېيىن	NOUN	D	Case=Nom	14	obl	_	SpaceAfter=No|Translit=këyin|LTranslit=këyin
 3	،	،	PUNCT	Y	_	2	punct	_	Translit=,|LTranslit=,
 4	ئۇ	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u|LTranslit=u
@@ -6546,7 +6546,7 @@
 16	كۆرسىتىش	_	VERB	V	_	45	obl	_	Morf=Unknown|Translit=körsitish
 17	ئۈچۈن	ئۈچۈن	ADP	C	_	16	mark	_	SpaceAfter=No|Translit=üchün|LTranslit=üchün
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,|LTranslit=,
-19	كېچىچە	_	NOUN	N	_	21	obl	_	Morf=Unknown|Translit=këchiche
+19	كېچىچە	_	NOUN	N	_	21	nmod	_	Morf=Unknown|Translit=këchiche
 20	كىرپىك	كىرپىك	NOUN	N	Case=Nom	21	compound	_	Translit=kirpik|LTranslit=kirpik
 21	قاقماي	_	NOUN	N	_	43	obl	_	Morf=Unknown|Translit=qaqmay
 22	16	16	NUM	M	NumType=Ord	23	compound	_	Translit=16|LTranslit=16
@@ -8354,7 +8354,7 @@
 4	،	،	PUNCT	Y	_	11	punct	_	Translit=,|LTranslit=,
 5	چالا	_	ADJ	A	_	7	compound:redup	_	Morf=Missing,1|Translit=chala
 6	-	-	PUNCT	Y	_	5	punct	_	Translit=-|LTranslit=-
-7	بۇلا	_	NOUN	N	_	8	obl	_	Morf=Unknown|Translit=bula
+7	بۇلا	_	NOUN	N	_	8	nmod	_	Morf=Unknown|Translit=bula
 8	ئۆگىنىپلا	_	NOUN	N	_	10	obl	_	Morf=Unknown|Translit=öginipla
 9	قانائەتلىنىپ	_	VERB	V	_	10	compound	_	Morf=Unknown|Translit=qanaetlinip
 10	قېلىشتىن	قال	VERB	V	Case=Abl|VerbForm=Ger	11	obl	_	Translit=qëlishtin|LTranslit=qal
@@ -9343,7 +9343,7 @@
 8	سىز	سىز	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	Translit=siz|LTranslit=siz
 9	ئېغىل	ئېغىل	NOUN	N	Case=Nom	11	compound:redup	_	Translit=ëghil|LTranslit=ëghil
 10	-	-	PUNCT	Y	_	9	punct	_	Translit=-|LTranslit=-
-11	قوتانلاردا	_	NOUN	N	_	12	obl	_	Morf=Unknown|Translit=qotanlarda
+11	قوتانلاردا	_	NOUN	N	_	12	nmod	_	Morf=Unknown|Translit=qotanlarda
 12	ئوقۇشقا	ئوقۇش	NOUN	V	Case=Dat	14	obl	_	Translit=oqushqa|LTranslit=oqush
 13	مەجبۇر	مەجبۇر	ADJ	A	_	14	compound	_	Translit=mejbur|LTranslit=mejbur
 14	بولىۋاتىدۇ	_	VERB	V	_	15	ccomp	_	Morf=Unknown|Translit=boliwatidu
@@ -10112,7 +10112,7 @@
 5	يېڭىلاپ	_	VERB	V	_	10	advcl	_	SpaceAfter=No|Morf=Unknown|Translit=yëngilap
 6	،	،	PUNCT	Y	_	5	punct	_	Translit=,|LTranslit=,
 7	توختام	توختام	NOUN	N	Case=Nom	8	nsubj	_	Translit=toxtam|LTranslit=toxtam
-8	ئاياغلاشقۇچە	_	NOUN	N	_	9	obl	_	Morf=Unknown|Translit=ayaghlashquche
+8	ئاياغلاشقۇچە	_	NOUN	N	_	9	nmod	_	Morf=Unknown|Translit=ayaghlashquche
 9	ئىشلەيدىغانلىقىنى	_	NOUN	N	_	10	obj	_	Morf=Unknown|Translit=ishleydighanliqini
 10	يازدى	ياز	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=yazdi|LTranslit=yaz
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,|LTranslit=,
@@ -10314,7 +10314,7 @@
 3	پۇلىنىڭ	پۇل	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	2	fixed	_	Translit=pulining|LTranslit=pul
 4	كۇرسى	كۇرس	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	Translit=kursi|LTranslit=kurs
 5	ئېغىر	ئېغىر	ADJ	A	_	6	amod	_	Translit=ëghir|LTranslit=ëghir
-6	دەرىجىدە	دەرىجە	NOUN	N	Case=Loc	7	obl	_	Translit=derijide|LTranslit=derije
+6	دەرىجىدە	دەرىجە	NOUN	N	Case=Loc	7	nmod	_	Translit=derijide|LTranslit=derije
 7	تۆۋەن	تۆۋەن	NOUN	A	Case=Nom	8	obl	_	Translit=töwen|LTranslit=töwen
 8	مۆلچەرلەنمەكتە	_	VERB	V	_	10	ccomp	_	SpaceAfter=No|Morf=Unknown|Translit=mölcherlenmekte
 9	،	،	PUNCT	Y	_	8	punct	_	Translit=,|LTranslit=,
@@ -12875,7 +12875,7 @@
 6	خېرىدار	خېرىدار	NOUN	N	Case=Nom	7	nsubj	_	Translit=xëridar|LTranslit=xëridar
 7	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	SpaceAfter=No|Translit=këlip|LTranslit=kel
 8	،	،	PUNCT	Y	_	7	punct	_	Translit=,|LTranslit=,
-9	ئىچكىرى	ئىچكىرى	NOUN	N	Case=Nom	10	obl	_	Translit=ichkiri|LTranslit=ichkiri
+9	ئىچكىرى	ئىچكىرى	NOUN	N	Case=Nom	10	nmod	_	Translit=ichkiri|LTranslit=ichkiri
 10	ئۆلكىلەرگە	ئۆلكە	NOUN	V	Case=Dat|Number=Plur	12	obl	_	Translit=ölkilerge|LTranslit=ölke
 11	تاش	تا	VERB	N	Case=Nom|VerbForm=Ger	12	obj	_	Translit=tash|LTranslit=ta
 12	يۆتكىدۇق	_	VERB	V	_	0	root	_	SpaceAfter=No|Morf=Unknown|Translit=yötkiduq
