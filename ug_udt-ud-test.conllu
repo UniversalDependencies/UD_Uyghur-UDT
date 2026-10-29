@@ -1681,7 +1681,7 @@
 4	نېمە	نېمە	NOUN	P	Case=Nom	9	obl	_	Gloss=what|Translit=nëme|LTranslit=nëme
 5	ئۈچۈن	ئۈچۈن	ADP	R	_	4	case	_	Gloss=for|Translit=üchün|LTranslit=üchün
 6	يەنە	يەنە	ADV	D	_	9	advmod	_	Gloss=again|Translit=yene|LTranslit=yene
-7	مېنى	_	PRON	P	_	9	obj	_	Morf=Unknown|Gloss=me|Translit=mëni
+7	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 8	ئۇستاز	ئۇستاز	NOUN	N	Case=Nom	9	xcomp	_	Gloss=teacher|Translit=ustaz|LTranslit=ustaz
 9	تۇتماقچى	_	VERB	V	_	0	root	_	Morf=Unknown|Gloss=to-catch|Translit=tutmaqchi
 10	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Inf	9	aux	_	Gloss=is|Translit=bolup|LTranslit=bol
@@ -5200,7 +5200,7 @@
 # sent_id = s368
 # text = مېنى ئۇرماقچى بولۇپ قولىنى كۆتۈردى،
 # translit = mëni urmaqchi bolup qolini kötürdi,
-1	مېنى	_	PRON	P	_	2	obj	_	Morf=Unknown|Translit=mëni
+1	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 2	ئۇرماقچى	_	VERB	V	_	5	obl	_	Morf=Unknown|Translit=urmaqchi
 3	بولۇپ	بول	AUX	V	Aspect=Perf|VerbForm=Conv	2	cop	_	Translit=bolup|LTranslit=bol
 4	قولىنى	قول	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	Translit=qolini|LTranslit=qol
@@ -5446,7 +5446,7 @@
 # translit = biraq «mëni kechür» dëgen sözni zadila aghzimdin chiqiralmidim.
 1	بىراق	بىراق	CCONJ	C	_	10	cc	_	Translit=biraq|LTranslit=biraq
 2	«	«	PUNCT	Y	_	4	punct	_	SpaceAfter=No|Translit=«|LTranslit=«
-3	مېنى	_	PRON	P	_	4	obj	_	Morf=Unknown|Translit=mëni
+3	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 4	كەچۈر	كەچۈر	VERB	V	Mood=Imp|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|Translit=kechür|LTranslit=kechür
 5	»	»	PUNCT	Y	_	4	punct	_	Translit=»|LTranslit=»
 6	دېگەن	دې	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	7	acl	_	Translit=dëgen|LTranslit=dë
@@ -9432,7 +9432,7 @@
 12	ۋە	ۋە	CCONJ	C	_	22	cc	_	SpaceAfter=No|Translit=we|LTranslit=we
 13	:	:	PUNCT	Y	_	12	punct	_	Translit=:|LTranslit=:
 14	«	«	PUNCT	Y	_	17	punct	_	SpaceAfter=No|Translit=«|LTranslit=«
-15	مېنى	_	PRON	P	_	17	obj	_	Morf=Unknown|Translit=mëni
+15	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 16	دەرھال	دەرھال	ADV	D	_	17	advmod	_	Translit=derhal|LTranslit=derhal
 17	ئاپىرىپ	_	VERB	V	_	22	ccomp	_	Morf=Unknown|Translit=apirip
 18	قوي	قوي	NOUN	V	Case=Nom	17	compound	_	Translit=qoy|LTranslit=qoy
@@ -10885,7 +10885,7 @@
 5	قارىغان	قارا	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	7	advcl	_	Translit=qarighan|LTranslit=qara
 6	پېتى	پات	ADJ	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	advmod	_	Translit=pëti|LTranslit=pat
 7	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=këlip|LTranslit=kel
-8	مېنى	_	PRON	P	_	9	obj	_	Morf=Unknown|Translit=mëni
+8	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 9	ئۇرۇۋەتتى	_	VERB	V	_	0	root	_	SpaceAfter=No|Morf=Unknown|Translit=uruwetti
 10	.	.	PUNCT	Y	_	9	punct	_	Translit=.|LTranslit=.
 
@@ -12448,7 +12448,7 @@
 18	دېدى	دې	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=dëdi|LTranslit=dë
 19	بالىلارنىڭ	بالا	NOUN	N	Case=Gen|Number=Plur	20	nmod:poss	_	Translit=balilarning|LTranslit=bala
 20	بىرى	بىر	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	18	nsubj	_	Translit=biri|LTranslit=bir
-21	مېنى	_	PRON	P	_	22	obj	_	Morf=Unknown|Translit=mëni
+21	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 22	كۆرۈپ	كۆر	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	SpaceAfter=No|Translit=körüp|LTranslit=kör
 23	.	.	PUNCT	Y	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -12613,7 +12613,7 @@
 # sent_id = s833
 # text = مېنى خاتا سېزىمگە كەلتۈرۈپ، ئوسال قىلغان ئىشنىڭ تەكتى يېشىلدى.
 # translit = mëni xata sëzimge keltürüp, osal qilghan ishning tekti yëshildi.
-1	مېنى	_	PRON	P	_	4	obj	_	Morf=Unknown|Translit=mëni
+1	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 2	خاتا	خاتا	ADJ	A	Case=Nom	3	amod	_	Translit=xata|LTranslit=xata
 3	سېزىمگە	_	NOUN	N	_	4	obl	_	Morf=Unknown|Translit=sëzimge
 4	كەلتۈرۈپ	كەلتۈر	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	SpaceAfter=No|Translit=keltürüp|LTranslit=keltür
@@ -13245,7 +13245,7 @@
 2	بولساڭ	بول	AUX	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Conv	1	cop	_	Translit=bolsang|LTranslit=bol
 3	مېھرىڭ	_	NOUN	N	_	10	obl	_	Morf=Unknown|Translit=mëhring
 4	بىلەن	بىلەن	ADP	R	_	3	case	_	Translit=bilen|LTranslit=bilen
-5	مېنى	_	PRON	P	_	10	obj	_	Morf=Unknown|Translit=mëni
+5	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 6	خۇددى	خۇددى	ADJ	T	Case=Nom	7	nmod	_	Translit=xuddi|LTranslit=xuddi
 7	پەرىشتە	پەرىشتە	NOUN	N	Case=Nom	10	obl	_	Translit=perishte|LTranslit=perishte
 8	سۈپىتىدە	_	ADP	R	_	7	case	_	Morf=Missing,1|Translit=süpitide
@@ -13488,7 +13488,7 @@
 16	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Inf	10	conj	_	Translit=bolup|LTranslit=bol
 17	قالسا	قال	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	16	aux	_	SpaceAfter=No|Translit=qalsa|LTranslit=qal
 18	،	،	PUNCT	Y	_	17	punct	_	Translit=,|LTranslit=,
-19	مېنىڭمۇ	_	PRON	P	_	24	nmod:poss	_	Morf=Unknown|Translit=mëningmu
+19	مېنىڭمۇ	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	nmod:poss	_	Gloss=me|LTranslit=men|Translit=mëningmu
 20	سېنىڭ	_	PRON	P	_	22	nmod:poss	_	Morf=Unknown|Translit=sëning
 21	كۆرۈش	كۆر	VERB	V	Case=Nom|VerbForm=Ger	22	acl	_	Translit=körüsh|LTranslit=kör
 22	سەزگۈڭدىكى	سەزگۈ	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	24	amod	_	Translit=sezgüngdiki|LTranslit=sezgü

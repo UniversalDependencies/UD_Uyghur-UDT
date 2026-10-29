@@ -1339,7 +1339,7 @@
 # translit = shunga xanim mëni: baliliridin birerini bala qiliwëlishimgha bëremdikin, sorap baq, dep ewetti.
 1	شۇڭا	شۇڭا	ADV	C	_	15	cc	_	Gloss=so|Translit=shunga|LTranslit=shunga
 2	خانىم	خانىم	NOUN	N	Case=Nom	15	nsubj	_	Translit=xanim|LTranslit=xanim
-3	مېنى	_	PRON	P	_	15	obj	_	SpaceAfter=No|Morf=Unknown|Translit=mëni
+3	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	Gloss=me|LTranslit=men|SpaceAfter=No|Translit=mëni
 4	:	:	PUNCT	Y	_	3	punct	_	Translit=:|LTranslit=:
 5	بالىلىرىدىن	بالا	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	Translit=baliliridin|LTranslit=bala
 6	بىرەرىنى	بىرەرى	NOUN	M	Case=Acc	9	obj	_	Translit=birerini|LTranslit=bireri
@@ -5052,7 +5052,7 @@
 1	بۇنداق	بۇنداق	DET	P	Case=Nom	2	det	_	Translit=bundaq|LTranslit=bundaq
 2	چاغلاردا	چاغ	NOUN	N	Case=Loc|Number=Plur	8	obl	_	Translit=chaghlarda|LTranslit=chagh
 3	ئادەملەر	ئادەم	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Translit=ademler|LTranslit=adem
-4	مېنى	_	PRON	P	_	8	obj	_	Morf=Unknown|Translit=mëni
+4	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 5	&lt;	_	PUNCT	Y	_	4	punct	_	Morf=Unknown|Translit=&lt;
 6	بۇلۇت	بۇلۇت	NOUN	V	Case=Nom	8	ccomp	_	Translit=bulut|LTranslit=bulut
 7	&gt;	_	PUNCT	Y	_	6	punct	_	Morf=Unknown|Translit=&gt;
@@ -5084,7 +5084,7 @@
 1	بۇ	بۇ	PRON	P	Case=Nom|PronType=Dem	2	det	_	Translit=bu|LTranslit=bu
 2	چاغدا	چاغ	NOUN	N	Case=Loc	8	obl	_	Translit=chaghda|LTranslit=chagh
 3	كىشىلەر	_	NOUN	N	_	8	nsubj	_	Morf=Unknown|Translit=kishiler
-4	مېنى	_	PRON	P	_	8	obj	_	Morf=Unknown|Translit=mëni
+4	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 5	&lt;	_	PUNCT	Y	_	4	punct	_	Morf=Unknown|Translit=&lt;
 6	يامغۇر	يامغۇر	NOUN	N	Case=Nom	8	ccomp	_	Translit=yamghur|LTranslit=yamghur
 7	&gt;	_	PUNCT	Y	_	6	punct	_	Morf=Unknown|Translit=&gt;
@@ -5106,7 +5106,7 @@
 10	چۈشسەم	چۈش	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	17	advcl	_	SpaceAfter=No|Translit=chüshsem|LTranslit=chüsh
 11	،	،	PUNCT	Y	_	10	punct	_	Translit=,|LTranslit=,
 12	كىشىلەر	_	NOUN	N	_	17	nsubj	_	Morf=Unknown|Translit=kishiler
-13	مېنى	_	PRON	P	_	17	obj	_	Morf=Unknown|Translit=mëni
+13	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 14	&lt;	_	PUNCT	Y	_	13	punct	_	Morf=Unknown|Translit=&lt;
 15	قار	قار	VERB	N	Mood=Imp|VerbForm=Fin	17	ccomp	_	Translit=qar|LTranslit=qar
 16	&gt;	_	PUNCT	Y	_	15	punct	_	Morf=Unknown|Translit=&gt;
@@ -5124,7 +5124,7 @@
 6	چۈشسەم	چۈش	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	13	parataxis	_	SpaceAfter=No|Translit=chüshsem|LTranslit=chüsh
 7	،	،	PUNCT	Y	_	6	punct	_	Translit=,|LTranslit=,
 8	كىشىلەر	_	NOUN	N	_	13	nsubj	_	Morf=Unknown|Translit=kishiler
-9	مېنى	_	PRON	P	_	13	obj	_	Morf=Unknown|Translit=mëni
+9	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 10	&lt;	_	PUNCT	Y	_	9	punct	_	Morf=Unknown|Translit=&lt;
 11	مۆلدۈر	_	VERB	V	_	13	ccomp	_	Morf=Unknown|Translit=möldür
 12	&gt;	_	PUNCT	Y	_	11	punct	_	Morf=Unknown|Translit=&gt;
@@ -5221,7 +5221,7 @@
 # text = كىشىلەر مېنى يامان ئىشتىن توسۇپ، ياخشى ئىشقا سېلىش ئۈچۈن كۆپ ئەقىل ئىشلىتىپ، ئوبدان چارىلەرنى تاپماقتا.
 # translit = kishiler mëni yaman ishtin tosup, yaxshi ishqa sëlish üchün köp eqil ishlitip, obdan charilerni tapmaqta.
 1	كىشىلەر	_	NOUN	N	_	17	nsubj	_	Morf=Unknown|Translit=kishiler
-2	مېنى	_	PRON	P	_	5	obj	_	Morf=Unknown|Translit=mëni
+2	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 3	يامان	يامان	ADJ	A	_	4	amod	_	Translit=yaman|LTranslit=yaman
 4	ئىشتىن	ئىش	NOUN	N	Case=Abl	5	obl	_	Translit=ishtin|LTranslit=ish
 5	توسۇپ	توس	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	SpaceAfter=No|Translit=tosup|LTranslit=tos
@@ -5287,7 +5287,7 @@
 # text = بۈگۈن مېنى پارتىدىشىم ئەركىن: &lt; سەن قەلەندەرمۇ؟! &gt; دەپ ئەيىبلىدى.
 # translit = bügün mëni partidishim erkin: &lt; sen qelendermu?! &gt; dep eyiblidi.
 1	بۈگۈن	بۈگۈن	ADV	N	_	13	advmod	_	Translit=bügün|LTranslit=bügün
-2	مېنى	_	PRON	P	_	13	obj	_	Morf=Unknown|Translit=mëni
+2	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 3	پارتىدىشىم	_	VERB	V	_	13	nsubj	_	Morf=Unknown|Translit=partidishim
 4	ئەركىن	ئەركىن	ADJ	A	Case=Nom	3	appos	_	SpaceAfter=No|Translit=erkin|LTranslit=erkin
 5	:	:	PUNCT	Y	_	3	punct	_	Translit=:|LTranslit=:
@@ -8601,7 +8601,7 @@
 # translit = him, mëni yewalghin, dep ëtilip këliwatqan oxshimamsen!
 1	ھىم	ھىم	ADJ	E	_	9	discourse	_	SpaceAfter=No|Translit=him|LTranslit=him
 2	،	،	PUNCT	Y	_	1	punct	_	Translit=,|LTranslit=,
-3	مېنى	_	PRON	P	_	4	obj	_	Morf=Unknown|Translit=mëni
+3	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 4	يەۋالغىن	_	VERB	V	_	6	ccomp	_	SpaceAfter=No|Morf=Unknown|Translit=yewalghin
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,|LTranslit=,
 6	دەپ	دە	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=dep|LTranslit=de
@@ -11500,7 +11500,7 @@
 # translit = uning turqi mënimu ensizlikke sëlip qoydi.
 1	ئۇنىڭ	ئۇ	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	Translit=uning|LTranslit=u
 2	تۇرقى	تۇرق	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=turqi|LTranslit=turq
-3	مېنىمۇ	_	PRON	P	_	5	obj	_	Morf=Unknown|Translit=mënimu
+3	مېنىمۇ	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=me|LTranslit=men|Translit=mënimu
 4	ئەنسىزلىككە	ئەنسىزلىك	NOUN	N	Case=Dat	6	obl	_	Translit=ensizlikke|LTranslit=ensizlik
 5	سېلىپ	سال	VERB	V	Aspect=Perf|VerbForm=Inf	6	xcomp	_	Translit=sëlip|LTranslit=sal
 6	قويدى	_	VERB	V	_	0	root	_	SpaceAfter=No|Morf=Unknown|Translit=qoydi
@@ -11644,7 +11644,7 @@
 4	بىچارە	بىچارە	ADJ	A	Case=Nom	5	amod	_	Translit=bichare|LTranslit=bichare
 5	بوۋاي	بوۋاي	NOUN	N	Case=Nom	12	nsubj	_	Translit=boway|LTranslit=boway
 6	ھېلىمۇ	ھال	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	Translit=hëlimu|LTranslit=hal
-7	مېنى	_	PRON	P	_	8	obj	_	Morf=Unknown|Translit=mëni
+7	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 8	ساقلاپ	_	VERB	V	_	12	advcl	_	Morf=Unknown|Translit=saqlap
 9	مەكتەپنىڭ	مەكتەپ	ADJ	V	Case=Gen	11	nmod:poss	_	Translit=mektepning|LTranslit=mektep
 10	ئارقا	ئارقا	NOUN	N	Case=Nom	11	amod	_	Translit=arqa|LTranslit=arqa
@@ -11853,7 +11853,7 @@
 5	،	،	PUNCT	Y	_	6	punct	_	Translit=,|LTranslit=,
 6	قىلىقلارنى	قىلىق	NOUN	N	Case=Acc|Number=Plur	4	conj	_	Translit=qiliqlarni|LTranslit=qiliq
 7	قىلىپ	قىل	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	Translit=qilip|LTranslit=qil
-8	مېنى	_	PRON	P	_	9	obj	_	Morf=Unknown|Translit=mëni
+8	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 9	كۈلدۈرىدىغان	_	NOUN	N	_	10	acl	_	Morf=Unknown|Translit=küldüridighan
 10	نەۋرەممۇ	نەۋرە	NOUN	V	Case=Nom|Number[psor]=Sing|Person[psor]=1	16	nsubj	_	Translit=newremmu|LTranslit=newre
 11	بىر	بىر	NUM	M	_	12	nummod	_	Translit=bir|LTranslit=bir
@@ -12638,7 +12638,7 @@
 # text = بوۋاينىڭ مېنى ساقلاپ تىت–تىت بولۇپ تۇرغان ھالىتى زادىلا كۆز ئالدىمدىن كەتمىدى.
 # translit = bowayning mëni saqlap tit–tit bolup turghan haliti zadila köz aldimdin ketmidi.
 1	بوۋاينىڭ	بوۋاي	NOUN	N	Case=Gen	7	nmod:poss	_	Translit=bowayning|LTranslit=boway
-2	مېنى	_	PRON	P	_	3	obj	_	Morf=Unknown|Translit=mëni
+2	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 3	ساقلاپ	_	VERB	V	_	6	advcl	_	Morf=Unknown|Translit=saqlap
 4	تىت–تىت	_	VERB	V	_	6	advcl	_	Morf=Unknown|Translit=tit–tit
 5	بولۇپ	بول	VERB	V	Aspect=Perf|VerbForm=Conv	6	compound:lvc	_	Translit=bolup|LTranslit=bol
@@ -20334,7 +20334,7 @@
 5	،	،	PUNCT	Y	_	4	punct	_	Translit=,|LTranslit=,
 6	ئۇلار	ئۇلار	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Translit=ular|LTranslit=ular
 7	نېمىشقا	نېمىشقا	ADV	P	PronType=Int	9	advmod	_	Translit=nëmishqa|LTranslit=nëmishqa
-8	مېنى	_	PRON	P	_	9	obj	_	Morf=Unknown|Translit=mëni
+8	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 9	ئەيىبلەيدۇ	_	VERB	V	_	0	root	_	SpaceAfter=No|Morf=Unknown|Translit=eyibleydu
 10	؟	؟	PUNCT	Y	_	9	punct	_	Translit=?|LTranslit=?
 
@@ -21902,7 +21902,7 @@
 # text = ئۇلارغا مېنى كىرگۈزۈشكە بۇيرۇق بېرىشىڭىزنى ئۆتۈنىمەن.
 # translit = ulargha mëni kirgüzüshke buyruq bërishingizni ötünimen.
 1	ئۇلارغا	ئۇلار	PRON	P	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	obl	_	Translit=ulargha|LTranslit=ular
-2	مېنى	_	PRON	P	_	3	obj	_	Morf=Unknown|Translit=mëni
+2	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 3	كىرگۈزۈشكە	كىرگۈز	VERB	V	Case=Dat|VerbForm=Ger	5	obl	_	Translit=kirgüzüshke|LTranslit=kirgüz
 4	بۇيرۇق	بۇيرۇق	NOUN	N	Case=Nom	5	obj	_	Translit=buyruq|LTranslit=buyruq
 5	بېرىشىڭىزنى	_	VERB	V	_	6	obj	_	Morf=Unknown|Translit=bërishingizni
@@ -21979,7 +21979,7 @@
 10	بېرىپ	بار	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	SpaceAfter=No|Translit=bërip|LTranslit=bar
 11	،	،	PUNCT	Y	_	4	punct	_	Translit=,|LTranslit=,
 12	-	-	PUNCT	Y	_	15	punct	_	Translit=-|LTranslit=-
-13	مېنى	_	PRON	P	_	14	obj	_	Morf=Unknown|Translit=mëni
+13	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 14	كىرگىلى	_	VERB	V	_	15	xcomp	_	Morf=Unknown|Translit=kirgili
 15	قويۇڭا	_	VERB	V	_	4	ccomp	_	SpaceAfter=No|Morf=Unknown|Translit=qoyunga
 16	!	!	PUNCT	Y	_	15	punct	_	Translit=!|LTranslit=!
@@ -23258,7 +23258,7 @@
 # text = ئاپام مېنى باشلاپ يەنە باشقا تور پونكىتلىرىنىمۇ زىيارەت قىلدۇردى.
 # translit = apam mëni bashlap yene bashqa tor ponkitlirinimu ziyaret qildurdi.
 1	ئاپام	ئاپا	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	9	nsubj	_	Translit=apam|LTranslit=apa
-2	مېنى	_	PRON	P	_	3	obj	_	Morf=Unknown|Translit=mëni
+2	مېنى	مەن	PRON	P	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Gloss=me|LTranslit=men|Translit=mëni
 3	باشلاپ	باشلاپ	NOUN	V	Case=Nom	9	obl	_	Translit=bashlap|LTranslit=bashlap
 4	يەنە	يەنە	ADV	T	_	9	advmod	_	Translit=yene|LTranslit=yene
 5	باشقا	باشقا	ADJ	A	_	7	amod	_	Translit=bashqa|LTranslit=bashqa
