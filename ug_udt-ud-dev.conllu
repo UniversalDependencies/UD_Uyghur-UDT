@@ -95,7 +95,7 @@
 11	توردىن	تور	NOUN	N	Case=Abl	13	obl	_	Translit=tordin|LTranslit=tor
 12	ئازاد	ئازاد	ADJ	A	_	13	compound	_	Translit=azad|LTranslit=azad
 13	بولۇش	بول	VERB	V	Case=Nom|VerbForm=Ger	15	csubj	_	Translit=bolush|LTranslit=bol
-14	ئۇنىڭدىنمۇ	_	PRON	P	_	15	nmod:comp	_	Morf=Unknown|Translit=uningdinmu
+14	ئۇنىڭدىنمۇ	ئۇ	PRON	P	Case=Abl|Number=Sing|Person=3|PronType=Prs	15	nmod:comp	_	Gloss=even.from.it|LTranslit=u|Translit=uningdinmu
 15	قورقۇنچلۇق	قورقۇنچلۇق	ADJ	A	Case=Nom	0	root	_	Translit=qorqunchluq|LTranslit=qorqunchluq
 16	ئىدى	ئى	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	SpaceAfter=No|Translit=idi|LTranslit=i
 17	.	.	PUNCT	Y	_	15	punct	_	Translit=.|LTranslit=.
@@ -9761,7 +9761,7 @@
 15	›	›	PUNCT	N	_	14	punct	_	Translit=›|LTranslit=›
 16	›	›	PUNCT	N	_	14	punct	_	Translit=›|LTranslit=›
 17	ياكى	ياكى	CCONJ	C	_	21	cc	_	Translit=yaki|LTranslit=yaki
-18	ئۇنىڭدىنمۇ	_	PRON	P	_	19	nmod:comp	_	Morf=Unknown|Translit=uningdinmu
+18	ئۇنىڭدىنمۇ	ئۇ	PRON	P	Case=Abl|Number=Sing|Person=3|PronType=Prs	19	nmod:comp	_	Gloss=even.from.it|LTranslit=u|Translit=uningdinmu
 19	يۇقىرى	يۇقىرى	ADJ	A	Case=Nom	20	advmod	_	Translit=yuqiri|LTranslit=yuqiri
 20	ئونىۋاندىكى	_	NOUN	N	_	21	amod	_	Morf=Unknown|Translit=oniwandiki
 21	ئادەم	ئادەم	NOUN	N	Case=Nom	8	conj	_	Translit=adem|LTranslit=adem
