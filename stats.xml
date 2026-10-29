@@ -10,7 +10,7 @@
     <dev><sentences>900</sentences><tokens>10644</tokens><words>10644</words><fused>0</fused></dev>
     <test><sentences>900</sentences><tokens>10330</tokens><words>10330</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2906" /><!-- ،, ., -, بىر, بول, ئۇ, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
+  <lemmas unique="2907" /><!-- ،, ., -, بىر, بول, ئۇ, بۇ, بىلەن, مەن, قىل, !, :, بالا, ۋە, كەل -->
   <forms unique="12066" /><!-- ،, ., -, بىر, بۇ, بىلەن, ئۇ, !, :, ۋە, مەن, ؟, دەپ, بولۇپ, ئۇنىڭ -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -64,7 +64,7 @@
     <feat name="Polite" value="Form" upos="AUX,PRON,VERB">86</feat><!-- سىز, دەمسىز, سىلەر, سىلەرگە, سىزنىڭ, سىلى, كىردىڭىز, سىزمۇ, سىزنى, بولدىڭىز -->
     <feat name="PronType" value="Dem" upos="DET,PRON">591</feat><!-- بۇ, شۇ, ئاشۇ, مۇشۇ, شۇنىڭ, بۇنىڭ, ماۋۇ, ئاۋۇ, بۇلارنىڭ, بۇلار -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">84</feat><!-- قانداق, قايسى, نېمىشقا, نەدە, نېمىلا, نېمە -->
-    <feat name="PronType" value="Prs" upos="PRON">1505</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, ئۇلار, ئۇنى, بىز, ئۇنىڭغا, ئۇلارنىڭ, ماڭا -->
+    <feat name="PronType" value="Prs" upos="PRON">1506</feat><!-- ئۇ, مەن, ئۇنىڭ, سەن, ئۇلار, ئۇنى, بىز, ئۇنىڭغا, ئۇلارنىڭ, ماڭا -->
     <feat name="Reflex" value="Yes" upos="PRON">147</feat><!-- ئۆز, ئۆزىنى, ئۆزىنىڭ, ئۆزى, ئۆزۈم, ئۆزۈمنى, ئۆزۈمنىڭ, ئۆزۈڭ, ئۆزىمۇ, ئۆزۈمدىن -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1737</feat><!-- ئىدى, دېدى, كەتتى, بولغان, بولدى, دېگەن, تۇرغان, قالدى, كەلدى, كەتكەن -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">334</feat><!-- بولىدۇ, قىلىدۇ, بولمايدۇ, تۇرىدۇ, كېلىدۇ, كېتىدۇ, دەيدۇ, بېرىدۇ, دەمسىز, بولىسەن -->

@@ -21,7 +21,7 @@
 18	يالماۋۇزغا	_	NOUN	N	_	19	obl	_	Morf=Unknown|Translit=yalmawuzgha
 19	ئايلىنىپ	ئايلان	VERB	V	Aspect=Perf|VerbForm=Conv	27	advcl	_	SpaceAfter=No|Translit=aylinip|LTranslit=aylan
 20	،	،	PUNCT	Y	_	19	punct	_	Translit=,|LTranslit=,
-21	كىمدۇر	_	PRON	P	_	22	compound	_	Morf=Unknown|Translit=kimdur
+21	كىمدۇر	كىمدۇر	PRON	P	PronType=Prs	22	compound	_	Gloss=somebody|LTranslit=kimdur|Morf=Unknown|Translit=kimdur
 22	بىرىنىڭ	بىر	NUM	M	Case=Gen|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	26	nmod:poss	_	Translit=birining|LTranslit=bir
 23	ئاتلىق	ئاتلىق	NOUN	A	Case=Nom	24	obl	_	Translit=atliq|LTranslit=atliq
 24	كېلىپ	كەل	VERB	V	Aspect=Perf|VerbForm=Conv	26	advcl	_	Translit=këlip|LTranslit=kel
